@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T19:45:57.210Z",
+  "generated": "2026-08-13T22:10:14.761Z",
   "health": [
     {
       "id": "sportando",
@@ -7,7 +7,7 @@
       "strategy": "rss",
       "via": "https://sportando.basketball/feed/",
       "items": 10,
-      "candidates": 0
+      "candidates": 5
     },
     {
       "id": "gigantes",
@@ -31,7 +31,7 @@
       "strategy": "rss",
       "via": "https://sportacentrs.com/static/non-publish/rss/sc/rss.xml",
       "items": 45,
-      "candidates": 1
+      "candidates": 2
     },
     {
       "id": "sport1",
@@ -47,7 +47,7 @@
       "strategy": "rss",
       "via": "https://www.eurohoops.net/feed/",
       "items": 20,
-      "candidates": 1
+      "candidates": 2
     },
     {
       "id": "telegraf",
@@ -55,7 +55,7 @@
       "strategy": "rss",
       "via": "https://www.telegraf.rs/rss",
       "items": 20,
-      "candidates": 0
+      "candidates": 1
     },
     {
       "id": "sport24gr",
@@ -63,7 +63,7 @@
       "strategy": "html",
       "via": "https://www.sport24.gr/basket/",
       "items": 113,
-      "candidates": 4
+      "candidates": 5
     },
     {
       "id": "paopantou",
@@ -103,12 +103,15 @@
       "strategy": "rss",
       "via": "https://www.basket247.gr/feed/",
       "items": 10,
-      "candidates": 1
+      "candidates": 3
     },
     {
       "id": "allstarbasket",
-      "ok": false,
-      "why": "no feed, sitemap or article links"
+      "ok": true,
+      "strategy": "sitemap",
+      "via": "https://www.allstarbasket.gr/sitemap_index.xml",
+      "items": 400,
+      "candidates": 26
     },
     {
       "id": "basketfaul",
@@ -188,19 +191,19 @@
   ],
   "candidates": [
     {
-      "outlet": "basketfaul",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "19. TÜBAD Mehmet Baturalp Turnuvası",
-      "url": "https://basketfaul.com.tr/turkiye/bsl/19-tubad-mehmet-baturalp-turnuvasi/",
-      "published": "Thu, 13 Aug 2026 15:47:59 +0000",
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27 Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27",
+      "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/",
+      "published": "",
       "matchedKeywords": [
-        "sezon öncesi",
-        "turnuva"
+        "φιλικά",
+        "προετοιμασία",
+        "προετοιμασίας"
       ],
       "matchedClubs": [
-        "Esenler Erokspor",
-        "Erokspor"
+        "Ηρακλής"
       ],
       "score": 7
     },
@@ -215,24 +218,67 @@
         "turnuva"
       ],
       "matchedClubs": [
-        "Erokspor"
+        "Safiport Erokspor",
+        "Anadolu Efes",
+        "Trabzonspor",
+        "Erokspor",
+        "AEK BC"
       ],
-      "score": 6
+      "score": 7
     },
     {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27 Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27",
-      "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/",
-      "published": "",
+      "outlet": "basketdergisi",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "Beşiktaş, Kalemegdan'da açık sahaya çıkıyor",
+      "url": "https://basketdergisi.com/besiktas-kalemegdanda-acik-sahaya-cikiyor.html",
+      "published": "Thu, 13 Aug 2026 07:57:47 +0000",
       "matchedKeywords": [
-        "φιλικά",
-        "προετοιμασία",
-        "προετοιμασίας"
+        "turnuva"
       ],
-      "matchedClubs": [],
-      "score": 5
+      "matchedClubs": [
+        "Fuenlabrada",
+        "Beşiktaş",
+        "Partizan"
+      ],
+      "score": 7
+    },
+    {
+      "outlet": "basketfaul",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "19. TÜBAD Mehmet Baturalp Turnuvası",
+      "url": "https://basketfaul.com.tr/turkiye/bsl/19-tubad-mehmet-baturalp-turnuvasi/",
+      "published": "Thu, 13 Aug 2026 15:47:59 +0000",
+      "matchedKeywords": [
+        "sezon öncesi",
+        "turnuva"
+      ],
+      "matchedClubs": [
+        "Esenler Erokspor",
+        "Anadolu Efes",
+        "Trabzonspor",
+        "Erokspor",
+        "AEK BC"
+      ],
+      "score": 7
+    },
+    {
+      "outlet": "basketfaul",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "Beşiktaş, Açık Hava Sahasındaki Turnuvaya katılacak",
+      "url": "https://basketfaul.com.tr/turkiye/bsl/besikras-acik-hava-sahasindaki-turnuvaya-katilacak/",
+      "published": "Thu, 13 Aug 2026 11:11:34 +0000",
+      "matchedKeywords": [
+        "turnuva"
+      ],
+      "matchedClubs": [
+        "Fuenlabrada",
+        "Beşiktaş",
+        "Partizan"
+      ],
+      "score": 7
     },
     {
       "outlet": "basketdergisi",
@@ -263,6 +309,98 @@
       "score": 4
     },
     {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "partizan kontra ston paok stis 18 septemvriou sto tournoua paylos giannakopoulos",
+      "url": "https://www.allstarbasket.gr/diethni/euroleague/partizan-kontra-ston-paok-stis-18-septemvriou-sto-tournoua-paylos-giannakopoulos",
+      "published": "2026-08-13T08:21:26+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan",
+        "PAOK"
+      ],
+      "score": 4
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Shai Gilgeous-Alexander sul ritiro di Westbrook: \"Per sempre una vera leggenda di OKC\"",
+      "url": "https://sportando.basketball/shai-gilgeous-alexander-sul-ritiro-di-westbrook-per-sempre-una-vera-leggenda-di-okc/",
+      "published": "Thu, 13 Aug 2026 21:03:25 +0000",
+      "matchedKeywords": [
+        "ritiro"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Trabzonspor, New Balance nuovo sponsor tecnico",
+      "url": "https://sportando.basketball/trabzonspor-new-balance-nuovo-sponsor-tecnico/",
+      "published": "Thu, 13 Aug 2026 20:30:04 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Trabzonspor"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Durant saluta Westbrook: \"È stato fonte di ispirazione, congratulazioni per la carriera iconica\"",
+      "url": "https://sportando.basketball/durant-saluta-westbrook-e-stato-fonte-di-ispirazione-congratulazioni-per-la-carriera-iconica/",
+      "published": "Thu, 13 Aug 2026 20:20:18 +0000",
+      "matchedKeywords": [
+        "ritiro"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Fortitudo, prevendita a gonfie vele per il match con Pistoia. Porte chiuse per i primi due test",
+      "url": "https://sportando.basketball/fortitudo-prevendita-a-gonfie-vele-per-il-match-con-pistoia-porte-chiuse-per-i-primi-due-test/",
+      "published": "Thu, 13 Aug 2026 20:14:46 +0000",
+      "matchedKeywords": [
+        "amichevole"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "NBA, pubblicato il calendario completo della stagione 2026/27",
+      "url": "https://sportando.basketball/nba-pubblicato-il-calendario-completo-della-stagione-2026-27/",
+      "published": "Thu, 13 Aug 2026 20:02:03 +0000",
+      "matchedKeywords": [
+        "calendario"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sportacentrs",
+      "lang": "lv",
+      "strategy": "rss",
+      "title": "Freha kļūst par Ostapenko pirmo oponenti Sinsinati",
+      "url": "http://sportacentrs.com/teniss/13082026-freha_klust_par_ostapenko_pirmo_oponenti_",
+      "published": "Thu, 13 Aug 2026 23:25:00 +0300",
+      "matchedKeywords": [
+        "turnīrs"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
       "outlet": "sportacentrs",
       "lang": "lv",
       "strategy": "rss",
@@ -279,12 +417,38 @@
       "outlet": "eurohoops",
       "lang": "en",
       "strategy": "rss",
+      "title": "Dušan Alimpijević'ten Dušan Vlahović Yorumu: “Onun İçin Güzel Bir Tezahürat Hazırladım”",
+      "url": "https://www.eurohoops.net/tr/euroleague-tr/1998505/dusan-alimpijevicten-dusan-vlahovic-yorumu-onun-icin-guzel-bir-tezahurat-hazirladim/",
+      "published": "Thu, 13 Aug 2026 12:54:08 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Beşiktaş"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
       "title": "Tenerife signs Arturs Kurucs, Riga Zelli brings Klavs Cavars home",
       "url": "https://www.eurohoops.net/en/eurocup/1998499/tenerife-signs-arturs-kurucs-riga-zelli-brings-klavs-cavars-home/",
       "published": "Thu, 13 Aug 2026 12:21:52 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
         "Zelli"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "telegraf",
+      "lang": "sr",
+      "strategy": "rss",
+      "title": "Indijana otpustila Tompsona, čeka se potpis za Partizan!",
+      "url": "https://www.telegraf.rs/sport/kosarka/4377957-indijana-otpustila-tompsona-ceka-se-potpis-za-partizan",
+      "published": "2026-08-13T23:33:21+02:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan"
       ],
       "score": 3
     },
@@ -299,6 +463,19 @@
         "φιλικό"
       ],
       "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Η Παρτίζαν συμφώνησε με τον Τόμπσον - Περιμένει την αποδέσμευση του από τους Πέισερς, σύμφωνα με σερβικό μέσο Η Παρτίζαν συμφώνησε με τον Τόμπσον - Περιμένει την αποδέσμευση του από τους Πέισερς, σύμφωνα με σερβικό μέσο",
+      "url": "https://www.sport24.gr/basket/euroleague-basketball/partizan-i-omada-tou-veligradiou-simfonise-me-ton-tompson-perimenei-tin-apodesmefsi-tou-apo-tous-peisers-simfona-me-serviko-meso/",
+      "published": "",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan"
+      ],
       "score": 3
     },
     {
@@ -336,19 +513,6 @@
       "published": "Thu, 13 Aug 2026 17:54:41 +0000",
       "matchedKeywords": [
         "sezon öncesi"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "basketdergisi",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "Beşiktaş, Kalemegdan'da açık sahaya çıkıyor",
-      "url": "https://basketdergisi.com/besiktas-kalemegdanda-acik-sahaya-cikiyor.html",
-      "published": "Thu, 13 Aug 2026 07:57:47 +0000",
-      "matchedKeywords": [
-        "turnuva"
       ],
       "matchedClubs": [],
       "score": 3
@@ -396,13 +560,364 @@
       "outlet": "hotsport",
       "lang": "sr",
       "strategy": "rss",
-      "title": "PARTIZAN IDE REDOM: Od prvog okupljanja, preko susreta sa bivšim trenerom, do spektakla protiv Olimpije iz Milana!",
-      "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
-      "published": "Wed, 12 Aug 2026 21:50:34 +0000",
+      "title": "PARTIZAN ZAVRŠIO NBA POJAČANJE: Iz Indijane stiže novi bek, poznati i detalji ugovora!",
+      "url": "https://hotsport.rs/2026/08/13/partizan-zavrsio-nba-pojacanje-iz-indijane-stize-novi-bek-poznati-i-detalji-ugovora/",
+      "published": "Thu, 13 Aug 2026 08:20:58 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "basket247",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "«Εκεί που δεν σε βλέπει κανείς χτίζεται αυτό που θα βλέπουν όλοι»: Ο Μήτογλου λιώνει στις προπονήσεις",
+      "url": "https://www.basket247.gr/ekei-pou-den-se-vlepei-kaneis-xtizetai-auto-pou-tha-vlepoun-oloi-o-mitoglou-liwnei-stis-proponiseis/",
+      "published": "Thu, 13 Aug 2026 21:32:48 +0000",
       "matchedKeywords": [
-        "pripreme"
+        "προετοιμασία"
       ],
       "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "basket247",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Εθνική Σερβίας: Μίλησε για τις απουσίες βασικών παικτών ο Αλιμπίγιεβιτς",
+      "url": "https://www.basket247.gr/ethniki-serbias-milise-gia-tis-apoysies-basikon-paikton-o-alibigiebivh/",
+      "published": "Thu, 13 Aug 2026 19:50:12 +0000",
+      "matchedKeywords": [
+        "προετοιμασία"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "pairnei ton ithan tompson i partizan",
+      "url": "https://www.allstarbasket.gr/diethni/euroleague/pairnei-ton-ithan-tompson-i-partizan",
+      "published": "2026-08-13T10:27:01+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok to video apo tin proti proponisi enopsei tis neas sezon",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-to-video-apo-tin-proti-proponisi-enopsei-tis-neas-sezon",
+      "published": "2026-08-13T08:12:01+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "trinkieri exo tin omada pou ithela poly varia i fanela tou paok",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/trinkieri-exo-tin-omada-pou-ithela-poly-varia-i-fanela-tou-paok",
+      "published": "2026-08-12T15:09:59+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok pragmatopoiithike i proti proponisi tou trinkieri sto palataki",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-pragmatopoiithike-i-proti-proponisi-tou-trinkieri-sto-palataki",
+      "published": "2026-08-12T12:26:58+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok manoli se efxaristoyme gia ola epistrefeis sti fysiki sou thesi stin kerkida",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-manoli-se-efxaristoyme-gia-ola-epistrefeis-sti-fysiki-sou-thesi-stin-kerkida",
+      "published": "2026-08-12T08:23:01+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "o paok apoxairetise kai efxaristise ton panteli boytsko",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/o-paok-apoxairetise-kai-efxaristise-ton-panteli-boytsko",
+      "published": "2026-08-11T19:32:45+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok xoris osman kai kalathi arxizei i proetoimasia",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-xoris-osman-kai-kalathi-arxizei-i-proetoimasia",
+      "published": "2026-08-11T18:03:27+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok pliris symfonia as kai kae gia paok sports arena anakoinothike i proslipsi tou aftosmidi",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-pliris-symfonia-as-kai-kae-gia-paok-sports-arena-anakoinothike-i-proslipsi-tou-aftosmidi",
+      "published": "2026-08-11T16:02:13+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok proponitis endynamosis kai fysikis katastasis o loyka nastov",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-proponitis-endynamosis-kai-fysikis-katastasis-o-loyka-nastov",
+      "published": "2026-08-11T11:39:27+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok nea proslipsi sto texniko epiteleio me antriou antelintze",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-nea-proslipsi-sto-texniko-epiteleio-me-antriou-antelintze",
+      "published": "2026-08-10T14:16:33+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok anakoinose ton giorgo deda gia to texniko tou epiteleio",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-anakoinose-ton-giorgo-deda-gia-to-texniko-tou-epiteleio",
+      "published": "2026-08-10T11:09:48+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok amesos synergatis tou trinkeri o meneti",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-amesos-synergatis-tou-trinkeri-o-meneti",
+      "published": "2026-08-10T10:04:32+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok me ton markous foster oloklirothikan oi afikseis pics",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-me-ton-markous-foster-oloklirothikan-oi-afikseis-pics",
+      "published": "2026-08-10T07:33:18+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok sti thessaloniki oi naz mitrou longk trevor xantzins kai kail aleksanter pics",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-sti-thessaloniki-oi-naz-mitrou-longk-trevor-xantzins-kai-kail-aleksanter-pics",
+      "published": "2026-08-10T05:34:57+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok eftase sti thessaloniki o raikouan grei pics",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-eftase-sti-thessaloniki-o-raikouan-grei-pics",
+      "published": "2026-08-09T14:40:31+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok apo simera sti thessaloniki o trinkeri",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-apo-simera-sti-thessaloniki-o-trinkeri",
+      "published": "2026-08-08T14:13:12+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok i afiksi tou ben mour sti thessaloniki pics",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-i-afiksi-tou-ben-mour-sti-thessaloniki-pics",
+      "published": "2026-08-07T08:39:16+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok ependysi me spano kai xaralampidi",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-ependysi-me-spano-kai-xaralampidi",
+      "published": "2026-08-05T13:57:06+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "tairi na feroume ena protathlima piso ston paok vid",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/tairi-na-feroume-ena-protathlima-piso-ston-paok-vid",
+      "published": "2026-08-05T12:37:35+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok eftase sti thessaloniki o brin tairi pics",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-eftase-sti-thessaloniki-o-brin-tairi-pics",
+      "published": "2026-08-05T10:46:39+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok gnostopoiise tis afikseis epta paikton",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-gnostopoiise-tis-afikseis-epta-paikton",
+      "published": "2026-08-04T15:29:27+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok neos rolos gia ton panagioti vasileiou",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-neos-rolos-gia-ton-panagioti-vasileiou",
+      "published": "2026-08-04T13:57:10+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "persidis epipleon kinitro osa symvainoun ston paok gia o ti xreiastei i omada tha eimai ekei",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/persidis-epipleon-kinitro-osa-symvainoun-ston-paok-gia-o-ti-xreiastei-i-omada-tha-eimai-ekei",
+      "published": "2026-08-04T11:48:20+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "eurocup i thesi ton ari kai paok kai o ypsilos antagonismos",
+      "url": "https://www.allstarbasket.gr/diethni/eurocup/eurocup-i-thesi-ton-ari-kai-paok-kai-o-ypsilos-antagonismos",
+      "published": "2026-08-03T16:49:35+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "paok anakoinose stratigiki synergasia me ti deka",
+      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-anakoinose-stratigiki-synergasia-me-ti-deka",
+      "published": "2026-08-03T14:56:04+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
       "score": 3
     },
     {
@@ -414,19 +929,6 @@
       "published": "Thu, 13 Aug 2026 12:32:07 +0000",
       "matchedKeywords": [
         "hazırlık maçları"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "basketfaul",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "Beşiktaş, Açık Hava Sahasındaki Turnuvaya katılacak",
-      "url": "https://basketfaul.com.tr/turkiye/bsl/besikras-acik-hava-sahasindaki-turnuvaya-katilacak/",
-      "published": "Thu, 13 Aug 2026 11:11:34 +0000",
-      "matchedKeywords": [
-        "turnuva"
       ],
       "matchedClubs": [],
       "score": 3
@@ -450,7 +952,7 @@
       "strategy": "sitemap",
       "title": "supercopa",
       "url": "https://acb.com/es/supercopa",
-      "published": "2026-08-13T17:33:29.756Z",
+      "published": "2026-08-13T21:03:44.462Z",
       "matchedKeywords": [
         "supercopa"
       ],
@@ -463,7 +965,7 @@
       "strategy": "sitemap",
       "title": "Sincronizza ora il calendario della LBA Serie A SisalClub 2026/27 sui tuoi dispositivi!",
       "url": "https://www.legabasket.it/news/139297/sync-calendari-lba",
-      "published": "2026-08-13T19:45:49.214Z",
+      "published": "2026-08-13T22:09:54.873Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -476,7 +978,7 @@
       "strategy": "sitemap",
       "title": "Ufficiale il calendario della Regular Season della LBA Serie A SisalClub 2026/27: si parte il 27 settembre",
       "url": "https://www.legabasket.it/news/139229/calendario-serie-a-2026-27",
-      "published": "2026-08-13T19:45:49.214Z",
+      "published": "2026-08-13T22:09:54.873Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -489,7 +991,7 @@
       "strategy": "sitemap",
       "title": "Lunedì 3 agosto alle ore 12.00 il calendario della LBA Serie A SisalClub 2026/27",
       "url": "https://www.legabasket.it/news/139270/lunedi-3-agosto-serie-a-sisalclub-2026-27",
-      "published": "2026-08-13T19:45:49.214Z",
+      "published": "2026-08-13T22:09:54.873Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -502,7 +1004,7 @@
       "strategy": "sitemap",
       "title": "Definito il tabellone della Supercoppa 2026 (19-20 settembre, Tortona): Milano - Bologna e Tortona - Venezia le semifinali",
       "url": "https://www.legabasket.it/news/138922/supercoppa-2026",
-      "published": "2026-08-13T19:45:49.215Z",
+      "published": "2026-08-13T22:09:54.874Z",
       "matchedKeywords": [
         "supercoppa"
       ],
