@@ -1,0 +1,52 @@
+{
+  "_doc": "Layer 1 of collection: sports outlets. Each covers a whole country or league, so one feed yields many clubs. Derived from the 34 domains that produced the seed data - the top 23 accounted for 78% of all games. Layer 2 (per-club feeds) lives in teams.json, because small clubs are covered by nobody but themselves.",
+
+  "keywords": {
+    "_doc": "Headline filters, cast deliberately WIDE. An item is opened if it matches these OR mentions any club in teams.json - a narrow list loses games silently (the seed list missed 'preparazione', which was the very first matching headline on Sportando). Precision is the extractor's job; recall is this stage's job.",
+    "he": ["משחקי הכנה", "לוח הכנה", "מחנה אימונים", "משחק ידידות", "סופרקאפ", "גביע ווינר", "טורניר הכנה"],
+    "en": ["pre-season", "preseason", "friendly", "friendlies", "warm-up", "training camp", "exhibition game"],
+    "it": ["precampionato", "amichevoli", "amichevole", "preseason", "supercoppa", "ritiro", "preparazione", "calendario"],
+    "es": ["pretemporada", "amistoso", "amistosos", "supercopa", "liga catalana", "torneo de pretemporada"],
+    "tr": ["hazırlık maçları", "hazırlık maçı", "hazırlık kampı", "sezon öncesi", "turnuva"],
+    "el": ["φιλικά", "φιλικό", "προετοιμασία", "προετοιμασίας", "τουρνουά"],
+    "sr": ["pripreme", "pripremne utakmice", "pripremna utakmica", "prijateljska", "turnir"],
+    "hr": ["pripreme", "pripremne utakmice", "prijateljska utakmica", "turnir"],
+    "sl": ["priprave", "pripravljalne tekme", "prijateljska tekma", "turnir"],
+    "lt": ["pasiruošimo", "kontrolinės", "kontrolinis", "draugiškos", "turnyras"],
+    "lv": ["pārbaudes spēles", "pārbaudes spēle", "sagatavošanās", "turnīrs"],
+    "de": ["testspiel", "testspiele", "vorbereitung", "vorbereitungsspiel", "trainingslager"],
+    "fr": ["match de préparation", "matchs de préparation", "présaison", "amical", "amicaux", "tournoi"],
+    "pl": ["sparingi", "sparing", "przygotowania", "mecz towarzyski", "turniej"],
+    "pt": ["pré-época", "pré-temporada", "particular", "amigável", "torneio"]
+  },
+
+  "outlets": [
+    { "id": "sportando",       "name": "Sportando",           "lang": "it", "scope": ["italy", "europe"], "url": "https://sportando.basketball/",                 "seedGames": 19 },
+    { "id": "gigantes",        "name": "Gigantes del Basket", "lang": "es", "scope": ["spain"],           "url": "https://www.gigantes.com/",                     "seedGames": 18 },
+    { "id": "bursahakimiyet",  "name": "Bursa Hakimiyet",     "lang": "tr", "scope": ["turkey"],          "url": "https://www.bursahakimiyet.com.tr/bursa-da-spor/", "seedGames": 9 },
+    { "id": "sportacentrs",    "name": "Sportacentrs",        "lang": "lv", "scope": ["latvia", "lithuania"], "url": "https://sportacentrs.com/basketbols/",      "seedGames": 7 },
+    { "id": "sport1",          "name": "ספורט 1",             "lang": "he", "scope": ["israel"],          "url": "https://sport1.maariv.co.il/israeli-basketball/", "seedGames": 6 },
+    { "id": "eurohoops",       "name": "Eurohoops",           "lang": "en", "scope": ["europe"],          "url": "https://www.eurohoops.net/en/",                 "seedGames": 6 },
+    { "id": "telegraf",        "name": "Telegraf",            "lang": "sr", "scope": ["serbia"],          "url": "https://www.telegraf.rs/sport/kosarka",          "seedGames": 5 },
+    { "id": "sport24gr",       "name": "Sport24",             "lang": "el", "scope": ["greece"],          "url": "https://www.sport24.gr/basket/",                "seedGames": 5 },
+    { "id": "paopantou",       "name": "PAO Pantou",          "lang": "el", "scope": ["greece"],          "url": "https://paopantou.gr/",                         "seedGames": 4 },
+    { "id": "basketdergisi",   "name": "Basket Dergisi",      "lang": "tr", "scope": ["turkey"],          "url": "https://basketdergisi.com/",                    "seedGames": 4 },
+    { "id": "hotsport",        "name": "Hot Sport",           "lang": "sr", "scope": ["serbia"],          "url": "https://hotsport.rs/kosarka/",                  "seedGames": 3 },
+    { "id": "bebasket",        "name": "BeBasket",            "lang": "fr", "scope": ["france"],          "url": "https://www.bebasket.fr/",                      "seedGames": 3 },
+    { "id": "basket247",       "name": "Basket247",           "lang": "el", "scope": ["greece"],          "url": "https://www.basket247.gr/",                     "seedGames": 2 },
+    { "id": "allstarbasket",   "name": "All Star Basket",     "lang": "el", "scope": ["greece"],          "url": "https://www.allstarbasket.gr/",                 "seedGames": 2 },
+    { "id": "basketfaul",      "name": "Basket Faul",         "lang": "tr", "scope": ["turkey"],          "url": "https://basketfaul.com.tr/",                    "seedGames": 2 },
+    { "id": "acb",             "name": "ACB",                 "lang": "es", "scope": ["spain"],           "url": "https://www.acb.com/",                          "seedGames": 1 },
+
+    { "id": "basketnews",      "name": "BasketNews",          "lang": "en", "scope": ["europe"],          "url": "https://basketnews.com/",                       "seedGames": 0 },
+    { "id": "one",             "name": "ONE",                 "lang": "he", "scope": ["israel"],          "url": "https://www.one.co.il/Category/188.html",       "seedGames": 0 },
+    { "id": "walla_sport",     "name": "וואלה ספורט",         "lang": "he", "scope": ["israel"],          "url": "https://sports.walla.co.il/basketball",          "seedGames": 0 },
+    { "id": "basketballde",    "name": "Basketball.de / BBL",  "lang": "de", "scope": ["germany"],         "url": "https://www.easycredit-bbl.de/de/news",          "seedGames": 0 },
+    { "id": "lnb",             "name": "LNB",                 "lang": "fr", "scope": ["france"],          "url": "https://www.lnb.fr/betclic-elite/actualites/",   "seedGames": 0 },
+    { "id": "legabasket",      "name": "Lega Basket Serie A", "lang": "it", "scope": ["italy"],           "url": "https://www.legabasket.it/news",                 "seedGames": 0 },
+    { "id": "abaliga",         "name": "ABA Liga",            "lang": "en", "scope": ["adriatic"],        "url": "https://www.aba-liga.com/news",                  "seedGames": 0 },
+    { "id": "lkl",             "name": "LKL",                 "lang": "lt", "scope": ["lithuania"],       "url": "https://lkl.lt/naujienos",                       "seedGames": 0 },
+    { "id": "championsleague", "name": "BCL",                 "lang": "en", "scope": ["bcl"],             "url": "https://www.championsleague.basketball/en/news", "seedGames": 0 },
+    { "id": "ibba",            "name": "איגוד הכדורסל",       "lang": "he", "scope": ["israel"],          "url": "https://www.basket.org.il/",                     "seedGames": 0 }
+  ]
+}
