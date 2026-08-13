@@ -112,6 +112,16 @@
   .watch:hover{background:#C7440E;}
   .watch.text-only{background:transparent;color:var(--ink-soft);
     border:1px solid var(--line);font-weight:500;}
+  .score{font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:var(--ink);
+    letter-spacing:.02em;white-space:nowrap;}
+  .score .dash{color:var(--wood);margin:0 2px;}
+  .post-links{margin-top:2px;font-size:12px;display:flex;gap:6px;align-items:center;}
+  .post-links a{color:var(--wood-dark);text-decoration:none;border-bottom:1px solid var(--line);}
+  .post-links a:hover{border-color:var(--wood);}
+  .post-links .sep{color:var(--line);}
+  .game.played{opacity:.86;}
+  .game.played .date-badge{background:#6B7280;}
+  .game.played .date-badge .m{color:#D1D5DB;}
   .t-when{font-size:12.5px;color:var(--ink-soft);font-weight:600;}
   .t-clubs{margin:-4px 0 12px;font-size:12.5px;color:#8A7A55;line-height:1.7;}
   .loose-note{margin-top:34px;padding:14px 18px;background:var(--card);
@@ -224,7 +234,16 @@ function dateBadge(g){
     </div>`;
 }
 
-function broadcastEl(g){
+// A finished game shows what happened; an upcoming one shows where to watch.
+function sideEl(g){
+  if (g.result){
+    const links = [
+      g.statsUrl && `<a href="${esc(g.statsUrl)}" target="_blank" rel="noopener">סטטיסטיקה</a>`,
+      g.reportUrl && `<a href="${esc(g.reportUrl)}" target="_blank" rel="noopener">סיקור</a>`,
+    ].filter(Boolean).join("<span class='sep'>·</span>");
+    return `<div class="score">${g.result.home}<span class="dash">:</span>${g.result.away}</div>` +
+           (links ? `<div class="post-links">${links}</div>` : "");
+  }
   const b = (g.broadcast || [])[0];
   if (!b) return "";
   return b.url
@@ -235,7 +254,7 @@ function broadcastEl(g){
 function gameCard(g){
   const comp = COMPETITIONS[primaryCompetition(g)];
   const tbd = !g.date || g.opponentTbd;
-  return `<article class="game ${tbd ? "tbd" : ""}" style="border-inline-start-color:${comp.color}">
+  return `<article class="game ${tbd ? "tbd" : ""} ${g.result ? "played" : ""}" style="border-inline-start-color:${comp.color}">
     ${dateBadge(g)}
     <div class="g-main">
       <div class="g-teams">${matchup(g)}</div>
@@ -247,7 +266,7 @@ function gameCard(g){
       </div>
       ${g.notes?.length ? `<div class="g-note">${esc(g.notes[0])}</div>` : ""}
     </div>
-    <div class="g-side">${broadcastEl(g)}</div>
+    <div class="g-side">${sideEl(g)}</div>
   </article>`;
 }
 

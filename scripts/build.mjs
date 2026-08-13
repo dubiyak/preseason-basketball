@@ -88,7 +88,21 @@ const nameOf = (r) => {
     g.team, g.opponent, ...(g.candidates || []),
   ].filter(Boolean);
 };
-for (const r of records) for (const n of nameOf(r)) if (!ensureClub(n)) wanted.add(String(n).trim());
+/**
+ * Some "opponents" in the seed are descriptions, not clubs: "קבוצות בטורניר
+ * קליארי" (the teams in the Cagliari tournament), "יריבה בסלובניה". They were
+ * registered as clubs and then appeared on cards as if a team by that name
+ * existed.
+ */
+const PSEUDO_CLUB = /^(קבוצות|יריבה|יריבות|קבוצה|טרם|לא )|בטורניר|טרם נקבע|טרם ידוע|טרם פורסם/;
+const isPseudo = (n) => PSEUDO_CLUB.test(String(n || "").trim());
+
+for (const r of records) {
+  for (const n of nameOf(r)) {
+    if (isPseudo(n)) continue;
+    if (!ensureClub(n)) wanted.add(String(n).trim());
+  }
+}
 
 const unresolved = [...wanted];
 let resolverModel = null;
@@ -144,7 +158,8 @@ const asVenue = (g, origin) => {
 
 function toRecord(r) {
   const { g, origin } = r;
-  const names = nameOf(r);
+  const names = nameOf(r).filter((n) => !isPseudo(n));
+  const pseudo = nameOf(r).some(isPseudo);
   const ids = [...new Set(names.map((n) => resolveLocal(n, index, aliases)).filter(Boolean))];
 
   const home = origin === "extracted" ? g.homeTeam : (g.homeTeam ? clubs.get(g.homeTeam)?.name_he : null);
@@ -165,12 +180,20 @@ function toRecord(r) {
     candidates: origin === "extracted"
       ? (g.opponentUndecided ? [] : names.filter((n) => !resolveLocal(n, index, aliases)))
       : (g.candidates || []),
-    opponentTbd: origin === "extracted" ? !!g.opponentUndecided : !!g.opponentTbd,
+    opponentTbd: (origin === "extracted" ? !!g.opponentUndecided : !!g.opponentTbd) || pseudo,
     venue: asVenue(g, origin),
     tournament: g.tournament || null,
     stage: g.stage || null,
     flags: [...(g.flags || []), ...(g.closedDoors ? ["דלתיים סגורות"] : [])],
     broadcast: g.broadcast || (g.broadcaster ? [{ name: g.broadcaster, url: g.broadcastUrl || null }] : []),
+    // A played game keeps its score against the home/away order it was
+    // reported in, so a later report from the other club cannot silently
+    // reverse it.
+    result: g.played && g.homeScore != null && g.awayScore != null
+      ? { home: g.homeScore, away: g.awayScore }
+      : (g.result || null),
+    statsUrl: g.statsUrl || null,
+    reportUrl: g.reportUrl || null,
     sources,
     notes: g.notes || [],
     origin,
@@ -226,6 +249,9 @@ for (const r of ordered) {
     g.time ||= rec.time;
     g.tournament ||= rec.tournament;
     g.stage ||= rec.stage;
+    g.result ||= rec.result;
+    g.statsUrl ||= rec.statsUrl;
+    g.reportUrl ||= rec.reportUrl;
     g.homeTeam ||= rec.homeTeam;
     g.awayTeam ||= rec.awayTeam;
     for (const k of ["arena", "city", "country"]) g.venue[k] ||= rec.venue[k];
@@ -237,6 +263,41 @@ for (const r of ordered) {
   for (const b of rec.broadcast) if (!g.broadcast.some((x) => x.name === b.name)) g.broadcast.push(b);
   for (const s of rec.sources) if (!g.sources.some((x) => (x.url || x.name) === (s.url || s.name))) g.sources.push(s);
   if (!g.origins.includes(rec.origin)) g.origins.push(rec.origin);
+}
+
+/**
+ * A resolved fixture supersedes the guess it replaces.
+ *
+ * News reports name a tournament's field before the draw: "Hapoel v Bayern /
+ * Villeurbanne / Roma on 12.9". The club then prints the actual pairing —
+ * "Maxima Roma, 19:00". Those are different keys, so both survive the merge
+ * and the page shows the guess next to the answer.
+ *
+ * Where a same-date, same-tournament entry names exactly two clubs and an
+ * older vague entry lists one of them against a slate of candidates, the
+ * vague one is retired. Its sources move across so nothing is lost.
+ */
+const vague = (g) => (g.candidates?.length || 0) > 0 || g.teamIds.length > 2;
+const precise = [...games.values()].filter((g) => g.date && g.teamIds.length === 2 && !vague(g));
+
+for (const [key, g] of games) {
+  if (!vague(g) || !g.date) continue;
+  // Matched on date and a shared club, not on tournament name: the club's own
+  // page often labels the game only "preseason" while the news report names
+  // the tournament. A club does not play twice on one day, so this is safe —
+  // and the tournament name travels to the surviving entry.
+  const answer = precise.find((p) =>
+    p.date === g.date && p.teamIds.some((id) => g.teamIds.includes(id))
+  );
+  if (!answer) continue;
+  answer.tournament ||= g.tournament;
+  answer.stage ||= g.stage;
+  for (const k of ["arena", "city", "country"]) answer.venue[k] ||= g.venue[k];
+  for (const s of g.sources) {
+    if (!answer.sources.some((x) => (x.url || x.name) === (s.url || s.name))) answer.sources.push(s);
+  }
+  for (const n of g.notes) if (!answer.notes.includes(n)) answer.notes.push(n);
+  games.delete(key);
 }
 
 /* ---------- 5. emit ---------- */

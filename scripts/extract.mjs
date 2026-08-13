@@ -13,6 +13,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { get, toText } from "../lib/fetch.mjs";
 
 const DATA = path.resolve(import.meta.dirname, "..", "data");
 /**
@@ -35,7 +36,6 @@ const MODELS = (process.env.GEMINI_MODELS || [
   "gemini-3.1-flash-lite-preview",
 ].join(",")).split(",").map((s) => s.trim()).filter(Boolean);
 const BATCH = Number(process.env.BATCH_SIZE || 5);
-const UA = "Mozilla/5.0 (compatible; preseason-basketball/1.0; +https://github.com/dubiyak/preseason-basketball)";
 // Free tier allows ~10 requests/minute. Stay under it rather than get throttled.
 const GAP_MS = 6500;
 const MAX_ARTICLES = Number(process.env.MAX_ARTICLES || 40);
@@ -59,26 +59,12 @@ if (!KEY) {
 }
 
 /* ---------- article text ---------- */
+// Shared fetch: a browser User-Agent, because club sites refuse the polite one,
+// and a text pass that keeps table cells apart. Hapoel Tel Aviv's fixture list
+// collapsed into dates with no opponents until cell boundaries survived.
 async function articleText(url) {
-  let html;
-  try {
-    const res = await fetch(url, { headers: { "User-Agent": UA }, redirect: "follow" });
-    if (!res.ok) return null;
-    html = await res.text();
-  } catch { return null; }
-
-  return html
-    .replace(/<script[\s\S]*?<\/script>/gi, " ")
-    .replace(/<style[\s\S]*?<\/style>/gi, " ")
-    .replace(/<(nav|header|footer|aside|form)[\s\S]*?<\/\1>/gi, " ")
-    .replace(/<br\s*\/?>|<\/(p|div|li|tr|h\d)>/gi, "\n")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/g, " ").replace(/&amp;/g, "&")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
-    .replace(/[ \t]+/g, " ")
-    .replace(/\n\s*\n+/g, "\n")
-    .trim()
-    .slice(0, 14000);
+  const html = await get(url, { timeout: 25000 });
+  return html ? toText(html, 16000) : null;
 }
 
 /* ---------- schema ---------- */
@@ -104,8 +90,13 @@ const SCHEMA = {
           city: { type: "string" },
           country: { type: "string" },
           tournament: { type: "string", description: "name of the tournament or cup, empty for a standalone friendly" },
-          broadcaster: { type: "string", description: "TV channel or streaming service named in the article, else empty" },
-          broadcastUrl: { type: "string" },
+          broadcaster: { type: "string", description: "TV channel or streaming service named as showing this game, else empty" },
+          broadcastUrl: { type: "string", description: "direct link to the stream or broadcast page, else empty" },
+          played: { type: "boolean", description: "true if this game has already been played and a result is given" },
+          homeScore: { type: "integer", description: "final score of the home side, only when played" },
+          awayScore: { type: "integer", description: "final score of the away side, only when played" },
+          statsUrl: { type: "string", description: "link to a boxscore or statistics page for this game, else empty" },
+          reportUrl: { type: "string", description: "link to a match report or recap of this game, else empty" },
           isOfficialLeagueGame: { type: "boolean", description: "true if this is a regular-season league game rather than a preseason game" },
           isNationalTeam: { type: "boolean", description: "true if either side is a national team rather than a club" },
           closedDoors: { type: "boolean" },
@@ -117,18 +108,25 @@ const SCHEMA = {
   required: ["games"],
 };
 
-const PROMPT = `You extract basketball fixtures from news articles. The season is 2026-27; preseason runs August-September 2026.
+const PROMPT = `You extract BASKETBALL fixtures. The season is 2026-27; preseason runs August-September 2026.
+
+Many European clubs are multi-sport. fcbarcelona.com and Real Madrid's site list football alongside basketball. If a page is about football, handball or any other sport, return nothing for it — a football fixture at Camp Nou is not a miss, it is the wrong sport. Return only games between basketball teams.
 
 You are given several numbered ARTICLE blocks. Treat each one independently and never carry information from one into another. Every game you return must set articleIndex to the number of the block it came from.
 
 Rules:
 - Extract every scheduled game the article states. Do not infer games that are not there.
-- A preseason game is anything that is NOT a regular-season league fixture: friendlies, preseason tournaments, national cups, supercups. Set isOfficialLeagueGame=true for regular-season league games so they can be filtered out — do not omit them.
+- isOfficialLeagueGame=true means the game counts towards a competition's standings or knockout: a domestic league round, and every EuroLeague, EuroCup, Basketball Champions League, ABA Liga or VTB fixture including their group stages and playoffs. Set it and do not omit the game — it is filtered out later.
+- isOfficialLeagueGame=false is everything else: friendlies, preseason tournaments and memorials, national cups, supercups, and regional cups. These are what this project collects.
+- The season's official competitions start in late September. A game in August or the first three weeks of September is almost never a league fixture; a game in October or later almost always is.
 - Copy club names EXACTLY as the article writes them, including sponsor prefixes. Do not translate or normalise.
 - Only output a date when the article gives one that resolves to a real day. If it says "mid-September" or gives no date, leave date empty and put the wording in dateText.
-- Never guess a time, arena or broadcaster. Empty means the article did not say.
+- Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
+- Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
 - This tracks CLUBS only. A game involving a national team (Greece, Israel, Serbia...) is not a club game: set isNationalTeam=true so it can be filtered out.
-- Results of games already played are not fixtures. Skip them.
+- Games already played DO belong here. Set played=true with homeScore and awayScore, and include any boxscore or match-report link given for it. Do not invent a score: without one, played stays false.
+
+Many of these pages are fixture TABLES rather than prose. Read every row, and use the column headers: a column naming the competition tells you which rows are league games and which are preseason.
 
 Return only games. If the article contains none, return an empty array.`;
 
@@ -184,6 +182,51 @@ async function callModel(text) {
   return { error: "all models out of quota", exhausted: true };
 }
 
+/* ---------- sanity ---------- */
+// Club sites keep archives, and a fixture table from a past season looks
+// exactly like a current one to a reader dropped into the middle of it.
+// Lietkabelis's page returned a full 2016 preseason, scores and all.
+const SEASON_FROM = "2026-06-01";
+const SEASON_TO = "2027-07-31";
+
+function inSeason(g) {
+  if (!g.date) return true; // an undated fixture cannot be judged this way
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(g.date)) return false;
+  return g.date >= SEASON_FROM && g.date <= SEASON_TO;
+}
+
+/**
+ * Fixture tables carry placeholder cells, and read out of context they look
+ * like club names: "Por confirmar", "En caso de clasificación", a bare "VS".
+ * A placeholder means the opponent is undecided, which the schema already has
+ * a field for — it must not become a club in the registry.
+ */
+const PLACEHOLDER =
+  /^(vs?|v|-|—|tbd|tba|n\/a|por confirmar|en caso de clasificaci|a confirmar|da definire|belirlenecek|θα οριστεί|to be (confirmed|announced)|טרם|יריב|לקביעה)/i;
+
+const isRealTeam = (s) => {
+  const v = String(s || "").trim();
+  return v.length > 2 && !PLACEHOLDER.test(v);
+};
+
+function hasTeams(g) {
+  const names = [g.homeTeam, g.awayTeam, ...(g.teams || [])].filter(isRealTeam);
+  return names.length > 0;
+}
+
+/** Drop placeholder names in place, flagging the opponent as undecided. */
+function cleanTeams(g) {
+  const drop = (v) => (isRealTeam(v) ? v : "");
+  if (g.homeTeam && !isRealTeam(g.homeTeam)) { g.homeTeam = ""; g.opponentUndecided = true; }
+  if (g.awayTeam && !isRealTeam(g.awayTeam)) { g.awayTeam = ""; g.opponentUndecided = true; }
+  if (Array.isArray(g.teams)) {
+    const kept = g.teams.filter(isRealTeam);
+    if (kept.length < g.teams.length) g.opponentUndecided = true;
+    g.teams = kept;
+  }
+  return drop;
+}
+
 /* ---------- run ---------- */
 const cachePath = path.join(DATA, "extracted.json");
 const cache = fs.existsSync(cachePath)
@@ -199,7 +242,7 @@ console.log(
   (unread.length > todo.length ? ` · deferred ${unread.length - todo.length} (MAX_ARTICLES)` : "")
 );
 
-let games = 0, official = 0, national = 0, failed = 0, stopped = false;
+let games = 0, official = 0, national = 0, failed = 0, rejected = 0, stopped = false;
 
 // Fetch first, batch second: an article with no readable text must not take up
 // a slot in a batch, and fetching is free.
@@ -233,8 +276,14 @@ for (let i = 0; i < fetched.length; i += BATCH) {
   const all = data.games || [];
   for (const [n, a] of batch.entries()) {
     const mine = all.filter((g) => g.articleIndex === n);
-    const found = mine.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam);
+    for (const g of mine) {
+      if (g.time === "00:00" || g.time === "0:00") g.time = "";
+      cleanTeams(g);
+    }
+    const found = mine.filter((g) =>
+      !g.isOfficialLeagueGame && !g.isNationalTeam && inSeason(g) && hasTeams(g));
     official += mine.filter((g) => g.isOfficialLeagueGame).length;
+    rejected += mine.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam && (!inSeason(g) || !hasTeams(g))).length;
     national += mine.filter((g) => !g.isOfficialLeagueGame && g.isNationalTeam).length;
     games += found.length;
 
@@ -245,9 +294,11 @@ for (let i = 0; i < fetched.length; i += BATCH) {
 
     if (found.length) {
       console.log(`[${found.length}] ${a.outlet} · ${a.title.slice(0, 60)}`);
-      for (const g of found.slice(0, 4)) {
+      for (const g of found.slice(0, 6)) {
         const who = g.homeTeam && g.awayTeam ? `${g.homeTeam} v ${g.awayTeam}` : (g.teams || []).join(" v ");
-        console.log(`      ${g.date || g.dateText || "?"} ${g.time || ""} ${who}${g.tournament ? ` · ${g.tournament}` : ""}`);
+        const score = g.played && g.homeScore != null ? ` = ${g.homeScore}:${g.awayScore}` : "";
+        const tv = g.broadcaster ? ` 📺${g.broadcaster}` : "";
+        console.log(`      ${g.date || g.dateText || "?"} ${(g.time || "").padEnd(5)} ${who}${score}${tv}`);
       }
     }
   }
@@ -258,6 +309,7 @@ fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
 console.log(`\nfixtures extracted    : ${games}`);
 console.log(`league games skipped  : ${official}`);
 console.log(`national teams skipped: ${national}`);
+console.log(`out of season / no team: ${rejected}`);
 console.log(`articles failed       : ${failed}`);
 console.log(`models spent today    : ${[...spent].join(", ") || "none"}`);
 if (stopped) console.log(`stopped early — quota exhausted; the rest are cached as unread and resume next run`);
