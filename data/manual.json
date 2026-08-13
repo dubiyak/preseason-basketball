@@ -1,177 +1,125 @@
 {
-  "_doc": "Hand-entered games and corrections. These always win over collected data — a collector may never overwrite an entry here. Kept deliberately small: anything that keeps needing a manual entry is a missing collector, not a data problem.",
-
+  "_doc": "Hand-entered games and corrections. These always win over collected data. Kept deliberately small: anything that keeps needing an entry here is a missing collector, not a data problem. The TÜBAD, Iraklis and Partizan entries were removed once the collector found them itself — hand-written Hebrew names for clubs the outlets write in Latin or Greek were splitting single clubs into two registry entries.",
   "games": [
     {
       "_why": "Missed entirely by the seed pass. Confirmed 26.6.2026 by Sport1 and Sport5 independently. maccabi.co.il/news.asp?id=9672 describes the same tournament with different dates (22-23.9) and Žalgiris instead of Aris — that article is from an earlier season and must not be trusted over the two current reports.",
       "team": "מכבי תל אביב",
       "date": "2026-09-11",
       "dateLabel": "11-13.9",
-      "candidates": ["אולימפיאקוס", "הכוכב האדום בלגרד", "אריס סלוניקי"],
+      "candidates": [
+        "אולימפיאקוס",
+        "הכוכב האדום בלגרד",
+        "אריס סלוניקי"
+      ],
       "tournament": "טורניר ניקוסיה",
-      "venue": { "arena": null, "city": "ניקוסיה", "country": "קפריסין" },
-      "flags": ["יריבות טרם פורסמו"],
-      "notes": ["מכבי תשחק שני משחקים בטורניר; ההגרלה טרם פורסמה"],
+      "venue": {
+        "arena": null,
+        "city": "ניקוסיה",
+        "country": "קפריסין"
+      },
+      "flags": [
+        "יריבות טרם פורסמו"
+      ],
+      "notes": [
+        "מכבי תשחק שני משחקים בטורניר; ההגרלה טרם פורסמה"
+      ],
       "sources": [
-        { "name": "ספורט 1", "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/" },
-        { "name": "ערוץ הספורט", "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067" }
+        {
+          "name": "ספורט 1",
+          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
+        },
+        {
+          "name": "ערוץ הספורט",
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
+        }
       ]
     },
     {
       "team": "אולימפיאקוס",
       "date": "2026-09-11",
       "dateLabel": "11-13.9",
-      "candidates": ["מכבי תל אביב", "הכוכב האדום בלגרד", "אריס סלוניקי"],
+      "candidates": [
+        "מכבי תל אביב",
+        "הכוכב האדום בלגרד",
+        "אריס סלוניקי"
+      ],
       "tournament": "טורניר ניקוסיה",
-      "venue": { "arena": null, "city": "ניקוסיה", "country": "קפריסין" },
-      "flags": ["יריבות טרם פורסמו"],
+      "venue": {
+        "arena": null,
+        "city": "ניקוסיה",
+        "country": "קפריסין"
+      },
+      "flags": [
+        "יריבות טרם פורסמו"
+      ],
       "sources": [
-        { "name": "ספורט 1", "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/" },
-        { "name": "ערוץ הספורט", "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067" }
+        {
+          "name": "ספורט 1",
+          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
+        },
+        {
+          "name": "ערוץ הספורט",
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
+        }
       ]
     },
     {
       "team": "הכוכב האדום בלגרד",
       "date": "2026-09-11",
       "dateLabel": "11-13.9",
-      "candidates": ["מכבי תל אביב", "אולימפיאקוס", "אריס סלוניקי"],
+      "candidates": [
+        "מכבי תל אביב",
+        "אולימפיאקוס",
+        "אריס סלוניקי"
+      ],
       "tournament": "טורניר ניקוסיה",
-      "venue": { "arena": null, "city": "ניקוסיה", "country": "קפריסין" },
-      "flags": ["יריבות טרם פורסמו"],
+      "venue": {
+        "arena": null,
+        "city": "ניקוסיה",
+        "country": "קפריסין"
+      },
+      "flags": [
+        "יריבות טרם פורסמו"
+      ],
       "sources": [
-        { "name": "ספורט 1", "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/" },
-        { "name": "ערוץ הספורט", "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067" }
+        {
+          "name": "ספורט 1",
+          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
+        },
+        {
+          "name": "ערוץ הספורט",
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
+        }
       ]
     },
     {
       "team": "אריס סלוניקי",
       "date": "2026-09-11",
       "dateLabel": "11-13.9",
-      "candidates": ["מכבי תל אביב", "אולימפיאקוס", "הכוכב האדום בלגרד"],
+      "candidates": [
+        "מכבי תל אביב",
+        "אולימפיאקוס",
+        "הכוכב האדום בלגרד"
+      ],
       "tournament": "טורניר ניקוסיה",
-      "venue": { "arena": null, "city": "ניקוסיה", "country": "קפריסין" },
-      "flags": ["יריבות טרם פורסמו"],
+      "venue": {
+        "arena": null,
+        "city": "ניקוסיה",
+        "country": "קפריסין"
+      },
+      "flags": [
+        "יריבות טרם פורסמו"
+      ],
       "sources": [
-        { "name": "ספורט 1", "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/" },
-        { "name": "ערוץ הספורט", "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067" }
+        {
+          "name": "ספורט 1",
+          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
+        },
+        {
+          "name": "ערוץ הספורט",
+          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
+        }
       ]
-    },
-
-    {
-      "_why": "Found by the collector, not by hand. Whole tournament absent from the seed. Fills gaps for three tracked clubs, two of which the manual pass had listed as 'not found' (AEK, Trabzonspor).",
-      "team": "אנאדולו אפס",
-      "opponent": "ארוקספור",
-      "date": "2026-09-04",
-      "dateLabel": "4.9",
-      "time": "16:30",
-      "tournament": "טורניר TÜBAD Mehmet Baturalp",
-      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
-      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
-    },
-    {
-      "team": "טרבזונספור",
-      "opponent": "AEK אתונה",
-      "date": "2026-09-04",
-      "dateLabel": "4.9",
-      "time": "19:00",
-      "tournament": "טורניר TÜBAD Mehmet Baturalp",
-      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
-      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
-    },
-    {
-      "team": "אנאדולו אפס",
-      "date": "2026-09-05",
-      "dateLabel": "5.9",
-      "time": "16:30",
-      "candidates": ["ארוקספור", "טרבזונספור", "AEK אתונה"],
-      "tournament": "טורניר TÜBAD Mehmet Baturalp",
-      "stage": "גמר",
-      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
-      "flags": ["נקבע לפי תוצאות היום הראשון"],
-      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
-    },
-
-    {
-      "_why": "Iraklis published its full nine-game schedule. Found by the collector through the HTML path on sport24.gr, an outlet with no feed at all. The 31.8 game against Aris is already in the data from basket247 and is deliberately not repeated here — a manual entry keys on itself and would duplicate rather than merge.",
-      "team": "הרקליס",
-      "opponent": "KB Bashkimi",
-      "date": "2026-09-05",
-      "dateLabel": "5.9",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "AEK לרנקה",
-      "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "ולצ'אה",
-      "date": "2026-09-11",
-      "dateLabel": "11.9",
-      "tournament": "טורניר Valcea 1924",
-      "venue": { "arena": null, "city": null, "country": "רומניה" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "בוראץ' צ'אצ'אק",
-      "date": "2026-09-12",
-      "dateLabel": "12.9",
-      "tournament": "טורניר Valcea 1924",
-      "venue": { "arena": null, "city": null, "country": "רומניה" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "דוקסה לפקדס",
-      "date": "2026-09-19",
-      "dateLabel": "19.9",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "flags": ["דלתיים סגורות"],
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "אריס סלוניקי",
-      "date": "2026-09-20",
-      "dateLabel": "20.9",
-      "tournament": "טורניר Mavroskoufeia",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "date": "2026-09-22",
-      "dateLabel": "22.9",
-      "tournament": "טורניר Mavroskoufeia",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "flags": ["יריבה תיקבע בהמשך"],
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-    {
-      "team": "הרקליס",
-      "opponent": "קולוסוס רודוס",
-      "date": "2026-09-26",
-      "dateLabel": "26.9",
-      "venue": { "arena": "Ivanofio", "city": "סלוניקי", "country": "יוון" },
-      "sources": [{ "name": "sport24.gr", "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/" }]
-    },
-
-    {
-      "_why": "Second game of the Giannakopoulos tournament. The seed had Partizan there as a single 18-19.9 entry against PAOK; hotsport 12.8.2026 shows two separate games.",
-      "team": "פרטיזן בלגרד",
-      "date": "2026-09-19",
-      "dateLabel": "19.9",
-      "candidates": [],
-      "tournament": "טורניר פאבלוס יאנאקופולוס",
-      "venue": { "arena": null, "city": "אתונה", "country": "יוון" },
-      "flags": ["יריבה תיקבע בהמשך"],
-      "sources": [{ "name": "hotsport.rs", "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/" }]
     }
   ]
 }

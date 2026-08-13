@@ -39,8 +39,13 @@ jobs:
         continue-on-error: true
         run: node scripts/extract.mjs | tee extract.log
 
+      # Composes seed + manual + extracted into games.json and teams.json.
+      # Runs even when extraction failed, so a throttled key still republishes
+      # yesterday's data rather than leaving the site stale or empty.
       - name: Rebuild the data files
-        run: node scripts/migrate.mjs | tee build.log
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/build.mjs | tee build.log
 
       - name: Commit if anything changed
         id: commit

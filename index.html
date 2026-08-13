@@ -253,7 +253,10 @@ function gameCard(g){
 
 function filtered(){
   return GAMES.filter(g => {
-    if (!gameCompetitions(g).some(c => active.has(c))) return false;
+    // A newly discovered club has no competition on file yet. Its games are
+    // still real, so an unknown affiliation must not hide them.
+    const comps = gameCompetitions(g);
+    if (comps.length && !comps.some(c => active.has(c))) return false;
     if (!query) return true;
     const hay = [
       ...g.teams.map(teamName), ...(g.candidates || []),
