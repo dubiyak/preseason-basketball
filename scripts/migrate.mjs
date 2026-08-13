@@ -263,12 +263,41 @@ if (fs.existsSync(manualPath)) {
 }
 
 /* ---------- 6. emit ---------- */
+/**
+ * teams.json is regenerated on every run, so anything learned about a club —
+ * its website, news feed, home arena, its Hebrew name — would be thrown away
+ * each time. registry.json is the durable half: written once per club and
+ * merged back in here. A translation that is recomputed every run is also a
+ * translation that changes between runs, which is worse than a wrong one.
+ */
+const registryPath = path.join(OUT, "registry.json");
+const registry = fs.existsSync(registryPath)
+  ? JSON.parse(fs.readFileSync(registryPath, "utf8"))
+  : { clubs: {} };
+
+const gameCountByTeam = new Map();
+for (const g of games.values()) {
+  for (const id of g.teams) gameCountByTeam.set(id, (gameCountByTeam.get(id) || 0) + 1);
+}
+
 const teamList = [...teams.values()]
-  .map((t) => ({
-    ...t,
-    aliases: [...t.aliases],
-    competitions: [...t.competitions],
-  }))
+  .map((t) => {
+    const saved = registry.clubs[t.id] || {};
+    return {
+      ...t,
+      aliases: [...new Set([...t.aliases, ...(saved.aliases || [])])],
+      competitions: [...new Set([...t.competitions, ...(saved.competitions || [])])],
+      name_he: saved.name_he || t.name_he,
+      name_src: saved.name_src ?? t.name_src,
+      country: saved.country ?? t.country,
+      homeArena: saved.homeArena ?? t.homeArena,
+      website: saved.website ?? t.website,
+      newsUrl: saved.newsUrl ?? t.newsUrl,
+      // A club we have never seen publish anything is the one worth polling
+      // hardest — it is the only place its fixtures could appear.
+      watchlist: !gameCountByTeam.has(t.id),
+    };
+  })
   .sort((a, b) => a.name_he.localeCompare(b.name_he, "he"));
 
 // Confidence = how many independent outlets reported this game.

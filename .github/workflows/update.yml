@@ -1,0 +1,85 @@
+name: update preseason data
+
+on:
+  schedule:
+    # Every 4 hours, not daily. Measured: Sportando's feed holds under a day of
+    # articles, so a once-a-day job would miss announcements outright.
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+# The job commits its own results back to the repo.
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Sweep the outlet feeds
+        id: collect
+        run: node scripts/collect.mjs | tee collect.log
+
+      - name: Read the new articles
+        id: extract
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # Never fail the run on extraction trouble: a rate-limited or missing
+        # key must still leave yesterday's data intact and published.
+        continue-on-error: true
+        run: node scripts/extract.mjs | tee extract.log
+
+      - name: Rebuild the data files
+        run: node scripts/migrate.mjs | tee build.log
+
+      - name: Commit if anything changed
+        id: commit
+        run: |
+          git config user.name "preseason-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- data/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "no change"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git add data/
+            git commit -m "data: automatic update $(date -u +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      # A source that has gone quiet for days is indistinguishable from a
+      # source that broke, unless somebody is told. Nobody is watching, so the
+      # run files an issue against itself.
+      - name: Report dead sources
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node -e "
+            const fs=require('fs');
+            const h=JSON.parse(fs.readFileSync('data/candidates.json','utf8')).health;
+            const dead=h.filter(x=>!x.ok);
+            if(!dead.length){console.log('all sources reachable');process.exit(0)}
+            fs.writeFileSync('dead.txt', dead.map(d=>'- '+d.id+': '+d.why).join('\n'));
+            console.log(dead.length+' unreachable');
+          "
+          if [ -f dead.txt ]; then
+            existing=$(gh issue list --state open --label sources --limit 1 --json number --jq '.[0].number')
+            body="Sources the collector could not reach on $(date -u +'%Y-%m-%d %H:%M') UTC:"$'\n\n'"$(cat dead.txt)"
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --body "$body"
+            else
+              gh label create sources --color ededed --description "collector health" 2>/dev/null || true
+              gh issue create --title "Unreachable sources" --label sources --body "$body"
+            fi
+          fi
