@@ -1,169 +1,196 @@
 {
-  "generated": "2026-08-13T19:33:10.378Z",
+  "generated": "2026-08-13T19:45:57.210Z",
   "health": [
     {
       "id": "sportando",
       "ok": true,
-      "feed": "https://sportando.basketball/feed/",
+      "strategy": "rss",
+      "via": "https://sportando.basketball/feed/",
       "items": 10,
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "gigantes",
       "ok": true,
-      "feed": "https://www.gigantes.com/feed/",
+      "strategy": "rss",
+      "via": "https://www.gigantes.com/feed/",
       "items": 10,
       "candidates": 0
     },
     {
       "id": "bursahakimiyet",
       "ok": true,
-      "feed": "https://www.bursahakimiyet.com.tr/rss",
+      "strategy": "rss",
+      "via": "https://www.bursahakimiyet.com.tr/rss",
       "items": 60,
       "candidates": 0
     },
     {
       "id": "sportacentrs",
       "ok": true,
-      "feed": "https://sportacentrs.com/static/non-publish/rss/sc/rss.xml",
+      "strategy": "rss",
+      "via": "https://sportacentrs.com/static/non-publish/rss/sc/rss.xml",
       "items": 45,
-      "candidates": 2
+      "candidates": 1
     },
     {
       "id": "sport1",
       "ok": true,
-      "feed": "https://sport1.maariv.co.il/feed/",
-      "items": 0,
+      "strategy": "html",
+      "via": "https://sport1.maariv.co.il/israeli-basketball/",
+      "items": 20,
       "candidates": 0
     },
     {
       "id": "eurohoops",
       "ok": true,
-      "feed": "https://www.eurohoops.net/feed/",
+      "strategy": "rss",
+      "via": "https://www.eurohoops.net/feed/",
       "items": 20,
       "candidates": 1
     },
     {
       "id": "telegraf",
       "ok": true,
-      "feed": "https://www.telegraf.rs/rss",
+      "strategy": "rss",
+      "via": "https://www.telegraf.rs/rss",
       "items": 20,
       "candidates": 0
     },
     {
       "id": "sport24gr",
-      "ok": false,
-      "why": "no feed found"
+      "ok": true,
+      "strategy": "html",
+      "via": "https://www.sport24.gr/basket/",
+      "items": 113,
+      "candidates": 4
     },
     {
       "id": "paopantou",
       "ok": true,
-      "feed": "https://paopantou.gr/feed/",
+      "strategy": "rss",
+      "via": "https://paopantou.gr/feed/",
       "items": 10,
       "candidates": 0
     },
     {
       "id": "basketdergisi",
       "ok": true,
-      "feed": "https://basketdergisi.com/feed",
+      "strategy": "rss",
+      "via": "https://basketdergisi.com/feed",
       "items": 10,
       "candidates": 4
     },
     {
       "id": "hotsport",
       "ok": true,
-      "feed": "https://hotsport.rs/feed/",
+      "strategy": "rss",
+      "via": "https://hotsport.rs/feed/",
       "items": 40,
       "candidates": 4
     },
     {
       "id": "bebasket",
       "ok": true,
-      "feed": "https://www.bebasket.fr/feed/",
+      "strategy": "rss",
+      "via": "https://www.bebasket.fr/feed/",
       "items": 20,
       "candidates": 0
     },
     {
       "id": "basket247",
       "ok": true,
-      "feed": "https://www.basket247.gr/feed/",
+      "strategy": "rss",
+      "via": "https://www.basket247.gr/feed/",
       "items": 10,
       "candidates": 1
     },
     {
       "id": "allstarbasket",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "basketfaul",
       "ok": true,
-      "feed": "https://basketfaul.com.tr/feed/",
+      "strategy": "rss",
+      "via": "https://basketfaul.com.tr/feed/",
       "items": 10,
       "candidates": 4
     },
     {
       "id": "acb",
-      "ok": false,
-      "why": "no feed found"
+      "ok": true,
+      "strategy": "sitemap",
+      "via": "https://www.acb.com/sitemap.xml",
+      "items": 45,
+      "candidates": 1
     },
     {
       "id": "basketnews",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "one",
       "ok": true,
-      "feed": "https://www.one.co.il/rss",
+      "strategy": "rss",
+      "via": "https://www.one.co.il/rss",
       "items": 53,
       "candidates": 0
     },
     {
       "id": "walla_sport",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "basketballde",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "lnb",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "legabasket",
-      "ok": false,
-      "why": "no feed found"
+      "ok": true,
+      "strategy": "sitemap",
+      "via": "https://www.legabasket.it/sitemap.xml",
+      "items": 200,
+      "candidates": 4
     },
     {
       "id": "abaliga",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "lkl",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "championsleague",
-      "ok": false,
-      "why": "no feed found"
+      "ok": true,
+      "strategy": "sitemap",
+      "via": "https://www.championsleague.basketball/news-sitemap.xml",
+      "items": 9,
+      "candidates": 0
     },
     {
       "id": "ibba",
       "ok": false,
-      "why": "no feed found"
+      "why": "no feed, sitemap or article links"
     }
   ],
   "candidates": [
     {
       "outlet": "basketfaul",
       "lang": "tr",
+      "strategy": "rss",
       "title": "19. TÜBAD Mehmet Baturalp Turnuvası",
       "url": "https://basketfaul.com.tr/turkiye/bsl/19-tubad-mehmet-baturalp-turnuvasi/",
       "published": "Thu, 13 Aug 2026 15:47:59 +0000",
@@ -180,6 +207,7 @@
     {
       "outlet": "basketdergisi",
       "lang": "tr",
+      "strategy": "rss",
       "title": "19. TÜBAD Mehmet Baturalp turnuvası’nın programı belli oldu",
       "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html",
       "published": "Thu, 13 Aug 2026 17:47:30 +0000",
@@ -192,8 +220,24 @@
       "score": 6
     },
     {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27 Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27",
+      "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/",
+      "published": "",
+      "matchedKeywords": [
+        "φιλικά",
+        "προετοιμασία",
+        "προετοιμασίας"
+      ],
+      "matchedClubs": [],
+      "score": 5
+    },
+    {
       "outlet": "basketdergisi",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Bahçeşehir Koleji'nden Glint Körfez'e",
       "url": "https://basketdergisi.com/bahcesehir-kolejinden-glint-korfeze.html",
       "published": "Thu, 13 Aug 2026 07:29:57 +0000",
@@ -207,6 +251,7 @@
     {
       "outlet": "basket247",
       "lang": "el",
+      "strategy": "rss",
       "title": "Εθνική Φιλικά: Κυκλοφόρησαν τα εισιτήρια κόντρα στην  Κύπρο",
       "url": "https://www.basket247.gr/ethniki-filika-kyklfoorisan-ta-eisitiria-kontra-stin-kyprto/",
       "published": "Thu, 13 Aug 2026 12:14:52 +0000",
@@ -218,20 +263,9 @@
       "score": 4
     },
     {
-      "outlet": "sportando",
-      "lang": "it",
-      "title": "NBA, domani la pubblicazione del calendario per la stagione 26/27",
-      "url": "https://sportando.basketball/nba-domani-la-pubblicazione-del-calendario-per-la-stagione-26-27/",
-      "published": "Thu, 13 Aug 2026 19:09:55 +0000",
-      "matchedKeywords": [
-        "calendario"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
       "outlet": "sportacentrs",
       "lang": "lv",
+      "strategy": "rss",
       "title": "Nedēļas nogalē bridža turnīrā \"Riga Invites\" 10 valstu un 3 kontinentu pārstāvniecība",
       "url": "http://sportacentrs.com/citi/13082026-nedelas_nogale_bridza_turnira_riga_invite",
       "published": "Thu, 13 Aug 2026 14:46:00 +0300",
@@ -242,20 +276,9 @@
       "score": 3
     },
     {
-      "outlet": "sportacentrs",
-      "lang": "lv",
-      "title": "Divi Valteri un viens Kurucs - \"Krastu mača\" tālmetienu konkurss pulcēs labi zināmus uzvārdus",
-      "url": "http://sportacentrs.com/basketbols/latvijas_turniri/13082026-divi_valteri_un_viens_kurucs_krastu_maca_",
-      "published": "Thu, 13 Aug 2026 12:54:53 +0300",
-      "matchedKeywords": [
-        "turnīrs"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
       "outlet": "eurohoops",
       "lang": "en",
+      "strategy": "rss",
       "title": "Tenerife signs Arturs Kurucs, Riga Zelli brings Klavs Cavars home",
       "url": "https://www.eurohoops.net/en/eurocup/1998499/tenerife-signs-arturs-kurucs-riga-zelli-brings-klavs-cavars-home/",
       "published": "Thu, 13 Aug 2026 12:21:52 +0000",
@@ -266,8 +289,48 @@
       "score": 3
     },
     {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Σε κυκλοφορία τα εισιτήρια για το φιλικό της Εθνικής με την Κύπρο στο Telekom Center Athens Σε κυκλοφορία τα εισιτήρια για το φιλικό της Εθνικής με την Κύπρο στο Telekom Center Athens",
+      "url": "https://www.sport24.gr/basket/ethniki-andron-se-kikloforia-ta-eisitiria-gia-to-filiko-me-tin-kipro-sto-telekom-center-athens/",
+      "published": "",
+      "matchedKeywords": [
+        "φιλικό"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν",
+      "url": "https://www.sport24.gr/basket/paok-to-video-tis-kae-apo-tin-proponisi-ton-thessalonikon-kai-tin-omilia-tou-trinkieri-enopsei-tis-neas-agonistikis/",
+      "published": "",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\" Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\"",
+      "url": "https://www.sport24.gr/basket/trinkieri-stin-proti-proponisi-tou-paok-pira-olous-tous-paiktes-pou-ithela-afti-einai-i-omada-pou-ithela/",
+      "published": "",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
       "outlet": "basketdergisi",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Marko Pecarski yeniden Yukatel Denizli Basket’te",
       "url": "https://basketdergisi.com/marko-pecarski-yeniden-yukatel-denizli-baskette.html",
       "published": "Thu, 13 Aug 2026 17:54:41 +0000",
@@ -280,6 +343,7 @@
     {
       "outlet": "basketdergisi",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Beşiktaş, Kalemegdan'da açık sahaya çıkıyor",
       "url": "https://basketdergisi.com/besiktas-kalemegdanda-acik-sahaya-cikiyor.html",
       "published": "Thu, 13 Aug 2026 07:57:47 +0000",
@@ -292,6 +356,7 @@
     {
       "outlet": "hotsport",
       "lang": "sr",
+      "strategy": "rss",
       "title": "OVO NIJE DOBRO: Saša Ilić otkrio šta ga je zabrinulo u Kazahstanu!",
       "url": "https://hotsport.rs/2026/08/13/sasa-ilic-partizan-konferencija/",
       "published": "Thu, 13 Aug 2026 19:20:40 +0000",
@@ -304,6 +369,7 @@
     {
       "outlet": "hotsport",
       "lang": "sr",
+      "strategy": "rss",
       "title": "ALIMPIJEVIĆ DOBIO PITANJE O VLAHOVIĆU, PA ODGOVOROM NASMEJAO SVE NOVINARE: „Dobro sam razradio skandiranje!\"",
       "url": "https://hotsport.rs/2026/08/13/alimpijevic-vlahovic-besiktas-srbija/",
       "published": "Thu, 13 Aug 2026 14:40:55 +0000",
@@ -316,6 +382,7 @@
     {
       "outlet": "hotsport",
       "lang": "sr",
+      "strategy": "rss",
       "title": "POTPUNI HAOS U MALAGI: Arbeloa isključen, Fulam odbio penale, pa domaćin šutirao na prazan gol!",
       "url": "https://hotsport.rs/2026/08/13/potpuni-haos-u-malagi-arbeloa-iskljucen-fulam-odbio-penale-pa-domacin-sutirao-na-prazan-gol/",
       "published": "Thu, 13 Aug 2026 11:59:17 +0000",
@@ -328,6 +395,7 @@
     {
       "outlet": "hotsport",
       "lang": "sr",
+      "strategy": "rss",
       "title": "PARTIZAN IDE REDOM: Od prvog okupljanja, preko susreta sa bivšim trenerom, do spektakla protiv Olimpije iz Milana!",
       "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
       "published": "Wed, 12 Aug 2026 21:50:34 +0000",
@@ -340,6 +408,7 @@
     {
       "outlet": "basketfaul",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Sırbistan'da Eksik Çok",
       "url": "https://basketfaul.com.tr/milli-takimlar/erkek-milli-takimlar/a-milli-erkek-milli-takimlar/sirbistanda-eksik-cok/",
       "published": "Thu, 13 Aug 2026 12:32:07 +0000",
@@ -352,6 +421,7 @@
     {
       "outlet": "basketfaul",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Beşiktaş, Açık Hava Sahasındaki Turnuvaya katılacak",
       "url": "https://basketfaul.com.tr/turkiye/bsl/besikras-acik-hava-sahasindaki-turnuvaya-katilacak/",
       "published": "Thu, 13 Aug 2026 11:11:34 +0000",
@@ -364,11 +434,77 @@
     {
       "outlet": "basketfaul",
       "lang": "tr",
+      "strategy": "rss",
       "title": "Denizli'den Pecarski Hamlesi",
       "url": "https://basketfaul.com.tr/gundem/denizliden-pecarski-hamlesi/",
       "published": "Thu, 13 Aug 2026 10:08:28 +0000",
       "matchedKeywords": [
         "sezon öncesi"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "acb",
+      "lang": "es",
+      "strategy": "sitemap",
+      "title": "supercopa",
+      "url": "https://acb.com/es/supercopa",
+      "published": "2026-08-13T17:33:29.756Z",
+      "matchedKeywords": [
+        "supercopa"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Sincronizza ora il calendario della LBA Serie A SisalClub 2026/27 sui tuoi dispositivi!",
+      "url": "https://www.legabasket.it/news/139297/sync-calendari-lba",
+      "published": "2026-08-13T19:45:49.214Z",
+      "matchedKeywords": [
+        "calendario"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Ufficiale il calendario della Regular Season della LBA Serie A SisalClub 2026/27: si parte il 27 settembre",
+      "url": "https://www.legabasket.it/news/139229/calendario-serie-a-2026-27",
+      "published": "2026-08-13T19:45:49.214Z",
+      "matchedKeywords": [
+        "calendario"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Lunedì 3 agosto alle ore 12.00 il calendario della LBA Serie A SisalClub 2026/27",
+      "url": "https://www.legabasket.it/news/139270/lunedi-3-agosto-serie-a-sisalclub-2026-27",
+      "published": "2026-08-13T19:45:49.214Z",
+      "matchedKeywords": [
+        "calendario"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Definito il tabellone della Supercoppa 2026 (19-20 settembre, Tortona): Milano - Bologna e Tortona - Venezia le semifinali",
+      "url": "https://www.legabasket.it/news/138922/supercoppa-2026",
+      "published": "2026-08-13T19:45:49.215Z",
+      "matchedKeywords": [
+        "supercoppa"
       ],
       "matchedClubs": [],
       "score": 3

@@ -77,6 +77,93 @@ function parseItems(xml) {
   }).filter((i) => i.title && i.link);
 }
 
+/* ---------- strategy 2: sitemaps ---------- */
+// Deeper than a feed by design. A feed holds the last ~10 items — Sportando's
+// rolls over in under a day — so anything announced last month is only
+// reachable this way. News sitemaps also carry a title; plain ones do not, and
+// there the URL slug is all we get to match on.
+const SITEMAP_PATHS = ["/news-sitemap.xml", "/sitemap-news.xml", "/sitemap.xml", "/sitemap_index.xml"];
+
+async function fromSitemap(homeUrl) {
+  const base = new URL(homeUrl).origin;
+  for (const p of SITEMAP_PATHS) {
+    let xml = await get(base + p);
+    if (!xml || !/<urlset|<sitemapindex/i.test(xml)) continue;
+
+    // An index points at further sitemaps; follow the most recent news-ish one.
+    if (/<sitemapindex/i.test(xml)) {
+      const kids = [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map((m) => strip(m[1]));
+      const pick = kids.find((u) => /news|post|article|20\d\d/i.test(u)) || kids[kids.length - 1];
+      if (!pick) continue;
+      xml = await get(pick);
+      if (!xml) continue;
+    }
+
+    const items = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)].map((m) => {
+      const b = m[1];
+      const link = strip((b.match(/<loc>([\s\S]*?)<\/loc>/i) || [])[1]);
+      const title = strip((b.match(/<news:title>([\s\S]*?)<\/news:title>/i) || [])[1]);
+      const date = strip(
+        (b.match(/<(?:news:publication_date|lastmod)>([\s\S]*?)<\/(?:news:publication_date|lastmod)>/i) || [])[1]
+      );
+      // Without a title the slug carries the words; it is what the filter reads.
+      const slugWords = link ? decodeURIComponent(link).split("/").pop().replace(/[-_]+/g, " ").replace(/\.\w+$/, "") : "";
+      return { title: title || slugWords, link, date, summary: title ? "" : slugWords };
+    }).filter((i) => i.link && i.title);
+
+    if (items.length) return { items: items.slice(0, 400), via: base + p };
+  }
+  return null;
+}
+
+/* ---------- strategy 3: scrape the news index ---------- */
+// Last resort, and the one that always exists: a news page is still HTML.
+async function fromHtml(pageUrl) {
+  const html = await get(pageUrl);
+  if (!html) return null;
+  const origin = new URL(pageUrl).origin;
+
+  const seen = new Set();
+  const items = [];
+  for (const m of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    let href = m[1];
+    const text = strip(m[2]).replace(/\s+/g, " ");
+    if (!href || href.startsWith("#") || /^(mailto|tel|javascript):/i.test(href)) continue;
+
+    let url;
+    try { url = new URL(href, pageUrl); } catch { continue; }
+    if (url.origin !== origin) continue;
+
+    // An article URL has a slug; navigation links do not.
+    const last = url.pathname.split("/").filter(Boolean).pop() || "";
+    const looksLikeArticle = /[-_]/.test(last) && last.length > 12;
+    if (!looksLikeArticle || text.length < 12) continue;
+    if (seen.has(url.href)) continue;
+    seen.add(url.href);
+
+    const slugWords = decodeURIComponent(last).replace(/[-_]+/g, " ").replace(/\.\w+$/, "");
+    items.push({ title: text, link: url.href, date: "", summary: slugWords });
+  }
+  return items.length ? { items: items.slice(0, 300), via: pageUrl } : null;
+}
+
+/** RSS, then sitemap, then the news page itself. Records which one worked. */
+async function discover(outlet) {
+  const feed = await findFeed(outlet.url);
+  if (feed) {
+    const xml = await get(feed);
+    const items = xml ? parseItems(xml) : [];
+    if (items.length) return { items, via: feed, strategy: "rss" };
+  }
+  const sm = await fromSitemap(outlet.url);
+  if (sm) return { ...sm, strategy: "sitemap" };
+
+  const html = await fromHtml(outlet.url);
+  if (html) return { ...html, strategy: "html" };
+
+  return null;
+}
+
 // Registry names, longest first so "מכבי תל אביב" wins over "מכבי".
 const CLUB_TOKENS = [...new Set(teams.flatMap((t) => [t.name_he, t.name_src, ...(t.aliases || [])]))]
   .filter((n) => n && n.length > 3)
@@ -108,26 +195,24 @@ const results = [];
 const health = [];
 
 for (const o of sources.outlets) {
-  const feed = await findFeed(o.url);
-  if (!feed) { health.push({ id: o.id, ok: false, why: "no feed found" }); continue; }
+  const found = await discover(o);
+  if (!found) { health.push({ id: o.id, ok: false, why: "no feed, sitemap or article links" }); continue; }
 
-  const xml = await get(feed);
-  if (!xml) { health.push({ id: o.id, ok: false, why: "feed unreachable", feed }); continue; }
-
-  const items = parseItems(xml);
   let hits = 0;
-  for (const it of items) {
+  for (const it of found.items) {
     const { kw, clubs } = classify({ ...it, url: it.link }, o);
     if (!kw.length && !clubs.length) continue;
     hits++;
     results.push({
-      outlet: o.id, lang: o.lang, title: it.title, url: it.link,
-      published: it.date, matchedKeywords: kw, matchedClubs: clubs,
+      outlet: o.id, lang: o.lang, strategy: found.strategy,
+      title: it.title, url: it.link, published: it.date,
+      matchedKeywords: kw, matchedClubs: clubs,
       // keyword AND a known club is a much stronger signal than either alone
       score: (kw.length ? 2 : 0) + (clubs.length ? 2 : 0) + Math.min(kw.length + clubs.length, 3),
     });
   }
-  health.push({ id: o.id, ok: true, feed, items: items.length, candidates: hits });
+  health.push({ id: o.id, ok: true, strategy: found.strategy, via: found.via,
+                items: found.items.length, candidates: hits });
 }
 
 results.sort((a, b) => b.score - a.score);
@@ -137,7 +222,8 @@ fs.writeFileSync(
 );
 
 const live = health.filter((h) => h.ok);
-console.log(`feeds reachable  : ${live.length}/${health.length}`);
+const by = (s) => live.filter((h) => h.strategy === s).length;
+console.log(`outlets reached  : ${live.length}/${health.length}   (rss ${by("rss")} · sitemap ${by("sitemap")} · html ${by("html")})`);
 console.log(`items scanned    : ${live.reduce((n, h) => n + h.items, 0)}`);
 console.log(`candidates       : ${results.length}`);
 for (const h of health.filter((h) => !h.ok)) console.log(`  ! ${h.id}: ${h.why}`);
