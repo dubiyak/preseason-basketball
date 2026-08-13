@@ -222,7 +222,41 @@ for (const r of rows) {
   if (r.note && !g.notes.includes(r.note)) g.notes.push(r.note);
 }
 
-/* ---------- 5. emit ---------- */
+/* ---------- 5. fold in hand-entered games ---------- */
+const manualPath = path.join(OUT, "manual.json");
+let manualCount = 0;
+if (fs.existsSync(manualPath)) {
+  const manual = JSON.parse(fs.readFileSync(manualPath, "utf8"));
+  for (const m of manual.games || []) {
+    touchTeam(m.team, null, { canonical: true });
+    for (const c of m.candidates || []) touchTeam(c, null);
+
+    const key = "manual:" + [normName(m.team), m.date || "", m.tournament || ""].join("|");
+    games.set(key, {
+      id: "g_" + crypto.createHash("sha1").update(key).digest("hex").slice(0, 10),
+      date: m.date || null,
+      dateLabel: m.dateLabel || null,
+      time: m.time || null,
+      teams: [slug(m.team)],
+      homeTeam: m.homeTeam ? slug(m.homeTeam) : null,
+      awayTeam: m.awayTeam ? slug(m.awayTeam) : null,
+      candidates: m.candidates || [],
+      opponentTbd: !(m.candidates || []).length && !m.opponent,
+      venue: m.venue || { arena: null, city: null, country: null },
+      tournament: m.tournament || null,
+      stage: m.stage || null,
+      flags: m.flags || [],
+      broadcast: m.broadcast || [],
+      confidence: 0,
+      sources: m.sources || [],
+      notes: m.notes || [],
+      manual: true,
+    });
+    manualCount++;
+  }
+}
+
+/* ---------- 6. emit ---------- */
 const teamList = [...teams.values()]
   .map((t) => ({
     ...t,
@@ -251,7 +285,7 @@ fs.writeFileSync(
 );
 
 /* ---------- report ---------- */
-const dupes = rows.length - gameList.length;
+const dupes = rows.length + manualCount - gameList.length;
 const multi = teamList.filter((t) => t.competitions.length > 1);
 console.log(`rows in old file : ${rows.length}`);
 console.log(`real games       : ${gameList.length}   (${dupes} duplicates collapsed)`);
@@ -263,4 +297,5 @@ console.log(`opponent unknown : ${gameList.filter((g) => g.opponentTbd).length}`
 console.log(`with a time      : ${gameList.filter((g) => g.time).length}`);
 console.log(`with an arena    : ${gameList.filter((g) => g.venue.arena).length}`);
 console.log(`with a city      : ${gameList.filter((g) => g.venue.city).length}`);
+console.log(`hand-entered   : ${manualCount}`);
 console.log(`real tournaments : ${new Set(gameList.map((g) => g.tournament).filter(Boolean)).size}`);

@@ -271,9 +271,14 @@ function tournamentBlock(name, list){
     const [, m, day] = d.split("-");
     return `${parseInt(day,10)}.${parseInt(m,10)}`;
   };
-  const when = dates.length
-    ? (dates[0] === dates[dates.length-1] ? fmt(dates[0]) : `${fmt(dates[0])}–${fmt(dates[dates.length-1])}`)
-    : "תאריך טרם נקבע";
+  // A tournament whose fixtures are not drawn yet has one start date on every
+  // entry, so the real span lives in the label ("11-13.9"). Prefer it.
+  const spanLabel = list.map(g => g.dateLabel)
+    .find(l => l && /\d\s*[-–]\s*\d/.test(l));
+  const when = !dates.length ? "תאריך טרם נקבע"
+    : dates[0] === dates[dates.length-1]
+      ? (spanLabel || fmt(dates[0]))
+      : `${fmt(dates[0])}–${fmt(dates[dates.length-1])}`;
   const where = [...new Set(list.map(g => [g.venue?.city, g.venue?.country].filter(Boolean).join(", ")).filter(Boolean))][0] || "";
   const clubs = [...new Set(list.flatMap(g => g.teams.map(teamName)))];
 
