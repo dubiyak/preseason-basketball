@@ -112,8 +112,12 @@
   .watch:hover{background:#C7440E;}
   .watch.text-only{background:transparent;color:var(--ink-soft);
     border:1px solid var(--line);font-weight:500;}
-  .unconfirmed{font-size:11px;color:#A08A5E;border:1px dashed #D6C9A8;
-    border-radius:6px;padding:1px 7px;white-space:nowrap;}
+  .t-when{font-size:12.5px;color:var(--ink-soft);font-weight:600;}
+  .t-clubs{margin:-4px 0 12px;font-size:12.5px;color:#8A7A55;line-height:1.7;}
+  .loose-note{margin-top:34px;padding:14px 18px;background:var(--card);
+    border:1px dashed var(--line);border-radius:12px;
+    font-size:13.5px;color:var(--ink-soft);text-align:center;}
+  .loose-note b{color:var(--ink);}
 
   .empty{text-align:center;padding:60px 20px;color:var(--ink-soft);}
   footer{margin-top:40px;text-align:center;font-size:12.5px;color:#8A7A55;line-height:1.9;}
@@ -191,15 +195,22 @@ function primaryCompetition(g){
   return order.find(c => comps.includes(c)) || "domestic";
 }
 
+// home/away is deliberately not shown -- the venue already says where the game
+// is. It stays in the data because it is what lets a home game inherit the
+// club's arena when the report names only the city.
 function matchup(g){
   const names = g.teams.map(teamName);
-  if (g.homeTeam && g.awayTeam)
-    return `${esc(teamName(g.homeTeam))} <span class="vs">מארחת</span> ${esc(teamName(g.awayTeam))}`;
   if (g.candidates?.length)
     return `${esc(names[0])} <span class="vs">מול</span> ${esc(g.candidates.join(" / "))}`;
   if (g.opponentTbd)
     return `${esc(names[0])} <span class="vs">— יריבה טרם נקבעה</span>`;
   return names.map(esc).join(' <span class="vs">מול</span> ');
+}
+
+function venueText(v){
+  if (!v) return "";
+  const place = [v.city, v.country].filter(Boolean).join(", ");
+  return [v.arena, place].filter(Boolean).join(" · ");
 }
 
 function dateBadge(g){
@@ -231,15 +242,12 @@ function gameCard(g){
       <div class="g-meta">
         ${g.tournament ? `<span class="comp-tag" style="background:${comp.color}">${
           esc(g.tournament)}${g.stage ? ` · ${esc(g.stage)}` : ""}</span>` : ""}
-        ${g.venue ? `<span class="venue">${esc(g.venue)}</span>` : ""}
+        ${venueText(g.venue) ? `<span class="venue">${esc(venueText(g.venue))}</span>` : ""}
         ${(g.flags || []).map(f => `<span class="flag">${esc(f)}</span>`).join("")}
       </div>
       ${g.notes?.length ? `<div class="g-note">${esc(g.notes[0])}</div>` : ""}
     </div>
-    <div class="g-side">
-      ${broadcastEl(g)}
-      ${g.confidence < 2 ? `<span class="unconfirmed" title="דווח על ידי מקור אחד בלבד">מקור יחיד</span>` : ""}
-    </div>
+    <div class="g-side">${broadcastEl(g)}</div>
   </article>`;
 }
 
@@ -253,6 +261,31 @@ function filtered(){
     ].join(" ").toLowerCase();
     return hay.includes(query);
   });
+}
+
+// A tournament header carries what you want to know before the fixtures:
+// when it runs, where, and who is in it.
+function tournamentBlock(name, list){
+  const dates = list.map(g => g.date).filter(Boolean).sort();
+  const fmt = d => {
+    const [, m, day] = d.split("-");
+    return `${parseInt(day,10)}.${parseInt(m,10)}`;
+  };
+  const when = dates.length
+    ? (dates[0] === dates[dates.length-1] ? fmt(dates[0]) : `${fmt(dates[0])}–${fmt(dates[dates.length-1])}`)
+    : "תאריך טרם נקבע";
+  const where = [...new Set(list.map(g => [g.venue?.city, g.venue?.country].filter(Boolean).join(", ")).filter(Boolean))][0] || "";
+  const clubs = [...new Set(list.flatMap(g => g.teams.map(teamName)))];
+
+  return `<section class="group tournament">
+    <div class="group-head">
+      <h2>${esc(name)}</h2>
+      <span class="count">${list.length} משחקים</span>
+      <span class="t-when">${esc(when)}${where ? ` · ${esc(where)}` : ""}</span>
+    </div>
+    <p class="t-clubs">${clubs.map(esc).join(" · ")}</p>
+    <div class="games">${list.map(gameCard).join("")}</div>
+  </section>`;
 }
 
 function groupBlock(title, comp, list){
@@ -294,14 +327,20 @@ function render(){
       }).join("");
   }
   else if (view === "tournament"){
+    // Only real competitions belong here. Standalone friendlies would form one
+    // bucket bigger than every tournament combined and bury them.
     const groups = new Map();
+    let loose = 0;
     for (const g of games){
-      const k = g.tournament || "משחקי הכנה";
-      (groups.get(k) || groups.set(k, []).get(k)).push(g);
+      if (!g.tournament){ loose++; continue; }
+      (groups.get(g.tournament) || groups.set(g.tournament, []).get(g.tournament)).push(g);
     }
     html = [...groups.entries()]
-      .sort((a,b) => b[1].length - a[1].length)
-      .map(([k, list]) => groupBlock(k, null, list.sort(byDate))).join("");
+      .map(([name, list]) => [name, list.sort(byDate)])
+      .sort((a,b) => (a[1][0].date || "9999").localeCompare(b[1][0].date || "9999"))
+      .map(([name, list]) => tournamentBlock(name, list)).join("");
+    if (loose)
+      html += `<p class="loose-note">ועוד <b>${loose}</b> משחקי ידידות שאינם חלק מטורניר — הם מופיעים בתצוגות "לפי תאריך" ו"לפי קבוצה".</p>`;
   }
   else {
     const groups = new Map();

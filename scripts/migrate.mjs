@@ -67,6 +67,9 @@ function touchTeam(rawName, tier, { canonical = false } = {}) {
       aliases: new Set(),
       competitions: new Set(),
       country: null,
+      // Filled by the collectors. Lets a home game show its hall even when the
+      // report only says the city.
+      homeArena: null,
       website: null,
       newsUrl: null,
       // clubs we have never seen publish anything get polled hardest
@@ -106,7 +109,9 @@ function gameKey(r) {
  * counted as two different tournaments, and 60 of 131 games were tagged
  * "משחק הכנה" — which is not a competition, it is the absence of one.
  */
-const STAGE_WORDS = /^(חצי גמר|גמר|רבע גמר|שלב גמר|מארחת|שלב הבתים)$/;
+const STAGE_WORDS = /^(חצי גמר|גמר|רבע גמר|שלב גמר|שלב הבתים)$/;
+// Who hosts is not shown anywhere, so it is dropped rather than kept as a flag.
+const DROP_WORDS = /^(מארחת|מארח)$/;
 function splitType(raw) {
   let s = String(raw || "").trim();
   if (!s || s === "-") return { tournament: null, stage: null, flags: [] };
@@ -115,7 +120,8 @@ function splitType(raw) {
   let stage = null;
   s = s.replace(/\(([^)]*)\)/g, (_, inner) => {
     const v = inner.trim();
-    if (STAGE_WORDS.test(v)) stage = v;
+    if (DROP_WORDS.test(v)) { /* discard */ }
+    else if (STAGE_WORDS.test(v)) stage = v;
     else flags.push(v);
     return " ";
   }).replace(/\s+/g, " ").trim();
@@ -123,6 +129,39 @@ function splitType(raw) {
   // A plain friendly carries no competition name.
   if (/^משחק(י)? הכנה$/.test(s) || /^משחק ידידות$/.test(s)) s = "";
   return { tournament: s || null, stage, flags };
+}
+
+const COUNTRIES = [
+  "ישראל", "ספרד", "איטליה", "טורקיה", "יוון", "גרמניה", "צרפת", "ליטא",
+  "לטביה", "סרביה", "קרואטיה", "סלובניה", "בולגריה", "רומניה", "פולין",
+  "אנגליה", "מונטנגרו", "בוסניה", "צ'כיה", "סלובקיה", "אוסטריה", "בלגיה",
+  "פורטוגל", "אזרבייג'ן", "רוסיה", "ארה\"ב",
+];
+
+/**
+ * Venue arrives as free text in a few shapes:
+ *   "עיר, מדינה"  ·  "עיר (אולם), מדינה"  ·  "עיר, מדינה (אולם)"  ·  "מדינה"
+ * Split so the card can lead with the hall. Only 6 of 130 seed rows name one;
+ * the rest fill in from the club's home arena once home/away is known, which is
+ * why homeTeam stays in the data even though the card no longer shows it.
+ */
+function splitVenue(raw) {
+  let s = String(raw || "").trim();
+  if (!s || s === "-") return { arena: null, city: null, country: null };
+
+  let arena = null;
+  s = s.replace(/\(([^)]*)\)/g, (_, inner) => { arena = inner.trim(); return " "; });
+  s = s.replace(/\s+/g, " ").replace(/\s*,\s*/g, ", ").replace(/(^,|,$)/g, "").trim();
+
+  const parts = s.split(",").map((p) => p.trim()).filter(Boolean);
+  let country = null, city = null;
+  if (parts.length && COUNTRIES.includes(parts[parts.length - 1])) {
+    country = parts.pop();
+  }
+  city = parts.join(", ") || null;
+  // A lone country string parses as a city; move it across.
+  if (!country && city && COUNTRIES.includes(city)) { country = city; city = null; }
+  return { arena, city, country };
 }
 
 function parseTime(dateLabel) {
@@ -151,7 +190,7 @@ for (const r of rows) {
       ? r.opponent.split(/\s\/\s/).map((s) => s.trim())
       : [],
     opponentTbd: isUnknownOpponent(r.opponent),
-    venue: r.location && r.location !== "-" ? r.location : null,
+    venue: splitVenue(r.location),
     ...splitType(r.type),
     broadcast: [],
     confidence: 1,
@@ -167,7 +206,7 @@ for (const r of rows) {
     // count a single source. It is derived from distinct sources at the end.
     const g = games.get(key);
     g.time ||= record.time;
-    g.venue ||= record.venue;
+    for (const k of ["arena", "city", "country"]) g.venue[k] ||= record.venue[k];
     g.tournament ||= record.tournament;
     g.stage ||= record.stage;
     for (const f of record.flags) if (!g.flags.includes(f)) g.flags.push(f);
@@ -222,3 +261,6 @@ console.log(`multi-competition: ${multi.length}  ->  ${multi.map((t) => t.name_h
 console.log(`no date yet      : ${gameList.filter((g) => !g.date).length}`);
 console.log(`opponent unknown : ${gameList.filter((g) => g.opponentTbd).length}`);
 console.log(`with a time      : ${gameList.filter((g) => g.time).length}`);
+console.log(`with an arena    : ${gameList.filter((g) => g.venue.arena).length}`);
+console.log(`with a city      : ${gameList.filter((g) => g.venue.city).length}`);
+console.log(`real tournaments : ${new Set(gameList.map((g) => g.tournament).filter(Boolean)).size}`);
