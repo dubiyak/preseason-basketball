@@ -100,6 +100,31 @@ function gameKey(r) {
   return "pair:" + r.date + "|" + [a, b].sort().join("|");
 }
 
+/**
+ * The old `type` field mixed three things: the competition, the stage within it,
+ * and circumstantial notes. "טורניר קרתי (חצי גמר)" and "טורניר קרתי (גמר)"
+ * counted as two different tournaments, and 60 of 131 games were tagged
+ * "משחק הכנה" — which is not a competition, it is the absence of one.
+ */
+const STAGE_WORDS = /^(חצי גמר|גמר|רבע גמר|שלב גמר|מארחת|שלב הבתים)$/;
+function splitType(raw) {
+  let s = String(raw || "").trim();
+  if (!s || s === "-") return { tournament: null, stage: null, flags: [] };
+
+  const flags = [];
+  let stage = null;
+  s = s.replace(/\(([^)]*)\)/g, (_, inner) => {
+    const v = inner.trim();
+    if (STAGE_WORDS.test(v)) stage = v;
+    else flags.push(v);
+    return " ";
+  }).replace(/\s+/g, " ").trim();
+
+  // A plain friendly carries no competition name.
+  if (/^משחק(י)? הכנה$/.test(s) || /^משחק ידידות$/.test(s)) s = "";
+  return { tournament: s || null, stage, flags };
+}
+
 function parseTime(dateLabel) {
   const m = String(dateLabel || "").match(/(\d{1,2}):(\d{2})/);
   return m ? `${m[1].padStart(2, "0")}:${m[2]}` : null;
@@ -127,7 +152,7 @@ for (const r of rows) {
       : [],
     opponentTbd: isUnknownOpponent(r.opponent),
     venue: r.location && r.location !== "-" ? r.location : null,
-    tournament: r.type && r.type !== "-" ? r.type : null,
+    ...splitType(r.type),
     broadcast: [],
     confidence: 1,
     sources: [],
@@ -144,6 +169,8 @@ for (const r of rows) {
     g.time ||= record.time;
     g.venue ||= record.venue;
     g.tournament ||= record.tournament;
+    g.stage ||= record.stage;
+    for (const f of record.flags) if (!g.flags.includes(f)) g.flags.push(f);
     g.homeTeam ||= record.homeTeam;
     g.awayTeam ||= record.awayTeam;
     for (const id of record.teams) if (!g.teams.includes(id)) g.teams.push(id);

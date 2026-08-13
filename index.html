@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>קדם עונה 2026-27 | כדורסל אירופה</title>
+<meta name="description" content="לוח משחקי ההכנה של מועדוני הכדורסל הגדולים באירופה, מתעדכן אוטומטית">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --court-bg:#F6F1E6; --wood:#B9793F; --wood-dark:#7A4B24;
+    --ink:#1E2430; --ink-soft:#4B5563; --line:#E4D9C4;
+    --orange:#E85A1B; --card:#FFFFFF;
+    --euroleague:#1E2430; --eurocup:#1D6F5C; --bcl:#2B6CB0;
+    --aba:#8B3A62; --domestic:#8A7A55;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--court-bg);
+    background-image:
+      radial-gradient(circle at 12% 8%, rgba(232,90,27,.05), transparent 40%),
+      radial-gradient(circle at 90% 85%, rgba(122,75,36,.06), transparent 45%);
+    color:var(--ink); font-family:'Heebo',sans-serif;
+    min-height:100vh; padding:28px 18px 60px;
+  }
+  .wrap{max-width:1080px;margin:0 auto;}
+
+  header{
+    background:linear-gradient(160deg,var(--ink) 0%,#2B3446 100%);
+    border-radius:18px; padding:26px 28px; color:#fff;
+    position:relative; overflow:hidden;
+    box-shadow:0 14px 30px -14px rgba(30,36,48,.55);
+  }
+  header::before{
+    content:""; position:absolute; inset:0; pointer-events:none;
+    background-image:repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 2px, transparent 2px 34px);
+  }
+  .eyebrow{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;
+    font-size:12.5px;color:#F0A874;margin:0 0 6px;}
+  h1{font-family:'Oswald',sans-serif;font-weight:700;font-size:clamp(26px,4vw,38px);margin:0 0 6px;}
+  header p.sub{margin:0;color:#C9CFDA;font-size:14.5px;max-width:640px;line-height:1.6;}
+  .freshness{margin-top:14px;font-size:12.5px;color:#8E97A6;position:relative;}
+  .freshness b{color:#F0A874;font-weight:600;}
+
+  .scoreboard{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;position:relative;}
+  .sb-tile{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);
+    border-radius:12px;padding:10px 16px;min-width:104px;text-align:center;}
+  .sb-tile .n{font-family:'Oswald',sans-serif;font-size:24px;font-weight:700;color:var(--orange);line-height:1.1;}
+  .sb-tile .l{font-size:11.5px;color:#B7BECC;margin-top:2px;}
+
+  .controls{margin-top:22px;display:flex;flex-direction:column;gap:14px;}
+  .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  .toggle{display:inline-flex;background:var(--card);border:1px solid var(--line);
+    border-radius:12px;padding:4px;gap:4px;box-shadow:0 2px 6px rgba(122,75,36,.06);}
+  .toggle button{font-family:'Heebo',sans-serif;font-weight:600;font-size:14.5px;
+    border:none;background:transparent;color:var(--ink-soft);padding:9px 18px;
+    border-radius:9px;cursor:pointer;transition:.15s ease;}
+  .toggle button.active{background:var(--ink);color:#fff;}
+  .toggle button:not(.active):hover{background:var(--court-bg);color:var(--ink);}
+  input[type="search"]{font-family:'Heebo',sans-serif;flex:1;min-width:200px;
+    border:1px solid var(--line);border-radius:12px;padding:11px 16px;
+    font-size:14.5px;background:var(--card);color:var(--ink);}
+  input[type="search"]:focus{outline:2px solid var(--orange);outline-offset:1px;}
+  .chip{font-family:'Heebo',sans-serif;font-size:13px;font-weight:600;
+    border:1.5px solid var(--line);background:var(--card);color:var(--ink-soft);
+    border-radius:999px;padding:7px 14px;cursor:pointer;
+    display:inline-flex;align-items:center;gap:7px;transition:.15s ease;}
+  .chip .dot{width:8px;height:8px;border-radius:50%;display:inline-block;}
+  .chip.active{border-color:transparent;color:#fff;}
+  .chip:not(.active):hover{border-color:var(--wood);}
+
+  .group{margin-top:30px;}
+  .group-head{display:flex;align-items:baseline;gap:12px;margin-bottom:12px;
+    padding-bottom:8px;border-bottom:2px solid var(--wood);flex-wrap:wrap;}
+  .group-head h2{font-family:'Oswald',sans-serif;font-size:19px;font-weight:600;margin:0;color:var(--ink);}
+  .group-head .count{font-size:12.5px;color:#fff;background:var(--wood);
+    border-radius:999px;padding:2px 10px;font-weight:600;}
+  .comp-tag{font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:6px;color:#fff;}
+
+  .games{display:flex;flex-direction:column;gap:10px;}
+  .game{background:var(--card);border:1px solid var(--line);
+    border-inline-start:5px solid var(--wood);border-radius:12px;padding:14px 16px;
+    display:grid;grid-template-columns:92px 1fr auto;gap:14px;align-items:center;
+    box-shadow:0 2px 8px rgba(30,36,48,.04);}
+  .game.tbd{border-inline-start-color:#C9BFA6;
+    background:repeating-linear-gradient(135deg,#FBF9F4 0 10px,#F5F0E5 10px 20px);}
+  .date-badge{font-family:'Oswald',sans-serif;text-align:center;background:var(--ink);
+    color:#fff;border-radius:10px;padding:8px 4px;line-height:1.15;}
+  .date-badge .d{font-size:20px;font-weight:700;}
+  .date-badge .m{font-size:11px;letter-spacing:.05em;color:#F0A874;text-transform:uppercase;}
+  .date-badge .t{font-size:11.5px;color:#C9CFDA;margin-top:3px;}
+  .date-badge.no-date{background:#D9D2C0;color:#7A6F55;}
+  .date-badge.no-date .m{color:#7A6F55;}
+
+  .g-main{min-width:0;}
+  .g-teams{font-size:16px;font-weight:700;color:var(--ink);
+    display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+  .g-teams .vs{font-weight:400;color:var(--ink-soft);font-size:13px;}
+  .g-meta{margin-top:5px;font-size:13px;color:var(--ink-soft);
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
+  .g-meta .venue::before{content:"\1F4CD";margin-inline-end:4px;font-size:11px;}
+  .g-meta .flag{font-size:11.5px;color:#8A7A55;background:#F3EDE0;
+    border-radius:5px;padding:1px 7px;}
+  .g-note{margin-top:6px;font-size:12.5px;color:#8A7A55;font-style:italic;}
+  .g-side{display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
+
+  .watch{font-size:12.5px;font-weight:600;text-decoration:none;color:#fff;
+    background:var(--orange);border-radius:8px;padding:6px 12px;white-space:nowrap;}
+  .watch:hover{background:#C7440E;}
+  .watch.text-only{background:transparent;color:var(--ink-soft);
+    border:1px solid var(--line);font-weight:500;}
+  .unconfirmed{font-size:11px;color:#A08A5E;border:1px dashed #D6C9A8;
+    border-radius:6px;padding:1px 7px;white-space:nowrap;}
+
+  .empty{text-align:center;padding:60px 20px;color:var(--ink-soft);}
+  footer{margin-top:40px;text-align:center;font-size:12.5px;color:#8A7A55;line-height:1.9;}
+  footer a{color:var(--wood-dark);}
+
+  @media (max-width:640px){
+    .game{grid-template-columns:66px 1fr;}
+    .g-side{grid-column:1 / -1;flex-direction:row;align-items:center;justify-content:flex-start;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Preseason 2026-27</p>
+    <h1>קדם עונה — כדורסל אירופה</h1>
+    <p class="sub">כל משחק שאינו משחק ליגה רשמי: ידידויות, טורנירי הכנה, סופרקאפים וגביעים. נאסף אוטומטית מאתרי הספורט ומאתרי המועדונים.</p>
+    <div class="scoreboard">
+      <div class="sb-tile"><div class="n" id="sbGames">–</div><div class="l">משחקים</div></div>
+      <div class="sb-tile"><div class="n" id="sbTeams">–</div><div class="l">קבוצות</div></div>
+      <div class="sb-tile"><div class="n" id="sbTournaments">–</div><div class="l">טורנירים</div></div>
+      <div class="sb-tile"><div class="n" id="sbBroadcast">–</div><div class="l">עם שידור</div></div>
+    </div>
+    <p class="freshness" id="freshness"></p>
+  </header>
+
+  <div class="controls">
+    <div class="row">
+      <div class="toggle" id="views">
+        <button data-view="date" class="active">לפי תאריך</button>
+        <button data-view="team">לפי קבוצה</button>
+        <button data-view="tournament">לפי טורניר</button>
+      </div>
+      <input type="search" id="q" placeholder="חיפוש קבוצה, אולם, עיר או טורניר…" aria-label="חיפוש">
+    </div>
+    <div class="row" id="chips"></div>
+  </div>
+
+  <main id="content"><div class="empty">טוען…</div></main>
+
+  <footer>
+    <p>הנתונים נאספים אוטומטית ועשויות להיות בהם שגיאות. משחק שדווח ע"י מקור יחיד מסומן בהתאם.</p>
+    <p><a href="https://github.com/dubiyak/preseason-basketball" target="_blank" rel="noopener">קוד ונתונים בגיטהאב</a></p>
+  </footer>
+</div>
+
+<script>
+const COMPETITIONS = {
+  euroleague:{label:"יורוליג",   color:"var(--euroleague)"},
+  eurocup:   {label:"יורוקאפ",   color:"var(--eurocup)"},
+  bcl:       {label:"BCL",        color:"var(--bcl)"},
+  aba:       {label:"אדריאטית",  color:"var(--aba)"},
+  domestic:  {label:"ליגות מקומיות", color:"var(--domestic)"},
+};
+const MONTHS = ["ינו","פבר","מרץ","אפר","מאי","יונ","יול","אוג","ספט","אוק","נוב","דצמ"];
+
+let GAMES = [], TEAMS = new Map(), META = {};
+let view = "date";
+let active = new Set(Object.keys(COMPETITIONS));
+let query = "";
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const teamName = id => TEAMS.get(id)?.name_he || "—";
+
+// A game inherits the competitions of the clubs playing in it.
+function gameCompetitions(g){
+  const out = new Set();
+  for (const id of g.teams) for (const c of (TEAMS.get(id)?.competitions || [])) out.add(c);
+  return [...out];
+}
+function primaryCompetition(g){
+  const order = ["euroleague","eurocup","bcl","aba","domestic"];
+  const comps = gameCompetitions(g);
+  return order.find(c => comps.includes(c)) || "domestic";
+}
+
+function matchup(g){
+  const names = g.teams.map(teamName);
+  if (g.homeTeam && g.awayTeam)
+    return `${esc(teamName(g.homeTeam))} <span class="vs">מארחת</span> ${esc(teamName(g.awayTeam))}`;
+  if (g.candidates?.length)
+    return `${esc(names[0])} <span class="vs">מול</span> ${esc(g.candidates.join(" / "))}`;
+  if (g.opponentTbd)
+    return `${esc(names[0])} <span class="vs">— יריבה טרם נקבעה</span>`;
+  return names.map(esc).join(' <span class="vs">מול</span> ');
+}
+
+function dateBadge(g){
+  if (!g.date)
+    return `<div class="date-badge no-date"><div class="d">?</div><div class="m">${esc(g.dateLabel || "טרם נקבע")}</div></div>`;
+  const [, m, d] = g.date.split("-");
+  return `<div class="date-badge">
+      <div class="d">${parseInt(d,10)}</div>
+      <div class="m">${MONTHS[parseInt(m,10)-1]}</div>
+      ${g.time ? `<div class="t">${esc(g.time)}</div>` : ""}
+    </div>`;
+}
+
+function broadcastEl(g){
+  const b = (g.broadcast || [])[0];
+  if (!b) return "";
+  return b.url
+    ? `<a class="watch" href="${esc(b.url)}" target="_blank" rel="noopener">צפייה · ${esc(b.name)}</a>`
+    : `<span class="watch text-only">${esc(b.name)}</span>`;
+}
+
+function gameCard(g){
+  const comp = COMPETITIONS[primaryCompetition(g)];
+  const tbd = !g.date || g.opponentTbd;
+  return `<article class="game ${tbd ? "tbd" : ""}" style="border-inline-start-color:${comp.color}">
+    ${dateBadge(g)}
+    <div class="g-main">
+      <div class="g-teams">${matchup(g)}</div>
+      <div class="g-meta">
+        ${g.tournament ? `<span class="comp-tag" style="background:${comp.color}">${
+          esc(g.tournament)}${g.stage ? ` · ${esc(g.stage)}` : ""}</span>` : ""}
+        ${g.venue ? `<span class="venue">${esc(g.venue)}</span>` : ""}
+        ${(g.flags || []).map(f => `<span class="flag">${esc(f)}</span>`).join("")}
+      </div>
+      ${g.notes?.length ? `<div class="g-note">${esc(g.notes[0])}</div>` : ""}
+    </div>
+    <div class="g-side">
+      ${broadcastEl(g)}
+      ${g.confidence < 2 ? `<span class="unconfirmed" title="דווח על ידי מקור אחד בלבד">מקור יחיד</span>` : ""}
+    </div>
+  </article>`;
+}
+
+function filtered(){
+  return GAMES.filter(g => {
+    if (!gameCompetitions(g).some(c => active.has(c))) return false;
+    if (!query) return true;
+    const hay = [
+      ...g.teams.map(teamName), ...(g.candidates || []),
+      g.tournament, g.venue, g.dateLabel,
+    ].join(" ").toLowerCase();
+    return hay.includes(query);
+  });
+}
+
+function groupBlock(title, comp, list){
+  return `<section class="group">
+    <div class="group-head">
+      <h2>${esc(title)}</h2>
+      <span class="count">${list.length}</span>
+      ${comp ? `<span class="comp-tag" style="background:${comp.color}">${comp.label}</span>` : ""}
+    </div>
+    <div class="games">${list.map(gameCard).join("")}</div>
+  </section>`;
+}
+
+function render(){
+  const games = filtered();
+  const el = document.getElementById("content");
+  if (!games.length){
+    el.innerHTML = `<div class="empty">אין משחקים שתואמים לסינון.</div>`;
+    return;
+  }
+  const byDate = (a,b) => (a.date || "9999").localeCompare(b.date || "9999");
+  let html = "";
+
+  if (view === "team"){
+    const groups = new Map();
+    for (const g of games)
+      for (const id of g.teams)
+        (groups.get(id) || groups.set(id, []).get(id)).push(g);
+    const order = ["euroleague","eurocup","bcl","aba","domestic"];
+    html = [...groups.entries()]
+      .sort((a,b) => {
+        const ai = order.indexOf((TEAMS.get(a[0])?.competitions || ["domestic"])[0]);
+        const bi = order.indexOf((TEAMS.get(b[0])?.competitions || ["domestic"])[0]);
+        return ai - bi || teamName(a[0]).localeCompare(teamName(b[0]), "he");
+      })
+      .map(([id, list]) => {
+        const c = (TEAMS.get(id)?.competitions || [])[0];
+        return groupBlock(teamName(id), COMPETITIONS[c], list.sort(byDate));
+      }).join("");
+  }
+  else if (view === "tournament"){
+    const groups = new Map();
+    for (const g of games){
+      const k = g.tournament || "משחקי הכנה";
+      (groups.get(k) || groups.set(k, []).get(k)).push(g);
+    }
+    html = [...groups.entries()]
+      .sort((a,b) => b[1].length - a[1].length)
+      .map(([k, list]) => groupBlock(k, null, list.sort(byDate))).join("");
+  }
+  else {
+    const groups = new Map();
+    for (const g of games.slice().sort(byDate)){
+      const k = g.date || "zzz";
+      (groups.get(k) || groups.set(k, []).get(k)).push(g);
+    }
+    html = [...groups.entries()].map(([k, list]) => {
+      const title = k === "zzz" ? "תאריך טרם נקבע"
+        : new Date(k + "T00:00:00").toLocaleDateString("he-IL",
+            {weekday:"long", day:"numeric", month:"long", year:"numeric"});
+      return groupBlock(title, null, list);
+    }).join("");
+  }
+  el.innerHTML = html;
+}
+
+function renderChips(){
+  document.getElementById("chips").innerHTML = Object.entries(COMPETITIONS).map(([k,v]) => {
+    const on = active.has(k);
+    return `<button class="chip ${on ? "active" : ""}" data-comp="${k}"
+      ${on ? `style="background:${v.color};border-color:${v.color}"` : ""}>
+      <span class="dot" style="background:${on ? "#fff" : v.color}"></span>${v.label}</button>`;
+  }).join("");
+  document.querySelectorAll("#chips .chip").forEach(c => c.onclick = () => {
+    const k = c.dataset.comp;
+    active.has(k) ? active.delete(k) : active.add(k);
+    if (!active.size) active = new Set(Object.keys(COMPETITIONS));
+    renderChips(); render();
+  });
+}
+
+function renderStats(){
+  document.getElementById("sbGames").textContent = GAMES.length;
+  document.getElementById("sbTeams").textContent =
+    new Set(GAMES.flatMap(g => g.teams)).size;
+  document.getElementById("sbTournaments").textContent =
+    new Set(GAMES.map(g => g.tournament).filter(t => t && t !== "משחק הכנה")).size;
+  document.getElementById("sbBroadcast").textContent =
+    GAMES.filter(g => g.broadcast?.length).length;
+
+  const f = document.getElementById("freshness");
+  if (META.updated){
+    const d = new Date(META.updated);
+    f.innerHTML = `עודכן לאחרונה <b>${d.toLocaleString("he-IL",
+      {day:"numeric", month:"long", hour:"2-digit", minute:"2-digit"})}</b>` +
+      (META.newGames ? ` · <b>${META.newGames}</b> משחקים חדשים בסבב האחרון` : "");
+  } else {
+    f.textContent = "טרם רץ עדכון אוטומטי — הנתונים מהייבוא הראשוני.";
+  }
+}
+
+(async function init(){
+  try{
+    const [gRes, tRes] = await Promise.all([
+      fetch("data/games.json", {cache:"no-store"}),
+      fetch("data/teams.json", {cache:"no-store"}),
+    ]);
+    const gData = await gRes.json(), tData = await tRes.json();
+    GAMES = gData.games || [];
+    META = {updated: gData.updated, newGames: gData.newGames};
+    TEAMS = new Map((tData.teams || []).map(t => [t.id, t]));
+  } catch (e){
+    document.getElementById("content").innerHTML =
+      `<div class="empty">שגיאה בטעינת הנתונים.</div>`;
+    return;
+  }
+  renderChips(); renderStats(); render();
+
+  document.querySelectorAll("#views button").forEach(b => b.onclick = () => {
+    document.querySelectorAll("#views button").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    view = b.dataset.view;
+    render();
+  });
+  let t;
+  document.getElementById("q").oninput = e => {
+    clearTimeout(t);
+    t = setTimeout(() => { query = e.target.value.trim().toLowerCase(); render(); }, 120);
+  };
+})();
+</script>
+</body>
+</html>
