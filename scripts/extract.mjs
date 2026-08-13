@@ -15,9 +15,26 @@ import fs from "node:fs";
 import path from "node:path";
 
 const DATA = path.resolve(import.meta.dirname, "..", "data");
-// A rolling alias, not a pinned version. Pinned 2.5 models are already closed
-// to new keys, and this job has to keep running unattended for months.
-const MODEL = process.env.GEMINI_MODEL || "gemini-flash-latest";
+/**
+ * The free tier allows 20 requests per DAY per model — measured, not assumed;
+ * the first full run burned through it in minutes. Two things buy back the
+ * headroom:
+ *
+ *   1. The quota is per model, so each of these carries its own bucket.
+ *      Four models is 80 requests a day.
+ *   2. Each request carries a batch of articles rather than one.
+ *
+ * 80 requests x BATCH articles is far more than a day's news. Rolling aliases
+ * rather than pinned versions: gemini-2.5-flash is already closed to new keys,
+ * and a job meant to run unattended for months cannot depend on one version.
+ */
+const MODELS = (process.env.GEMINI_MODELS || [
+  "gemini-flash-latest",
+  "gemini-flash-lite-latest",
+  "gemini-3-flash-preview",
+  "gemini-3.1-flash-lite-preview",
+].join(",")).split(",").map((s) => s.trim()).filter(Boolean);
+const BATCH = Number(process.env.BATCH_SIZE || 5);
 const UA = "Mozilla/5.0 (compatible; preseason-basketball/1.0; +https://github.com/dubiyak/preseason-basketball)";
 // Free tier allows ~10 requests/minute. Stay under it rather than get throttled.
 const GAP_MS = 6500;
@@ -75,6 +92,7 @@ const SCHEMA = {
       items: {
         type: "object",
         properties: {
+          articleIndex: { type: "integer", description: "the number of the ARTICLE block this game came from" },
           date: { type: "string", description: "ISO yyyy-mm-dd, or empty string if the article gives no resolvable date" },
           dateText: { type: "string", description: "the date exactly as written in the article" },
           time: { type: "string", description: "HH:MM local, or empty" },
@@ -92,14 +110,16 @@ const SCHEMA = {
           isNationalTeam: { type: "boolean", description: "true if either side is a national team rather than a club" },
           closedDoors: { type: "boolean" },
         },
-        required: ["date", "dateText", "teams", "isOfficialLeagueGame"],
+        required: ["articleIndex", "date", "dateText", "teams", "isOfficialLeagueGame"],
       },
     },
   },
   required: ["games"],
 };
 
-const PROMPT = `You extract basketball fixtures from a news article. The season is 2026-27; preseason runs August-September 2026.
+const PROMPT = `You extract basketball fixtures from news articles. The season is 2026-27; preseason runs August-September 2026.
+
+You are given several numbered ARTICLE blocks. Treat each one independently and never carry information from one into another. Every game you return must set articleIndex to the number of the block it came from.
 
 Rules:
 - Extract every scheduled game the article states. Do not infer games that are not there.
@@ -112,27 +132,19 @@ Rules:
 
 Return only games. If the article contains none, return an empty array.`;
 
-/** 503 and 429 are the free tier's normal weather, not a reason to give up. */
-async function withRetry(fn, tries = 4) {
-  let wait = 8000;
-  for (let i = 0; i < tries; i++) {
-    const out = await fn();
-    if (!out.error || !/^(503|429|500)/.test(out.error)) return out;
-    if (i === tries - 1) return out;
-    await new Promise((r) => setTimeout(r, wait));
-    wait *= 2;
-  }
-}
+// Models whose daily quota is spent. Once emptied there is nothing to do but
+// stop and leave the rest for the next run — the cache means no work is lost.
+const spent = new Set();
 
-async function callModelOnce(text, title) {
+async function callModelOnce(model, text) {
   const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${KEY}`,
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: PROMPT }] },
-        contents: [{ parts: [{ text: `HEADLINE: ${title}\n\nARTICLE:\n${text}` }] }],
+        contents: [{ parts: [{ text }] }],
         generationConfig: {
           temperature: 0,
           responseMimeType: "application/json",
@@ -152,7 +164,25 @@ async function callModelOnce(text, title) {
   catch { return { error: "unparseable json" }; }
 }
 
-const callModel = (text, title) => withRetry(() => callModelOnce(text, title));
+/**
+ * Try each model that still has quota. A 429 retires that model for the run
+ * and moves to the next; a 503 is transient load, so back off and try again.
+ */
+async function callModel(text) {
+  for (const model of MODELS) {
+    if (spent.has(model)) continue;
+    let wait = 8000;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      const out = await callModelOnce(model, text);
+      if (!out.error) return { ...out, model };
+      if (/^429/.test(out.error)) { spent.add(model); break; }
+      if (!/^(503|500)/.test(out.error)) return out;
+      await new Promise((r) => setTimeout(r, wait));
+      wait *= 2;
+    }
+  }
+  return { error: "all models out of quota", exhausted: true };
+}
 
 /* ---------- run ---------- */
 const cachePath = path.join(DATA, "extracted.json");
@@ -169,49 +199,65 @@ console.log(
   (unread.length > todo.length ? ` · deferred ${unread.length - todo.length} (MAX_ARTICLES)` : "")
 );
 
-let games = 0, official = 0, national = 0, failed = 0;
-for (const [i, c] of todo.entries()) {
+let games = 0, official = 0, national = 0, failed = 0, stopped = false;
+
+// Fetch first, batch second: an article with no readable text must not take up
+// a slot in a batch, and fetching is free.
+const fetched = [];
+for (const c of todo) {
   const text = await articleText(c.url);
   if (!text || text.length < 200) {
     cache.articles[c.url] = { ok: false, why: "no readable text", title: c.title };
     failed++;
     continue;
   }
+  fetched.push({ ...c, text });
+}
 
-  const { data, error } = await callModel(text, c.title);
+for (let i = 0; i < fetched.length; i += BATCH) {
+  const batch = fetched.slice(i, i + BATCH);
+  const prompt = batch
+    .map((a, n) => `ARTICLE ${n}\nHEADLINE: ${a.title}\nTEXT:\n${a.text}`)
+    .join("\n\n-----\n\n");
+
+  const { data, error, exhausted, model } = await callModel(prompt);
   if (error) {
-    // Not cached: a transient failure must be retried on the next run, not
-    // remembered as "this article has no games".
-    console.log(`  ! ${c.outlet} · ${error}`);
-    failed++;
-    await new Promise((r) => setTimeout(r, GAP_MS));
+    // Deliberately not cached: a throttled call must be retried next run, not
+    // remembered as "these articles have no games".
+    console.log(`  ! batch of ${batch.length} · ${error.slice(0, 90)}`);
+    failed += batch.length;
+    if (exhausted) { stopped = true; break; }
     continue;
   }
 
   const all = data.games || [];
-  const found = all.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam);
-  official += all.filter((g) => g.isOfficialLeagueGame).length;
-  national += all.filter((g) => !g.isOfficialLeagueGame && g.isNationalTeam).length;
-  games += found.length;
+  for (const [n, a] of batch.entries()) {
+    const mine = all.filter((g) => g.articleIndex === n);
+    const found = mine.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam);
+    official += mine.filter((g) => g.isOfficialLeagueGame).length;
+    national += mine.filter((g) => !g.isOfficialLeagueGame && g.isNationalTeam).length;
+    games += found.length;
 
-  cache.articles[c.url] = {
-    ok: true, title: c.title, outlet: c.outlet, published: c.published,
-    readAt: new Date().toISOString(), games: found,
-  };
+    cache.articles[a.url] = {
+      ok: true, title: a.title, outlet: a.outlet, published: a.published,
+      readAt: new Date().toISOString(), model, games: found,
+    };
 
-  if (found.length) {
-    console.log(`[${found.length}] ${c.outlet} · ${c.title.slice(0, 62)}`);
-    for (const g of found.slice(0, 4)) {
-      const who = g.homeTeam && g.awayTeam ? `${g.homeTeam} v ${g.awayTeam}` : (g.teams || []).join(" v ");
-      console.log(`      ${g.date || g.dateText || "?"} ${g.time || ""} ${who}${g.tournament ? ` · ${g.tournament}` : ""}`);
+    if (found.length) {
+      console.log(`[${found.length}] ${a.outlet} · ${a.title.slice(0, 60)}`);
+      for (const g of found.slice(0, 4)) {
+        const who = g.homeTeam && g.awayTeam ? `${g.homeTeam} v ${g.awayTeam}` : (g.teams || []).join(" v ");
+        console.log(`      ${g.date || g.dateText || "?"} ${g.time || ""} ${who}${g.tournament ? ` · ${g.tournament}` : ""}`);
+      }
     }
   }
-
-  if (i < todo.length - 1) await new Promise((r) => setTimeout(r, GAP_MS));
+  await new Promise((r) => setTimeout(r, GAP_MS));
 }
 
 fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2));
-console.log(`\nfixtures extracted : ${games}`);
-console.log(`league games skipped: ${official}`);
+console.log(`\nfixtures extracted    : ${games}`);
+console.log(`league games skipped  : ${official}`);
 console.log(`national teams skipped: ${national}`);
-console.log(`articles failed    : ${failed}`);
+console.log(`articles failed       : ${failed}`);
+console.log(`models spent today    : ${[...spent].join(", ") || "none"}`);
+if (stopped) console.log(`stopped early — quota exhausted; the rest are cached as unread and resume next run`);
