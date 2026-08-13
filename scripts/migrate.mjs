@@ -31,8 +31,12 @@ const rows = eval(literal); // trusted local file
 /* ---------- 2. name normalisation ---------- */
 // Strips gershayim, quotes, sponsor prefixes and whitespace so that
 // "הפועל ירושלים \"מידטאון\"" and "הפועל ירושלים" collapse to one key.
+// Turkish and Spanish clubs are routinely written with the current shirt
+// sponsor in front. Erokspor appears as both "Esenler Erokspor" and
+// "Safiport Erokspor" across two seasons of reporting — same club.
 const SPONSOR_PREFIXES = [
   "אסיסה", "סורנה", "מונבוס", "קסדמונט", "קוביראן", "MLP", "Glint",
+  "Esenler", "Safiport", "Yukatel", "Kosner", "Bahçeşehir Koleji",
 ];
 function normName(raw) {
   let s = String(raw || "").trim();
@@ -229,15 +233,17 @@ if (fs.existsSync(manualPath)) {
   const manual = JSON.parse(fs.readFileSync(manualPath, "utf8"));
   for (const m of manual.games || []) {
     touchTeam(m.team, null, { canonical: true });
+    if (m.opponent) touchTeam(m.opponent, null);
     for (const c of m.candidates || []) touchTeam(c, null);
 
-    const key = "manual:" + [normName(m.team), m.date || "", m.tournament || ""].join("|");
+    const key = "manual:" +
+      [normName(m.team), normName(m.opponent || ""), m.date || "", m.time || "", m.tournament || ""].join("|");
     games.set(key, {
       id: "g_" + crypto.createHash("sha1").update(key).digest("hex").slice(0, 10),
       date: m.date || null,
       dateLabel: m.dateLabel || null,
       time: m.time || null,
-      teams: [slug(m.team)],
+      teams: [slug(m.team)].concat(m.opponent ? [slug(m.opponent)] : []),
       homeTeam: m.homeTeam ? slug(m.homeTeam) : null,
       awayTeam: m.awayTeam ? slug(m.awayTeam) : null,
       candidates: m.candidates || [],

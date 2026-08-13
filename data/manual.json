@@ -55,6 +55,52 @@
         { "name": "ספורט 1", "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/" },
         { "name": "ערוץ הספורט", "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067" }
       ]
+    },
+
+    {
+      "_why": "Found by the collector, not by hand. Whole tournament absent from the seed. Fills gaps for three tracked clubs, two of which the manual pass had listed as 'not found' (AEK, Trabzonspor).",
+      "team": "אנאדולו אפס",
+      "opponent": "ארוקספור",
+      "date": "2026-09-04",
+      "dateLabel": "4.9",
+      "time": "16:30",
+      "tournament": "טורניר TÜBAD Mehmet Baturalp",
+      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
+      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
+    },
+    {
+      "team": "טרבזונספור",
+      "opponent": "AEK אתונה",
+      "date": "2026-09-04",
+      "dateLabel": "4.9",
+      "time": "19:00",
+      "tournament": "טורניר TÜBAD Mehmet Baturalp",
+      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
+      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
+    },
+    {
+      "team": "אנאדולו אפס",
+      "date": "2026-09-05",
+      "dateLabel": "5.9",
+      "time": "16:30",
+      "candidates": ["ארוקספור", "טרבזונספור", "AEK אתונה"],
+      "tournament": "טורניר TÜBAD Mehmet Baturalp",
+      "stage": "גמר",
+      "venue": { "arena": "Turkcell Basketbol Gelişim Merkezi", "city": "איסטנבול", "country": "טורקיה" },
+      "flags": ["נקבע לפי תוצאות היום הראשון"],
+      "sources": [{ "name": "basketdergisi.com", "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html" }]
+    },
+
+    {
+      "_why": "Second game of the Giannakopoulos tournament. The seed had Partizan there as a single 18-19.9 entry against PAOK; hotsport 12.8.2026 shows two separate games.",
+      "team": "פרטיזן בלגרד",
+      "date": "2026-09-19",
+      "dateLabel": "19.9",
+      "candidates": [],
+      "tournament": "טורניר פאבלוס יאנאקופולוס",
+      "venue": { "arena": null, "city": "אתונה", "country": "יוון" },
+      "flags": ["יריבה תיקבע בהמשך"],
+      "sources": [{ "name": "hotsport.rs", "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/" }]
     }
   ]
 }
