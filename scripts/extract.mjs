@@ -112,6 +112,10 @@ const PROMPT = `You extract BASKETBALL fixtures. The season is 2026-27; preseaso
 
 Many European clubs are multi-sport. fcbarcelona.com and Real Madrid's site list football alongside basketball. If a page is about football, handball or any other sport, return nothing for it — a football fixture at Camp Nou is not a miss, it is the wrong sport. Return only games between basketball teams.
 
+This tracks MEN'S basketball only. Women's competitions are often published on the same sites and look identical: "Liga Femenina", "Supercopa LF Endesa", "baloncesto femenino", "EuroLeague Women", "female", "kadınlar", "γυναικών". Return nothing for those.
+
+A page of PAST results is not a fixture list. Competition sites keep a history — acb.com/supercopa lists every previous final. Only take games from the 2026-27 season; if a page is showing earlier seasons, return nothing for it.
+
 You are given several numbered ARTICLE blocks. Treat each one independently and never carry information from one into another. Every game you return must set articleIndex to the number of the block it came from.
 
 Rules:
@@ -230,6 +234,9 @@ const isRealTeam = (s) => {
   return v.length > 2 && !PLACEHOLDER.test(v);
 };
 
+const WOMENS = /(femenin|femminil|women|féminin|frauen|kadinlar|kadınlar|γυναικών|zenska|ženska|moteru|moterų|sieviesu|sieviešu|kobiet)|LF|WNBA/i;
+const isWomens = (g, url) => WOMENS.test([g.tournament, g.homeTeam, g.awayTeam, ...(g.teams||[]), url].join(" "));
+
 function hasTeams(g) {
   const names = [g.homeTeam, g.awayTeam, ...(g.teams || [])].filter(isRealTeam);
   return names.length > 0;
@@ -243,11 +250,29 @@ function hasTeams(g) {
  */
 function dropImpossibleResult(g, today) {
   if (!g.played) return false;
-  if (g.date && g.date > today) {
+  // A game that has been played happened on a day. acb.com/es/supercopa
+  // carries the competition's past finals, and "Real Madrid 94:98 Valencia"
+  // arrived with no date at all — last season's final, which the window check
+  // waved through precisely because it had no date to judge.
+  if (!g.date || g.date > today) {
     g.played = false; g.homeScore = null; g.awayScore = null;
     return true;
   }
   return false;
+}
+
+/**
+ * A broadcaster is a channel, not an account. A Budućnost tweet gave
+ * "@RTCGme" as the broadcaster: a Twitter handle, no link, on a game with no
+ * date. Shown on a card it is worse than showing nothing — it looks like
+ * information and cannot be acted on.
+ */
+function cleanBroadcast(g) {
+  const name = String(g.broadcaster || "").trim();
+  if (!name) return;
+  const bare = /^@\w+$/.test(name);
+  if (bare && !g.broadcastUrl) { g.broadcaster = ""; return; }
+  if (bare) g.broadcaster = name.replace(/^@/, "");
 }
 
 /** Drop placeholder names in place, flagging the opponent as undecided. */
@@ -341,10 +366,11 @@ for (let i = 0; i < fetched.length; i += BATCH) {
     for (const g of mine) {
       if (g.time === "00:00" || g.time === "0:00") g.time = "";
       if (dropImpossibleResult(g, TODAY)) impossible++;
+      cleanBroadcast(g);
       cleanTeams(g);
     }
     const found = mine.filter((g) =>
-      !g.isOfficialLeagueGame && !g.isNationalTeam && inSeason(g) && hasTeams(g));
+      !g.isOfficialLeagueGame && !g.isNationalTeam && inSeason(g) && hasTeams(g) && !isWomens(g, a.url));
     official += mine.filter((g) => g.isOfficialLeagueGame).length;
     rejected += mine.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam && (!inSeason(g) || !hasTeams(g))).length;
     national += mine.filter((g) => !g.isOfficialLeagueGame && g.isNationalTeam).length;
