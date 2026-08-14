@@ -42,7 +42,31 @@ const MODELS = (process.env.GEMINI_MODELS ||
   .split(",").map((s) => s.trim());
 
 /* ---------- 1. clubs ---------- */
+/**
+ * Seed clubs PLUS every club discovered since.
+ *
+ * aliases.json remembered "this name is club t_abc" forever, but the club
+ * RECORDS were rebuilt from seed.teams alone on every run. So a club the
+ * resolver created in one run was still referenced by its games in the next,
+ * while its record no longer existed — 83 ids with no entry, and 146 games
+ * rendering a dash where a team name belongs. Discovered clubs are durable
+ * now, kept in registry.json alongside the facts collected about them.
+ */
 const clubs = new Map(seed.teams.map((t) => [t.id, { ...t, aliases: [...(t.aliases || [])] }]));
+for (const [id, c] of Object.entries(registry.clubs)) {
+  if (clubs.has(id) || !c.name_he) continue;
+  clubs.set(id, {
+    id,
+    name_he: c.name_he,
+    name_src: c.name_src || null,
+    aliases: [...(c.aliases || [])],
+    competitions: [...(c.competitions || [])],
+    country: c.country || null,
+    homeArena: c.homeArena || null,
+    website: c.website || null,
+    newsUrl: c.newsUrl || null,
+  });
+}
 let index = buildIndex([...clubs.values()]);
 
 /**
@@ -170,6 +194,16 @@ if (unresolved.length) {
         if (!clubs.has(c.id)) clubs.set(c.id, c);
         else if (!clubs.get(c.id).aliases.includes(r.name)) clubs.get(c.id).aliases.push(r.name);
         aliases.map[r.name] = c.id;
+        // Written through to the durable layer in the same breath as the
+        // alias. Remembering the name-to-id mapping without the club it points
+        // at is what emptied the registry.
+        registry.clubs[c.id] = {
+          ...(registry.clubs[c.id] || {}),
+          name_he: c.name_he,
+          name_src: c.name_src,
+          country: c.country,
+          aliases: [...new Set([...(registry.clubs[c.id]?.aliases || []), ...clubs.get(c.id).aliases])],
+        };
       }
     }
     saveAliases(aliases);
@@ -276,12 +310,29 @@ for (const r of ordered) {
     tournamentAliases[rec.tournament] = g.tournament;
   }
 
-  // Real disagreement is recorded, not silently resolved by arrival order.
+  /**
+   * When two sources disagree on a time, the later report wins.
+   *
+   * Arrival order was deciding it, which is arbitrary. Tip-off times are
+   * announced and then confirmed: Tenerife's account posted "OFICIAL |
+   * Confirmados horarios" with 19:00 for a game an earlier preview had at
+   * 20:00. The confirmation is the answer, and it is the newer of the two.
+   *
+   * The losing value is still recorded, so a disagreement is visible rather
+   * than quietly resolved.
+   */
+  const when = (r) => r.published ? Date.parse(r.published) || 0 : 0;
   for (const field of ["time", "date"]) {
-    if (g[field] && rec[field] && g[field] !== rec[field]) {
-      conflicts.push({ game: g.id, field, have: g[field], alsoReported: rec[field],
-                       from: rec.sources[0]?.name || rec.origin });
-    }
+    if (!g[field] || !rec[field] || g[field] === rec[field]) continue;
+    const newer = when(rec) > when(g);
+    conflicts.push({
+      game: g.id, field,
+      kept: newer ? rec[field] : g[field],
+      alsoReported: newer ? g[field] : rec[field],
+      from: rec.sources[0]?.name || rec.origin,
+      resolvedBy: when(rec) || when(g) ? "recency" : "first-seen",
+    });
+    if (newer) { g[field] = rec[field]; g.published = rec.published; }
   }
 
   if (manualWins) {
@@ -399,6 +450,7 @@ fs.writeFileSync(path.join(DATA, "games.json"), JSON.stringify({
 }, null, 2));
 fs.writeFileSync(path.join(DATA, "tournaments.json"), JSON.stringify({ _doc: "Tournament name as written -> canonical name. Learned when two reports of the same fixture name its tournament differently.", map: tournamentAliases }, null, 2));
 fs.writeFileSync(path.join(DATA, "teams.json"), JSON.stringify({ updated: now, teams: teamList }, null, 2));
+fs.writeFileSync(path.join(DATA, "registry.json"), JSON.stringify(registry, null, 2));
 
 /* ---------- report ---------- */
 const by = (o) => gameList.filter((g) => g.origins.includes(o)).length;

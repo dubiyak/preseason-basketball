@@ -1,49 +1,79 @@
 {
-  "updated": "2026-08-14T12:42:22.969Z",
+  "updated": "2026-08-14T13:00:33.339Z",
   "season": "2026-27",
-  "newGames": 0,
+  "newGames": 52,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
       "field": "time",
-      "have": "20:00",
-      "alsoReported": "19:00",
-      "from": "x:t_bbaa773d"
+      "kept": "19:00",
+      "alsoReported": "20:00",
+      "from": "x:t_bbaa773d",
+      "resolvedBy": "recency"
     },
     {
       "game": "g_51ee5ea217",
       "field": "time",
-      "have": "20:00",
-      "alsoReported": "19:00",
-      "from": "x:t_bbaa773d"
-    },
-    {
-      "game": "g_bf610345cb",
-      "field": "time",
-      "have": "20:30",
+      "kept": "19:00",
       "alsoReported": "20:00",
-      "from": "sportando_en"
+      "from": "x:t_bbaa773d",
+      "resolvedBy": "recency"
     },
     {
-      "game": "g_8aec469d04",
+      "game": "g_7a40cc6199",
       "field": "time",
-      "have": "20:00",
+      "kept": "20:30",
+      "alsoReported": "20:00",
+      "from": "sportando_en",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_8611b380bc",
+      "field": "time",
+      "kept": "20:00",
       "alsoReported": "20:30",
-      "from": "sportando_en"
+      "from": "sportando_en",
+      "resolvedBy": "recency"
     },
     {
       "game": "g_26c8215284",
       "field": "time",
-      "have": "18:00",
-      "alsoReported": "17:00",
-      "from": "sportando_en"
+      "kept": "17:00",
+      "alsoReported": "18:00",
+      "from": "sportando_en",
+      "resolvedBy": "recency"
     },
     {
       "game": "g_9191c6a715",
       "field": "time",
-      "have": "19:00",
-      "alsoReported": "18:00",
-      "from": "gigantes"
+      "kept": "18:00",
+      "alsoReported": "19:00",
+      "from": "gigantes",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_e4ccbb9e8b",
+      "field": "time",
+      "kept": "20:00",
+      "alsoReported": "19:00",
+      "from": "gigantes",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_51ee5ea217",
+      "field": "time",
+      "kept": "20:00",
+      "alsoReported": "19:00",
+      "from": "gigantes",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_9191c6a715",
+      "field": "time",
+      "kept": "18:00",
+      "alsoReported": "19:00",
+      "from": "gigantes",
+      "resolvedBy": "recency"
     }
   ],
   "games": [
@@ -51,8 +81,8 @@
       "date": "2026-08-08",
       "dateLabel": "Saturday, 08.08.2026",
       "time": null,
-      "homeTeam": "t_0fce1c2f",
-      "awayTeam": "t_65d1750d",
+      "homeTeam": "t_2b3f230e",
+      "awayTeam": "t_b0dd3976",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -80,13 +110,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_f07c269834",
+      "id": "g_3cb990d323",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_0fce1c2f",
-        "t_65d1750d"
+        "t_2b3f230e",
+        "t_b0dd3976"
       ],
       "confidence": 1
     },
@@ -94,8 +124,8 @@
       "date": "2026-08-09",
       "dateLabel": "Sunday, 09.08.2026",
       "time": null,
-      "homeTeam": "t_0fce1c2f",
-      "awayTeam": "t_65d1750d",
+      "homeTeam": "t_2b3f230e",
+      "awayTeam": "t_b0dd3976",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -123,13 +153,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_00ea51c749",
+      "id": "g_a861139d81",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_0fce1c2f",
-        "t_65d1750d"
+        "t_2b3f230e",
+        "t_b0dd3976"
       ],
       "confidence": 1
     },
@@ -435,7 +465,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_934b32a7",
+      "awayTeam": "t_79df24d1",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -460,13 +490,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_e47b8158c7",
+      "id": "g_e48de54093",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_7be74f50",
-        "t_934b32a7"
+        "t_79df24d1"
       ],
       "confidence": 1
     },
@@ -860,13 +890,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-05",
-      "id": "g_a08982bc81",
+      "id": "g_f8096a2678",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e5b1c4bf",
-        "t_3a63eba6"
+        "t_2f1b0243",
+        "t_d31b90b5"
       ],
       "confidence": 1
     },
@@ -1024,13 +1054,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 20:14:46 +0000",
-      "id": "g_bf610345cb",
+      "id": "g_7a40cc6199",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_f0a9bf47",
-        "t_d804c851"
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -1205,8 +1235,8 @@
       "date": "2026-08-27",
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
-      "homeTeam": "t_0fce1c2f",
-      "awayTeam": "t_65731c6b",
+      "homeTeam": "t_2b3f230e",
+      "awayTeam": "t_dad6d75e",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1231,13 +1261,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_c6d114e112",
+      "id": "g_563aa01706",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_0fce1c2f",
-        "t_65731c6b"
+        "t_2b3f230e",
+        "t_dad6d75e"
       ],
       "confidence": 1
     },
@@ -1411,7 +1441,7 @@
       "dateLabel": "Friday, 28.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_365d325c",
+      "awayTeam": "t_7a8a9ba0",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1436,13 +1466,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_97fe720def",
+      "id": "g_bb84e0834d",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8fe33769",
-        "t_365d325c"
+        "t_7a8a9ba0"
       ],
       "confidence": 1
     },
@@ -1476,13 +1506,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-18",
-      "id": "g_d77e8111af",
+      "id": "g_4a247008f5",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_bf5dd73e",
-        "t_c9bd92ca"
+        "t_b35120b2"
       ],
       "confidence": 1
     },
@@ -1518,12 +1548,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-08",
-      "id": "g_353c2e3faf",
+      "id": "g_bb46eacb13",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_42d4fab3",
+        "t_493d547d",
         "t_845f912d"
       ],
       "confidence": 1
@@ -1956,7 +1986,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_833412f2",
+      "awayTeam": "t_1443a9bf",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1981,13 +2011,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_cec31242b1",
+      "id": "g_3256777b48",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_833412f2"
+        "t_1443a9bf"
       ],
       "confidence": 1
     },
@@ -2035,7 +2065,7 @@
       "date": "2026-08-29",
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
-      "homeTeam": "t_e1a31053",
+      "homeTeam": "t_69f18cb3",
       "awayTeam": "t_84c93f92",
       "candidates": [],
       "opponentTbd": false,
@@ -2061,12 +2091,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_1ccb1f5547",
+      "id": "g_1defd5eed9",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e1a31053",
+        "t_69f18cb3",
         "t_84c93f92"
       ],
       "confidence": 1
@@ -2106,13 +2136,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_8aec469d04",
+      "id": "g_8611b380bc",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_2b11a23d",
-        "t_d804c851"
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -2335,7 +2365,7 @@
       "dateLabel": "sabato 29 agosto",
       "time": "17:00",
       "homeTeam": "t_cce353da",
-      "awayTeam": "t_3a63eba6",
+      "awayTeam": "t_d31b90b5",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2365,13 +2395,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-04",
-      "id": "g_736267ffb7",
+      "id": "g_090d5219b9",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_cce353da",
-        "t_3a63eba6"
+        "t_d31b90b5"
       ],
       "confidence": 1
     },
@@ -2407,12 +2437,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-05",
-      "id": "g_38fd9fd20a",
+      "id": "g_2db98f3fb0",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e5b1c4bf",
+        "t_2f1b0243",
         "t_21cf4132"
       ],
       "confidence": 1
@@ -2487,13 +2517,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-13",
-      "id": "g_f5f2c73125",
+      "id": "g_c961dd90e3",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_dfe9dae2",
-        "t_a0b10526"
+        "t_be10c355"
       ],
       "confidence": 1
     },
@@ -2621,7 +2651,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_833412f2",
+      "awayTeam": "t_1443a9bf",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2646,13 +2676,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_821c4ef03c",
+      "id": "g_b59b776d1b",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_833412f2"
+        "t_1443a9bf"
       ],
       "confidence": 1
     },
@@ -2726,13 +2756,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-06",
-      "id": "g_6087b9a77a",
+      "id": "g_0c98a860ec",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_d4ef037d",
-        "t_4964cf6c"
+        "t_4d14caeb"
       ],
       "confidence": 1
     },
@@ -3288,7 +3318,7 @@
       "dateLabel": "Tuesday, 01.09.2026",
       "time": null,
       "homeTeam": "t_e6b07e02",
-      "awayTeam": "t_0fce1c2f",
+      "awayTeam": "t_2b3f230e",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3313,13 +3343,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_75dff43e47",
+      "id": "g_511c1db348",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_e6b07e02",
-        "t_0fce1c2f"
+        "t_2b3f230e"
       ],
       "confidence": 1
     },
@@ -3327,7 +3357,7 @@
       "date": "2026-09-01",
       "dateLabel": "1 settembre",
       "time": null,
-      "homeTeam": "t_c9bd92ca",
+      "homeTeam": "t_b35120b2",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -3358,12 +3388,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-18",
-      "id": "g_b2b43880c5",
+      "id": "g_6d432a6cfe",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_c9bd92ca",
+        "t_b35120b2",
         "t_7e157e3f"
       ],
       "confidence": 1
@@ -3670,7 +3700,7 @@
       "dateLabel": "Wednesday, 02.09.2026",
       "time": null,
       "homeTeam": "t_5f254578",
-      "awayTeam": "t_0fce1c2f",
+      "awayTeam": "t_2b3f230e",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3695,13 +3725,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_71375bd6e2",
+      "id": "g_b8677232b5",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_5f254578",
-        "t_0fce1c2f"
+        "t_2b3f230e"
       ],
       "confidence": 1
     },
@@ -3735,13 +3765,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_a12ecc8d24",
+      "id": "g_da9d76d42e",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_2b11a23d",
-        "t_cab39a51"
+        "t_c91e8f87"
       ],
       "confidence": 1
     },
@@ -4004,7 +4034,7 @@
       "date": "2026-09-03",
       "dateLabel": "giovedì 3 settembre",
       "time": "20:30",
-      "homeTeam": "t_42d4fab3",
+      "homeTeam": "t_493d547d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -4040,12 +4070,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_2155f6e878",
+      "id": "g_cee3c46bf2",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_42d4fab3",
+        "t_493d547d",
         "t_486860fc"
       ],
       "confidence": 2
@@ -4055,7 +4085,7 @@
       "dateLabel": "Thursday, 03.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_0640389f",
+      "awayTeam": "t_5e944bac",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4080,13 +4110,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_35e16372e2",
+      "id": "g_5381f15061",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_ea80e631",
-        "t_0640389f"
+        "t_5e944bac"
       ],
       "confidence": 1
     },
@@ -4362,7 +4392,7 @@
       "dateLabel": "4 EYLÜL CUMA",
       "time": "19:00",
       "homeTeam": "t_5c5cc462",
-      "awayTeam": "t_b30f9cb2",
+      "awayTeam": "t_e2d3f7c8",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4394,13 +4424,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 15:47:59 +0000",
-      "id": "g_1c7033c6ee",
+      "id": "g_4008e654c9",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_5c5cc462",
-        "t_b30f9cb2"
+        "t_e2d3f7c8"
       ],
       "confidence": 2
     },
@@ -4525,7 +4555,7 @@
     {
       "date": "2026-09-04",
       "dateLabel": "venerdì 4 settembre alle ore 18:00",
-      "time": "18:00",
+      "time": "17:00",
       "homeTeam": "t_03b3581a",
       "awayTeam": null,
       "candidates": [],
@@ -4556,7 +4586,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "2026-07-27",
+      "published": "2026-08-08",
       "id": "g_26c8215284",
       "origins": [
         "extracted"
@@ -4925,14 +4955,14 @@
       "notes": [],
       "origin": "seed",
       "published": null,
-      "id": "g_389b9c91c6",
+      "id": "g_cea3e86d1b",
       "origins": [
         "seed"
       ],
       "teams": [
         "t_29304cb1",
-        "t_00052e03",
-        "t_ad31d353"
+        "t_dfdb0753",
+        "t_7c532e21"
       ],
       "confidence": 1
     },
@@ -5029,7 +5059,7 @@
       "dateLabel": "05/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_db2f1a5f",
+      "awayTeam": "t_00b5b7ea",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5054,13 +5084,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_4284723972",
+      "id": "g_acdab227e3",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_db2f1a5f"
+        "t_00b5b7ea"
       ],
       "confidence": 1
     },
@@ -5187,7 +5217,7 @@
       "date": "2026-09-05",
       "dateLabel": "5 settembre",
       "time": "20:45",
-      "homeTeam": "t_d804c851",
+      "homeTeam": "t_43f8a292",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -5213,12 +5243,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_e356ff1d85",
+      "id": "g_661fdaaf5d",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_d804c851",
+        "t_43f8a292",
         "t_d9d017e1"
       ],
       "confidence": 1
@@ -5317,7 +5347,7 @@
       "date": "2026-09-05",
       "dateLabel": "5 e 6 settembre",
       "time": null,
-      "homeTeam": "t_c9bd92ca",
+      "homeTeam": "t_b35120b2",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -5343,12 +5373,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-18",
-      "id": "g_5259519b63",
+      "id": "g_f2e80f2ec5",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_c9bd92ca",
+        "t_b35120b2",
         "t_12174e28"
       ],
       "confidence": 1
@@ -5511,13 +5541,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_492756bf13",
+      "id": "g_38f3cdd0af",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_03b3581a",
-        "t_e5b1c4bf"
+        "t_2f1b0243"
       ],
       "confidence": 1
     },
@@ -6288,7 +6318,7 @@
       "dateLabel": "06/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_a32bfccd",
+      "awayTeam": "t_d006a6e4",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6313,13 +6343,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_ba8229ddbe",
+      "id": "g_52c8bf6040",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_a32bfccd"
+        "t_d006a6e4"
       ],
       "confidence": 1
     },
@@ -6515,12 +6545,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-05",
-      "id": "g_47ff7ec8f3",
+      "id": "g_d394aecce4",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e5b1c4bf",
+        "t_2f1b0243",
         "t_550a84d0"
       ],
       "confidence": 1
@@ -6992,7 +7022,7 @@
       "date": "2026-09-08",
       "dateLabel": "8 settembre",
       "time": "20:00",
-      "homeTeam": "t_d804c851",
+      "homeTeam": "t_43f8a292",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -7018,12 +7048,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_b580caa471",
+      "id": "g_e4114c4b76",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_d804c851",
+        "t_43f8a292",
         "t_806e2b53"
       ],
       "confidence": 1
@@ -7493,13 +7523,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-08",
-      "id": "g_97839c0c01",
+      "id": "g_449d58e5e0",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_42d4fab3",
-        "t_241db1c6"
+        "t_493d547d",
+        "t_9cfa72eb"
       ],
       "confidence": 1
     },
@@ -7616,7 +7646,7 @@
       ],
       "notes": [],
       "origin": "seed",
-      "published": null,
+      "published": "2026-08-13",
       "id": "g_e4ccbb9e8b",
       "origins": [
         "seed",
@@ -8039,7 +8069,7 @@
         "מקורות שונים אינם עקביים לגבי מדויק הפרטים של משחק זה בטורניר"
       ],
       "origin": "seed",
-      "published": null,
+      "published": "2026-08-13",
       "id": "g_51ee5ea217",
       "origins": [
         "seed",
@@ -8389,13 +8419,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-07",
-      "id": "g_0c990ee52e",
+      "id": "g_8d34cbcbc2",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_486860fc",
-        "t_241db1c6"
+        "t_9cfa72eb"
       ],
       "confidence": 1
     },
@@ -8523,13 +8553,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-13",
-      "id": "g_c4a222d054",
+      "id": "g_2abda65f85",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_1497d847",
-        "t_4f8fa3e6"
+        "t_dea4f9fe"
       ],
       "confidence": 1
     },
@@ -8563,13 +8593,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-13",
-      "id": "g_6a710fe4e4",
+      "id": "g_c411a7dcf9",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_99dbf7c1",
-        "t_4f8fa3e6"
+        "t_dea4f9fe"
       ],
       "confidence": 1
     },
@@ -8687,13 +8717,13 @@
       "notes": [],
       "origin": "seed",
       "published": null,
-      "id": "g_766dc23437",
+      "id": "g_ebce57b951",
       "origins": [
         "seed"
       ],
       "teams": [
         "t_e5cb1715",
-        "t_b30f9cb2",
+        "t_e2d3f7c8",
         "t_157b4fa8"
       ],
       "confidence": 1
@@ -9156,13 +9186,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_4eb9ad4d9b",
+      "id": "g_5e4e1d20d7",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_9f143938",
-        "t_d804c851"
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -9196,13 +9226,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-28",
-      "id": "g_d788abf9fb",
+      "id": "g_6c6c49e920",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_726df887",
-        "t_c9bd92ca"
+        "t_b35120b2"
       ],
       "confidence": 1
     },
@@ -9236,13 +9266,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-28",
-      "id": "g_9fe92bd6a8",
+      "id": "g_7808fa137c",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_726df887",
-        "t_e5b1c4bf"
+        "t_2f1b0243"
       ],
       "confidence": 1
     },
@@ -9290,7 +9320,7 @@
       "date": "2026-09-12",
       "dateLabel": "12 e 13 settembre",
       "time": null,
-      "homeTeam": "t_c9bd92ca",
+      "homeTeam": "t_b35120b2",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -9316,12 +9346,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-18",
-      "id": "g_4576157395",
+      "id": "g_2e03f09b34",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_c9bd92ca",
+        "t_b35120b2",
         "t_d70cfe97"
       ],
       "confidence": 1
@@ -9442,13 +9472,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_1e73e6019a",
+      "id": "g_9c20d9c917",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_2b11a23d",
-        "t_42d4fab3"
+        "t_493d547d"
       ],
       "confidence": 1
     },
@@ -10326,7 +10356,7 @@
     {
       "date": "2026-09-15",
       "dateLabel": "15.9, 19:00",
-      "time": "19:00",
+      "time": "18:00",
       "homeTeam": "t_e32d7cf2",
       "awayTeam": "t_38027d78",
       "candidates": [],
@@ -10360,7 +10390,7 @@
       ],
       "notes": [],
       "origin": "seed",
-      "published": null,
+      "published": "2026-08-13",
       "id": "g_9191c6a715",
       "origins": [
         "seed",
@@ -10944,13 +10974,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_102033f0c8",
+      "id": "g_e7155b838a",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_5cfbd288",
-        "t_d804c851"
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -10984,13 +11014,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-18",
-      "id": "g_e3580108db",
+      "id": "g_dcaeed0e20",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_d70cfe97",
-        "t_c9bd92ca"
+        "t_b35120b2"
       ],
       "confidence": 1
     },
@@ -11418,7 +11448,7 @@
       "dateLabel": "Friday, 18.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_b30f9cb2",
+      "awayTeam": "t_e2d3f7c8",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11443,13 +11473,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_1e97bc702f",
+      "id": "g_14ca7bf4a6",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_b30f9cb2"
+        "t_e2d3f7c8"
       ],
       "confidence": 1
     },
@@ -11536,8 +11566,8 @@
       "date": "2026-09-18",
       "dateLabel": "Venerdì 18 settembre",
       "time": null,
-      "homeTeam": "t_42d4fab3",
-      "awayTeam": "t_241db1c6",
+      "homeTeam": "t_493d547d",
+      "awayTeam": "t_9cfa72eb",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11577,13 +11607,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-06-26",
-      "id": "g_3c0a40e430",
+      "id": "g_70e36fa986",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_42d4fab3",
-        "t_241db1c6"
+        "t_493d547d",
+        "t_9cfa72eb"
       ],
       "confidence": 1
     },
@@ -11642,7 +11672,7 @@
       "dateLabel": "dal 18 al 20 settembre",
       "time": null,
       "homeTeam": "t_483afd93",
-      "awayTeam": "t_c139cd7c",
+      "awayTeam": "t_5db24e64",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11667,13 +11697,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-10",
-      "id": "g_75c419ef78",
+      "id": "g_c4e6fcadd3",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_483afd93",
-        "t_c139cd7c"
+        "t_5db24e64"
       ],
       "confidence": 1
     },
@@ -11977,7 +12007,7 @@
       "dateLabel": "19/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_c5890ee4",
+      "awayTeam": "t_0a564c89",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12004,13 +12034,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_3b7f50dd0c",
+      "id": "g_32a8a934de",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_c5890ee4"
+        "t_0a564c89"
       ],
       "confidence": 1
     },
@@ -12331,7 +12361,7 @@
       "date": "2026-09-19",
       "dateLabel": "19 settembre",
       "time": "20:00",
-      "homeTeam": "t_3a63eba6",
+      "homeTeam": "t_d31b90b5",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -12357,13 +12387,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-07-27",
-      "id": "g_4bb2b3b74e",
+      "id": "g_1a28d57bcf",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_3a63eba6",
-        "t_d804c851"
+        "t_d31b90b5",
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -12412,7 +12442,7 @@
       "dateLabel": "Sabato 19 settembre",
       "time": null,
       "homeTeam": "t_483afd93",
-      "awayTeam": "t_c139cd7c",
+      "awayTeam": "t_5db24e64",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12442,13 +12472,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-06-26",
-      "id": "g_3feb4e4fb5",
+      "id": "g_7915624b9a",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_483afd93",
-        "t_c139cd7c"
+        "t_5db24e64"
       ],
       "confidence": 1
     },
@@ -12787,12 +12817,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-05",
-      "id": "g_b2ce600ddb",
+      "id": "g_851871b2fc",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e5b1c4bf",
+        "t_2f1b0243",
         "t_12174e28"
       ],
       "confidence": 1
@@ -13897,7 +13927,7 @@
       "dateLabel": null,
       "time": "16:00",
       "homeTeam": "t_9859715c",
-      "awayTeam": "t_a523b9eb",
+      "awayTeam": "t_ef2290b6",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13922,13 +13952,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Sat, 08 Nov 2025 10:10:12 GMT",
-      "id": "g_1af494b7c9",
+      "id": "g_7c8174a162",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_9859715c",
-        "t_a523b9eb"
+        "t_ef2290b6"
       ],
       "confidence": 1
     }
