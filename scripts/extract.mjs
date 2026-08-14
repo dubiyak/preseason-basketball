@@ -234,7 +234,29 @@ const cache = fs.existsSync(cachePath)
   : { articles: {} };
 
 const { candidates } = JSON.parse(fs.readFileSync(path.join(DATA, "candidates.json"), "utf8"));
-const unread = candidates.filter((c) => !cache.articles[c.url]);
+/**
+ * A news article is written once and never changes, so reading it twice is
+ * waste. A club's fixture page is the opposite: it is the same URL all season
+ * while tip-off times appear, opponents get drawn and results fill in. Caching
+ * it forever means the page is frozen at whatever it said the first time.
+ *
+ * So living pages expire and articles do not.
+ */
+const LIVING = /^(club:|x:)/;
+const TTL_HOURS = Number(process.env.RECHECK_HOURS || 12);
+
+function isStale(c) {
+  const seen = cache.articles[c.url];
+  if (!seen) return true;
+  if (!LIVING.test(String(c.outlet))) return false;
+  if (!seen.readAt) return true;
+  return (Date.now() - Date.parse(seen.readAt)) / 36e5 >= TTL_HOURS;
+}
+
+const unread = candidates.filter(isStale);
+// Living pages first: a fixture page that has gained a tip-off time matters
+// more than one more article about a transfer.
+unread.sort((a, b) => (LIVING.test(b.outlet) - LIVING.test(a.outlet)) || (b.score - a.score));
 const todo = unread.slice(0, MAX_ARTICLES);
 
 console.log(
@@ -248,8 +270,10 @@ let games = 0, official = 0, national = 0, failed = 0, rejected = 0, stopped = f
 // a slot in a batch, and fetching is free.
 const fetched = [];
 for (const c of todo) {
-  const text = await articleText(c.url);
-  if (!text || text.length < 200) {
+  // A tweet arrives with its text attached: mirrors are unreliable to fetch
+  // twice, and a tweet is short enough to carry through the pipeline.
+  const text = c.inlineText || await articleText(c.url);
+  if (!text || text.length < (c.inlineText ? 30 : 200)) {
     cache.articles[c.url] = { ok: false, why: "no readable text", title: c.title };
     failed++;
     continue;

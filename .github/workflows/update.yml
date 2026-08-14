@@ -26,9 +26,26 @@ jobs:
         with:
           node-version: "22"
 
+      # Three layers, cheapest and most reliable first. Each is additive: a
+      # layer that fails leaves the others' candidates intact.
       - name: Sweep the outlet feeds
-        id: collect
         run: node scripts/collect.mjs | tee collect.log
+
+      - name: Refresh the club registry
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/clubs.mjs | tee clubs.log
+
+      - name: Scan the clubs' fixture pages
+        continue-on-error: true
+        run: node scripts/clubscan.mjs | tee clubscan.log
+
+      # Nitter mirrors go down constantly. This layer is allowed to fail
+      # entirely without taking the run with it.
+      - name: Read the clubs' social feeds
+        continue-on-error: true
+        run: node scripts/twitter.mjs | tee twitter.log
 
       - name: Read the new articles
         id: extract

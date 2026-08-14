@@ -44,7 +44,25 @@ const MODELS = (process.env.GEMINI_MODELS ||
 const clubs = new Map(seed.teams.map((t) => [t.id, { ...t, aliases: [...(t.aliases || [])] }]));
 let index = buildIndex([...clubs.values()]);
 
+/**
+ * Clubs tag each other by handle, so a tweet says "@valenciabasket" where an
+ * article says "Valencia Basket". The registry already holds the handle for 46
+ * clubs, which makes this an exact lookup rather than another guess.
+ */
+const byHandle = new Map();
+for (const [id, c] of Object.entries(registry.clubs)) {
+  if (!c.twitter) continue;
+  const h = String(c.twitter).replace(/^.*\//, "").replace(/^@/, "").toLowerCase();
+  if (h) byHandle.set(h, id);
+}
+const handleId = (name) => {
+  const m = String(name || "").trim().match(/^@(\w+)$/);
+  return m ? byHandle.get(m[1].toLowerCase()) : undefined;
+};
+
 function ensureClub(name) {
+  const viaHandle = handleId(name);
+  if (viaHandle) { aliases.map[String(name).trim()] = viaHandle; return viaHandle; }
   const id = resolveLocal(name, index, aliases);
   if (id && clubs.has(id)) {
     const c = clubs.get(id);
