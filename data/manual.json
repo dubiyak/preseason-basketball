@@ -1,124 +1,58 @@
 {
-  "_doc": "Hand-entered games and corrections. These always win over collected data. Kept deliberately small: anything that keeps needing an entry here is a missing collector, not a data problem. The TÜBAD, Iraklis and Partizan entries were removed once the collector found them itself — hand-written Hebrew names for clubs the outlets write in Latin or Greek were splitting single clubs into two registry entries.",
+  "_doc": "Hand-entered games and corrections. These always win over collected data. Kept deliberately small: anything that keeps needing an entry here is a missing collector, not a data problem.",
+
   "games": [
     {
-      "_why": "Missed entirely by the seed pass. Confirmed 26.6.2026 by Sport1 and Sport5 independently. maccabi.co.il/news.asp?id=9672 describes the same tournament with different dates (22-23.9) and Žalgiris instead of Aris — that article is from an earlier season and must not be trusted over the two current reports.",
-      "team": "מכבי תל אביב",
+      "_why": "The Neofytos Chandriotis tournament draw and tip-off times were published long before the collector had any way to see them: the organiser's own site, Cypriot outlets and the ticket seller are all source categories it did not cover. Confirmed identically by protathlima.cyprustimes.com and basketballstoriescy.com. Maccabi's own site corroborates the 11.9 pairing but dates the Olympiacos game 17.9, which is wrong — that is the Israeli Supercup slot.",
+      "team": "אריס סלוניקי",
+      "opponent": "מכבי תל אביב",
       "date": "2026-09-11",
-      "dateLabel": "11-13.9",
-      "candidates": [
-        "אולימפיאקוס",
-        "הכוכב האדום בלגרד",
-        "אריס סלוניקי"
-      ],
+      "dateLabel": "11.9",
+      "time": "18:00",
       "tournament": "טורניר ניקוסיה",
-      "venue": {
-        "arena": null,
-        "city": "ניקוסיה",
-        "country": "קפריסין"
-      },
-      "flags": [
-        "יריבות טרם פורסמו"
-      ],
-      "notes": [
-        "מכבי תשחק שני משחקים בטורניר; ההגרלה טרם פורסמה"
-      ],
+      "venue": { "arena": "Tassos Papadopoulos – Eleftheria", "city": "ניקוסיה", "country": "קפריסין" },
       "sources": [
-        {
-          "name": "ספורט 1",
-          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
-        },
-        {
-          "name": "ערוץ הספורט",
-          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
-        }
+        { "name": "protathlima.cyprustimes.com", "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/" },
+        { "name": "basketballstoriescy.com", "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/" }
       ]
     },
     {
       "team": "אולימפיאקוס",
+      "opponent": "הכוכב האדום בלגרד",
       "date": "2026-09-11",
-      "dateLabel": "11-13.9",
-      "candidates": [
-        "מכבי תל אביב",
-        "הכוכב האדום בלגרד",
-        "אריס סלוניקי"
-      ],
+      "dateLabel": "11.9",
+      "time": "21:00",
       "tournament": "טורניר ניקוסיה",
-      "venue": {
-        "arena": null,
-        "city": "ניקוסיה",
-        "country": "קפריסין"
-      },
-      "flags": [
-        "יריבות טרם פורסמו"
-      ],
+      "venue": { "arena": "Tassos Papadopoulos – Eleftheria", "city": "ניקוסיה", "country": "קפריסין" },
       "sources": [
-        {
-          "name": "ספורט 1",
-          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
-        },
-        {
-          "name": "ערוץ הספורט",
-          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
-        }
-      ]
-    },
-    {
-      "team": "הכוכב האדום בלגרד",
-      "date": "2026-09-11",
-      "dateLabel": "11-13.9",
-      "candidates": [
-        "מכבי תל אביב",
-        "אולימפיאקוס",
-        "אריס סלוניקי"
-      ],
-      "tournament": "טורניר ניקוסיה",
-      "venue": {
-        "arena": null,
-        "city": "ניקוסיה",
-        "country": "קפריסין"
-      },
-      "flags": [
-        "יריבות טרם פורסמו"
-      ],
-      "sources": [
-        {
-          "name": "ספורט 1",
-          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
-        },
-        {
-          "name": "ערוץ הספורט",
-          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
-        }
+        { "name": "protathlima.cyprustimes.com", "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/" },
+        { "name": "basketballstoriescy.com", "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/" }
       ]
     },
     {
       "team": "אריס סלוניקי",
-      "date": "2026-09-11",
-      "dateLabel": "11-13.9",
-      "candidates": [
-        "מכבי תל אביב",
-        "אולימפיאקוס",
-        "הכוכב האדום בלגרד"
-      ],
+      "opponent": "הכוכב האדום בלגרד",
+      "date": "2026-09-13",
+      "dateLabel": "13.9",
+      "time": "15:45",
       "tournament": "טורניר ניקוסיה",
-      "venue": {
-        "arena": null,
-        "city": "ניקוסיה",
-        "country": "קפריסין"
-      },
-      "flags": [
-        "יריבות טרם פורסמו"
-      ],
+      "venue": { "arena": "Tassos Papadopoulos – Eleftheria", "city": "ניקוסיה", "country": "קפריסין" },
       "sources": [
-        {
-          "name": "ספורט 1",
-          "url": "https://sport1.maariv.co.il/world-basketball/article/1883215/"
-        },
-        {
-          "name": "ערוץ הספורט",
-          "url": "https://www.sport5.co.il/articles.aspx?FolderID=405&docID=550067"
-        }
+        { "name": "protathlima.cyprustimes.com", "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/" },
+        { "name": "basketballstoriescy.com", "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/" }
+      ]
+    },
+    {
+      "team": "אולימפיאקוס",
+      "opponent": "מכבי תל אביב",
+      "date": "2026-09-13",
+      "dateLabel": "13.9",
+      "time": "18:00",
+      "tournament": "טורניר ניקוסיה",
+      "venue": { "arena": "Tassos Papadopoulos – Eleftheria", "city": "ניקוסיה", "country": "קפריסין" },
+      "sources": [
+        { "name": "protathlima.cyprustimes.com", "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/" },
+        { "name": "basketballstoriescy.com", "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/" }
       ]
     }
   ]

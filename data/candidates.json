@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T05:49:48.070Z",
+  "generated": "2026-08-13T22:15:35.141Z",
   "health": [
     {
       "id": "sportando",
@@ -7,7 +7,7 @@
       "strategy": "rss",
       "via": "https://sportando.basketball/feed/",
       "items": 10,
-      "candidates": 5
+      "candidates": 0
     },
     {
       "id": "gigantes",
@@ -23,15 +23,15 @@
       "strategy": "rss",
       "via": "https://www.bursahakimiyet.com.tr/rss",
       "items": 60,
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "sportacentrs",
       "ok": true,
       "strategy": "rss",
       "via": "https://sportacentrs.com/static/non-publish/rss/sc/rss.xml",
-      "items": 43,
-      "candidates": 3
+      "items": 45,
+      "candidates": 1
     },
     {
       "id": "sport1",
@@ -47,7 +47,7 @@
       "strategy": "rss",
       "via": "https://www.eurohoops.net/feed/",
       "items": 20,
-      "candidates": 0
+      "candidates": 1
     },
     {
       "id": "telegraf",
@@ -55,7 +55,7 @@
       "strategy": "rss",
       "via": "https://www.telegraf.rs/rss",
       "items": 20,
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "sport24gr",
@@ -63,7 +63,7 @@
       "strategy": "html",
       "via": "https://www.sport24.gr/basket/",
       "items": 113,
-      "candidates": 6
+      "candidates": 4
     },
     {
       "id": "paopantou",
@@ -95,7 +95,7 @@
       "strategy": "rss",
       "via": "https://www.bebasket.fr/feed/",
       "items": 20,
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "basket247",
@@ -103,15 +103,12 @@
       "strategy": "rss",
       "via": "https://www.basket247.gr/feed/",
       "items": 10,
-      "candidates": 4
+      "candidates": 1
     },
     {
       "id": "allstarbasket",
-      "ok": true,
-      "strategy": "sitemap",
-      "via": "https://www.allstarbasket.gr/sitemap_index.xml",
-      "items": 400,
-      "candidates": 27
+      "ok": false,
+      "why": "no feed, sitemap or article links"
     },
     {
       "id": "basketfaul",
@@ -163,7 +160,7 @@
       "strategy": "sitemap",
       "via": "https://www.legabasket.it/sitemap.xml",
       "items": 200,
-      "candidates": 35
+      "candidates": 4
     },
     {
       "id": "abaliga",
@@ -189,59 +186,334 @@
       "why": "no feed, sitemap or article links"
     }
   ],
+  "clubHealth": [
+    {
+      "club": "אנאדולו אפס",
+      "ok": false
+    },
+    {
+      "club": "בשיקטאש בסקטבול",
+      "ok": false
+    },
+    {
+      "club": "ברצלונה",
+      "ok": true,
+      "url": "https://www.fcbarcelona.com/schedule",
+      "preseason": true
+    },
+    {
+      "club": "באסקוניה ויטוריה",
+      "ok": false
+    },
+    {
+      "club": "פרטיזן בלגרד",
+      "ok": true,
+      "url": "http://www.kkpartizan.rs/games",
+      "preseason": false
+    },
+    {
+      "club": "ולנסיה בסקט",
+      "ok": true,
+      "url": "http://www.valenciabasket.com/calendario",
+      "preseason": true
+    },
+    {
+      "club": "PAOK",
+      "ok": true,
+      "url": "http://www.paokbc.gr/schedule",
+      "preseason": false
+    },
+    {
+      "club": "Tofaş",
+      "ok": false
+    },
+    {
+      "club": "אולימפיה מילאנו",
+      "ok": true,
+      "url": "http://www.olimpiamilano.com/schedule",
+      "preseason": false
+    },
+    {
+      "club": "הכוכב האדום בלגרד",
+      "ok": false
+    },
+    {
+      "club": "דובאי בסקטבול",
+      "ok": true,
+      "url": "https://dubaibasketball.com/schedule",
+      "preseason": false
+    },
+    {
+      "club": "באיירן מינכן",
+      "ok": false
+    },
+    {
+      "club": "פנרבחצ'ה",
+      "ok": false
+    },
+    {
+      "club": "הפועל תל אביב",
+      "ok": true,
+      "url": "https://www.hapoeluta.org/games",
+      "preseason": true
+    },
+    {
+      "club": "וילרבאן",
+      "ok": false
+    },
+    {
+      "club": "מכבי תל אביב",
+      "ok": true,
+      "url": "http://www.maccabi.co.il/season.asp",
+      "preseason": true
+    },
+    {
+      "club": "אולימפיאקוס",
+      "ok": false
+    },
+    {
+      "club": "פנאתינייקוס",
+      "ok": false
+    },
+    {
+      "club": "פריז באסקט",
+      "ok": false
+    },
+    {
+      "club": "ריאל מדריד",
+      "ok": false
+    },
+    {
+      "club": "וירטוס בולוניה",
+      "ok": false
+    },
+    {
+      "club": "ז'לגיריס קובנה",
+      "ok": false
+    },
+    {
+      "club": "אריס סלוניקי",
+      "ok": false
+    },
+    {
+      "club": "מונאקו",
+      "ok": false
+    },
+    {
+      "club": "דרתונה טורטונה",
+      "ok": false
+    },
+    {
+      "club": "בהצ'שהיר",
+      "ok": false
+    },
+    {
+      "club": "בלקן בוטבגרד",
+      "ok": true,
+      "url": "https://balkan-basket.com/games",
+      "preseason": false
+    },
+    {
+      "club": "Buducnost VOLI Podgorica",
+      "ok": false
+    },
+    {
+      "club": "צדביטה אולימפייה",
+      "ok": false
+    },
+    {
+      "club": "JL בורג",
+      "ok": false
+    },
+    {
+      "club": "טרנטו",
+      "ok": true,
+      "url": "http://www.aquilabasket.it/calendario",
+      "preseason": false
+    },
+    {
+      "club": "הפועל ירושלים מידטאון",
+      "ok": true,
+      "url": "http://www.hapoel.co.il/raspored",
+      "preseason": true
+    },
+    {
+      "club": "מנרסה",
+      "ok": false
+    },
+    {
+      "club": "לגונה טנריפה",
+      "ok": false
+    },
+    {
+      "club": "לה מאן",
+      "ok": false
+    },
+    {
+      "club": "Lietkabelis Panevezys",
+      "ok": true,
+      "url": "http://www.kklietkabelis.lt/schedule",
+      "preseason": false
+    },
+    {
+      "club": "לונדון ליונס",
+      "ok": false
+    },
+    {
+      "club": "מקסימה רומא",
+      "ok": false
+    },
+    {
+      "club": "נאפולי",
+      "ok": false
+    },
+    {
+      "club": "נפטונאס קלייפדה",
+      "ok": false
+    },
+    {
+      "club": "NINERS Chemnitz",
+      "ok": false
+    },
+    {
+      "club": "ratiopharm ulm",
+      "ok": true,
+      "url": "http://www.basketball-ulm.com/en/games",
+      "preseason": true
+    },
+    {
+      "club": "סן פבלו בורגוס",
+      "ok": false
+    },
+    {
+      "club": "ריגה זלי",
+      "ok": false
+    },
+    {
+      "club": "Rostock Seawolves",
+      "ok": false
+    },
+    {
+      "club": "סיאוליאי",
+      "ok": false
+    },
+    {
+      "club": "פרנקפורט סקייליינרס",
+      "ok": false
+    },
+    {
+      "club": "שלסק ורוצלב",
+      "ok": false
+    },
+    {
+      "club": "טורק טלקום",
+      "ok": false
+    },
+    {
+      "club": "קלוז'-נאפוקה",
+      "ok": false
+    },
+    {
+      "club": "רייר ונציה",
+      "ok": false
+    }
+  ],
   "candidates": [
     {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27 Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27",
-      "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/",
-      "published": "",
+      "outlet": "club:t_1d8e80ce",
+      "club": "ברצלונה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — ברצלונה",
+      "url": "https://www.fcbarcelona.com/schedule",
+      "published": null,
       "matchedKeywords": [
-        "φιλικά",
-        "προετοιμασία",
-        "προετοιμασίας"
+        "fixtures-page"
       ],
       "matchedClubs": [
-        "Ηρακλής"
+        "ברצלונה"
       ],
-      "score": 7
+      "score": 9
     },
     {
-      "outlet": "basketdergisi",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "19. TÜBAD Mehmet Baturalp turnuvası’nın programı belli oldu",
-      "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html",
-      "published": "Thu, 13 Aug 2026 17:47:30 +0000",
+      "outlet": "club:t_763dcde9",
+      "club": "ולנסיה בסקט",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — ולנסיה בסקט",
+      "url": "http://www.valenciabasket.com/calendario",
+      "published": null,
       "matchedKeywords": [
-        "turnuva"
+        "fixtures-page"
       ],
       "matchedClubs": [
-        "Safiport Erokspor",
-        "Anadolu Efes",
-        "Trabzonspor",
-        "Erokspor",
-        "AEK BC"
+        "ולנסיה בסקט"
       ],
-      "score": 7
+      "score": 9
     },
     {
-      "outlet": "basketdergisi",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "Beşiktaş, Kalemegdan'da açık sahaya çıkıyor",
-      "url": "https://basketdergisi.com/besiktas-kalemegdanda-acik-sahaya-cikiyor.html",
-      "published": "Thu, 13 Aug 2026 07:57:47 +0000",
+      "outlet": "club:t_2a1ac857",
+      "club": "הפועל תל אביב",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — הפועל תל אביב",
+      "url": "https://www.hapoeluta.org/games",
+      "published": null,
       "matchedKeywords": [
-        "turnuva"
+        "fixtures-page"
       ],
       "matchedClubs": [
-        "Fuenlabrada",
-        "Beşiktaş",
-        "Partizan"
+        "הפועל תל אביב"
       ],
-      "score": 7
+      "score": 9
+    },
+    {
+      "outlet": "club:t_1b44e7f9",
+      "club": "מכבי תל אביב",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — מכבי תל אביב",
+      "url": "http://www.maccabi.co.il/season.asp",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "מכבי תל אביב"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_e5b49b07",
+      "club": "הפועל ירושלים מידטאון",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — הפועל ירושלים מידטאון",
+      "url": "http://www.hapoel.co.il/raspored",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "הפועל ירושלים מידטאון"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_66371643",
+      "club": "ratiopharm ulm",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — ratiopharm ulm",
+      "url": "http://www.basketball-ulm.com/en/games",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "ratiopharm ulm"
+      ],
+      "score": 9
     },
     {
       "outlet": "basketfaul",
@@ -256,67 +528,130 @@
       ],
       "matchedClubs": [
         "Esenler Erokspor",
-        "Anadolu Efes",
-        "Trabzonspor",
-        "Erokspor",
-        "AEK BC"
+        "Erokspor"
       ],
       "score": 7
     },
     {
-      "outlet": "basketfaul",
+      "outlet": "basketdergisi",
       "lang": "tr",
       "strategy": "rss",
-      "title": "Beşiktaş, Açık Hava Sahasındaki Turnuvaya katılacak",
-      "url": "https://basketfaul.com.tr/turkiye/bsl/besikras-acik-hava-sahasindaki-turnuvaya-katilacak/",
-      "published": "Thu, 13 Aug 2026 11:11:34 +0000",
+      "title": "19. TÜBAD Mehmet Baturalp turnuvası’nın programı belli oldu",
+      "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html",
+      "published": "Thu, 13 Aug 2026 17:47:30 +0000",
       "matchedKeywords": [
         "turnuva"
       ],
       "matchedClubs": [
-        "Fuenlabrada",
-        "Beşiktaş",
-        "Partizan"
-      ],
-      "score": 7
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Fortitudo, prevendita a gonfie vele per il match con Pistoia. Porte chiuse per i primi due test",
-      "url": "https://sportando.basketball/fortitudo-prevendita-a-gonfie-vele-per-il-match-con-pistoia-porte-chiuse-per-i-primi-due-test/",
-      "published": "Thu, 13 Aug 2026 20:14:46 +0000",
-      "matchedKeywords": [
-        "amichevole"
-      ],
-      "matchedClubs": [
-        "Fortitudo"
+        "Erokspor"
       ],
       "score": 6
     },
     {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Definito il tabellone della Supercoppa 2026 (19-20 settembre, Tortona): Milano - Bologna e Tortona - Venezia le semifinali",
-      "url": "https://www.legabasket.it/news/138922/supercoppa-2026",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [
-        "supercoppa"
-      ],
+      "outlet": "club:t_1497d847",
+      "club": "פרטיזן בלגרד",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — פרטיזן בלגרד",
+      "url": "http://www.kkpartizan.rs/games",
+      "published": null,
+      "matchedKeywords": [],
       "matchedClubs": [
-        "Tortona"
+        "פרטיזן בלגרד"
       ],
       "score": 6
     },
     {
-      "outlet": "basket247",
+      "outlet": "club:t_9b9664c9",
+      "club": "PAOK",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — PAOK",
+      "url": "http://www.paokbc.gr/schedule",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_21cf4132",
+      "club": "אולימפיה מילאנו",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — אולימפיה מילאנו",
+      "url": "http://www.olimpiamilano.com/schedule",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "אולימפיה מילאנו"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_be26eea9",
+      "club": "דובאי בסקטבול",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — דובאי בסקטבול",
+      "url": "https://dubaibasketball.com/schedule",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "דובאי בסקטבול"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_d896c80a",
+      "club": "בלקן בוטבגרד",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — בלקן בוטבגרד",
+      "url": "https://balkan-basket.com/games",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "בלקן בוטבגרד"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_7a084c7e",
+      "club": "טרנטו",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — טרנטו",
+      "url": "http://www.aquilabasket.it/calendario",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "טרנטו"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_35818653",
+      "club": "Lietkabelis Panevezys",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — Lietkabelis Panevezys",
+      "url": "http://www.kklietkabelis.lt/schedule",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Lietkabelis Panevezys"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "sport24gr",
       "lang": "el",
-      "strategy": "rss",
-      "title": "Τα φιλικά προετοιμασίας του Ηρακλή ενόψει της νέας σεζόν",
-      "url": "https://www.basket247.gr/ta-filika-proetoimasias-toy-irakli-enopsei-tis-neas-sezon/",
-      "published": "Fri, 14 Aug 2026 05:34:00 +0000",
+      "strategy": "html",
+      "title": "Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27 Ο Ηρακλής ανακοίνωσε 9 φιλικά προετοιμασίας για τη σεζόν 2026/27",
+      "url": "https://www.sport24.gr/basket/o-iraklis-anakoinose-9-filika-proetoimasias-gia-ti-sezon-2026-27/",
+      "published": "",
       "matchedKeywords": [
         "φιλικά",
         "προετοιμασία",
@@ -324,34 +659,6 @@
       ],
       "matchedClubs": [],
       "score": 5
-    },
-    {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν",
-      "url": "https://www.sport24.gr/basket/paok-to-video-tis-kae-apo-tin-proponisi-ton-thessalonikon-kai-tin-omilia-tou-trinkieri-enopsei-tis-neas-agonistikis/",
-      "published": "",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK",
-        "ΠΑΟΚ"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\" Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\"",
-      "url": "https://www.sport24.gr/basket/trinkieri-stin-proti-proponisi-tou-paok-pira-olous-tous-paiktes-pou-ithela-afti-einai-i-omada-pou-ithela/",
-      "published": "",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK",
-        "ΠΑΟΚ"
-      ],
-      "score": 4
     },
     {
       "outlet": "basketdergisi",
@@ -382,91 +689,12 @@
       "score": 4
     },
     {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "partizan kontra ston paok stis 18 septemvriou sto tournoua paylos giannakopoulos",
-      "url": "https://www.allstarbasket.gr/diethni/euroleague/partizan-kontra-ston-paok-stis-18-septemvriou-sto-tournoua-paylos-giannakopoulos",
-      "published": "2026-08-13T08:21:26+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Partizan",
-        "PAOK"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Shai Gilgeous-Alexander sul ritiro di Westbrook: \"Per sempre una vera leggenda di OKC\"",
-      "url": "https://sportando.basketball/shai-gilgeous-alexander-sul-ritiro-di-westbrook-per-sempre-una-vera-leggenda-di-okc/",
-      "published": "Thu, 13 Aug 2026 21:03:25 +0000",
-      "matchedKeywords": [
-        "ritiro"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Trabzonspor, New Balance nuovo sponsor tecnico",
-      "url": "https://sportando.basketball/trabzonspor-new-balance-nuovo-sponsor-tecnico/",
-      "published": "Thu, 13 Aug 2026 20:30:04 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Trabzonspor"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Durant saluta Westbrook: \"È stato fonte di ispirazione, congratulazioni per la carriera iconica\"",
-      "url": "https://sportando.basketball/durant-saluta-westbrook-e-stato-fonte-di-ispirazione-congratulazioni-per-la-carriera-iconica/",
-      "published": "Thu, 13 Aug 2026 20:20:18 +0000",
-      "matchedKeywords": [
-        "ritiro"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "NBA, pubblicato il calendario completo della stagione 2026/27",
-      "url": "https://sportando.basketball/nba-pubblicato-il-calendario-completo-della-stagione-2026-27/",
-      "published": "Thu, 13 Aug 2026 20:02:03 +0000",
-      "matchedKeywords": [
-        "calendario"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "bursahakimiyet",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "TOFAŞ Basketbol Takımı yeni sezon için çalışmalara başladı",
-      "url": "https://www.bursahakimiyet.com.tr/bursa-da-spor/tofas-basketbol-takimi-yeni-sezon-icin-calismalara-basladi-1688573",
-      "published": "Fri, 14 Aug 2026 05:02:00 GMT",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tofaş"
-      ],
-      "score": 3
-    },
-    {
       "outlet": "sportacentrs",
       "lang": "lv",
       "strategy": "rss",
-      "title": "Šeltons triumfē Monreālas \"Masters\", izcīnot septīto ATP titulu",
-      "url": "http://sportacentrs.com/teniss/14082026-seltons_un_nakasima_monrealas_finala",
-      "published": "Fri, 14 Aug 2026 06:55:00 +0300",
+      "title": "Nedēļas nogalē bridža turnīrā \"Riga Invites\" 10 valstu un 3 kontinentu pārstāvniecība",
+      "url": "http://sportacentrs.com/citi/13082026-nedelas_nogale_bridza_turnira_riga_invite",
+      "published": "Thu, 13 Aug 2026 14:46:00 +0300",
       "matchedKeywords": [
         "turnīrs"
       ],
@@ -474,54 +702,15 @@
       "score": 3
     },
     {
-      "outlet": "sportacentrs",
-      "lang": "lv",
+      "outlet": "eurohoops",
+      "lang": "en",
       "strategy": "rss",
-      "title": "Švjonteka apspēlē Ribakinu un pirmoreiz nopelna Toronto \"WTA 1000\" titulu",
-      "url": "http://sportacentrs.com/teniss/14082026-ribakina_un_svjonteka_toronto_finala",
-      "published": "Fri, 14 Aug 2026 05:55:00 +0300",
-      "matchedKeywords": [
-        "turnīrs"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "sportacentrs",
-      "lang": "lv",
-      "strategy": "rss",
-      "title": "Freha kļūst par Ostapenko pirmo oponenti Sinsinati",
-      "url": "http://sportacentrs.com/teniss/13082026-freha_klust_par_ostapenko_pirmo_oponenti_",
-      "published": "Thu, 13 Aug 2026 23:25:00 +0300",
-      "matchedKeywords": [
-        "turnīrs"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "telegraf",
-      "lang": "sr",
-      "strategy": "rss",
-      "title": "Počinje Gospojinski post: 15 dana uzdržavanja, molitve i pripreme za Veliku Gospojinu",
-      "url": "https://www.telegraf.rs/vesti/srbija/4377866-pocinje-gospojinski-post-15-dana-uzdrzavanja-molitve-i-pripreme-za-veliku-gospojinu",
-      "published": "2026-08-14T07:01:00+02:00",
-      "matchedKeywords": [
-        "pripreme"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Οι Πέισερς αποδέσμευσαν τον Τόμπσον και ετοιμάζεται για την Παρτίζαν Οι Πέισερς αποδέσμευσαν τον Τόμπσον και ετοιμάζεται για την Παρτίζαν",
-      "url": "https://www.sport24.gr/basket/euroleague-basketball/partizan-oi-peisers-apodesmefsan-ton-tompson-kai-odevei-pros-servia/",
-      "published": "",
+      "title": "Tenerife signs Arturs Kurucs, Riga Zelli brings Klavs Cavars home",
+      "url": "https://www.eurohoops.net/en/eurocup/1998499/tenerife-signs-arturs-kurucs-riga-zelli-brings-klavs-cavars-home/",
+      "published": "Thu, 13 Aug 2026 12:21:52 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Partizan"
+        "Zelli"
       ],
       "score": 3
     },
@@ -542,12 +731,25 @@
       "outlet": "sport24gr",
       "lang": "el",
       "strategy": "html",
-      "title": "Η Παρτίζαν συμφώνησε με τον Τόμπσον - Περιμένει την αποδέσμευση του από τους Πέισερς, σύμφωνα με σερβικό μέσο Η Παρτίζαν συμφώνησε με τον Τόμπσον - Περιμένει την αποδέσμευση του από τους Πέισερς, σύμφωνα με σερβικό μέσο",
-      "url": "https://www.sport24.gr/basket/euroleague-basketball/partizan-i-omada-tou-veligradiou-simfonise-me-ton-tompson-perimenei-tin-apodesmefsi-tou-apo-tous-peisers-simfona-me-serviko-meso/",
+      "title": "Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν Το VIDEO της ΚΑΕ ΠΑΟΚ από την πρώτη προπόνηση της ομάδας και την ομιλία του Τρινκιέρι, ενόψει της νέας σεζόν",
+      "url": "https://www.sport24.gr/basket/paok-to-video-tis-kae-apo-tin-proponisi-ton-thessalonikon-kai-tin-omilia-tou-trinkieri-enopsei-tis-neas-agonistikis/",
       "published": "",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Partizan"
+        "PAOK"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\" Τρινκιέρι στην πρώτη προπόνηση του ΠΑΟΚ: \"Πήρα όλους τους παίκτες που ήθελα, αυτή είναι η ομάδα που ήθελα\"",
+      "url": "https://www.sport24.gr/basket/trinkieri-stin-proti-proponisi-tou-paok-pira-olous-tous-paiktes-pou-ithela-afti-einai-i-omada-pou-ithela/",
+      "published": "",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "PAOK"
       ],
       "score": 3
     },
@@ -560,6 +762,19 @@
       "published": "Thu, 13 Aug 2026 17:54:41 +0000",
       "matchedKeywords": [
         "sezon öncesi"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "basketdergisi",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "Beşiktaş, Kalemegdan'da açık sahaya çıkıyor",
+      "url": "https://basketdergisi.com/besiktas-kalemegdanda-acik-sahaya-cikiyor.html",
+      "published": "Thu, 13 Aug 2026 07:57:47 +0000",
+      "matchedKeywords": [
+        "turnuva"
       ],
       "matchedClubs": [],
       "score": 3
@@ -607,390 +822,13 @@
       "outlet": "hotsport",
       "lang": "sr",
       "strategy": "rss",
-      "title": "PARTIZAN ZAVRŠIO NBA POJAČANJE: Iz Indijane stiže novi bek, poznati i detalji ugovora!",
-      "url": "https://hotsport.rs/2026/08/13/partizan-zavrsio-nba-pojacanje-iz-indijane-stize-novi-bek-poznati-i-detalji-ugovora/",
-      "published": "Thu, 13 Aug 2026 08:20:58 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Partizan"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "bebasket",
-      "lang": "fr",
-      "strategy": "rss",
-      "title": "Joffrey Lauvergne évoque son retour au Partizan : « C’était vraiment important pour moi de rejouer ici et de finir ici »",
-      "url": "https://www.bebasket.fr/joffrey-lauvergne-evoque-son-retour-au-partizan-cetait-vraiment-important-pour-moi-de-rejouer-ici-et-de-finir-ici",
-      "published": "2026-08-14T05:24:50+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Partizan"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "basket247",
-      "lang": "el",
-      "strategy": "rss",
-      "title": "«Εκεί που δεν σε βλέπει κανείς χτίζεται αυτό που θα βλέπουν όλοι»: Ο Μήτογλου λιώνει στις προπονήσεις",
-      "url": "https://www.basket247.gr/ekei-pou-den-se-vlepei-kaneis-xtizetai-auto-pou-tha-vlepoun-oloi-o-mitoglou-liwnei-stis-proponiseis/",
-      "published": "Thu, 13 Aug 2026 21:32:48 +0000",
+      "title": "PARTIZAN IDE REDOM: Od prvog okupljanja, preko susreta sa bivšim trenerom, do spektakla protiv Olimpije iz Milana!",
+      "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
+      "published": "Wed, 12 Aug 2026 21:50:34 +0000",
       "matchedKeywords": [
-        "προετοιμασία"
+        "pripreme"
       ],
       "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "basket247",
-      "lang": "el",
-      "strategy": "rss",
-      "title": "Εθνική Σερβίας: Μίλησε για τις απουσίες βασικών παικτών ο Αλιμπίγιεβιτς",
-      "url": "https://www.basket247.gr/ethniki-serbias-milise-gia-tis-apoysies-basikon-paikton-o-alibigiebivh/",
-      "published": "Thu, 13 Aug 2026 19:50:12 +0000",
-      "matchedKeywords": [
-        "προετοιμασία"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "pairnei ton ithan tompson i partizan",
-      "url": "https://www.allstarbasket.gr/diethni/euroleague/pairnei-ton-ithan-tompson-i-partizan",
-      "published": "2026-08-13T10:27:01+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Partizan"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok to video apo tin proti proponisi enopsei tis neas sezon",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-to-video-apo-tin-proti-proponisi-enopsei-tis-neas-sezon",
-      "published": "2026-08-13T08:12:01+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "trinkieri exo tin omada pou ithela poly varia i fanela tou paok",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/trinkieri-exo-tin-omada-pou-ithela-poly-varia-i-fanela-tou-paok",
-      "published": "2026-08-12T15:09:59+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok pragmatopoiithike i proti proponisi tou trinkieri sto palataki",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-pragmatopoiithike-i-proti-proponisi-tou-trinkieri-sto-palataki",
-      "published": "2026-08-12T12:26:58+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok manoli se efxaristoyme gia ola epistrefeis sti fysiki sou thesi stin kerkida",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-manoli-se-efxaristoyme-gia-ola-epistrefeis-sti-fysiki-sou-thesi-stin-kerkida",
-      "published": "2026-08-12T08:23:01+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "o paok apoxairetise kai efxaristise ton panteli boytsko",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/o-paok-apoxairetise-kai-efxaristise-ton-panteli-boytsko",
-      "published": "2026-08-11T19:32:45+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok xoris osman kai kalathi arxizei i proetoimasia",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-xoris-osman-kai-kalathi-arxizei-i-proetoimasia",
-      "published": "2026-08-11T18:03:27+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok pliris symfonia as kai kae gia paok sports arena anakoinothike i proslipsi tou aftosmidi",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-pliris-symfonia-as-kai-kae-gia-paok-sports-arena-anakoinothike-i-proslipsi-tou-aftosmidi",
-      "published": "2026-08-11T16:02:13+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok proponitis endynamosis kai fysikis katastasis o loyka nastov",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-proponitis-endynamosis-kai-fysikis-katastasis-o-loyka-nastov",
-      "published": "2026-08-11T11:39:27+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok nea proslipsi sto texniko epiteleio me antriou antelintze",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-nea-proslipsi-sto-texniko-epiteleio-me-antriou-antelintze",
-      "published": "2026-08-10T14:16:33+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok anakoinose ton giorgo deda gia to texniko tou epiteleio",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-anakoinose-ton-giorgo-deda-gia-to-texniko-tou-epiteleio",
-      "published": "2026-08-10T11:09:48+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok amesos synergatis tou trinkeri o meneti",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-amesos-synergatis-tou-trinkeri-o-meneti",
-      "published": "2026-08-10T10:04:32+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok me ton markous foster oloklirothikan oi afikseis pics",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-me-ton-markous-foster-oloklirothikan-oi-afikseis-pics",
-      "published": "2026-08-10T07:33:18+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok sti thessaloniki oi naz mitrou longk trevor xantzins kai kail aleksanter pics",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-sti-thessaloniki-oi-naz-mitrou-longk-trevor-xantzins-kai-kail-aleksanter-pics",
-      "published": "2026-08-10T05:34:57+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok eftase sti thessaloniki o raikouan grei pics",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-eftase-sti-thessaloniki-o-raikouan-grei-pics",
-      "published": "2026-08-09T14:40:31+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok apo simera sti thessaloniki o trinkeri",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-apo-simera-sti-thessaloniki-o-trinkeri",
-      "published": "2026-08-08T14:13:12+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok i afiksi tou ben mour sti thessaloniki pics",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-i-afiksi-tou-ben-mour-sti-thessaloniki-pics",
-      "published": "2026-08-07T08:39:16+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "skalomenos tha itan to idaniko na doyme ena gemato gipedo",
-      "url": "https://www.allstarbasket.gr/basket-gynaikon/skalomenos-tha-itan-to-idaniko-na-doyme-ena-gemato-gipedo",
-      "published": "2026-08-06T13:14:29+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Gema"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok ependysi me spano kai xaralampidi",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-ependysi-me-spano-kai-xaralampidi",
-      "published": "2026-08-05T13:57:06+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "tairi na feroume ena protathlima piso ston paok vid",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/tairi-na-feroume-ena-protathlima-piso-ston-paok-vid",
-      "published": "2026-08-05T12:37:35+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok eftase sti thessaloniki o brin tairi pics",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-eftase-sti-thessaloniki-o-brin-tairi-pics",
-      "published": "2026-08-05T10:46:39+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok gnostopoiise tis afikseis epta paikton",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-gnostopoiise-tis-afikseis-epta-paikton",
-      "published": "2026-08-04T15:29:27+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok neos rolos gia ton panagioti vasileiou",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-neos-rolos-gia-ton-panagioti-vasileiou",
-      "published": "2026-08-04T13:57:10+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "persidis epipleon kinitro osa symvainoun ston paok gia o ti xreiastei i omada tha eimai ekei",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/persidis-epipleon-kinitro-osa-symvainoun-ston-paok-gia-o-ti-xreiastei-i-omada-tha-eimai-ekei",
-      "published": "2026-08-04T11:48:20+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "eurocup i thesi ton ari kai paok kai o ypsilos antagonismos",
-      "url": "https://www.allstarbasket.gr/diethni/eurocup/eurocup-i-thesi-ton-ari-kai-paok-kai-o-ypsilos-antagonismos",
-      "published": "2026-08-03T16:49:35+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "paok anakoinose stratigiki synergasia me ti deka",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-anakoinose-stratigiki-synergasia-me-ti-deka",
-      "published": "2026-08-03T14:56:04+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "PAOK"
-      ],
       "score": 3
     },
     {
@@ -1002,6 +840,19 @@
       "published": "Thu, 13 Aug 2026 12:32:07 +0000",
       "matchedKeywords": [
         "hazırlık maçları"
+      ],
+      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "basketfaul",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "Beşiktaş, Açık Hava Sahasındaki Turnuvaya katılacak",
+      "url": "https://basketfaul.com.tr/turkiye/bsl/besikras-acik-hava-sahasindaki-turnuvaya-katilacak/",
+      "published": "Thu, 13 Aug 2026 11:11:34 +0000",
+      "matchedKeywords": [
+        "turnuva"
       ],
       "matchedClubs": [],
       "score": 3
@@ -1025,7 +876,7 @@
       "strategy": "sitemap",
       "title": "supercopa",
       "url": "https://acb.com/es/supercopa",
-      "published": "2026-08-14T05:49:12.974Z",
+      "published": "2026-08-13T17:33:29.756Z",
       "matchedKeywords": [
         "supercopa"
       ],
@@ -1036,22 +887,9 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
-      "title": "Coach Fioretti presenta la nuova Bertram Derthona Tortona: \"Privilegiata la qualità sulla quantità\"",
-      "url": "https://www.legabasket.it/news/139305/fioretti-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
       "title": "Sincronizza ora il calendario della LBA Serie A SisalClub 2026/27 sui tuoi dispositivi!",
       "url": "https://www.legabasket.it/news/139297/sync-calendari-lba",
-      "published": "2026-08-14T05:49:34.812Z",
+      "published": "2026-08-13T19:45:49.214Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -1062,35 +900,9 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
-      "title": "Bertram Derthona Tortona, ufficiale la firma di Paul Eboua",
-      "url": "https://www.legabasket.it/news/139282/tortona-paul-eboua",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "L’Armani Olimpia Milano rileva Andrea Loro: va in prestito alla Tezenis Verona",
-      "url": "https://www.legabasket.it/news/139281/milano-loro-verona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
       "title": "Ufficiale il calendario della Regular Season della LBA Serie A SisalClub 2026/27: si parte il 27 settembre",
       "url": "https://www.legabasket.it/news/139229/calendario-serie-a-2026-27",
-      "published": "2026-08-14T05:49:34.812Z",
+      "published": "2026-08-13T19:45:49.214Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -1103,7 +915,7 @@
       "strategy": "sitemap",
       "title": "Lunedì 3 agosto alle ore 12.00 il calendario della LBA Serie A SisalClub 2026/27",
       "url": "https://www.legabasket.it/news/139270/lunedi-3-agosto-serie-a-sisalclub-2026-27",
-      "published": "2026-08-14T05:49:34.812Z",
+      "published": "2026-08-13T19:45:49.214Z",
       "matchedKeywords": [
         "calendario"
       ],
@@ -1114,364 +926,13 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
-      "title": "Bertram Derthona Tortona, Durham si presenta: \"Sono pronto a qualunque sfida. Con mio fratello ho un brand di abbigliamento\"",
-      "url": "https://www.legabasket.it/news/139266/tortona-durham",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
+      "title": "Definito il tabellone della Supercoppa 2026 (19-20 settembre, Tortona): Milano - Bologna e Tortona - Venezia le semifinali",
+      "url": "https://www.legabasket.it/news/138922/supercoppa-2026",
+      "published": "2026-08-13T19:45:49.215Z",
+      "matchedKeywords": [
+        "supercoppa"
       ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, parla il DS Baiesi: \"Avremo una squadra operaia con picchi di qualità\"",
-      "url": "https://www.legabasket.it/news/139249/milano-baiesi",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, Moses Wright è ufficialmente il nuovo centro",
-      "url": "https://www.legabasket.it/news/139180/milano-moses-wright",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Giordano Bortolani e il suo arrivo alla Bertram Derthona Tortona: \"Posto ideale per fare un ulteriore step di crescita\"",
-      "url": "https://www.legabasket.it/news/139236/giordano-bortolani-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Bertram Derthona Tortona, ufficiale l&apos;arrivo della guardia Dante Maddox in prestito da Milano",
-      "url": "https://www.legabasket.it/news/139227/tortona-dante-maddox",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "La Bertram Derthona Tortona saluta e ringrazia Christian Vital",
-      "url": "https://www.legabasket.it/news/139220/tortona-christian-vital",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Giordano Bortolani è la nuova guardia della Bertram Derthona Tortona",
-      "url": "https://www.legabasket.it/news/139212/bortolani-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "\"Ogni Voce Conta\" – Parte la Campagna Abbonamenti 2026-27 della Bertram Derthona Tortona",
-      "url": "https://www.legabasket.it/news/139192/campagna-abbonamenti-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "L&apos;Armani Olimpia Milano saluta e ringrazia Josh Nebo",
-      "url": "https://www.legabasket.it/news/139190/milano-josh-nebo",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "La Bertram Derthona Tortona saluta e ringrazia Joonas Riismaa",
-      "url": "https://www.legabasket.it/news/139189/tortona-joonas-riismaa",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Aljami Durham è il nuovo playmaker della Bertram Derthona Tortona",
-      "url": "https://www.legabasket.it/news/139188/aljami-durham-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Zach LeDay lascia ufficialmente l&apos;Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139034/zach-leday-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "L&apos;Armani Olimpia Milano saluta e ringrazia Nathan Sestina",
-      "url": "https://www.legabasket.it/news/139184/milano-nathan-sestina",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, estensione pluriennale del contratto con Stefano Tonut",
-      "url": "https://www.legabasket.it/news/139176/milano-stefano-tonut",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, ufficiale l&apos;estensione pluriennale del contratto di Ousmane Diop",
-      "url": "https://www.legabasket.it/news/139169/milano-ousmane-diop",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Shavon Shields lascia ufficialmente l’ Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139023/shavon-shields-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Marco Ramondino entra nello staff tecnico dell&apos;Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139168/marco-ramondino-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Karim Jallow lascia la Virtus Olidata Bologna e diventa un nuovo giocatore della Bertram Derthona Tortona",
-      "url": "https://www.legabasket.it/news/139162/bologna-karim-jallow",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "RJ Cole è il nuovo playmaker dell&apos;Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139161/rj-cole-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Darius Thompson torna in Italia, accordo pluriennale con l&apos;Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139154/darius-thompson-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Nicola Akele è la nuova ala dell&apos;Armani Olimpia Milano",
-      "url": "https://www.legabasket.it/news/139143/nicola-akele-milano",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "L&apos;Armani Olimpia Milano augura il meglio a Quinn Ellis per la sua esperienza americana",
-      "url": "https://www.legabasket.it/news/139141/milano-quinn-ellis",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Giulio Gazzotti torna ufficialmente alla Bertram Derthona Tortona",
-      "url": "https://www.legabasket.it/news/139135/giulio-gazzotti-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, Bolmaro si racconta: “In Argentina tutti sognano di essere come Ginobili\"",
-      "url": "https://www.legabasket.it/news/139130/milano-bolmaro",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Armani Olimpia Milano, Armoni Brooks saluta dopo due stagioni",
-      "url": "https://www.legabasket.it/news/139015/milano-armoni-brooks",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Bertram Derthona Tortona, il GM Vacirca: \"Il prossimo campionato sarà il più competitivo dell&apos;epoca moderna\"",
-      "url": "https://www.legabasket.it/news/139124/tortona-vacirca",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "L&apos;Armani Olimpia Milano annuncia il ritorno di Devon Hall",
-      "url": "https://www.legabasket.it/news/139039/milano-devon-hall",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Armani Olimpia Milano"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Justin Gorham, Prentiss Hubb, Andrea Pecchia e Dominik Olejniczak confermati nella Bertram Derthona Tortona per la stagione 2026/27",
-      "url": "https://www.legabasket.it/news/139111/gorham-hubb-pecchia-olejniczak-tortona",
-      "published": "2026-08-14T05:49:34.812Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Tortona"
-      ],
+      "matchedClubs": [],
       "score": 3
     }
   ]

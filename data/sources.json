@@ -1,5 +1,5 @@
 {
-  "_doc": "Layer 1 of collection: sports outlets. Each covers a whole country or league, so one feed yields many clubs. Derived from the 34 domains that produced the seed data - the top 23 accounted for 78% of all games. Layer 2 (per-club feeds) lives in teams.json, because small clubs are covered by nobody but themselves.",
+  "_doc": "Layer 1 of collection: sports outlets. Each covers a whole country or league, so one feed yields many clubs. Derived from the 34 domains that produced the seed data - the top 23 accounted for 78% of all games. Layer 2 (per-club feeds) lives in teams.json, because small clubs are covered by nobody but themselves. A whole category was missing until the Nicosia draw exposed it: tournament ORGANISERS and ticket sellers publish the draw and tip-off times first, and no news outlet or club site is guaranteed to repeat them.",
   "keywords": {
     "_doc": "Headline filters, cast deliberately WIDE. An item is opened if it matches these OR mentions any club in teams.json - a narrow list loses games silently (the seed list missed 'preparazione', which was the very first matching headline on Sportando). Precision is the extractor's job; recall is this stage's job.",
     "he": [
@@ -415,6 +415,74 @@
         "israel"
       ],
       "url": "https://www.basket.org.il/",
+      "seedGames": 0,
+      "basketballOnly": true
+    },
+    {
+      "id": "pneuma",
+      "name": "Pneuma Promotions (מארגן טורניר ניקוסיה)",
+      "lang": "el",
+      "scope": [
+        "cyprus"
+      ],
+      "url": "https://pneumapromotions.com/news/",
+      "seedGames": 0,
+      "basketballOnly": true,
+      "kind": "organiser"
+    },
+    {
+      "id": "protathlima",
+      "name": "Protathlima Cyprus Times",
+      "lang": "el",
+      "scope": [
+        "cyprus",
+        "greece"
+      ],
+      "url": "https://protathlima.cyprustimes.com/kalathosfaira/",
+      "seedGames": 0,
+      "basketballOnly": true
+    },
+    {
+      "id": "basketballstoriescy",
+      "name": "Basketball Stories Cyprus",
+      "lang": "el",
+      "scope": [
+        "cyprus"
+      ],
+      "url": "https://www.basketballstoriescy.com/",
+      "seedGames": 0,
+      "basketballOnly": true
+    },
+    {
+      "id": "kerkida",
+      "name": "Kerkida",
+      "lang": "el",
+      "scope": [
+        "cyprus"
+      ],
+      "url": "https://www.kerkida.net/eidiseis/alla-spor/mpasket/",
+      "seedGames": 0,
+      "basketballOnly": true
+    },
+    {
+      "id": "gipedo",
+      "name": "Gipedo Politis",
+      "lang": "el",
+      "scope": [
+        "cyprus"
+      ],
+      "url": "https://gipedo.politis.com.cy/kalathosfaira/",
+      "seedGames": 0,
+      "basketballOnly": true
+    },
+    {
+      "id": "sportando_en",
+      "name": "Sportando EN",
+      "lang": "en",
+      "scope": [
+        "europe"
+      ],
+      "url": "https://www.sportando.basketball/en/",
       "seedGames": 0,
       "basketballOnly": true
     }
