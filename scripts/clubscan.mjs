@@ -28,6 +28,57 @@ const FIXTURE_PATHS = [
   "/en/games", "/en/schedule", "/en/fixtures", "/en/calendar", "/calendar",
 ];
 
+/**
+ * Guessing paths found a fixture page for 13 of 51 clubs. Guessing is the
+ * fallback now, not the method: the page is almost always linked from the
+ * home page, in the club's own language, and reading those links finds it
+ * without knowing the language.
+ */
+const NAV_WORDS = [
+  "games", "schedule", "fixtures", "matches", "results", "calendar",
+  "calendario", "partidos", "resultados", "calendrier", "matchs",
+  "spielplan", "termine", "ergebnisse",
+  "calendario partite", "partite", "risultati",
+  "fikstür", "maçlar", "maç programı", "puan durumu",
+  "πρόγραμμα", "αγώνες", "αποτελέσματα",
+  "rungtynės", "tvarkaraštis", "varžybos",
+  "raspored", "utakmice", "rezultati", "termini", "tekme",
+  "spēles", "kalendārs", "terminarz", "mecze",
+  "משחקים", "לוח משחקים", "תוצאות",
+];
+
+/** Score a link by how much it looks like the fixtures page. */
+function navScore(text, href) {
+  const t = (text || "").toLowerCase().trim();
+  const h = decodeURIComponent(href || "").toLowerCase();
+  let s = 0;
+  for (const w of NAV_WORDS) {
+    if (t === w) s += 10;
+    else if (t.includes(w)) s += 6;
+    if (h.includes(w.replace(/\s+/g, "-")) || h.includes(w.replace(/\s+/g, ""))) s += 4;
+  }
+  // Season pages and archives are fixtures too, but news and shops are not.
+  if (/\b(shop|store|ticket|news|blog|sponsor|academy|youth|women|u1[0-9])\b/.test(h)) s -= 12;
+  return s;
+}
+
+async function discoverFromHome(origin) {
+  const html = await get(origin, { timeout: 20000 });
+  if (!html) return [];
+  const seen = new Set();
+  const scored = [];
+  for (const m of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]{0,120}?)<\/a>/gi)) {
+    let url;
+    try { url = new URL(m[1], origin); } catch { continue; }
+    if (url.origin !== origin || seen.has(url.href)) continue;
+    seen.add(url.href);
+    const text = m[2].replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim();
+    const s = navScore(text, url.pathname);
+    if (s > 0) scored.push({ url: url.href, s });
+  }
+  return scored.sort((a, b) => b.s - a.s).slice(0, 6).map((x) => x.url);
+}
+
 // A fixture page names months or carries dd.mm dates, and mentions preseason
 // or a scoreline separator. Cheap enough to check before spending a model call.
 const LOOKS_LIKE_FIXTURES =
@@ -48,8 +99,11 @@ for (const club of clubs) {
   let origin;
   try { origin = new URL(club.website).origin; } catch { continue; }
 
-  // A page we already learned about is tried first and alone.
-  const paths = club.fixturesUrl ? [club.fixturesUrl] : FIXTURE_PATHS.map((p) => origin + p);
+  // A page we already learned about is tried first and alone. Otherwise:
+  // links off the home page, then guessed paths.
+  const paths = club.fixturesUrl
+    ? [club.fixturesUrl]
+    : [...await discoverFromHome(origin), ...FIXTURE_PATHS.map((p) => origin + p)];
 
   let hit = null;
   for (const url of paths) {

@@ -28,6 +28,13 @@ jobs:
 
       # Three layers, cheapest and most reliable first. Each is additive: a
       # layer that fails leaves the others' candidates intact.
+      # The leagues own calendars are the most authoritative source, and most
+      # leagues have not published one yet — so this hunts for them every run
+      # and adopts each the day it appears.
+      - name: Hunt for league preseason calendars
+        continue-on-error: true
+        run: node scripts/leagues.mjs | tee leagues.log
+
       - name: Sweep the outlet feeds
         run: node scripts/collect.mjs | tee collect.log
 

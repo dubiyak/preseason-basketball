@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T07:42:51.585Z",
+  "generated": "2026-08-14T08:04:24.781Z",
   "health": [
     {
       "id": "sportando",
@@ -189,7 +189,9 @@
   "clubHealth": [
     {
       "club": "אנאדולו אפס",
-      "ok": false
+      "ok": true,
+      "url": "https://www.anadoluefessk.org/en/match-calendar",
+      "preseason": false
     },
     {
       "club": "בשיקטאש בסקטבול",
@@ -198,7 +200,7 @@
     {
       "club": "ברצלונה",
       "ok": true,
-      "url": "https://www.fcbarcelona.com/schedule",
+      "url": "https://www.fcbarcelona.com/en/football/first-team/schedule",
       "preseason": true
     },
     {
@@ -214,13 +216,13 @@
     {
       "club": "ולנסיה בסקט",
       "ok": true,
-      "url": "http://www.valenciabasket.com/calendario",
+      "url": "http://www.valenciabasket.com/ca/calendario",
       "preseason": true
     },
     {
       "club": "PAOK",
       "ok": true,
-      "url": "http://www.paokbc.gr/schedule",
+      "url": "http://www.paokbc.gr/el/sezon/programma",
       "preseason": false
     },
     {
@@ -240,7 +242,7 @@
     {
       "club": "דובאי בסקטבול",
       "ok": true,
-      "url": "https://dubaibasketball.com/schedule",
+      "url": "https://dubaibasketball.com/schedule/",
       "preseason": false
     },
     {
@@ -269,7 +271,9 @@
     },
     {
       "club": "אולימפיאקוס",
-      "ok": false
+      "ok": true,
+      "url": "http://www.olympiacosbc.gr/el/agones/europe/programma/2026.html",
+      "preseason": false
     },
     {
       "club": "פנאתינייקוס",
@@ -285,7 +289,9 @@
     },
     {
       "club": "וירטוס בולוניה",
-      "ok": false
+      "ok": true,
+      "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+      "preseason": true
     },
     {
       "club": "ז'לגיריס קובנה",
@@ -293,7 +299,9 @@
     },
     {
       "club": "אריס סלוניקי",
-      "ok": false
+      "ok": true,
+      "url": "https://arisbasketball.com/en/first-team/preseason-fixtures-arisbc-en.html",
+      "preseason": true
     },
     {
       "club": "מונאקו",
@@ -301,7 +309,9 @@
     },
     {
       "club": "דרתונה טורטונה",
-      "ok": false
+      "ok": true,
+      "url": "https://www.derthonabasket.it/calendario/calendario-serie-a-sisalclub-2026-27/",
+      "preseason": true
     },
     {
       "club": "בהצ'שהיר",
@@ -323,7 +333,9 @@
     },
     {
       "club": "JL בורג",
-      "ok": false
+      "ok": true,
+      "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+      "preseason": false
     },
     {
       "club": "טרנטו",
@@ -343,11 +355,15 @@
     },
     {
       "club": "לגונה טנריפה",
-      "ok": false
+      "ok": true,
+      "url": "https://cbcanarias.net/calendar/calendario-2025-26/",
+      "preseason": false
     },
     {
       "club": "לה מאן",
-      "ok": false
+      "ok": true,
+      "url": "https://www.msb.fr/index.php/component/content/article/42-equipes/pros/actualite/6531-calendrier-eurocup.html",
+      "preseason": false
     },
     {
       "club": "Lietkabelis Panevezys",
@@ -391,7 +407,9 @@
     },
     {
       "club": "Rostock Seawolves",
-      "ok": false
+      "ok": true,
+      "url": "https://seawolves.de/verein/nbbl-rostock-seawolves-kader-spielplan/",
+      "preseason": false
     },
     {
       "club": "סיאוליאי",
@@ -415,17 +433,33 @@
     },
     {
       "club": "רייר ונציה",
-      "ok": false
+      "ok": true,
+      "url": "http://www.reyer.it/maschile/partite/",
+      "preseason": true
     }
   ],
   "candidates": [
+    {
+      "outlet": "league:aba",
+      "club": "אדריאטית (ABA)",
+      "lang": "auto",
+      "strategy": "league-calendar",
+      "title": "לוח קדם עונה — אדריאטית (ABA)",
+      "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+      "published": null,
+      "matchedKeywords": [
+        "preseason-calendar"
+      ],
+      "matchedClubs": [],
+      "score": 12
+    },
     {
       "outlet": "club:t_1d8e80ce",
       "club": "ברצלונה",
       "lang": "auto",
       "strategy": "club-page",
       "title": "לוח משחקים — ברצלונה",
-      "url": "https://www.fcbarcelona.com/schedule",
+      "url": "https://www.fcbarcelona.com/en/football/first-team/schedule",
       "published": null,
       "matchedKeywords": [
         "fixtures-page"
@@ -441,7 +475,7 @@
       "lang": "auto",
       "strategy": "club-page",
       "title": "לוח משחקים — ולנסיה בסקט",
-      "url": "http://www.valenciabasket.com/calendario",
+      "url": "http://www.valenciabasket.com/ca/calendario",
       "published": null,
       "matchedKeywords": [
         "fixtures-page"
@@ -484,6 +518,54 @@
       "score": 9
     },
     {
+      "outlet": "club:t_486860fc",
+      "club": "וירטוס בולוניה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — וירטוס בולוניה",
+      "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "וירטוס בולוניה"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_914d2962",
+      "club": "אריס סלוניקי",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — אריס סלוניקי",
+      "url": "https://arisbasketball.com/en/first-team/preseason-fixtures-arisbc-en.html",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "אריס סלוניקי"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_7cd10ddf",
+      "club": "דרתונה טורטונה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — דרתונה טורטונה",
+      "url": "https://www.derthonabasket.it/calendario/calendario-serie-a-sisalclub-2026-27/",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "דרתונה טורטונה"
+      ],
+      "score": 9
+    },
+    {
       "outlet": "club:t_e5b49b07",
       "club": "הפועל ירושלים מידטאון",
       "lang": "auto",
@@ -512,6 +594,22 @@
       ],
       "matchedClubs": [
         "ratiopharm ulm"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_23e4ce5d",
+      "club": "רייר ונציה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — רייר ונציה",
+      "url": "http://www.reyer.it/maschile/partite/",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "רייר ונציה"
       ],
       "score": 9
     },
@@ -1688,6 +1786,20 @@
       "score": 6
     },
     {
+      "outlet": "club:t_157b4fa8",
+      "club": "אנאדולו אפס",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — אנאדולו אפס",
+      "url": "https://www.anadoluefessk.org/en/match-calendar",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "אנאדולו אפס"
+      ],
+      "score": 6
+    },
+    {
       "outlet": "club:t_1497d847",
       "club": "פרטיזן בלגרד",
       "lang": "auto",
@@ -1707,7 +1819,7 @@
       "lang": "auto",
       "strategy": "club-page",
       "title": "לוח משחקים — PAOK",
-      "url": "http://www.paokbc.gr/schedule",
+      "url": "http://www.paokbc.gr/el/sezon/programma",
       "published": null,
       "matchedKeywords": [],
       "matchedClubs": [
@@ -1735,11 +1847,25 @@
       "lang": "auto",
       "strategy": "club-page",
       "title": "לוח משחקים — דובאי בסקטבול",
-      "url": "https://dubaibasketball.com/schedule",
+      "url": "https://dubaibasketball.com/schedule/",
       "published": null,
       "matchedKeywords": [],
       "matchedClubs": [
         "דובאי בסקטבול"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_e3b7f23c",
+      "club": "אולימפיאקוס",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — אולימפיאקוס",
+      "url": "http://www.olympiacosbc.gr/el/agones/europe/programma/2026.html",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "אולימפיאקוס"
       ],
       "score": 6
     },
@@ -1758,6 +1884,20 @@
       "score": 6
     },
     {
+      "outlet": "club:t_211b1542",
+      "club": "JL בורג",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — JL בורג",
+      "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "JL בורג"
+      ],
+      "score": 6
+    },
+    {
       "outlet": "club:t_7a084c7e",
       "club": "טרנטו",
       "lang": "auto",
@@ -1772,6 +1912,34 @@
       "score": 6
     },
     {
+      "outlet": "club:t_bbaa773d",
+      "club": "לגונה טנריפה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — לגונה טנריפה",
+      "url": "https://cbcanarias.net/calendar/calendario-2025-26/",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "לגונה טנריפה"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_59598d71",
+      "club": "לה מאן",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — לה מאן",
+      "url": "https://www.msb.fr/index.php/component/content/article/42-equipes/pros/actualite/6531-calendrier-eurocup.html",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "לה מאן"
+      ],
+      "score": 6
+    },
+    {
       "outlet": "club:t_35818653",
       "club": "Lietkabelis Panevezys",
       "lang": "auto",
@@ -1782,6 +1950,20 @@
       "matchedKeywords": [],
       "matchedClubs": [
         "Lietkabelis Panevezys"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "club:t_29615bc7",
+      "club": "Rostock Seawolves",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — Rostock Seawolves",
+      "url": "https://seawolves.de/verein/nbbl-rostock-seawolves-kader-spielplan/",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Rostock Seawolves"
       ],
       "score": 6
     },
@@ -4084,328 +4266,6 @@
       ],
       "matchedClubs": [],
       "score": 3
-    }
-  ],
-  "twitterHealth": [
-    {
-      "club": "אנאדולו אפס",
-      "handle": "AnadoluEfesSK",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "בשיקטאש בסקטבול",
-      "handle": "BJK_Basketbol",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 16
-    },
-    {
-      "club": "ברצלונה",
-      "handle": "FCBbasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 13
-    },
-    {
-      "club": "באסקוניה ויטוריה",
-      "handle": "Baskonia",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "פרטיזן בלגרד",
-      "handle": "partizanbc",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "ולנסיה בסקט",
-      "handle": "valenciabasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "PAOK",
-      "handle": "PAOKbasketball",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "Tofaş",
-      "handle": "tofassporkulubu",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "אולימפיה מילאנו",
-      "handle": "OlimpiaMI1936",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "הכוכב האדום בלגרד",
-      "handle": "kkcrvenazvezda",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "דובאי בסקטבול",
-      "handle": "dubaibasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "באיירן מינכן",
-      "handle": "FCBBasketball",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "פנרבחצ'ה",
-      "handle": "FBBasketbol",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "הפועל תל אביב",
-      "handle": "HapoelTLVBC",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 18
-    },
-    {
-      "club": "וילרבאן",
-      "handle": "LDLCASVEL",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 16
-    },
-    {
-      "club": "מכבי תל אביב",
-      "handle": "MaccabitlvBC",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "אולימפיאקוס",
-      "handle": "Olympiacos_BC",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "פנאתינייקוס",
-      "handle": "paobcgr",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 16
-    },
-    {
-      "club": "פריז באסקט",
-      "handle": "ParisBasketball",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "ריאל מדריד",
-      "handle": "RMBaloncesto",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "וירטוס בולוניה",
-      "handle": "VirtusBo",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "ז'לגיריס קובנה",
-      "handle": "bczalgiris",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "מונאקו",
-      "handle": "ASMonaco_Basket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "דרתונה טורטונה",
-      "handle": "DerthonaBasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "בהצ'שהיר",
-      "handle": "BKBasketbol",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "Buducnost VOLI Podgorica",
-      "handle": "KKBuducnostVOLI",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "צדביטה אולימפייה",
-      "handle": "KKCedOL",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 18
-    },
-    {
-      "club": "JL בורג",
-      "handle": "JLBourgBasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "טרנטו",
-      "handle": "AquilaBasketTN",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "הפועל ירושלים מידטאון",
-      "handle": "JerusalemBasket",
-      "ok": false
-    },
-    {
-      "club": "מנרסה",
-      "handle": "BasquetManresa",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "לגונה טנריפה",
-      "handle": "cb1939canarias",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "לה מאן",
-      "handle": "msb_officiel",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "Lietkabelis Panevezys",
-      "handle": "bclietkabelis",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "לונדון ליונס",
-      "handle": "LondonLions",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 19
-    },
-    {
-      "club": "מקסימה רומא",
-      "handle": "BasketRoma",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "נאפולי",
-      "handle": "basket_napoli",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "NINERS Chemnitz",
-      "handle": "ninerschemnitz",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "ratiopharm ulm",
-      "handle": "ratiopharmulm",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "סן פבלו בורגוס",
-      "handle": "sanpabloburgos",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "ריגה זלי",
-      "handle": "rigaszelli",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "פרנקפורט סקייליינרס",
-      "handle": "skyliners1999",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "שלסק ורוצלב",
-      "handle": "WKS_SlaskBasket",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 18
-    },
-    {
-      "club": "טורק טלקום",
-      "handle": "TT_Basketbol",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "קלוז'-נאפוקה",
-      "handle": "ubtcluj",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
-    },
-    {
-      "club": "רייר ונציה",
-      "handle": "REYER1872",
-      "ok": true,
-      "mirror": "nitter.net",
-      "tweets": 20
     }
   ]
 }

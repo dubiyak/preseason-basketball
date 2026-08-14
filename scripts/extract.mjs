@@ -242,7 +242,8 @@ const { candidates } = JSON.parse(fs.readFileSync(path.join(DATA, "candidates.js
  *
  * So living pages expire and articles do not.
  */
-const LIVING = /^(club:|x:)/;
+// League calendars change most of all: results land in them the same night.
+const LIVING = /^(league:|club:|x:)/;
 const TTL_HOURS = Number(process.env.RECHECK_HOURS || 12);
 
 function isStale(c) {
