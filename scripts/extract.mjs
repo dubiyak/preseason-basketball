@@ -214,6 +214,21 @@ function hasTeams(g) {
   return names.length > 0;
 }
 
+/**
+ * A game in the future cannot have been played. JL Bourg's page returned
+ * scores for fixtures dated 13 and 14 September while it was still August —
+ * last season's results carried onto this season's dates. The fixture may
+ * well be real, so the score is dropped rather than the row.
+ */
+function dropImpossibleResult(g, today) {
+  if (!g.played) return false;
+  if (g.date && g.date > today) {
+    g.played = false; g.homeScore = null; g.awayScore = null;
+    return true;
+  }
+  return false;
+}
+
 /** Drop placeholder names in place, flagging the opponent as undecided. */
 function cleanTeams(g) {
   const drop = (v) => (isRealTeam(v) ? v : "");
@@ -265,7 +280,8 @@ console.log(
   (unread.length > todo.length ? ` · deferred ${unread.length - todo.length} (MAX_ARTICLES)` : "")
 );
 
-let games = 0, official = 0, national = 0, failed = 0, rejected = 0, stopped = false;
+const TODAY = new Date().toISOString().slice(0, 10);
+let games = 0, official = 0, national = 0, failed = 0, rejected = 0, impossible = 0, stopped = false;
 
 // Fetch first, batch second: an article with no readable text must not take up
 // a slot in a batch, and fetching is free.
@@ -303,6 +319,7 @@ for (let i = 0; i < fetched.length; i += BATCH) {
     const mine = all.filter((g) => g.articleIndex === n);
     for (const g of mine) {
       if (g.time === "00:00" || g.time === "0:00") g.time = "";
+      if (dropImpossibleResult(g, TODAY)) impossible++;
       cleanTeams(g);
     }
     const found = mine.filter((g) =>
@@ -335,6 +352,7 @@ console.log(`\nfixtures extracted    : ${games}`);
 console.log(`league games skipped  : ${official}`);
 console.log(`national teams skipped: ${national}`);
 console.log(`out of season / no team: ${rejected}`);
+console.log(`future results dropped : ${impossible}`);
 console.log(`articles failed       : ${failed}`);
 console.log(`models spent today    : ${[...spent].join(", ") || "none"}`);
 if (stopped) console.log(`stopped early — quota exhausted; the rest are cached as unread and resume next run`);

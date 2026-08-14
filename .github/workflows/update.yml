@@ -5,6 +5,8 @@ on:
     # Every 4 hours, not daily. Measured: Sportando's feed holds under a day of
     # articles, so a once-a-day job would miss announcements outright.
     - cron: "17 */4 * * *"
+    # A second entry so the daily archive crawl has a schedule of its own.
+    - cron: "17 0 * * *"
   workflow_dispatch:
 
 # The job commits its own results back to the repo.
@@ -53,6 +55,14 @@ jobs:
       - name: Read the clubs' social feeds
         continue-on-error: true
         run: node scripts/twitter.mjs | tee twitter.log
+
+      # Crawling every sitemap is expensive and the archive barely changes, so
+      # this runs once a day rather than every four hours. Articles are cached
+      # permanently, so repeat passes only cost the crawl itself.
+      - name: Backfill the archives
+        if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        run: node scripts/backfill.mjs | tee backfill.log
 
       - name: Read the new articles
         id: extract
