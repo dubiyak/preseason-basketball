@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { normName, splitVenue, gameKey, gameId } from "../lib/normalize.mjs";
+import { resolveDate, isVague } from "../lib/dates.mjs";
 import {
   loadAliases, saveAliases, buildIndex, resolveLocal, resolveWithModel, newClub,
 } from "./resolve.mjs";
@@ -207,9 +208,14 @@ function toRecord(r) {
     ? [{ name: r.article.outlet, url: r.article.url, published: r.article.published || null }]
     : (g.sources || []);
 
+  // A written date the extractor left as text is still a date. A range starts
+  // on its first day, and "12 e 13 settembre" is not an undated game.
+  const label = g.dateLabel || g.dateText || null;
+  const date = g.date || (label && !isVague(label) ? resolveDate(label) : null);
+
   return {
-    date: g.date || null,
-    dateLabel: g.dateLabel || g.dateText || null,
+    date: date || null,
+    dateLabel: label,
     time: g.time || null,
     teamIds: ids,
     homeTeam: home ? resolveLocal(home, index, aliases) : null,
@@ -315,7 +321,17 @@ for (const r of ordered) {
  * older vague entry lists one of them against a slate of candidates, the
  * vague one is retired. Its sources move across so nothing is lost.
  */
-const vague = (g) => (g.candidates?.length || 0) > 0 || g.teamIds.length > 2;
+/**
+ * An entry is vague when it does not yet name the pairing: a slate of
+ * candidates, a whole tournament field, or a single club against a "TBA" the
+ * source printed. The ABA calendar carries "Partizan Mozzart Bet : TBA" for
+ * the Kalemegdan games while two other outlets already name Fuenlabrada and
+ * Beşiktaş, and without counting the TBA row as vague the page showed both.
+ */
+const vague = (g) =>
+  (g.candidates?.length || 0) > 0 ||
+  g.teamIds.length > 2 ||
+  (g.teamIds.length < 2 && g.opponentTbd);
 const precise = [...games.values()].filter((g) => g.date && g.teamIds.length === 2 && !vague(g));
 
 for (const [key, g] of games) {

@@ -81,20 +81,39 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/build.mjs | tee build.log
 
+      # A run takes twenty minutes, so a human push during it will reject this
+      # one. The data files are regenerated from their inputs, so the recovery
+      # is to take the new head and rebuild on top rather than to merge
+      # generated JSON — there is nothing to reconcile, only to recompute.
       - name: Commit if anything changed
         id: commit
         run: |
           git config user.name "preseason-bot"
           git config user.email "actions@github.com"
+
           if git diff --quiet -- data/; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "no change"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            git add data/
-            git commit -m "data: automatic update $(date -u +'%Y-%m-%d %H:%M')"
-            git push
+            exit 0
           fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+          for attempt in 1 2 3; do
+            git add data/
+            git diff --cached --quiet && { echo "nothing left to commit"; exit 0; }
+            git commit -m "data: automatic update $(date -u +'%Y-%m-%d %H:%M')"
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected — rebuilding on the new head (attempt $attempt)"
+            git reset --hard HEAD~1
+            git fetch origin master
+            git reset --hard origin/master
+            node scripts/build.mjs || true
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
 
       # A source that has gone quiet for days is indistinguishable from a
       # source that broke, unless somebody is told. Nobody is watching, so the
