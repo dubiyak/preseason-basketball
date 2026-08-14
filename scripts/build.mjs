@@ -217,6 +217,38 @@ const conflicts = [];
 // Learned across runs: a foreign-language tournament name -> the canonical one.
 const tournamentAliases = read("tournaments.json", { map: {} }).map;
 
+/**
+ * A label meaning "a preseason game" is not the name of a competition, and
+ * sources print these in the tournament slot constantly, in every language.
+ * Treated as a name, "משחקי הכנה" became an alias for the Neofytos
+ * Chandriotis Tournament and carried it onto four unrelated friendlies —
+ * including Maccabi's ordinary warm-ups against Bnei Herzliya and Rishon.
+ */
+const GENERIC_TOURNAMENT = new RegExp(
+  "^(" + [
+    "משחק(י)? הכנה", "משחק ידידות", "ידידות",
+    "amichevol\\w*", "friendly( match(es)?)?", "pre-?season( games?)?",
+    "pretemporada( masculina)?( ?/ ?.*)?", "precampionato", "preparazione",
+    "vorbereitung", "testspiel\\w*", "hazırlık( maç[ıi]| maçlar[ıi])?",
+    "φιλικ\\w*", "priprem\\w*", "pasiruošim\\w*",
+    "match(s)? de préparation", "amical\\w*", "sparing\\w*",
+    "(green )?basketball day",
+  ].join("|") + ")\\s*\\d*$", "i"
+);
+
+const isGenericTournament = (s) => !s || GENERIC_TOURNAMENT.test(String(s).trim());
+
+/** Follow the alias chain to a fixed point; a cycle stops at itself. */
+function canonicalTournament(name) {
+  let cur = name;
+  const seen = new Set();
+  while (cur && tournamentAliases[cur] && !seen.has(cur)) {
+    seen.add(cur);
+    cur = tournamentAliases[cur];
+  }
+  return cur;
+}
+
 const asVenue = (g, origin) => {
   if (origin === "extracted") {
     return { arena: g.arena || null, city: g.city || null, country: g.country || null };
@@ -288,7 +320,11 @@ const ordered = [
 
 for (const r of ordered) {
   const rec = toRecord(r);
-  if (rec.tournament && tournamentAliases[rec.tournament]) rec.tournament = tournamentAliases[rec.tournament];
+  // A generic label is the ABSENCE of a tournament, so it is cleared rather
+  // than carried; and aliases are followed to a fixed point, because they had
+  // begun to chain (Supercoppa LNP -> Serie A2 -> Serie B).
+  if (isGenericTournament(rec.tournament)) rec.tournament = null;
+  if (rec.tournament) rec.tournament = canonicalTournament(rec.tournament);
   const key = gameKey({
     date: rec.date, time: rec.time, teamIds: rec.teamIds,
     label: rec.dateLabel, tournament: rec.tournament,
@@ -303,10 +339,13 @@ for (const r of ordered) {
   const manualWins = rec.origin === "manual";
 
   // Two names for the same fixture's tournament are two names for one
-  // tournament — the shared game identity is the proof. Record the alias
-  // instead of reporting a conflict, so the tournament view stops splitting
-  // "Pavlos Janakopulos" from "טורניר פאבלוס יאנאקופולוס".
-  if (g.tournament && rec.tournament && g.tournament !== rec.tournament) {
+  // tournament — the shared game identity is the proof. But only when both
+  // are names. "משחקי הכנה" means "preseason games": a generic label, not a
+  // competition. Learning it as an alias taught the build that every friendly
+  // labelled that way was the Neofytos Chandriotis Tournament, and the name
+  // spread to four games that had nothing to do with it.
+  if (g.tournament && rec.tournament && g.tournament !== rec.tournament &&
+      !isGenericTournament(g.tournament) && !isGenericTournament(rec.tournament)) {
     tournamentAliases[rec.tournament] = g.tournament;
   }
 
