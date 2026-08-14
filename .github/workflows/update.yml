@@ -59,6 +59,19 @@ jobs:
       # Crawling every sitemap is expensive and the archive barely changes, so
       # this runs once a day rather than every four hours. Articles are cached
       # permanently, so repeat passes only cost the crawl itself.
+      # A real browser, only for the clubs whose fixture page is injected by
+      # JavaScript and reads as empty otherwise. Expensive and its answer barely
+      # changes hour to hour, so it shares the daily slot with the archive crawl.
+      - name: Render the JavaScript-only club pages
+        if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          npm ci --omit=optional 2>/dev/null || npm install
+          npx playwright install --with-deps chromium
+          node scripts/render.mjs | tee render.log
+
       - name: Backfill the archives
         if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
         continue-on-error: true

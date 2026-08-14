@@ -1,16 +1,21 @@
 /**
- * Renders the club pages that plain fetching cannot read.
+ * Renders the club fixture pages that plain fetching cannot read.
  *
  * Measured, not assumed: thelondonlions.com/schedule, zalgiris.lt/rungtynes
  * and baskonia.com/en/schedule all answer 200 with thousands of characters and
  * ZERO dates. The fixture list is injected by JavaScript after load, so no
- * amount of better parsing reaches it. London Lions even links the page from
- * its home nav with the text "Fixtures" — discovery found it correctly and
- * there was simply nothing there to read.
+ * amount of better parsing reaches it.
  *
- * A real browser fixes exactly that and nothing else, so it is used only for
- * the clubs where fetching already failed. Everything reachable without one
- * stays on the cheap path.
+ * Two earlier versions failed on cost, not on concept. Guessing fifteen paths
+ * per club meant 400+ full renders; guessing seven still spent twelve minutes
+ * to open one club, because a site that hangs consumes its whole timeout every
+ * time. The expensive part was never the rendering — it was not knowing which
+ * page to render.
+ *
+ * So the browser renders each home page ONCE, and the model reads the link
+ * list and says which one is the fixtures page. That is the same trick used
+ * everywhere else in this project, and for the same reason: it does not need
+ * to know that "rungtynės", "fikstür" and "πρόγραμμα" all mean schedule.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -27,17 +32,30 @@ try {
   process.exit(0);
 }
 
+function loadKey() {
+  if (process.env.GEMINI_API_KEY) return process.env.GEMINI_API_KEY;
+  const f = path.resolve(import.meta.dirname, "..", ".env");
+  if (!fs.existsSync(f)) return null;
+  for (const line of fs.readFileSync(f, "utf8").split("\n")) {
+    const i = line.indexOf("=");
+    if (i > 0 && line.slice(0, i).trim() === "GEMINI_API_KEY") return line.slice(i + 1).trim();
+  }
+  return null;
+}
+const KEY = loadKey();
+const MODELS = (process.env.GEMINI_MODELS ||
+  "gemini-flash-latest,gemini-flash-lite-latest,gemini-3-flash-preview,gemini-3.1-flash-lite-preview")
+  .split(",").map((s) => s.trim());
+
 const registry = read("registry.json", { clubs: {} });
 const teams = new Map(read("teams.json", { teams: [] }).teams.map((t) => [t.id, t]));
 
-const FIXTURE_PATHS = [
-  "/schedule", "/games", "/fixtures", "/matches", "/calendario", "/calendrier",
-  "/rungtynes", "/spielplan", "/programma", "/mac-programi", "/raspored",
-  "/en/schedule", "/en/games", "/en/fixtures", "/calendar",
-];
 const DATE_SHAPE = /\b\d{1,2}[.\/-]\d{1,2}([.\/-]\d{2,4})?\b/g;
+const PAGE_MS = 12000;
+const TOTAL_BUDGET_MS = Number(process.env.RENDER_TOTAL_MS || 14 * 60000);
+const startedAt = Date.now();
+const overBudget = () => Date.now() - startedAt > TOTAL_BUDGET_MS;
 
-// Only clubs whose page was never found, or was found but read as empty.
 const targets = Object.entries(registry.clubs)
   .filter(([, c]) => c.website && !c.fixturesUrl)
   .map(([id, c]) => ({ id, ...c, name: teams.get(id)?.name_he || c.name_src || id }));
@@ -51,70 +69,175 @@ const ctx = await browser.newContext({
   locale: "en-GB",
   viewport: { width: 1280, height: 2000 },
 });
-// Images and fonts are pure cost here: nothing is looked at, only read.
-await ctx.route("**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2,ttf,mp4}", (r) => r.abort());
+// Nothing here is looked at, only read.
+await ctx.route("**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2,ttf,mp4,mp3}", (r) => r.abort());
 
-const found = [];
-const health = [];
+async function render(url, waitForDate) {
+  const page = await ctx.newPage();
+  try {
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: PAGE_MS });
+    if (waitForDate) {
+      await page.waitForFunction(
+        () => /\b\d{1,2}[.\/-]\d{1,2}\b/.test(document.body?.innerText || ""),
+        { timeout: 6000 }
+      ).catch(() => {});
+    }
+    const text = (await page.innerText("body").catch(() => "")) || "";
+    const links = waitForDate ? [] : await page.$$eval("a[href]", (as) =>
+      as.map((a) => ({ href: a.href, text: (a.textContent || "").replace(/\s+/g, " ").trim().slice(0, 50) }))
+        .filter((l) => l.text)).catch(() => []);
+    return { text, links };
+  } catch {
+    return null;
+  } finally {
+    await page.close();
+  }
+}
 
+/* ---------- 1. one render per home page, to collect its links ---------- */
+const menus = [];
 for (const club of targets) {
+  if (overBudget()) break;
   let origin;
   try { origin = new URL(club.website).origin; } catch { continue; }
 
-  let hit = null;
-  for (const p of FIXTURE_PATHS) {
-    const page = await ctx.newPage();
+  const home = await render(origin, false);
+  if (!home?.links.length) { console.log(`  · ${club.name}: home page unreadable`); continue; }
+
+  // Same-origin links only, deduped, and never the obvious non-fixture areas.
+  const seen = new Set();
+  const links = [];
+  for (const l of home.links) {
+    let u;
+    try { u = new URL(l.href); } catch { continue; }
+    if (u.origin !== origin || seen.has(u.pathname)) continue;
+    if (/\b(shop|store|ticket|sponsor|academy|youth|women|privacy|cookie)\b/i.test(u.pathname)) continue;
+    seen.add(u.pathname);
+    links.push({ text: l.text, path: u.pathname + u.search });
+  }
+  if (links.length) menus.push({ club, origin, links: links.slice(0, 70) });
+}
+console.log(`home pages read: ${menus.length}/${targets.length}`);
+
+/* ---------- 2. the model picks the fixtures link ---------- */
+const SCHEMA = {
+  type: "object",
+  properties: {
+    picks: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          club: { type: "string", description: "the club name, copied back exactly" },
+          path: { type: "string", description: "the path of the fixtures page, copied exactly from the list, or empty if none of them is one" },
+        },
+        required: ["club", "path"],
+      },
+    },
+  },
+  required: ["picks"],
+};
+
+const PROMPT = `You are given the navigation links of basketball club websites. For each club, pick the ONE link that leads to its list of games — fixtures, schedule, calendar, results.
+
+The sites are in many languages: "rungtynės" (Lithuanian), "fikstür" and "maçlar" (Turkish), "πρόγραμμα" (Greek), "raspored" and "utakmice" (Serbian/Croatian), "calendario" (Spanish/Italian), "calendrier" (French), "Spielplan" (German), "spēles" (Latvian), "terminarz" (Polish), "משחקים" (Hebrew). Judge by meaning, not by matching English words.
+
+Rules:
+- Copy the path EXACTLY as it appears in the list. Never invent one.
+- Prefer the first team's fixture list over a youth, women's or academy one, and over a single match page.
+- A news, ticket, shop or standings link is not a fixture list. If nothing in the list is one, return an empty path rather than a guess.`;
+
+async function pickLinks(batch) {
+  if (!KEY) return {};
+  const body = batch.map((m) =>
+    `CLUB: ${m.club.name}\nLINKS:\n${m.links.map((l) => `  ${l.path}  —  ${l.text}`).join("\n")}`
+  ).join("\n\n");
+
+  for (const model of MODELS) {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${KEY}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          systemInstruction: { parts: [{ text: PROMPT }] },
+          contents: [{ parts: [{ text: body }] }],
+          generationConfig: { temperature: 0, responseMimeType: "application/json", responseSchema: SCHEMA },
+        }),
+      }
+    );
+    if (res.status === 429) continue;
+    if (!res.ok) continue;
+    const j = await res.json();
+    const raw = j?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!raw) continue;
     try {
-      await page.goto(origin + p, { waitUntil: "domcontentloaded", timeout: 25000 });
-      // The fixture list arrives after load; wait for a date to appear rather
-      // than for a fixed delay.
-      await page.waitForFunction(
-        () => /\b\d{1,2}[.\/-]\d{1,2}\b/.test(document.body?.innerText || ""),
-        { timeout: 9000 }
-      ).catch(() => {});
-      const text = (await page.innerText("body").catch(() => "")) || "";
-      const dates = (text.match(DATE_SHAPE) || []).length;
-      if (dates >= 4 && text.length > 400) hit = { url: origin + p, text: text.slice(0, 18000), dates };
-    } catch { /* try the next path */ }
-    await page.close();
-    if (hit) break;
+      const picks = JSON.parse(raw).picks || [];
+      return Object.fromEntries(picks.map((p) => [p.club, p.path]));
+    } catch { continue; }
+  }
+  return {};
+}
+
+const chosen = {};
+for (let i = 0; i < menus.length; i += 6) {
+  Object.assign(chosen, await pickLinks(menus.slice(i, i + 6)));
+}
+console.log(`links chosen   : ${Object.values(chosen).filter(Boolean).length}`);
+
+/* ---------- 3. render the chosen page and keep it if it has fixtures ---------- */
+const found = [];
+const health = [];
+
+function save() {
+  fs.writeFileSync(path.join(DATA, "registry.json"), JSON.stringify(registry, null, 2));
+  const existing = read("candidates.json", { candidates: [] });
+  const kept = (existing.candidates || []).filter((c) => c.strategy !== "club-page-rendered");
+  fs.writeFileSync(path.join(DATA, "candidates.json"), JSON.stringify({
+    ...existing,
+    generated: new Date().toISOString(),
+    renderHealth: health,
+    candidates: [...kept, ...found].sort((a, b) => b.score - a.score),
+  }, null, 2));
+}
+
+for (const m of menus) {
+  if (overBudget()) { console.log("  … budget spent; the rest wait for the next run"); break; }
+  const p = chosen[m.club.name];
+  if (!p) { health.push({ club: m.club.name, ok: false, why: "no fixtures link" }); continue; }
+
+  const url = new URL(p, m.origin).href;
+  const page = await render(url, true);
+  const dates = ((page?.text || "").match(DATE_SHAPE) || []).length;
+  if (!page || dates < 4) {
+    health.push({ club: m.club.name, ok: false, why: `rendered but ${dates} dates`, url });
+    continue;
   }
 
-  if (!hit) { health.push({ club: club.name, ok: false }); continue; }
-
-  registry.clubs[club.id].fixturesUrl = hit.url;
-  registry.clubs[club.id].needsBrowser = true;
-  health.push({ club: club.name, ok: true, url: hit.url, dates: hit.dates });
-  console.log(`  ✓ ${club.name} — ${hit.url} (${hit.dates} dates)`);
+  registry.clubs[m.club.id].fixturesUrl = url;
+  registry.clubs[m.club.id].needsBrowser = true;
+  health.push({ club: m.club.name, ok: true, url, dates });
+  console.log(`  ✓ ${m.club.name} — ${url} (${dates} dates)`);
 
   found.push({
-    outlet: `club:${club.id}`,
-    club: club.name,
+    outlet: `club:${m.club.id}`,
+    club: m.club.name,
     lang: "auto",
     strategy: "club-page-rendered",
-    title: `לוח משחקים — ${club.name}`,
-    url: hit.url,
+    title: `לוח משחקים — ${m.club.name}`,
+    url,
     published: null,
     // The rendered text travels with the candidate: fetching this URL again
-    // without a browser would return the same empty shell.
-    inlineText: hit.text,
+    // without a browser returns the same empty shell.
+    inlineText: page.text.slice(0, 18000),
     matchedKeywords: ["fixtures-page"],
-    matchedClubs: [club.name],
+    matchedClubs: [m.club.name],
     score: 9,
   });
+  save();
 }
 
 await browser.close();
-fs.writeFileSync(path.join(DATA, "registry.json"), JSON.stringify(registry, null, 2));
-
-const existing = read("candidates.json", { candidates: [] });
-const kept = (existing.candidates || []).filter((c) => c.strategy !== "club-page-rendered");
-fs.writeFileSync(path.join(DATA, "candidates.json"), JSON.stringify({
-  ...existing,
-  generated: new Date().toISOString(),
-  renderHealth: health,
-  candidates: [...kept, ...found].sort((a, b) => b.score - a.score),
-}, null, 2));
-
+save();
 console.log(`\nrendered ok : ${found.length}/${targets.length}`);
 console.log(`still dark  : ${targets.length - found.length}`);

@@ -1241,21 +1241,23 @@
       "title": "לוח משחקים — הפועל תל אביב",
       "outlet": "club:t_2a1ac857",
       "published": null,
-      "readAt": "2026-08-13T22:32:00.282Z",
+      "readAt": "2026-08-14T11:37:03.108Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 2,
+          "articleIndex": 0,
           "date": "2026-08-29",
           "dateText": "29.08.26",
-          "teams": [],
+          "teams": [
+            "בלקן בוטבגרד",
+            "הפועל IBI תל אביב"
+          ],
           "isOfficialLeagueGame": false,
           "arena": "",
           "awayTeam": "הפועל IBI תל אביב",
           "broadcastUrl": "",
           "broadcaster": "",
           "city": "סופיה",
-          "closedDoors": false,
           "country": "בולגריה",
           "homeTeam": "בלקן בוטבגרד",
           "isNationalTeam": false,
@@ -1267,17 +1269,19 @@
           "tournament": "הכנה"
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 0,
           "date": "2026-08-31",
           "dateText": "31.08.26",
-          "teams": [],
+          "teams": [
+            "בלקן בוטבגרד",
+            "הפועל IBI תל אביב"
+          ],
           "isOfficialLeagueGame": false,
           "arena": "",
           "awayTeam": "הפועל IBI תל אביב",
           "broadcastUrl": "",
           "broadcaster": "",
           "city": "סופיה",
-          "closedDoors": false,
           "country": "בולגריה",
           "homeTeam": "בלקן בוטבגרד",
           "isNationalTeam": false,
@@ -1289,17 +1293,19 @@
           "tournament": "הכנה"
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 0,
           "date": "2026-09-05",
           "dateText": "05.09.26",
-          "teams": [],
+          "teams": [
+            "פרטיזן בלגרד",
+            "הפועל IBI תל אביב"
+          ],
           "isOfficialLeagueGame": false,
           "arena": "",
           "awayTeam": "הפועל IBI תל אביב",
           "broadcastUrl": "",
           "broadcaster": "",
           "city": "בלגרד",
-          "closedDoors": false,
           "country": "סרביה",
           "homeTeam": "פרטיזן בלגרד",
           "isNationalTeam": false,
@@ -1311,17 +1317,19 @@
           "tournament": "הכנה"
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 0,
           "date": "2026-09-06",
           "dateText": "06.09.26",
-          "teams": [],
+          "teams": [
+            "FMP בלגרד",
+            "הפועל IBI תל אביב"
+          ],
           "isOfficialLeagueGame": false,
           "arena": "",
           "awayTeam": "הפועל IBI תל אביב",
           "broadcastUrl": "",
           "broadcaster": "",
           "city": "בלגרד",
-          "closedDoors": false,
           "country": "סרביה",
           "homeTeam": "FMP בלגרד",
           "isNationalTeam": false,
@@ -1333,17 +1341,19 @@
           "tournament": "הכנה"
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 0,
           "date": "2026-09-12",
           "dateText": "12.09.26",
-          "teams": [],
+          "teams": [
+            "מקסימה רומא",
+            "הפועל IBI תל אביב"
+          ],
           "isOfficialLeagueGame": false,
           "arena": "",
           "awayTeam": "הפועל IBI תל אביב",
           "broadcastUrl": "",
           "broadcaster": "",
           "city": "קליארי",
-          "closedDoors": false,
           "country": "איטליה",
           "homeTeam": "מקסימה רומא",
           "isNationalTeam": false,
@@ -1361,16 +1371,40 @@
       "title": "לוח משחקים — הפועל ירושלים מידטאון",
       "outlet": "club:t_e5b49b07",
       "published": null,
-      "readAt": "2026-08-13T22:32:00.282Z",
+      "readAt": "2026-08-14T11:37:03.108Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 1,
+          "date": "2026-08-31",
+          "dateText": "31/08/2026",
+          "teams": [
+            "הפועל ירושלים מידטאון"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "",
+          "awayTeam": "",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "country": "",
+          "homeTeam": "",
+          "isNationalTeam": false,
+          "opponentUndecided": true,
+          "played": false,
+          "reportUrl": "",
+          "statsUrl": "",
+          "time": "",
+          "tournament": "משחקי הכנה"
+        }
+      ]
     },
     "http://www.basketball-ulm.com/en/games": {
       "ok": true,
       "title": "לוח משחקים — ratiopharm ulm",
       "outlet": "club:t_66371643",
       "published": null,
-      "readAt": "2026-08-13T22:32:32.498Z",
+      "readAt": "2026-08-14T11:37:03.108Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -9068,6 +9102,159 @@
           "statsUrl": "",
           "time": "",
           "tournament": "AdmiralBet Open Air"
+        }
+      ]
+    },
+    "http://tofasspor.com/fikstur": {
+      "ok": true,
+      "title": "לוח משחקים — Tofaş",
+      "outlet": "club:t_70e7cf6e",
+      "published": null,
+      "readAt": "2026-08-14T11:37:51.748Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 0,
+          "date": "2026-08-22",
+          "dateText": "22-08-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "Glint Körfez Basket"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Tofaş Spor Salonu",
+          "closedDoors": true
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-08-26",
+          "dateText": "26-08-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "Bursaspor Basketbol"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Tofaş Spor Salonu",
+          "closedDoors": true
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-08-29",
+          "dateText": "29-08-2026 00:00",
+          "teams": [
+            "Beşiktaş Basketbol",
+            "TOFAŞ"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Turkcell Basketbol Gelişim Merkezi"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-01",
+          "dateText": "01-09-2026 00:00",
+          "teams": [
+            "Fenerbahçe Basketbol",
+            "TOFAŞ"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Ülker Spor ve Etkinlik Salonu"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-05",
+          "dateText": "05-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "Galatasaray MCT Technic"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Gloria Sports Arena"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-06",
+          "dateText": "06-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "Lokomotiv Kuban"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Gloria Sports Arena"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-09",
+          "dateText": "09-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "U-BT Cluj-Napoca"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Gloria Sports Arena"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-12",
+          "dateText": "12-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "CSKA Moskova"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Gloria Sports Arena"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-18",
+          "dateText": "18-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "Bursaspor Basketbol"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Tofaş Spor Salonu"
+        },
+        {
+          "articleIndex": 0,
+          "date": "2026-09-19",
+          "dateText": "19-09-2026 00:00",
+          "teams": [
+            "TOFAŞ",
+            "26. Cevat Soydaş Final Günü"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Tofaş Spor Salonu"
+        }
+      ]
+    },
+    "https://bahcesehirsporkulubu.org/fikstur": {
+      "ok": true,
+      "title": "לוח משחקים — בהצ'שהיר",
+      "outlet": "club:t_5935737f",
+      "published": null,
+      "readAt": "2026-08-14T11:37:51.748Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.frankfurt-skyliners.de/termine/alle-spieltermine": {
+      "ok": true,
+      "title": "לוח משחקים — פרנקפורט סקייליינרס",
+      "outlet": "club:t_e5e917e8",
+      "published": null,
+      "readAt": "2026-08-14T11:37:51.748Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 2,
+          "date": "2026-09-13",
+          "dateText": "SO, 13.09. | 16:30 UHR",
+          "teams": [
+            "SKYLINERS",
+            "SCIENCE CITY JENA"
+          ],
+          "isOfficialLeagueGame": false,
+          "time": "16:30",
+          "tournament": "BBL Pokal"
         }
       ]
     }
