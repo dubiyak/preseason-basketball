@@ -181,6 +181,11 @@ const COMPETITIONS = {
   bcl:       {label:"BCL",        color:"var(--bcl)"},
   aba:       {label:"אדריאטית",  color:"var(--aba)"},
   domestic:  {label:"ליגות מקומיות", color:"var(--domestic)"},
+  // 139 of 194 clubs have no competition on file — mostly opponents from
+  // outside the tracked competitions. Their games are real and need somewhere
+  // to live, but treating "unknown" as "matches everything" made the
+  // EuroLeague chip show 231 games instead of 81.
+  other:     {label:"ללא שיוך",     color:"#9CA3AF"},
 };
 const MONTHS = ["ינו","פבר","מרץ","אפר","מאי","יונ","יול","אוג","ספט","אוק","נוב","דצמ"];
 
@@ -194,13 +199,15 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
 const teamName = id => TEAMS.get(id)?.name_he || "—";
 
 // A game inherits the competitions of the clubs playing in it.
+// A game with no club in any tracked competition belongs to "other" — an
+// explicit bucket, not a wildcard that satisfies every filter.
 function gameCompetitions(g){
   const out = new Set();
   for (const id of g.teams) for (const c of (TEAMS.get(id)?.competitions || [])) out.add(c);
-  return [...out];
+  return out.size ? [...out] : ["other"];
 }
 function primaryCompetition(g){
-  const order = ["euroleague","eurocup","bcl","aba","domestic"];
+  const order = ["euroleague","eurocup","bcl","aba","domestic","other"];
   const comps = gameCompetitions(g);
   return order.find(c => comps.includes(c)) || "domestic";
 }
@@ -272,10 +279,7 @@ function gameCard(g){
 
 function filtered(){
   return GAMES.filter(g => {
-    // A newly discovered club has no competition on file yet. Its games are
-    // still real, so an unknown affiliation must not hide them.
-    const comps = gameCompetitions(g);
-    if (comps.length && !comps.some(c => active.has(c))) return false;
+    if (!gameCompetitions(g).some(c => active.has(c))) return false;
     if (!query) return true;
     const hay = [
       ...g.teams.map(teamName), ...(g.candidates || []),
@@ -341,7 +345,7 @@ function render(){
     for (const g of games)
       for (const id of g.teams)
         (groups.get(id) || groups.set(id, []).get(id)).push(g);
-    const order = ["euroleague","eurocup","bcl","aba","domestic"];
+    const order = ["euroleague","eurocup","bcl","aba","domestic","other"];
     html = [...groups.entries()]
       .sort((a,b) => {
         const ai = order.indexOf((TEAMS.get(a[0])?.competitions || ["domestic"])[0]);
@@ -386,7 +390,14 @@ function render(){
 }
 
 function renderChips(){
-  document.getElementById("chips").innerHTML = Object.entries(COMPETITIONS).map(([k,v]) => {
+  // A chip that can only ever return nothing is a broken control, not a
+  // filter. No club is tagged "domestic" yet — competition membership comes
+  // from the EuroLeague API, which knows only its own two competitions — so
+  // that chip stays hidden until something fills it.
+  const populated = new Set(GAMES.flatMap(gameCompetitions));
+  document.getElementById("chips").innerHTML = Object.entries(COMPETITIONS)
+    .filter(([k]) => populated.has(k))
+    .map(([k,v]) => {
     const on = active.has(k);
     return `<button class="chip ${on ? "active" : ""}" data-comp="${k}"
       ${on ? `style="background:${v.color};border-color:${v.color}"` : ""}>
