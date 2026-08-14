@@ -346,7 +346,13 @@ const gameList = [...games.values()].map((g) => {
     teams: teamIds,
     // Independent outlets, not sightings: one club listed in two competitions
     // used to look like two confirmations of a single report.
-    confidence: new Set(g.sources.map((s) => s.url || s.name)).size,
+    // Distinct PUBLISHERS, not distinct URLs. sportando.basketball and
+    // www.sportando.basketball are one outlet, and counting both would have
+    // made a single report look independently corroborated.
+    confidence: new Set(g.sources.map((s) => {
+      try { return new URL(s.url).hostname.replace(/^www./, ""); }
+      catch { return String(s.name || "").replace(/_en$/, ""); }
+    })).size,
   };
 }).sort((a, b) => (a.date || "9999").localeCompare(b.date || "9999"));
 

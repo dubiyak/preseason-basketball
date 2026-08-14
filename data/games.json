@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-14T10:05:19.131Z",
+  "updated": "2026-08-14T10:16:14.920Z",
   "season": "2026-27",
-  "newGames": 31,
+  "newGames": 163,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -16,6 +16,34 @@
       "have": "20:00",
       "alsoReported": "19:00",
       "from": "x:t_bbaa773d"
+    },
+    {
+      "game": "g_7a40cc6199",
+      "field": "time",
+      "have": "20:30",
+      "alsoReported": "20:00",
+      "from": "sportando_en"
+    },
+    {
+      "game": "g_8611b380bc",
+      "field": "time",
+      "have": "20:00",
+      "alsoReported": "20:30",
+      "from": "sportando_en"
+    },
+    {
+      "game": "g_26c8215284",
+      "field": "time",
+      "have": "18:00",
+      "alsoReported": "17:00",
+      "from": "sportando_en"
+    },
+    {
+      "game": "g_9191c6a715",
+      "field": "time",
+      "have": "19:00",
+      "alsoReported": "18:00",
+      "from": "gigantes"
     }
   ],
   "games": [
@@ -187,13 +215,13 @@
     {
       "date": "2026-08-19",
       "dateLabel": "19 agosto",
-      "time": null,
-      "homeTeam": null,
+      "time": "18:00",
+      "homeTeam": "t_2b11a23d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaTerme",
         "city": "Montecatini",
         "country": null
       },
@@ -211,18 +239,23 @@
           "name": "sportando",
           "url": "https://sportando.basketball/fortitudo-prevendita-a-gonfie-vele-per-il-match-con-pistoia-porte-chiuse-per-i-primi-due-test/",
           "published": "Thu, 13 Aug 2026 20:14:46 +0000"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 20:14:46 +0000",
-      "id": "g_c7795b59b6",
+      "id": "g_b4245bbabd",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_f0a9bf47",
-        "t_6b1aafbb"
+        "t_2b11a23d"
       ],
       "confidence": 1
     },
@@ -320,7 +353,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaBakery",
         "city": "פיאצ'נצה",
         "country": "איטליה"
       },
@@ -356,7 +389,7 @@
         "t_7cd10ddf",
         "t_f0a9bf47"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-08-22",
@@ -474,6 +507,126 @@
       "teams": [
         "t_8ee48f2b",
         "t_875ab2d7"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 Agosto",
+      "time": "18:30",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaSojourner",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_2e701f7b0d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_0dbe669d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 agosto",
+      "time": null,
+      "homeTeam": "t_7e157e3f",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaDelMauro",
+        "city": "Avellino",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_118a2ebe55",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7e157e3f",
+        "t_e8eb73dd"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "Sabato 22 agosto",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-10",
+      "id": "g_fad231f158",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9f143938",
+        "t_aeb4f22d"
       ],
       "confidence": 1
     },
@@ -636,6 +789,86 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-25",
+      "dateLabel": "martedì 25 agosto",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-varese-gli-appuntamenti-della-preseason-biancorossa/",
+          "published": "2026-08-05"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-05",
+      "id": "g_7726285a7b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f1b0243",
+        "t_3a63eba6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-25",
+      "dateLabel": "25 agosto",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Torneo San Roque",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_9755a5a029",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_4a5e72bb"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-26",
       "dateLabel": "26.8, 17:30",
       "time": "17:30",
@@ -644,7 +877,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Facility della Cittadella dello Sport",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -666,7 +899,8 @@
       "published": null,
       "id": "g_eac5bbbb15",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
@@ -722,7 +956,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaDozza",
         "city": null,
         "country": null
       },
@@ -738,18 +972,23 @@
           "name": "sportando",
           "url": "https://sportando.basketball/fortitudo-prevendita-a-gonfie-vele-per-il-match-con-pistoia-porte-chiuse-per-i-primi-due-test/",
           "published": "Thu, 13 Aug 2026 20:14:46 +0000"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 20:14:46 +0000",
-      "id": "g_bf610345cb",
+      "id": "g_7a40cc6199",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_f0a9bf47",
-        "t_d804c851"
+        "t_43f8a292"
       ],
       "confidence": 1
     },
@@ -757,7 +996,7 @@
       "date": "2026-08-26",
       "dateLabel": "Wednesday, 26.08.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": "t_875ab2d7",
       "candidates": [],
       "opponentTbd": false,
@@ -783,13 +1022,53 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_d704beec6e",
+      "id": "g_b3ae8fad12",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92",
+        "t_3172ffad",
         "t_875ab2d7"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-26",
+      "dateLabel": "Mercoledì 26 agosto",
+      "time": "20:00",
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pala Cornaro",
+        "city": "Jesolo",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_1967b4451e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_aaae2e9f"
       ],
       "confidence": 1
     },
@@ -1082,7 +1361,7 @@
       "dateLabel": "Friday, 28.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_7a8a9ba0",
+      "awayTeam": "t_365d325c",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1107,13 +1386,135 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_bb84e0834d",
+      "id": "g_97fe720def",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8fe33769",
-        "t_7a8a9ba0"
+        "t_365d325c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 agosto",
+      "time": null,
+      "homeTeam": "t_2f94c258",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaPiccolo",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
+          "published": "2026-07-18"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-18",
+      "id": "g_0995d32acb",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f94c258",
+        "t_3b04d1c4"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "Venerdì 28 agosto",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaSGR",
+        "city": "Santarcangelo di Romagna",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [
+        "דלתיים סגורות"
+      ],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-08",
+      "id": "g_cd208acca5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_42d4fab3",
+        "t_9d4aa10a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 agosto",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_05a2ed54d2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0f5171f1",
+        "t_cec2cef8"
       ],
       "confidence": 1
     },
@@ -1249,7 +1650,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Facility della Cittadella dello Sport",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -1271,7 +1672,8 @@
       "published": null,
       "id": "g_044365db22",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
@@ -1282,13 +1684,13 @@
     {
       "date": "2026-08-29",
       "dateLabel": "29.8",
-      "time": null,
+      "time": "17:00",
       "homeTeam": "t_23e4ce5d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Falcade",
         "city": "פלקדה",
         "country": "איטליה"
       },
@@ -1308,6 +1710,11 @@
           "name": "x:t_23e4ce5d",
           "url": "https://nitter.net/REYER1872/status/2086010767082496405#m",
           "published": "Sat, 08 Aug 2026 08:44:57 GMT"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/falcade-tutte-le-info-su-reyer-village-e-amichevole-con-cividale/",
+          "published": "2026-08-08"
         }
       ],
       "notes": [],
@@ -1462,7 +1869,7 @@
         "city": null,
         "country": "ספרד"
       },
-      "tournament": null,
+      "tournament": "Torneo de Gijón",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -1480,7 +1887,8 @@
       "published": null,
       "id": "g_526df9fccc",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_1ce799a6",
@@ -1493,7 +1901,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": "t_833412f2",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1518,13 +1926,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_3256777b48",
+      "id": "g_cec31242b1",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_1443a9bf"
+        "t_833412f2"
       ],
       "confidence": 1
     },
@@ -1572,8 +1980,8 @@
       "date": "2026-08-29",
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
-      "homeTeam": "t_76d7ec1f",
-      "awayTeam": "t_84c93f92",
+      "homeTeam": "t_88aeb5bf",
+      "awayTeam": "t_3172ffad",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1598,13 +2006,518 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_42a4408928",
+      "id": "g_583e6a8290",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_76d7ec1f",
-        "t_84c93f92"
+        "t_88aeb5bf",
+        "t_3172ffad"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 agosto",
+      "time": "20:00",
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palasport “Sandro Pertini”",
+        "city": "San Marcello Piteglio, località Bardalone",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_8611b380bc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d",
+        "t_43f8a292"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "Sabato 29 agosto",
+      "time": null,
+      "homeTeam": "t_23e4ce5d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "PalaFalcade",
+        "city": "Falcade",
+        "country": "Italy"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/umana-reyer-venezia-falcade-ospitera-il-ritiro-precampionato/",
+          "published": "2026-07-04"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-04",
+      "id": "g_50d394d359",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_23e4ce5d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 Agosto",
+      "time": "18:30",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaMaggetti",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_38209fe4e6",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_0dbe669d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "Sabato 29 agosto",
+      "time": "20:00",
+      "homeTeam": "t_47dac4e9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pala MAGIS",
+        "city": "Verona",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-in-ritiro-a-pinzolo-dal-17-al-23-agosto/",
+          "published": "2026-08-01"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_ed45e17ed2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_47dac4e9",
+        "t_06bcca16"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "sabato 29",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": "t_241db1c6",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "PalaMegabox",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_1775991746",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_241db1c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 agosto",
+      "time": null,
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Castelnovo ne’ Monti",
+        "city": "Castelnovo ne’ Monti",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_ba7f131a5c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5d59a83a",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "sabato 29 agosto",
+      "time": "16:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Gonars",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-02",
+      "id": "g_d77ab46829",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_18ce03ce",
+        "t_79d554cf"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "sabato 29 agosto",
+      "time": "17:00",
+      "homeTeam": "t_cce353da",
+      "awayTeam": "t_3a63eba6",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Melinda Basket Cup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/trento-torna-in-val-di-non-ritiro-dal-26-al-29-agosto-e-prima-amichevole-contro-la-juvi-cremona/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-04",
+      "id": "g_736267ffb7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cce353da",
+        "t_3a63eba6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "sabato 29 agosto",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [
+        "דלתיים סגורות"
+      ],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-varese-gli-appuntamenti-della-preseason-biancorossa/",
+          "published": "2026-08-05"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-05",
+      "id": "g_2db98f3fb0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f1b0243",
+        "t_21cf4132"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "sabato 29 agosto",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaFacchetti",
+        "city": "Treviglio",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_27617083f4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_33e55770",
+        "t_247c0d0a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 agosto",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_c961dd90e3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dfe9dae2",
+        "t_be10c355"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 agosto",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_80ee569794",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_b0039640"
       ],
       "confidence": 1
     },
@@ -1652,7 +2565,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": "t_833412f2",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1677,13 +2590,178 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_b59b776d1b",
+      "id": "g_821c4ef03c",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_1443a9bf"
+        "t_833412f2"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "30 agosto",
+      "time": null,
+      "homeTeam": "t_d9d017e1",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Ostuni",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_866f0be9c2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d9d017e1",
+        "t_7e157e3f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "30 agosto",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Gravellona Toce",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_0c98a860ec",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_4d14caeb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "30 agosto",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "impianti di Pisogne",
+        "city": "Pisogne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-il-calendario-della-pre-season/",
+          "published": "2026-08-08"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-08",
+      "id": "g_e75a2feccc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_03b3581a",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "Domenica 30 agosto",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Unieuro Arena",
+        "city": "Forlì",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-10",
+      "id": "g_5bfe500b37",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1c411f5e",
+        "t_9f143938"
       ],
       "confidence": 1
     },
@@ -1910,6 +2988,45 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-31",
+      "dateLabel": "31. avgust",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
+          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Wed, 12 Aug 2026 21:50:34 +0000",
+      "id": "g_c8915ebaaf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-01",
       "dateLabel": "1.9",
       "time": null,
@@ -2112,6 +3229,136 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-01",
+      "dateLabel": "1 settembre",
+      "time": null,
+      "homeTeam": "t_3b04d1c4",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Beta Ricambi Arena – PalaMangano",
+        "city": "Scafati",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
+          "published": "2026-07-18"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-18",
+      "id": "g_ee476ffe03",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3b04d1c4",
+        "t_7e157e3f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1 settembre",
+      "time": "17:00",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Unipol Forum",
+        "city": "Milano",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-30",
+      "id": "g_a0abffed4c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_47dac4e9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1° settembre",
+      "time": "19:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaCollegno",
+        "city": "Collegno",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_7b3deca8c4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_88a640c0"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-02",
       "dateLabel": "2.9",
       "time": null,
@@ -2142,6 +3389,11 @@
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
           "published": "Thu, 13 Aug 2026 15:54:00 GMT"
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
         }
       ],
       "notes": [],
@@ -2156,7 +3408,7 @@
         "t_e32d7cf2",
         "t_06654952"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-02",
@@ -2206,7 +3458,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "palestra secondaria della Cittadella",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -2228,7 +3480,8 @@
       "published": null,
       "id": "g_1558545a9c",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
@@ -2318,6 +3571,206 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-02",
+      "dateLabel": "2 settembre alle ore 18:00",
+      "time": "18:00",
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaTerme",
+        "city": "Montecatini",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_a12ecc8d24",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d",
+        "t_cab39a51"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "2 settembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Valtellina Summer League",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-04",
+      "id": "g_45516b78ea",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cce353da",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "Mercoledì 2 settembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-10",
+      "id": "g_e799feacd8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9f143938",
+        "t_316a0c63"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "Mercoledì 2 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Vicenza",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_7443b5d34d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e8bd6ce3",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-02",
+      "dateLabel": "il 2 settembre",
+      "time": "19:00",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": "t_d70cfe97",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaSojourner",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/sebastiani-rieti-il-2-settembre-amichevole-contro-la-bc-roma-spqr/",
+          "published": "2026-08-12"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-12",
+      "id": "g_39fadecf79",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_d70cfe97"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-03",
       "dateLabel": "3.9",
       "time": null,
@@ -2367,7 +3820,7 @@
         "t_1b44e7f9",
         "t_335436f5"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-03",
@@ -2421,7 +3874,7 @@
         "city": "Rimini",
         "country": null
       },
-      "tournament": null,
+      "tournament": "Start Romagna Cup",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -2433,6 +3886,16 @@
           "name": "club:t_486860fc",
           "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
           "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
+          "published": "2026-08-08"
         }
       ],
       "notes": [],
@@ -2446,7 +3909,7 @@
         "t_42d4fab3",
         "t_486860fc"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-03",
@@ -2574,8 +4037,8 @@
       "date": "2026-09-04",
       "dateLabel": "4.9",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_a85f3ce5",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2598,6 +4061,11 @@
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/olimpia-milano-raduno-17-agosto-precampionato-supercoppa/",
+          "published": "2026-07-26"
         }
       ],
       "notes": [
@@ -2607,13 +4075,14 @@
       "published": null,
       "id": "g_903300720f",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_a85f3ce5",
         "t_21cf4132"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-04",
@@ -2646,7 +4115,8 @@
       "published": null,
       "id": "g_1a0e41cde8",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_25c20d3d",
@@ -2699,7 +4169,7 @@
         "t_211b1542",
         "t_e0376665"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-04",
@@ -2753,7 +4223,7 @@
       "dateLabel": "4 EYLÜL CUMA",
       "time": "19:00",
       "homeTeam": "t_5c5cc462",
-      "awayTeam": "t_e2d3f7c8",
+      "awayTeam": "t_0c65ec09",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2785,13 +4255,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 15:47:59 +0000",
-      "id": "g_4008e654c9",
+      "id": "g_25db64ee2b",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_5c5cc462",
-        "t_e2d3f7c8"
+        "t_0c65ec09"
       ],
       "confidence": 2
     },
@@ -2835,6 +4305,170 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-04",
+      "dateLabel": "Venerdì 4 settembre",
+      "time": null,
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Ekinox Arena",
+        "city": "Bourg-en-Bresse",
+        "country": null
+      },
+      "tournament": "Ain Star Game",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_36eb978e0d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_d5b6cc73"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "venerdì 4 settembre",
+      "time": "21:15",
+      "homeTeam": null,
+      "awayTeam": "t_aaae2e9f",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Memorial Bortoluzzi – Trofeo ButanGas",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_cd94d3c597",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_aaae2e9f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "venerdì 4 settembre alle ore 18:00",
+      "time": "18:00",
+      "homeTeam": "t_03b3581a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaMattei",
+        "city": "Morbegno",
+        "country": null
+      },
+      "tournament": "Valtellina Summer League 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-preseason-al-via-con-la-valtellina-summer-league/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-il-calendario-della-pre-season/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_26c8215284",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_03b3581a",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 settembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Valtellina Summer League",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-04",
+      "id": "g_475069759e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cce353da",
+        "t_550a84d0"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-05",
       "dateLabel": "5.9",
       "time": null,
@@ -2872,6 +4506,11 @@
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
+          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
         }
       ],
       "notes": [
@@ -2888,7 +4527,7 @@
         "t_2a1ac857",
         "t_1497d847"
       ],
-      "confidence": 4
+      "confidence": 5
     },
     {
       "date": "2026-09-05",
@@ -2923,6 +4562,11 @@
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
           "published": "Thu, 13 Aug 2026 15:54:00 GMT"
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
         }
       ],
       "notes": [],
@@ -2937,7 +4581,7 @@
         "t_e32d7cf2",
         "t_5c2ad363"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-05",
@@ -2970,7 +4614,8 @@
       "published": null,
       "id": "g_17183372e0",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_bbaa773d",
@@ -2987,7 +4632,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaRavizza",
         "city": "אלסיו",
         "country": "איטליה"
       },
@@ -3009,7 +4654,8 @@
       "published": null,
       "id": "g_80f7afc329",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
@@ -3020,13 +4666,13 @@
     {
       "date": "2026-09-05",
       "dateLabel": "5.9",
-      "time": null,
-      "homeTeam": null,
+      "time": "20:00",
+      "homeTeam": "t_23e4ce5d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Palasport Cornaro",
         "city": "ג'סולו",
         "country": "איטליה"
       },
@@ -3041,6 +4687,16 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
         }
       ],
       "notes": [],
@@ -3048,56 +4704,12 @@
       "published": null,
       "id": "g_76b995b6de",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_23e4ce5d",
         "t_47dac4e9"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-05",
-      "dateLabel": "5-6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "רג'אנה",
-        "אודינה",
-        "PAOK"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "אודינה",
-        "country": "איטליה"
-      },
-      "tournament": "טורניר Memorial Pajetta",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "sportando.basketball",
-          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_41c62cb6a5",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_726df887",
-        "t_5d59a83a",
-        "t_18ce03ce",
-        "t_9b9664c9"
       ],
       "confidence": 1
     },
@@ -3144,51 +4756,6 @@
     },
     {
       "date": "2026-09-05",
-      "dateLabel": "5-6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "נאפולי",
-        "רג'אנה",
-        "אודינה"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "אודינה",
-        "country": "איטליה"
-      },
-      "tournament": "טורניר Memorial Pajetta",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "sportando.basketball",
-          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_1a1c244d0b",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_c00ae0c6",
-        "t_726df887",
-        "t_5d59a83a",
-        "t_18ce03ce"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-05",
       "dateLabel": "5.9",
       "time": null,
       "homeTeam": null,
@@ -3219,13 +4786,13 @@
       "notes": [],
       "origin": "seed",
       "published": null,
-      "id": "g_38a5f7d2b3",
+      "id": "g_389b9c91c6",
       "origins": [
         "seed"
       ],
       "teams": [
         "t_29304cb1",
-        "t_7d789e3b",
+        "t_00052e03",
         "t_ad31d353"
       ],
       "confidence": 1
@@ -3323,7 +4890,7 @@
       "dateLabel": "05/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_00b5b7ea",
+      "awayTeam": "t_db2f1a5f",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3348,13 +4915,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_acdab227e3",
+      "id": "g_4284723972",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_00b5b7ea"
+        "t_db2f1a5f"
       ],
       "confidence": 1
     },
@@ -3442,7 +5009,7 @@
       "dateLabel": "Saturday, 05.09.2026",
       "time": null,
       "homeTeam": "t_0fec3b85",
-      "awayTeam": "t_84c93f92",
+      "awayTeam": "t_3172ffad",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3467,13 +5034,550 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_9f7ffd81aa",
+      "id": "g_9fcd57d682",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_0fec3b85",
-        "t_84c93f92"
+        "t_3172ffad"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 settembre",
+      "time": "20:45",
+      "homeTeam": "t_43f8a292",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaTagliate",
+        "city": "Lucca",
+        "country": null
+      },
+      "tournament": "Trofeo Carlo Lovari",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_661fdaaf5d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_43f8a292",
+        "t_d9d017e1"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 Settembre",
+      "time": "18:00",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaSojourner",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_17dfeb01ce",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_a8c92a6b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 e 6 settembre",
+      "time": null,
+      "homeTeam": "t_3b04d1c4",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Penne",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Torneo",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
+          "published": "2026-07-18"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-18",
+      "id": "g_292bb3fe7b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3b04d1c4",
+        "t_12174e28"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 settembre",
+      "time": null,
+      "homeTeam": "t_726df887",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Napoli/Barra",
+        "country": "איטליה"
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "sportando.basketball",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_3cff7dc334",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726df887",
+        "t_7e157e3f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "sabato 5 settembre",
+      "time": "16:15",
+      "homeTeam": null,
+      "awayTeam": "t_1c411f5e",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Memorial Bortoluzzi – Trofeo ButanGas",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_c720c62f10",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1c411f5e"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "sabato 5 settembre",
+      "time": "20:45",
+      "homeTeam": null,
+      "awayTeam": "t_79d554cf",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Memorial Bortoluzzi – Trofeo ButanGas",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_3362eb7513",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_79d554cf"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5-6 settembre, Memorial Piera Pajetta: semifinale contro Napoli il 5",
+      "time": null,
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Udine",
+        "country": null
+      },
+      "tournament": "Memorial Piera Pajetta",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_0673d3afbf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5d59a83a",
+        "t_726df887"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "sabato 5 settembre, alle 18:00",
+      "time": "18:00",
+      "homeTeam": "t_03b3581a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaScieghi",
+        "city": "Sondrio",
+        "country": null
+      },
+      "tournament": "Valtellina Summer League 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-preseason-al-via-con-la-valtellina-summer-league/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-varese-gli-appuntamenti-della-preseason-biancorossa/",
+          "published": "2026-08-05"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-il-calendario-della-pre-season/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_38f3cdd0af",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_03b3581a",
+        "t_2f1b0243"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "sabato 5 settembre, ore 18:00",
+      "time": "18:00",
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Lucca",
+        "country": null
+      },
+      "tournament": "Trofeo Lovari",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_88ec9bffb5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d",
+        "t_5cfbd288"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 settembre",
+      "time": "18:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palazzetto dello Sport di San Lazzaro",
+        "city": "Piacenza",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_3e1f3a72d5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_9f143938"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "sabato 5 settembre",
+      "time": "16:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaElachem",
+        "city": "Vigevano",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_6b454da6ee",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2bebbe90",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septiembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_08ce2a6959",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_d3dd9e2e"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_361643ad6f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4a5e72bb",
+        "t_e6b07e02"
       ],
       "confidence": 1
     },
@@ -3911,49 +6015,6 @@
     },
     {
       "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": null,
-      "candidates": [
-        "נאנטר 92",
-        "טרוויזו בסקט"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "בורג-אן-ברס",
-        "country": "צרפת"
-      },
-      "tournament": "Ain Star Game",
-      "stage": "שלב גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "jlbourg-basket.com",
-          "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_e58357e238",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_d5b6cc73",
-        "t_d2164f8d"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
       "dateLabel": "6.9 (דלתיים סגורות)",
       "time": null,
       "homeTeam": "t_914d2962",
@@ -4037,7 +6098,7 @@
       "dateLabel": "06/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_a32bfccd",
+      "awayTeam": "t_db4b2f06",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4062,13 +6123,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_ba8229ddbe",
+      "id": "g_71ef431195",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_a32bfccd"
+        "t_db4b2f06"
       ],
       "confidence": 1
     },
@@ -4154,6 +6215,328 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-06",
+      "dateLabel": "Domenica 6 settembre",
+      "time": null,
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Ekinox Arena",
+        "city": "Bourg-en-Bresse",
+        "country": "צרפת"
+      },
+      "tournament": "Ain Star Game",
+      "stage": "שלב גמר",
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "jlbourg-basket.com",
+          "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_23d760eb23",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_e0376665"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "5-6 settembre, Memorial Piera Pajetta: seconda gara il 6 contro la vincente o la perdente di APU Udine – PAOK Salonicco",
+      "time": null,
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": "Udine",
+        "country": null
+      },
+      "tournament": "Memorial Piera Pajetta",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_a19271cfe8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5d59a83a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "domenica 6 settembre",
+      "time": null,
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": "Lucca",
+        "country": null
+      },
+      "tournament": "Trofeo Lovari",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_4be8c68618",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "domenica 6 settembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Valtellina Summer League 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-varese-gli-appuntamenti-della-preseason-biancorossa/",
+          "published": "2026-08-05"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-05",
+      "id": "g_d394aecce4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f1b0243",
+        "t_550a84d0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septiembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_a88c31dd0b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_e6b07e02"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septiembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_5a27a1486e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_4a5e72bb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septiembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_ba1aa56d64",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4a5e72bb",
+        "t_d3dd9e2e"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septiembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Copa Galicia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_cc528619f3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e6b07e02",
+        "t_d3dd9e2e"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-07",
       "dateLabel": "7.9, 20:00",
       "time": "20:00",
@@ -4182,6 +6565,11 @@
           "name": "club:t_763dcde9",
           "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
         }
       ],
       "notes": [],
@@ -4196,7 +6584,7 @@
         "t_763dcde9",
         "t_0f5171f1"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-07",
@@ -4279,6 +6667,46 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-07",
+      "dateLabel": "lunedì 7 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaELAchem",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/problemi-organizzativi-per-la-spqr-roma-salta-lamichevole-con-vigevano/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-10",
+      "id": "g_9c7bd1b439",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2bebbe90",
+        "t_d70cfe97"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-08",
       "dateLabel": "8.9",
       "time": null,
@@ -4330,7 +6758,7 @@
         "t_1b44e7f9",
         "t_d2ae1d19"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-08",
@@ -4368,6 +6796,46 @@
       "teams": [
         "t_e5b49b07",
         "t_5f5b1a80"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "8 settembre",
+      "time": "20:00",
+      "homeTeam": "t_43f8a292",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palasport di Massa",
+        "city": null,
+        "country": null
+      },
+      "tournament": "V° Memorial Matteo Bertolazzi",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_e4114c4b76",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_43f8a292",
+        "t_806e2b53"
       ],
       "confidence": 1
     },
@@ -4439,6 +6907,11 @@
           "name": "club:t_486860fc",
           "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
           "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
         }
       ],
       "notes": [],
@@ -4588,7 +7061,7 @@
       "date": "2026-09-09",
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": "t_0fec3b85",
       "candidates": [],
       "opponentTbd": false,
@@ -4614,33 +7087,30 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_d4e2a73993",
+      "id": "g_cdb8824081",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92",
+        "t_3172ffad",
         "t_0fec3b85"
       ],
       "confidence": 1
     },
     {
-      "date": "2026-09-10",
-      "dateLabel": "10.9",
-      "time": null,
-      "homeTeam": "t_1d8e80ce",
+      "date": "2026-09-09",
+      "dateLabel": "9 Settembre",
+      "time": "18:00",
+      "homeTeam": "t_dbf0fb0b",
       "awayTeam": null,
-      "candidates": [
-        "אנדורה",
-        "באשי מנרסה (טורניר)"
-      ],
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": "קטלוניה",
-        "country": "ספרד"
+        "arena": "Terranova Bracciolini (AR)",
+        "city": null,
+        "country": null
       },
-      "tournament": "משחק הכנה / טורניר",
+      "tournament": "Amichevole",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -4649,23 +7119,272 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "fcbarcelona.es",
-          "url": "https://www.fcbarcelona.es/es/baloncesto/primer-equipo/calendario"
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
         }
       ],
-      "notes": [
-        "פרטי היריבה המדויקת מתוך לוח האתר לא ברורים לחלוטין"
-      ],
-      "origin": "seed",
-      "published": null,
-      "id": "g_7411a10d5e",
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_aa5f277223",
       "origins": [
-        "seed"
+        "extracted"
       ],
       "teams": [
-        "t_1d8e80ce",
-        "t_066138ff",
-        "t_32fd0b6f"
+        "t_dbf0fb0b",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Mercoledì 9 settembre",
+      "time": null,
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palestra Nightingale",
+        "city": "Castelfranco Veneto",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_226b78d84e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_5d59a83a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Mercoledì 9 settembre",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": "t_42d4fab3",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Palestra Fontanelle di Riccione",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_f552a685e8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_42d4fab3"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 settembre",
+      "time": "20:00",
+      "homeTeam": "t_47dac4e9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palazzetto di Lonato del Garda",
+        "city": "Lonato",
+        "country": null
+      },
+      "tournament": "Garda Ball Élite",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-30",
+      "id": "g_cdc6f75606",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_47dac4e9",
+        "t_550a84d0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 settembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Basiglio",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_732a04fb21",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_0cf73a1e"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Mercoledì 9 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palestra Fontanelle",
+        "city": "Riccione",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [
+        "דלתיים סגורות"
+      ],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-08",
+      "id": "g_97839c0c01",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_42d4fab3",
+        "t_241db1c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Mercoledì 9 settembre",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaRuggi",
+        "city": "Imola",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-10",
+      "id": "g_3c05099546",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9d4aa10a",
+        "t_9f143938"
       ],
       "confidence": 1
     },
@@ -4717,14 +7436,14 @@
     {
       "date": "2026-09-10",
       "dateLabel": "10.9",
-      "time": null,
-      "homeTeam": null,
+      "time": "20:00",
+      "homeTeam": "t_23e4ce5d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Lonato del Garda",
         "country": "איטליה"
       },
       "tournament": "טורניר Garda Ball Elite",
@@ -4738,6 +7457,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
         }
       ],
       "notes": [],
@@ -4745,7 +7469,8 @@
       "published": null,
       "id": "g_44cfb818ea",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_23e4ce5d",
@@ -4847,7 +7572,7 @@
         "t_50504b23",
         "t_76203a4a"
       ],
-      "confidence": 4
+      "confidence": 3
     },
     {
       "date": "2026-09-10",
@@ -4892,7 +7617,133 @@
         "t_de097d3a",
         "t_d6cca7c8"
       ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "giovedì 10 settembre",
+      "time": "18:00",
+      "homeTeam": "t_18ce03ce",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaCarnera",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-02",
+      "id": "g_a4f03d2a36",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_18ce03ce",
+        "t_97d76180"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "10 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "קטלוניה",
+        "country": "ספרד"
+      },
+      "tournament": "ליגה קטלאנית",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        },
+        {
+          "name": "fcbarcelona.es",
+          "url": "https://www.fcbarcelona.es/es/baloncesto/primer-equipo/calendario"
+        }
+      ],
+      "notes": [
+        "פרטי היריבה המדויקת מתוך לוח האתר לא ברורים לחלוטין"
+      ],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_f5921af686",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1d8e80ce",
+        "t_066138ff"
+      ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "10 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "ליגה קטלאנית",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_43dbb76c0f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dfe9dae2",
+        "t_cec2cef8"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-11",
@@ -4923,6 +7774,11 @@
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
           "published": "Thu, 13 Aug 2026 15:54:00 GMT"
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
         }
       ],
       "notes": [],
@@ -4937,7 +7793,7 @@
         "t_e32d7cf2",
         "t_914a8167"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-11",
@@ -5019,6 +7875,11 @@
           "name": "club:t_763dcde9",
           "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
         }
       ],
       "notes": [],
@@ -5033,7 +7894,7 @@
         "t_763dcde9",
         "t_4a5e72bb"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-11",
@@ -5150,7 +8011,8 @@
       "published": null,
       "id": "g_f52d350800",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_32fd0b6f",
@@ -5189,7 +8051,8 @@
       "published": null,
       "id": "g_e6f28eb7e5",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_1ce799a6",
@@ -5201,7 +8064,7 @@
       "date": "2026-09-11",
       "dateLabel": "11/09",
       "time": null,
-      "homeTeam": "t_1443a9bf",
+      "homeTeam": "t_833412f2",
       "awayTeam": "t_8621b265",
       "candidates": [],
       "opponentTbd": false,
@@ -5227,12 +8090,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_022753eeb9",
+      "id": "g_9216f37256",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_1443a9bf",
+        "t_833412f2",
         "t_8621b265"
       ],
       "confidence": 1
@@ -5372,6 +8235,125 @@
     },
     {
       "date": "2026-09-11",
+      "dateLabel": "Venerdì 11 settembre",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": "t_486860fc",
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "PalaMegabox",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_ce5594e1a2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_486860fc"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "venerdì 11 settembre",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaMegabox",
+        "city": "Pesaro",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-07",
+      "id": "g_0c990ee52e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_486860fc",
+        "t_241db1c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "venerdì 11 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaFiera",
+        "city": "Lumezzane",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_761324e15b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_04e77aaa",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
       "dateLabel": "11.9",
       "time": "21:00",
       "homeTeam": null,
@@ -5484,13 +8466,13 @@
       "notes": [],
       "origin": "seed",
       "published": null,
-      "id": "g_ebce57b951",
+      "id": "g_766dc23437",
       "origins": [
         "seed"
       ],
       "teams": [
         "t_e5cb1715",
-        "t_e2d3f7c8",
+        "t_b30f9cb2",
         "t_157b4fa8"
       ],
       "confidence": 1
@@ -5547,7 +8529,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Nova Arena",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -5562,6 +8544,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/tortona-il-calendario-della-preseason-2026-27/"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
         }
       ],
       "notes": [],
@@ -5569,7 +8556,8 @@
       "published": null,
       "id": "g_34c8a2676f",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
@@ -5732,7 +8720,8 @@
       "published": null,
       "id": "g_a07e6d5b5e",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_29304cb1",
@@ -5835,7 +8824,7 @@
       "dateLabel": "12 sep.",
       "time": "18:00",
       "homeTeam": null,
-      "awayTeam": "t_797c21bb",
+      "awayTeam": "t_efb53443",
       "candidates": [],
       "opponentTbd": true,
       "venue": {
@@ -5864,12 +8853,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_fa7296d5b2",
+      "id": "g_9cca3719a4",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_797c21bb",
+        "t_efb53443",
         "t_763dcde9"
       ],
       "confidence": 2
@@ -5997,7 +8986,7 @@
       "date": "2026-09-12",
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": "t_33d3e8cd",
       "candidates": [],
       "opponentTbd": false,
@@ -6023,13 +9012,551 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_322110e297",
+      "id": "g_d0a9daf92f",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92",
+        "t_3172ffad",
         "t_33d3e8cd"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": "18:00",
+      "homeTeam": "t_9f143938",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_5e4e1d20d7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9f143938",
+        "t_43f8a292"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 e 13 settembre",
+      "time": null,
+      "homeTeam": "t_3b04d1c4",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Matera",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Torneo",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
+          "published": "2026-07-18"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-18",
+      "id": "g_aca45c1ecd",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3b04d1c4",
+        "t_d70cfe97"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": null,
+      "homeTeam": "t_21cf4132",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Biella",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/olimpia-milano-raduno-17-agosto-precampionato-supercoppa/",
+          "published": "2026-07-26"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-26",
+      "id": "g_b5a2d8fa11",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_c00ae0c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": null,
+      "homeTeam": "t_23e4ce5d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר Garda Ball Elite",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_1c6ee67a4e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_23e4ce5d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "sabato 12 settembre alle ore 18:00",
+      "time": "18:00",
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Zola Predosa",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [
+        "דלתיים סגורות"
+      ],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_1e73e6019a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d",
+        "t_42d4fab3"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": null,
+      "homeTeam": "t_47dac4e9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Lonato",
+        "country": null
+      },
+      "tournament": "Garda Ball Élite",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-30",
+      "id": "g_90f913672d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_47dac4e9",
+        "t_cce353da",
+        "t_23e4ce5d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaLeonessa A2A",
+        "city": "Brescia",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_2f2be468f8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 settembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Dolomiti Energia Trentino / Umana Reyer Venezia"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palazzetto di Lonato del Garda",
+        "city": "Lonato del Garda",
+        "country": null
+      },
+      "tournament": "Garda Ball Élite",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_7399965950",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_47dac4e9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septiembre",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_1dda30984c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0f5171f1",
+        "t_4446b371"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר EncestaRías",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_a241eb3538",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e32d7cf2",
+        "t_4a5e72bb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר EncestaRías",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_f533d1c81a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e32d7cf2",
+        "t_763dcde9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר EncestaRías",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_5a7ddb7f8f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4a5e72bb",
+        "t_914a8167"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר EncestaRías",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_1a7072a53e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9",
+        "t_914a8167"
       ],
       "confidence": 1
     },
@@ -6202,6 +9729,131 @@
     },
     {
       "date": "2026-09-13",
+      "dateLabel": "13 Settembre",
+      "time": "18:00",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaSojourner",
+        "city": null,
+        "country": null
+      },
+      "tournament": "4° Memorial Riccardo Blasi",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_2065957afc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_2f94c258"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "Domenica 13 settembre",
+      "time": "19:00",
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Istrana",
+        "city": "Istrana",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_daad9dd867",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_18ce03ce"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "13 settembre",
+      "time": null,
+      "homeTeam": "t_7e157e3f",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaDelMauro",
+        "city": "Avellino",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_451106c7bf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7e157e3f",
+        "t_0b32d25f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
       "dateLabel": "13.9",
       "time": "18:00",
       "homeTeam": null,
@@ -6317,6 +9969,11 @@
           "name": "club:t_486860fc",
           "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
           "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
         }
       ],
       "notes": [],
@@ -6330,13 +9987,13 @@
         "t_12174e28",
         "t_486860fc"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-16",
       "dateLabel": "Wednesday, 16.09.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -6362,12 +10019,187 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_28069be44c",
+      "id": "g_1022a702d0",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92"
+        "t_3172ffad"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "16 Settembre",
+      "time": "18:30",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palestra Arezzo",
+        "city": "Arezzo",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_4c94b69c9e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_2b11a23d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "16 settembre",
+      "time": null,
+      "homeTeam": "t_7e157e3f",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaDelMauro",
+        "city": "Avellino",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_aba7bd8968",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7e157e3f",
+        "t_726df887"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "16 settembre",
+      "time": "20:00",
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Scandiano",
+        "city": "Scandiano",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_0653a33713",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5d59a83a",
+        "t_47dac4e9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "16 settembre",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pala Gianni Asti",
+        "city": "Torino",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_e6be599827",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_1d47c1ca"
       ],
       "confidence": 1
     },
@@ -6539,7 +10371,7 @@
       "date": "2026-09-17",
       "dateLabel": "17 sep.",
       "time": "19:00",
-      "homeTeam": "t_cb2c8695",
+      "homeTeam": "t_abfcbb75",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -6565,12 +10397,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_1933c08d98",
+      "id": "g_dd9b035b85",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_cb2c8695",
+        "t_abfcbb75",
         "t_763dcde9"
       ],
       "confidence": 1
@@ -6659,7 +10491,7 @@
       "date": "2026-09-17",
       "dateLabel": "Thursday, 17.09.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -6685,12 +10517,172 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_110ce5de10",
+      "id": "g_14c6715fbc",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92"
+        "t_3172ffad"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "17 settembre",
+      "time": "20:30",
+      "homeTeam": "t_5cfbd288",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Livorno",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_e7155b838a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5cfbd288",
+        "t_43f8a292"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "17 settembre",
+      "time": null,
+      "homeTeam": "t_d70cfe97",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Capitale",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
+          "published": "2026-07-18"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-18",
+      "id": "g_f44df9ed93",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d70cfe97",
+        "t_3b04d1c4"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "giovedì 17 settembre",
+      "time": "17:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Bolzano",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-02",
+      "id": "g_edbce04b7e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7a084c7e",
+        "t_18ce03ce"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "17 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Bolzano",
+        "country": null
+      },
+      "tournament": "Memorial Brusinelli",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-04",
+      "id": "g_2b3b479ae9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cce353da",
+        "t_18ce03ce"
       ],
       "confidence": 1
     },
@@ -6893,6 +10885,11 @@
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
+          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
         }
       ],
       "notes": [],
@@ -6907,7 +10904,7 @@
         "t_1497d847",
         "t_9b9664c9"
       ],
-      "confidence": 20
+      "confidence": 4
     },
     {
       "date": "2026-09-18",
@@ -6940,7 +10937,8 @@
       "published": null,
       "id": "g_bd977ef7d4",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_32fd0b6f",
@@ -7071,7 +11069,7 @@
       "date": "2026-09-18",
       "dateLabel": "Friday, 18.09.2026",
       "time": null,
-      "homeTeam": "t_84c93f92",
+      "homeTeam": "t_3172ffad",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -7097,12 +11095,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_b7238fbc99",
+      "id": "g_f6a1b5cb14",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_84c93f92"
+        "t_3172ffad"
       ],
       "confidence": 1
     },
@@ -7147,11 +11145,236 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-18",
+      "dateLabel": "Venerdì 18 settembre",
+      "time": null,
+      "homeTeam": "t_42d4fab3",
+      "awayTeam": "t_241db1c6",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": "Cento",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie A2 Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_3c0a40e430",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_42d4fab3",
+        "t_241db1c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "Venerdì 18 settembre",
+      "time": null,
+      "homeTeam": "t_aaae2e9f",
+      "awayTeam": "t_f0a9bf47",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": "Cento",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie A2 Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_445b6fd1b4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_aaae2e9f",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "dal 18 al 20 settembre",
+      "time": null,
+      "homeTeam": "t_483afd93",
+      "awayTeam": "t_c9966e0b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": "Cento",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie A2 Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-10",
+      "id": "g_f8fb54c20b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_483afd93",
+        "t_c9966e0b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "dal 18 al 20 settembre",
+      "time": null,
+      "homeTeam": "t_3dd46478",
+      "awayTeam": "t_a8c92a6b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Baltur Arena",
+        "city": "Cento",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie A2 Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-10",
+      "id": "g_7878e3dfb7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3dd46478",
+        "t_a8c92a6b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "venerdì 18 settembre",
+      "time": "18:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Soevis Arena",
+        "city": "Castellanza",
+        "country": null
+      },
+      "tournament": "Memorial Alberto Morelli – Soevis Cup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_1cf482ee3b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_04e77aaa",
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-19",
       "dateLabel": "19.9, 18:00",
       "time": "18:00",
       "homeTeam": "t_1ce799a6",
-      "awayTeam": null,
+      "awayTeam": "t_e32d7cf2",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7180,6 +11403,21 @@
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2085669547848110165#m",
           "published": "Fri, 07 Aug 2026 10:09:04 GMT"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercopa-endesa-2026-definite-le-semifinali/",
+          "published": "2026-07-21"
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-badalona-2026-participantes-fechas-emparejamientos/",
+          "published": "2026-08-10"
+        },
+        {
+          "name": "acb",
+          "url": "https://acb.com/es/supercopa/noticias",
+          "published": "2026-08-14"
         }
       ],
       "notes": [],
@@ -7194,7 +11432,7 @@
         "t_e32d7cf2",
         "t_1ce799a6"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-19",
@@ -7227,6 +11465,21 @@
           "published": null
         },
         {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-a-tortona-ecco-il-quadro-delle-semifinali/",
+          "published": "2026-06-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-lba-milano-bologna-tortona-venezia/",
+          "published": "2026-07-02"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/olimpia-milano-raduno-17-agosto-precampionato-supercoppa/",
+          "published": "2026-07-26"
+        },
+        {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/tortona-il-calendario-della-preseason-2026-27/"
         },
@@ -7249,14 +11502,14 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 4
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_1e5937e4",
+      "awayTeam": "t_45aa8320",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7283,13 +11536,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_56fc8ee82e",
+      "id": "g_d78ace7917",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_1e5937e4"
+        "t_45aa8320"
       ],
       "confidence": 1
     },
@@ -7328,6 +11581,21 @@
           "name": "club:t_763dcde9",
           "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercopa-endesa-2026-definite-le-semifinali/",
+          "published": "2026-07-21"
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-badalona-2026-participantes-fechas-emparejamientos/",
+          "published": "2026-08-10"
+        },
+        {
+          "name": "acb",
+          "url": "https://acb.com/es/supercopa/noticias",
+          "published": "2026-08-14"
         }
       ],
       "notes": [],
@@ -7341,7 +11609,7 @@
         "t_763dcde9",
         "t_1d8e80ce"
       ],
-      "confidence": 3
+      "confidence": 5
     },
     {
       "date": "2026-09-19",
@@ -7503,6 +11771,762 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-19",
+      "dateLabel": "19. septembra",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "טורניר פאבלוס יאנאקופולוס",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
+          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Wed, 12 Aug 2026 21:50:34 +0000",
+      "id": "g_af125ebe1e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": null,
+      "homeTeam": "t_23e4ce5d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nova Arena",
+        "city": "Tortona",
+        "country": null
+      },
+      "tournament": "סופרקופה איטלקית",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-a-tortona-ecco-il-quadro-delle-semifinali/",
+          "published": "2026-06-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-lba-milano-bologna-tortona-venezia/",
+          "published": "2026-07-02"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-30",
+      "id": "g_fd44c00e5a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7cd10ddf",
+        "t_23e4ce5d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": "20:00",
+      "homeTeam": "t_3a63eba6",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Modena",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_47d713f415",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3a63eba6",
+        "t_43f8a292"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": null,
+      "homeTeam": "t_577949d9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": "Strasburgo",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-28",
+      "id": "g_bb866342b5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_577949d9",
+        "t_726df887"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Sabato 19 settembre",
+      "time": null,
+      "homeTeam": "t_483afd93",
+      "awayTeam": "t_c9966e0b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_affcd4b8dd",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_483afd93",
+        "t_c9966e0b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Sabato 19 settembre",
+      "time": null,
+      "homeTeam": "t_3dd46478",
+      "awayTeam": "t_a8c92a6b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_8e7dc3887f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3dd46478",
+        "t_a8c92a6b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 Settembre",
+      "time": "18:00",
+      "homeTeam": "t_dbf0fb0b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Foligno",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/rsr-sebastiani-rieti-ecco-il-calendario-della-preseason-2026-27/",
+          "published": "2026-07-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-13",
+      "id": "g_4ccd29e017",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dbf0fb0b",
+        "t_754ea612"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Sabato 19 settembre",
+      "time": "18:45",
+      "homeTeam": "t_06bcca16",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palazzetto Livio Romare",
+        "city": "Schio",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
+          "published": "2026-07-22"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
+          "published": "2026-08-04"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_1c09c936a4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_06bcca16",
+        "t_cce353da"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": null,
+      "homeTeam": "t_2f94c258",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Caserta",
+        "country": null
+      },
+      "tournament": "Amichevole",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/preseason-tutte-le-date-ufficiali-dellhalley-campania-avellino-basket/",
+          "published": "2026-07-22"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-22",
+      "id": "g_e7542e6ca7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f94c258",
+        "t_7e157e3f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": null,
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Casnate con Bernate",
+        "city": "Casnate con Bernate",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
+          "published": "2026-07-27"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_c4e847f9dc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5d59a83a",
+        "t_550a84d0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "sabato 19 settembre alle ore 18:00",
+      "time": "18:00",
+      "homeTeam": "t_2b11a23d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaTerme",
+        "city": "Montecatini",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-t-tecnica-gema-montecatini-ufficializza-il-calendario-del-precampionato-tutti-gli-impegni/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
+          "published": "2026-08-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-27",
+      "id": "g_2f2bcb7599",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b11a23d",
+        "t_9f143938"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": "18:00",
+      "homeTeam": "t_18ce03ce",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Palazzetto dello Sport",
+        "city": "Codroipo",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-il-calendario-della-pre-season/",
+          "published": "2026-07-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-30",
+      "id": "g_24ab94dc8b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_18ce03ce",
+        "t_47dac4e9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "sabato 19 settembre",
+      "time": "18:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Itelyum Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-varese-gli-appuntamenti-della-preseason-biancorossa/",
+          "published": "2026-08-05"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-05",
+      "id": "g_851871b2fc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2f1b0243",
+        "t_12174e28"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 settembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Massagno",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/la-preseason-di-torino/",
+          "published": "2026-08-06"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-06",
+      "id": "g_b46a2eb8c1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4ef037d",
+        "t_1d47c1ca"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "sabato 19 settembre",
+      "time": "18:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Soevis Arena",
+        "city": "Castellanza",
+        "country": null
+      },
+      "tournament": "Memorial Alberto Morelli – Soevis Cup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/a2a-leonessa-brescia-definito-il-calendario-della-preseason/",
+          "published": "2026-08-11"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-11",
+      "id": "g_9bdca2f65b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_33e55770"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septiembre",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_8f122a1c90",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dfe9dae2",
+        "t_cec2cef8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 de septiembre",
+      "time": null,
+      "homeTeam": "t_1ce799a6",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה אנדסה",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "acb",
+          "url": "https://acb.com/es/supercopa/noticias",
+          "published": "2026-08-14"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-14",
+      "id": "g_a75de3a633",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1ce799a6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 de septiembre",
+      "time": null,
+      "homeTeam": "t_763dcde9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה אנדסה",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "acb",
+          "url": "https://acb.com/es/supercopa/noticias",
+          "published": "2026-08-14"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-14",
+      "id": "g_21471dc23f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-20",
       "dateLabel": "20.9, 12:15",
       "time": "12:15",
@@ -7533,7 +12557,8 @@
       "published": null,
       "id": "g_969d653834",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_09084792",
@@ -7622,6 +12647,166 @@
       ],
       "teams": [
         "t_998ddb52"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
+      "dateLabel": "20 settembre",
+      "time": null,
+      "homeTeam": "t_763dcde9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Palau Municipal d’Esports di Badalona",
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה אנדסה",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercopa-endesa-2026-definite-le-semifinali/",
+          "published": "2026-07-21"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-21",
+      "id": "g_53a8e5db16",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9",
+        "t_e32d7cf2"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
+      "dateLabel": "domenica 20 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercoppa Serie A2 Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-03",
+      "id": "g_8947fbc314",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_aaae2e9f",
+        "t_f0a9bf47"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
+      "dateLabel": "20 settembre",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Gorizia",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/pallacanestro-trieste-il-calendario-della-pre-season/",
+          "published": "2026-08-08"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-08",
+      "id": "g_ea026ce520",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_03b3581a",
+        "t_97d76180"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
+      "dateLabel": "20 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_70ae7bb66d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4a5e72bb",
+        "t_29304cb1"
       ],
       "confidence": 1
     },
@@ -8439,6 +13624,651 @@
       "teams": [
         "t_17bfa9f2",
         "t_14427407"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": "16:00",
+      "homeTeam": "t_e3b3e613",
+      "awayTeam": "t_a523b9eb",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Sparkassen-Arena Jena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_ef2290b6",
+          "url": "https://nitter.net/ninerschemnitz/status/1987100332174758014#m",
+          "published": "Sat, 08 Nov 2025 10:10:12 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sat, 08 Nov 2025 10:10:12 GMT",
+      "id": "g_7854670d81",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e3b3e613",
+        "t_a523b9eb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "weekend del 5-6 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Memorial Pajetta",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-28",
+      "id": "g_ea868807d5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726df887",
+        "t_5d59a83a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12 e 13 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Matera",
+        "country": null
+      },
+      "tournament": "Trofeo Basilicata",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-28",
+      "id": "g_33f8fb5ead",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726df887",
+        "t_3b04d1c4"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12 e 13 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Matera",
+        "country": null
+      },
+      "tournament": "Trofeo Basilicata",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-28",
+      "id": "g_08c493f8a0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726df887",
+        "t_2f1b0243"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12 e 13 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Matera",
+        "country": null
+      },
+      "tournament": "Trofeo Basilicata",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-28",
+      "id": "g_e5fc74ff12",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726df887",
+        "t_d70cfe97"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "weekend del 18 e 19 settembre",
+      "time": null,
+      "homeTeam": "t_d9d017e1",
+      "awayTeam": "t_0b32d25f",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaPentassuglia",
+        "city": null,
+        "country": null
+      },
+      "tournament": "XV Memorial Elio Pentassuglia",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/valtur-brindisi-definito-il-programma-della-preseason-2026-27/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_8904faaa12",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d9d017e1",
+        "t_0b32d25f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "5 e 6 settembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaCarnera Credifriuli",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Memorial Piera Pajetta",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-02",
+      "id": "g_16503f117c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_18ce03ce",
+        "t_726df887",
+        "t_c00ae0c6",
+        "t_5d59a83a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "26 de septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercopa LF Endesa",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/baloncesto-femenino/supercopa-lf-endesa-emparejamientos-calendario-palmares/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_66c14aff07",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0f5171f1",
+        "t_763dcde9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "26 de septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercopa LF Endesa",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/baloncesto-femenino/supercopa-lf-endesa-emparejamientos-calendario-palmares/",
+          "published": "2026-07-23"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-07-23",
+      "id": "g_0259af7ff5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_48b5d0b6",
+        "t_7d76ec16"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12-13 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_d6e06267c4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_25c20d3d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12-13 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_a772d274ee",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_f1ab1373",
+        "t_38027d78"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12-13 septiembre",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_7dfc6c2da9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_25c20d3d",
+        "t_38027d78"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": null,
+      "homeTeam": "t_5c2ad363",
+      "awayTeam": "t_763dcde9",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה אנדסה",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 94,
+        "away": 98
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "acb",
+          "url": "https://acb.com/es/supercopa/partidos",
+          "published": "2026-08-14"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-14",
+      "id": "g_98f5cffb72",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5c2ad363",
+        "t_763dcde9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "11-13 Eylül 2026",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Kalemegdan",
+        "city": "Belgrad",
+        "country": "Sırbistan"
+      },
+      "tournament": "AdmiralBet Open Air",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/1998399/besiktas-belgradda-acik-hava-turnuvasina-katilacak/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_afee6a8ad9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847",
+        "t_99dbf7c1"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "11-13 Eylül 2026",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Kalemegdan",
+        "city": "Belgrad",
+        "country": "Sırbistan"
+      },
+      "tournament": "AdmiralBet Open Air",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/1998399/besiktas-belgradda-acik-hava-turnuvasina-katilacak/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_5694577df2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847",
+        "t_dea4f9fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "11-13 Eylül 2026",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Kalemegdan",
+        "city": "Belgrad",
+        "country": "Sırbistan"
+      },
+      "tournament": "AdmiralBet Open Air",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/1998399/besiktas-belgradda-acik-hava-turnuvasina-katilacak/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-13",
+      "id": "g_6cf59a66de",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_99dbf7c1",
+        "t_dea4f9fe"
       ],
       "confidence": 1
     }
