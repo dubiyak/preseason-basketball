@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T09:46:48.574Z",
+  "updated": "2026-08-14T10:05:19.131Z",
   "season": "2026-27",
   "newGames": 31,
   "conflicts": [
@@ -231,9 +231,9 @@
       "dateLabel": "Thursday, 20.08.2026",
       "time": null,
       "homeTeam": "t_998ddb52",
-      "awayTeam": null,
+      "awayTeam": "t_8fe33769",
       "candidates": [],
-      "opponentTbd": true,
+      "opponentTbd": false,
       "venue": {
         "arena": null,
         "city": null,
@@ -256,12 +256,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_efe5f6718f",
+      "id": "g_45b0f13fe2",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_998ddb52"
+        "t_998ddb52",
+        "t_8fe33769"
       ],
       "confidence": 1
     },
@@ -401,7 +402,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_934b32a7",
+      "awayTeam": "t_79df24d1",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -426,13 +427,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_e47b8158c7",
+      "id": "g_e48de54093",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_7be74f50",
-        "t_934b32a7"
+        "t_79df24d1"
       ],
       "confidence": 1
     },
@@ -558,10 +559,10 @@
       "date": "2026-08-25",
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
-      "homeTeam": null,
+      "homeTeam": "t_8fe33769",
       "awayTeam": "t_648bdb93",
       "candidates": [],
-      "opponentTbd": true,
+      "opponentTbd": false,
       "venue": {
         "arena": null,
         "city": null,
@@ -584,11 +585,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_3044ecb712",
+      "id": "g_603f14bfbf",
       "origins": [
         "extracted"
       ],
       "teams": [
+        "t_8fe33769",
         "t_648bdb93"
       ],
       "confidence": 1
@@ -597,8 +599,8 @@
       "date": "2026-08-25",
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
-      "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_998ddb52",
+      "homeTeam": "t_998ddb52",
+      "awayTeam": "t_8ee48f2b",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -628,8 +630,8 @@
         "extracted"
       ],
       "teams": [
-        "t_8ee48f2b",
-        "t_998ddb52"
+        "t_998ddb52",
+        "t_8ee48f2b"
       ],
       "confidence": 1
     },
@@ -741,13 +743,53 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 13 Aug 2026 20:14:46 +0000",
-      "id": "g_2335e3d0e7",
+      "id": "g_bf610345cb",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_f0a9bf47",
-        "t_904dad55"
+        "t_d804c851"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-26",
+      "dateLabel": "Wednesday, 26.08.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": "t_875ab2d7",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_d704beec6e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92",
+        "t_875ab2d7"
       ],
       "confidence": 1
     },
@@ -755,8 +797,8 @@
       "date": "2026-08-27",
       "dateLabel": "27.8",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_726df887",
+      "awayTeam": "t_998ddb52",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -775,6 +817,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/"
+        },
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
         }
       ],
       "notes": [],
@@ -782,13 +829,14 @@
       "published": null,
       "id": "g_3de6aa232b",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_726df887",
         "t_998ddb52"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-08-27",
@@ -835,7 +883,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_6e76dcab",
+      "awayTeam": "t_dad6d75e",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -860,13 +908,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_e4ecad1b8c",
+      "id": "g_563aa01706",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_2b3f230e",
-        "t_6e76dcab"
+        "t_dad6d75e"
       ],
       "confidence": 1
     },
@@ -991,45 +1039,6 @@
     },
     {
       "date": "2026-08-28",
-      "dateLabel": "Friday, 28.08.2026",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": "t_365d325c",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_f7166f93ef",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_365d325c"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-08-28",
       "dateLabel": "Ven 28 Août",
       "time": "20:00",
       "homeTeam": "t_88a640c0",
@@ -1065,6 +1074,46 @@
       "teams": [
         "t_88a640c0",
         "t_211b1542"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "Friday, 28.08.2026",
+      "time": null,
+      "homeTeam": "t_8fe33769",
+      "awayTeam": "t_7a8a9ba0",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_bb84e0834d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_8fe33769",
+        "t_7a8a9ba0"
       ],
       "confidence": 1
     },
@@ -1444,7 +1493,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_833412f2",
+      "awayTeam": "t_1443a9bf",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1469,13 +1518,93 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_cec31242b1",
+      "id": "g_3256777b48",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_833412f2"
+        "t_1443a9bf"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "Saturday, 29.08.2026",
+      "time": null,
+      "homeTeam": "t_5935737f",
+      "awayTeam": "t_998ddb52",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_ed2a82d1ce",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5935737f",
+        "t_998ddb52"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "Saturday, 29.08.2026",
+      "time": null,
+      "homeTeam": "t_76d7ec1f",
+      "awayTeam": "t_84c93f92",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_42a4408928",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_76d7ec1f",
+        "t_84c93f92"
       ],
       "confidence": 1
     },
@@ -1523,7 +1652,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_833412f2",
+      "awayTeam": "t_1443a9bf",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1548,13 +1677,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_821c4ef03c",
+      "id": "g_b59b776d1b",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_303da94d",
-        "t_833412f2"
+        "t_1443a9bf"
       ],
       "confidence": 1
     },
@@ -1667,9 +1796,9 @@
           "url": "https://www.telegraf.rs/sport/kosarka/4377212-poznat-raspored-partizana-u-predsezoni-spektakl-na-kalemegdanu-pa-trinkijeri-i-odlazak-kod-zeljka-u-atinu"
         },
         {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
-          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
         }
       ],
       "notes": [
@@ -2008,6 +2137,11 @@
         {
           "name": "noticiasdealava.eus",
           "url": "https://www.noticiasdealava.eus/baskonia/2026/08/07/baskonia-arrancara-pretemporada-18-de-agosto-11416486.html"
+        },
+        {
+          "name": "x:t_e32d7cf2",
+          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
+          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
         }
       ],
       "notes": [],
@@ -2015,13 +2149,14 @@
       "published": null,
       "id": "g_c1f4c3b068",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_e32d7cf2",
         "t_06654952"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-02",
@@ -2144,45 +2279,6 @@
     },
     {
       "date": "2026-09-02",
-      "dateLabel": "2 de septiembre",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_e32d7cf2",
-          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
-          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Thu, 13 Aug 2026 15:54:00 GMT",
-      "id": "g_03e4349acf",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_06654952"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-02",
       "dateLabel": "Wednesday, 02.09.2026",
       "time": null,
       "homeTeam": "t_5f254578",
@@ -2234,7 +2330,7 @@
         "city": null,
         "country": null
       },
-      "tournament": null,
+      "tournament": "Neofytos Chandriotis Tournament",
       "stage": null,
       "flags": [
         "דלתיים סגורות"
@@ -2314,6 +2410,46 @@
     },
     {
       "date": "2026-09-03",
+      "dateLabel": "giovedì 3 settembre",
+      "time": "20:30",
+      "homeTeam": "t_42d4fab3",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Pala Flaminio",
+        "city": "Rimini",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_2155f6e878",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_42d4fab3",
+        "t_486860fc"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-03",
       "dateLabel": "Thursday, 03.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
@@ -2349,45 +2485,6 @@
       "teams": [
         "t_ea80e631",
         "t_5e944bac"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-03",
-      "dateLabel": "giovedì 3 settembre",
-      "time": "20:30",
-      "homeTeam": "t_80a571fe",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": "Pala Flaminio",
-        "city": "Rimini",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_486860fc",
-          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_b755431a0b",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_80a571fe"
       ],
       "confidence": 1
     },
@@ -2699,6 +2796,45 @@
       "confidence": 2
     },
     {
+      "date": "2026-09-04",
+      "dateLabel": "Friday, 04.09.2026",
+      "time": null,
+      "homeTeam": "t_8fe33769",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_65de3975f8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_8fe33769"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-05",
       "dateLabel": "5.9",
       "time": null,
@@ -2728,13 +2864,13 @@
           "url": "https://www.telegraf.rs/sport/kosarka/4377212-poznat-raspored-partizana-u-predsezoni-spektakl-na-kalemegdanu-pa-trinkijeri-i-odlazak-kod-zeljka-u-atinu"
         },
         {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
-          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
-        },
-        {
           "name": "club:t_2a1ac857",
           "url": "https://www.hapoeluta.org/games",
+          "published": null
+        },
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
         }
       ],
@@ -2758,8 +2894,8 @@
       "date": "2026-09-05",
       "dateLabel": "5.9, 20:00",
       "time": "20:00",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_e32d7cf2",
+      "awayTeam": "t_5c2ad363",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2782,6 +2918,11 @@
         {
           "name": "realmadrid.com",
           "url": "https://www.realmadrid.com/es-ES/baloncesto/primer-equipo/inicio"
+        },
+        {
+          "name": "x:t_e32d7cf2",
+          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
+          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
         }
       ],
       "notes": [],
@@ -2789,13 +2930,14 @@
       "published": null,
       "id": "g_b3dbe7ec08",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_e32d7cf2",
         "t_5c2ad363"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-05",
@@ -3218,12 +3360,12 @@
     },
     {
       "date": "2026-09-05",
-      "dateLabel": "5 de septiembre",
+      "dateLabel": "Saturday, 05.09.2026",
       "time": null,
-      "homeTeam": null,
+      "homeTeam": "t_8fe33769",
       "awayTeam": null,
       "candidates": [],
-      "opponentTbd": false,
+      "opponentTbd": true,
       "venue": {
         "arena": null,
         "city": null,
@@ -3238,20 +3380,20 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "x:t_e32d7cf2",
-          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
-          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "Thu, 13 Aug 2026 15:54:00 GMT",
-      "id": "g_78b5f7ccf1",
+      "published": null,
+      "id": "g_e684628b77",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_5c2ad363"
+        "t_8fe33769"
       ],
       "confidence": 1
     },
@@ -3292,6 +3434,46 @@
       "teams": [
         "t_8ee48f2b",
         "t_e5842e3d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "Saturday, 05.09.2026",
+      "time": null,
+      "homeTeam": "t_0fec3b85",
+      "awayTeam": "t_84c93f92",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_9f7ffd81aa",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0fec3b85",
+        "t_84c93f92"
       ],
       "confidence": 1
     },
@@ -3611,7 +3793,7 @@
         "city": "מינכן",
         "country": "גרמניה"
       },
-      "tournament": null,
+      "tournament": "Teampräsentation",
       "stage": null,
       "flags": [
         "הצגת קבוצה"
@@ -3624,6 +3806,11 @@
         {
           "name": "fcbayern.com",
           "url": "https://fcbayern.com/basketball/de/news/2026-27/07/teampraesentation-vs-bamberg"
+        },
+        {
+          "name": "x:t_47f7f3db",
+          "url": "https://nitter.net/FCBBasketball/status/2083825557779673089#m",
+          "published": "Sun, 02 Aug 2026 08:01:43 GMT"
         }
       ],
       "notes": [],
@@ -3631,13 +3818,14 @@
       "published": null,
       "id": "g_a5cd2345c1",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_47f7f3db",
         "t_14b6de48"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -3849,7 +4037,7 @@
       "dateLabel": "06/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_d006a6e4",
+      "awayTeam": "t_a32bfccd",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3874,13 +4062,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_52c8bf6040",
+      "id": "g_ba8229ddbe",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_d006a6e4"
+        "t_a32bfccd"
       ],
       "confidence": 1
     },
@@ -3978,7 +4166,7 @@
         "city": "בניקרלו",
         "country": "ספרד"
       },
-      "tournament": null,
+      "tournament": "Pretemporada masculina / Benicarló",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -3989,46 +4177,6 @@
         {
           "name": "bet365 ACB",
           "url": "https://news.bet365.es/es-es/article/amistosos-pretemporada-liga-acb-2026-2027-calendario/2026073113390215411"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_67e9bbdf7a",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_763dcde9",
-        "t_0f5171f1"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-07",
-      "dateLabel": "07 sep.",
-      "time": "20:00",
-      "homeTeam": null,
-      "awayTeam": "t_0f5171f1",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Pretemporada masculina / Benicarló",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
         },
         {
           "name": "club:t_763dcde9",
@@ -4037,13 +4185,15 @@
         }
       ],
       "notes": [],
-      "origin": "extracted",
+      "origin": "seed",
       "published": null,
-      "id": "g_73717720ad",
+      "id": "g_67e9bbdf7a",
       "origins": [
+        "seed",
         "extracted"
       ],
       "teams": [
+        "t_763dcde9",
         "t_0f5171f1"
       ],
       "confidence": 2
@@ -4141,7 +4291,7 @@
         "city": null,
         "country": null
       },
-      "tournament": null,
+      "tournament": "Neofytos Chandriotis Tournament",
       "stage": null,
       "flags": [
         "דלתיים סגורות"
@@ -4263,13 +4413,13 @@
     {
       "date": "2026-09-09",
       "dateLabel": "9.9",
-      "time": null,
-      "homeTeam": null,
+      "time": "20:00",
+      "homeTeam": "t_7cd10ddf",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaCiti",
         "city": "פארמה",
         "country": "איטליה"
       },
@@ -4284,6 +4434,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/tortona-il-calendario-della-preseason-2026-27/"
+        },
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
         }
       ],
       "notes": [],
@@ -4291,13 +4446,14 @@
       "published": null,
       "id": "g_5a01f121d8",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_7cd10ddf",
         "t_486860fc"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-09",
@@ -4390,15 +4546,15 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "mercoledì 9 settembre",
-      "time": "20:00",
-      "homeTeam": "t_7cd10ddf",
-      "awayTeam": null,
+      "dateLabel": "Wednesday, 09.09.2026",
+      "time": null,
+      "homeTeam": "t_998ddb52",
+      "awayTeam": "t_ac2bfe9c",
       "candidates": [],
-      "opponentTbd": true,
+      "opponentTbd": false,
       "venue": {
-        "arena": "PalaCiti",
-        "city": "Parma",
+        "arena": null,
+        "city": null,
         "country": null
       },
       "tournament": null,
@@ -4410,20 +4566,61 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "club:t_486860fc",
-          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_bf700c451b",
+      "id": "g_d7c11885e4",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_7cd10ddf"
+        "t_998ddb52",
+        "t_ac2bfe9c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Wednesday, 09.09.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": "t_0fec3b85",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_d4e2a73993",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92",
+        "t_0fec3b85"
       ],
       "confidence": 1
     },
@@ -4701,8 +4898,8 @@
       "date": "2026-09-11",
       "dateLabel": "11.9, 18:45",
       "time": "18:45",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_e32d7cf2",
+      "awayTeam": "t_914a8167",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4721,6 +4918,11 @@
         {
           "name": "noticiasdealava.eus",
           "url": "https://www.noticiasdealava.eus/baskonia/2026/07/31/nueva-cita-pretemporada-baskonia-amistoso-encestarias-11393968.html"
+        },
+        {
+          "name": "x:t_e32d7cf2",
+          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
+          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
         }
       ],
       "notes": [],
@@ -4728,13 +4930,14 @@
       "published": null,
       "id": "g_9344aaa475",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_e32d7cf2",
         "t_914a8167"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-11",
@@ -4792,7 +4995,7 @@
       "dateLabel": "11.9, 21:15",
       "time": "21:15",
       "homeTeam": null,
-      "awayTeam": null,
+      "awayTeam": "t_4a5e72bb",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4811,6 +5014,11 @@
         {
           "name": "bet365 ACB",
           "url": "https://news.bet365.es/es-es/article/amistosos-pretemporada-liga-acb-2026-2027-calendario/2026073113390215411"
+        },
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
         }
       ],
       "notes": [],
@@ -4818,13 +5026,14 @@
       "published": null,
       "id": "g_c4dee44df5",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_763dcde9",
         "t_4a5e72bb"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-11",
@@ -4992,7 +5201,7 @@
       "date": "2026-09-11",
       "dateLabel": "11/09",
       "time": null,
-      "homeTeam": "t_833412f2",
+      "homeTeam": "t_1443a9bf",
       "awayTeam": "t_8621b265",
       "candidates": [],
       "opponentTbd": false,
@@ -5018,74 +5227,30 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_9216f37256",
+      "id": "g_022753eeb9",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_833412f2",
+        "t_1443a9bf",
         "t_8621b265"
       ],
       "confidence": 1
     },
     {
       "date": "2026-09-11",
-      "dateLabel": "11 sep.",
-      "time": "21:15",
-      "homeTeam": null,
-      "awayTeam": "t_4a5e72bb",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "טורניר EncestaRías",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_8e9e5e7a59",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_4a5e72bb"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-11",
-      "dateLabel": "11 בספטמבר",
-      "time": null,
-      "homeTeam": null,
+      "dateLabel": "11/09/26",
+      "time": "18:00",
+      "homeTeam": "t_914d2962",
       "awayTeam": "t_1b44e7f9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
+        "arena": "Tassos Papadopoulos – Eleftheria",
+        "city": "ניקוסיה",
+        "country": "קפריסין"
       },
-      "tournament": null,
+      "tournament": "Neofytos Chandriotis Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -5094,61 +5259,37 @@
       "reportUrl": null,
       "sources": [
         {
+          "name": "club:t_914d2962",
+          "url": "https://arisbasketball.com/en/first-team/preseason-fixtures-arisbc-en.html",
+          "published": null
+        },
+        {
           "name": "club:t_1b44e7f9",
           "url": "http://www.maccabi.co.il/season.asp",
           "published": null
+        },
+        {
+          "name": "protathlima.cyprustimes.com",
+          "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/"
+        },
+        {
+          "name": "basketballstoriescy.com",
+          "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_18112214b8",
+      "id": "g_c68bd504b7",
       "origins": [
-        "extracted"
+        "extracted",
+        "manual"
       ],
       "teams": [
+        "t_914d2962",
         "t_1b44e7f9"
       ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-11",
-      "dateLabel": "11 de septiembre",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_e32d7cf2",
-          "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
-          "published": "Thu, 13 Aug 2026 15:54:00 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Thu, 13 Aug 2026 15:54:00 GMT",
-      "id": "g_05a6056581",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_914a8167"
-      ],
-      "confidence": 1
+      "confidence": 4
     },
     {
       "date": "2026-09-11",
@@ -5192,18 +5333,18 @@
     },
     {
       "date": "2026-09-11",
-      "dateLabel": "11/09/26",
-      "time": "18:00",
-      "homeTeam": "t_914d2962",
-      "awayTeam": "t_1b44e7f9",
+      "dateLabel": "Friday, 11.09.2026",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
       "candidates": [],
-      "opponentTbd": false,
+      "opponentTbd": true,
       "venue": {
-        "arena": "Tassos Papadopoulos – Eleftheria",
-        "city": "ניקוסיה",
-        "country": "קפריסין"
+        "arena": null,
+        "city": null,
+        "country": null
       },
-      "tournament": "טורניר ניקוסיה",
+      "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -5212,32 +5353,22 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "club:t_914d2962",
-          "url": "https://arisbasketball.com/en/first-team/preseason-fixtures-arisbc-en.html",
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
-        },
-        {
-          "name": "protathlima.cyprustimes.com",
-          "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/"
-        },
-        {
-          "name": "basketballstoriescy.com",
-          "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_c68bd504b7",
+      "id": "g_5c821371c2",
       "origins": [
-        "extracted",
-        "manual"
+        "extracted"
       ],
       "teams": [
-        "t_914d2962",
-        "t_1b44e7f9"
+        "t_1497d847"
       ],
-      "confidence": 3
+      "confidence": 1
     },
     {
       "date": "2026-09-11",
@@ -5281,49 +5412,6 @@
         "t_a85f3ce5"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-12",
-      "dateLabel": "12.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "ולנסיה בסקט",
-        "אלבה ברלין (המנצחת)"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "פונטבדרה",
-        "country": "ספרד"
-      },
-      "tournament": "טורניר EncestaRías",
-      "stage": "גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "bet365 ACB",
-          "url": "https://news.bet365.es/es-es/article/amistosos-pretemporada-liga-acb-2026-2027-calendario/2026073113390215411"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_dad0dfbbad",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_e32d7cf2",
-        "t_763dcde9",
-        "t_914a8167"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-12",
@@ -5694,50 +5782,6 @@
     },
     {
       "date": "2026-09-12",
-      "dateLabel": "12 sep.",
-      "time": "18:00",
-      "homeTeam": null,
-      "awayTeam": "t_797c21bb",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Pretemporada femenina / Valencia",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_1f1c7a9177",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_797c21bb"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-12",
       "dateLabel": "12.09.26",
       "time": "19:00",
       "homeTeam": "t_12174e28",
@@ -5788,19 +5832,19 @@
     },
     {
       "date": "2026-09-12",
-      "dateLabel": "Saturday, 12.09.2026",
-      "time": null,
-      "homeTeam": "t_303da94d",
-      "awayTeam": "t_5935737f",
+      "dateLabel": "12 sep.",
+      "time": "18:00",
+      "homeTeam": null,
+      "awayTeam": "t_797c21bb",
       "candidates": [],
-      "opponentTbd": false,
+      "opponentTbd": true,
       "venue": {
         "arena": null,
-        "city": null,
-        "country": null
+        "city": "פונטבדרה",
+        "country": "ספרד"
       },
-      "tournament": null,
-      "stage": null,
+      "tournament": "Pretemporada femenina / Valencia",
+      "stage": "גמר",
       "flags": [],
       "broadcast": [],
       "result": null,
@@ -5808,23 +5852,27 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
+        },
+        {
+          "name": "bet365 ACB",
+          "url": "https://news.bet365.es/es-es/article/amistosos-pretemporada-liga-acb-2026-2027-calendario/2026073113390215411"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_a97ded9852",
+      "id": "g_fa7296d5b2",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_303da94d",
-        "t_5935737f"
+        "t_797c21bb",
+        "t_763dcde9"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -5867,6 +5915,125 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-12",
+      "dateLabel": "Saturday, 12.09.2026",
+      "time": null,
+      "homeTeam": "t_303da94d",
+      "awayTeam": "t_5935737f",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_a97ded9852",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_303da94d",
+        "t_5935737f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "Saturday, 12.09.2026",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_4c77e09df0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "Saturday, 12.09.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": "t_33d3e8cd",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_322110e297",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92",
+        "t_33d3e8cd"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-13",
       "dateLabel": "13.9",
       "time": null,
@@ -5902,46 +6069,6 @@
       "teams": [
         "t_709fcff6",
         "t_d896c80a"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-13",
-      "dateLabel": "Sunday, 13.09.2026",
-      "time": null,
-      "homeTeam": "t_303da94d",
-      "awayTeam": "t_157b4fa8",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_42bf9b202f",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_303da94d",
-        "t_157b4fa8"
       ],
       "confidence": 1
     },
@@ -5993,6 +6120,85 @@
         "t_a85f3ce5"
       ],
       "confidence": 3
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "Sunday, 13.09.2026",
+      "time": null,
+      "homeTeam": "t_303da94d",
+      "awayTeam": "t_157b4fa8",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_42bf9b202f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_303da94d",
+        "t_157b4fa8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "Sunday, 13.09.2026",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_168c099028",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-13",
@@ -6065,42 +6271,7 @@
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_9191c6a715",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_e32d7cf2",
-        "t_38027d78"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-15",
-      "dateLabel": "15 de septiembre",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
+        },
         {
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2087930678864175344#m",
@@ -6108,16 +6279,18 @@
         }
       ],
       "notes": [],
-      "origin": "extracted",
-      "published": "Thu, 13 Aug 2026 15:54:00 GMT",
-      "id": "g_98f47826bf",
+      "origin": "seed",
+      "published": null,
+      "id": "g_9191c6a715",
       "origins": [
+        "seed",
         "extracted"
       ],
       "teams": [
+        "t_e32d7cf2",
         "t_38027d78"
       ],
-      "confidence": 1
+      "confidence": 3
     },
     {
       "date": "2026-09-16",
@@ -6149,19 +6322,59 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_600b964ec5",
+      "id": "g_f8ea61f2d0",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_12174e28"
+        "t_12174e28",
+        "t_486860fc"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "Wednesday, 16.09.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_28069be44c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92"
       ],
       "confidence": 1
     },
     {
       "date": "2026-09-17",
       "dateLabel": "17.9",
-      "time": null,
+      "time": "20:55",
       "homeTeam": "t_2a1ac857",
       "awayTeam": "t_1b44e7f9",
       "candidates": [],
@@ -6326,7 +6539,7 @@
       "date": "2026-09-17",
       "dateLabel": "17 sep.",
       "time": "19:00",
-      "homeTeam": "t_abfcbb75",
+      "homeTeam": "t_cb2c8695",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -6345,11 +6558,6 @@
       "sources": [
         {
           "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
-        },
-        {
-          "name": "club:t_763dcde9",
           "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
         }
@@ -6357,20 +6565,21 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_a218055482",
+      "id": "g_1933c08d98",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_abfcbb75"
+        "t_cb2c8695",
+        "t_763dcde9"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-17",
       "dateLabel": "17 בספטמבר",
       "time": null,
-      "homeTeam": null,
+      "homeTeam": "t_e3b7f23c",
       "awayTeam": "t_1b44e7f9",
       "candidates": [],
       "opponentTbd": false,
@@ -6379,7 +6588,7 @@
         "city": null,
         "country": null
       },
-      "tournament": null,
+      "tournament": "Neofytos Chandriotis Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -6396,12 +6605,92 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_27ca006671",
+      "id": "g_f5e7350e68",
       "origins": [
         "extracted"
       ],
       "teams": [
+        "t_e3b7f23c",
         "t_1b44e7f9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "Thursday, 17.09.2026",
+      "time": null,
+      "homeTeam": "t_726ded23",
+      "awayTeam": "t_998ddb52",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_e600bbcd37",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_726ded23",
+        "t_998ddb52"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "Thursday, 17.09.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_110ce5de10",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92"
       ],
       "confidence": 1
     },
@@ -6599,6 +6888,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/diethni/eurocup/eurocup-i-thesi-ton-ari-kai-paok-kai-o-ypsilos-antagonismos",
           "published": "2026-08-03T16:49:35+00:00"
+        },
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
         }
       ],
       "notes": [],
@@ -6613,7 +6907,7 @@
         "t_1497d847",
         "t_9b9664c9"
       ],
-      "confidence": 19
+      "confidence": 20
     },
     {
       "date": "2026-09-18",
@@ -6678,11 +6972,6 @@
         {
           "name": "allstarbasket.gr",
           "url": "https://www.allstarbasket.gr/diethni/euroleague/partizan-kontra-ston-paok-stis-18-septemvriou-sto-tournoua-paylos-giannakopoulos"
-        },
-        {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
-          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
         }
       ],
       "notes": [],
@@ -6690,91 +6979,11 @@
       "published": null,
       "id": "g_6912b13b95",
       "origins": [
-        "seed",
-        "extracted"
+        "seed"
       ],
       "teams": [
         "t_c00ae0c6",
         "t_1497d847"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-18",
-      "dateLabel": "18 Eylül",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "VTB United League SuperCup",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_157b4fa8",
-          "url": "https://nitter.net/AnadoluEfesSK/status/2085071060295168189#m",
-          "published": "Wed, 05 Aug 2026 18:30:54 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 05 Aug 2026 18:30:54 GMT",
-      "id": "g_1cd909953e",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_648bdb93"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-18",
-      "dateLabel": "Friday, 18.09.2026",
-      "time": null,
-      "homeTeam": "t_303da94d",
-      "awayTeam": "t_e2d3f7c8",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_14ca7bf4a6",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_303da94d",
-        "t_e2d3f7c8"
       ],
       "confidence": 1
     },
@@ -6815,6 +7024,125 @@
       "teams": [
         "t_a85f3ce5",
         "t_914d2962"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "Friday, 18.09.2026",
+      "time": null,
+      "homeTeam": "t_303da94d",
+      "awayTeam": "t_0c65ec09",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_3f78065023",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_303da94d",
+        "t_0c65ec09"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "Friday, 18.09.2026",
+      "time": null,
+      "homeTeam": "t_84c93f92",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_b7238fbc99",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_84c93f92"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 Eylül",
+      "time": null,
+      "homeTeam": "t_157b4fa8",
+      "awayTeam": "t_648bdb93",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "VTB United League SuperCup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_157b4fa8",
+          "url": "https://nitter.net/AnadoluEfesSK/status/2085071060295168189#m",
+          "published": "Wed, 05 Aug 2026 18:30:54 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Wed, 05 Aug 2026 18:30:54 GMT",
+      "id": "g_0ca5dcefd5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_157b4fa8",
+        "t_648bdb93"
       ],
       "confidence": 1
     },
@@ -6872,12 +7200,12 @@
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
       "time": null,
-      "homeTeam": null,
+      "homeTeam": "t_21cf4132",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Unipol Forum",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -6892,6 +7220,11 @@
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
         },
         {
           "name": "sportando.basketball",
@@ -6909,20 +7242,21 @@
       "published": null,
       "id": "g_087cbf6610",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19/09",
       "time": null,
       "homeTeam": "t_8621b265",
-      "awayTeam": "t_ae754f42",
+      "awayTeam": "t_1e5937e4",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6949,52 +7283,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "",
-      "id": "g_6ac5307d5c",
+      "id": "g_56fc8ee82e",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_8621b265",
-        "t_ae754f42"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-19",
-      "dateLabel": "19. septembra",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "טורניר פאבלוס יאנאקופולוס",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
-          "published": "Wed, 12 Aug 2026 21:50:34 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 12 Aug 2026 21:50:34 +0000",
-      "id": "g_af125ebe1e",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1497d847"
+        "t_1e5937e4"
       ],
       "confidence": 1
     },
@@ -7003,7 +7298,7 @@
       "dateLabel": "19 de septiembre",
       "time": "21:00",
       "homeTeam": "t_763dcde9",
-      "awayTeam": null,
+      "awayTeam": "t_1d8e80ce",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7028,6 +7323,11 @@
           "name": "x:t_e32d7cf2",
           "url": "https://nitter.net/Baskonia/status/2085669547848110165#m",
           "published": "Fri, 07 Aug 2026 10:09:04 GMT"
+        },
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
         }
       ],
       "notes": [],
@@ -7041,129 +7341,7 @@
         "t_763dcde9",
         "t_1d8e80ce"
       ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-19",
-      "dateLabel": "19 sep.",
-      "time": "21:00",
-      "homeTeam": null,
-      "awayTeam": "t_1d8e80ce",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "סופרקופה אנדסה",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_b14b4a7927",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1d8e80ce"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-19",
-      "dateLabel": "19/09",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Nova Arena",
-        "city": null,
-        "country": null
-      },
-      "tournament": "Supercoppa",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_21cf4132",
-          "url": "http://www.olimpiamilano.com/schedule",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_d73595b46b",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_21cf4132"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-19",
-      "dateLabel": "19 Eylül",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "VTB United League SuperCup",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_157b4fa8",
-          "url": "https://nitter.net/AnadoluEfesSK/status/2085071060295168189#m",
-          "published": "Wed, 05 Aug 2026 18:30:54 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 05 Aug 2026 18:30:54 GMT",
-      "id": "g_a8c43ccc83",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_d4b1862f"
-      ],
-      "confidence": 1
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
@@ -7207,18 +7385,18 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "2026-09-19 TBD / 19 Set 2026",
+      "dateLabel": "Saturday, 19.09.2026",
       "time": null,
-      "homeTeam": "t_21cf4132",
-      "awayTeam": null,
+      "homeTeam": "t_93e5c997",
+      "awayTeam": "t_998ddb52",
       "candidates": [],
-      "opponentTbd": true,
+      "opponentTbd": false,
       "venue": {
-        "arena": "Unipol Forum",
+        "arena": null,
         "city": null,
         "country": null
       },
-      "tournament": "Supercoppa 2026",
+      "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -7227,20 +7405,100 @@
       "reportUrl": null,
       "sources": [
         {
-          "name": "club:t_486860fc",
-          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_4ae29e14f5",
+      "id": "g_373fc9c657",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_21cf4132"
+        "t_93e5c997",
+        "t_998ddb52"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Saturday, 19.09.2026",
+      "time": null,
+      "homeTeam": "t_1497d847",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_0011bee32d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1497d847"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 Eylül",
+      "time": null,
+      "homeTeam": "t_157b4fa8",
+      "awayTeam": "t_d4b1862f",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "VTB United League SuperCup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_157b4fa8",
+          "url": "https://nitter.net/AnadoluEfesSK/status/2085071060295168189#m",
+          "published": "Wed, 05 Aug 2026 18:30:54 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Wed, 05 Aug 2026 18:30:54 GMT",
+      "id": "g_e37f864888",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_157b4fa8",
+        "t_d4b1862f"
       ],
       "confidence": 1
     },
@@ -7329,6 +7587,45 @@
       "confidence": 2
     },
     {
+      "date": "2026-09-20",
+      "dateLabel": "Sunday, 20.09.2026",
+      "time": null,
+      "homeTeam": "t_998ddb52",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_570c1230ee",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_998ddb52"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-22",
       "dateLabel": "22.9",
       "time": null,
@@ -7356,6 +7653,11 @@
           "url": "https://basketdergisi.com/bahcesehir-kolejinin-hazirlik-programi.html"
         },
         {
+          "name": "x:t_5935737f",
+          "url": "https://nitter.net/BKBasketbol/status/2087161303156543640#m",
+          "published": "Tue, 11 Aug 2026 12:56:46 GMT"
+        },
+        {
           "name": "club:t_914d2962",
           "url": "https://arisbasketball.com/en/first-team/preseason-fixtures-arisbc-en.html",
           "published": null
@@ -7373,7 +7675,7 @@
         "t_914d2962",
         "t_5935737f"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-22",
@@ -7411,45 +7713,6 @@
       ],
       "teams": [
         "t_8621b265"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-22",
-      "dateLabel": "22 Eylül’de",
-      "time": null,
-      "homeTeam": "t_914d2962",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Selanik",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_5935737f",
-          "url": "https://nitter.net/BKBasketbol/status/2087161303156543640#m",
-          "published": "Tue, 11 Aug 2026 12:56:46 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 12:56:46 GMT",
-      "id": "g_201d5d03e8",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_914d2962"
       ],
       "confidence": 1
     },
@@ -7516,11 +7779,6 @@
       "sources": [
         {
           "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/calendario",
-          "published": null
-        },
-        {
-          "name": "club:t_763dcde9",
           "url": "http://www.valenciabasket.com/ca/calendario",
           "published": null
         }
@@ -7528,14 +7786,15 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_7a821748b3",
+      "id": "g_a3c865dcc4",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_0f5171f1"
+        "t_0f5171f1",
+        "t_763dcde9"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": null,
@@ -8056,125 +8315,6 @@
     },
     {
       "date": null,
-      "dateLabel": "Sagatavošanās ciklā",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_ba69a3d3",
-          "url": "https://nitter.net/RigasZelli/status/2087233964658299040#m",
-          "published": "Tue, 11 Aug 2026 17:45:30 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_b8b9b46c8a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ba69a3d3",
-        "t_daf5c953"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Sagatavošanās ciklā",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_ba69a3d3",
-          "url": "https://nitter.net/RigasZelli/status/2087233964658299040#m",
-          "published": "Tue, 11 Aug 2026 17:45:30 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_4a1933b4c3",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ba69a3d3",
-        "t_0b76897a"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "septembrī",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": "Klaipēdā",
-        "country": null
-      },
-      "tournament": "Vlada Garasta turnīrs",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_ba69a3d3",
-          "url": "https://nitter.net/RigasZelli/status/2087233964658299040#m",
-          "published": "Tue, 11 Aug 2026 17:45:30 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_6c21b8152a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ba69a3d3"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
       "dateLabel": "10-11 września",
       "time": null,
       "homeTeam": null,
@@ -8254,6 +8394,51 @@
         "t_50504b23",
         "t_de097d3a",
         "t_d6cca7c8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": "20:00",
+      "homeTeam": "t_17bfa9f2",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Morača",
+        "city": null,
+        "country": null
+      },
+      "tournament": "I A MCKL",
+      "stage": null,
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "@RTCGme",
+          "url": null
+        }
+      ],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_17bfa9f2",
+          "url": "https://nitter.net/KKBuducnostVOLI/status/2062465399048856046#m",
+          "published": "Thu, 04 Jun 2026 09:24:04 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 04 Jun 2026 09:24:04 GMT",
+      "id": "g_7049bdbd04",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_17bfa9f2",
+        "t_14427407"
       ],
       "confidence": 1
     }

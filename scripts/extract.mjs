@@ -128,6 +128,16 @@ Rules:
 
 Many of these pages are fixture TABLES rather than prose. Read every row, and use the column headers: a column naming the competition tells you which rows are league games and which are preseason.
 
+In a fixture table EVERY row names two clubs, unless the source itself writes a placeholder for one of them.
+
+- The source writes a real opponent: return both clubs.
+- The source writes "TBA", "TBD", "to be confirmed", "winner of the semi-final": return the club you CAN see and set opponentUndecided=true. Do not throw the known club away.
+- You cannot make the row out at all: return no clubs and leave opponentUndecided false. A half row with no explanation is worse than nothing.
+
+A club whose name contains punctuation is still a club: "Igokea m:tel", "Zenit St.Petersburg" and "Vienna" are ordinary team names.
+
+On a club's OWN site or social account the club often does not name itself — "we host Gipuzkoa on Tuesday", or a fixture table with only an opponent column. Return the opponent you can see; the club it belongs to is known from elsewhere.
+
 Return only games. If the article contains none, return an empty array.`;
 
 // Models whose daily quota is spent. Once emptied there is nothing to do but
@@ -201,8 +211,19 @@ function inSeason(g) {
  * A placeholder means the opponent is undecided, which the schema already has
  * a field for — it must not become a club in the registry.
  */
-const PLACEHOLDER =
-  /^(vs?|v|-|—|tbd|tba|n\/a|por confirmar|en caso de clasificaci|a confirmar|da definire|belirlenecek|θα οριστεί|to be (confirmed|announced)|טרם|יריב|לקביעה)/i;
+/**
+ * Short tokens must match the WHOLE string. Without the anchor, "v" matched
+ * the start of Vienna, Valencia, Virtus and Villeurbanne, and every one of
+ * them was silently deleted from its own fixture — which is exactly how a
+ * game ends up showing only one team. Longer phrases can still match a
+ * prefix, since they only ever appear as placeholders.
+ */
+const PLACEHOLDER_EXACT = /^(vs?|v|-|—|–|tbd|tba|n\/a|\?|טרם|יריב)$/i;
+const PLACEHOLDER_PREFIX =
+  /^(por confirmar|en caso de clasificaci|a confirmar|da definire|belirlenecek|θα οριστεί|to be (confirmed|announced)|טרם נקבע|יריבה טרם|לקביעה)/i;
+const PLACEHOLDER = {
+  test: (s) => PLACEHOLDER_EXACT.test(String(s).trim()) || PLACEHOLDER_PREFIX.test(String(s).trim()),
+};
 
 const isRealTeam = (s) => {
   const v = String(s || "").trim();

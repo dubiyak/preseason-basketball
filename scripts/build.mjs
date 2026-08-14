@@ -96,6 +96,21 @@ for (const [url, a] of Object.entries(extracted.articles)) {
 
 /* ---------- 3. resolve every club name that appears ---------- */
 const wanted = new Set();
+/**
+ * On a club's own page or feed the club itself is implicit. Baskonia's account
+ * writes "we play Gipuzkoa"; Valencia's fixture list writes the opponent in
+ * the opponent column and itself nowhere. The extractor faithfully returns one
+ * club, and the game arrives half-empty.
+ *
+ * The outlet id carries the answer — club:<id> and x:<id> are that club — so
+ * the missing side is filled in from where the page came from rather than
+ * guessed from the text.
+ */
+const ownerOf = (r) => {
+  const m = String(r.article?.outlet || "").match(/^(?:club|x):(t_\w+)$/);
+  return m ? m[1] : null;
+};
+
 const nameOf = (r) => {
   const g = r.g;
   if (r.origin === "extracted") {
@@ -179,6 +194,11 @@ function toRecord(r) {
   const names = nameOf(r).filter((n) => !isPseudo(n));
   const pseudo = nameOf(r).some(isPseudo);
   const ids = [...new Set(names.map((n) => resolveLocal(n, index, aliases)).filter(Boolean))];
+
+  // The page's own club belongs in the fixture even when the page never names
+  // it. Only when a side is genuinely missing — never to overwrite one.
+  const owner = ownerOf(r);
+  if (owner && ids.length < 2 && !ids.includes(owner) && clubs.has(owner)) ids.push(owner);
 
   const home = origin === "extracted" ? g.homeTeam : (g.homeTeam ? clubs.get(g.homeTeam)?.name_he : null);
   const away = origin === "extracted" ? g.awayTeam : (g.awayTeam ? clubs.get(g.awayTeam)?.name_he : null);
