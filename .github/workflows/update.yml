@@ -94,6 +94,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/build.mjs | tee build.log
 
+      # The checks run against what is about to be published, not after. A
+      # run that would publish broken data fails here instead.
+      - name: Check data integrity
+        run: node scripts/check.mjs --local | tee check.log
+
       # A run takes twenty minutes, so a human push during it will reject this
       # one. The data files are regenerated from their inputs, so the recovery
       # is to take the new head and rebuild on top rather than to merge

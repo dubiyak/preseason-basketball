@@ -57,6 +57,32 @@ const checks = [
   // An entry with neither a club nor a date carries nothing at all.
   ["no entry with neither team nor date",
     G.filter((g) => !g.teams.length && !g.candidates.length && !g.date).length, 0],
+
+  // "משחקי הכנה" means "preseason games". Learned as a tournament name, it
+  // put the Neofytos Chandriotis Tournament on four unrelated friendlies.
+  ["no generic label used as a tournament name",
+    G.filter((g) => /^(משחק(י)? הכנה|משחק ידידות|amichevol|friendly|pre-?season|pretemporada|precampionato|vorbereitung|testspiel|hazırlık|φιλικ|priprem|amical)\w*\s*\d*$/i
+      .test((g.tournament || "").trim())).length, 0],
+
+  // A tournament runs on consecutive days. A name spread across a month is a
+  // name that leaked onto games that do not belong to it.
+  ["no tournament spanning more than 16 days", (() => {
+    const span = new Map();
+    for (const g of G) {
+      if (!g.tournament || !g.date) continue;
+      const s = span.get(g.tournament) || [g.date, g.date];
+      span.set(g.tournament, [g.date < s[0] ? g.date : s[0], g.date > s[1] ? g.date : s[1]]);
+    }
+    return [...span.values()]
+      .filter(([a, b]) => (Date.parse(b) - Date.parse(a)) / 864e5 > 16).length;
+  })(), 0],
+
+  // Aliases that chain drift a little further from themselves every run.
+  ["no chained tournament aliases", await (async () => {
+    let map = {};
+    try { map = (await load("tournaments.json")).map || {}; } catch { return 0; }
+    return Object.values(map).filter((v) => map[v]).length;
+  })(), 0],
 ];
 
 let failed = 0;

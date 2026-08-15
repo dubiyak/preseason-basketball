@@ -487,7 +487,15 @@ fs.writeFileSync(path.join(DATA, "games.json"), JSON.stringify({
   updated: now, season: "2026-27", newGames: added.length,
   conflicts, games: gameList,
 }, null, 2));
-fs.writeFileSync(path.join(DATA, "tournaments.json"), JSON.stringify({ _doc: "Tournament name as written -> canonical name. Learned when two reports of the same fixture name its tournament differently.", map: tournamentAliases }, null, 2));
+// Collapse every alias to its endpoint before writing, so the file never
+// stores a chain. Resolving at read time was enough to render correctly, but
+// the stored chain kept growing and each new link was another chance to drift.
+for (const k of Object.keys(tournamentAliases)) {
+  const end = canonicalTournament(k);
+  if (end === k) delete tournamentAliases[k];
+  else tournamentAliases[k] = end;
+}
+fs.writeFileSync(path.join(DATA, "tournaments.json"), JSON.stringify({ _doc: "Tournament name as written -> canonical name. Learned when two reports of the same fixture name its tournament differently. Stored fully resolved: a value here is never itself a key.", map: tournamentAliases }, null, 2));
 fs.writeFileSync(path.join(DATA, "teams.json"), JSON.stringify({ updated: now, teams: teamList }, null, 2));
 fs.writeFileSync(path.join(DATA, "registry.json"), JSON.stringify(registry, null, 2));
 
