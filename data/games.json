@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-15T09:27:11.591Z",
+  "updated": "2026-08-15T09:52:58.720Z",
   "season": "2026-27",
-  "newGames": 0,
+  "newGames": 3,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1165,6 +1165,52 @@
     },
     {
       "date": "2026-08-27",
+      "dateLabel": "27 Ağustos",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": "Slovenia"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_5935737f",
+          "url": "https://nitter.net/BKBasketbol/status/2087161303156543640#m",
+          "published": "Tue, 11 Aug 2026 12:56:46 GMT"
+        },
+        {
+          "name": "basketdergisi.com",
+          "url": "https://basketdergisi.com/bahcesehir-kolejinin-hazirlik-programi.html"
+        }
+      ],
+      "notes": [
+        "משחק שני בסלובניה בהמשך, יריבות טרם פורטו; משתתפת גם ב-Gloria Cup וב-Erok Cup"
+      ],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 12:56:46 GMT",
+      "id": "g_8d79baf732",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5935737f",
+        "t_f9cbcffe"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-08-27",
       "dateLabel": "Mer 27 Août",
       "time": null,
       "homeTeam": "t_7ff83d7b",
@@ -1294,7 +1340,7 @@
       "venue": {
         "arena": null,
         "city": null,
-        "country": "סלובניה"
+        "country": null
       },
       "tournament": null,
       "stage": null,
@@ -1308,15 +1354,9 @@
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
-        },
-        {
-          "name": "basketdergisi.com",
-          "url": "https://basketdergisi.com/bahcesehir-kolejinin-hazirlik-programi.html"
         }
       ],
-      "notes": [
-        "משחק שני בסלובניה בהמשך, יריבות טרם פורטו; משתתפת גם ב-Gloria Cup וב-Erok Cup"
-      ],
+      "notes": [],
       "origin": "extracted",
       "published": null,
       "id": "g_e0f91b04ba",
@@ -1327,7 +1367,7 @@
         "t_8ee48f2b",
         "t_5935737f"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-08-28",
@@ -6326,7 +6366,7 @@
     },
     {
       "date": "2026-09-06",
-      "dateLabel": "6 de setembre",
+      "dateLabel": "el dia 6",
       "time": null,
       "homeTeam": null,
       "awayTeam": null,
@@ -6334,10 +6374,10 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "Encamp",
+        "city": null,
         "country": null
       },
-      "tournament": null,
+      "tournament": "Amistós",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -12186,7 +12226,7 @@
       "venue": {
         "arena": "Palau Municipal d’Esports de Badalona",
         "city": "Badalona",
-        "country": null
+        "country": "Spain"
       },
       "tournament": "סופרקופה אנדסה",
       "stage": null,
@@ -14223,6 +14263,84 @@
       ],
       "teams": [
         "t_0fec3b85"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "Gloria Cup",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Gloria Cup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_5935737f",
+          "url": "https://nitter.net/BKBasketbol/status/2087161303156543640#m",
+          "published": "Tue, 11 Aug 2026 12:56:46 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 12:56:46 GMT",
+      "id": "g_6f305b87d2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5935737f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "Erok Cup",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Erok Cup",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_5935737f",
+          "url": "https://nitter.net/BKBasketbol/status/2087161303156543640#m",
+          "published": "Tue, 11 Aug 2026 12:56:46 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 12:56:46 GMT",
+      "id": "g_f547cb071c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_5935737f"
       ],
       "confidence": 1
     },
