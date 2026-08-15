@@ -226,10 +226,18 @@ const tournamentAliases = read("tournaments.json", { map: {} }).map;
  */
 const GENERIC_TOURNAMENT = new RegExp(
   "^(" + [
-    "משחק(י)? הכנה", "משחק ידידות", "ידידות",
+    // Fixture tables have a competition column, and for a friendly they put
+    // the bare word there: hapoelbc.com prints "הכנה". Taken as a name it
+    // grouped five unrelated Hapoel friendlies into one invented tournament.
+    "הכנה", "ידידות", "משחק(י)? הכנה", "משחק ידידות",
+    "amichevole", "amistoso", "friendly", "test", "prep",
     "amichevol\\w*", "friendly( match(es)?)?", "pre-?season( games?)?",
     "pretemporada( masculina)?( ?/ ?.*)?", "precampionato", "preparazione",
-    "vorbereitung", "testspiel\\w*", "hazırlık( maç[ıi]| maçlar[ıi])?",
+    // Turkish casing: "HAZIRLIK".toLowerCase() is "hazirlik" with a plain i,
+    // never the dotless ı it was written with. Both spellings, or the label
+    // slips through in capitals — which is how a fixture-table column header
+    // became a 28-day tournament.
+    "vorbereitung", "testspiel\\w*", "haz[ıi]rl[ıi]k( maç[ıi]| maçlar[ıi])?",
     "φιλικ\\w*", "priprem\\w*", "pasiruošim\\w*",
     "match(s)? de préparation", "amical\\w*", "sparing\\w*",
     "(green )?basketball day",
