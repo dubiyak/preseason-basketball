@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-16T17:06:11.387Z",
+  "updated": "2026-08-16T20:54:18.017Z",
   "season": "2026-27",
-  "newGames": 1,
+  "newGames": 5,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1620,7 +1620,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "סופיה, בולגריה",
         "country": "בולגריה"
       },
       "tournament": null,
@@ -1792,7 +1792,7 @@
       "broadcast": [],
       "result": null,
       "statsUrl": null,
-      "reportUrl": "https://www.reyer.it/news/maschile/2026-08-07/falcade-tutte-le-info-surreyer-village-e-amichevole-con-cividale/",
+      "reportUrl": "https://www.reyer.it/news/maschile/2026-08-07/falcade-tutte-le-info-su-reyer-village-e-amichevole-con-cividale/",
       "sources": [
         {
           "name": "sportando.basketball",
@@ -2879,7 +2879,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "סופיה, בולגריה",
         "country": "בולגריה"
       },
       "tournament": null,
@@ -5773,7 +5773,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "בלגרד, סרביה",
         "country": "סרביה"
       },
       "tournament": null,
@@ -6210,13 +6210,15 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Nick Galis Hall",
         "city": "סלוניקי",
         "country": "יוון"
       },
       "tournament": null,
       "stage": null,
-      "flags": [],
+      "flags": [
+        "דלתיים סגורות"
+      ],
       "broadcast": [],
       "result": null,
       "statsUrl": null,
@@ -7690,7 +7692,96 @@
     },
     {
       "date": "2026-09-10",
-      "dateLabel": "10 September",
+      "dateLabel": "Thursday 10 September",
+      "time": null,
+      "homeTeam": "t_50504b23",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Copper Box Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_50504b23",
+          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
+          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Mon, 10 Aug 2026 15:17:06 GMT",
+      "id": "g_8719359f1a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_50504b23"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "Thursday 10 September",
+      "time": null,
+      "homeTeam": "t_de097d3a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Copper Box Arena",
+        "city": "לונדון",
+        "country": "אנגליה"
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_50504b23",
+          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
+          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
+        },
+        {
+          "name": "zalgiris.lt",
+          "url": "https://zalgiris.lt/rungtynes"
+        },
+        {
+          "name": "gazetawroclawska.pl",
+          "url": "https://gazetawroclawska.pl/koszykarski-slask-wroclaw-zagra-w-londynie-w-turnieju-zalgiris-i-mistrz-francji/ar/c2p2-29257825"
+        }
+      ],
+      "notes": [
+        "אחרי הטורניר בלונדון מתוכננים עוד 3 משחקי הכנה שפרטיהם טרם פורסמו"
+      ],
+      "origin": "extracted",
+      "published": "Mon, 10 Aug 2026 15:17:06 GMT",
+      "id": "g_4d2570e815",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_de097d3a",
+        "t_50504b23"
+      ],
+      "confidence": 3
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "Thursday 10 September",
       "time": "17:30",
       "homeTeam": "t_50504b23",
       "awayTeam": "t_76203a4a",
@@ -7711,28 +7802,23 @@
       "sources": [
         {
           "name": "x:t_50504b23",
-          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
-          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
-        },
-        {
-          "name": "x:t_50504b23",
           "url": "https://nitter.net/LondonLions/status/2086814938589254097#m",
           "published": "Mon, 10 Aug 2026 14:00:27 GMT"
         },
         {
-          "name": "zalgiris.lt",
-          "url": "https://zalgiris.lt/rungtynes"
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
+          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
         },
         {
-          "name": "gazetawroclawska.pl",
-          "url": "https://gazetawroclawska.pl/koszykarski-slask-wroclaw-zagra-w-londynie-w-turnieju-zalgiris-i-mistrz-francji/ar/c2p2-29257825"
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2086819758188445792#m",
+          "published": "Mon, 10 Aug 2026 14:19:36 GMT"
         }
       ],
-      "notes": [
-        "אחרי הטורניר בלונדון מתוכננים עוד 3 משחקי הכנה שפרטיהם טרם פורסמו"
-      ],
+      "notes": [],
       "origin": "extracted",
-      "published": "Mon, 10 Aug 2026 15:17:06 GMT",
+      "published": "Mon, 10 Aug 2026 14:00:27 GMT",
       "id": "g_1ea172bf38",
       "origins": [
         "extracted"
@@ -7741,11 +7827,11 @@
         "t_50504b23",
         "t_76203a4a"
       ],
-      "confidence": 3
+      "confidence": 1
     },
     {
       "date": "2026-09-10",
-      "dateLabel": "10 September",
+      "dateLabel": "Thursday 10 September",
       "time": "20:30",
       "homeTeam": "t_de097d3a",
       "awayTeam": "t_d6cca7c8",
@@ -7766,24 +7852,109 @@
       "sources": [
         {
           "name": "x:t_50504b23",
-          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
-          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
-        },
-        {
-          "name": "x:t_50504b23",
           "url": "https://nitter.net/LondonLions/status/2086814938589254097#m",
           "published": "Mon, 10 Aug 2026 14:00:27 GMT"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "Mon, 10 Aug 2026 15:17:06 GMT",
+      "published": "Mon, 10 Aug 2026 14:00:27 GMT",
       "id": "g_de4a61586e",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_de097d3a",
+        "t_d6cca7c8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "10-11 września",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
+          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
+        },
+        {
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2086819758188445792#m",
+          "published": "Mon, 10 Aug 2026 14:19:36 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 13:22:31 GMT",
+      "id": "g_45a50eb3e5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_76203a4a",
+        "t_de097d3a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "10-11 września",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
+          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
+        },
+        {
+          "name": "x:t_76203a4a",
+          "url": "https://nitter.net/WKS_SlaskBasket/status/2086819758188445792#m",
+          "published": "Mon, 10 Aug 2026 14:19:36 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 13:22:31 GMT",
+      "id": "g_e77f86c984",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_76203a4a",
         "t_d6cca7c8"
       ],
       "confidence": 1
@@ -8020,7 +8191,7 @@
       "dateLabel": "11.9, 21:15",
       "time": "21:15",
       "homeTeam": "t_763dcde9",
-      "awayTeam": null,
+      "awayTeam": "t_4a5e72bb",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8284,7 +8455,7 @@
       "dateLabel": "11/09/26",
       "time": "18:00",
       "homeTeam": "t_914d2962",
-      "awayTeam": null,
+      "awayTeam": "t_1b44e7f9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8897,12 +9068,12 @@
       "dateLabel": "12.09.26",
       "time": "19:00",
       "homeTeam": "t_12174e28",
-      "awayTeam": null,
+      "awayTeam": "t_2a1ac857",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "קליארי",
+        "city": "קליארי, איטליה",
         "country": "איטליה"
       },
       "tournament": "טורניר קליארי",
@@ -9658,7 +9829,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Pontevedra",
         "country": null
       },
       "tournament": "טורניר EncestaRías",
@@ -9937,7 +10108,7 @@
       "dateLabel": "13/09/26",
       "time": "15:45",
       "homeTeam": "t_914d2962",
-      "awayTeam": null,
+      "awayTeam": "t_a85f3ce5",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10661,7 +10832,7 @@
       "dateLabel": "17.9",
       "time": "20:55",
       "homeTeam": "t_2a1ac857",
-      "awayTeam": null,
+      "awayTeam": "t_1b44e7f9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10825,7 +10996,7 @@
       "dateLabel": "17 בספטמבר",
       "time": null,
       "homeTeam": "t_e3b7f23c",
-      "awayTeam": null,
+      "awayTeam": "t_1b44e7f9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11403,12 +11574,12 @@
       "dateLabel": "18/09/26",
       "time": null,
       "homeTeam": "t_a85f3ce5",
-      "awayTeam": null,
+      "awayTeam": "t_914d2962",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Belgrade",
         "country": null
       },
       "tournament": null,
@@ -11521,8 +11692,8 @@
       "date": "2026-09-18",
       "dateLabel": "18 Eylül",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_157b4fa8",
+      "awayTeam": "t_648bdb93",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11824,7 +11995,7 @@
     },
     {
       "date": "2026-09-18",
-      "dateLabel": "18-09-2026",
+      "dateLabel": "18-09-2026 00:00",
       "time": null,
       "homeTeam": "t_e3680384",
       "awayTeam": "t_53c73730",
@@ -11979,6 +12150,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
         }
       ],
       "notes": [
@@ -11995,7 +12171,7 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-19",
@@ -12232,8 +12408,8 @@
       "date": "2026-09-19",
       "dateLabel": "19 Eylül",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_157b4fa8",
+      "awayTeam": "t_d4b1862f",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13026,12 +13202,11 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "19-09-2026",
+      "dateLabel": "19-09-2026 00:00",
       "time": null,
       "homeTeam": "t_e3680384",
       "awayTeam": null,
       "candidates": [
-        "26. Cevat Soydaş Final Günü",
         "26. Cevat Soydaş Final Günü"
       ],
       "opponentTbd": false,
@@ -13409,7 +13584,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Ivanofeio Indoor Hall",
         "city": "סלוניקי",
         "country": "יוון"
       },
@@ -14065,7 +14240,9 @@
       "time": null,
       "homeTeam": null,
       "awayTeam": null,
-      "candidates": [],
+      "candidates": [
+        "“Gargždai”"
+      ],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -14089,13 +14266,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_7163c1901f",
+      "id": "g_ce741763cc",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_ba69a3d3",
-        "t_daf5c953"
+        "t_ba69a3d3"
       ],
       "confidence": 1
     },
@@ -14136,45 +14312,6 @@
       "teams": [
         "t_ba69a3d3",
         "t_0b76897a"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "septembrī",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Vlada Garasta turnīrs",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_ba69a3d3",
-          "url": "https://nitter.net/RigasZelli/status/2087233964658299040#m",
-          "published": "Tue, 11 Aug 2026 17:45:30 GMT"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_6c21b8152a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ba69a3d3"
       ],
       "confidence": 1
     },
