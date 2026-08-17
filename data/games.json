@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-17T02:36:03.776Z",
+  "updated": "2026-08-17T05:12:47.596Z",
   "season": "2026-27",
-  "newGames": 1,
+  "newGames": 3,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1170,11 +1170,11 @@
       "homeTeam": null,
       "awayTeam": null,
       "candidates": [],
-      "opponentTbd": false,
+      "opponentTbd": true,
       "venue": {
         "arena": null,
         "city": null,
-        "country": "Slovenia"
+        "country": "סלובניה"
       },
       "tournament": null,
       "stage": null,
@@ -6172,14 +6172,14 @@
       "date": "2026-09-06",
       "dateLabel": "el dia 6",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_1d8e80ce",
+      "awayTeam": "t_066138ff",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
-        "country": null
+        "city": "Encamp",
+        "country": "Andorra"
       },
       "tournament": null,
       "stage": null,
@@ -7486,6 +7486,61 @@
     },
     {
       "date": "2026-09-10",
+      "dateLabel": "September 10–11",
+      "time": null,
+      "homeTeam": "t_de097d3a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Copper Box Arena",
+        "city": "לונדון",
+        "country": "אנגליה"
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_50504b23",
+          "url": "https://nitter.net/bczalgiris/status/2086821523415777284#m",
+          "published": "Mon, 10 Aug 2026 14:26:37 GMT"
+        },
+        {
+          "name": "x:t_50504b23",
+          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
+          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
+        },
+        {
+          "name": "zalgiris.lt",
+          "url": "https://zalgiris.lt/rungtynes"
+        },
+        {
+          "name": "gazetawroclawska.pl",
+          "url": "https://gazetawroclawska.pl/koszykarski-slask-wroclaw-zagra-w-londynie-w-turnieju-zalgiris-i-mistrz-francji/ar/c2p2-29257825"
+        }
+      ],
+      "notes": [
+        "אחרי הטורניר בלונדון מתוכננים עוד 3 משחקי הכנה שפרטיהם טרם פורסמו"
+      ],
+      "origin": "extracted",
+      "published": "Mon, 10 Aug 2026 14:26:37 GMT",
+      "id": "g_4d2570e815",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_de097d3a",
+        "t_50504b23"
+      ],
+      "confidence": 3
+    },
+    {
+      "date": "2026-09-10",
       "dateLabel": "Thursday 10 September",
       "time": null,
       "homeTeam": "t_50504b23",
@@ -7522,56 +7577,6 @@
         "t_50504b23"
       ],
       "confidence": 1
-    },
-    {
-      "date": "2026-09-10",
-      "dateLabel": "Thursday 10 September",
-      "time": null,
-      "homeTeam": "t_de097d3a",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Copper Box Arena",
-        "city": "לונדון",
-        "country": "אנגליה"
-      },
-      "tournament": "London Lions Invitational",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "x:t_50504b23",
-          "url": "https://nitter.net/LondonLions/status/2086834230244360600#m",
-          "published": "Mon, 10 Aug 2026 15:17:06 GMT"
-        },
-        {
-          "name": "zalgiris.lt",
-          "url": "https://zalgiris.lt/rungtynes"
-        },
-        {
-          "name": "gazetawroclawska.pl",
-          "url": "https://gazetawroclawska.pl/koszykarski-slask-wroclaw-zagra-w-londynie-w-turnieju-zalgiris-i-mistrz-francji/ar/c2p2-29257825"
-        }
-      ],
-      "notes": [
-        "אחרי הטורניר בלונדון מתוכננים עוד 3 משחקי הכנה שפרטיהם טרם פורסמו"
-      ],
-      "origin": "extracted",
-      "published": "Mon, 10 Aug 2026 15:17:06 GMT",
-      "id": "g_4d2570e815",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_de097d3a",
-        "t_50504b23"
-      ],
-      "confidence": 3
     },
     {
       "date": "2026-09-10",
@@ -8193,6 +8198,46 @@
         "t_8621b265"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "September 10–11",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "London Lions Invitational",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_50504b23",
+          "url": "https://nitter.net/bczalgiris/status/2086821523415777284#m",
+          "published": "Mon, 10 Aug 2026 14:26:37 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Mon, 10 Aug 2026 14:26:37 GMT",
+      "id": "g_e254571529",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_de097d3a",
+        "t_50504b23"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-11",
@@ -13869,9 +13914,7 @@
       "time": null,
       "homeTeam": null,
       "awayTeam": null,
-      "candidates": [
-        "“Gargždai”"
-      ],
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -13895,12 +13938,53 @@
       "notes": [],
       "origin": "extracted",
       "published": "Tue, 11 Aug 2026 17:45:30 GMT",
-      "id": "g_ce741763cc",
+      "id": "g_7163c1901f",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_ba69a3d3"
+        "t_ba69a3d3",
+        "t_daf5c953"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "x:t_ba69a3d3",
+          "url": "https://nitter.net/RigasZelli/status/2087233964658299040#m",
+          "published": "Tue, 11 Aug 2026 17:45:30 GMT"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Tue, 11 Aug 2026 17:45:30 GMT",
+      "id": "g_c345bb883e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ba69a3d3",
+        "t_0b76897a"
       ],
       "confidence": 1
     },
