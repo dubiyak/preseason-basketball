@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-18T02:35:49.222Z",
+  "updated": "2026-08-18T05:07:23.726Z",
   "season": "2026-27",
-  "newGames": 0,
+  "newGames": 2,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1211,46 +1211,6 @@
     },
     {
       "date": "2026-08-27",
-      "dateLabel": "Mer 27 Août",
-      "time": null,
-      "homeTeam": "t_7ff83d7b",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_f96d22beba",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7ff83d7b",
-        "t_211b1542"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-08-27",
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
@@ -1412,8 +1372,8 @@
       "date": "2026-08-28",
       "dateLabel": "Ven 28 Août",
       "time": "20:00",
-      "homeTeam": "t_88a640c0",
-      "awayTeam": "t_211b1542",
+      "homeTeam": null,
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1802,11 +1762,6 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/falcade-tutte-le-info-su-reyer-village-e-amichevole-con-cividale/",
           "published": "2026-08-08"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/umana-reyer-venezia-falcade-ospitera-il-ritiro-precampionato/",
-          "published": "2026-07-04"
         }
       ],
       "notes": [],
@@ -2003,11 +1958,11 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
+        "arena": "PalaFalcade",
+        "city": "Falcade",
+        "country": "Italy"
       },
-      "tournament": "preseason amichevole",
+      "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -2019,19 +1974,24 @@
           "name": "x:t_23e4ce5d",
           "url": "https://nitter.net/REYER1872/status/2086010767082496405#m",
           "published": "Sat, 08 Aug 2026 08:44:57 GMT"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/umana-reyer-venezia-falcade-ospitera-il-ritiro-precampionato/",
+          "published": "2026-07-04"
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": "Sat, 08 Aug 2026 08:44:57 GMT",
-      "id": "g_24d5d5c487",
+      "id": "g_50d394d359",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_23e4ce5d"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-08-29",
@@ -2655,46 +2615,6 @@
       "teams": [
         "t_29304cb1",
         "t_75010012"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-08-30",
-      "dateLabel": "Sam 30 Août",
-      "time": null,
-      "homeTeam": "t_ef5a480c",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_7640eafd99",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ef5a480c",
-        "t_211b1542"
       ],
       "confidence": 1
     },
@@ -4064,8 +3984,8 @@
       "date": "2026-09-03",
       "dateLabel": "giovedì 3 settembre",
       "time": "20:30",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_493d547d",
+      "homeTeam": "t_493d547d",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4105,8 +4025,8 @@
         "extracted"
       ],
       "teams": [
-        "t_486860fc",
-        "t_493d547d"
+        "t_493d547d",
+        "t_486860fc"
       ],
       "confidence": 2
     },
@@ -4347,6 +4267,11 @@
         {
           "name": "jlbourg-basket.com",
           "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
+        },
+        {
+          "name": "club:t_211b1542",
+          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+          "published": null
         }
       ],
       "notes": [
@@ -4356,7 +4281,8 @@
       "published": null,
       "id": "g_d0b5509740",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_211b1542",
@@ -7068,8 +6994,8 @@
       "date": "2026-09-09",
       "dateLabel": "9.9",
       "time": "20:00",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_7cd10ddf",
+      "homeTeam": "t_7cd10ddf",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7745,7 +7671,7 @@
       "broadcast": [],
       "result": null,
       "statsUrl": null,
-      "reportUrl": "http://wks-slask.eu/koszykarski-slask-wroclaw-zagra-w-londynie/",
+      "reportUrl": null,
       "sources": [
         {
           "name": "x:t_50504b23",
@@ -7756,11 +7682,6 @@
           "name": "x:t_50504b23",
           "url": "https://nitter.net/LondonLions/status/2086814938589254097#m",
           "published": "Mon, 10 Aug 2026 14:00:27 GMT"
-        },
-        {
-          "name": "x:t_76203a4a",
-          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
-          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
         },
         {
           "name": "x:t_76203a4a",
@@ -7845,13 +7766,8 @@
       "broadcast": [],
       "result": null,
       "statsUrl": null,
-      "reportUrl": "http://wks-slask.eu/koszykarski-slask-wroclaw-zagra-w-londynie/",
+      "reportUrl": null,
       "sources": [
-        {
-          "name": "x:t_76203a4a",
-          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
-          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
-        },
         {
           "name": "x:t_76203a4a",
           "url": "https://nitter.net/WKS_SlaskBasket/status/2086819758188445792#m",
@@ -7860,7 +7776,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 13:22:31 GMT",
+      "published": "Mon, 10 Aug 2026 14:19:36 GMT",
       "id": "g_45a50eb3e5",
       "origins": [
         "extracted"
@@ -7890,13 +7806,8 @@
       "broadcast": [],
       "result": null,
       "statsUrl": null,
-      "reportUrl": "http://wks-slask.eu/koszykarski-slask-wroclaw-zagra-w-londynie/",
+      "reportUrl": null,
       "sources": [
-        {
-          "name": "x:t_76203a4a",
-          "url": "https://nitter.net/WKS_SlaskBasket/status/2087167779979878565#m",
-          "published": "Tue, 11 Aug 2026 13:22:31 GMT"
-        },
         {
           "name": "x:t_76203a4a",
           "url": "https://nitter.net/WKS_SlaskBasket/status/2086819758188445792#m",
@@ -7905,7 +7816,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "Tue, 11 Aug 2026 13:22:31 GMT",
+      "published": "Mon, 10 Aug 2026 14:19:36 GMT",
       "id": "g_e77f86c984",
       "origins": [
         "extracted"
@@ -8361,8 +8272,8 @@
       "date": "2026-09-11",
       "dateLabel": "venerdì 11 settembre",
       "time": "20:00",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_9cfa72eb",
+      "homeTeam": "t_9cfa72eb",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8402,8 +8313,8 @@
         "extracted"
       ],
       "teams": [
-        "t_486860fc",
-        "t_9cfa72eb"
+        "t_9cfa72eb",
+        "t_486860fc"
       ],
       "confidence": 2
     },
@@ -9074,6 +8985,46 @@
         "t_2a1ac857"
       ],
       "confidence": 4
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "Sam 12 Sept",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_211b1542",
+          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_661f8c9fa0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e5b49b07",
+        "t_211b1542"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-12",
@@ -10415,7 +10366,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "PalaDozza",
-        "city": "Bologna",
+        "city": null,
         "country": null
       },
       "tournament": null,
@@ -11938,13 +11889,13 @@
     {
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
-      "time": null,
+      "time": "TBD",
       "homeTeam": "t_21cf4132",
-      "awayTeam": null,
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Nova Arena",
+        "arena": "Unipol Forum",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -11959,6 +11910,11 @@
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
         },
         {
           "name": "sportando_en",
@@ -12003,7 +11959,7 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-19",
@@ -13590,126 +13546,6 @@
       "confidence": 1
     },
     {
-      "date": "2027-05-20",
-      "dateLabel": "Mer 20 Mai",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_577949d9",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_6412526c52",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_577949d9"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2027-05-25",
-      "dateLabel": "Lun 25 Mai",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_ef94bd9c",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_5e0e16ff83",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_ef94bd9c"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2027-05-27",
-      "dateLabel": "Mer 27 Mai",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_ef94bd9c",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_50ea936c19",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_ef94bd9c"
-      ],
-      "confidence": 1
-    },
-    {
       "date": null,
       "dateLabel": "תאריך לא צוין",
       "time": null,
@@ -14143,286 +13979,6 @@
       ],
       "teams": [
         "t_0fec3b85"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Ven 05 Sept",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_d5b6cc73",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_e2dd4a040b",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_d5b6cc73"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Dim 07 Sept",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_0d612940",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_9ac46165c4",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_0d612940"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Sam 13 Sept",
-      "time": null,
-      "homeTeam": "t_7c3dc4ef",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_3963e2d17f",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7c3dc4ef",
-        "t_211b1542"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Dim 14 Sept",
-      "time": null,
-      "homeTeam": "t_8dc45acd",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_beeb0ad422",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_8dc45acd",
-        "t_211b1542"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Sam 20 Sept",
-      "time": null,
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_726df887",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_987693117b",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_726df887"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Ven 04 Sept",
-      "time": "20:30",
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_e0376665",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_6acab24f4a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_e0376665"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Sam 12 Sept",
-      "time": "19:00",
-      "homeTeam": "t_e5b49b07",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_b6e0c6b3c7",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_e5b49b07",
-        "t_211b1542"
       ],
       "confidence": 1
     },
