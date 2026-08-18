@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-18T13:27:42.664Z",
+  "updated": "2026-08-18T17:14:42.361Z",
   "season": "2026-27",
-  "newGames": 1,
+  "newGames": 7,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1579,8 +1579,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "סופיה, בולגריה",
+        "city": "סופיה",
         "country": "בולגריה"
       },
       "tournament": null,
@@ -2917,8 +2917,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "סופיה, בולגריה",
+        "city": "סופיה",
         "country": "בולגריה"
       },
       "tournament": null,
@@ -3962,11 +3962,6 @@
           "url": "https://bhbasket.co.il/games"
         },
         {
-          "name": "club:t_1b44e7f9",
-          "url": "http://www.maccabi.co.il/season.asp",
-          "published": null
-        },
-        {
           "name": "דיווח משתמש",
           "url": null
         }
@@ -3977,7 +3972,6 @@
       "id": "g_37f64f9617",
       "origins": [
         "seed",
-        "extracted",
         "manual"
       ],
       "teams": [
@@ -4029,14 +4023,14 @@
       "date": "2026-09-03",
       "dateLabel": "giovedì 3 settembre",
       "time": "20:30",
-      "homeTeam": "t_493d547d",
-      "awayTeam": "t_486860fc",
+      "homeTeam": null,
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "Pala Flaminio",
         "city": "Rimini",
-        "country": null
+        "country": "Italy"
       },
       "tournament": "Start Romagna Cup",
       "stage": null,
@@ -4070,10 +4064,49 @@
         "extracted"
       ],
       "teams": [
-        "t_493d547d",
-        "t_486860fc"
+        "t_486860fc",
+        "t_493d547d"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-03",
+      "dateLabel": "03/09/2026",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_1b44e7f9",
+          "url": "http://www.maccabi.co.il/season.asp",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_c716078fb2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1b44e7f9"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-03",
@@ -4641,7 +4674,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "בלגרד, סרביה",
         "city": "בלגרד",
         "country": "סרביה"
       },
@@ -5771,8 +5804,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "בלגרד, סרביה",
+        "city": "בלגרד",
         "country": "סרביה"
       },
       "tournament": null,
@@ -6209,13 +6242,15 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Nick Galis Hall",
         "city": "סלוניקי",
         "country": "יוון"
       },
       "tournament": null,
       "stage": null,
-      "flags": [],
+      "flags": [
+        "דלתיים סגורות"
+      ],
       "broadcast": [],
       "result": null,
       "statsUrl": null,
@@ -6350,7 +6385,7 @@
       "broadcast": [],
       "result": null,
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.fcbarcelona.cat/ca/basquet/primer-equip/noticies/4558334/el-barca-de-basquet-tornara-a-encamp-del-2-al-6-de-setembre",
       "sources": [
         {
           "name": "x:t_1d8e80ce",
@@ -6722,11 +6757,6 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
           "published": "2026-08-13"
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
         }
       ],
       "notes": [],
@@ -6741,7 +6771,7 @@
         "t_763dcde9",
         "t_0f5171f1"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-07",
@@ -6891,11 +6921,6 @@
           "url": "https://maccabi.co.il/season.asp?cYear=2027"
         },
         {
-          "name": "club:t_1b44e7f9",
-          "url": "http://www.maccabi.co.il/season.asp",
-          "published": null
-        },
-        {
           "name": "דיווח משתמש",
           "url": null
         }
@@ -6908,7 +6933,6 @@
       "id": "g_595b9d0f6c",
       "origins": [
         "seed",
-        "extracted",
         "manual"
       ],
       "teams": [
@@ -6953,6 +6977,45 @@
       "teams": [
         "t_e5b49b07",
         "t_5f5b1a80"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "08/09/2026",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_1b44e7f9",
+          "url": "http://www.maccabi.co.il/season.asp",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_06601c9f14",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1b44e7f9"
       ],
       "confidence": 1
     },
@@ -7039,8 +7102,8 @@
       "date": "2026-09-09",
       "dateLabel": "9.9",
       "time": "20:00",
-      "homeTeam": "t_7cd10ddf",
-      "awayTeam": "t_486860fc",
+      "homeTeam": null,
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7657,8 +7720,8 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Copper Box Arena",
-        "city": "לונדון",
-        "country": "אנגליה"
+        "city": "London",
+        "country": "UK"
       },
       "tournament": "London Lions Invitational",
       "stage": null,
@@ -7717,8 +7780,8 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Copper Box Arena",
-        "city": null,
-        "country": null
+        "city": "London",
+        "country": "UK"
       },
       "tournament": "London Lions Invitational",
       "stage": null,
@@ -8088,11 +8151,6 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
           "published": "2026-08-13"
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
         }
       ],
       "notes": [],
@@ -8107,7 +8165,7 @@
         "t_763dcde9",
         "t_4a5e72bb"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-11",
@@ -8277,14 +8335,14 @@
       "date": "2026-09-11",
       "dateLabel": "venerdì 11 settembre",
       "time": "20:00",
-      "homeTeam": "t_9cfa72eb",
-      "awayTeam": "t_486860fc",
+      "homeTeam": null,
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "PalaMegabox",
         "city": "Pesaro",
-        "country": null
+        "country": "Italy"
       },
       "tournament": null,
       "stage": null,
@@ -8318,8 +8376,8 @@
         "extracted"
       ],
       "teams": [
-        "t_9cfa72eb",
-        "t_486860fc"
+        "t_486860fc",
+        "t_9cfa72eb"
       ],
       "confidence": 2
     },
@@ -8940,12 +8998,12 @@
       "date": "2026-09-12",
       "dateLabel": "12.09.26",
       "time": "19:00",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_12174e28",
+      "awayTeam": "t_2a1ac857",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "קליארי, איטליה",
         "city": "קליארי",
         "country": "איטליה"
       },
@@ -9717,11 +9775,6 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
           "published": "2026-08-13"
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
         }
       ],
       "notes": [],
@@ -9735,7 +9788,7 @@
         "t_e32d7cf2",
         "t_763dcde9"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-12",
@@ -10365,14 +10418,14 @@
       "date": "2026-09-16",
       "dateLabel": "mercoledì 16 settembre",
       "time": "20:00",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_12174e28",
+      "homeTeam": null,
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "PalaDozza",
-        "city": null,
-        "country": null
+        "city": "Bologna",
+        "country": "Italy"
       },
       "tournament": null,
       "stage": null,
@@ -10624,7 +10677,7 @@
       "date": "2026-09-17",
       "dateLabel": "17.9",
       "time": "20:55",
-      "homeTeam": null,
+      "homeTeam": "t_2a1ac857",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -11896,7 +11949,7 @@
       "dateLabel": "19-20.9",
       "time": "TBD",
       "homeTeam": "t_21cf4132",
-      "awayTeam": "t_486860fc",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12058,11 +12111,6 @@
           "name": "acb",
           "url": "https://acb.com/es/supercopa/noticias",
           "published": "2026-08-14"
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
         }
       ],
       "notes": [],
@@ -12076,7 +12124,7 @@
         "t_763dcde9",
         "t_1d8e80ce"
       ],
-      "confidence": 5
+      "confidence": 4
     },
     {
       "date": "2026-09-19",
@@ -13000,6 +13048,7 @@
       "homeTeam": "t_e3680384",
       "awayTeam": null,
       "candidates": [
+        "26. Cevat Soydaş Final Günü",
         "26. Cevat Soydaş Final Günü"
       ],
       "opponentTbd": false,
@@ -13188,11 +13237,6 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/supercopa-endesa-2026-definite-le-semifinali/",
           "published": "2026-07-21"
-        },
-        {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
         }
       ],
       "notes": [],
@@ -13206,7 +13250,7 @@
         "t_763dcde9",
         "t_e32d7cf2"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-20",
@@ -14024,6 +14068,204 @@
       "teams": [
         "t_9859715c",
         "t_ef2290b6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "07 sep.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_39a577b48e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9",
+        "t_0f5171f1"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "11 sep.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_7a1a5f413c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9",
+        "t_4a5e72bb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "12 sep.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_8666f2eaff",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "19 sep.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה אנדסה",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_ff799d7951",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9",
+        "t_1d8e80ce"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "20 sep.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercopa Endesa / Final",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_763dcde9",
+          "url": "http://www.valenciabasket.com/ca/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_a1b18f1901",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_763dcde9"
       ],
       "confidence": 1
     }
