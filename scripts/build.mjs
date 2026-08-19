@@ -369,8 +369,17 @@ for (const r of ordered) {
   // competition. Learning it as an alias taught the build that every friendly
   // labelled that way was the Neofytos Chandriotis Tournament, and the name
   // spread to four games that had nothing to do with it.
+  // ...and only when the two could be the same competition at all. A shared
+  // game identity is weaker proof than it looks: one misdated fixture is
+  // enough to marry two unrelated tournaments, and the marriage is permanent
+  // because the map outlives the run. That is how the Crete tournament, the
+  // Neofytos Chandriotis in Nicosia and the Pavlos Giannakopoulos in Athens
+  // became a single 15-day competition across three countries — one day under
+  // the span check, so nothing caught it. A tournament does not move country.
+  const sameCountry = (a, b) => !a || !b || a === b;
   if (g.tournament && rec.tournament && g.tournament !== rec.tournament &&
-      !isGenericTournament(g.tournament) && !isGenericTournament(rec.tournament)) {
+      !isGenericTournament(g.tournament) && !isGenericTournament(rec.tournament) &&
+      sameCountry(g.venue?.country, rec.venue?.country)) {
     // Point at the fixed point, not at whatever name happened to arrive first.
     // Storing the raw name built "טורניר ניקוסיה" -> "Neofytos Chandriotis"
     // -> "טורניר קרתי": readers follow the chain, but the map itself is data
