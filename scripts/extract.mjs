@@ -130,6 +130,8 @@ Rules:
 - The season's official competitions start in late September. A game in August or the first three weeks of September is almost never a league fixture; a game in October or later almost always is.
 - Copy club names EXACTLY as the article writes them, including sponsor prefixes. Do not translate or normalise.
 - Whenever a row names two clubs, fill matchup with BOTH of them. A row naming two clubs must never come back with one.
+- A tournament name belongs to a game only where the article ATTACHES it to that game: as a heading above the row, or in the row itself. A name mentioned in an opening or closing sentence describes the article, not every fixture in it. basketdergisi listed Galatasaray's preparation games under venue headings and wrote "will play its first game on 1 September and complete its preparations with the Cevat Soydaş Tournament"; the tournament heading covered only the last two rows, in Bursa, but the name was pinned to the 1 September game in Istanbul as well, and one tournament appeared to run for eighteen days.
+- Read section headings as scope. A fixture list broken up by venue, city or competition applies each heading to the rows beneath it, until the next heading. Rows under no heading get no tournament.
 - Only output a date when the article gives one that resolves to a real day. If it says "mid-September" or gives no date, leave date empty and put the wording in dateText.
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
