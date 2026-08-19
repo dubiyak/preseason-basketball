@@ -93,8 +93,12 @@ const SCHEMA = {
           broadcaster: { type: "string", description: "TV channel or streaming service named as showing this game, else empty" },
           broadcastUrl: { type: "string", description: "direct link to the stream or broadcast page, else empty" },
           played: { type: "boolean", description: "true if this game has already been played and a result is given" },
-          homeScore: { type: "integer", description: "final score of the home side, only when played" },
-          awayScore: { type: "integer", description: "final score of the away side, only when played" },
+          // One field, not two. Asked for homeScore and awayScore separately,
+          // the model returned 85 and nothing on 19.8 for a row the page wrote
+          // as "85 : 67" — a half-result, which build.mjs cannot turn into a
+          // score, so three ABA games silently lost results they had had since
+          // the 14th. A single string cannot come back half-filled.
+          score: { type: "string", description: "final score written home:away, e.g. \"85:67\"; empty unless the game has been played" },
           statsUrl: { type: "string", description: "link to a boxscore or statistics page for this game, else empty" },
           reportUrl: { type: "string", description: "link to a match report or recap of this game, else empty" },
           isOfficialLeagueGame: { type: "boolean", description: "true if this is a regular-season league game rather than a preseason game" },
@@ -128,7 +132,7 @@ Rules:
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
 - This tracks CLUBS only. A game involving a national team (Greece, Israel, Serbia...) is not a club game: set isNationalTeam=true so it can be filtered out.
-- Games already played DO belong here. Set played=true with homeScore and awayScore, and include any boxscore or match-report link given for it. Do not invent a score: without one, played stays false.
+- Games already played DO belong here. Set played=true and write the final score in the score field as home:away — both numbers together, exactly as the source shows them. If only one number is visible, leave the score empty and played false. Include any boxscore or match-report link given for the game.
 
 Many of these pages are fixture TABLES rather than prose. Read every row, and use the column headers: a column naming the competition tells you which rows are league games and which are preseason.
 
@@ -243,6 +247,25 @@ function hasTeams(g) {
 }
 
 /**
+ * Turn the model's "85:67" into the pair the rest of the pipeline expects.
+ *
+ * Pages write a score every way there is — "85 : 67", "85-67", "85:67" — so
+ * the separator is read loosely. What is not loose is the pair: a string with
+ * only one number in it is a misread, not a result, and is discarded whole
+ * rather than passed on as half a score.
+ */
+function parseScore(g) {
+  const raw = String(g.score || "").trim();
+  g.homeScore = null;
+  g.awayScore = null;
+  if (!raw) return;
+  const m = raw.match(/^(\d{1,3})\s*[:–—-]\s*(\d{1,3})$/);
+  if (!m) return;
+  g.homeScore = Number(m[1]);
+  g.awayScore = Number(m[2]);
+}
+
+/**
  * A game in the future cannot have been played. JL Bourg's page returned
  * scores for fixtures dated 13 and 14 September while it was still August —
  * last season's results carried onto this season's dates. The fixture may
@@ -250,6 +273,8 @@ function hasTeams(g) {
  */
 function dropImpossibleResult(g, today) {
   if (!g.played) return false;
+  // A score that did not parse leaves the game unplayed rather than half-known.
+  if (g.homeScore == null || g.awayScore == null) { g.played = false; return true; }
   // A game that has been played happened on a day. acb.com/es/supercopa
   // carries the competition's past finals, and "Real Madrid 94:98 Valencia"
   // arrived with no date at all — last season's final, which the window check
@@ -394,6 +419,7 @@ for (let i = 0; i < fetched.length; i += BATCH) {
     const mine = all.filter((g) => g.articleIndex === n);
     for (const g of mine) {
       if (g.time === "00:00" || g.time === "0:00") g.time = "";
+      parseScore(g);
       if (dropImpossibleResult(g, TODAY)) impossible++;
       cleanBroadcast(g);
       cleanTeams(g);

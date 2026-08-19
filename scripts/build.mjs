@@ -244,7 +244,24 @@ const GENERIC_TOURNAMENT = new RegExp(
   ].join("|") + ")\\s*\\d*$", "i"
 );
 
-const isGenericTournament = (s) => !s || GENERIC_TOURNAMENT.test(String(s).trim());
+/**
+ * The same label with the competition name in front of it. aba-liga.com heads
+ * its calendar "ABA League Preseason", and read as a tournament that grouped
+ * all 30 unrelated Adriatic friendlies into one 27-day competition — the exact
+ * symptom the 16-day span check exists to catch, and the same mistake a bare
+ * "HAZIRLIK" column header made before it.
+ *
+ * Deliberately anchored at the end: a name is only a label when the generic
+ * word is the last thing in it. "Torneo di Preparazione Città di Roma" is a
+ * tournament and stays one.
+ */
+const QUALIFIED_GENERIC =
+  /^[\p{L}\d .'’&-]{0,40}\b(pre-?season|preparation|preparazione|pretemporada|vorbereitung|haz[ıi]rl[ıi]k|priprem\w*|pasiruošim\w*|φιλικ\w*|amistoso\w*|amichevol\w*)( (games?|matches|maçlar[ıi]))?( \d{4}(-\d{2,4})?)?$/iu;
+
+const isGenericTournament = (s) => {
+  const t = String(s || "").trim();
+  return !t || GENERIC_TOURNAMENT.test(t) || QUALIFIED_GENERIC.test(t);
+};
 
 /** Follow the alias chain to a fixed point; a cycle stops at itself. */
 function canonicalTournament(name) {
@@ -354,7 +371,11 @@ for (const r of ordered) {
   // spread to four games that had nothing to do with it.
   if (g.tournament && rec.tournament && g.tournament !== rec.tournament &&
       !isGenericTournament(g.tournament) && !isGenericTournament(rec.tournament)) {
-    tournamentAliases[rec.tournament] = g.tournament;
+    // Point at the fixed point, not at whatever name happened to arrive first.
+    // Storing the raw name built "טורניר ניקוסיה" -> "Neofytos Chandriotis"
+    // -> "טורניר קרתי": readers follow the chain, but the map itself is data
+    // that outlives them, and a chain is one bad hop from a cycle.
+    tournamentAliases[rec.tournament] = canonicalTournament(g.tournament);
   }
 
   /**
