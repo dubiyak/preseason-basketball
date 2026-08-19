@@ -31,19 +31,26 @@ jobs:
             echo "detail=the published games.json could not be fetched at all" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          node -e '
-            const fs = require("fs");
+          # The update schedule is uneven on purpose: six runs bunched around
+          # the evening, with a nine-hour daylight gap between the 07:00 and
+          # 16:00 Israel slots. A flat hour threshold would have to be loose
+          # enough to sit through that gap, and would therefore also sit
+          # through a real stall until the small hours. lib/schedule.mjs holds
+          # the slots and answers the only question worth asking: has a run
+          # come due and failed to publish?
+          node --input-type=module -e '
+            import fs from "node:fs";
+            import os from "node:os";
+            import { freshness } from "./lib/schedule.mjs";
             const j = JSON.parse(fs.readFileSync("live.json", "utf8"));
-            const hours = (Date.now() - Date.parse(j.updated)) / 36e5;
-            // The update job runs every two hours; five allows a missed run
-            // plus its retry before anyone is told.
-            const stale = hours > 5;
-            const out = [
-              `state=${stale ? "stale" : "fresh"}`,
-              `detail=last published ${hours.toFixed(1)}h ago (${j.updated}), ${j.games.length} games`,
-            ].join("\n");
-            fs.appendFileSync(process.env.GITHUB_OUTPUT, out + "\n");
-            console.log(out);
+            const { stale, hours, due } = freshness(j.updated);
+            const put = (line) => {
+              fs.appendFileSync(process.env.GITHUB_OUTPUT, line + os.EOL);
+              console.log(line);
+            };
+            put(`state=${stale ? "stale" : "fresh"}`);
+            put(`detail=last published ${hours.toFixed(1)}h ago (${j.updated}), ` +
+                `${j.games.length} games; last run due ${due ?? "none yet"}`);
           '
 
       # One issue, reopened and commented rather than a new one each time — an
@@ -70,8 +77,9 @@ jobs:
 
           $DETAIL
 
-          The update workflow runs every two hours. When this fires, the usual
-          cause is a run that hung and is holding the queue: check
+          The update workflow runs six times a day (03:00, 07:00, 16:00, 19:00,
+          22:00 and 00:00 Israel time). When this fires, the usual cause is a
+          run that hung and is holding the queue: check
           https://github.com/dubiyak/preseason-basketball/actions for a run stuck
           in progress, and cancel it to release the ones behind it."
 

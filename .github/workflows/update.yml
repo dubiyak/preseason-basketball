@@ -2,17 +2,23 @@ name: update preseason data
 
 on:
   schedule:
-    # Every 2 hours. Sportando's feed holds under a day of articles, so a
-    # daily job would miss announcements outright — and results land in the
-    # league calendars the same night a game is played, so the gap between
-    # runs is the floor on how quickly a score can appear.
+    # Six runs a day, bunched around the evening. Games tip off in the European
+    # evening and their results land in the league calendars the same night, so
+    # the gap between runs is the floor on how quickly a score can appear — but
+    # only in the hours when scores actually appear. A flat every-two-hours
+    # cadence spent half its runs re-reading pages that had not changed since
+    # breakfast, and Sportando's feed still holds a full day of articles, so
+    # nothing is missed by skipping the quiet stretch.
     #
-    # Affordable because the recheck interval is tiered by source rather than
-    # flat: league calendars every 2h, club pages every 10h, and articles and
-    # tweets never, since neither is ever edited.
-    - cron: "17 */2 * * *"
-    # A second entry so the daily archive crawl has a schedule of its own.
-    - cron: "17 0 * * *"
+    # Times are Israel local (UTC+3; the preseason ends before the October
+    # switch, so the offset holds all season). lib/schedule.mjs mirrors this
+    # list and must be edited with it.
+    - cron: "17 0 * * *"   # 03:00 — the quiet slot; also the daily heavy steps
+    - cron: "17 4 * * *"   # 07:00 — overnight results, in place before morning
+    - cron: "17 13 * * *"  # 16:00 — the day’s fixtures are up by now
+    - cron: "17 16 * * *"  # 19:00 — early tip-offs under way
+    - cron: "17 19 * * *"  # 22:00 — most games final
+    - cron: "17 21 * * *"  # 00:00 — the rest are final
   workflow_dispatch:
 
 # The job commits its own results back to the repo.
@@ -73,7 +79,7 @@ jobs:
         run: node scripts/twitter.mjs | tee twitter.log
 
       # Crawling every sitemap is expensive and the archive barely changes, so
-      # this runs once a day rather than every four hours. Articles are cached
+      # this runs once a day, in the 03:00 slot. Articles are cached
       # permanently, so repeat passes only cost the crawl itself.
       # A real browser, only for the clubs whose fixture page is injected by
       # JavaScript and reads as empty otherwise. Expensive and its answer barely

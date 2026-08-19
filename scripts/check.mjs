@@ -6,6 +6,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { freshness, MINUTE, SLOTS_UTC } from "../lib/schedule.mjs";
 
 const LOCAL = process.argv.includes("--local");
 const BASE = "https://dubiyak.github.io/preseason-basketball/data";
@@ -84,12 +85,12 @@ const checks = [
     return Object.values(map).filter((v) => map[v]).length;
   })(), 0],
 
-  // The site is published by a job that runs every two hours. A gap much
-  // larger than that means the schedule has stalled — which is exactly what
-  // happened when a hung browser step held the queue for eight hours and
-  // nothing noticed but the user.
-  ["published within the last 5 hours",
-    (Date.now() - Date.parse(games.updated)) / 36e5 > 5 ? 1 : 0, 0],
+  // The site is published on a schedule that is deliberately uneven: six runs
+  // clustered around the evening, with a nine-hour daylight gap by design. A
+  // flat hour count cannot tell that gap apart from a stall, so this asks the
+  // schedule itself whether a run has come due and gone unanswered.
+  ["published by the last run that came due",
+    freshness(games.updated).stale ? 1 : 0, 0],
 
   // A game that has been played and whose source publishes results should
   // have one. Two past games sat without a score for five days because the
@@ -98,6 +99,21 @@ const checks = [
     const cutoff = new Date(Date.now() - 48 * 36e5).toISOString().slice(0, 10);
     return G.filter((g) => g.date && g.date < cutoff && !g.result &&
       g.sources.some((x) => /league:/.test(x.name || ""))).length;
+  })(), 0],
+
+  // The freshness rule above reads the schedule from lib/schedule.mjs, but the
+  // runs are actually driven by the cron list in the workflow. Let the two
+  // drift and the alarm goes quietly wrong in whichever direction hurts more:
+  // silent through a real stall, or shouting through a gap that is by design.
+  ["the cron list matches lib/schedule.mjs", (() => {
+    const yml = fs.readFileSync(
+      path.resolve(import.meta.dirname, "..", ".github", "workflows", "update.yml"), "utf8");
+    const crons = [...yml.matchAll(/- cron: "(\d+) (\d+) \* \* \*"/g)];
+    const minutes = new Set(crons.map((m) => Number(m[1])));
+    const hours = crons.map((m) => Number(m[2])).sort((a, b) => a - b);
+    const sameMinute = minutes.size === 1 && minutes.has(MINUTE);
+    const sameHours = JSON.stringify(hours) === JSON.stringify([...SLOTS_UTC].sort((a, b) => a - b));
+    return sameMinute && sameHours ? 0 : 1;
   })(), 0],
 ];
 
