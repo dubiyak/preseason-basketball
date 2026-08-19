@@ -21,6 +21,16 @@ on:
     - cron: "17 21 * * *"  # 00:00 — the rest are final
   workflow_dispatch:
 
+# Every step pipes its command into tee so the log survives as a file. Under
+# GitHub's default shell that silently discarded the exit code: a pipeline
+# reports the status of its LAST command, which is always a successful tee.
+# The integrity gate below was therefore decorative — on 19.8 it printed three
+# FAILs, the step went green, and the run published the rejected data anyway.
+# The bash keyword runs with -o pipefail, so a failing script fails its step.
+defaults:
+  run:
+    shell: bash
+
 # The job commits its own results back to the repo.
 permissions:
   contents: write

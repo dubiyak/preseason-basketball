@@ -84,6 +84,7 @@ const SCHEMA = {
           time: { type: "string", description: "HH:MM local, or empty" },
           homeTeam: { type: "string", description: "club named as playing at home, exactly as written; empty if the article does not say" },
           awayTeam: { type: "string", description: "the visiting club, exactly as written; empty if not stated" },
+          matchup: { type: "string", description: "the two clubs as \"home v away\", exactly as the source writes their names, e.g. \"Mega Superbet v Auburn University\". Empty only when the row names no club at all." },
           teams: { type: "array", items: { type: "string" }, description: "both clubs as written, when home/away is not distinguishable" },
           opponentUndecided: { type: "boolean", description: "true when the article says the opponent is not yet known" },
           arena: { type: "string" },
@@ -128,6 +129,7 @@ Rules:
 - isOfficialLeagueGame=false is everything else: friendlies, preseason tournaments and memorials, national cups, supercups, and regional cups. These are what this project collects.
 - The season's official competitions start in late September. A game in August or the first three weeks of September is almost never a league fixture; a game in October or later almost always is.
 - Copy club names EXACTLY as the article writes them, including sponsor prefixes. Do not translate or normalise.
+- Whenever a row names two clubs, fill matchup with BOTH of them. A row naming two clubs must never come back with one.
 - Only output a date when the article gives one that resolves to a real day. If it says "mid-September" or gives no date, leave date empty and put the wording in dateText.
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
@@ -246,6 +248,23 @@ function hasTeams(g) {
   return names.length > 0;
 }
 
+/**
+ * Turn the model's "Home v Away" into the pair the rest of the pipeline wants.
+ *
+ * A fixture is ONE fact: two clubs. Asked as separate optional fields, the
+ * model returned the home side and omitted the away side on exactly the rows
+ * that also carried a score — so every published result showed one team. Same
+ * failure the score had, same fix: a single string cannot come back half.
+ */
+function parseMatchup(g) {
+  const raw = String(g.matchup || "").trim();
+  if (!raw) return;
+  const parts = raw.split(/s+(?:v|vs.?|:|-|–)s+/i).map((x) => x.trim()).filter(Boolean);
+  if (parts.length !== 2) return;
+  if (!g.homeTeam) g.homeTeam = parts[0];
+  if (!g.awayTeam) g.awayTeam = parts[1];
+  if (!Array.isArray(g.teams) || g.teams.length < 2) g.teams = parts;
+}
 /**
  * Turn the model's "85:67" into the pair the rest of the pipeline expects.
  *
@@ -419,6 +438,7 @@ for (let i = 0; i < fetched.length; i += BATCH) {
     const mine = all.filter((g) => g.articleIndex === n);
     for (const g of mine) {
       if (g.time === "00:00" || g.time === "0:00") g.time = "";
+      parseMatchup(g);
       parseScore(g);
       if (dropImpossibleResult(g, TODAY)) impossible++;
       cleanBroadcast(g);
