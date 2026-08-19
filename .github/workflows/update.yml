@@ -2,9 +2,15 @@ name: update preseason data
 
 on:
   schedule:
-    # Every 4 hours, not daily. Measured: Sportando's feed holds under a day of
-    # articles, so a once-a-day job would miss announcements outright.
-    - cron: "17 */4 * * *"
+    # Every 2 hours. Sportando's feed holds under a day of articles, so a
+    # daily job would miss announcements outright — and results land in the
+    # league calendars the same night a game is played, so the gap between
+    # runs is the floor on how quickly a score can appear.
+    #
+    # Affordable because the recheck interval is tiered by source rather than
+    # flat: league calendars every 2h, club pages every 10h, and articles and
+    # tweets never, since neither is ever edited.
+    - cron: "17 */2 * * *"
     # A second entry so the daily archive crawl has a schedule of its own.
     - cron: "17 0 * * *"
   workflow_dispatch:

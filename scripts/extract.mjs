@@ -304,21 +304,50 @@ const { candidates } = JSON.parse(fs.readFileSync(path.join(DATA, "candidates.js
  * So living pages expire and articles do not.
  */
 // League calendars change most of all: results land in them the same night.
-const LIVING = /^(league:|club:|x:)/;
-const TTL_HOURS = Number(process.env.RECHECK_HOURS || 12);
+/**
+ * How often a source is worth reading again, by what it is.
+ *
+ * A tweet is as immutable as an article — it is written once and never
+ * edited. Marking the whole social layer as living made 149 frozen tweets
+ * eligible for re-reading on every run, which is 19 of the day's 80 model
+ * requests spent re-reading text that had not changed. The twitter layer
+ * still refetches every timeline each run to find NEW tweets; that part
+ * costs no quota.
+ *
+ * League calendars are the opposite: one page, rewritten the same night a
+ * game is played, and the only place most results ever appear. They get the
+ * shortest interval by far.
+ */
+const TTL_HOURS = {
+  "league:": Number(process.env.RECHECK_LEAGUE_HOURS || 2),
+  "club:": Number(process.env.RECHECK_CLUB_HOURS || 10),
+};
+
+function ttlFor(outlet) {
+  for (const [prefix, hours] of Object.entries(TTL_HOURS)) {
+    if (String(outlet).startsWith(prefix)) return hours;
+  }
+  return null; // immutable: read once, ever
+}
+
+const LIVING = (outlet) => ttlFor(outlet) !== null;
 
 function isStale(c) {
   const seen = cache.articles[c.url];
   if (!seen) return true;
-  if (!LIVING.test(String(c.outlet))) return false;
+  const ttl = ttlFor(c.outlet);
+  if (ttl === null) return false;
   if (!seen.readAt) return true;
-  return (Date.now() - Date.parse(seen.readAt)) / 36e5 >= TTL_HOURS;
+  return (Date.now() - Date.parse(seen.readAt)) / 36e5 >= ttl;
 }
 
 const unread = candidates.filter(isStale);
 // Living pages first: a fixture page that has gained a tip-off time matters
 // more than one more article about a transfer.
-unread.sort((a, b) => (LIVING.test(b.outlet) - LIVING.test(a.outlet)) || (b.score - a.score));
+// Shortest interval first: a league calendar carrying tonight's result
+// outranks a club page, which outranks an archive article.
+unread.sort((a, b) =>
+  (ttlFor(a.outlet) ?? 1e9) - (ttlFor(b.outlet) ?? 1e9) || (b.score - a.score));
 const todo = unread.slice(0, MAX_ARTICLES);
 
 console.log(

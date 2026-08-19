@@ -84,12 +84,12 @@ const checks = [
     return Object.values(map).filter((v) => map[v]).length;
   })(), 0],
 
-  // The site is published by a job that runs every four hours. A gap much
+  // The site is published by a job that runs every two hours. A gap much
   // larger than that means the schedule has stalled — which is exactly what
   // happened when a hung browser step held the queue for eight hours and
   // nothing noticed but the user.
-  ["published within the last 9 hours",
-    (Date.now() - Date.parse(games.updated)) / 36e5 > 9 ? 1 : 0, 0],
+  ["published within the last 5 hours",
+    (Date.now() - Date.parse(games.updated)) / 36e5 > 5 ? 1 : 0, 0],
 
   // A game that has been played and whose source publishes results should
   // have one. Two past games sat without a score for five days because the

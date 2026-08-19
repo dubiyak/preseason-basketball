@@ -6,7 +6,7 @@ name: watchdog
 # the very thing it was meant to report.
 on:
   schedule:
-    - cron: "40 */3 * * *"
+    - cron: "40 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -35,9 +35,9 @@ jobs:
             const fs = require("fs");
             const j = JSON.parse(fs.readFileSync("live.json", "utf8"));
             const hours = (Date.now() - Date.parse(j.updated)) / 36e5;
-            // The update job runs every four hours; nine allows one missed run
+            // The update job runs every two hours; five allows a missed run
             // plus its retry before anyone is told.
-            const stale = hours > 9;
+            const stale = hours > 5;
             const out = [
               `state=${stale ? "stale" : "fresh"}`,
               `detail=last published ${hours.toFixed(1)}h ago (${j.updated}), ${j.games.length} games`,
@@ -70,7 +70,7 @@ jobs:
 
           $DETAIL
 
-          The update workflow runs every four hours. When this fires, the usual
+          The update workflow runs every two hours. When this fires, the usual
           cause is a run that hung and is holding the queue: check
           https://github.com/dubiyak/preseason-basketball/actions for a run stuck
           in progress, and cancel it to release the ones behind it."
