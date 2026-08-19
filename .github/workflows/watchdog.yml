@@ -1,0 +1,84 @@
+name: watchdog
+
+# Deliberately separate from the update workflow, with NO concurrency group.
+# The stall it exists to catch was a hung step holding the update queue for
+# eight hours — a check living inside that queue would have been stuck behind
+# the very thing it was meant to report.
+on:
+  schedule:
+    - cron: "40 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  freshness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is the published site still fresh?
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -o pipefail
+          URL="https://dubiyak.github.io/preseason-basketball/data/games.json"
+          if ! curl -fsS -m 30 "$URL?cb=$RANDOM" -o live.json; then
+            echo "state=unreachable" >> "$GITHUB_OUTPUT"
+            echo "detail=the published games.json could not be fetched at all" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          node -e '
+            const fs = require("fs");
+            const j = JSON.parse(fs.readFileSync("live.json", "utf8"));
+            const hours = (Date.now() - Date.parse(j.updated)) / 36e5;
+            // The update job runs every four hours; nine allows one missed run
+            // plus its retry before anyone is told.
+            const stale = hours > 9;
+            const out = [
+              `state=${stale ? "stale" : "fresh"}`,
+              `detail=last published ${hours.toFixed(1)}h ago (${j.updated}), ${j.games.length} games`,
+            ].join("\n");
+            fs.appendFileSync(process.env.GITHUB_OUTPUT, out + "\n");
+            console.log(out);
+          '
+
+      # One issue, reopened and commented rather than a new one each time — an
+      # alert that floods is an alert that gets muted.
+      - name: Raise or clear the alarm
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STATE: ${{ steps.check.outputs.state }}
+          DETAIL: ${{ steps.check.outputs.detail }}
+        run: |
+          gh label create stale --color d73a4a --description "the published site stopped updating" 2>/dev/null || true
+          NUM=$(gh issue list --state all --label stale --limit 1 --json number --jq '.[0].number // empty')
+
+          if [ "$STATE" = "fresh" ]; then
+            if [ -n "$NUM" ] && [ "$(gh issue view "$NUM" --json state --jq .state)" = "OPEN" ]; then
+              gh issue comment "$NUM" --body "Updating again — $DETAIL"
+              gh issue close "$NUM"
+            fi
+            echo "fresh: $DETAIL"
+            exit 0
+          fi
+
+          BODY="The published site has stopped updating.
+
+          $DETAIL
+
+          The update workflow runs every four hours. When this fires, the usual
+          cause is a run that hung and is holding the queue: check
+          https://github.com/dubiyak/preseason-basketball/actions for a run stuck
+          in progress, and cancel it to release the ones behind it."
+
+          if [ -n "$NUM" ]; then
+            gh issue reopen "$NUM" 2>/dev/null || true
+            gh issue comment "$NUM" --body "$BODY"
+          else
+            gh issue create --title "Site stopped updating" --label stale --body "$BODY"
+          fi
+          echo "::warning::$DETAIL"

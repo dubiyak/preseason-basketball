@@ -216,9 +216,31 @@ for (const o of sources.outlets) {
 }
 
 results.sort((a, b) => b.score - a.score);
+/**
+ * Keep what the other collectors found.
+ *
+ * This used to write only its own results, which silently deleted every
+ * candidate produced by a layer that runs BEFORE it — and leagues.mjs is
+ * step one. The ABA preseason calendar, the single most complete source in
+ * the project, was being dropped on every run and had not been re-read for
+ * five days. Its results were sitting on the page the whole time.
+ */
+const previous = fs.existsSync(path.join(DATA, "candidates.json"))
+  ? JSON.parse(fs.readFileSync(path.join(DATA, "candidates.json"), "utf8"))
+  : { candidates: [] };
+
+// Anything not produced by this sweep is another layer's, and stays.
+const mine = new Set(sources.outlets.map((o) => o.id));
+const keep = (previous.candidates || []).filter((c) => !mine.has(String(c.outlet)));
+
 fs.writeFileSync(
   path.join(DATA, "candidates.json"),
-  JSON.stringify({ generated: new Date().toISOString(), health, candidates: results }, null, 2)
+  JSON.stringify({
+    ...previous,
+    generated: new Date().toISOString(),
+    health,
+    candidates: [...keep, ...results].sort((a, b) => b.score - a.score),
+  }, null, 2)
 );
 
 const live = health.filter((h) => h.ok);

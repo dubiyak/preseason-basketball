@@ -83,6 +83,22 @@ const checks = [
     try { map = (await load("tournaments.json")).map || {}; } catch { return 0; }
     return Object.values(map).filter((v) => map[v]).length;
   })(), 0],
+
+  // The site is published by a job that runs every four hours. A gap much
+  // larger than that means the schedule has stalled — which is exactly what
+  // happened when a hung browser step held the queue for eight hours and
+  // nothing noticed but the user.
+  ["published within the last 9 hours",
+    (Date.now() - Date.parse(games.updated)) / 36e5 > 9 ? 1 : 0, 0],
+
+  // A game that has been played and whose source publishes results should
+  // have one. Two past games sat without a score for five days because the
+  // ABA calendar had been dropped from the candidate list and never re-read.
+  ["no game played over 48h ago still missing a result", (() => {
+    const cutoff = new Date(Date.now() - 48 * 36e5).toISOString().slice(0, 10);
+    return G.filter((g) => g.date && g.date < cutoff && !g.result &&
+      g.sources.some((x) => /league:/.test(x.name || ""))).length;
+  })(), 0],
 ];
 
 let failed = 0;
