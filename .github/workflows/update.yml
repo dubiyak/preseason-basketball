@@ -21,6 +21,11 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # A job with no ceiling can hang forever, and because runs share a
+    # concurrency group a hung one blocks every run queued behind it. On 19.8
+    # the browser step hung and the site went eight hours without an update
+    # while three runs piled up waiting for it.
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -34,25 +39,30 @@ jobs:
       # leagues have not published one yet — so this hunts for them every run
       # and adopts each the day it appears.
       - name: Hunt for league preseason calendars
+        timeout-minutes: 10
         continue-on-error: true
         run: node scripts/leagues.mjs | tee leagues.log
 
       - name: Sweep the outlet feeds
+        timeout-minutes: 12
         run: node scripts/collect.mjs | tee collect.log
 
       - name: Refresh the club registry
+        timeout-minutes: 6
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/clubs.mjs | tee clubs.log
 
       - name: Scan the clubs' fixture pages
+        timeout-minutes: 15
         continue-on-error: true
         run: node scripts/clubscan.mjs | tee clubscan.log
 
       # Nitter mirrors go down constantly. This layer is allowed to fail
       # entirely without taking the run with it.
       - name: Read the clubs' social feeds
+        timeout-minutes: 12
         continue-on-error: true
         run: node scripts/twitter.mjs | tee twitter.log
 
@@ -63,21 +73,28 @@ jobs:
       # JavaScript and reads as empty otherwise. Expensive and its answer barely
       # changes hour to hour, so it shares the daily slot with the archive crawl.
       - name: Render the JavaScript-only club pages
+        timeout-minutes: 20
         if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          # No --with-deps: it shells out to apt-get, and on 19.8 apt stalled
+          # on an Ubuntu mirror for four and a half hours, holding the whole
+          # queue behind it. GitHub's runners already ship the libraries
+          # Chromium needs; --with-deps is for bare containers.
           npm ci --omit=optional 2>/dev/null || npm install
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
           node scripts/render.mjs | tee render.log
 
       - name: Backfill the archives
+        timeout-minutes: 15
         if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
         continue-on-error: true
         run: node scripts/backfill.mjs | tee backfill.log
 
       - name: Read the new articles
+        timeout-minutes: 20
         id: extract
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -90,6 +107,7 @@ jobs:
       # Runs even when extraction failed, so a throttled key still republishes
       # yesterday's data rather than leaving the site stale or empty.
       - name: Rebuild the data files
+        timeout-minutes: 8
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/build.mjs | tee build.log
@@ -97,6 +115,7 @@ jobs:
       # The checks run against what is about to be published, not after. A
       # run that would publish broken data fails here instead.
       - name: Check data integrity
+        timeout-minutes: 5
         run: node scripts/check.mjs --local | tee check.log
 
       # A run takes twenty minutes, so a human push during it will reject this
