@@ -115,10 +115,15 @@
   .score{font-family:'Oswald',sans-serif;font-size:22px;font-weight:700;color:var(--ink);
     letter-spacing:.02em;white-space:nowrap;}
   .score .dash{color:var(--wood);margin:0 2px;}
-  .post-links{margin-top:2px;font-size:12px;display:flex;gap:6px;align-items:center;}
-  .post-links a{color:var(--wood-dark);text-decoration:none;border-bottom:1px solid var(--line);}
-  .post-links a:hover{border-color:var(--wood);}
-  .post-links .sep{color:var(--line);}
+  .post-links{margin-top:3px;display:flex;gap:6px;align-items:center;}
+  /* Icon-only targets still have to be big enough to hit on a phone. */
+  .icon-link{display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;border-radius:7px;color:var(--wood-dark);
+    background:transparent;border:1px solid var(--line);transition:.15s;}
+  .icon-link:hover{color:#fff;background:var(--wood);border-color:var(--wood);}
+  .icon-link:focus-visible{outline:2px solid var(--wood);outline-offset:2px;}
+  .watch svg{margin-inline-end:5px;flex:none;}
+  .watch{display:inline-flex;align-items:center;}
   .game.played{opacity:.86;}
   .game.played .date-badge{background:#6B7280;}
   .game.played .date-badge .m{color:#D1D5DB;}
@@ -136,6 +141,9 @@
   @media (max-width:640px){
     .game{grid-template-columns:66px 1fr;}
     .g-side{grid-column:1 / -1;flex-direction:row;align-items:center;justify-content:flex-start;}
+    /* A 26px target is comfortable with a mouse and small under a thumb. The
+       card has the room here, since the side moves to its own row. */
+    .icon-link{width:34px;height:34px;}
   }
 </style>
 </head>
@@ -241,21 +249,58 @@ function dateBadge(g){
     </div>`;
 }
 
-// A finished game shows what happened; an upcoming one shows where to watch.
+// Two links, and the game clock decides which one a card is showing.
+//
+// Where to watch is only useful until the game ends; a boxscore only exists
+// once it has. Gating on the score instead of the clock got both wrong in the
+// same case: a game that was played but whose result never reached us kept
+// offering a stream that had finished, and never offered the statistics.
+const GAME_MS = 2 * 60 * 60 * 1000;
+
+function isOver(g){
+  if (g.result) return true;              // a score is proof it happened
+  if (!g.date) return false;              // an undated fixture is always ahead
+  // Without a tip-off time the game is over when its day is. A fixture dated
+  // today could tip off at nine in the evening, and treating it as finished at
+  // noon would hide the broadcast link on the one day it is worth showing.
+  const end = g.time
+    ? new Date(`${g.date}T${g.time}:00`).getTime() + GAME_MS
+    : new Date(`${g.date}T00:00:00`).getTime() + 24 * 60 * 60 * 1000;
+  return Date.now() > end;
+}
+
+const ICON_STATS = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">  <rect x="1.5" y="8"  width="3" height="6.5" rx="1" fill="currentColor"/>  <rect x="6.5" y="4"  width="3" height="10.5" rx="1" fill="currentColor"/>  <rect x="11.5" y="6" width="3" height="8.5" rx="1" fill="currentColor"/></svg>`;
+
+const ICON_REPORT = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">  <path d="M3.5 1.5h6.2l3 3v10a1 1 0 0 1-1 1H3.5a1 1 0 0 1-1-1v-12a1 1 0 0 1 1-1z"    fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>  <path d="M5.2 7.5h5.6M5.2 10.2h5.6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>`;
+
+const ICON_WATCH = `<svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" focusable="false">  <rect x="1.2" y="3.4" width="13.6" height="9.4" rx="1.6" fill="none"    stroke="currentColor" stroke-width="1.4"/>  <path d="M6.6 6.3v3.6l3.1-1.8z" fill="currentColor"/></svg>`;
+
+// Icon-only, so the label has to reach assistive tech and hover some other way.
+const iconLink = (href, label, svg) =>
+  `<a class="icon-link" href="${esc(href)}" target="_blank" rel="noopener"` +
+  ` title="${esc(label)}" aria-label="${esc(label)}">${svg}</a>`;
+
 function sideEl(g){
-  if (g.result){
+  const bits = [];
+  if (g.result)
+    bits.push(`<div class="score">${g.result.home}<span class="dash">:</span>${g.result.away}</div>`);
+
+  if (isOver(g)){
+    // After the game, and from then on: the boxscore does not expire.
     const links = [
-      g.statsUrl && `<a href="${esc(g.statsUrl)}" target="_blank" rel="noopener">סטטיסטיקה</a>`,
-      g.reportUrl && `<a href="${esc(g.reportUrl)}" target="_blank" rel="noopener">סיקור</a>`,
-    ].filter(Boolean).join("<span class='sep'>·</span>");
-    return `<div class="score">${g.result.home}<span class="dash">:</span>${g.result.away}</div>` +
-           (links ? `<div class="post-links">${links}</div>` : "");
+      g.statsUrl && iconLink(g.statsUrl, "סטטיסטיקה", ICON_STATS),
+      g.reportUrl && iconLink(g.reportUrl, "סיקור", ICON_REPORT),
+    ].filter(Boolean).join("");
+    if (links) bits.push(`<div class="post-links">${links}</div>`);
+    return bits.join("");
   }
+
   const b = (g.broadcast || [])[0];
-  if (!b) return "";
-  return b.url
-    ? `<a class="watch" href="${esc(b.url)}" target="_blank" rel="noopener">צפייה · ${esc(b.name)}</a>`
-    : `<span class="watch text-only">${esc(b.name)}</span>`;
+  if (b) bits.push(b.url
+    ? `<a class="watch" href="${esc(b.url)}" target="_blank" rel="noopener">` +
+      `${ICON_WATCH}<span>${esc(b.name)}</span></a>`
+    : `<span class="watch text-only">${esc(b.name)}</span>`);
+  return bits.join("");
 }
 
 function gameCard(g){
