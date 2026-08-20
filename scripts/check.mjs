@@ -7,6 +7,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { freshness, MINUTE, SLOTS_UTC } from "../lib/schedule.mjs";
+import { PRESEASON_FROM, PRESEASON_TO } from "../lib/dates.mjs";
 
 const LOCAL = process.argv.includes("--local");
 const BASE = "https://dubiyak.github.io/preseason-basketball/data";
@@ -39,9 +40,12 @@ const checks = [
   ["no result dated in the future",
     G.filter((g) => g.result && g.date && g.date > today).length, 0],
 
-  // A club archive returned a complete 2016 preseason, scores and all.
-  ["nothing outside the season window",
-    G.filter((g) => g.date && (g.date < "2026-06-01" || g.date > "2027-07-31")).length, 0],
+  // A club archive returned a complete 2016 preseason, scores and all — and at
+  // the other end, two NBA games staged in Europe in January 2027 sat in the
+  // list looking like ordinary friendlies. The preseason ends when the
+  // competitions start. The window is defined once, in lib/dates.mjs.
+  ["nothing outside the preseason window",
+    G.filter((g) => g.date && (g.date < PRESEASON_FROM || g.date > PRESEASON_TO)).length, 0],
 
   // Liga Femenina fixtures are published on the same sites as the men's.
   ["no women's competitions",

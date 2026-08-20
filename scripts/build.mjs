@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { normName, splitVenue, gameKey, gameId } from "../lib/normalize.mjs";
-import { resolveDate, isVague } from "../lib/dates.mjs";
+import { resolveDate, isVague, PRESEASON_TO } from "../lib/dates.mjs";
 import {
   loadAliases, saveAliases, buildIndex, resolveLocal, resolveWithModel, newClub,
 } from "./resolve.mjs";
@@ -343,8 +343,15 @@ const ordered = [
   ...records.filter((r) => r.origin === "manual"),
 ];
 
+// The window itself lives in lib/dates.mjs, shared with the check that verifies
+// it. Enforced here rather than at extraction because extraction is cached for
+// ever: a date on the wrong side of the line stays in the cache, so moving the
+// line is a rebuild rather than a re-read of every article ever collected.
+
 for (const r of ordered) {
   const rec = toRecord(r);
+  // Undated fixtures survive: most say "mid-September" and belong.
+  if (rec.date && rec.date > PRESEASON_TO) continue;
   // A generic label is the ABSENCE of a tournament, so it is cleared rather
   // than carried; and aliases are followed to a fixed point, because they had
   // begun to chain (Supercoppa LNP -> Serie A2 -> Serie B).

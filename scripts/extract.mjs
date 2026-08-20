@@ -104,6 +104,10 @@ const SCHEMA = {
           reportUrl: { type: "string", description: "link to a match report or recap of this game, else empty" },
           isOfficialLeagueGame: { type: "boolean", description: "true if this is a regular-season league game rather than a preseason game" },
           isNationalTeam: { type: "boolean", description: "true if either side is a national team rather than a club" },
+          // Both sides, not either: an NBA club touring Europe and playing a
+          // European one is a preseason game and belongs. Two NBA clubs staging
+          // a game in Europe are the NBA's own calendar and do not.
+          isNbaOnly: { type: "boolean", description: "true only when BOTH sides are NBA franchises" },
           closedDoors: { type: "boolean" },
         },
         required: ["articleIndex", "date", "dateText", "teams", "isOfficialLeagueGame"],
@@ -136,6 +140,7 @@ Rules:
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
 - This tracks CLUBS only. A game involving a national team (Greece, Israel, Serbia...) is not a club game: set isNationalTeam=true so it can be filtered out.
+- This tracks EUROPEAN preseason. A game between two NBA franchises is the NBA's own calendar even when it is played in Europe: set isNbaOnly=true. Set it only when BOTH sides are NBA — an NBA club against a European club, or a US college against a European club, is a preseason game and stays. Franchise names arrive transliterated ("Σαν Αντόνιο Σπερς", "סן אנטוניו ספרס"): judge the club, not the spelling.
 - Games already played DO belong here. Set played=true and write the final score in the score field as home:away — both numbers together, exactly as the source shows them. If only one number is visible, leave the score empty and played false. Include any boxscore or match-report link given for the game.
 
 Many of these pages are fixture TABLES rather than prose. Read every row, and use the column headers: a column naming the competition tells you which rows are league games and which are preseason.
@@ -447,7 +452,8 @@ for (let i = 0; i < fetched.length; i += BATCH) {
       cleanTeams(g);
     }
     const found = mine.filter((g) =>
-      !g.isOfficialLeagueGame && !g.isNationalTeam && inSeason(g) && hasTeams(g) && !isWomens(g, a.url));
+      !g.isOfficialLeagueGame && !g.isNationalTeam && !g.isNbaOnly &&
+      inSeason(g) && hasTeams(g) && !isWomens(g, a.url));
     official += mine.filter((g) => g.isOfficialLeagueGame).length;
     rejected += mine.filter((g) => !g.isOfficialLeagueGame && !g.isNationalTeam && (!inSeason(g) || !hasTeams(g))).length;
     national += mine.filter((g) => !g.isOfficialLeagueGame && g.isNationalTeam).length;
