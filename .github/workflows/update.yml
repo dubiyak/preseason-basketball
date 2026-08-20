@@ -47,6 +47,7 @@ concurrency:
 
 jobs:
   update:
+    runs-on: ubuntu-latest
     # A job with no ceiling can hang forever, and because runs share a
     # concurrency group a hung one blocks every run queued behind it. On 19.8
     # the browser step hung and the site went eight hours without an update
