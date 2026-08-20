@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-20T17:14:41.379Z",
+  "updated": "2026-08-20T20:03:43.532Z",
   "season": "2026-27",
-  "newGames": 1,
+  "newGames": 107,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -81,6 +81,22 @@
       "kept": "18:30",
       "alsoReported": "20:30",
       "from": "x:t_bbaa773d",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_661f8c9fa0",
+      "field": "time",
+      "kept": "15:00",
+      "alsoReported": "19:00",
+      "from": "bebasket",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_64a9d6a641",
+      "field": "time",
+      "kept": "18:00",
+      "alsoReported": "19:00",
+      "from": "bebasket",
       "resolvedBy": "recency"
     }
   ],
@@ -238,6 +254,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/lasa-demarre-bien-la-rochelle-cale-des-debuts-contrastes-en-preparation",
           "published": "2026-08-19T16:43:15+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -275,12 +296,17 @@
         "away": 86
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.bebasket.fr/lasa-demarre-bien-la-rochelle-cale-des-debuts-contrastes-en-preparation",
       "sources": [
         {
           "name": "bebasket",
           "url": "https://www.bebasket.fr/lasa-demarre-bien-la-rochelle-cale-des-debuts-contrastes-en-preparation",
           "published": "2026-08-19T16:43:15+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -340,6 +366,49 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-18",
+      "dateLabel": "mardi",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 73,
+        "away": 60
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/luc-loubaki-sanctionne-pour-paris-sportifs-quel-avenir-a-chartres",
+          "published": "2026-08-20T19:40:22+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T19:40:22+00:00",
+      "id": "g_f717900a07",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d4b9bd90",
+        "t_2afbeb5f"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-19",
       "dateLabel": "19 agosto",
       "time": "18:00",
@@ -395,6 +464,49 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-19",
+      "dateLabel": "19 août",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 73,
+        "away": 67
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_68f4a0d211",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d11ec1d0",
+        "t_d10e3e20"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-20",
       "dateLabel": "Thursday, 20.08.2026",
       "time": "18:00",
@@ -431,6 +543,46 @@
       "teams": [
         "t_998ddb52",
         "t_8fe33769"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-20",
+      "dateLabel": "20 août",
+      "time": "19:00",
+      "homeTeam": "t_7e5aba04",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Fougères",
+        "city": "Fougères",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_bbd0f2c08c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7e5aba04",
+        "t_1aeea594"
       ],
       "confidence": 1
     },
@@ -483,6 +635,128 @@
         "t_ea80e631"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-08-21",
+      "dateLabel": "21 août",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "SCABB",
+        "SCABB"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Andrézieux-Bouthéon",
+        "city": "Andrézieux-Bouthéon",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_41d4eb81d8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-21",
+      "dateLabel": "21 août",
+      "time": "20:00",
+      "homeTeam": "t_caa7ae95",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Aix-les-Bains",
+        "city": "Aix-les-Bains",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_71700558b3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_caa7ae95",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-21",
+      "dateLabel": "21 août",
+      "time": "20:00",
+      "homeTeam": "t_29742116",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Concarneau",
+        "city": "Concarneau",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_d07f8a4461",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_29742116",
+        "t_cc8608ea"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-08-22",
@@ -779,6 +1053,326 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "17:00",
+      "homeTeam": "t_4b678e49",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Le Cannet",
+        "city": "Le Cannet",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_6fb3859d53",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4b678e49",
+        "t_43593149"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "17:00",
+      "homeTeam": "t_d11ec1d0",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Evreux",
+        "city": "Evreux",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_18847bbe14",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d11ec1d0",
+        "t_d3d3d473"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "17:30",
+      "homeTeam": "t_97643d58",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Besançon",
+        "city": "Besançon",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3dee906114",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_97643d58",
+        "t_e0376665"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "18:00",
+      "homeTeam": "t_3346f25b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "La Rochelle",
+        "city": "La Rochelle",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_1d888c25f3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3346f25b",
+        "t_b01c1ace"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "19:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Rives-en-Seine",
+        "city": "Rives-en-Seine",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_08a3737126",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_1f86c9b9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "20:00",
+      "homeTeam": "t_caa7ae95",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Aix-les-Bains",
+        "city": "Aix-les-Bains",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_77cdd86173",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_caa7ae95",
+        "t_88a640c0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": "20:30",
+      "homeTeam": "t_d5ae9f2d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Besançon",
+        "city": "Besançon",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_eb33936304",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d5ae9f2d",
+        "t_00f884eb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-24",
+      "dateLabel": "24 août",
+      "time": "19:00",
+      "homeTeam": "t_fbf989ed",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Loon-Plage",
+        "city": "Loon-Plage",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_47915656bb",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_fbf989ed",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-25",
       "dateLabel": "25.8",
       "time": null,
@@ -1017,6 +1611,166 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-25",
+      "dateLabel": "25 août",
+      "time": "19:00",
+      "homeTeam": "t_72fb1ab9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Boulogne-sur-Mer",
+        "city": "Boulogne-sur-Mer",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_7564362ac3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_72fb1ab9",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-25",
+      "dateLabel": "25 août",
+      "time": "20:00",
+      "homeTeam": "t_311470db",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Gries",
+        "city": "Gries",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ad51027cac",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_311470db",
+        "t_577949d9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-25",
+      "dateLabel": "25 août",
+      "time": "20:00",
+      "homeTeam": "t_b8c446a3",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Champigneulles",
+        "city": "Champigneulles",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_de3f13e554",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b8c446a3",
+        "t_9c71432b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-25",
+      "dateLabel": "25 août",
+      "time": "20:00",
+      "homeTeam": "t_ef202e7d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Orléans",
+        "city": "Orléans",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_6174c22633",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef202e7d",
+        "t_d6cca7c8"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-26",
       "dateLabel": "26.8, 17:30",
       "time": "17:30",
@@ -1158,7 +1912,7 @@
       "dateLabel": "Mercoledì 26 agosto",
       "time": "20:00",
       "homeTeam": "t_d2164f8d",
-      "awayTeam": null,
+      "awayTeam": "t_aaae2e9f",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1178,6 +1932,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
           "published": "2026-07-22"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
         }
       ],
       "notes": [],
@@ -1230,6 +1989,126 @@
       "teams": [
         "t_84c93f92",
         "t_875ab2d7"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-26",
+      "dateLabel": "26 août",
+      "time": "19:00",
+      "homeTeam": "t_ef5a480c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nuits-Saint-Georges",
+        "city": "Nuits-Saint-Georges",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_734f1da5b2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef5a480c",
+        "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-26",
+      "dateLabel": "26 août",
+      "time": "19:00",
+      "homeTeam": "t_4488cc96",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Charleville-Mézières",
+        "city": "Charleville-Mézières",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_e871e52821",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4488cc96",
+        "t_bb56c711"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-26",
+      "dateLabel": "26 août",
+      "time": "20:30",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Montaigu-Vendée",
+        "city": "Montaigu-Vendée",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_a047732571",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_1a307999"
       ],
       "confidence": 1
     },
@@ -1530,6 +2409,46 @@
       "confidence": 1
     },
     {
+      "date": "2026-08-27",
+      "dateLabel": "27 août",
+      "time": "17:00",
+      "homeTeam": "t_d3d3d473",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Levallois-Perret",
+        "city": "Levallois-Perret",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_1068d47b1c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d3d3d473",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-08-28",
       "dateLabel": "28.8, 20:00",
       "time": "20:00",
@@ -1538,7 +2457,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Le Mans",
         "city": "לה מאן",
         "country": "צרפת"
       },
@@ -1553,6 +2472,11 @@
         {
           "name": "bebasket.fr",
           "url": "https://www.bebasket.fr/le-msb-devoile-son-programme-de-pre-saison-avant-lexercice-2026-2027"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -1560,7 +2484,8 @@
       "published": null,
       "id": "g_b2423c0ccc",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_59598d71",
@@ -1767,6 +2692,208 @@
       "teams": [
         "t_8fe33769",
         "t_7a8a9ba0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 août",
+      "time": "18:00",
+      "homeTeam": "t_d5b6cc73",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nanterre",
+        "city": "Nanterre",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_7828e6eb3e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d5b6cc73",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 août",
+      "time": "18:00",
+      "homeTeam": "t_d6073ee6",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Tarbes",
+        "city": "Tarbes",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ad60d199ef",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d6073ee6",
+        "t_4e00735a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 août",
+      "time": "19:00",
+      "homeTeam": "t_b01c1ace",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Poitiers",
+        "city": "Poitiers",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_63f88753f1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b01c1ace",
+        "t_1aeea594"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 août",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "SCABB",
+        "SCABB"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Chamond",
+        "city": "Saint-Chamond",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_31d30ab649",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0d612940"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-28",
+      "dateLabel": "28 août",
+      "time": "20:45",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Angers",
+        "city": "Angers",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_d514d1d086",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_22711b1d"
       ],
       "confidence": 1
     },
@@ -2249,7 +3376,7 @@
       "dateLabel": "Sabato 29 agosto",
       "time": "20:00",
       "homeTeam": "t_47dac4e9",
-      "awayTeam": null,
+      "awayTeam": "t_47dac4e9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2284,6 +3411,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/tezenis-verona-le-info-sulle-amichevoli-della-preseason/",
           "published": "2026-08-11"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
         }
       ],
       "notes": [],
@@ -2448,6 +3580,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/trento-torna-in-val-di-non-ritiro-dal-26-al-29-agosto-e-prima-amichevole-contro-la-juvi-cremona/",
           "published": "2026-08-13"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/dolomiti-energia-trentino-al-via-la-stagione-2026-27-con-il-primo-allenamento/",
+          "published": "Thu, 20 Aug 2026 19:40:12 +0000"
         }
       ],
       "notes": [],
@@ -2792,6 +3929,486 @@
       "teams": [
         "t_69f18cb3",
         "t_84c93f92"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "17:00",
+      "homeTeam": "t_d11ec1d0",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Verneuil d’Avre et d’Iton",
+        "city": "Verneuil d’Avre et d’Iton",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_e36fd34a41",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d11ec1d0",
+        "t_3d4874d5"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "17:15",
+      "homeTeam": "t_ef5a480c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_29795c74d9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef5a480c",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "17:30",
+      "homeTeam": "t_b89e7829",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Fos-sur-Mer",
+        "city": "Fos-sur-Mer",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_928de3a57f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b89e7829",
+        "t_d5ae9f2d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "18:00",
+      "homeTeam": "t_29742116",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Montgermont",
+        "city": "Montgermont",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3e4d12675f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_29742116",
+        "t_1f86c9b9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "18:00",
+      "homeTeam": "t_bb56c711",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Châlons-en-Champagne",
+        "city": "Châlons-en-Champagne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3098c894ec",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_bb56c711",
+        "t_6230ff54"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "18:00",
+      "homeTeam": "t_3346f25b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Clément-des-Baleines",
+        "city": "Saint-Clément-des-Baleines",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ea313c468a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3346f25b",
+        "t_1a307999"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "18:00",
+      "homeTeam": "t_9c71432b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Quentin",
+        "city": "Saint-Quentin",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_7d5d78f3ad",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9c71432b",
+        "t_11aaad26"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "18:30",
+      "homeTeam": "t_caa7ae95",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Belley",
+        "city": "Belley",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_4584236ed8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_caa7ae95",
+        "t_e0376665"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "19:30",
+      "homeTeam": "t_b8c446a3",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Nicolas-de-Port",
+        "city": "Saint-Nicolas-de-Port",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_750d190df8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b8c446a3",
+        "t_577949d9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "20:00",
+      "homeTeam": "t_211b1542",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "La Balme-de-Sillingy",
+        "city": "La Balme-de-Sillingy",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_fd7acf7a66",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_211b1542",
+        "t_88a640c0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "20:00",
+      "homeTeam": "t_02ac2d32",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Fos-sur-Mer",
+        "city": "Fos-sur-Mer",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_de01a85c90",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_02ac2d32",
+        "t_43593149"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "20:00",
+      "homeTeam": "t_3c6fe8bb",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_4b243ab2c3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3c6fe8bb",
+        "t_ef202e7d"
       ],
       "confidence": 1
     },
@@ -3200,6 +4817,86 @@
       "teams": [
         "t_97d76180",
         "t_34de7693"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "30 août",
+      "time": "17:00",
+      "homeTeam": "t_c857040d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Dunkerque",
+        "city": "Dunkerque",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_53d3acd39a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_c857040d",
+        "t_11aaad26"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-30",
+      "dateLabel": "30 août",
+      "time": "18:30",
+      "homeTeam": "t_4e00735a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pau",
+        "city": "Pau",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_23a0d06103",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e00735a",
+        "t_334e81e2"
       ],
       "confidence": 1
     },
@@ -3897,6 +5594,125 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-01",
+      "dateLabel": "1er septembre",
+      "time": "16:00",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Cholet",
+        "city": "Cholet",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_899a8599ab",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_d5b6cc73"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1er septembre",
+      "time": "18:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Rouen",
+        "city": "Rouen",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_6b91b9235c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_9c71432b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-01",
+      "dateLabel": "1er septembre",
+      "time": "19:00",
+      "homeTeam": "t_d14b06fe",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Vichy",
+        "city": "Vichy",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_b9fd5c5b9a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-02",
       "dateLabel": "2.9",
       "time": null,
@@ -4030,13 +5846,13 @@
     {
       "date": "2026-09-02",
       "dateLabel": "2.9",
-      "time": null,
-      "homeTeam": null,
+      "time": "20:00",
+      "homeTeam": "t_22711b1d",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "La Baule-Escoublac",
         "city": "לה בול",
         "country": "צרפת"
       },
@@ -4051,6 +5867,11 @@
         {
           "name": "bebasket.fr",
           "url": "https://www.bebasket.fr/le-msb-devoile-son-programme-de-pre-saison-avant-lexercice-2026-2027"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [
@@ -4060,7 +5881,8 @@
       "published": null,
       "id": "g_2279521b89",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_59598d71",
@@ -4309,6 +6131,46 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-02",
+      "dateLabel": "2 septembre",
+      "time": "18:00",
+      "homeTeam": "t_577949d9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Illkirch",
+        "city": "Illkirch",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ba73f62f3f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_577949d9",
+        "t_85e73fab"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-03",
       "dateLabel": "3.9",
       "time": null,
@@ -4534,6 +6396,48 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-03",
+      "dateLabel": "3 septembre",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "SCABB",
+        "SCABB"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Chamond",
+        "city": "Saint-Chamond",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_5fb0c7ac1d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-04",
       "dateLabel": "4.9",
       "time": null,
@@ -4720,7 +6624,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Bourg-en-Bresse",
         "city": "בורג-אן-ברס",
         "country": "צרפת"
       },
@@ -4740,6 +6644,11 @@
           "name": "club:t_211b1542",
           "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
           "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [
@@ -4756,7 +6665,7 @@
         "t_211b1542",
         "t_e0376665"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-04",
@@ -4855,9 +6764,9 @@
     {
       "date": "2026-09-04",
       "dateLabel": "Venerdì 4 settembre",
-      "time": null,
+      "time": "18:00",
       "homeTeam": "t_d2164f8d",
-      "awayTeam": null,
+      "awayTeam": "t_d5b6cc73",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4877,6 +6786,16 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/treviso-basket-le-date-della-preseason/",
           "published": "2026-07-22"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -4890,7 +6809,7 @@
         "t_d2164f8d",
         "t_d5b6cc73"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-04",
@@ -5135,6 +7054,246 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "19:00",
+      "homeTeam": "t_2346c130",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Louvain",
+        "city": "Louvain",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_100e64bd46",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2346c130",
+        "t_6230ff54"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "20:00",
+      "homeTeam": "t_3346f25b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "La Rochelle",
+        "city": "La Rochelle",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3e895961e1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3346f25b",
+        "t_29742116"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "20:00",
+      "homeTeam": "t_b8c446a3",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pont-à-Mousson",
+        "city": "Pont-à-Mousson",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_73550e746a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b8c446a3",
+        "t_311470db"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "20:00",
+      "homeTeam": "t_a44f7e1a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Mahón",
+        "city": "Mahón",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_82a3971cc1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_a44f7e1a",
+        "t_d6cca7c8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "20:00",
+      "homeTeam": "t_82688c6c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Courtrai",
+        "city": "Courtrai",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_9dc2f7086e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_82688c6c",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "4 septembre",
+      "time": "20:00",
+      "homeTeam": "t_4e00735a",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Roanne",
+        "city": "Roanne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_c241ce89af",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e00735a",
+        "t_0d612940"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-05",
       "dateLabel": "5.9",
       "time": null,
@@ -5297,8 +7456,8 @@
     {
       "date": "2026-09-05",
       "dateLabel": "5.9",
-      "time": null,
-      "homeTeam": null,
+      "time": "19:30",
+      "homeTeam": "t_7cd10ddf",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
@@ -5318,6 +7477,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/tortona-il-calendario-della-preseason-2026-27/"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -5332,7 +7496,7 @@
         "t_7cd10ddf",
         "t_43593149"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-05",
@@ -6311,6 +8475,486 @@
       "teams": [
         "t_0fec3b85",
         "t_84c93f92"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "16:30",
+      "homeTeam": "t_7fecb454",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Le Havre",
+        "city": "Le Havre",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_e2c9dc0da3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7fecb454",
+        "t_d11ec1d0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "17:00",
+      "homeTeam": "t_b8c446a3",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Mirecourt",
+        "city": "Mirecourt",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_f0d73d1a09",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b8c446a3",
+        "t_ef5a480c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "17:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Maromme",
+        "city": "Maromme",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_895e6f1e09",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_72fb1ab9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "17:00",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vannes",
+        "city": "Vannes",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ce18e1ff3a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_ef202e7d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "18:00",
+      "homeTeam": "t_577949d9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Illkirch",
+        "city": "Illkirch",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3f772f9731",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_577949d9",
+        "t_e5e917e8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "18:00",
+      "homeTeam": "t_35ec1b95",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Karlsruhe",
+        "city": "Karlsruhe",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_31f9a8e17a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_35ec1b95",
+        "t_3c6fe8bb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "19:00",
+      "homeTeam": "t_1a307999",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nantes",
+        "city": "Nantes",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_02819d0cc8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1a307999",
+        "t_29742116"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "19:00",
+      "homeTeam": "t_1f86c9b9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Le Havre",
+        "city": "Le Havre",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_df17d4e35d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1f86c9b9",
+        "t_bb56c711"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "19:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Roanne",
+        "city": "Roanne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_51426e6e6c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_4e00735a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "19:30",
+      "homeTeam": "t_af249f63",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vannes",
+        "city": "Vannes",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_705694ee25",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_af249f63",
+        "t_59598d71"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "20:00",
+      "homeTeam": "t_caa7ae95",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Aiguebelle",
+        "city": "Aiguebelle",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_32857f24a4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_caa7ae95",
+        "t_ea065479"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-05",
+      "dateLabel": "5 septembre",
+      "time": "20:30",
+      "homeTeam": "t_22711b1d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Bordeaux",
+        "city": "Bordeaux",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_dfef0a9cd9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_22711b1d",
+        "t_b01c1ace"
       ],
       "confidence": 1
     },
@@ -7372,6 +10016,126 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-06",
+      "dateLabel": "6 septembre",
+      "time": "16:30",
+      "homeTeam": "t_d3d3d473",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Maur-des-Fossés",
+        "city": "Saint-Maur-des-Fossés",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_b3752df351",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d3d3d473",
+        "t_d10e3e20"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septembre",
+      "time": "18:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Rouen",
+        "city": "Rouen",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_f9115b806e",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_0d612940"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "6 septembre",
+      "time": "18:00",
+      "homeTeam": "t_cd099d24",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Ludwigsburg",
+        "city": "Ludwigsburg",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_993c08957f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cd099d24",
+        "t_3c6fe8bb"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-07",
       "dateLabel": "7.9, 20:00",
       "time": "20:00",
@@ -7538,6 +10302,47 @@
       "teams": [
         "t_8ee48f2b",
         "t_a582ddfa"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-07",
+      "dateLabel": "7 septembre",
+      "time": "19:00",
+      "homeTeam": "t_d14b06fe",
+      "awayTeam": null,
+      "candidates": [
+        "SCABB"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vichy",
+        "city": "Vichy",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_eeb2c6b160",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d14b06fe"
       ],
       "confidence": 1
     },
@@ -7751,6 +10556,126 @@
       "teams": [
         "t_ea80e631",
         "t_ec103f8c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "8 septembre",
+      "time": "18:00",
+      "homeTeam": "t_43593149",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Antibes",
+        "city": "Antibes",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_2815da4932",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_43593149",
+        "t_d5ae9f2d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "8 septembre",
+      "time": "19:00",
+      "homeTeam": "t_22711b1d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Agen",
+        "city": "Agen",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_99cb2ad1f0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_22711b1d",
+        "t_4e00735a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "8 septembre",
+      "time": "19:00",
+      "homeTeam": "t_6230ff54",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Cambrai",
+        "city": "Cambrai",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_6649430c08",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_6230ff54",
+        "t_9c71432b"
       ],
       "confidence": 1
     },
@@ -7980,9 +10905,9 @@
     {
       "date": "2026-09-09",
       "dateLabel": "Mercoledì 9 settembre",
-      "time": null,
+      "time": "20:00",
       "homeTeam": "t_d2164f8d",
-      "awayTeam": null,
+      "awayTeam": "t_5d59a83a",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8007,6 +10932,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
           "published": "2026-07-27"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
         }
       ],
       "notes": [],
@@ -8311,6 +11241,166 @@
       "teams": [
         "t_066138ff",
         "t_32fd0b6f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 septembre",
+      "time": "14:00",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Asago",
+        "city": "Asago",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_abce08a7e9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_577949d9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 septembre",
+      "time": "18:00",
+      "homeTeam": "t_d11ec1d0",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Evreux",
+        "city": "Evreux",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_dcccc2b8dc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d11ec1d0",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 septembre",
+      "time": "18:00",
+      "homeTeam": "t_d5b6cc73",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nanterre",
+        "city": "Nanterre",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_dabf468352",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d5b6cc73",
+        "t_d3d3d473"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "9 septembre",
+      "time": "20:30",
+      "homeTeam": "t_d6cca7c8",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Londres",
+        "city": "Londres",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_e4dd485037",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d6cca7c8",
+        "t_de097d3a"
       ],
       "confidence": 1
     },
@@ -9509,6 +12599,288 @@
       "confidence": 3
     },
     {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "17:00",
+      "homeTeam": "t_1a307999",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Blois",
+        "city": "Blois",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_52bfedd650",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1a307999",
+        "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "SCABB",
+        "SCABB"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Unieux",
+        "city": "Unieux",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_2b11e7f860",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_caa7ae95"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "19:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Roanne",
+        "city": "Roanne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_b6fdd00982",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_311470db"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "19:30",
+      "homeTeam": "t_9c71432b",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Quentin",
+        "city": "Saint-Quentin",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ed170d4083",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9c71432b",
+        "t_1f86c9b9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "19:30",
+      "homeTeam": "t_ef202e7d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Neuville-aux-Bois",
+        "city": "Neuville-aux-Bois",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_f114e8269a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef202e7d",
+        "t_bb56c711"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "19:30",
+      "homeTeam": "t_1aeea594",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Blois",
+        "city": "Blois",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ca30763b03",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1aeea594",
+        "t_3346f25b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-11",
+      "dateLabel": "11 septembre",
+      "time": "20:00",
+      "homeTeam": "t_7fecb454",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Le Rheu",
+        "city": "Le Rheu",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_61a38153c1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7fecb454",
+        "t_29742116"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-12",
       "dateLabel": "12.9, 19:00",
       "time": "19:00",
@@ -9770,7 +13142,7 @@
     {
       "date": "2026-09-12",
       "dateLabel": "12.09.26",
-      "time": "19:00",
+      "time": "18:00",
       "homeTeam": "t_12174e28",
       "awayTeam": "t_2a1ac857",
       "candidates": [],
@@ -9794,6 +13166,11 @@
           "published": null
         },
         {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
           "name": "ספורט 1",
           "url": "https://sport1.maariv.co.il/israeli-basketball/winner-basketball-league/article/1921169/"
         },
@@ -9811,7 +13188,7 @@
         "ייתכן שזו אותה קבוצת 'רומא' שהוזכרה כבר בטורניר קליארי יחד עם הפועל ת\"א ובאיירן - טרם ניתן לוודא אם מדובר במקסימה או ב-SPQR"
       ],
       "origin": "extracted",
-      "published": null,
+      "published": "2026-08-20T18:00:50+00:00",
       "id": "g_64a9d6a641",
       "origins": [
         "extracted"
@@ -9820,19 +13197,19 @@
         "t_12174e28",
         "t_2a1ac857"
       ],
-      "confidence": 4
+      "confidence": 5
     },
     {
       "date": "2026-09-12",
       "dateLabel": "Sam 12 Sept",
-      "time": "19:00",
+      "time": "15:00",
       "homeTeam": "t_e5b49b07",
       "awayTeam": "t_211b1542",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Vilnius",
+        "city": "Vilnius",
         "country": null
       },
       "tournament": null,
@@ -9847,11 +13224,16 @@
           "name": "club:t_211b1542",
           "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
           "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": null,
+      "published": "2026-08-20T18:00:50+00:00",
       "id": "g_661f8c9fa0",
       "origins": [
         "extracted"
@@ -9860,7 +13242,7 @@
         "t_e5b49b07",
         "t_211b1542"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -10324,13 +13706,13 @@
       "date": "2026-09-12",
       "dateLabel": "12 septiembre",
       "time": "20:30",
-      "homeTeam": null,
+      "homeTeam": "t_0f5171f1",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Zuera",
+        "city": "Zuera",
         "country": null
       },
       "tournament": null,
@@ -10345,6 +13727,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
           "published": "2026-08-13"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -10358,7 +13745,7 @@
         "t_0f5171f1",
         "t_4e00735a"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -10813,6 +14200,326 @@
       "confidence": 2
     },
     {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "17:00",
+      "homeTeam": "t_6230ff54",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Denain",
+        "city": "Denain",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_178a29259d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_6230ff54",
+        "t_cf27f09c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "17:15",
+      "homeTeam": "t_3c6fe8bb",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Luxeuil-les-Bains",
+        "city": "Luxeuil-les-Bains",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_96a75e81a8",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3c6fe8bb",
+        "t_4eafb3e4"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "18:00",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Sablé-sur-Sarthe",
+        "city": "Sablé-sur-Sarthe",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_11c129d5ec",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "18:00",
+      "homeTeam": "t_7ea3d10f",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vilnius",
+        "city": "Vilnius",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ce29ad592c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7ea3d10f",
+        "t_b49d2d8b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "19:00",
+      "homeTeam": "t_22711b1d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Les Sables-d’Olonne",
+        "city": "Les Sables-d’Olonne",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_73954866b6",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_22711b1d",
+        "t_af249f63"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "19:30",
+      "homeTeam": "t_ef5a480c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Luxeuil-les-Bains",
+        "city": "Luxeuil-les-Bains",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_54bb40b99c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef5a480c",
+        "t_577949d9"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "20:30",
+      "homeTeam": "t_59598d71",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Sablé-sur-Sarthe",
+        "city": "Sablé-sur-Sarthe",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_b0a8346321",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_59598d71",
+        "t_b8c446a3"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
+      "time": "20:30",
+      "homeTeam": "t_0d612940",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Cagliari",
+        "city": "Cagliari",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_11aea0971f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_0d612940",
+        "t_47f7f3db"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-13",
       "dateLabel": "13.9",
       "time": null,
@@ -11044,7 +14751,7 @@
       "dateLabel": "Domenica 13 settembre",
       "time": "19:00",
       "homeTeam": "t_d2164f8d",
-      "awayTeam": null,
+      "awayTeam": "t_18ce03ce",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11069,6 +14776,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
           "published": "2026-08-02"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
         }
       ],
       "notes": [],
@@ -11320,6 +15032,46 @@
       "teams": [
         "t_ea80e631",
         "t_e2d3f7c8"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "13 septembre",
+      "time": "16:00",
+      "homeTeam": "t_70c99ad0",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Bonn",
+        "city": "Bonn",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_3c04249927",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_70c99ad0",
+        "t_d5b6cc73"
       ],
       "confidence": 1
     },
@@ -11708,6 +15460,46 @@
       ],
       "teams": [
         "t_84c93f92"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-16",
+      "dateLabel": "16 septembre",
+      "time": "19:00",
+      "homeTeam": "t_af249f63",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Limoges",
+        "city": "Limoges",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_eec20325dc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_af249f63",
+        "t_ef5a480c"
       ],
       "confidence": 1
     },
@@ -12933,6 +16725,206 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-18",
+      "dateLabel": "18 septembre",
+      "time": "18:00",
+      "homeTeam": "t_ccb441ab",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Ostende",
+        "city": "Ostende",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_f358122453",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ccb441ab",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 septembre",
+      "time": "19:00",
+      "homeTeam": "t_d5ae9f2d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Toulon",
+        "city": "Toulon",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_ffb28a5498",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d5ae9f2d",
+        "t_43593149"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 septembre",
+      "time": "19:00",
+      "homeTeam": "t_3c6fe8bb",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Chalon-sur-Saône",
+        "city": "Chalon-sur-Saône",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_97917d4e27",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3c6fe8bb",
+        "t_b8c446a3"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 septembre",
+      "time": "20:00",
+      "homeTeam": "t_1f86c9b9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Belleville-sur-Mer",
+        "city": "Belleville-sur-Mer",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_07f6a7470f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1f86c9b9",
+        "t_6230ff54"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18 septembre",
+      "time": "20:00",
+      "homeTeam": "t_bb56c711",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Recy",
+        "city": "Recy",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_c087cadadc",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_bb56c711",
+        "t_311470db"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-19",
       "dateLabel": "19.9, 18:00",
       "time": "18:00",
@@ -13346,13 +17338,13 @@
     {
       "date": "2026-09-19",
       "dateLabel": "19 settembre",
-      "time": null,
+      "time": "20:00",
       "homeTeam": "t_577949d9",
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": null,
+        "arena": "Strasbourg",
         "city": "Strasburgo",
         "country": null
       },
@@ -13368,6 +17360,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
           "published": "2026-07-28"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
         }
       ],
       "notes": [],
@@ -13381,7 +17378,7 @@
         "t_577949d9",
         "t_726df887"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-19",
@@ -13518,7 +17515,7 @@
       "dateLabel": "Sabato 19 settembre",
       "time": "18:45",
       "homeTeam": "t_d2164f8d",
-      "awayTeam": null,
+      "awayTeam": "t_cce353da",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13543,6 +17540,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
           "published": "2026-08-04"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
         }
       ],
       "notes": [],
@@ -14205,6 +18207,326 @@
       "teams": [
         "t_ea80e631",
         "t_a582ddfa"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "18:00",
+      "homeTeam": "t_4e577025",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Cholet",
+        "city": "Cholet",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_113316a04b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_22711b1d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "18:00",
+      "homeTeam": "t_cf27f09c",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Rouen",
+        "city": "Rouen",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_4c5832bd25",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cf27f09c",
+        "t_d11ec1d0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "18:00",
+      "homeTeam": "t_1a307999",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Rezé",
+        "city": "Rezé",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_e43ea418fb",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1a307999",
+        "t_7fecb454"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "18:30",
+      "homeTeam": "t_af249f63",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Limoges",
+        "city": "Limoges",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_70e1aafb3d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_af249f63",
+        "t_4e00735a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "19:00",
+      "homeTeam": "t_b01c1ace",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Poitiers",
+        "city": "Poitiers",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_7167a36e21",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b01c1ace",
+        "t_3346f25b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "19:00",
+      "homeTeam": "t_1aeea594",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Blois",
+        "city": "Blois",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_1e077fcff2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1aeea594",
+        "t_9c71432b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "19:00",
+      "homeTeam": "t_ef202e7d",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Saint-Jean-de-Braye",
+        "city": "Saint-Jean-de-Braye",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_41b4253bf1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_ef202e7d",
+        "t_d3d3d473"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19 septembre",
+      "time": "20:00",
+      "homeTeam": "t_59598d71",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Poissy",
+        "city": "Poissy",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_b7cd0af8df",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_59598d71",
+        "t_d70cfe97"
       ],
       "confidence": 1
     },
@@ -15291,6 +19613,86 @@
       ],
       "teams": [
         "t_c74fc487"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "la domenica",
+      "time": "16:00",
+      "homeTeam": "t_d2164f8d",
+      "awayTeam": "t_211b1542",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Bourg-en-Bresse",
+        "country": null
+      },
+      "tournament": "Ain Star Game",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 20 Aug 2026 18:05:05 +0000",
+      "id": "g_46f58891be",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d2164f8d",
+        "t_211b1542"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": "la domenica",
+      "time": "18:30",
+      "homeTeam": "t_d2164f8d",
+      "awayTeam": "t_e0376665",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Bourg-en-Bresse",
+        "country": null
+      },
+      "tournament": "Ain Star Game",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 20 Aug 2026 18:05:05 +0000",
+      "id": "g_24a23c20cf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d2164f8d",
+        "t_e0376665"
       ],
       "confidence": 1
     }
