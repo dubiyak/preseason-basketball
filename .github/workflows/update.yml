@@ -20,6 +20,11 @@ on:
     - cron: "17 19 * * *"  # 22:00 — most games final
     - cron: "17 21 * * *"  # 00:00 — the rest are final
   workflow_dispatch:
+    inputs:
+      heavy:
+        description: "Also crawl the archives and render the JavaScript-only club pages (adds ~15 min)"
+        type: boolean
+        default: false
 
 # Every step pipes its command into tee so the log survives as a file. Under
 # GitHub's default shell that silently discarded the exit code: a pipeline
@@ -42,12 +47,17 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
     # A job with no ceiling can hang forever, and because runs share a
     # concurrency group a hung one blocks every run queued behind it. On 19.8
     # the browser step hung and the site went eight hours without an update
     # while three runs piled up waiting for it.
-    timeout-minutes: 45
+    #
+    # Raised from 45 on 20.8, after a run spent 35 minutes collecting and was
+    # killed with build, check and commit still queued behind it — losing
+    # everything it had gathered. Every step now carries its own timeout, so
+    # this is the last backstop rather than the first line of defence, and it
+    # only has to be larger than a slow honest run.
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
@@ -88,15 +98,19 @@ jobs:
         continue-on-error: true
         run: node scripts/twitter.mjs | tee twitter.log
 
-      # Crawling every sitemap is expensive and the archive barely changes, so
-      # this runs once a day, in the 03:00 slot. Articles are cached
-      # permanently, so repeat passes only cost the crawl itself.
-      # A real browser, only for the clubs whose fixture page is injected by
-      # JavaScript and reads as empty otherwise. Expensive and its answer barely
-      # changes hour to hour, so it shares the daily slot with the archive crawl.
+      # The two expensive layers, and the only two that are optional. Crawling
+      # every sitemap costs minutes and the archive barely changes; a real
+      # browser, needed only for the clubs whose fixture page is injected by
+      # JavaScript, costs more. Both run in the 03:00 slot and nowhere else.
+      #
+      # A manual run used to include them, which is what killed the run on 20.8:
+      # they pushed collection past half an hour and the job died with build,
+      # check and commit still waiting. A manual run is nearly always "publish
+      # what you have now", so it skips them and finishes in about ten minutes.
+      # Ask for them with the heavy input when a full archive sweep is the point.
       - name: Render the JavaScript-only club pages
         timeout-minutes: 20
-        if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '17 0 * * *' || inputs.heavy
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -111,7 +125,7 @@ jobs:
 
       - name: Backfill the archives
         timeout-minutes: 15
-        if: github.event.schedule == '17 0 * * *' || github.event_name == 'workflow_dispatch'
+        if: github.event.schedule == '17 0 * * *' || inputs.heavy
         continue-on-error: true
         run: node scripts/backfill.mjs | tee backfill.log
 
