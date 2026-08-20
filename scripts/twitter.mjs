@@ -12,7 +12,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { get } from "../lib/fetch.mjs";
+import { get, toText } from "../lib/fetch.mjs";
 
 const DATA = path.resolve(import.meta.dirname, "..", "data");
 const read = (f, fb) =>
@@ -40,6 +40,12 @@ const strip = (s) =>
     .replace(/&gt;/g, ">").replace(/&lt;/g, "<").replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
     .replace(/\s+/g, " ").trim();
 
+/** A tweet body, with the destination of each link kept beside its text. */
+const tweetBody = (raw) =>
+  toText(String(raw || "").replace(/<!\[CDATA\[|\]\]>/g, ""), 900,
+         { links: true, base: "https://twitter.com" })
+    .replace(/\s+/g, " ").trim();
+
 /** Walk the mirrors until one answers with a parseable feed. */
 async function timeline(handle) {
   for (const m of MIRRORS) {
@@ -47,7 +53,12 @@ async function timeline(handle) {
     if (!xml || !/<rss|<feed/i.test(xml)) continue;
     const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((b) => ({
       text: strip((b[1].match(/<title>([\s\S]*?)<\/title>/) || [])[1]),
-      body: strip((b[1].match(/<description>([\s\S]*?)<\/description>/) || [])[1]).slice(0, 600),
+      // A tweet is where a club posts its own stream and its own boxscore, and
+      // the mirror puts both in the description as anchors — which strip() threw
+      // away with every other tag, leaving the model the words "watch live" and
+      // nothing behind them. Kept here because a tweet is short: the links are
+      // few, and every one of them is about the game the tweet is announcing.
+      body: tweetBody((b[1].match(/<description>([\s\S]*?)<\/description>/) || [])[1]),
       link: strip((b[1].match(/<link>([\s\S]*?)<\/link>/) || [])[1]),
       date: strip((b[1].match(/<pubDate>([\s\S]*?)<\/pubDate>/) || [])[1]),
     })).filter((i) => i.text);

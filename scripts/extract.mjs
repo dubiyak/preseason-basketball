@@ -64,7 +64,11 @@ if (!KEY) {
 // collapsed into dates with no opponents until cell boundaries survived.
 async function articleText(url) {
   const html = await get(url, { timeout: 25000 });
-  return html ? toText(html, 16000) : null;
+  // Links on, and a bigger budget to pay for them. Keeping each URL beside the
+  // words that carry it costs about half again in characters — the ABA calendar
+  // goes from 12.6k to 18.6k — and truncating at the old ceiling would have cut
+  // the tail off the very fixture tables this is for.
+  return html ? toText(html, 20000, { links: true, base: url }) : null;
 }
 
 /* ---------- schema ---------- */
@@ -139,6 +143,9 @@ Rules:
 - Only output a date when the article gives one that resolves to a real day. If it says "mid-September" or gives no date, leave date empty and put the wording in dateText.
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
+- URLs appear in square brackets straight after the words that link to them, like "Boxscore [https://example.com/match/12]". They are the page's own links, copied for you. Use them and copy them character for character; never write a URL that is not in the text, and never guess one from a pattern you have seen before.
+- statsUrl is a page about ONE game: a boxscore, a match centre, a live-stats page. A club's season statistics page or a league's player-statistics page is about many games and is not it — leave statsUrl empty rather than attach one.
+- reportUrl is a write-up of one game after it was played. broadcastUrl is where to watch a specific game. A club's home page, ticket page or shop is none of these.
 - This tracks CLUBS only. A game involving a national team (Greece, Israel, Serbia...) is not a club game: set isNationalTeam=true so it can be filtered out.
 - This tracks EUROPEAN preseason. A game between two NBA franchises is the NBA's own calendar even when it is played in Europe: set isNbaOnly=true. Set it only when BOTH sides are NBA — an NBA club against a European club, or a US college against a European club, is a preseason game and stays. Franchise names arrive transliterated ("Σαν Αντόνιο Σπερς", "סן אנטוניו ספרס"): judge the club, not the spelling.
 - Games already played DO belong here. Set played=true and write the final score in the score field as home:away — both numbers together, exactly as the source shows them. If only one number is visible, leave the score empty and played false. Include any boxscore or match-report link given for the game.
