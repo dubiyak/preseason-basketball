@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T20:05:27.308Z",
+  "updated": "2026-08-22T22:12:18.912Z",
   "season": "2026-27",
-  "newGames": 13,
+  "newGames": 1,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -979,6 +979,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/tr/tbl-tr/2000873/tofas-hazirlik-donemine-glint-korfez-galibiyetiyle-basladi/",
           "published": "Sat, 22 Aug 2026 18:07:32 +0000"
+        },
+        {
+          "name": "bursahakimiyet",
+          "url": "https://www.bursahakimiyet.com.tr/bursaspor/tofas-glint-korfez-basket-i-maglup-etti-1694810",
+          "published": "Sat, 22 Aug 2026 19:50:00 GMT"
         }
       ],
       "notes": [],
@@ -993,7 +998,7 @@
         "t_e3680384",
         "t_e4808617"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-08-22",
@@ -1092,20 +1097,23 @@
       "date": "2026-08-22",
       "dateLabel": "Sabato 22 agosto",
       "time": "19:00",
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_9f143938",
+      "awayTeam": "t_aeb4f22d",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "Baltur Arena",
-        "city": null,
-        "country": null
+        "city": "Cento",
+        "country": "Italy"
       },
       "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 82,
+        "away": 82
+      },
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
@@ -1113,6 +1121,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/cento-definito-il-programma-della-preseason-2026-2027/",
           "published": "2026-08-10"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/buon-esordio-per-la-tema-sinergie-faenza-a-cento-finisce-in-parita/",
+          "published": "Sat, 22 Aug 2026 20:45:07 +0000"
         }
       ],
       "notes": [],
@@ -1145,7 +1158,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 67,
+        "away": 57
+      },
       "statsUrl": "https://www.aba-liga.com/match-preseason/1032/26/fmp-gajdobra/",
       "reportUrl": null,
       "sources": [
@@ -1185,7 +1201,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 90,
+        "away": 59
+      },
       "statsUrl": "https://www.aba-liga.com/match-preseason/1041/26/krka-hopsi/",
       "reportUrl": null,
       "sources": [
@@ -11425,46 +11444,6 @@
     },
     {
       "date": "2026-09-07",
-      "dateLabel": "Monday, 07.09.2026",
-      "time": null,
-      "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_a582ddfa",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1046/26/krka-paks/",
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_f4e834760e",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_8ee48f2b",
-        "t_a582ddfa"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-07",
       "dateLabel": "7 septembre",
       "time": "19:00",
       "homeTeam": "t_d14b06fe",
@@ -11714,6 +11693,46 @@
       "teams": [
         "t_ea80e631",
         "t_ec103f8c"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "Tuesday, 08.09.2026",
+      "time": null,
+      "homeTeam": "t_8ee48f2b",
+      "awayTeam": "t_a582ddfa",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": "https://www.aba-liga.com/match-preseason/1046/26/krka-paks/",
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_2a3c391896",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_8ee48f2b",
+        "t_a582ddfa"
       ],
       "confidence": 1
     },
