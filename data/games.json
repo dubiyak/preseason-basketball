@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-23T05:15:56.283Z",
+  "updated": "2026-08-23T14:15:07.988Z",
   "season": "2026-27",
-  "newGames": 10,
+  "newGames": 2,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -138,7 +138,7 @@
       "dateLabel": "Saturday, 08.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_b0dd3976",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -181,7 +181,7 @@
       "dateLabel": "Sunday, 09.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_b0dd3976",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -359,7 +359,7 @@
       "dateLabel": "Tuesday, 18.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_1caafcfe",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -543,7 +543,7 @@
       "dateLabel": "Thursday, 20.08.2026",
       "time": "18:00",
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_8fe33769",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -586,7 +586,7 @@
       "dateLabel": "Thursday, 20.08.2026",
       "time": "20:00",
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_69c1106f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -669,7 +669,7 @@
       "dateLabel": "21.8",
       "time": "17:00",
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_726df887",
+      "awayTeam": "t_ea80e631",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -889,6 +889,49 @@
       "teams": [
         "t_ef848480",
         "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-21",
+      "dateLabel": "χθες",
+      "time": null,
+      "homeTeam": "t_9b9664c9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PAOK Sports Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 94,
+        "away": 69
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-ta-prota-highlights-tis-sezon-apo-to-filiko-me-tin-tft-video",
+          "published": "2026-08-23T11:50:45+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-23T11:50:45+00:00",
+      "id": "g_0a2709a763",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9b9664c9",
+        "t_ce6e16a2"
       ],
       "confidence": 1
     },
@@ -1168,7 +1211,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_79df24d1",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1211,7 +1254,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_875ab2d7",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1266,7 +1309,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 65,
+        "away": 102
+      },
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
@@ -1274,6 +1320,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1294,7 +1345,7 @@
       "dateLabel": "22 août",
       "time": "17:00",
       "homeTeam": "t_d11ec1d0",
-      "awayTeam": null,
+      "awayTeam": "t_d3d3d473",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1306,14 +1357,22 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
-      "statsUrl": null,
+      "result": {
+        "home": 93,
+        "away": 80
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=15",
       "reportUrl": null,
       "sources": [
         {
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1374,7 +1433,7 @@
       "dateLabel": "22 août",
       "time": "18:00",
       "homeTeam": "t_3346f25b",
-      "awayTeam": null,
+      "awayTeam": "t_b01c1ace",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1386,14 +1445,22 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
-      "statsUrl": null,
+      "result": {
+        "home": 80,
+        "away": 94
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=11",
       "reportUrl": null,
       "sources": [
         {
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1414,7 +1481,7 @@
       "dateLabel": "22 août",
       "time": "19:00",
       "homeTeam": "t_cf27f09c",
-      "awayTeam": null,
+      "awayTeam": "t_1f86c9b9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1426,7 +1493,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 77,
+        "away": 93
+      },
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
@@ -1434,6 +1504,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1454,7 +1529,7 @@
       "dateLabel": "22 août",
       "time": "20:00",
       "homeTeam": "t_caa7ae95",
-      "awayTeam": null,
+      "awayTeam": "t_88a640c0",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1466,14 +1541,22 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
-      "statsUrl": null,
+      "result": {
+        "home": 88,
+        "away": 62
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=14",
       "reportUrl": null,
       "sources": [
         {
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1494,7 +1577,7 @@
       "dateLabel": "22 août",
       "time": "20:30",
       "homeTeam": "t_d5ae9f2d",
-      "awayTeam": null,
+      "awayTeam": "t_00f884eb",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1506,7 +1589,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 96,
+        "away": 64
+      },
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
@@ -1514,6 +1600,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
         }
       ],
       "notes": [],
@@ -1624,6 +1715,49 @@
       "teams": [
         "t_f9cbcffe",
         "t_16f1f52d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-22",
+      "dateLabel": "22 août",
+      "time": null,
+      "homeTeam": "t_1a307999",
+      "awayTeam": "t_c91e99c6",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 95,
+        "away": 87
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=140",
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
+          "published": "2026-08-23T08:23:38+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-23T08:23:38+00:00",
+      "id": "g_ca8ff9ebc3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1a307999",
+        "t_c91e99c6"
       ],
       "confidence": 1
     },
@@ -1840,7 +1974,7 @@
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_648bdb93",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1880,7 +2014,7 @@
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_8ee48f2b",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2292,7 +2426,7 @@
       "dateLabel": "Wednesday, 26.08.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_875ab2d7",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2607,7 +2741,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_dad6d75e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2647,7 +2781,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_648bdb93",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2687,7 +2821,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2727,7 +2861,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_ae9b2852",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2767,7 +2901,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_5fbe5e42",
-      "awayTeam": "t_7ab361c0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3064,7 +3198,7 @@
       "dateLabel": "Friday, 28.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_7a8a9ba0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4294,7 +4428,7 @@
       "dateLabel": "29 Ağustos tarihine kadar",
       "time": null,
       "homeTeam": "t_5935737f",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4339,7 +4473,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4379,7 +4513,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_69f18cb3",
-      "awayTeam": "t_84c93f92",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5277,7 +5411,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5317,7 +5451,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_34de7693",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5707,7 +5841,7 @@
       "dateLabel": "Monday, 31.08.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_5fbe5e42",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5832,7 +5966,7 @@
       "dateLabel": "1.9",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_726df887",
+      "awayTeam": "t_8ee48f2b",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6173,7 +6307,7 @@
       "dateLabel": "Tuesday, 01.09.2026",
       "time": null,
       "homeTeam": "t_e6b07e02",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6784,7 +6918,7 @@
       "dateLabel": "Wednesday, 02.09.2026",
       "time": null,
       "homeTeam": "t_5f254578",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7019,7 +7153,7 @@
       "dateLabel": "Thursday, 03.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_5e944bac",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7760,7 +7894,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_c2731d8f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7800,7 +7934,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_344e420f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7840,7 +7974,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": "18:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_5e5281ca",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -9480,7 +9614,7 @@
       "dateLabel": "Saturday, 05.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_e5842e3d",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -9520,7 +9654,7 @@
       "dateLabel": "Saturday, 05.09.2026",
       "time": null,
       "homeTeam": "t_0fec3b85",
-      "awayTeam": "t_84c93f92",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11283,7 +11417,7 @@
       "dateLabel": "Sunday, 06.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_17bfa9f2",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11362,7 +11496,7 @@
       "dateLabel": "Sunday, 06.09.2026",
       "time": "18:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_99dbf7c1",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12031,7 +12165,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_ec103f8c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12071,7 +12205,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_a582ddfa",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12111,7 +12245,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12746,7 +12880,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_ac2bfe9c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12786,7 +12920,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_0fec3b85",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12826,7 +12960,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_7ab361c0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12866,7 +13000,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": "18:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13514,7 +13648,7 @@
       "dateLabel": "giovedì 10 settembre",
       "time": "18:00",
       "homeTeam": "t_18ce03ce",
-      "awayTeam": "t_18ce03ce",
+      "awayTeam": "t_97d76180",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14348,7 +14482,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_e5842e3d",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14388,7 +14522,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": "17:00",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_157b4fa8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14428,7 +14562,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": "21:00",
       "homeTeam": "t_a85f3ce5",
-      "awayTeam": "t_e3b7f23c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -15963,7 +16097,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16042,7 +16176,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_33d3e8cd",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16082,7 +16216,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_e5cb1715",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16973,7 +17107,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_157b4fa8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17052,7 +17186,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_e2d3f7c8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17092,7 +17226,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17344,7 +17478,7 @@
       "dateLabel": "Monday, 14.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_0fec3b85",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -18106,7 +18240,7 @@
       "dateLabel": "Thursday, 17.09.2026",
       "time": null,
       "homeTeam": "t_726ded23",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -18924,7 +19058,7 @@
       "dateLabel": "Friday, 18.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_e2d3f7c8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -20485,7 +20619,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_64151b1f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -20525,7 +20659,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_93e5c997",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -20565,7 +20699,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_a582ddfa",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -21209,7 +21343,7 @@
       "dateLabel": "20 settembre",
       "time": "18:00",
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_03b3581a",
+      "awayTeam": "t_97d76180",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
