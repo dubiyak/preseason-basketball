@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-23T17:18:17.312Z",
+  "updated": "2026-08-23T19:58:50.668Z",
   "season": "2026-27",
-  "newGames": 11,
+  "newGames": 5,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -121,6 +121,14 @@
       "kept": "13:00",
       "alsoReported": "14:00",
       "from": "sportando",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_7c933d5ab2",
+      "field": "time",
+      "kept": "19:15",
+      "alsoReported": "18:15",
+      "from": "eurohoops",
       "resolvedBy": "recency"
     }
   ],
@@ -1790,6 +1798,49 @@
       "teams": [
         "t_1a307999",
         "t_c91e99c6"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-23",
+      "dateLabel": "23/08/2026",
+      "time": "20:00",
+      "homeTeam": "t_7e157e3f",
+      "awayTeam": "t_e8eb73dd",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaDelMauro",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 99,
+        "away": 62
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/halley-campania-avellino-basket-segnali-positivi-battuta-la-cestistica-san-severo/",
+          "published": "Sun, 23 Aug 2026 18:00:27 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sun, 23 Aug 2026 18:00:27 +0000",
+      "id": "g_bb817836b7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_7e157e3f",
+        "t_e8eb73dd"
       ],
       "confidence": 1
     },
@@ -3684,6 +3735,11 @@
           "published": "2026-08-21"
         },
         {
+          "name": "sportando",
+          "url": "https://sportando.basketball/reyer-venezia-la-stagione-entra-nel-vivo-al-via-il-ritiro-tra-allenamenti-tifosi-e-amichevoli/",
+          "published": "Sun, 23 Aug 2026 17:45:08 +0000"
+        },
+        {
           "name": "sportando_en",
           "url": "https://sportando.basketball/umana-reyer-venezia-falcade-ospitera-il-ritiro-precampionato/",
           "published": "2026-07-04"
@@ -3706,7 +3762,7 @@
     {
       "date": "2026-08-29",
       "dateLabel": "29.8",
-      "time": null,
+      "time": "18:00",
       "homeTeam": "t_99dbf7c1",
       "awayTeam": "t_e3680384",
       "candidates": [],
@@ -3737,6 +3793,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/tr/tbl-tr/2000873/tofas-hazirlik-donemine-glint-korfez-galibiyetiyle-basladi/",
           "published": "Sat, 22 Aug 2026 18:07:32 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
         }
       ],
       "notes": [],
@@ -11482,14 +11543,14 @@
     {
       "date": "2026-09-06",
       "dateLabel": "Sunday, 06.09.2026",
-      "time": "18:15",
+      "time": "19:15",
       "homeTeam": "t_be26eea9",
       "awayTeam": "t_99dbf7c1",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Gloria Sports Arena",
+        "city": "Antalya",
         "country": null
       },
       "tournament": null,
@@ -11504,11 +11565,16 @@
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": null,
+      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
       "id": "g_7c933d5ab2",
       "origins": [
         "extracted"
@@ -11517,7 +11583,7 @@
         "t_be26eea9",
         "t_99dbf7c1"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -12345,6 +12411,46 @@
       "teams": [
         "t_6230ff54",
         "t_9c71432b"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-08",
+      "dateLabel": "8 Eylül",
+      "time": "14:45",
+      "homeTeam": "t_99dbf7c1",
+      "awayTeam": "t_726ded23",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Gloria Sports Arena",
+        "city": "Antalya",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
+      "id": "g_efa9abb379",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_99dbf7c1",
+        "t_726ded23"
       ],
       "confidence": 1
     },
@@ -16634,6 +16740,46 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-12",
+      "dateLabel": "12 Eylül",
+      "time": "19:00",
+      "homeTeam": "t_99dbf7c1",
+      "awayTeam": "t_303da94d",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Aleksandar Nikolic Hall",
+        "city": "Sırbistan",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
+      "id": "g_c49c24dca3",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_99dbf7c1",
+        "t_303da94d"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-13",
       "dateLabel": "13.9",
       "time": null,
@@ -17044,45 +17190,6 @@
       "date": "2026-09-13",
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
-      "homeTeam": "t_1497d847",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1058/26/partizan-mozzart-bet-tba/",
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_168c099028",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1497d847"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-13",
-      "dateLabel": "Sunday, 13.09.2026",
-      "time": null,
       "homeTeam": "t_ea80e631",
       "awayTeam": "t_e2d3f7c8",
       "candidates": [],
@@ -17370,6 +17477,51 @@
         "t_47f7f3db"
       ],
       "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "13 Eylül",
+      "time": "19:00",
+      "homeTeam": "t_99dbf7c1",
+      "awayTeam": "t_1497d847",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Kalemegdan",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
+        },
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
+      "id": "g_0085041175",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_99dbf7c1",
+        "t_1497d847"
+      ],
+      "confidence": 2
     },
     {
       "date": "2026-09-14",
@@ -18209,6 +18361,48 @@
       ],
       "teams": [
         "t_84c93f92"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-17",
+      "dateLabel": "17 Eylül",
+      "time": "13:30",
+      "homeTeam": "t_99dbf7c1",
+      "awayTeam": null,
+      "candidates": [
+        "Bosna Basketball",
+        "Bosna Basketball"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Turkcell Basketbol Gelişim Merkezi",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
+          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
+      "id": "g_b66229b006",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_99dbf7c1"
       ],
       "confidence": 1
     },
