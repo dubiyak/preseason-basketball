@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-24T02:32:39.629Z",
+  "updated": "2026-08-24T05:35:38.414Z",
   "season": "2026-27",
-  "newGames": 1,
+  "newGames": 4,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -84,6 +84,14 @@
       "resolvedBy": "recency"
     },
     {
+      "game": "g_661f8c9fa0",
+      "field": "time",
+      "kept": "15:00",
+      "alsoReported": "19:00",
+      "from": "bebasket",
+      "resolvedBy": "recency"
+    },
+    {
       "game": "g_64a9d6a641",
       "field": "time",
       "kept": "18:00",
@@ -138,7 +146,7 @@
       "dateLabel": "Saturday, 08.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_b0dd3976",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -181,7 +189,7 @@
       "dateLabel": "Sunday, 09.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_b0dd3976",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -359,7 +367,7 @@
       "dateLabel": "Tuesday, 18.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_1caafcfe",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -543,7 +551,7 @@
       "dateLabel": "Thursday, 20.08.2026",
       "time": "18:00",
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_8fe33769",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -586,7 +594,7 @@
       "dateLabel": "Thursday, 20.08.2026",
       "time": "20:00",
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_69c1106f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -669,7 +677,7 @@
       "dateLabel": "21.8",
       "time": "17:00",
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_726df887",
+      "awayTeam": "t_ea80e631",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1082,9 +1090,12 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 93,
+        "away": 105
+      },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "http://www.basketball-ulm.com/news/offensivgefuehrter-testspiel-auftakt-2935/",
       "sources": [
         {
           "name": "club:t_66371643",
@@ -1251,7 +1262,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_79df24d1",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1294,7 +1305,7 @@
       "dateLabel": "Saturday, 22.08.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_875ab2d7",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -1806,7 +1817,7 @@
       "dateLabel": "Sunday, 23.08.2026",
       "time": null,
       "homeTeam": "t_2ce95e2a",
-      "awayTeam": "t_1b011a27",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2100,7 +2111,7 @@
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_648bdb93",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2140,7 +2151,7 @@
       "dateLabel": "Tuesday, 25.08.2026",
       "time": null,
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_8ee48f2b",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2552,7 +2563,7 @@
       "dateLabel": "Wednesday, 26.08.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_875ab2d7",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2867,7 +2878,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_2b3f230e",
-      "awayTeam": "t_dad6d75e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2907,7 +2918,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_648bdb93",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2947,7 +2958,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2987,7 +2998,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_ae9b2852",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3027,7 +3038,7 @@
       "dateLabel": "Thursday, 27.08.2026",
       "time": null,
       "homeTeam": "t_5fbe5e42",
-      "awayTeam": "t_7ab361c0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3324,7 +3335,7 @@
       "dateLabel": "Friday, 28.08.2026",
       "time": null,
       "homeTeam": "t_8fe33769",
-      "awayTeam": "t_7a8a9ba0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -3569,7 +3580,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "סופיה, בולגריה",
-        "city": "סופיה",
+        "city": null,
         "country": "בולגריה"
       },
       "tournament": null,
@@ -4569,7 +4580,7 @@
       "dateLabel": "29 Ağustos tarihine kadar",
       "time": null,
       "homeTeam": "t_5935737f",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4614,7 +4625,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4654,7 +4665,7 @@
       "dateLabel": "Saturday, 29.08.2026",
       "time": null,
       "homeTeam": "t_69f18cb3",
-      "awayTeam": "t_84c93f92",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5488,6 +5499,11 @@
           "name": "x:t_32fd0b6f",
           "url": "https://nitter.net/BasquetManresa/status/2089288013566107934#m",
           "published": "Mon, 17 Aug 2026 09:47:34 GMT"
+        },
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
         }
       ],
       "notes": [],
@@ -5501,7 +5517,7 @@
         "t_be10c355",
         "t_32fd0b6f"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-08-30",
@@ -5547,7 +5563,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5587,7 +5603,7 @@
       "dateLabel": "Sunday, 30.08.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_34de7693",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -5751,7 +5767,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "סופיה, בולגריה",
-        "city": "סופיה",
+        "city": null,
         "country": "בולגריה"
       },
       "tournament": null,
@@ -5790,7 +5806,7 @@
       "date": "2026-08-31",
       "dateLabel": "31.8",
       "time": null,
-      "homeTeam": "t_e5b49b07",
+      "homeTeam": null,
       "awayTeam": null,
       "candidates": [],
       "opponentTbd": true,
@@ -5810,11 +5826,6 @@
         {
           "name": "אתר הפועל י-ם",
           "url": "https://hapoel.co.il/games"
-        },
-        {
-          "name": "club:t_e5b49b07",
-          "url": "http://www.hapoel.co.il/raspored",
-          "published": null
         }
       ],
       "notes": [],
@@ -5822,8 +5833,7 @@
       "published": null,
       "id": "g_155c82e1db",
       "origins": [
-        "seed",
-        "extracted"
+        "seed"
       ],
       "teams": [
         "t_e5b49b07"
@@ -5983,7 +5993,7 @@
       "dateLabel": "Monday, 31.08.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_5fbe5e42",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6108,7 +6118,7 @@
       "dateLabel": "1.9",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_726df887",
+      "awayTeam": "t_8ee48f2b",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -6449,7 +6459,7 @@
       "dateLabel": "Tuesday, 01.09.2026",
       "time": null,
       "homeTeam": "t_e6b07e02",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7060,7 +7070,7 @@
       "dateLabel": "Wednesday, 02.09.2026",
       "time": null,
       "homeTeam": "t_5f254578",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7295,7 +7305,7 @@
       "dateLabel": "Thursday, 03.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_5e944bac",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7327,6 +7337,46 @@
       "teams": [
         "t_ea80e631",
         "t_5e944bac"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-03",
+      "dateLabel": "03 set.",
+      "time": "20:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_83c2c31a4c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_1ce799a6",
+        "t_32fd0b6f"
       ],
       "confidence": 1
     },
@@ -7582,6 +7632,11 @@
         {
           "name": "jlbourg-basket.com",
           "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
+        },
+        {
+          "name": "club:t_211b1542",
+          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+          "published": null
         },
         {
           "name": "bebasket",
@@ -7991,7 +8046,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_c2731d8f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8031,7 +8086,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_344e420f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8071,7 +8126,7 @@
       "dateLabel": "Friday, 04.09.2026",
       "time": "18:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_5e5281ca",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8871,7 +8926,7 @@
       "dateLabel": "5.9",
       "time": null,
       "homeTeam": "t_e3680384",
-      "awayTeam": "t_e3680384",
+      "awayTeam": "t_c623d16a",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -9711,7 +9766,7 @@
       "dateLabel": "Saturday, 05.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_e5842e3d",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -9751,7 +9806,7 @@
       "dateLabel": "Saturday, 05.09.2026",
       "time": null,
       "homeTeam": "t_0fec3b85",
-      "awayTeam": "t_84c93f92",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10560,7 +10615,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "בלגרד, סרביה",
-        "city": "בלגרד",
+        "city": null,
         "country": "סרביה"
       },
       "tournament": null,
@@ -10952,7 +11007,7 @@
       "dateLabel": "6.9",
       "time": null,
       "homeTeam": "t_e3680384",
-      "awayTeam": null,
+      "awayTeam": "t_93e5c997",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11003,7 +11058,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Nick Galis Hall",
+        "arena": "“Nick Galis Hall”",
         "city": "סלוניקי",
         "country": "יוון"
       },
@@ -11514,7 +11569,7 @@
       "dateLabel": "Sunday, 06.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_17bfa9f2",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11593,7 +11648,7 @@
       "dateLabel": "Sunday, 06.09.2026",
       "time": "19:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_99dbf7c1",
+      "awayTeam": "t_be26eea9",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -11632,6 +11687,46 @@
         "t_99dbf7c1"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "06 set.",
+      "time": "18:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_d96feeab16",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cec2cef8",
+        "t_32fd0b6f"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-06",
@@ -12227,7 +12322,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_ec103f8c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12267,7 +12362,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_a582ddfa",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12307,7 +12402,7 @@
       "dateLabel": "Tuesday, 08.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_2b3f230e",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -12982,7 +13077,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_998ddb52",
-      "awayTeam": "t_ac2bfe9c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13022,7 +13117,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_0fec3b85",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13062,7 +13157,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": null,
       "homeTeam": "t_7be74f50",
-      "awayTeam": "t_7ab361c0",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13102,7 +13197,7 @@
       "dateLabel": "Wednesday, 09.09.2026",
       "time": "18:15",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -13134,6 +13229,46 @@
       "teams": [
         "t_be26eea9",
         "t_5935737f"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "09 set.",
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_53781b0433",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_066138ff",
+        "t_32fd0b6f"
       ],
       "confidence": 1
     },
@@ -13710,7 +13845,7 @@
       "dateLabel": "giovedì 10 settembre",
       "time": "18:00",
       "homeTeam": "t_18ce03ce",
-      "awayTeam": "t_18ce03ce",
+      "awayTeam": "t_97d76180",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14140,6 +14275,11 @@
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
+        },
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
         }
       ],
       "notes": [],
@@ -14154,7 +14294,7 @@
         "t_32fd0b6f",
         "t_1d8e80ce"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-11",
@@ -14539,7 +14679,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": null,
       "homeTeam": "t_8ee48f2b",
-      "awayTeam": "t_e5842e3d",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14579,7 +14719,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": "17:00",
       "homeTeam": "t_be26eea9",
-      "awayTeam": "t_157b4fa8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -14619,7 +14759,7 @@
       "dateLabel": "Friday, 11.09.2026",
       "time": "21:00",
       "homeTeam": "t_a85f3ce5",
-      "awayTeam": "t_e3b7f23c",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -15135,7 +15275,7 @@
       "dateLabel": "12.9",
       "time": null,
       "homeTeam": "t_e3680384",
-      "awayTeam": null,
+      "awayTeam": "t_726ded23",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -15277,8 +15417,8 @@
       "opponentTbd": false,
       "venue": {
         "arena": "קליארי, איטליה",
-        "city": "קליארי",
-        "country": "איטליה"
+        "city": "Cagliari",
+        "country": "Italy"
       },
       "tournament": "City of Cagliari",
       "stage": null,
@@ -15336,6 +15476,51 @@
         "t_2a1ac857"
       ],
       "confidence": 6
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "Sam 12 Sept",
+      "time": "15:00",
+      "homeTeam": "t_e5b49b07",
+      "awayTeam": "t_211b1542",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vilnius",
+        "city": "Vilnius",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "sources": [
+        {
+          "name": "club:t_211b1542",
+          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_661f8c9fa0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e5b49b07",
+        "t_211b1542"
+      ],
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -16159,7 +16344,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_5935737f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16238,7 +16423,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": null,
       "homeTeam": "t_84c93f92",
-      "awayTeam": "t_33d3e8cd",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16278,7 +16463,7 @@
       "dateLabel": "Saturday, 12.09.2026",
       "time": "19:00",
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_e5cb1715",
+      "awayTeam": "t_ea80e631",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -16331,46 +16516,6 @@
         "t_e5cb1715"
       ],
       "confidence": 4
-    },
-    {
-      "date": "2026-09-12",
-      "dateLabel": "12 septembre",
-      "time": "15:00",
-      "homeTeam": "t_211b1542",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Vilnius",
-        "city": "Vilnius",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_661f8c9fa0",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_e5b49b07"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-12",
@@ -17264,7 +17409,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_157b4fa8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17304,7 +17449,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": "20:00",
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_e2d3f7c8",
+      "awayTeam": "t_ea80e631",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17359,7 +17504,7 @@
       "dateLabel": "Sunday, 13.09.2026",
       "time": null,
       "homeTeam": "t_7ab361c0",
-      "awayTeam": "t_1443a9bf",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -17656,7 +17801,7 @@
       "dateLabel": "Monday, 14.09.2026",
       "time": null,
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_0fec3b85",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -18418,7 +18563,7 @@
       "dateLabel": "Thursday, 17.09.2026",
       "time": null,
       "homeTeam": "t_726ded23",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -18776,6 +18921,11 @@
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
+        },
+        {
+          "name": "club:t_32fd0b6f",
+          "url": "https://www.basquetmanresa.com/competicio-calendari/",
+          "published": null
         }
       ],
       "notes": [],
@@ -18790,7 +18940,7 @@
         "t_32fd0b6f",
         "t_f1ab1373"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-18",
@@ -19191,7 +19341,7 @@
       "dateLabel": "18-09-2026 00:00",
       "time": null,
       "homeTeam": "t_e3680384",
-      "awayTeam": null,
+      "awayTeam": "t_53c73730",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -19271,7 +19421,7 @@
       "dateLabel": "Friday, 18.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_e2d3f7c8",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -19786,6 +19936,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
         }
       ],
       "notes": [
@@ -19802,7 +19957,7 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
@@ -20750,13 +20905,13 @@
       "homeTeam": "t_e3680384",
       "awayTeam": null,
       "candidates": [],
-      "opponentTbd": false,
+      "opponentTbd": true,
       "venue": {
         "arena": "Tofaş Spor Salonu",
         "city": null,
         "country": null
       },
-      "tournament": null,
+      "tournament": "26. Cevat Soydaş Final Günü",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -20773,13 +20928,12 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_7fbe66eb2a",
+      "id": "g_d700c7ebc4",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e3680384",
-        "t_4c99165e"
+        "t_e3680384"
       ],
       "confidence": 1
     },
@@ -20827,7 +20981,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_303da94d",
-      "awayTeam": "t_64151b1f",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -20867,7 +21021,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_93e5c997",
-      "awayTeam": "t_998ddb52",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -20907,7 +21061,7 @@
       "dateLabel": "Saturday, 19.09.2026",
       "time": null,
       "homeTeam": "t_ea80e631",
-      "awayTeam": "t_a582ddfa",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -21551,7 +21705,7 @@
       "dateLabel": "20 settembre",
       "time": "18:00",
       "homeTeam": "t_97d76180",
-      "awayTeam": "t_03b3581a",
+      "awayTeam": "t_97d76180",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -22221,126 +22375,6 @@
     },
     {
       "date": null,
-      "dateLabel": "Ven 04 Sept",
-      "time": "20:30",
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_e0376665",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_6acab24f4a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_e0376665"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Sam 12 Sept",
-      "time": "19:00",
-      "homeTeam": "t_e5b49b07",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_b6e0c6b3c7",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_e5b49b07",
-        "t_211b1542"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "Mer 30 Sept",
-      "time": "20:00",
-      "homeTeam": "t_726df887",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_7c86f6594c",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_726df887",
-        "t_211b1542"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
       "dateLabel": "Sagatavošanās ciklā",
       "time": null,
       "homeTeam": null,
@@ -22539,246 +22573,6 @@
       ],
       "teams": [
         "t_c74fc487"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "30 ago.",
-      "time": "12:00",
-      "homeTeam": "t_be10c355",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_ef9f92f161",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_be10c355",
-        "t_32fd0b6f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "03 set.",
-      "time": "20:30",
-      "homeTeam": null,
-      "awayTeam": "t_1ce799a6",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_c57f731278",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1ce799a6",
-        "t_32fd0b6f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "06 set.",
-      "time": "18:30",
-      "homeTeam": "t_cec2cef8",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_6ec42add7c",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_cec2cef8",
-        "t_32fd0b6f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "09 set.",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": "t_066138ff",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_cf4f056334",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_066138ff",
-        "t_32fd0b6f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "11 set.",
-      "time": null,
-      "homeTeam": "t_1d8e80ce",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_69781c5fc6",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1d8e80ce",
-        "t_32fd0b6f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "18 set.",
-      "time": "19:00",
-      "homeTeam": null,
-      "awayTeam": "t_f1ab1373",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "club:t_32fd0b6f",
-          "url": "https://www.basquetmanresa.com/competicio-calendari/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_5138402448",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_f1ab1373",
-        "t_32fd0b6f"
       ],
       "confidence": 1
     },
