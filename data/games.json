@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-25T20:13:16.330Z",
+  "updated": "2026-08-25T22:01:22.271Z",
   "season": "2026-27",
-  "newGames": 26,
+  "newGames": 0,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -2406,7 +2406,7 @@
       "dateLabel": "25 août",
       "time": "20:00",
       "homeTeam": "t_311470db",
-      "awayTeam": null,
+      "awayTeam": "t_311470db",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -2418,7 +2418,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 93,
+        "away": 73
+      },
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
@@ -2426,6 +2429,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-sig-strasbourg-simpose-largement-pour-son-premier-match-de-pre-saison",
+          "published": "2026-08-25T21:41:05+00:00"
         }
       ],
       "notes": [],
@@ -3466,11 +3474,13 @@
       "venue": {
         "arena": "PalaPiccolo",
         "city": "Caserta",
-        "country": null
+        "country": "Italia"
       },
       "tournament": null,
       "stage": null,
-      "flags": [],
+      "flags": [
+        "דלתיים סגורות"
+      ],
       "broadcast": [],
       "result": null,
       "statsUrl": null,
@@ -3490,6 +3500,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
           "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/a-porte-chiuse-lo-scrimmage-tra-juvecaserta-2021-e-longobardi-scafati/",
+          "published": "Tue, 25 Aug 2026 19:45:46 +0000"
         }
       ],
       "notes": [],
@@ -5597,6 +5612,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/sto-metsovo-apo-ti-deftera-o-paok-pics",
           "published": "2026-08-24T12:24:15+00:00"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2001578/paok-sto-metsovo-o-telis-mistakidis/",
+          "published": "Tue, 25 Aug 2026 12:59:45 +0000"
         }
       ],
       "notes": [],
@@ -5610,7 +5630,7 @@
         "t_9b9664c9",
         "t_64151b1f"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-08-29",
@@ -6496,6 +6516,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/sto-metsovo-apo-ti-deftera-o-paok-pics",
           "published": "2026-08-24T12:24:15+00:00"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2001578/paok-sto-metsovo-o-telis-mistakidis/",
+          "published": "Tue, 25 Aug 2026 12:59:45 +0000"
         }
       ],
       "notes": [],
@@ -6509,7 +6534,7 @@
         "t_9b9664c9",
         "t_029eb41a"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-01",
@@ -7866,9 +7891,9 @@
     {
       "date": "2026-09-04",
       "dateLabel": "4.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "time": "21:00",
+      "homeTeam": "t_e3b7f23c",
+      "awayTeam": "t_709fcff6",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -7893,6 +7918,11 @@
           "url": "https://www.eurohoops.net/tr/euroleague-tr/1997681/fenerbahcenin-hazirlik-maci-takvimi-aciklandi/"
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2001653/olimpiakos-sto-iraklio-ta-tropea-tis-sezon-2025-26/",
+          "published": "Tue, 25 Aug 2026 16:48:30 +0000"
+        },
+        {
           "name": "sportando",
           "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
           "published": "2026-08-18"
@@ -7903,7 +7933,8 @@
       "published": null,
       "id": "g_ab63f4738e",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_e3b7f23c",
@@ -7993,6 +8024,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/olimpia-milano-sei-test-prima-della-supercoppa/",
           "published": "2026-08-17"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2001653/olimpiakos-sto-iraklio-ta-tropea-tis-sezon-2025-26/",
+          "published": "Tue, 25 Aug 2026 16:48:30 +0000"
         }
       ],
       "notes": [
@@ -8009,7 +8045,7 @@
         "t_a85f3ce5",
         "t_21cf4132"
       ],
-      "confidence": 4
+      "confidence": 5
     },
     {
       "date": "2026-09-04",
