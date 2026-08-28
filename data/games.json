@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:28:17.657Z",
+  "updated": "2026-08-28T14:39:58.533Z",
   "season": "2026-27",
   "newGames": 0,
   "conflicts": [
@@ -1687,15 +1687,15 @@
       "dateLabel": "22 août",
       "time": "20:30",
       "homeTeam": "t_d5ae9f2d",
-      "awayTeam": "t_00f884eb",
+      "awayTeam": "t_653d2b99",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "Besançon",
         "city": "Besançon",
-        "country": null
+        "country": "France"
       },
-      "tournament": null,
+      "tournament": "River Trophy",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -1703,7 +1703,7 @@
         "home": 96,
         "away": 64
       },
-      "statsUrl": null,
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=13",
       "reportUrl": null,
       "sources": [
         {
@@ -1715,20 +1715,30 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/evreux-domine-les-mets-le-havre-seduit-deja-la-performance-impressionnante-de-shaquan-jules-le-recap-des-matchs-de-preparation",
           "published": "2026-08-23T08:23:38+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/hyeres-toulon-remporte-le-river-trophy",
+          "published": "2026-08-24T11:46:21+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
         }
       ],
       "notes": [],
       "origin": "extracted",
       "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_eb33936304",
+      "id": "g_f64baca201",
       "origins": [
         "extracted"
       ],
       "teams": [
         "t_d5ae9f2d",
-        "t_00f884eb"
+        "t_653d2b99"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-08-22",
@@ -1893,54 +1903,6 @@
       "teams": [
         "t_1a307999",
         "t_c91e99c6"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-08-22",
-      "dateLabel": "ce samedi",
-      "time": null,
-      "homeTeam": "t_d5ae9f2d",
-      "awayTeam": "t_653d2b99",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Gymnase des Montboucons",
-        "city": "Besançon",
-        "country": "France"
-      },
-      "tournament": "River Trophy",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 96,
-        "away": 64
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=13",
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/hyeres-toulon-remporte-le-river-trophy",
-          "published": "2026-08-24T11:46:21+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-24T11:46:21+00:00",
-      "id": "g_f64baca201",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_d5ae9f2d",
-        "t_653d2b99"
       ],
       "confidence": 2
     },
@@ -2268,13 +2230,13 @@
     {
       "date": "2026-08-25",
       "dateLabel": "25.8",
-      "time": null,
-      "homeTeam": "t_58592c45",
+      "time": "20:00",
+      "homeTeam": "t_ef202e7d",
       "awayTeam": "t_d6cca7c8",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Orléans",
         "city": "אורלאן",
         "country": "צרפת"
       },
@@ -2282,27 +2244,46 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
-      "statsUrl": null,
+      "result": {
+        "home": 85,
+        "away": 89
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=22",
       "reportUrl": null,
       "sources": [
         {
           "name": "ici.fr",
           "url": "https://www.ici.fr/centre-val-de-loire/loiret-45/orleans/l-orleans-loiret-basket-affrontera-le-paris-basket-en-amical-le-mardi-25-aout-4075258"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/le-paris-basketball-simpose-de-peu-a-orleans-apres-un-match-accroche",
+          "published": "2026-08-25T21:59:21+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
         }
       ],
       "notes": [],
       "origin": "seed",
       "published": null,
-      "id": "g_0d03e230c3",
+      "id": "g_6174c22633",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_d6cca7c8",
-        "t_58592c45"
+        "t_ef202e7d"
       ],
-      "confidence": 1
+      "confidence": 3
     },
     {
       "date": "2026-08-25",
@@ -2694,59 +2675,6 @@
         "t_9c71432b"
       ],
       "confidence": 1
-    },
-    {
-      "date": "2026-08-25",
-      "dateLabel": "25 août",
-      "time": "20:00",
-      "homeTeam": "t_ef202e7d",
-      "awayTeam": "t_d6cca7c8",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Orléans",
-        "city": "Orléans",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 85,
-        "away": 89
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=22",
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/le-paris-basketball-simpose-de-peu-a-orleans-apres-un-match-accroche",
-          "published": "2026-08-25T21:59:21+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_6174c22633",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_ef202e7d",
-        "t_d6cca7c8"
-      ],
-      "confidence": 2
     },
     {
       "date": "2026-08-25",
@@ -7574,13 +7502,13 @@
     {
       "date": "2026-09-01",
       "dateLabel": "1.9",
-      "time": null,
+      "time": "19:00",
       "homeTeam": "t_709fcff6",
       "awayTeam": "t_e3680384",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Ülker Spor ve Etkinlik Salonu",
         "city": "איסטנבול",
         "country": "טורקיה"
       },
@@ -7595,6 +7523,15 @@
         {
           "name": "eurohoops.net",
           "url": "https://www.eurohoops.net/tr/euroleague-tr/1997681/fenerbahcenin-hazirlik-maci-takvimi-aciklandi/"
+        },
+        {
+          "name": "bursahakimiyet.com.tr",
+          "url": "https://www.bursahakimiyet.com.tr/bursa-da-spor/tofas-in-hazirlik-ve-kamp-programi-belli-oldu-1683965"
+        },
+        {
+          "name": "club:t_e3680384",
+          "url": "http://tofasspor.com/fikstur",
+          "published": null
         },
         {
           "name": "eurohoops",
@@ -7614,7 +7551,7 @@
         "t_709fcff6",
         "t_e3680384"
       ],
-      "confidence": 1
+      "confidence": 3
     },
     {
       "date": "2026-09-01",
@@ -7685,51 +7622,6 @@
         "t_8ee48f2b"
       ],
       "confidence": 3
-    },
-    {
-      "date": "2026-09-01",
-      "dateLabel": "1.9",
-      "time": "19:00",
-      "homeTeam": "t_24a1413d",
-      "awayTeam": "t_e3680384",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Ülker Spor ve Etkinlik Salonu",
-        "city": "איסטנבול",
-        "country": "טורקיה"
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "bursahakimiyet.com.tr",
-          "url": "https://www.bursahakimiyet.com.tr/bursa-da-spor/tofas-in-hazirlik-ve-kamp-programi-belli-oldu-1683965"
-        },
-        {
-          "name": "club:t_e3680384",
-          "url": "http://tofasspor.com/fikstur",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_b9d76ba077",
-      "origins": [
-        "seed",
-        "extracted"
-      ],
-      "teams": [
-        "t_e3680384",
-        "t_24a1413d"
-      ],
-      "confidence": 2
     },
     {
       "date": "2026-09-01",
@@ -9663,6 +9555,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
           "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/trento-preparazione-assenze-brown-hassan/",
+          "published": "2026-08-22"
         }
       ],
       "notes": [],
@@ -10369,46 +10266,6 @@
       "teams": [
         "t_12174e28",
         "t_7e157e3f"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-04",
-      "dateLabel": "del 4 settembre",
-      "time": null,
-      "homeTeam": "t_7a084c7e",
-      "awayTeam": "t_550a84d0",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": "Italy"
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/trento-preparazione-assenze-brown-hassan/",
-          "published": "2026-08-22"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-22",
-      "id": "g_2c99c760ee",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7a084c7e",
-        "t_550a84d0"
       ],
       "confidence": 1
     },
@@ -16116,7 +15973,9 @@
           "published": "2026-08-21"
         }
       ],
-      "notes": [],
+      "notes": [
+        "פרטי שאר ההכנה של טרנטו טרם אותרו"
+      ],
       "origin": "seed",
       "published": null,
       "id": "g_44cfb818ea",
@@ -16129,47 +15988,6 @@
         "t_cce353da"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-10",
-      "dateLabel": "10.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": "איטליה"
-      },
-      "tournament": "טורניר Garda Ball Elite",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "sportando.basketball",
-          "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
-        }
-      ],
-      "notes": [
-        "פרטי שאר ההכנה של טרנטו טרם אותרו"
-      ],
-      "origin": "seed",
-      "published": null,
-      "id": "g_42f422eec3",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_7a084c7e",
-        "t_23e4ce5d"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-10",
@@ -21434,46 +21252,6 @@
       "date": "2026-09-17",
       "dateLabel": "giovedì 17 settembre",
       "time": "17:00",
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Bolzano",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
-          "published": "2026-08-02"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-02",
-      "id": "g_edbce04b7e",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7a084c7e",
-        "t_18ce03ce"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "17 settembre",
-      "time": "17:00",
       "homeTeam": "t_cce353da",
       "awayTeam": "t_18ce03ce",
       "candidates": [],
@@ -21491,6 +21269,11 @@
       "statsUrl": null,
       "reportUrl": null,
       "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
+          "published": "2026-08-02"
+        },
         {
           "name": "sportando_en",
           "url": "https://sportando.basketball/dolomiti-energia-trentino-il-20-agosto-parte-la-preseason/",
@@ -21514,7 +21297,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "2026-08-04",
+      "published": "2026-08-02",
       "id": "g_2b3b479ae9",
       "origins": [
         "extracted"

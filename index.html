@@ -292,8 +292,21 @@ function sideEl(g){
   // Without home and away there is no way to say which club scored which
   // number. A score printed against the wrong name is a wrong fact, so it is
   // withheld rather than guessed at.
+  // Each number isolated, or the score reads backwards on a right-to-left page.
+  //
+  // "85:89" is one bidi number run and the algorithm lays a number run out
+  // LEFT to right, inside an RTL paragraph or not. The club names beside it are
+  // Hebrew and lay out RIGHT to left. So the two ran in opposite directions:
+  // measured on the page, the names fell אורלאן · מול · פריז and the score fell
+  // 89 · : · 85, and a reader taking both right to left paired Orléans with 89
+  // and read a win for the club that lost 85-89.
+  //
+  // The data was right and had been checked against the sources; the fix is not
+  // to reorder it. <bdi> makes each number its own isolated inline item, so the
+  // container's direction orders them — right to left, alongside the names.
   if (g.result && g.homeTeam && g.awayTeam)
-    bits.push(`<div class="score">${g.result.home}<span class="dash">:</span>${g.result.away}</div>`);
+    bits.push(`<div class="score"><bdi>${g.result.home}</bdi>` +
+      `<span class="dash">:</span><bdi>${g.result.away}</bdi></div>`);
 
   if (isOver(g)){
     // After the game, and from then on: the boxscore does not expire.
