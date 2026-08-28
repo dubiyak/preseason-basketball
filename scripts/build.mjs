@@ -556,7 +556,10 @@ console.log(`multi-source : ${gameList.filter((g) => g.confidence > 1).length}`)
 console.log(`clubs        : ${teamList.length}   (watchlist ${teamList.filter((t) => t.watchlist).length})`);
 console.log(`unresolved   : ${unresolved.length}${resolverModel ? ` · resolved via ${resolverModel}` : ""}`);
 console.log(`conflicts    : ${conflicts.length}`);
-for (const c of conflicts.slice(0, 6)) console.log(`  ~ ${c.field}: "${c.have}" vs "${c.alsoReported}" (${c.from})`);
+// c.kept, not c.have — the field has always been called kept, so every
+// conflict in the log read `"undefined" vs "20:00"` and the one number that
+// says which way the disagreement went was the one missing.
+for (const c of conflicts.slice(0, 6)) console.log(`  ~ ${c.field}: "${c.kept}" vs "${c.alsoReported}" (${c.from})`);
 for (const g of added.slice(0, 12)) {
   const who = g.teams.map((id) => clubs.get(id)?.name_he || "?").join(" מול ");
   console.log(`  + ${g.date || g.dateLabel || "?"} ${who}${g.tournament ? ` · ${g.tournament}` : ""}`);

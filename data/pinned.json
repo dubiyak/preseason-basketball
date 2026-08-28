@@ -1,0 +1,37 @@
+{
+  "_doc": "Preseason calendars found by hand, because probing could never have reached them. Every entry here is a page the hunter looked for and missed, and the reason is never the content: presaison.lnb.info and padlet.com are not on the league's own origin, so an origin probe cannot see them; tickets.vtb-league.com is a ticket seller, which sources.json already names as the category that publishes a draw first. A pinned URL is read every run and is NOT put to the looksLikeCalendar test — that gate exists to keep the hunter from adopting junk it found on its own, and a page a human vouched for has already passed a better one. Add a line here whenever you find one. A pin marked browser:true is left to render.mjs: a plain fetch returns an empty shell for it, so the hunter skips it rather than spending a read on 75 characters.",
+  "pinned": [
+    {
+      "league": "acb",
+      "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
+      "note": "Official Spanish preseason table, all 16 clubs. Renders every column but the date; the dates come out of the page payload."
+    },
+    {
+      "league": "lnb",
+      "url": "https://presaison.lnb.info/",
+      "note": "Official French preseason results and programme. On lnb.info, not lnb.fr."
+    },
+    {
+      "league": "vtb",
+      "url": "https://tickets.vtb-league.com/",
+      "note": "VTB Super Cup group stage, 17-20 September, VTB Arena."
+    },
+    {
+      "league": "lba",
+      "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+      "note": "Italian preseason for all 16 clubs. Body is client-rendered — needs the browser layer.",
+      "browser": true
+    },
+    {
+      "league": "bbl",
+      "url": "https://padlet.com/easyCreditBBL/preseason-2026-mjqpxzxyqv7t06mn",
+      "note": "German preseason board. A padlet, so client-rendered — needs the browser layer.",
+      "browser": true
+    },
+    {
+      "url": "https://vtb-league.com/en/news/cska-is-getting-ready-for-the-new-season/",
+      "name": "CSKA preseason",
+      "note": "Four CSKA friendlies plus its Super Cup group."
+    }
+  ]
+}

@@ -60,8 +60,12 @@ const targets = Object.entries(registry.clubs)
   .filter(([, c]) => c.website && !c.fixturesUrl)
   .map(([id, c]) => ({ id, ...c, name: teams.get(id)?.name_he || c.name_src || id }));
 
-console.log(`clubs needing a browser: ${targets.length}`);
-if (!targets.length) process.exit(0);
+// Read before the early exit, or a day when every club has a fixtures page
+// would take the pinned league calendars down with it.
+const browserPins = (read("pinned.json", { pinned: [] }).pinned || []).filter((p) => p.browser);
+
+console.log(`clubs needing a browser: ${targets.length} · pinned pages: ${browserPins.length}`);
+if (!targets.length && !browserPins.length) process.exit(0);
 
 const browser = await chromium.launch();
 const ctx = await browser.newContext({
@@ -192,7 +196,8 @@ const health = [];
 function save() {
   fs.writeFileSync(path.join(DATA, "registry.json"), JSON.stringify(registry, null, 2));
   const existing = read("candidates.json", { candidates: [] });
-  const kept = (existing.candidates || []).filter((c) => c.strategy !== "club-page-rendered");
+  const kept = (existing.candidates || [])
+    .filter((c) => c.strategy !== "club-page-rendered" && c.strategy !== "pinned-rendered");
   fs.writeFileSync(path.join(DATA, "candidates.json"), JSON.stringify({
     ...existing,
     generated: new Date().toISOString(),
@@ -237,7 +242,57 @@ for (const m of menus) {
   save();
 }
 
+/* ---------- 4. pinned calendars that only a browser can read ---------- */
+// legabasket.it publishes the whole Italian preseason at a news URL whose body
+// arrives empty: 105KB of HTML, 75 characters of text, and a __NEXT_DATA__ that
+// holds nothing but the page title. The German board is a padlet, which is the
+// same story. Neither is a club, so the loop above never sees them, and neither
+// can be fixed by better parsing — the fixtures are simply not sent.
+//
+// Marked in pinned.json rather than detected, because "a plain fetch read too
+// little" and "this page needs a browser" are not the same claim, and only one
+// of them is worth spending a render on.
+let pinned = 0;
+
+for (const p of browserPins) {
+  if (overBudget()) { console.log("  … budget spent; pinned pages wait for the next run"); break; }
+  const page = await render(p.url, true);
+  const text = page?.text || "";
+  // Judged on having text, not on having dates. The club loop above counts
+  // date shapes because it is deciding whether a guessed link is the fixtures
+  // page at all; here a human already answered that. And the count would be
+  // wrong anyway: legabasket writes "Sabato 29 agosto ore 17.30", so the whole
+  // Italian preseason — all sixteen clubs, with times, venues and tournaments —
+  // scores four numeric dates and came within one of being thrown away. A date
+  // shape is a manual pattern, and every manual pattern here has been partial.
+  if (text.length < 800) {
+    health.push({ club: p.name || p.league, ok: false, why: `rendered but ${text.length} chars`, url: p.url });
+    console.log(`  ✗ ${p.name || p.league} — ${text.length} chars after rendering`);
+    continue;
+  }
+  const dates = (text.match(DATE_SHAPE) || []).length;
+  health.push({ club: p.name || p.league, ok: true, url: p.url, dates, chars: text.length });
+  console.log(`  ✓ ${p.name || p.league} — ${p.url} (${text.length} chars, ${dates} numeric dates)`);
+  pinned++;
+  found.push({
+    outlet: p.league ? `league:${p.league}` : "pinned",
+    club: p.name || "",
+    lang: "auto",
+    strategy: "pinned-rendered",
+    title: p.name || p.note || p.url,
+    url: p.url,
+    published: null,
+    // Same reason as above: fetching this URL again without a browser returns
+    // the same empty shell.
+    inlineText: text.slice(0, 18000),
+    matchedKeywords: ["preseason-calendar"],
+    matchedClubs: [],
+    score: 12,
+  });
+  save();
+}
+
 await browser.close();
 save();
-console.log(`\nrendered ok : ${found.length}/${targets.length}`);
-console.log(`still dark  : ${targets.length - found.length}`);
+console.log(`\nrendered ok : ${found.length - pinned}/${targets.length} clubs · ${pinned}/${browserPins.length} pinned`);
+console.log(`still dark  : ${targets.length - (found.length - pinned)}`);

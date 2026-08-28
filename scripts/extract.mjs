@@ -13,7 +13,8 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { get, toText } from "../lib/fetch.mjs";
+import { get, pageText } from "../lib/fetch.mjs";
+import { resolveDate, isVague } from "../lib/dates.mjs";
 
 const DATA = path.resolve(import.meta.dirname, "..", "data");
 /**
@@ -68,7 +69,7 @@ async function articleText(url) {
   // words that carry it costs about half again in characters — the ABA calendar
   // goes from 12.6k to 18.6k — and truncating at the old ceiling would have cut
   // the tail off the very fixture tables this is for.
-  return html ? toText(html, 20000, { links: true, base: url }) : null;
+  return html ? pageText(html, 20000, { links: true, base: url }) : null;
 }
 
 /* ---------- schema ---------- */
@@ -272,11 +273,23 @@ function hasTeams(g) {
  * model returned the home side and omitted the away side on exactly the rows
  * that also carried a score — so every published result showed one team. Same
  * failure the score had, same fix: a single string cannot come back half.
+ *
+ * The separator lost its backslashes at some point and nobody could see it,
+ * because both ways of being wrong are silent. It read `s+(?:v|vs.?|:|-|–)s+`
+ * — the LETTER s, not whitespace — so "Levallois v Rouen" did not split at all
+ * and the safety net simply never caught anything; the pair kept arriving only
+ * because the model also fills homeTeam and awayTeam, which is the very thing
+ * this exists to survive. And where it did match it matched inside a word:
+ * "Gries-Souffel v Strasbourg" split on the "s-S" into "Grie" and "ouffel v
+ * Strasbourg", inventing two clubs out of one French one.
+ *
+ * Longest alternative first, so " vs " is not read as " v " followed by a word
+ * beginning in s.
  */
 function parseMatchup(g) {
   const raw = String(g.matchup || "").trim();
   if (!raw) return;
-  const parts = raw.split(/s+(?:v|vs.?|:|-|–)s+/i).map((x) => x.trim()).filter(Boolean);
+  const parts = raw.split(/\s+(?:vs\.?|v|:|-|–)\s+/i).map((x) => x.trim()).filter(Boolean);
   if (parts.length !== 2) return;
   if (!g.homeTeam) g.homeTeam = parts[0];
   if (!g.awayTeam) g.awayTeam = parts[1];
@@ -302,6 +315,19 @@ function parseScore(g) {
 }
 
 /**
+ * The day a game was played, whether the extractor wrote it as a date or left
+ * it as the text the page used. Not written back onto the record: extraction
+ * is cached for ever, and build.mjs already derives this at build time, where
+ * a change to the resolver takes effect on the next rebuild instead of being
+ * frozen into every article ever read.
+ */
+function whenPlayed(g) {
+  if (g.date) return g.date;
+  const label = g.dateText || g.dateLabel || "";
+  return label && !isVague(label) ? resolveDate(label) : null;
+}
+
+/**
  * A game in the future cannot have been played. JL Bourg's page returned
  * scores for fixtures dated 13 and 14 September while it was still August —
  * last season's results carried onto this season's dates. The fixture may
@@ -311,11 +337,21 @@ function dropImpossibleResult(g, today) {
   if (!g.played) return false;
   // A score that did not parse leaves the game unplayed rather than half-known.
   if (g.homeScore == null || g.awayScore == null) { g.played = false; return true; }
+  // A written date the extractor left as text is still a date, and asking here
+  // is not optional: presaison.lnb.info dates its whole table "27/08" with no
+  // year, so the model correctly refused to resolve it and left `date` empty —
+  // and this guard read "no date" as "cannot have been played" and threw away
+  // all 22 French results, scores the page prints in its own results column.
+  //
+  // build.mjs has always resolved dateText through lib/dates.mjs before
+  // judging a record. This stage judged first and resolved never; the two had
+  // to be asking the same question of the same resolver.
+  const day = whenPlayed(g);
   // A game that has been played happened on a day. acb.com/es/supercopa
   // carries the competition's past finals, and "Real Madrid 94:98 Valencia"
   // arrived with no date at all — last season's final, which the window check
   // waved through precisely because it had no date to judge.
-  if (!g.date || g.date > today) {
+  if (!day || day > today) {
     g.played = false; g.homeScore = null; g.awayScore = null;
     return true;
   }
