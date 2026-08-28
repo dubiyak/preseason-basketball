@@ -153,7 +153,32 @@ const nameOf = (r) => {
  * existed.
  */
 const PSEUDO_CLUB = /^(קבוצות|יריבה|יריבות|קבוצה|טרם|לא )|בטורניר|טרם נקבע|טרם ידוע|טרם פורסם/;
-const isPseudo = (n) => PSEUDO_CLUB.test(String(n || "").trim());
+
+/**
+ * "A/B" is two clubs offered as alternatives, which is a TBA with the shortlist
+ * spelled out — not a club.
+ *
+ * acb.com writes its bracket that way: "Kosner Baskonia - Monbus Obradoiro/
+ * Valencia Basket, posible final EncestaRías". The resolver took the whole
+ * string as one name, could not match it, asked the model, and the model
+ * dutifully invented a Hebrew name for it. Eight club records existed for
+ * clubs that do not exist, ten fixtures were played against them, and one card
+ * listed four teams in a row because the slate and both its halves all landed
+ * in the same game.
+ *
+ * Recognised only when a half is a club we already know, so a genuine name
+ * carrying a slash is left alone. Falling through to `candidates` is what the
+ * card wants anyway — "Leyma against Obradoiro / Breogán" is exactly what the
+ * league published — and it marks the row as a guess, which lets the real
+ * pairing retire it once somebody prints the draw.
+ */
+const isSlate = (n) => {
+  const parts = String(n || "").split("/").map((s) => s.trim());
+  return parts.length >= 2 && parts.every((p) => p.length >= 3) &&
+         parts.some((p) => resolveLocal(p, index, aliases));
+};
+
+const isPseudo = (n) => PSEUDO_CLUB.test(String(n || "").trim()) || isSlate(n);
 
 for (const r of records) {
   for (const n of nameOf(r)) {
@@ -348,6 +373,57 @@ const ordered = [
 // ever: a date on the wrong side of the line stays in the cache, so moving the
 // line is a rebuild rather than a re-read of every article ever collected.
 
+/**
+ * Home, away and the score are ONE fact, and must be adopted from ONE record.
+ *
+ * They were three independent `||=`. Gries-Souffel against Strasbourg on 25.8
+ * arrived three times: bebasket with "Alliance Sport Alsace" home and no away,
+ * bebasket again with "SIG Strasbourg 93:73 Alliance Sport Alsace", and the
+ * French league with "Gries-Souffel 73-93 Strasbourg". Every one of them is
+ * correct and two of them are simply written from the other side. Filling each
+ * field from whichever record happened to have it took home from the first and
+ * away from the second — both Alliance Sport Alsace — and then a score written
+ * against a pairing that no longer existed. The card printed a club beating
+ * itself 93:73, and to a reader the numbers are backwards: Gries lost 73-93.
+ *
+ * Fifteen games were in that state. It is the same failure the extractor was
+ * taught years of lessons about — never ask for one fact as two optional
+ * fields — surviving one layer further in, where the fields are no longer
+ * being asked for but merged.
+ *
+ * So: a pairing is taken whole or not at all, a score rides with the pairing
+ * it was written against, and a score arriving from the other side is turned
+ * around to match rather than copied across.
+ */
+const oriented = (x) => Boolean(x.homeTeam && x.awayTeam && x.homeTeam !== x.awayTeam);
+
+/**
+ * Put a score the right way round for THIS pairing.
+ *
+ * A score is written home:away, so naming either end of the pairing it came
+ * from is enough to place it — and sportando's report of Varese 92:72 JuVi
+ * Cremona names only the home side, which a rule demanding both ends threw
+ * away along with the only score that game had.
+ */
+function place(result, from, g) {
+  if (!result || !oriented(g)) return null;
+  if (from.homeTeam === g.homeTeam || from.awayTeam === g.awayTeam) return result;
+  if (from.homeTeam === g.awayTeam || from.awayTeam === g.homeTeam)
+    return { home: result.away, away: result.home };
+  return null; // names neither end of this pairing: unplaceable, so not shown
+}
+
+function adoptPairing(g, rec) {
+  const before = { homeTeam: g.homeTeam, awayTeam: g.awayTeam };
+  if (!oriented(g) && oriented(rec)) { g.homeTeam = rec.homeTeam; g.awayTeam = rec.awayTeam; }
+  else if (!g.homeTeam && !g.awayTeam) { g.homeTeam = rec.homeTeam; g.awayTeam = rec.awayTeam; }
+
+  // The pairing may have just changed under a score already held against the
+  // old one, so that score is re-placed rather than left where it was.
+  if (g.result) g.result = place(g.result, before, g);
+  if (!g.result) g.result = place(rec.result, rec, g);
+}
+
 for (const r of ordered) {
   const rec = toRecord(r);
   // Undated fixtures survive: most say "mid-September" and belong.
@@ -432,11 +508,9 @@ for (const r of ordered) {
     g.time ||= rec.time;
     g.tournament ||= rec.tournament;
     g.stage ||= rec.stage;
-    g.result ||= rec.result;
     g.statsUrl ||= rec.statsUrl;
     g.reportUrl ||= rec.reportUrl;
-    g.homeTeam ||= rec.homeTeam;
-    g.awayTeam ||= rec.awayTeam;
+    adoptPairing(g, rec);
     for (const k of ["arena", "city", "country"]) g.venue[k] ||= rec.venue[k];
   }
 
@@ -467,6 +541,16 @@ for (const r of ordered) {
  * the Kalemegdan games while two other outlets already name Fuenlabrada and
  * Beşiktaş, and without counting the TBA row as vague the page showed both.
  */
+// Belt and braces on the pairing, because the cost of getting it wrong is a
+// wrong fact printed with total confidence. A club does not play itself: if
+// two names ever resolve to one club again, the pairing is unusable and the
+// score it carries is unplaceable, so neither reaches a card.
+for (const g of games.values()) {
+  if (g.homeTeam && g.homeTeam === g.awayTeam) {
+    g.homeTeam = null; g.awayTeam = null; g.result = null;
+  }
+}
+
 const vague = (g) =>
   (g.candidates?.length || 0) > 0 ||
   g.teamIds.length > 2 ||
@@ -492,6 +576,106 @@ for (const [key, g] of games) {
   for (const n of g.notes) if (!answer.notes.includes(n)) answer.notes.push(n);
   games.delete(key);
 }
+
+/* ---------- 4b. one fixture reported twice ---------- */
+/**
+ * A game identity is a date and a pair of clubs, which is right until the two
+ * sources disagree about the date by a day.
+ *
+ * They disagree constantly, and never at random. sportando published the same
+ * Avellino win twice — a preview dated 22/08/2026 and a report dated
+ * 23/08/2026, both carrying 99:62 — so the same fixture landed on two keys and
+ * the page showed it twice. A tournament written "dal 18 al 20 settembre"
+ * resolves to the 18th while the club's own page names the 19th. And a row
+ * that never got a date at all sits beside the dated one for ever, because
+ * gameKey can only pair two records that share a day.
+ *
+ * What settles it is the score. Two rows for one pair carrying the SAME score
+ * are one game however they are dated; carrying DIFFERENT scores they are two
+ * games however close together — Mega Basket played Auburn on the 8th and the
+ * 9th of August and lost one and won the other, and a rule that went by
+ * distance alone would have deleted a real game. Where at most one side has a
+ * score, a day's gap is the artefact and anything wider is believed.
+ *
+ * The survivor is the best-attested row, not the earliest: everything the
+ * folded row knew moves across, and the score moves under adoptPairing so a
+ * report written from the other side is turned around rather than copied.
+ */
+const distinctSources = (g) => new Set(g.sources.map((s) => {
+  try { return new URL(s.url).hostname.replace(/^www\./, ""); }
+  catch { return String(s.name || "").replace(/_en$/, ""); }
+})).size;
+
+const scoreOf = (g) => g.result ? [g.result.home, g.result.away].sort((a, b) => a - b).join(":") : null;
+
+function sameFixture(a, b) {
+  const sa = scoreOf(a), sb = scoreOf(b);
+  if (sa && sb) return sa === sb;
+  if (!a.date || !b.date) return true;
+  return Math.abs(Date.parse(a.date) - Date.parse(b.date)) / 864e5 <= 1;
+}
+
+function foldInto(keeper, loser) {
+  keeper.time ||= loser.time;
+  keeper.tournament ||= loser.tournament;
+  keeper.stage ||= loser.stage;
+  keeper.statsUrl ||= loser.statsUrl;
+  keeper.reportUrl ||= loser.reportUrl;
+  keeper.dateLabel ||= loser.dateLabel;
+  keeper.date ||= loser.date;
+  adoptPairing(keeper, loser);
+  for (const k of ["arena", "city", "country"]) keeper.venue[k] ||= loser.venue[k];
+  for (const f of loser.flags) if (!keeper.flags.includes(f)) keeper.flags.push(f);
+  for (const n of loser.notes) if (!keeper.notes.includes(n)) keeper.notes.push(n);
+  for (const b of loser.broadcast) if (!keeper.broadcast.some((x) => x.name === b.name)) keeper.broadcast.push(b);
+  for (const s of loser.sources) if (!keeper.sources.some((x) => (x.url || x.name) === (s.url || s.name))) keeper.sources.push(s);
+  for (const o of loser.origins) if (!keeper.origins.includes(o)) keeper.origins.push(o);
+}
+
+const byPairing = new Map();
+for (const [key, g] of games) {
+  if (g.teamIds.length !== 2 || vague(g)) continue;
+  const k = [...g.teamIds].sort().join("|");
+  if (!byPairing.has(k)) byPairing.set(k, []);
+  byPairing.get(k).push({ key, g });
+}
+
+let foldedPairs = 0;
+for (const rows of byPairing.values()) {
+  if (rows.length < 2) continue;
+  rows.sort((a, b) =>
+    distinctSources(b.g) - distinctSources(a.g) ||
+    (b.g.result ? 1 : 0) - (a.g.result ? 1 : 0) ||
+    (b.g.time ? 1 : 0) - (a.g.time ? 1 : 0) ||
+    (a.g.date || "9999").localeCompare(b.g.date || "9999"));
+  const kept = [];
+  for (const row of rows) {
+    const twin = kept.find((k) => sameFixture(k.g, row.g));
+    if (!twin) { kept.push(row); continue; }
+    foldInto(twin.g, row.g);
+    games.delete(row.key);
+    foldedPairs++;
+  }
+}
+
+/**
+ * A club does not play twice on one day, so a row naming only one of them is
+ * the same fixture as the full one beside it — the report simply never named
+ * the opponent. The pass above cannot see these, because it groups on a pair
+ * and these rows have half of one.
+ */
+const full = [...games.values()].filter((g) => g.date && g.teamIds.length === 2 && !vague(g));
+let foldedSolo = 0;
+for (const [key, g] of games) {
+  if (g.teamIds.length !== 1 || !g.date || g.opponentTbd || g.candidates?.length) continue;
+  const host = full.find((p) => p.date === g.date && p.teamIds.includes(g.teamIds[0]));
+  if (!host) continue;
+  foldInto(host, g);
+  games.delete(key);
+  foldedSolo++;
+}
+
+console.log(`folded away    : ${foldedPairs} repeat reports · ${foldedSolo} half-named rows`);
 
 /* ---------- 5. emit ---------- */
 const gameList = [...games.values()].map((g) => {
