@@ -220,7 +220,10 @@ async function callModel(text) {
 // Club sites keep archives, and a fixture table from a past season looks
 // exactly like a current one to a reader dropped into the middle of it.
 // Lietkabelis's page returned a full 2016 preseason, scores and all.
-const SEASON_FROM = "2026-06-01";
+// Preseason 2026-27 begins in August. June 2026 is the END of the previous
+// season — the Turkish league final went five games that month, and all five
+// arrived with scores and sat on the page as though they were preseason.
+const SEASON_FROM = "2026-07-15";
 const SEASON_TO = "2027-07-31";
 
 function inSeason(g) {

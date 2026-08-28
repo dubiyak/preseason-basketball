@@ -224,7 +224,14 @@ function primaryCompetition(g){
 // is. It stays in the data because it is what lets a home game inherit the
 // club's arena when the report names only the city.
 function matchup(g){
-  const names = g.teams.map(teamName);
+  // A score is written home:away, so a game that has one must list its clubs
+  // in that same order — otherwise the numbers read backwards against the
+  // names beside them. Four cards were doing exactly that, because teams[]
+  // holds ids in whatever order they happened to be added.
+  const ordered = g.result && g.homeTeam && g.awayTeam
+    ? [g.homeTeam, g.awayTeam]
+    : g.teams;
+  const names = ordered.map(teamName);
   if (g.candidates?.length)
     return `${esc(names[0])} <span class="vs">מול</span> ${esc(g.candidates.join(" / "))}`;
   if (g.opponentTbd)
@@ -282,7 +289,10 @@ const iconLink = (href, label, svg) =>
 
 function sideEl(g){
   const bits = [];
-  if (g.result)
+  // Without home and away there is no way to say which club scored which
+  // number. A score printed against the wrong name is a wrong fact, so it is
+  // withheld rather than guessed at.
+  if (g.result && g.homeTeam && g.awayTeam)
     bits.push(`<div class="score">${g.result.home}<span class="dash">:</span>${g.result.away}</div>`);
 
   if (isOver(g)){

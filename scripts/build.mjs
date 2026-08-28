@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { normName, splitVenue, gameKey, gameId } from "../lib/normalize.mjs";
-import { resolveDate, isVague, PRESEASON_TO } from "../lib/dates.mjs";
+import { resolveDate, isVague, PRESEASON_FROM, PRESEASON_TO } from "../lib/dates.mjs";
 import {
   loadAliases, saveAliases, buildIndex, resolveLocal, resolveWithModel, newClub,
 } from "./resolve.mjs";
@@ -351,7 +351,11 @@ const ordered = [
 for (const r of ordered) {
   const rec = toRecord(r);
   // Undated fixtures survive: most say "mid-September" and belong.
-  if (rec.date && rec.date > PRESEASON_TO) continue;
+  // Both ends, not just the far one. Only the TO end was enforced here, so
+  // last season's Turkish final — five games in June, scores and all — stayed
+  // in the data after the window moved, because build never re-checks what the
+  // extractor already let through.
+  if (rec.date && (rec.date > PRESEASON_TO || rec.date < PRESEASON_FROM)) continue;
   // A generic label is the ABSENCE of a tournament, so it is cleared rather
   // than carried; and aliases are followed to a fixed point, because they had
   // begun to chain (Supercoppa LNP -> Serie A2 -> Serie B).
