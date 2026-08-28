@@ -11,7 +11,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
-import { normName, splitVenue, gameKey, gameId } from "../lib/normalize.mjs";
+import { normName, splitVenue, gameKey, gameId, normTime } from "../lib/normalize.mjs";
 import { resolveDate, isVague, PRESEASON_FROM, PRESEASON_TO } from "../lib/dates.mjs";
 import {
   loadAliases, saveAliases, buildIndex, resolveLocal, resolveWithModel, newClub,
@@ -307,7 +307,7 @@ function toRecord(r) {
   return {
     date: date || null,
     dateLabel: label,
-    time: g.time || null,
+    time: normTime(g.time),
     teamIds: ids,
     homeTeam: home ? resolveLocal(home, index, aliases) : null,
     awayTeam: away ? resolveLocal(away, index, aliases) : null,
