@@ -22,6 +22,16 @@ import fs from "node:fs";
 import path from "node:path";
 import { get, pageText, DATE_SHAPE } from "../lib/fetch.mjs";
 
+
+// A pin that names a broadcaster is that channel's own schedule. It gets its
+// own outlet prefix so the extractor treats it as living rather than as an
+// article read once and never again.
+const tvOutlet = (p) => {
+  if (!p.broadcaster) return null;
+  try { return "tv:" + new URL(p.url).hostname.replace(/^www\./, ""); }
+  catch { return "tv:pinned"; }
+};
+
 const DATA = path.resolve(import.meta.dirname, "..", "data");
 const read = (f, fb) =>
   fs.existsSync(path.join(DATA, f)) ? JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8")) : fb;
@@ -201,8 +211,13 @@ for (const l of LEAGUES) {
 // category which publishes a draw and its tip-off times before anyone repeats it.
 for (const p of pins.filter((x) => !x.league && !x.browser)) {
   found.push(candidate({
-    outlet: "pinned", club: p.name || "", strategy: "pinned",
+    outlet: tvOutlet(p) || "pinned", club: p.name || "", strategy: "pinned",
     title: p.name || p.note || p.url, url: p.url, score: 11,
+    // A channel's own schedule names the channel once and never on the rows,
+    // and shows one day while listing the rest as tabs. Both facts travel with
+    // the candidate rather than being left for the model to infer.
+    broadcaster: p.broadcaster || null,
+    capturedOn: p.broadcaster ? new Date().toISOString().slice(0, 10) : null,
   }));
   console.log("  PIN " + (p.name || p.url));
 }

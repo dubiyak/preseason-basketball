@@ -20,6 +20,16 @@
 import fs from "node:fs";
 import path from "node:path";
 
+
+// A pin that names a broadcaster is that channel's own schedule. It gets its
+// own outlet prefix so the extractor treats it as living rather than as an
+// article read once and never again.
+const tvOutlet = (p) => {
+  if (!p.broadcaster) return null;
+  try { return "tv:" + new URL(p.url).hostname.replace(/^www\./, ""); }
+  catch { return "tv:pinned"; }
+};
+
 const DATA = path.resolve(import.meta.dirname, "..", "data");
 const read = (f, fb) =>
   fs.existsSync(path.join(DATA, f)) ? JSON.parse(fs.readFileSync(path.join(DATA, f), "utf8")) : fb;
@@ -275,16 +285,35 @@ for (const p of browserPins) {
   console.log(`  ✓ ${p.name || p.league} — ${p.url} (${text.length} chars, ${dates} numeric dates)`);
   pinned++;
   found.push({
-    outlet: p.league ? `league:${p.league}` : "pinned",
+    outlet: tvOutlet(p) || (p.league ? `league:${p.league}` : "pinned"),
     club: p.name || "",
     lang: "auto",
     strategy: "pinned-rendered",
     title: p.name || p.note || p.url,
+    // A channel's own schedule names the channel once, at the top, and never
+    // on the rows. It rides on the pin so every game read off the page can be
+    // attributed without the model having to infer it from a page header.
+    broadcaster: p.broadcaster || null,
+    // The day the page was showing. A rendered page carries no date of its own,
+    // and this one renders its listing TWICE — the same rows appear in two
+    // blocks — so the model saw one fixture and reasonably filed the second
+    // copy under another day. It is not a judgement call: a schedule shows one
+    // day, and the renderer is the only thing that knows which.
+    capturedOn: p.broadcaster ? new Date().toISOString().slice(0, 10) : null,
     url: p.url,
     published: null,
     // Same reason as above: fetching this URL again without a browser returns
     // the same empty shell.
-    inlineText: text.slice(0, 18000),
+    //
+    // A schedule is stamped with the day it was read. The page shows ONE day's
+    // rows and lists every other day as a tab beside them, and the model dated
+    // a row to a tab — putting Hapoel Tel Aviv against Balkan on the 4th of
+    // September as well as tonight, from a page that only ever showed tonight.
+    // A rendered page carries no date of its own; this is the one thing the
+    // renderer knows that the text does not say.
+    inlineText: (p.broadcaster
+      ? `[הדף נלכד ב-${new Date().toISOString().slice(0, 10)}]\n`
+      : "") + text.slice(0, 18000),
     matchedKeywords: ["preseason-calendar"],
     matchedClubs: [],
     score: 12,

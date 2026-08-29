@@ -37,6 +37,14 @@
       "url": "https://vtb-league.com/en/news/cska-is-getting-ready-for-the-new-season/",
       "name": "CSKA preseason",
       "note": "Four CSKA friendlies plus its Super Cup group."
+    },
+    {
+      "url": "https://www.sport5.co.il/html/pages/broadcastsheet.html",
+      "name": "לוח שידורים — ערוץ הספורט",
+      "broadcaster": "ערוץ הספורט",
+      "browser": true,
+      "note": "A broadcast schedule, which is a source of a kind this had none of: the channel showing a game almost never appears in the report announcing it. Rendered, because the page fetches at 66KB and 60 characters of text. Covers every sport, and its basketball rows say so — 'משחק הכנה בכדורסל: הפועל תל אביב - בלקן סופיה'. The channel is named once at the top of its own schedule rather than on each row, so it rides on the pin as `broadcaster`."
     }
-  ]
+  ],
+  "_broadcaster": "A pin carrying `broadcaster` is that channel's own schedule: every game listed on it is shown by it, and the name is attached to rows that do not carry one themselves."
 }

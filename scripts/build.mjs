@@ -571,6 +571,19 @@ for (const [key, g] of games) {
   if (!answer) continue;
   answer.tournament ||= g.tournament;
   answer.stage ||= g.stage;
+  // Everything the retired row knew, not just where it was played. A vague row
+  // can be the best-informed one in the set: the channel's own schedule names
+  // Hapoel Tel Aviv against "Balkan Sofia" — a spelling that resolves to no
+  // club, so the row counts as a guess — while carrying the tip-off time and
+  // the broadcaster, which nothing else in the collection had. Retiring it for
+  // the precise row and keeping only its sources threw both away.
+  answer.time ||= g.time;
+  answer.statsUrl ||= g.statsUrl;
+  answer.reportUrl ||= g.reportUrl;
+  answer.highlightsUrl ||= g.highlightsUrl;
+  for (const b of g.broadcast || []) {
+    if (!answer.broadcast.some((x) => x.name === b.name)) answer.broadcast.push(b);
+  }
   for (const k of ["arena", "city", "country"]) answer.venue[k] ||= g.venue[k];
   for (const s of g.sources) {
     if (!answer.sources.some((x) => (x.url || x.name) === (s.url || s.name))) answer.sources.push(s);

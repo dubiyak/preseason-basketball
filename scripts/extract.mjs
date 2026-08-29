@@ -145,6 +145,8 @@ Rules:
 - Only output a date when the article gives one that resolves to a real day. If it says "mid-September" or gives no date, leave date empty and put the wording in dateText.
 - Never guess a time, arena or broadcaster. Empty means the source did not say. A tip-off time is valuable — take it whenever it is printed, including from a fixture table column.
 - Take the broadcaster whenever a channel or stream is named for a specific game, and its link if one is given.
+- A TELEVISION SCHEDULE shows ONE day, and lists the other days beside it as tabs you cannot see the contents of. Every row on it belongs to the day the page is showing — never to a tab. When the text opens with "[הדף נלכד ב-YYYY-MM-DD]" that is the day, and the rows are that date.
+- A TELEVISION SCHEDULE is a listing for every sport that channel carries, and most of its rows are not basketball. Take ONLY the rows the page itself marks as basketball — "משחק הכנה בכדורסל", "כדורסל", "basketball". Israeli football and basketball share club names and even league names: "הפועל ירושלים" and "ליגת ווינר" are both, and a football row read as a fixture puts a game that never existed on the page. When a row does not say which sport it is, leave it.
 - URLs appear in square brackets straight after the words that link to them, like "Boxscore [https://example.com/match/12]". They are the page's own links, copied for you. Use them and copy them character for character; never write a URL that is not in the text, and never guess one from a pattern you have seen before.
 - statsUrl is a page about ONE game: a boxscore, a match centre, a live-stats page. A club's season statistics page or a league's player-statistics page is about many games and is not it — leave statsUrl empty rather than attach one.
 - reportUrl is a write-up of one game after it was played. broadcastUrl is where to watch a specific game. A club's home page, ticket page or shop is none of these.
@@ -418,6 +420,10 @@ const { candidates } = JSON.parse(fs.readFileSync(path.join(DATA, "candidates.js
  * shortest interval by far.
  */
 const TTL_HOURS = {
+  // A television schedule is the most living page here: it is a different page
+  // tomorrow. Pinned pages otherwise have no TTL — "read once, ever" — which is
+  // right for an article and exactly wrong for a listing.
+  "tv:": Number(process.env.RECHECK_TV_HOURS || 2),
   "league:": Number(process.env.RECHECK_LEAGUE_HOURS || 2),
   "club:": Number(process.env.RECHECK_CLUB_HOURS || 10),
 };
@@ -496,6 +502,15 @@ for (let i = 0; i < fetched.length; i += BATCH) {
       parseMatchup(g);
       parseScore(g);
       if (dropImpossibleResult(g, TODAY)) impossible++;
+      // A channel's own schedule is a claim about every game printed on it, and
+      // it makes that claim once at the top rather than on each row. The name
+      // travels on the candidate, so it is attached here rather than left to be
+      // inferred from a page header the model may or may not connect to a row.
+      if (a.broadcaster && !g.broadcaster) g.broadcaster = a.broadcaster;
+      // Every row on a one-day schedule is that day, enforced rather than
+      // asked for. The page repeats its own listing, and a prompt rule about
+      // which block is which is a rule that can be got wrong.
+      if (a.capturedOn) { g.date = a.capturedOn; g.dateText = a.capturedOn; }
       cleanBroadcast(g);
       cleanTeams(g);
     }
