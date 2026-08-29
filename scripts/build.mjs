@@ -706,6 +706,12 @@ const teamList = [...clubs.values()].map((t) => {
     website: saved.website ?? t.website,
     newsUrl: saved.newsUrl ?? t.newsUrl,
     aliases: [...new Set([...(t.aliases || []), ...(saved.aliases || [])])],
+    // Merged, like the aliases beside it. The registry is where a durable fact
+    // about a club is kept, but a club that also exists in the seed took its
+    // competitions from there and ignored the registry entirely — so writing
+    // "bcl" onto ten of them from the league's own team list changed nothing,
+    // and the front tab was short thirty games with no sign of why.
+    competitions: [...new Set([...(t.competitions || []), ...(saved.competitions || [])])],
     // No fixtures anywhere means this club is the one worth polling hardest.
     watchlist: !playing.has(t.id),
   };
@@ -724,21 +730,39 @@ const teamList = [...clubs.values()].map((t) => {
  * check, rather than quietly narrowing the front tab — which is the way every
  * hand-written list in this project has failed before.
  */
-const featuredSpec = read("featured.json", { competitions: [], countries: [], clubs: [] });
+const featuredSpec = read("featured.json", { competitions: [], countries: {}, clubs: {} });
 const wantComps = new Set(featuredSpec.competitions || []);
-const wantCountries = new Set(featuredSpec.countries || []);
-const wantClubs = (featuredSpec.clubs || []).map((s) => String(s).trim());
+const wantCountries = Object.entries(featuredSpec.countries || {});
+const wantClubs = Object.entries(featuredSpec.clubs || {});
 
 const matchesNamed = (t, name) =>
   t.name_he === name || t.name_src === name || (t.aliases || []).includes(name);
 
-const namedHits = new Map(wantClubs.map((n) => [n, 0]));
+/**
+ * Every group is a filter button, and every filter button is a group.
+ *
+ * The buttons used to be read straight off the clubs' `competitions`, which is
+ * why the front tab offered "Adriatic" and "no competition" — filters for
+ * things nobody asked to see, on a tab defined by a list that does not mention
+ * them. A club now carries the groups it belongs to, the page draws one button
+ * per group, and the two cannot drift apart because they are the same fact.
+ *
+ * Outside the selection a club keeps its own competitions as its groups, so
+ * the second tab still has the filters that make sense over there.
+ */
+const namedHits = new Map(wantClubs.flatMap(([, names]) => names.map((n) => [n, 0])));
 for (const t of teamList) {
-  const named = wantClubs.find((n) => matchesNamed(t, n));
-  if (named) namedHits.set(named, namedHits.get(named) + 1);
-  t.featured = Boolean(named) ||
-    (t.competitions || []).some((c) => wantComps.has(c)) ||
-    wantCountries.has(t.country);
+  const groups = [];
+  for (const c of t.competitions || []) if (wantComps.has(c)) groups.push(c);
+  for (const [id, country] of wantCountries) if (t.country === country) groups.push(id);
+  for (const [id, names] of wantClubs) {
+    const named = names.find((n) => matchesNamed(t, n));
+    if (!named) continue;
+    namedHits.set(named, namedHits.get(named) + 1);
+    groups.push(id);
+  }
+  t.featured = groups.length > 0;
+  t.groups = [...new Set(t.featured ? groups : (t.competitions || []))];
 }
 const unmatched = [...namedHits].filter(([, n]) => !n).map(([n]) => n);
 if (unmatched.length) console.log(`  ! featured club not found: ${unmatched.join(", ")}`);

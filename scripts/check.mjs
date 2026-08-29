@@ -111,7 +111,7 @@ const checks = [
   // with nothing to say it had gone.
   ["every club named in featured.json still exists", (() => {
     const spec = JSON.parse(fs.readFileSync(path.join(DATA, "featured.json"), "utf8"));
-    return (spec.clubs || []).filter((n) => !teams.teams.some(
+    return Object.values(spec.clubs || {}).flat().filter((n) => !teams.teams.some(
       (t) => t.name_he === n || t.name_src === n || (t.aliases || []).includes(n))).length;
   })(), 0],
 

@@ -204,10 +204,17 @@
 </div>
 
 <script>
+// One entry per filter button. The first six are exactly what the front tab is
+// selected by — build.mjs stamps the same ids onto each club as `groups`, so a
+// button and the thing it filters cannot drift apart. The last two only ever
+// appear on the second tab.
 const COMPETITIONS = {
   euroleague:{label:"יורוליג",   color:"var(--euroleague)"},
   eurocup:   {label:"יורוקאפ",   color:"var(--eurocup)"},
   bcl:       {label:"BCL",        color:"var(--bcl)"},
+  israel:    {label:"ליגה ישראלית", color:"#1D8FE1"},
+  spain:     {label:"ליגה ספרדית",  color:"#C8102E"},
+  extra:     {label:"מועדונים נוספים", color:"#7A4B24"},
   aba:       {label:"אדריאטית",  color:"var(--aba)"},
   domestic:  {label:"ליגות מקומיות", color:"var(--domestic)"},
   // 139 of 194 clubs have no competition on file — mostly opponents from
@@ -220,7 +227,7 @@ const MONTHS = ["ינו","פבר","מרץ","אפר","מאי","יונ","יול","
 
 let GAMES = [], TEAMS = new Map(), META = {};
 let view = "date";
-let active = new Set(Object.keys(COMPETITIONS));
+let active = null; // set once the tab is known, from allGroups()
 let query = "";
 // Which half of the collection is on screen. Not a filter on top of the others:
 // the two tabs partition every game, so a game is in exactly one of them and
@@ -242,9 +249,21 @@ const teamName = id => TEAMS.get(id)?.name_he || "—";
 // explicit bucket, not a wildcard that satisfies every filter.
 function gameCompetitions(g){
   const out = new Set();
-  for (const id of g.teams) for (const c of (TEAMS.get(id)?.competitions || [])) out.add(c);
+  for (const id of g.teams) for (const c of (TEAMS.get(id)?.groups || [])) out.add(c);
   return out.size ? [...out] : ["other"];
 }
+
+// The buttons the front tab is allowed to offer: the selection itself, nothing
+// else. A game there always carries at least one of these, because carrying one
+// is what put it there.
+const FEATURED_GROUPS = ["euroleague","eurocup","bcl","israel","spain","extra"];
+
+// What "everything on" means in the tab you are looking at. It has to exclude
+// the groups the tab does not show a button for: a EuroLeague game that also
+// touches an Adriatic club stayed on screen after its EuroLeague button was
+// switched off, held there by an "Adriatic" filter with no button to switch.
+const allGroups = () => new Set(scope === "featured"
+  ? FEATURED_GROUPS : Object.keys(COMPETITIONS).filter(k => !FEATURED_GROUPS.includes(k)));
 function primaryCompetition(g){
   const order = ["euroleague","eurocup","bcl","aba","domestic","other"];
   const comps = gameCompetitions(g);
@@ -498,9 +517,15 @@ function renderChips(){
   // Populated IN THIS TAB. A chip offering EuroLeague on the second tab can
   // only ever return nothing, since a EuroLeague club is what puts a game on
   // the first one.
+  //
+  // And on the front tab, only the six the selection is made of. A EuroLeague
+  // club playing an Adriatic one used to raise an "Adriatic" button on a tab
+  // that was never meant to be about the Adriatic league — a filter for
+  // something nobody asked to see.
   const populated = new Set(inTab().flatMap(gameCompetitions));
+  const allowed = (k) => scope !== "featured" || FEATURED_GROUPS.includes(k);
   document.getElementById("chips").innerHTML = Object.entries(COMPETITIONS)
-    .filter(([k]) => populated.has(k))
+    .filter(([k]) => populated.has(k) && allowed(k))
     .map(([k,v]) => {
     const on = active.has(k);
     return `<button class="chip ${on ? "active" : ""}" data-comp="${k}"
@@ -510,7 +535,7 @@ function renderChips(){
   document.querySelectorAll("#chips .chip").forEach(c => c.onclick = () => {
     const k = c.dataset.comp;
     active.has(k) ? active.delete(k) : active.add(k);
-    if (!active.size) active = new Set(Object.keys(COMPETITIONS));
+    if (!active.size) active = allGroups();
     renderChips(); render();
   });
 }
@@ -566,13 +591,14 @@ function renderStats(){
       `<div class="empty">שגיאה בטעינת הנתונים.</div>`;
     return;
   }
+  active = allGroups();
   renderScopes(); renderChips(); renderStats(); render();
 
   document.querySelectorAll("#scopes button").forEach(b => b.onclick = () => {
     scope = b.dataset.scope;
     // Every chip back on: the two tabs hold different competitions, so a
     // selection carried across from the other one can land on an empty page.
-    active = new Set(Object.keys(COMPETITIONS));
+    active = allGroups();
     renderScopes(); renderChips(); renderStats(); render();
   });
 
