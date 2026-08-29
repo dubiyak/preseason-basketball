@@ -107,6 +107,7 @@ const SCHEMA = {
           score: { type: "string", description: "final score written home:away, e.g. \"85:67\"; empty unless the game has been played" },
           statsUrl: { type: "string", description: "link to a boxscore or statistics page for this game, else empty" },
           reportUrl: { type: "string", description: "link to a match report or recap of this game, else empty" },
+          highlightsUrl: { type: "string", description: "link to a VIDEO of this game: highlights, a recap reel, full-game footage, a YouTube or club-TV page for this specific game. Not a written report, and not a channel's home page. Else empty" },
           isOfficialLeagueGame: { type: "boolean", description: "true if this is a regular-season league game rather than a preseason game" },
           isNationalTeam: { type: "boolean", description: "true if either side is a national team rather than a club" },
           // Both sides, not either: an NBA club touring Europe and playing a
@@ -147,6 +148,7 @@ Rules:
 - URLs appear in square brackets straight after the words that link to them, like "Boxscore [https://example.com/match/12]". They are the page's own links, copied for you. Use them and copy them character for character; never write a URL that is not in the text, and never guess one from a pattern you have seen before.
 - statsUrl is a page about ONE game: a boxscore, a match centre, a live-stats page. A club's season statistics page or a league's player-statistics page is about many games and is not it — leave statsUrl empty rather than attach one.
 - reportUrl is a write-up of one game after it was played. broadcastUrl is where to watch a specific game. A club's home page, ticket page or shop is none of these.
+- highlightsUrl is VIDEO of one game — a highlights reel, a recap, full-game footage, an embedded YouTube link. A written recap is reportUrl, not this. A channel's or club's video LIBRARY covering many games is neither: leave it empty rather than attach the library.
 - This tracks CLUBS only. A game involving a national team (Greece, Israel, Serbia...) is not a club game: set isNationalTeam=true so it can be filtered out.
 - This tracks EUROPEAN preseason. A game between two NBA franchises is the NBA's own calendar even when it is played in Europe: set isNbaOnly=true. Set it only when BOTH sides are NBA — an NBA club against a European club, or a US college against a European club, is a preseason game and stays. Franchise names arrive transliterated ("Σαν Αντόνιο Σπερς", "סן אנטוניו ספרס"): judge the club, not the spelling.
 - Games already played DO belong here. Set played=true and write the final score in the score field as home:away — both numbers together, exactly as the source shows them. If only one number is visible, leave the score empty and played false. Include any boxscore or match-report link given for the game.

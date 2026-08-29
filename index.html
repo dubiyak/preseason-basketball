@@ -332,6 +332,10 @@ const ICON_REPORT = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden
 
 const ICON_WATCH = `<svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true" focusable="false">  <rect x="1.2" y="3.4" width="13.6" height="9.4" rx="1.6" fill="none"    stroke="currentColor" stroke-width="1.4"/>  <path d="M6.6 6.3v3.6l3.1-1.8z" fill="currentColor"/></svg>`;
 
+// A play triangle in a circle: video of the game, as distinct from the screen
+// icon above, which is where to watch one that has not started.
+const ICON_VIDEO = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false">  <circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.4"/>  <path d="M6.5 5.3v5.4l4.2-2.7z" fill="currentColor"/></svg>`;
+
 // Icon-only, so the label has to reach assistive tech and hover some other way.
 const iconLink = (href, label, svg) =>
   `<a class="icon-link" href="${esc(href)}" target="_blank" rel="noopener"` +
@@ -360,7 +364,9 @@ function sideEl(g){
 
   if (isOver(g)){
     // After the game, and from then on: the boxscore does not expire.
+    // Video first — it is the one most people want and the rarest to have.
     const links = [
+      g.highlightsUrl && iconLink(g.highlightsUrl, "תקציר וידאו", ICON_VIDEO),
       g.statsUrl && iconLink(g.statsUrl, "סטטיסטיקה", ICON_STATS),
       g.reportUrl && iconLink(g.reportUrl, "סיקור", ICON_REPORT),
     ].filter(Boolean).join("");

@@ -354,6 +354,7 @@ function toRecord(r) {
       : (g.result || null),
     statsUrl: g.statsUrl || null,
     reportUrl: g.reportUrl || null,
+    highlightsUrl: g.highlightsUrl || null,
     sources,
     notes: g.notes || [],
     origin,
@@ -510,6 +511,7 @@ for (const r of ordered) {
     g.stage ||= rec.stage;
     g.statsUrl ||= rec.statsUrl;
     g.reportUrl ||= rec.reportUrl;
+    g.highlightsUrl ||= rec.highlightsUrl;
     adoptPairing(g, rec);
     for (const k of ["arena", "city", "country"]) g.venue[k] ||= rec.venue[k];
   }
@@ -621,6 +623,7 @@ function foldInto(keeper, loser) {
   keeper.stage ||= loser.stage;
   keeper.statsUrl ||= loser.statsUrl;
   keeper.reportUrl ||= loser.reportUrl;
+  keeper.highlightsUrl ||= loser.highlightsUrl;
   keeper.dateLabel ||= loser.dateLabel;
   keeper.date ||= loser.date;
   adoptPairing(keeper, loser);
@@ -676,6 +679,31 @@ for (const [key, g] of games) {
 }
 
 console.log(`folded away    : ${foldedPairs} repeat reports · ${foldedSolo} half-named rows`);
+
+/* ---------- 4c. a game that was played and has no score ---------- */
+/**
+ * Dropped, on the owner's instruction: a fixture list that says two clubs met
+ * three days ago and will not say who won is asking to be trusted about the
+ * part it left out.
+ *
+ * Two days of grace, the same window the integrity check uses, because a game
+ * that finished last night has not been reported yet and is not missing — it
+ * is recent. Undated rows are untouched: "mid-September" has not happened.
+ *
+ * This is a real loss and worth naming. The row is usually true — the game was
+ * played — and it goes because nobody published the score, which is a fact
+ * about the coverage rather than the fixture. The count is logged every run so
+ * the size of what is being thrown away stays visible.
+ */
+const RESULT_GRACE_H = 48;
+const staleCutoff = new Date(Date.now() - RESULT_GRACE_H * 36e5).toISOString().slice(0, 10);
+let droppedUnscored = 0;
+for (const [key, g] of games) {
+  if (!g.date || g.date >= staleCutoff || g.result) continue;
+  games.delete(key);
+  droppedUnscored++;
+}
+console.log(`no score found : ${droppedUnscored} played games removed (older than ${RESULT_GRACE_H}h)`);
 
 /* ---------- 5. emit ---------- */
 const gameList = [...games.values()].map((g) => {
