@@ -1,0 +1,13 @@
+{
+  "_doc": "Which games open the site. Everything else is still collected, still checked and still published — it moves to the second tab rather than disappearing, because a game dropped is a game that cannot be found again. A game qualifies on ONE side: a friendly is interesting when either club is, so Maccabi Tel Aviv against a German second-division side belongs here. Edit this file to change what the front tab holds; build.mjs stamps `featured` onto each club in teams.json and index.html only reads it.",
+  "competitions": ["euroleague", "eurocup", "bcl"],
+  "_countries": "Clubs carry a European competition or nothing at all — there is no per-league tag for domestic basketball anywhere in the data — so a domestic league is selected by the country of its clubs. It is a little wider than the top division: Ourense and Coto Cordoba are Spanish without being ACB. They earn their place anyway, because the games that brought them into the data are games against ACB clubs.",
+  "countries": ["ישראל", "ספרד"],
+  "_clubs": "Named one by one, matched on the Hebrew name, the source name or any alias. A name that matches nothing is reported by the build and fails a check rather than quietly narrowing the tab.",
+  "clubs": [
+    "CSKA מוסקבה",
+    "לוקומוטיב קובאן",
+    "אוניקס קאזאן",
+    "זנית סנט פטרסבורג"
+  ]
+}

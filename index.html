@@ -51,7 +51,22 @@
   .sb-tile .n{font-family:'Oswald',sans-serif;font-size:24px;font-weight:700;color:var(--orange);line-height:1.1;}
   .sb-tile .l{font-size:11.5px;color:#B7BECC;margin-top:2px;}
 
-  .controls{margin-top:22px;display:flex;flex-direction:column;gap:14px;}
+  /* The scope tabs sit above everything and read as a change of place, not a
+     filter — the second one is not a narrower view of the first, it is the
+     rest of the collection. */
+  .scopes{margin-top:24px;display:flex;gap:2px;border-bottom:2px solid var(--line);}
+  .scopes button{font-family:'Heebo',sans-serif;font-weight:600;font-size:15px;
+    border:none;background:transparent;color:var(--ink-soft);cursor:pointer;
+    padding:11px 20px 10px;border-bottom:3px solid transparent;margin-bottom:-2px;
+    display:inline-flex;align-items:center;gap:9px;transition:.15s ease;}
+  .scopes button:hover{color:var(--ink);}
+  .scopes button.active{color:var(--ink);border-bottom-color:var(--orange);}
+  .scopes .n{font-size:12.5px;font-weight:600;border-radius:999px;padding:2px 9px;
+    background:var(--court-bg);color:var(--ink-soft);}
+  .scopes button.active .n{background:var(--orange);color:#fff;}
+  .scope-note{margin:12px 0 0;font-size:13px;color:var(--ink-soft);line-height:1.6;}
+
+  .controls{margin-top:16px;display:flex;flex-direction:column;gap:14px;}
   .row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
   .toggle{display:inline-flex;background:var(--card);border:1px solid var(--line);
     border-radius:12px;padding:4px;gap:4px;box-shadow:0 2px 6px rgba(122,75,36,.06);}
@@ -162,6 +177,12 @@
     <p class="freshness" id="freshness"></p>
   </header>
 
+  <div class="scopes" id="scopes">
+    <button data-scope="featured" class="active">במעקב <span class="n">–</span></button>
+    <button data-scope="rest">כל השאר <span class="n">–</span></button>
+  </div>
+  <p class="scope-note" id="scopeNote"></p>
+
   <div class="controls">
     <div class="row">
       <div class="toggle" id="views">
@@ -201,6 +222,16 @@ let GAMES = [], TEAMS = new Map(), META = {};
 let view = "date";
 let active = new Set(Object.keys(COMPETITIONS));
 let query = "";
+// Which half of the collection is on screen. Not a filter on top of the others:
+// the two tabs partition every game, so a game is in exactly one of them and
+// nothing is hidden by being uninteresting — only moved.
+let scope = "featured";
+
+// One side is enough. A friendly is worth watching when EITHER club is, so
+// Maccabi Tel Aviv against a German second-division side belongs up front.
+// build.mjs decides which clubs those are, from data/featured.json.
+const inScope = g => g.teams.some(id => TEAMS.get(id)?.featured);
+const scopeOf = g => inScope(g) ? "featured" : "rest";
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
   ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -345,8 +376,10 @@ function gameCard(g){
   </article>`;
 }
 
+const inTab = () => GAMES.filter(g => scopeOf(g) === scope);
+
 function filtered(){
-  return GAMES.filter(g => {
+  return inTab().filter(g => {
     if (!gameCompetitions(g).some(c => active.has(c))) return false;
     if (!query) return true;
     const hay = [
@@ -462,7 +495,10 @@ function renderChips(){
   // filter. No club is tagged "domestic" yet — competition membership comes
   // from the EuroLeague API, which knows only its own two competitions — so
   // that chip stays hidden until something fills it.
-  const populated = new Set(GAMES.flatMap(gameCompetitions));
+  // Populated IN THIS TAB. A chip offering EuroLeague on the second tab can
+  // only ever return nothing, since a EuroLeague club is what puts a game on
+  // the first one.
+  const populated = new Set(inTab().flatMap(gameCompetitions));
   document.getElementById("chips").innerHTML = Object.entries(COMPETITIONS)
     .filter(([k]) => populated.has(k))
     .map(([k,v]) => {
@@ -479,14 +515,30 @@ function renderChips(){
   });
 }
 
+// The tab counts are of the whole tab, not of what the filters have left, so
+// the number beside "כל השאר" still says how much is over there while you are
+// looking at something narrow on this side.
+function renderScopes(){
+  const n = { featured: 0, rest: 0 };
+  for (const g of GAMES) n[scopeOf(g)]++;
+  document.querySelectorAll("#scopes button").forEach(b => {
+    b.classList.toggle("active", b.dataset.scope === scope);
+    b.querySelector(".n").textContent = n[b.dataset.scope];
+  });
+  document.getElementById("scopeNote").textContent = scope === "featured"
+    ? "יורוליג · יורוקאפ · BCL · הליגה הישראלית · הליגה הספרדית — ובנוסף צסק\"א מוסקבה, לוקומוטיב קובאן, אוניקס קאזאן וזניט. משחק נכנס לכאן אם אחת מהקבוצות בו שייכת לרשימה."
+    : "כל שאר המשחקים שנאספו — הליגות האיטלקית, הצרפתית, הגרמנית, האדריאטית ועוד. הכול נאסף ונבדק באותה מידה, רק לא מוצג בטאב הראשי.";
+}
+
 function renderStats(){
-  document.getElementById("sbGames").textContent = GAMES.length;
+  const inScopeGames = inTab();
+  document.getElementById("sbGames").textContent = inScopeGames.length;
   document.getElementById("sbTeams").textContent =
-    new Set(GAMES.flatMap(g => g.teams)).size;
+    new Set(inScopeGames.flatMap(g => g.teams)).size;
   document.getElementById("sbTournaments").textContent =
-    new Set(GAMES.map(g => g.tournament).filter(t => t && t !== "משחק הכנה")).size;
+    new Set(inScopeGames.map(g => g.tournament).filter(t => t && t !== "משחק הכנה")).size;
   document.getElementById("sbBroadcast").textContent =
-    GAMES.filter(g => g.broadcast?.length).length;
+    inScopeGames.filter(g => g.broadcast?.length).length;
 
   const f = document.getElementById("freshness");
   if (META.updated){
@@ -514,7 +566,15 @@ function renderStats(){
       `<div class="empty">שגיאה בטעינת הנתונים.</div>`;
     return;
   }
-  renderChips(); renderStats(); render();
+  renderScopes(); renderChips(); renderStats(); render();
+
+  document.querySelectorAll("#scopes button").forEach(b => b.onclick = () => {
+    scope = b.dataset.scope;
+    // Every chip back on: the two tabs hold different competitions, so a
+    // selection carried across from the other one can land on an empty page.
+    active = new Set(Object.keys(COMPETITIONS));
+    renderScopes(); renderChips(); renderStats(); render();
+  });
 
   document.querySelectorAll("#views button").forEach(b => b.onclick = () => {
     document.querySelectorAll("#views button").forEach(x => x.classList.remove("active"));

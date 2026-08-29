@@ -711,6 +711,38 @@ const teamList = [...clubs.values()].map((t) => {
   };
 }).sort((a, b) => a.name_he.localeCompare(b.name_he, "he"));
 
+/**
+ * Which clubs open the site, decided here so the page stays a viewer.
+ *
+ * The policy is data — data/featured.json — because it is the owner's call and
+ * it changes: a club is promoted, a league stops being interesting. Nothing is
+ * dropped either way. A game outside the selection is still collected, checked
+ * and published; it moves to the second tab, because a game deleted for being
+ * dull is a game that cannot be found again when it turns out not to be.
+ *
+ * A club named in the list that matches nothing is reported loudly and fails a
+ * check, rather than quietly narrowing the front tab — which is the way every
+ * hand-written list in this project has failed before.
+ */
+const featuredSpec = read("featured.json", { competitions: [], countries: [], clubs: [] });
+const wantComps = new Set(featuredSpec.competitions || []);
+const wantCountries = new Set(featuredSpec.countries || []);
+const wantClubs = (featuredSpec.clubs || []).map((s) => String(s).trim());
+
+const matchesNamed = (t, name) =>
+  t.name_he === name || t.name_src === name || (t.aliases || []).includes(name);
+
+const namedHits = new Map(wantClubs.map((n) => [n, 0]));
+for (const t of teamList) {
+  const named = wantClubs.find((n) => matchesNamed(t, n));
+  if (named) namedHits.set(named, namedHits.get(named) + 1);
+  t.featured = Boolean(named) ||
+    (t.competitions || []).some((c) => wantComps.has(c)) ||
+    wantCountries.has(t.country);
+}
+const unmatched = [...namedHits].filter(([, n]) => !n).map(([n]) => n);
+if (unmatched.length) console.log(`  ! featured club not found: ${unmatched.join(", ")}`);
+
 const now = new Date().toISOString();
 const prev = read("games.json", { games: [] });
 const prevIds = new Set(prev.games.map((g) => g.id));
@@ -738,6 +770,9 @@ console.log(`games        : ${gameList.length}   (seed ${by("seed")} · extracte
 console.log(`new this run : ${added.length}`);
 console.log(`multi-source : ${gameList.filter((g) => g.confidence > 1).length}`);
 console.log(`clubs        : ${teamList.length}   (watchlist ${teamList.filter((t) => t.watchlist).length})`);
+const featuredIds = new Set(teamList.filter((t) => t.featured).map((t) => t.id));
+const upFront = gameList.filter((g) => g.teams.some((id) => featuredIds.has(id))).length;
+console.log(`front tab    : ${upFront} games · ${featuredIds.size} clubs   (rest ${gameList.length - upFront})`);
 console.log(`unresolved   : ${unresolved.length}${resolverModel ? ` · resolved via ${resolverModel}` : ""}`);
 console.log(`conflicts    : ${conflicts.length}`);
 // c.kept, not c.have — the field has always been called kept, so every

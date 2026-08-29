@@ -105,6 +105,24 @@ const checks = [
       g.sources.some((x) => /league:/.test(x.name || ""))).length;
   })(), 0],
 
+  // featured.json names four clubs one by one, and a hand-written list that
+  // silently stops matching is how every hand-written list in this project has
+  // failed. A club renamed in the registry would quietly leave the front tab
+  // with nothing to say it had gone.
+  ["every club named in featured.json still exists", (() => {
+    const spec = JSON.parse(fs.readFileSync(path.join(DATA, "featured.json"), "utf8"));
+    return (spec.clubs || []).filter((n) => !teams.teams.some(
+      (t) => t.name_he === n || t.name_src === n || (t.aliases || []).includes(n))).length;
+  })(), 0],
+
+  // And the tab itself: a typo in a competition or country name empties the
+  // front page without breaking anything else, which is the sort of failure
+  // that gets published and noticed by a reader rather than a run.
+  ["the front tab has games in it", (() => {
+    const featured = new Set(teams.teams.filter((t) => t.featured).map((t) => t.id));
+    return G.some((g) => g.teams.some((id) => featured.has(id))) ? 0 : 1;
+  })(), 0],
+
   // The freshness rule above reads the schedule from lib/schedule.mjs, but the
   // runs are actually driven by the cron list in the workflow. Let the two
   // drift and the alarm goes quietly wrong in whichever direction hurts more:
