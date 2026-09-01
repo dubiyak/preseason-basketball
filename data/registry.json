@@ -399,7 +399,7 @@
       ]
     },
     "t_17bfa9f2": {
-      "name_src": "Buducnost VOLI Podgorica",
+      "name_src": "Buducnost VOLI",
       "country": "מונטנגרו",
       "city": "Podgorica",
       "website": "http://www.kkbuducnost.me/",
@@ -411,7 +411,11 @@
       "elCode": "BUD",
       "name_he": "בודוצ'נוסט פודגוריצה",
       "newsUrl": null,
-      "homeArena": null
+      "homeArena": null,
+      "aliases": [
+        "Budućnost VOLI",
+        "Buducnost VOLI"
+      ]
     },
     "t_97d76180": {
       "name_src": "Cedevita Olimpija Ljubljana",
@@ -575,7 +579,7 @@
       ]
     },
     "t_0b76897a": {
-      "name_src": "Neptunas Klaipeda",
+      "name_src": "Neptunas",
       "country": "ליטא",
       "city": " Klaipeda",
       "website": "https://bcneptunas.lt/",
@@ -586,7 +590,12 @@
       ],
       "elCode": "KLA",
       "newsUrl": null,
-      "homeArena": null
+      "homeArena": null,
+      "name_he": "נפטונאס קלייפדה",
+      "aliases": [
+        "Neptūnas",
+        "Neptunas"
+      ]
     },
     "t_ef2290b6": {
       "name_src": "NINERS Chemnitz",
@@ -631,7 +640,8 @@
       ],
       "elCode": "BGS",
       "newsUrl": null,
-      "homeArena": null
+      "homeArena": null,
+      "fixturesUrl": "https://www.sanpabloburgos.com/es/calendario"
     },
     "t_ba69a3d3": {
       "name_src": "Riga Zelli",
@@ -694,7 +704,7 @@
       "needsBrowser": true
     },
     "t_76203a4a": {
-      "name_src": "Slask Wroclaw",
+      "name_src": "WKS Slask Wroclaw",
       "country": "פולין",
       "city": "Wroclaw",
       "website": "http://wks-slask.eu/",
@@ -705,7 +715,13 @@
       ],
       "elCode": "WRO",
       "newsUrl": null,
-      "homeArena": null
+      "homeArena": null,
+      "name_he": "שלסק ורוצלב",
+      "aliases": [
+        "Śląsk Wrocław",
+        "Slask Wroclaw",
+        "WKS Slask Wroclaw"
+      ]
     },
     "t_5e5281ca": {
       "name_src": "Turk Telekom Ankara",
@@ -793,13 +809,16 @@
     },
     "t_d2164f8d": {
       "name_he": "טרוויזו בסקט",
-      "name_src": "NutriBullet Treviso",
+      "name_src": "Trévise",
       "country": "איטליה",
       "aliases": [
         "טרוויזו בסקט",
         "Nutribullet Treviso Basket",
         "Nutribullet Treviso",
-        "NutriBullet Treviso"
+        "NutriBullet Treviso",
+        "NUTRIBULLET TREVISO BASKET",
+        "Treviso",
+        "Trévise"
       ]
     },
     "t_066138ff": {
@@ -1067,10 +1086,11 @@
     },
     "t_ac2bfe9c": {
       "name_he": "שנצ'ור",
-      "name_src": "KK GGD Šenčur",
+      "name_src": "KK GGD Šenāur",
       "country": "סלובניה",
       "aliases": [
-        "KK GGD Šenčur"
+        "KK GGD Šenčur",
+        "KK GGD Šenāur"
       ]
     },
     "t_33d3e8cd": {
@@ -2123,11 +2143,21 @@
     },
     "t_a7a29a23": {
       "name_he": "בוסנה סרייבו",
-      "name_src": "Bosna Basketball",
-      "country": "בוסניה והרצגובינה",
+      "name_src": "BOSNA BH Telecom Sarajevo",
+      "country": "Bosnia and Herzegovina",
       "aliases": [
         "Bosna Basketball"
-      ]
+      ],
+      "city": "Sarajevo",
+      "website": "https://kkbosna.ba/",
+      "twitter": null,
+      "venueCode": "AHX",
+      "competitions": [
+        "eurocup"
+      ],
+      "elCode": "BOS",
+      "newsUrl": null,
+      "homeArena": null
     },
     "t_fb7a02c1": {
       "name_he": "פאפאגואו",
@@ -2693,10 +2723,12 @@
     },
     "t_43de8329": {
       "name_he": "סן-ואלייה",
-      "name_src": "Saint-Vallier Basket Drome",
+      "name_src": "SVBD",
       "country": "צרפת",
       "aliases": [
-        "Saint-Vallier Basket Drome"
+        "Saint-Vallier Basket Drome",
+        "Saint-Vallier Basket Drôme",
+        "SVBD"
       ]
     },
     "t_0ffd9322": {
@@ -2763,6 +2795,15 @@
       "country": "אוסטרליה",
       "aliases": [
         "Cairns Taipans"
+      ]
+    },
+    "t_f1ab1373": {
+      "name_he": "ליימה קורוניה",
+      "name_src": "Leyma Básquet Coruña",
+      "country": "ספרד",
+      "aliases": [
+        "Leyma Coruña",
+        "Leyma Básquet Coruña"
       ]
     }
   }
