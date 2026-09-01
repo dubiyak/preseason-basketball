@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-01T09:52:47.056Z",
+  "updated": "2026-09-01T17:33:14.089Z",
   "season": "2026-27",
-  "newGames": 6,
+  "newGames": 0,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -273,6 +273,38 @@
       "kept": "19:00",
       "alsoReported": "19:30",
       "from": "sportando",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_b3dbe7ec08",
+      "field": "time",
+      "kept": "20:00",
+      "alsoReported": "18:00",
+      "from": "club:t_5c2ad363",
+      "resolvedBy": "first-seen"
+    },
+    {
+      "game": "g_51ee5ea217",
+      "field": "time",
+      "kept": "20:00",
+      "alsoReported": "18:00",
+      "from": "club:t_5c2ad363",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_a07e6d5b5e",
+      "field": "time",
+      "kept": "19:00",
+      "alsoReported": "17:00",
+      "from": "club:t_5c2ad363",
+      "resolvedBy": "first-seen"
+    },
+    {
+      "game": "g_fc9b2a4de0",
+      "field": "time",
+      "kept": "19:00",
+      "alsoReported": "17:00",
+      "from": "club:t_5c2ad363",
       "resolvedBy": "recency"
     },
     {
@@ -7541,7 +7573,7 @@
         "away": 71
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.sport24.gr/basket/paok-vikos-ioanninon-90-71-filiki-niki-tou-dikefalou-apenanti-stou-gianniotes-protos-skorer-o-xatzins/",
       "highlightsUrl": null,
       "sources": [
         {
@@ -7588,6 +7620,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/o-paok-90-71-ton-viko-ioanninon-se-filiko-sto-metsovo",
           "published": "2026-08-31T13:39:29+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/paok-i-parakamera-tou-dikefalou-apo-to-filiko-agona-me-ton-viko-ioanninon/",
+          "published": null
         }
       ],
       "notes": [],
@@ -7601,7 +7638,7 @@
         "t_9b9664c9",
         "t_029eb41a"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-01",
@@ -8001,7 +8038,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 69,
+        "away": 87
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -8010,6 +8050,11 @@
           "name": "basketdergisi",
           "url": "https://basketdergisi.com/galatasarayin-ilk-maci-1-eylulde.html",
           "published": "Mon, 17 Aug 2026 07:38:36 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/fiba-champions-league-tr/2003759/alen-smailagic-ilk-macinda-parladi-galatasaray-voluntariye-zorlanmadi/",
+          "published": "Tue, 01 Sep 2026 14:44:44 +0000"
         }
       ],
       "notes": [],
@@ -8023,7 +8068,7 @@
         "t_3d96f66e",
         "t_c623d16a"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-01",
@@ -9052,7 +9097,7 @@
       "venue": {
         "arena": "Pala Flaminio",
         "city": "Rimini",
-        "country": null
+        "country": "Italia"
       },
       "tournament": "Start Romagna Cup",
       "stage": null,
@@ -17596,7 +17641,7 @@
       "venue": {
         "arena": "PalaMegabox",
         "city": "Pesaro",
-        "country": null
+        "country": "Italia"
       },
       "tournament": null,
       "stage": null,
@@ -21612,7 +21657,7 @@
       "venue": {
         "arena": "PalaDozza",
         "city": "Bologna",
-        "country": "Italy"
+        "country": "Italia"
       },
       "tournament": null,
       "stage": null,
@@ -22461,7 +22506,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -22593,7 +22638,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -23004,7 +23049,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -24273,7 +24318,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -24385,12 +24430,12 @@
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
       "time": null,
-      "homeTeam": "t_21cf4132",
-      "awayTeam": "t_486860fc",
+      "homeTeam": "t_486860fc",
+      "awayTeam": "t_21cf4132",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Unipol Forum",
+        "arena": "Nova Arena",
         "city": "טורטונה",
         "country": "איטליה"
       },
@@ -24406,11 +24451,6 @@
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
-        },
-        {
-          "name": "club:t_486860fc",
-          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
-          "published": null
         },
         {
           "name": "sportando_en",
@@ -24439,6 +24479,11 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
         }
       ],
       "notes": [
@@ -24585,7 +24630,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -25137,6 +25182,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/maxima-roma-al-via-oggi-la-preparazione-a-campobasso/",
           "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/varese-inizia-la-vendita-dei-biglietti-per-lamichevole-con-la-maxima-roma/",
+          "published": "Tue, 01 Sep 2026 17:05:08 +0000"
         }
       ],
       "notes": [],
@@ -25436,7 +25486,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -26491,7 +26541,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -26532,7 +26582,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },
@@ -26573,7 +26623,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "ВТБ АРЕНА",
+        "arena": "«ВТБ АРЕНА»",
         "city": "Москва",
         "country": "Россия"
       },

@@ -1402,7 +1402,7 @@
       "title": "לוח משחקים — פרטיזן בלגרד",
       "outlet": "club:t_1497d847",
       "published": null,
-      "readAt": "2026-08-31T23:26:32.445Z",
+      "readAt": "2026-09-01T17:32:19.572Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2064,11 +2064,11 @@
       "title": "לוח משחקים — וירטוס בולוניה",
       "outlet": "club:t_486860fc",
       "published": null,
-      "readAt": "2026-08-31T23:24:59.834Z",
+      "readAt": "2026-09-01T17:32:19.572Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 4,
+          "articleIndex": 1,
           "date": "2026-09-03",
           "dateText": "giovedì 3 settembre",
           "teams": [
@@ -2079,6 +2079,7 @@
           "arena": "Pala Flaminio",
           "awayTeam": "Rinascita Basket Rimini",
           "city": "Rimini",
+          "country": "Italia",
           "homeTeam": "Virtus Bologna",
           "matchup": "Virtus Bologna v Rinascita Basket Rimini",
           "time": "20:30",
@@ -2086,7 +2087,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 1,
           "date": "2026-09-09",
           "dateText": "mercoledì 9 settembre",
           "teams": [
@@ -2097,6 +2098,7 @@
           "arena": "PalaCiti",
           "awayTeam": "Derthona Basket",
           "city": "Parma",
+          "country": "Italia",
           "homeTeam": "Virtus Bologna",
           "matchup": "Virtus Bologna v Derthona Basket",
           "time": "20:00",
@@ -2104,7 +2106,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 1,
           "date": "2026-09-11",
           "dateText": "venerdì 11 settembre",
           "teams": [
@@ -2115,6 +2117,7 @@
           "arena": "PalaMegabox",
           "awayTeam": "Victoria Libertas Pesaro",
           "city": "Pesaro",
+          "country": "Italia",
           "homeTeam": "Virtus Bologna",
           "matchup": "Virtus Bologna v Victoria Libertas Pesaro",
           "time": "20:00",
@@ -2122,7 +2125,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 1,
           "date": "2026-09-16",
           "dateText": "mercoledì 16 settembre",
           "teams": [
@@ -2132,26 +2135,11 @@
           "isOfficialLeagueGame": false,
           "arena": "PalaDozza",
           "awayTeam": "Maxima Roma",
+          "city": "Bologna",
+          "country": "Italia",
           "homeTeam": "Virtus Bologna",
           "matchup": "Virtus Bologna v Maxima Roma",
           "time": "20:00",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 4,
-          "date": "2026-09-19",
-          "dateText": "19 Set 2026",
-          "teams": [
-            "Armani Olimpia Milano",
-            "Virtus Bologna"
-          ],
-          "isOfficialLeagueGame": false,
-          "arena": "Unipol Forum",
-          "awayTeam": "Virtus Bologna",
-          "homeTeam": "Armani Olimpia Milano",
-          "matchup": "Armani Olimpia Milano v Virtus Bologna",
-          "tournament": "Supercoppa",
           "homeScore": null,
           "awayScore": null
         }
@@ -2586,7 +2574,7 @@
       "title": "לוח משחקים — PAOK",
       "outlet": "club:t_9b9664c9",
       "published": null,
-      "readAt": "2026-08-31T23:27:35.377Z",
+      "readAt": "2026-09-01T17:32:19.572Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2627,9 +2615,13 @@
       "games": []
     },
     "https://seawolves.de/verein/nbbl-rostock-seawolves-kader-spielplan/": {
-      "ok": false,
-      "why": "no readable text",
-      "title": "לוח משחקים — רוסטוק סיבולבס"
+      "ok": true,
+      "title": "לוח משחקים — רוסטוק סיבולבס",
+      "outlet": "club:t_29615bc7",
+      "published": null,
+      "readAt": "2026-09-01T17:32:30.640Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
     },
     "https://nitter.net/AnadoluEfesSK/status/2086750652903112915#m": {
       "ok": true,
@@ -3354,9 +3346,27 @@
       "title": "לוח משחקים — אולימפיה מילאנו",
       "outlet": "club:t_21cf4132",
       "published": null,
-      "readAt": "2026-08-31T23:27:35.377Z",
+      "readAt": "2026-09-01T17:32:19.573Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 4,
+          "date": "2026-09-19",
+          "dateText": "19/09",
+          "teams": [
+            "Armani Olimpia Milano"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Nova Arena",
+          "homeTeam": "Armani Olimpia Milano",
+          "matchup": "Armani Olimpia Milano v TBD",
+          "opponentUndecided": true,
+          "tournament": "Supercoppa",
+          "awayTeam": "",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
     },
     "https://nitter.net/kkcrvenazvezda/status/2087182957417017783#m": {
       "ok": true,
@@ -33013,7 +33023,7 @@
       "title": "לוח קדם עונה — VTB",
       "outlet": "league:vtb",
       "published": null,
-      "readAt": "2026-09-01T09:40:56.763Z",
+      "readAt": "2026-09-01T17:32:19.572Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
@@ -33025,17 +33035,13 @@
             "Игокеа"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Игокеа",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "ЦСКА",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "ЦСКА v Игокеа",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "ЦСКА",
+          "awayTeam": "Игокеа",
           "homeScore": null,
           "awayScore": null
         },
@@ -33048,17 +33054,13 @@
             "Зенит"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Зенит",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "УНИКС",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "УНИКС v Зенит",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "УНИКС",
+          "awayTeam": "Зенит",
           "homeScore": null,
           "awayScore": null
         },
@@ -33071,17 +33073,13 @@
             "Локомотив-Кубань"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Локомотив-Кубань",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "ЦСКА",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "ЦСКА v Локомотив-Кубань",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "ЦСКА",
+          "awayTeam": "Локомотив-Кубань",
           "homeScore": null,
           "awayScore": null
         },
@@ -33094,17 +33092,13 @@
             "Анадолу Эфес"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Анадолу Эфес",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Зенит",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Зенит v Анадолу Эфес",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Зенит",
+          "awayTeam": "Анадолу Эфес",
           "homeScore": null,
           "awayScore": null
         },
@@ -33117,17 +33111,13 @@
             "Игокеа"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Игокеа",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Локомотив-Кубань",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Локомотив-Кубань v Игокеа",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Локомотив-Кубань",
+          "awayTeam": "Игокеа",
           "homeScore": null,
           "awayScore": null
         },
@@ -33140,17 +33130,13 @@
             "УНИКС"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "УНИКС",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Анадолу Эфес",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Анадолу Эфес v УНИКС",
-          "opponentUndecided": false,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Анадолу Эфес",
+          "awayTeam": "УНИКС",
           "homeScore": null,
           "awayScore": null
         },
@@ -33163,17 +33149,14 @@
             "Четвертьфиналист #2"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Четвертьфиналист #2",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Четвертьфиналист #1",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Четвертьфиналист #1 v Четвертьфиналист #2",
           "opponentUndecided": true,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Четвертьфиналист #1",
+          "awayTeam": "Четвертьфиналист #2",
           "homeScore": null,
           "awayScore": null
         },
@@ -33186,17 +33169,14 @@
             "Полуфиналист #2"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Полуфиналист #2",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Полуфиналист #1",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Полуфиналист #1 v Полуфиналист #2",
           "opponentUndecided": true,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Полуфиналист #1",
+          "awayTeam": "Полуфиналист #2",
           "homeScore": null,
           "awayScore": null
         },
@@ -33209,17 +33189,14 @@
             "Финалист #2"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "ВТБ АРЕНА",
-          "awayTeam": "Финалист #2",
+          "arena": "«ВТБ АРЕНА»",
           "city": "Москва",
           "country": "Россия",
-          "homeTeam": "Финалист #1",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Финалист #1 v Финалист #2",
           "opponentUndecided": true,
-          "played": false,
-          "tournament": "Суперкубок Единой лиги ВТБ",
+          "tournament": "Суперкубок Единой лиги ВТБ 2026",
+          "homeTeam": "Финалист #1",
+          "awayTeam": "Финалист #2",
           "homeScore": null,
           "awayScore": null
         }
@@ -40925,13 +40902,13 @@
       "title": "לוח משחקים — ריאל מדריד",
       "outlet": "club:t_5c2ad363",
       "published": null,
-      "readAt": "2026-09-01T00:48:57.937Z",
-      "model": "gemini-flash-latest",
+      "readAt": "2026-09-01T17:32:30.640Z",
+      "model": "gemini-flash-lite-latest",
       "games": [
         {
           "articleIndex": 0,
           "date": "2026-09-05",
-          "dateText": "2026-09-05",
+          "dateText": "05 sep",
           "teams": [
             "Real Madrid",
             "Kosner Baskonia"
@@ -40939,9 +40916,8 @@
           "isOfficialLeagueGame": false,
           "homeTeam": "Real Madrid",
           "matchup": "Real Madrid v Kosner Baskonia",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
+          "time": "18:00",
           "tournament": "I Memorial Urbano González Escapa",
           "awayTeam": "Kosner Baskonia",
           "homeScore": null,
@@ -40950,7 +40926,7 @@
         {
           "articleIndex": 0,
           "date": "2026-09-11",
-          "dateText": "2026-09-11",
+          "dateText": "11 sep",
           "teams": [
             "Real Madrid",
             "La Laguna Tenerife"
@@ -40958,9 +40934,8 @@
           "isOfficialLeagueGame": false,
           "homeTeam": "Real Madrid",
           "matchup": "Real Madrid v La Laguna Tenerife",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
+          "time": "18:00",
           "tournament": "XV Torneo Costa del Sol",
           "awayTeam": "La Laguna Tenerife",
           "homeScore": null,
@@ -40969,7 +40944,7 @@
         {
           "articleIndex": 0,
           "date": "2026-09-12",
-          "dateText": "2026-09-12",
+          "dateText": "12 sep",
           "teams": [
             "Unicaja",
             "Real Madrid"
@@ -40977,9 +40952,8 @@
           "isOfficialLeagueGame": false,
           "homeTeam": "Unicaja",
           "matchup": "Unicaja v Real Madrid",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
+          "time": "17:00",
           "tournament": "XV Torneo Costa del Sol",
           "awayTeam": "Real Madrid",
           "homeScore": null,
@@ -40988,7 +40962,7 @@
         {
           "articleIndex": 0,
           "date": "2026-09-18",
-          "dateText": "2026-09-18",
+          "dateText": "18 sep",
           "teams": [
             "Dubai Basketball",
             "Real Madrid"
@@ -40996,10 +40970,9 @@
           "isOfficialLeagueGame": false,
           "homeTeam": "Dubai Basketball",
           "matchup": "Dubai Basketball v Real Madrid",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
-          "tournament": "",
+          "time": "17:00",
+          "tournament": "Semifinales",
           "awayTeam": "Real Madrid",
           "homeScore": null,
           "awayScore": null
@@ -43114,6 +43087,294 @@
       "outlet": "sportando",
       "published": "Tue, 01 Sep 2026 08:38:25 +0000",
       "readAt": "2026-09-01T09:52:37.907Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://basketfaul.com.tr/turkiye/bsl/galatasaraydan-voluntariye-fark/": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "Galatasaray'dan  Voluntari’ye Fark"
+    },
+    "https://basketfaul.com.tr/turkiye/bgl/ates-ozerk-anisina-bgl-turnuvasi/": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "Ateş Özerk Anısına BGL Turnuvası"
+    },
+    "https://basketfaul.com.tr/turkiye/tbl/sevgili-mustafa-kararin-ne-olursa-olsun-camia-yaninda/": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "Sevgili Mustafa… Kararın Ne Olursa Olsun Camia Yanında…"
+    },
+    "https://www.legabasket.it/news/139382/scrimmage-milano-verona": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "L&apos;Armani Olimpia Milano vince in rimonta per 76-75 lo scrimmage contro la Tezenis Verona"
+    },
+    "https://basketfaul.com.tr/turkiye/bsl/petkim-kubana-maglup/": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "Petkim Kuban'a Mağlup"
+    },
+    "https://www.legabasket.it/news/139393/bc-roma-trentyn-flowers-presenta": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "BC Roma SPQR, Trentyn Flowers si presenta: \"Qui per creare una mentalità vincente\""
+    },
+    "https://kkbosna.ba/kalendar/utakmice/": {
+      "ok": true,
+      "title": "לוח משחקים — בוסנה סרייבו",
+      "outlet": "club:t_a7a29a23",
+      "published": null,
+      "readAt": "2026-09-01T17:32:30.640Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/varese-inizia-la-vendita-dei-biglietti-per-lamichevole-con-la-maxima-roma/": {
+      "ok": true,
+      "title": "Varese, inizia la vendita dei biglietti per l'amichevole con la Maxima Roma",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 17:05:08 +0000",
+      "readAt": "2026-09-01T17:32:30.640Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 3,
+          "date": "2026-09-19",
+          "dateText": "19 settembre",
+          "teams": [
+            "Openjobmetis",
+            "Maxima Roma"
+          ],
+          "isOfficialLeagueGame": false,
+          "arena": "Itelyum Arena",
+          "homeTeam": "Openjobmetis",
+          "matchup": "Openjobmetis v Maxima Roma",
+          "played": false,
+          "time": "18:30",
+          "awayTeam": "Maxima Roma",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
+    },
+    "https://www.sport24.gr/basket/paok-i-parakamera-tou-dikefalou-apo-to-filiko-agona-me-ton-viko-ioanninon/": {
+      "ok": true,
+      "title": "Οδηγίες Τρινκιέρι και όμορφα καλάθια: Η παρακάμερα από το φιλικό αγώνα του ΠΑΟΚ με τον Βίκο Ιωαννίνων Οδηγίες Τρινκιέρι και όμορφα καλάθια: Η παρακάμερα από το φιλικό αγώνα του ΠΑΟΚ με τον Βίκο Ιωαννίνων",
+      "outlet": "sport24gr",
+      "published": "",
+      "readAt": "2026-09-01T17:32:30.640Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 4,
+          "date": "2026-08-31",
+          "dateText": "31/8",
+          "teams": [
+            "ΠΑΟΚ",
+            "Βίκος Ιωαννίνων"
+          ],
+          "isOfficialLeagueGame": false,
+          "homeTeam": "ΠΑΟΚ",
+          "matchup": "ΠΑΟΚ v Βίκος Ιωαννίνων",
+          "played": true,
+          "reportUrl": "https://www.sport24.gr/basket/paok-vikos-ioanninon-90-71-filiki-niki-tou-dikefalou-apenanti-stou-gianniotes-protos-skorer-o-xatzins/",
+          "score": "90:71",
+          "awayTeam": "Βίκος Ιωαννίνων",
+          "homeScore": 90,
+          "awayScore": 71
+        }
+      ]
+    },
+    "https://www.basket247.gr/olimpiacos-tin-tetarti-stin-athina-o-montero/": {
+      "ok": true,
+      "title": "Ολυμπιακός: Την Τετάρτη στην Αθήνα ο Μοντέρο!",
+      "outlet": "basket247",
+      "published": "Tue, 01 Sep 2026 14:03:03 +0000",
+      "readAt": "2026-09-01T17:32:38.222Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/lumos-pistoia-presentato-matteo-schina-possiamo-competere-con-tutte-le-avversarie/": {
+      "ok": true,
+      "title": "Lumos Pistoia, presentato Matteo Schina: “Possiamo competere con tutte le avversarie”",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 16:13:30 +0000",
+      "readAt": "2026-09-01T17:32:38.222Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/pallacanestro-trieste-superata-quota-1000-abbonati/": {
+      "ok": true,
+      "title": "Pallacanestro Trieste: superata quota 1000 abbonati",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 15:06:14 +0000",
+      "readAt": "2026-09-01T17:32:38.222Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://basketdergisi.com/euroleague-2026-27-sezonu-oncesi-guc-siralamasi.html": {
+      "ok": true,
+      "title": "EuroLeague 2026-27 sezonu öncesi güç sıralaması",
+      "outlet": "basketdergisi",
+      "published": "Tue, 01 Sep 2026 09:47:33 +0000",
+      "readAt": "2026-09-01T17:32:38.222Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/mestre-si-accende-con-lumana-reyer-campioni-basket-3vs3-e-festa-in-piazza/": {
+      "ok": true,
+      "title": "Mestre si accende con l'Umana Reyer: campioni, basket 3vs3 e festa in piazza",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 17:16:04 +0000",
+      "readAt": "2026-09-01T17:32:38.222Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "http://sportacentrs.com/florbols/legionari/01092026-lapinam_un_stukanam_pa_piespelei_anim_cet": {
+      "ok": true,
+      "title": "Lapiņam un Stukānam pa piespēlei, Anim četras soda minūtes",
+      "outlet": "sportacentrs",
+      "published": "Tue, 01 Sep 2026 17:07:44 +0300",
+      "readAt": "2026-09-01T17:32:45.954Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.eurohoops.net/tr/eurocup-tr/2003764/besiktasin-eski-golcusu-eurocup-takimina-danisman-oldu/": {
+      "ok": true,
+      "title": "Beşiktaş'ın Eski Golcüsü, EuroCup Takımına Danışman Oldu!",
+      "outlet": "eurohoops",
+      "published": "Tue, 01 Sep 2026 15:05:10 +0000",
+      "readAt": "2026-09-01T17:32:45.954Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.eurohoops.net/tr/fiba-champions-league-tr/2003759/alen-smailagic-ilk-macinda-parladi-galatasaray-voluntariye-zorlanmadi/": {
+      "ok": true,
+      "title": "Alen Smailagic İlk Maçında Parladı; Galatasaray, Voluntari'ye Zorlanmadı",
+      "outlet": "eurohoops",
+      "published": "Tue, 01 Sep 2026 14:44:44 +0000",
+      "readAt": "2026-09-01T17:32:45.954Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 2,
+          "date": "2026-09-01",
+          "dateText": "01/Eyl/26",
+          "teams": [
+            "Galatasaray",
+            "CSO Voluntari"
+          ],
+          "isOfficialLeagueGame": false,
+          "awayTeam": "CSO Voluntari",
+          "homeTeam": "Galatasaray",
+          "isNationalTeam": false,
+          "isNbaOnly": false,
+          "matchup": "Galatasaray v CSO Voluntari",
+          "opponentUndecided": false,
+          "played": true,
+          "score": "87:69",
+          "tournament": "Hazırlık maçı",
+          "homeScore": 87,
+          "awayScore": 69
+        }
+      ]
+    },
+    "https://www.eurohoops.net/en/trademarks/2003278/massimo-cancellierimy-wife-knows-im-crazy-she-tells-me-on-a-daily-basis/": {
+      "ok": true,
+      "title": "Massimo Cancellieri: \"My wife knows I’m crazy, she tells me on a daily basis\"",
+      "outlet": "eurohoops",
+      "published": "Tue, 01 Sep 2026 14:12:32 +0000",
+      "readAt": "2026-09-01T17:32:45.954Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.eurohoops.net/tr/trademarks-tr/2003744/massimo-cancellieri-dusan-alimpijevic-sayesinde-koclugu-daha-cok-sevdim/": {
+      "ok": true,
+      "title": "Massimo Cancellieri: \"Dusan Alimpijevic Sayesinde Koçluğu Daha Çok Sevdim\"",
+      "outlet": "eurohoops",
+      "published": "Tue, 01 Sep 2026 14:07:37 +0000",
+      "readAt": "2026-09-01T17:32:45.954Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.sport24.gr/basket/euroleague-basketball/olimpiakos-to-minima-tou-montero-enopsei-tis-enarxis-tis-sezon-me-tous-erithrolefkous/": {
+      "ok": true,
+      "title": "Δεν κρατιέται ο Μοντέρο: Το μήνυμα του Δομινικανού άσου για την έναρξη της σεζόν με τον Ολυμπιακό Δεν κρατιέται ο Μοντέρο: Το μήνυμα του Δομινικανού άσου για την έναρξη της σεζόν με τον Ολυμπιακό",
+      "outlet": "sport24gr",
+      "published": "",
+      "readAt": "2026-09-01T17:32:54.784Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.sport24.gr/basket/olimpiakos-o-montero-avrio-stis-1845-apo-tin-dominikani-dimokratia-meso-madritis-stin-ellada/": {
+      "ok": true,
+      "title": "Στην Αθήνα αύριο ο Μοντέρο στις 18:45 Στην Αθήνα αύριο ο Μοντέρο στις 18:45",
+      "outlet": "sport24gr",
+      "published": "",
+      "readAt": "2026-09-01T17:32:54.784Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.bebasket.fr/luc-loubaki-ne-sera-pas-licencie-par-chartres-suite-a-sa-suspension-pour-paris-sportifs": {
+      "ok": true,
+      "title": "Luc Loubaki ne sera pas licencié par Chartres suite à sa suspension pour paris sportifs",
+      "outlet": "bebasket",
+      "published": "2026-09-01T15:18:47+00:00",
+      "readAt": "2026-09-01T17:32:54.784Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.bebasket.fr/il-y-a-30-ans-a-paris-dominique-wilkins-et-le-pana-creaient-la-polemique-en-finale-de-leuroleague": {
+      "ok": true,
+      "title": "Il y a 30 ans à Paris, Dominique Wilkins et le Pana créaient la polémique en finale de l’EuroLeague",
+      "outlet": "bebasket",
+      "published": "2026-09-01T13:48:45+00:00",
+      "readAt": "2026-09-01T17:32:54.784Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.basket247.gr/episima-ston-ari-o-thanasis-antetokounmpo/": {
+      "ok": true,
+      "title": "Επίσημα στον Άρη ο Θανάσης Αντετοκούνμπο",
+      "outlet": "basket247",
+      "published": "Tue, 01 Sep 2026 16:19:25 +0000",
+      "readAt": "2026-09-01T17:32:54.784Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/thanasis-antetokounmpo-firma-con-laris-accordo-21/": {
+      "ok": true,
+      "title": "Thanasis Antetokounmpo firma con l’Aris: accordo 2+1",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 16:31:27 +0000",
+      "readAt": "2026-09-01T17:33:03.140Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://sportando.basketball/vigevano-1955-si-rinnova-la-partnership-con-mcdonalds-di-corso-milano-146/": {
+      "ok": true,
+      "title": "Vigevano 1955: si rinnova la partnership con McDonald's di Corso Milano 146",
+      "outlet": "sportando",
+      "published": "Tue, 01 Sep 2026 14:40:06 +0000",
+      "readAt": "2026-09-01T17:33:03.140Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.gigantes.com/eurocup/el-bosna-bh-telecom-sarajevo-sustituye-al-as-monaco-en-la-eurocup/": {
+      "ok": true,
+      "title": "El BOSNA BH Telecom Sarajevo sustituye al AS Monaco en la EuroCup",
+      "outlet": "gigantes",
+      "published": "Tue, 01 Sep 2026 12:10:41 +0000",
+      "readAt": "2026-09-01T17:33:03.140Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.gigantes.com/liga-endesa/quien-es-justin-minaya/": {
+      "ok": true,
+      "title": "Quién es Justin Minaya, el alero internacional dominicano que se incorpora al Barça",
+      "outlet": "gigantes",
+      "published": "Tue, 01 Sep 2026 09:30:00 +0000",
+      "readAt": "2026-09-01T17:33:03.140Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     }
