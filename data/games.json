@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-03T19:33:15.592Z",
+  "updated": "2026-09-03T21:59:11.309Z",
   "season": "2026-27",
-  "newGames": 3,
+  "newGames": 7,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -172,6 +172,30 @@
       "resolvedBy": "recency"
     },
     {
+      "game": "g_b3dbe7ec08",
+      "field": "time",
+      "kept": "20:00",
+      "alsoReported": "18:30",
+      "from": "league:acb",
+      "resolvedBy": "first-seen"
+    },
+    {
+      "game": "g_9191c6a715",
+      "field": "time",
+      "kept": "18:00",
+      "alsoReported": "19:00",
+      "from": "league:acb",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_a07e6d5b5e",
+      "field": "time",
+      "kept": "19:00",
+      "alsoReported": "20:00",
+      "from": "league:acb",
+      "resolvedBy": "first-seen"
+    },
+    {
       "game": "g_abce08a7e9",
       "field": "time",
       "kept": "13:00",
@@ -308,6 +332,14 @@
       "resolvedBy": "recency"
     },
     {
+      "game": "g_58c75ab6a3",
+      "field": "time",
+      "kept": "20:30",
+      "alsoReported": "18:30",
+      "from": "club:t_25c20d3d",
+      "resolvedBy": "first-seen"
+    },
+    {
       "game": "g_a0abffed4c",
       "field": "time",
       "kept": "20:20",
@@ -361,6 +393,30 @@
       "kept": "20:00",
       "alsoReported": "21:00",
       "from": "sport24gr",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_475069759e",
+      "field": "time",
+      "kept": "17:00",
+      "alsoReported": "18:00",
+      "from": "sportando",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_903300720f",
+      "field": "time",
+      "kept": "18:30",
+      "alsoReported": "17:30",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_ab63f4738e",
+      "field": "time",
+      "kept": "21:00",
+      "alsoReported": "20:00",
+      "from": "eurohoops",
       "resolvedBy": "recency"
     }
   ],
@@ -833,55 +889,6 @@
       "confidence": 1
     },
     {
-      "date": "2026-08-20",
-      "dateLabel": "20 août",
-      "time": "19:00",
-      "homeTeam": "t_7e5aba04",
-      "awayTeam": "t_1aeea594",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Fougères",
-        "city": "Fougères",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 62,
-        "away": 83
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=5",
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_bbd0f2c08c",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7e5aba04",
-        "t_1aeea594"
-      ],
-      "confidence": 2
-    },
-    {
       "date": "2026-08-21",
       "dateLabel": "21.8",
       "time": "17:00",
@@ -1165,6 +1172,52 @@
       "teams": [
         "t_ef848480",
         "t_d14b06fe"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-21",
+      "dateLabel": "21/08",
+      "time": null,
+      "homeTeam": "t_02ac2d32",
+      "awayTeam": null,
+      "candidates": [
+        "Venelle BC (NM2)",
+        "Venelle BC (NM2)"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Halle Henri Giuitta",
+        "city": "Fos-sur-Mer",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 81,
+        "away": 55
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=146",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_9e76264d51",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_02ac2d32"
       ],
       "confidence": 1
     },
@@ -2104,8 +2157,8 @@
     },
     {
       "date": "2026-08-23",
-      "dateLabel": "2026-08-23T12:30:00+02:00",
-      "time": null,
+      "dateLabel": "2026-08-23",
+      "time": "12:30",
       "homeTeam": "t_e6b07e02",
       "awayTeam": "t_cec7036b",
       "candidates": [],
@@ -4534,7 +4587,7 @@
     {
       "date": "2026-08-29",
       "dateLabel": "29.8",
-      "time": null,
+      "time": "21:00",
       "homeTeam": "t_4a5e72bb",
       "awayTeam": "t_1ce799a6",
       "candidates": [],
@@ -6219,7 +6272,7 @@
     {
       "date": "2026-08-30",
       "dateLabel": "30.8",
-      "time": null,
+      "time": "20:00",
       "homeTeam": "t_75010012",
       "awayTeam": "t_29304cb1",
       "candidates": [],
@@ -6366,7 +6419,7 @@
         "away": 91
       },
       "statsUrl": null,
-      "reportUrl": "https://acb.com/es/liga/noticias/el-kidsus-manresa-se-da-un-festin-in-su-estreno-de-pretemporada-ante-el-cheshire-145880",
+      "reportUrl": "https://acb.com/es/liga/noticias/el-kidsus-manresa-se-da-un-festin-en-su-estreno-de-pretemporada-ante-el-cheshire-145880",
       "highlightsUrl": null,
       "sources": [
         {
@@ -7017,7 +7070,7 @@
         "home": 75,
         "away": 70
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-08-31%20at%2020_56_52.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-08-31%20at%2020_56_52.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=85580",
       "highlightsUrl": null,
       "sources": [
@@ -7931,7 +7984,7 @@
     {
       "date": "2026-09-01",
       "dateLabel": "Tuesday, 01.09.2026",
-      "time": null,
+      "time": "19:30",
       "homeTeam": "t_e6b07e02",
       "awayTeam": "t_2b3f230e",
       "candidates": [],
@@ -8357,7 +8410,7 @@
         "home": 71,
         "away": 75
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=85583",
       "highlightsUrl": null,
       "sources": [
@@ -9358,8 +9411,8 @@
       "date": "2026-09-03",
       "dateLabel": "3.9",
       "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
+      "homeTeam": "t_5e5281ca",
+      "awayTeam": "t_93e5c997",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -9379,6 +9432,11 @@
         {
           "name": "basketfaul.com.tr",
           "url": "https://basketfaul.com.tr/"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/tbl-tr/2004312/jerrick-harding-hucumu-sirtladi-turk-telekom-gloria-cupta-lokomotiv-kubani-devirdi/",
+          "published": "Thu, 03 Sep 2026 19:51:20 +0000"
         }
       ],
       "notes": [],
@@ -9386,13 +9444,14 @@
       "published": null,
       "id": "g_66ae7d599a",
       "origins": [
-        "seed"
+        "seed",
+        "extracted"
       ],
       "teams": [
         "t_5e5281ca",
         "t_93e5c997"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-03",
@@ -9411,7 +9470,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 83,
+        "away": 79
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -9445,6 +9507,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
           "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/al-palasport-flaminio-la-virtus-vince-79-83-la-prima-amichevole-della-stagione-contro-rimini/",
+          "published": "Thu, 03 Sep 2026 20:42:38 +0000"
         },
         {
           "name": "sportando",
@@ -9523,7 +9590,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 82,
+        "away": 78
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -9544,6 +9614,11 @@
           "published": "2026-08-30"
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004297/la-laguna-tenerife-se-impone-a-gran-canaria-en-el-derby-de-pretemporada/",
+          "published": "Thu, 03 Sep 2026 18:58:19 +0000"
+        },
+        {
           "name": "sportando",
           "url": "https://sportando.basketball/badalona-inaugura-la-pre-season-con-una-sconfitta-a-gijon/",
           "published": "2026-08-30"
@@ -9560,7 +9635,7 @@
         "t_32fd0b6f",
         "t_1ce799a6"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-03",
@@ -9579,8 +9654,11 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
-      "statsUrl": null,
+      "result": {
+        "home": 84,
+        "away": 67
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=58",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -9691,9 +9769,55 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-03",
+      "dateLabel": "03/Sep/26",
+      "time": null,
+      "homeTeam": "t_bbaa773d",
+      "awayTeam": null,
+      "candidates": [
+        "Gran Canaria",
+        "Gran Canaria"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 96,
+        "away": 84
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004297/la-laguna-tenerife-se-impone-a-gran-canaria-en-el-derby-de-pretemporada/",
+          "published": "Thu, 03 Sep 2026 18:58:19 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 03 Sep 2026 18:58:19 +0000",
+      "id": "g_ee026bd1a5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_bbaa773d"
+      ],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-04",
       "dateLabel": "4.9",
-      "time": "20:00",
+      "time": "21:00",
       "homeTeam": "t_e3b7f23c",
       "awayTeam": "t_709fcff6",
       "candidates": [],
@@ -9766,6 +9890,21 @@
           "published": null
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004319/olimpiako-ipodochi-stin-kriti-apotheosi-se-montero/",
+          "published": "Thu, 03 Sep 2026 20:28:06 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004255/erithros-asteras-choris-moneke-stin-kriti-logo-ligmenou-diavatiriou/",
+          "published": "Thu, 03 Sep 2026 16:58:42 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/xoris-moneke-o-erithros-asteras-stin-kriti-logo-diavatiriou/",
+          "published": null
+        },
+        {
           "name": "sportando",
           "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
           "published": "2026-08-18"
@@ -9783,7 +9922,7 @@
       ],
       "notes": [],
       "origin": "seed",
-      "published": "Thu, 03 Sep 2026 19:18:50 +0000",
+      "published": "Thu, 03 Sep 2026 20:28:06 +0000",
       "id": "g_ab63f4738e",
       "origins": [
         "seed",
@@ -9844,7 +9983,7 @@
     {
       "date": "2026-09-04",
       "dateLabel": "4.9",
-      "time": "17:30",
+      "time": "18:30",
       "homeTeam": "t_21cf4132",
       "awayTeam": "t_a85f3ce5",
       "candidates": [],
@@ -9922,6 +10061,21 @@
           "published": "Thu, 03 Sep 2026 17:06:20 +0000"
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004319/olimpiako-ipodochi-stin-kriti-apotheosi-se-montero/",
+          "published": "Thu, 03 Sep 2026 20:28:06 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004255/erithros-asteras-choris-moneke-stin-kriti-logo-ligmenou-diavatiriou/",
+          "published": "Thu, 03 Sep 2026 16:58:42 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/xoris-moneke-o-erithros-asteras-stin-kriti-logo-diavatiriou/",
+          "published": null
+        },
+        {
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/09/03/zvezda-oslabljena-krit-pripreme/",
           "published": "Thu, 03 Sep 2026 16:33:00 +0000"
@@ -9931,7 +10085,7 @@
         "הכוכב האדום משתתפת גם ביורוליג - ראו לוח מלא שם"
       ],
       "origin": "seed",
-      "published": "Thu, 03 Sep 2026 19:18:50 +0000",
+      "published": "Thu, 03 Sep 2026 20:28:06 +0000",
       "id": "g_903300720f",
       "origins": [
         "seed",
@@ -10338,13 +10492,13 @@
     {
       "date": "2026-09-04",
       "dateLabel": "4 settembre",
-      "time": "18:00",
+      "time": "17:00",
       "homeTeam": "t_550a84d0",
       "awayTeam": "t_cce353da",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "PalaTeola",
         "city": "Livigno (SO)",
         "country": "Italy"
       },
@@ -10381,11 +10535,16 @@
           "name": "sportando",
           "url": "https://sportando.basketball/trento-preparazione-assenze-brown-hassan/",
           "published": "2026-08-22"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/la-dolomiti-energia-trentino-affrontera-cantu-nella-seconda-sfida-della-valtellina-summer-league/",
+          "published": "Thu, 03 Sep 2026 20:40:19 +0000"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "2026-08-04",
+      "published": "Thu, 03 Sep 2026 20:40:19 +0000",
       "id": "g_475069759e",
       "origins": [
         "extracted"
@@ -11072,8 +11231,8 @@
     },
     {
       "date": "2026-09-04",
-      "dateLabel": "2026-09-04T20:30:00+02:00",
-      "time": null,
+      "dateLabel": "2026-09-04",
+      "time": "20:30",
       "homeTeam": "t_cec2cef8",
       "awayTeam": "t_66371643",
       "candidates": [],
@@ -12443,7 +12602,7 @@
     {
       "date": "2026-09-05",
       "dateLabel": "5 septiembre",
-      "time": null,
+      "time": "20:30",
       "homeTeam": "t_4a5e72bb",
       "awayTeam": "t_e6b07e02",
       "candidates": [],
@@ -13788,6 +13947,11 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/anaxorei-gia-italia-o-paok-me-poies-omades-tha-agonistei/",
           "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2004301/paok-pai-italia-gia-defteri-proetimasia/",
+          "published": "Thu, 03 Sep 2026 19:17:25 +0000"
         }
       ],
       "notes": [],
@@ -13801,7 +13965,7 @@
         "t_9b9664c9",
         "t_18ce03ce"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-05",
@@ -14770,7 +14934,7 @@
     {
       "date": "2026-09-06",
       "dateLabel": "el dia 6",
-      "time": null,
+      "time": "12:30",
       "homeTeam": "t_066138ff",
       "awayTeam": "t_1d8e80ce",
       "candidates": [],
@@ -15750,8 +15914,8 @@
     },
     {
       "date": "2026-09-06",
-      "dateLabel": "2026-09-06T13:00:00+02:00",
-      "time": null,
+      "dateLabel": "2026-09-06",
+      "time": "13:00",
       "homeTeam": "t_1ce799a6",
       "awayTeam": "t_66371643",
       "candidates": [],
@@ -15815,6 +15979,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/euroleague-el-2/2003820/armani-filiki-niki-me-proto-skorer-ton-piters-ke-petai-gia-kriti/",
           "published": "Tue, 01 Sep 2026 18:12:34 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/xoris-moneke-o-erithros-asteras-stin-kriti-logo-diavatiriou/",
+          "published": null
         }
       ],
       "notes": [],
@@ -15827,7 +15996,7 @@
       "teams": [
         "t_8eead891"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -15855,6 +16024,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/euroleague-el-2/2003820/armani-filiki-niki-me-proto-skorer-ton-piters-ke-petai-gia-kriti/",
           "published": "Tue, 01 Sep 2026 18:12:34 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/xoris-moneke-o-erithros-asteras-stin-kriti-logo-diavatiriou/",
+          "published": null
         }
       ],
       "notes": [],
@@ -15867,7 +16041,7 @@
       "teams": [
         "t_15f5cb03"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -15907,6 +16081,48 @@
       "teams": [
         "t_9b9664c9",
         "t_359a7dff",
+        "t_5d59a83a",
+        "t_726df887"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "Κυριακή",
+      "time": "19:00",
+      "homeTeam": "t_9b9664c9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "τουρνουά εις μνήμη της Πιέρα Παγιέτα",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2004301/paok-pai-italia-gia-defteri-proetimasia/",
+          "published": "Thu, 03 Sep 2026 19:17:25 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 03 Sep 2026 19:17:25 +0000",
+      "id": "g_1565e7aa07",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9b9664c9",
         "t_5d59a83a",
         "t_726df887"
       ],
@@ -17830,8 +18046,8 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "2026-09-09T18:30:00+02:00",
-      "time": null,
+      "dateLabel": "2026-09-09",
+      "time": "18:30",
       "homeTeam": "t_cec2cef8",
       "awayTeam": "t_1ce799a6",
       "candidates": [],
@@ -18358,7 +18574,7 @@
     {
       "date": "2026-09-10",
       "dateLabel": "10 septiembre",
-      "time": null,
+      "time": "21:00",
       "homeTeam": "t_1d8e80ce",
       "awayTeam": "t_066138ff",
       "candidates": [],
@@ -18410,7 +18626,7 @@
     {
       "date": "2026-09-10",
       "dateLabel": "10 septiembre",
-      "time": null,
+      "time": "18:30",
       "homeTeam": "t_dfe9dae2",
       "awayTeam": "t_cec2cef8",
       "candidates": [],
@@ -18697,7 +18913,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Pabellón Sergio Scariolo",
+        "arena": "Palacio José Mª Martín Carpena",
         "city": "מלגה",
         "country": "ספרד"
       },
@@ -18900,7 +19116,7 @@
     {
       "date": "2026-09-11",
       "dateLabel": "11.9",
-      "time": null,
+      "time": "18:30",
       "homeTeam": "t_1ce799a6",
       "awayTeam": "t_dfe9dae2",
       "candidates": [],
@@ -19037,14 +19253,14 @@
           "published": "2026-08-21"
         },
         {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
-          "published": "2026-07-23"
-        },
-        {
           "name": "sportando",
           "url": "https://sportando.basketball/info-biglietti-amichevole-cmt-orange-tools-pesaro-virtus-bologna/",
           "published": "Thu, 03 Sep 2026 17:15:25 +0000"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
         }
       ],
       "notes": [],
@@ -19902,8 +20118,8 @@
     },
     {
       "date": "2026-09-11",
-      "dateLabel": "2026-09-11T20:30:00+02:00",
-      "time": "18:30",
+      "dateLabel": "2026-09-11",
+      "time": "20:30",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_38027d78",
       "candidates": [],
@@ -21046,7 +21262,7 @@
     {
       "date": "2026-09-12",
       "dateLabel": "12 septiembre",
-      "time": null,
+      "time": "20:30",
       "homeTeam": null,
       "awayTeam": null,
       "candidates": [],
@@ -21142,14 +21358,14 @@
     {
       "date": "2026-09-12",
       "dateLabel": "12-13 septiembre",
-      "time": null,
+      "time": "18:30",
       "homeTeam": "t_38027d78",
       "awayTeam": "t_f1ab1373",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Coliseum Burgos",
-        "city": null,
+        "arena": "Coliseum",
+        "city": "Burgos",
         "country": null
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -21934,7 +22150,7 @@
       "dateLabel": "12 septembre",
       "time": "19:00",
       "homeTeam": "t_22711b1d",
-      "awayTeam": null,
+      "awayTeam": "t_af249f63",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -21955,6 +22171,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
         }
       ],
       "notes": [],
@@ -21968,7 +22189,7 @@
         "t_22711b1d",
         "t_af249f63"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -22165,6 +22386,11 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/anaxorei-gia-italia-o-paok-me-poies-omades-tha-agonistei/",
           "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2004301/paok-pai-italia-gia-defteri-proetimasia/",
+          "published": "Thu, 03 Sep 2026 19:17:25 +0000"
         }
       ],
       "notes": [],
@@ -22178,7 +22404,7 @@
         "t_9b9664c9",
         "t_21cf4132"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-12",
@@ -22488,7 +22714,7 @@
       "flags": [],
       "broadcast": [],
       "result": null,
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1082/26/crvena-zvezda-meridianbet-aris-thessaloniki/",
+      "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -23175,14 +23401,14 @@
     },
     {
       "date": "2026-09-13",
-      "dateLabel": "2026-09-13T18:30:00+02:00",
+      "dateLabel": "2026-09-13",
       "time": "18:30",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_f1ab1373",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Coliseum Burgos",
+        "arena": "Coliseum",
         "city": "Burgos",
         "country": "ספרד"
       },
@@ -24396,7 +24622,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -24528,7 +24754,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -24812,11 +25038,11 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Riazor",
+        "arena": null,
         "city": "A Coruña",
         "country": "ספרד"
       },
-      "tournament": "Teresa Herrera",
+      "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -24959,7 +25185,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -24999,7 +25225,7 @@
     {
       "date": "2026-09-18",
       "dateLabel": "Venerdì 18 settembre",
-      "time": null,
+      "time": "21:15",
       "homeTeam": "t_493d547d",
       "awayTeam": "t_9cfa72eb",
       "candidates": [],
@@ -25037,6 +25263,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/dole-rimini-gli-impegni-della-preseason/",
           "published": "2026-08-08"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-old-wild-west-biglietteria-aperta-su-ticketone/",
+          "published": "Thu, 03 Sep 2026 20:50:02 +0000"
         }
       ],
       "notes": [],
@@ -25055,7 +25286,7 @@
     {
       "date": "2026-09-18",
       "dateLabel": "Venerdì 18 settembre",
-      "time": null,
+      "time": "17:00",
       "homeTeam": "t_aaae2e9f",
       "awayTeam": "t_f0a9bf47",
       "candidates": [],
@@ -25088,6 +25319,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
           "published": "2026-08-03"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-old-wild-west-biglietteria-aperta-su-ticketone/",
+          "published": "Thu, 03 Sep 2026 20:50:02 +0000"
         }
       ],
       "notes": [],
@@ -25100,108 +25336,6 @@
       "teams": [
         "t_aaae2e9f",
         "t_f0a9bf47"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-18",
-      "dateLabel": "dal 18 al 20 settembre",
-      "time": null,
-      "homeTeam": "t_483afd93",
-      "awayTeam": "t_5db24e64",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Baltur Arena",
-        "city": "Cento",
-        "country": "Italy"
-      },
-      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
-          "published": "2026-07-10"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
-          "published": "2026-06-26"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
-          "published": "2026-08-03"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-07-10",
-      "id": "g_c4e6fcadd3",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_483afd93",
-        "t_5db24e64"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-18",
-      "dateLabel": "dal 18 al 20 settembre",
-      "time": null,
-      "homeTeam": "t_b07eff5d",
-      "awayTeam": "t_a8c92a6b",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Baltur Arena",
-        "city": "Cento",
-        "country": "Italy"
-      },
-      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
-          "published": "2026-07-10"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
-          "published": "2026-06-26"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
-          "published": "2026-08-03"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-07-10",
-      "id": "g_22f6b0240a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_b07eff5d",
-        "t_a8c92a6b"
       ],
       "confidence": 1
     },
@@ -26139,15 +26273,61 @@
     },
     {
       "date": "2026-09-18",
-      "dateLabel": "2026-09-18T21:00:00+02:00",
-      "time": null,
+      "dateLabel": "2026-09-18",
+      "time": "20:00",
+      "homeTeam": "t_dfe9dae2",
+      "awayTeam": "t_cec2cef8",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Sant Hilari Sacalm (Girona)",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:acb",
+          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
+          "published": null
+        },
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
+          "published": "2026-08-13"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_b27d3a1181",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_dfe9dae2",
+        "t_cec2cef8"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "2026-09-18",
+      "time": "21:00",
       "homeTeam": "t_bbaa773d",
       "awayTeam": "t_38027d78",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Pabellón las Torres",
-        "city": null,
+        "arena": null,
+        "city": "Pabellón las Torres",
         "country": null
       },
       "tournament": "Trofeo Costa Adeje",
@@ -26187,7 +26367,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -26499,7 +26679,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -26688,6 +26868,118 @@
         "t_726df887"
       ],
       "confidence": 3
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Sabato 19 settembre",
+      "time": "17:00",
+      "homeTeam": "t_483afd93",
+      "awayTeam": "t_5db24e64",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pala De Andrè",
+        "city": "Ravenna",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-old-wild-west-biglietteria-aperta-su-ticketone/",
+          "published": "Thu, 03 Sep 2026 20:50:02 +0000"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_7915624b9a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_483afd93",
+        "t_5db24e64"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Sabato 19 settembre",
+      "time": "21:15",
+      "homeTeam": "t_b07eff5d",
+      "awayTeam": "t_a8c92a6b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Pala De Andrè",
+        "city": "Ravenna",
+        "country": "Italy"
+      },
+      "tournament": "Supercoppa Serie B Nazionale Old Wild West 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-date-squadre-qualificate-e-accoppiamenti/",
+          "published": "2026-06-26"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cambia-la-sede-si-giochera-a-ravenna/",
+          "published": "2026-08-03"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-old-wild-west-biglietteria-aperta-su-ticketone/",
+          "published": "Thu, 03 Sep 2026 20:50:02 +0000"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-lnp-2026-cento-baltur-arena/",
+          "published": "2026-07-10"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-06-26",
+      "id": "g_08fc38f5ad",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_b07eff5d",
+        "t_a8c92a6b"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
@@ -27155,52 +27447,6 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "19 septiembre",
-      "time": "20:00",
-      "homeTeam": "t_dfe9dae2",
-      "awayTeam": "t_cec2cef8",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Sant Hilari Sacalm (Girona)",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
-          "published": "2026-08-13"
-        },
-        {
-          "name": "league:acb",
-          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-13",
-      "id": "g_8f122a1c90",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_dfe9dae2",
-        "t_cec2cef8"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-19",
       "dateLabel": "19-09-2026",
       "time": null,
       "homeTeam": "t_e3680384",
@@ -27401,7 +27647,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -28364,7 +28610,7 @@
     {
       "date": "2026-09-20",
       "dateLabel": "20 septiembre",
-      "time": null,
+      "time": "12:30",
       "homeTeam": "t_4a5e72bb",
       "awayTeam": "t_29304cb1",
       "candidates": [],
@@ -28449,15 +28695,15 @@
     },
     {
       "date": "2026-09-20",
-      "dateLabel": "2026-09-20T13:00:00+02:00",
-      "time": null,
+      "dateLabel": "2026-09-20",
+      "time": "13:00",
       "homeTeam": "t_bbaa773d",
       "awayTeam": "t_38027d78",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Pabellón Santiago Martín",
-        "city": null,
+        "arena": null,
+        "city": "Pabellón Santiago Martín",
         "country": null
       },
       "tournament": null,
@@ -28497,7 +28743,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -28538,7 +28784,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -28579,7 +28825,7 @@
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "«ВТБ АРЕНА»",
+        "arena": "ВТБ АРЕНА",
         "city": "Москва",
         "country": "Россия"
       },
@@ -29592,6 +29838,49 @@
       "teams": [
         "t_709fcff6",
         "t_7848c11d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": null,
+      "homeTeam": null,
+      "awayTeam": "t_e4808617",
+      "candidates": [
+        "Pizza Bulls Bordo",
+        "Pizza Bulls Bordo"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/tbl-tr/2004256/quentin-peterson-tasidi-pizza-bulls-bordo-hazirlik-macinda-korfez-basketi-maglup-etti/",
+          "published": "Thu, 03 Sep 2026 16:58:57 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 03 Sep 2026 16:58:57 +0000",
+      "id": "g_0bf7ac8ed5",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e4808617"
       ],
       "confidence": 1
     }
