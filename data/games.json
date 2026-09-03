@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:59:11.309Z",
+  "updated": "2026-09-03T23:30:17.847Z",
   "season": "2026-27",
   "newGames": 7,
   "conflicts": [
@@ -417,6 +417,14 @@
       "kept": "21:00",
       "alsoReported": "20:00",
       "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_0673d3afbf",
+      "field": "time",
+      "kept": "19:00",
+      "alsoReported": "18:00",
+      "from": "allstarbasket",
       "resolvedBy": "recency"
     }
   ],
@@ -1180,11 +1188,8 @@
       "dateLabel": "21/08",
       "time": null,
       "homeTeam": "t_02ac2d32",
-      "awayTeam": null,
-      "candidates": [
-        "Venelle BC (NM2)",
-        "Venelle BC (NM2)"
-      ],
+      "awayTeam": "t_dc4a4089",
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": "Halle Henri Giuitta",
@@ -1212,12 +1217,13 @@
       "notes": [],
       "origin": "extracted",
       "published": null,
-      "id": "g_9e76264d51",
+      "id": "g_ebce01ce3b",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_02ac2d32"
+        "t_02ac2d32",
+        "t_dc4a4089"
       ],
       "confidence": 1
     },
@@ -7400,6 +7406,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-i-parakamera-tou-filikoy-me-ton-viko-ioanninon-video",
           "published": "2026-09-01T11:25:55+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-riksi-miniskou-o-tairi-menei-ektos-gia-enan-mina",
+          "published": "2026-09-03T07:30:18+00:00"
         }
       ],
       "notes": [],
@@ -9773,11 +9784,8 @@
       "dateLabel": "03/Sep/26",
       "time": null,
       "homeTeam": "t_bbaa773d",
-      "awayTeam": null,
-      "candidates": [
-        "Gran Canaria",
-        "Gran Canaria"
-      ],
+      "awayTeam": "t_d35837a1",
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -9805,12 +9813,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 03 Sep 2026 18:58:19 +0000",
-      "id": "g_ee026bd1a5",
+      "id": "g_e58958c409",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_bbaa773d"
+        "t_bbaa773d",
+        "t_d35837a1"
       ],
       "confidence": 1
     },
@@ -12048,7 +12057,7 @@
     {
       "date": "2026-09-05",
       "dateLabel": "weekend del 5-6 settembre",
-      "time": "18:00",
+      "time": "19:00",
       "homeTeam": "t_726df887",
       "awayTeam": "t_5d59a83a",
       "candidates": [],
@@ -12108,6 +12117,11 @@
           "published": "Tue, 01 Sep 2026 18:26:48 +0000"
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-petaei-tin-paraskevi-gia-italia",
+          "published": "2026-09-03T17:09:21+00:00"
+        },
+        {
           "name": "sportando_en",
           "url": "https://sportando.basketball/il-programma-della-preseason-2026-27-dellapu-old-wild-west-udine/",
           "published": "2026-08-02"
@@ -12120,7 +12134,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "2026-07-28",
+      "published": "2026-09-03T17:09:21+00:00",
       "id": "g_0673d3afbf",
       "origins": [
         "extracted"
@@ -12129,7 +12143,7 @@
         "t_726df887",
         "t_5d59a83a"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-05",
@@ -13952,6 +13966,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/eurocup-el/2004301/paok-pai-italia-gia-defteri-proetimasia/",
           "published": "Thu, 03 Sep 2026 19:17:25 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-petaei-tin-paraskevi-gia-italia",
+          "published": "2026-09-03T17:09:21+00:00"
         }
       ],
       "notes": [],
@@ -14817,6 +14836,11 @@
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-proti-proponisi-gia-spanoyli-kai-diethneis-pics",
           "published": "2026-09-02T12:53:08+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-me-kem-birts-i-proponisi",
+          "published": "2026-09-03T17:32:50+00:00"
         }
       ],
       "notes": [],
@@ -14916,6 +14940,11 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/hraklis-se-kikloforia-ta-eisitiria-gia-to-filiko-me-tin-aek-larnakas/",
           "published": null
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/iraklis-se-kykloforia-ta-eisitiria-gia-to-filiko-me-tin-aek-larnakas",
+          "published": "2026-09-03T10:14:16+00:00"
         }
       ],
       "notes": [],
@@ -16125,6 +16154,46 @@
         "t_9b9664c9",
         "t_5d59a83a",
         "t_726df887"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "Κυριακή (6/9)",
+      "time": "19:00",
+      "homeTeam": "t_9b9664c9",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-petaei-tin-paraskevi-gia-italia",
+          "published": "2026-09-03T17:09:21+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-09-03T17:09:21+00:00",
+      "id": "g_58b792babb",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9b9664c9"
       ],
       "confidence": 1
     },
@@ -19330,6 +19399,11 @@
         {
           "name": "basketballstoriescy.com",
           "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/"
+        },
+        {
+          "name": "basketballstoriescy",
+          "url": "https://www.basketballstoriescy.com/%f0%9f%8f%80bs-ek-ton-chorigon-epikoinonias-gia-to-neofytos-chandriotis/",
+          "published": "Thu, 03 Sep 2026 08:41:12 +0000"
         }
       ],
       "notes": [],
@@ -22364,7 +22438,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Μπιέλα",
         "city": "Μιλάνο",
         "country": "Ιταλία"
       },
@@ -22391,6 +22465,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/eurocup-el/2004301/paok-pai-italia-gia-defteri-proetimasia/",
           "published": "Thu, 03 Sep 2026 19:17:25 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-petaei-tin-paraskevi-gia-italia",
+          "published": "2026-09-03T17:09:21+00:00"
         }
       ],
       "notes": [],
@@ -22574,12 +22653,9 @@
       "date": "2026-09-12",
       "dateLabel": "12/09",
       "time": "15:00",
-      "homeTeam": null,
+      "homeTeam": "t_1c780163",
       "awayTeam": "t_14260107",
-      "candidates": [
-        "ΕΝΠ",
-        "ΕΝΠ"
-      ],
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -22604,11 +22680,12 @@
       "notes": [],
       "origin": "extracted",
       "published": "Wed, 02 Sep 2026 09:04:45 +0000",
-      "id": "g_94f8f4950c",
+      "id": "g_c1757d221d",
       "origins": [
         "extracted"
       ],
       "teams": [
+        "t_1c780163",
         "t_14260107"
       ],
       "confidence": 1
@@ -22618,11 +22695,8 @@
       "dateLabel": "12/09",
       "time": "17:00",
       "homeTeam": "t_83ef4d6f",
-      "awayTeam": null,
-      "candidates": [
-        "Αχιλλέας",
-        "Αχιλλέας"
-      ],
+      "awayTeam": "t_79b46ec8",
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -22647,12 +22721,13 @@
       "notes": [],
       "origin": "extracted",
       "published": "Wed, 02 Sep 2026 09:04:45 +0000",
-      "id": "g_dd8748a80e",
+      "id": "g_9329145f1a",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_83ef4d6f"
+        "t_83ef4d6f",
+        "t_79b46ec8"
       ],
       "confidence": 1
     },
@@ -25010,6 +25085,16 @@
           "published": "2026-09-03T15:47:50+00:00"
         },
         {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/03/partizan-atina-turnir-pripreme/",
+          "published": "Thu, 03 Sep 2026 17:50:02 +0000"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-jl-bourg-invitee-a-la-table-des-grands-a-athenes-avec-le-panathinaikos-pour-commencer",
+          "published": "2026-09-03T19:18:26+00:00"
+        },
+        {
           "name": "paopantou",
           "url": "https://paopantou.gr/tournoua-pavlos-giannakopoulos-paok-partizan-kai-bourgk-oloklironoun-to-pazl/",
           "published": null
@@ -25027,7 +25112,7 @@
         "t_1497d847",
         "t_9b9664c9"
       ],
-      "confidence": 7
+      "confidence": 8
     },
     {
       "date": "2026-09-18",
@@ -26085,6 +26170,16 @@
           "published": "2026-09-03T15:47:50+00:00"
         },
         {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/03/partizan-atina-turnir-pripreme/",
+          "published": "Thu, 03 Sep 2026 17:50:02 +0000"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-jl-bourg-invitee-a-la-table-des-grands-a-athenes-avec-le-panathinaikos-pour-commencer",
+          "published": "2026-09-03T19:18:26+00:00"
+        },
+        {
           "name": "paopantou",
           "url": "https://paopantou.gr/tournoua-pavlos-giannakopoulos-paok-partizan-kai-bourgk-oloklironoun-to-pazl/",
           "published": null
@@ -26101,7 +26196,7 @@
         "t_e5cb1715",
         "t_211b1542"
       ],
-      "confidence": 5
+      "confidence": 6
     },
     {
       "date": "2026-09-18",
@@ -29845,12 +29940,9 @@
       "date": null,
       "dateLabel": null,
       "time": null,
-      "homeTeam": null,
+      "homeTeam": "t_8ebb189a",
       "awayTeam": "t_e4808617",
-      "candidates": [
-        "Pizza Bulls Bordo",
-        "Pizza Bulls Bordo"
-      ],
+      "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
@@ -29875,12 +29967,54 @@
       "notes": [],
       "origin": "extracted",
       "published": "Thu, 03 Sep 2026 16:58:57 +0000",
-      "id": "g_0bf7ac8ed5",
+      "id": "g_29465a1e48",
       "origins": [
         "extracted"
       ],
       "teams": [
+        "t_8ebb189a",
         "t_e4808617"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": null,
+      "homeTeam": "t_a92ad0ff",
+      "awayTeam": "t_52cc67ef",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Gloria Cup Summer Games",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "basketdergisi",
+          "url": "https://basketdergisi.com/denizli-ribaundlari-domine-etti-petkimi-yendi.html",
+          "published": "Thu, 03 Sep 2026 16:23:21 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Thu, 03 Sep 2026 16:23:21 +0000",
+      "id": "g_6db784f1f4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_a92ad0ff",
+        "t_52cc67ef"
       ],
       "confidence": 1
     }
