@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-04T21:46:15.743Z",
+  "updated": "2026-09-04T23:18:02.154Z",
   "season": "2026-27",
-  "newGames": 30,
+  "newGames": 5,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -409,6 +409,94 @@
       "kept": "17:30",
       "alsoReported": "18:30",
       "from": "telegraf",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_dbeded3896",
+      "field": "time",
+      "kept": "19:30",
+      "alsoReported": "20:30",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_c562e9fd11",
+      "field": "time",
+      "kept": "17:00",
+      "alsoReported": "18:00",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_ab63f4738e",
+      "field": "time",
+      "kept": "22:11",
+      "alsoReported": "21:00",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_d2b9ebf6e2",
+      "field": "time",
+      "kept": "21:43",
+      "alsoReported": "18:15",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_903300720f",
+      "field": "time",
+      "kept": "19:32",
+      "alsoReported": "17:30",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_903300720f",
+      "field": "time",
+      "kept": "19:32",
+      "alsoReported": "18:30",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_c562e9fd11",
+      "field": "time",
+      "kept": "17:00",
+      "alsoReported": "18:00",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_dbeded3896",
+      "field": "time",
+      "kept": "19:30",
+      "alsoReported": "20:30",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_ab63f4738e",
+      "field": "time",
+      "kept": "22:11",
+      "alsoReported": "21:00",
+      "from": "eurohoops",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_c562e9fd11",
+      "field": "time",
+      "kept": "17:00",
+      "alsoReported": "18:00",
+      "from": "sport24gr",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_dbeded3896",
+      "field": "time",
+      "kept": "19:30",
+      "alsoReported": "20:30",
+      "from": "sport24gr",
       "resolvedBy": "recency"
     }
   ],
@@ -8984,6 +9072,11 @@
           "name": "league:lnb",
           "url": "https://presaison.lnb.info/",
           "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-chorale-de-roanne-fait-venir-un-meneur-de-vichy",
+          "published": "2026-09-04T13:49:34+00:00"
         }
       ],
       "notes": [],
@@ -9192,7 +9285,7 @@
     {
       "date": "2026-09-04",
       "dateLabel": "4.9",
-      "time": "21:00",
+      "time": "22:11",
       "homeTeam": "t_e3b7f23c",
       "awayTeam": "t_709fcff6",
       "candidates": [],
@@ -9205,10 +9298,18 @@
       "tournament": "טורניר קרתי",
       "stage": "חצי גמר",
       "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
+      "broadcast": [
+        {
+          "name": "Cosmote Sport 4",
+          "url": "https://www.eurohoops.net/basketiko-tileoptiko-programma/?lang=el"
+        }
+      ],
+      "result": {
+        "home": 82,
+        "away": 77
+      },
+      "statsUrl": "https://www.sport24.gr/matchcenter/olympiakos-fenermpachtse-live-04-09-2026/6a9a26f70d9c04550f263749/",
+      "reportUrl": "https://www.eurohoops.net/el/euroleague-el-2/2004690/olimpiakos-fener-82-77-to-piase-apo-ki-pou-to-afise-ke-perase-ston-teliko-tis-kritis/",
       "highlightsUrl": null,
       "sources": [
         {
@@ -9295,6 +9396,31 @@
           "published": null
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004690/olimpiakos-fener-82-77-to-piase-apo-ki-pou-to-afise-ke-perase-ston-teliko-tis-kritis/",
+          "published": "Fri, 04 Sep 2026 20:16:25 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2004568/wade-baldwin-yetmedi-fenerbahce-tarfin-olympiakosa-yenildi/",
+          "published": "Fri, 04 Sep 2026 20:11:32 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004578/olimpiakos-ektos-ki-i-montero-miloutinof-vezenkof-me-fener/",
+          "published": "Fri, 04 Sep 2026 16:55:02 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/pote-einai-o-telikos-tou-ibt-crete-gia-ton-olimpiako/",
+          "published": null
+        },
+        {
           "name": "sportando",
           "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
           "published": "2026-08-18"
@@ -9308,11 +9434,51 @@
           "name": "sportacentrs",
           "url": "http://sportacentrs.com/basketbols/eirokausi/30082026-fenerbahce_svaigi_nokomplektetais_sastavs",
           "published": "Sun, 30 Aug 2026 10:05:00 +0300"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/olimpiakos-afta-ekane-o-entiai-sto-anepisimo-ntempouto-tou-me-ta-erithrolefka/",
+          "published": null
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/04/repriza-finala-zvezda-olimpijakos/",
+          "published": "Fri, 04 Sep 2026 20:31:02 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/o-fournie-agonistike-san-arxigos-sto-filiko-apenanti-sti-fenermpaxtse-gia-proti-fora/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/i-anartisi-tis-kae-olimpiakos-meta-ti-niki-kontra-sti-fenermpaxtse-me-ta-xamogela-ton-protagoniston/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/olimpiakos-o-bartzokas-exigise-ton-logo-pou-den-agonistike-o-montero-apenanti-sti-fenermpaxtse/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/olimpiakos-fenermpaxtse-82-77-ston-teliko-tou-ibt-crete-oi-erithrolefkoi-fournie-ntorsei-kai-xol-katharisan-proti-gefsi-apo-makintair-kai-entiai/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/olimpiakos-afta-ekane-o-miler-makintair-sto-erithrolefko-anepisimo-ntempouto-tou/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004575/erithros-nikise-tin-armani-me-exeretiko-nooura-ke-prokrithike-ston-teliko/",
+          "published": "Fri, 04 Sep 2026 17:30:55 +0000"
         }
       ],
       "notes": [],
       "origin": "seed",
-      "published": "Thu, 03 Sep 2026 20:28:06 +0000",
+      "published": "Fri, 04 Sep 2026 20:11:32 +0000",
       "id": "g_ab63f4738e",
       "origins": [
         "seed",
@@ -9322,7 +9488,7 @@
         "t_e3b7f23c",
         "t_709fcff6"
       ],
-      "confidence": 7
+      "confidence": 8
     },
     {
       "date": "2026-09-04",
@@ -9339,9 +9505,14 @@
       },
       "tournament": null,
       "stage": null,
-      "flags": [],
+      "flags": [
+        "דלתיים סגורות"
+      ],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 86,
+        "away": 97
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -9349,6 +9520,11 @@
         {
           "name": "paopantou.gr",
           "url": "https://paopantou.gr/panathinaikos-etoimos-gia-ta-prota-test-to-programma-ton-filikon-mechri-ta-episima"
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/04/obradovic-pao-marusija-povreda/",
+          "published": "Fri, 04 Sep 2026 16:12:09 +0000"
         },
         {
           "name": "paopantou",
@@ -9368,12 +9544,12 @@
         "t_e5cb1715",
         "t_b61fd9ed"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-04",
       "dateLabel": "4.9",
-      "time": "17:30",
+      "time": "19:32",
       "homeTeam": "t_21cf4132",
       "awayTeam": "t_a85f3ce5",
       "candidates": [],
@@ -9493,6 +9669,46 @@
           "published": null
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004702/estrella-roja-y-olympiacos-llegan-a-la-final-del-torneo-de-creta/",
+          "published": "Fri, 04 Sep 2026 20:23:17 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004690/olimpiakos-fener-82-77-to-piase-apo-ki-pou-to-afise-ke-perase-ston-teliko-tis-kritis/",
+          "published": "Fri, 04 Sep 2026 20:16:25 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/ibt-crete-me-exairetiko-nouora-o-erithros-asteras-nikise-91-85-tin-armani-milano-kai-prokrithike-ston-teliko/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2004566/jordan-nwora-yildizlasti-kizilyildiz-yari-finalde-milano-engelini-asti/",
+          "published": "Fri, 04 Sep 2026 17:32:37 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004575/erithros-nikise-tin-armani-me-exeretiko-nooura-ke-prokrithike-ston-teliko/",
+          "published": "Fri, 04 Sep 2026 17:30:55 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004578/olimpiakos-ektos-ki-i-montero-miloutinof-vezenkof-me-fener/",
+          "published": "Fri, 04 Sep 2026 16:55:02 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/pote-einai-o-telikos-tou-ibt-crete-gia-ton-olimpiako/",
+          "published": null
+        },
+        {
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/09/03/zvezda-oslabljena-krit-pripreme/",
           "published": "Thu, 03 Sep 2026 16:33:00 +0000"
@@ -9502,7 +9718,7 @@
         "הכוכב האדום משתתפת גם ביורוליג - ראו לוח מלא שם"
       ],
       "origin": "seed",
-      "published": "2026-09-04T06:26:00+02:00",
+      "published": "Fri, 04 Sep 2026 17:32:37 +0000",
       "id": "g_903300720f",
       "origins": [
         "seed",
@@ -9640,7 +9856,10 @@
         "דלתיים סגורות"
       ],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 75,
+        "away": 77
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -9654,6 +9873,26 @@
           "name": "basketdergisi",
           "url": "https://basketdergisi.com/19-tubad-mehmet-baturalp-turnuvasinin-programi-belli-oldu.html",
           "published": "Thu, 13 Aug 2026 17:47:30 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004702/estrella-roja-y-olympiacos-llegan-a-la-final-del-torneo-de-creta/",
+          "published": "Fri, 04 Sep 2026 20:23:17 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
+        },
+        {
+          "name": "basketdergisi",
+          "url": "https://basketdergisi.com/erok-efesi-son-saniyede-yikti.html",
+          "published": "Fri, 04 Sep 2026 15:40:04 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/itta-gia-tin-anantolou-efes-sto-tournoua-tis-konstantinoupolis/",
+          "published": null
         },
         {
           "name": "basketdergisi",
@@ -9672,7 +9911,7 @@
         "t_157b4fa8",
         "t_b49d2d8b"
       ],
-      "confidence": 2
+      "confidence": 4
     },
     {
       "date": "2026-09-04",
@@ -10014,11 +10253,6 @@
           "name": "sportando",
           "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
           "published": "2026-08-21"
-        },
-        {
-          "name": "sportacentrs",
-          "url": "http://sportacentrs.com/basketbols/eirokausi/30082026-fenerbahce_svaigi_nokomplektetais_sastavs",
-          "published": "Sun, 30 Aug 2026 10:05:00 +0300"
         }
       ],
       "notes": [],
@@ -10032,7 +10266,7 @@
         "t_21cf4132",
         "t_709fcff6"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-04",
@@ -10256,17 +10490,17 @@
     {
       "date": "2026-09-04",
       "dateLabel": "Friday, 04.09.2026",
-      "time": "18:15",
+      "time": "21:43",
       "homeTeam": "t_be26eea9",
       "awayTeam": "t_5e5281ca",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
-        "country": null
+        "city": "Antalya",
+        "country": "Turkey"
       },
-      "tournament": null,
+      "tournament": "Gloria Cup",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -10282,11 +10516,31 @@
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004702/estrella-roja-y-olympiacos-llegan-a-la-final-del-torneo-de-creta/",
+          "published": "Fri, 04 Sep 2026 20:23:17 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/eurocup-tr/2004673/jerrick-harding-inanilmaz-oynadi-turk-telekom-dubaiyi-yendi/",
+          "published": "Fri, 04 Sep 2026 19:43:18 +0000"
+        },
+        {
+          "name": "basketdergisi",
+          "url": "https://basketdergisi.com/harding-sov-yapti-telekom-kazandi.html",
+          "published": "Fri, 04 Sep 2026 18:41:51 +0000"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": null,
+      "published": "Fri, 04 Sep 2026 19:43:18 +0000",
       "id": "g_d2b9ebf6e2",
       "origins": [
         "extracted"
@@ -10295,7 +10549,7 @@
         "t_be26eea9",
         "t_5e5281ca"
       ],
-      "confidence": 1
+      "confidence": 3
     },
     {
       "date": "2026-09-04",
@@ -10553,7 +10807,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 62,
+        "away": 95
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -10567,6 +10824,16 @@
           "name": "league:lnb",
           "url": "https://presaison.lnb.info/",
           "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004702/estrella-roja-y-olympiacos-llegan-a-la-final-del-torneo-de-creta/",
+          "published": "Fri, 04 Sep 2026 20:23:17 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
         }
       ],
       "notes": [],
@@ -10580,7 +10847,7 @@
         "t_a44f7e1a",
         "t_d6cca7c8"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-04",
@@ -10664,6 +10931,16 @@
           "published": null
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2004702/estrella-roja-y-olympiacos-llegan-a-la-final-del-torneo-de-creta/",
+          "published": "Fri, 04 Sep 2026 20:23:17 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2004601/red-star-overcomes-olimpia-milano-in-crete-tournament-thriller/",
+          "published": "Fri, 04 Sep 2026 17:30:04 +0000"
+        },
+        {
           "name": "bebasket",
           "url": "https://www.bebasket.fr/lelan-bearnais-prive-de-match-ce-dimanche",
           "published": "2026-08-27T10:53:44+00:00"
@@ -10680,7 +10957,7 @@
         "t_4e00735a",
         "t_0d612940"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-04",
@@ -11130,6 +11407,55 @@
       "teams": [
         "t_ba69a3d3",
         "t_daf5c953"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-09-04",
+      "dateLabel": "04/09/2026",
+      "time": "23:10",
+      "homeTeam": "t_12174e28",
+      "awayTeam": "t_bf5dd73e",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Penne",
+        "country": "Italy"
+      },
+      "tournament": "Memorial Di Flavio",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 118,
+        "away": 78
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/maxima-roma-domina-juvecaserta-118-78-e-raggiunge-la-finale-a-penne/",
+          "published": "Fri, 04 Sep 2026 21:10:49 +0000"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 04 Sep 2026 21:10:49 +0000",
+      "id": "g_7ca211382b",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_12174e28",
+        "t_bf5dd73e"
       ],
       "confidence": 2
     },
@@ -11907,6 +12233,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
           "published": "2026-08-18"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/maxima-roma-domina-juvecaserta-118-78-e-raggiunge-la-finale-a-penne/",
+          "published": "Fri, 04 Sep 2026 21:10:49 +0000"
         }
       ],
       "notes": [],
@@ -12594,47 +12925,6 @@
         "t_0b32d25f"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-05",
-      "dateLabel": "Sabato 5 e domenica 6 settembre",
-      "time": null,
-      "homeTeam": "t_12174e28",
-      "awayTeam": "t_bf5dd73e",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Penne (Pescara)",
-        "country": "Italy"
-      },
-      "tournament": "Trofeo Basilicata",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "league:lba",
-          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_fdce2f85f9",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_12174e28",
-        "t_bf5dd73e"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-05",
@@ -13689,6 +13979,11 @@
           "published": null
         },
         {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/akirothike-to-filiko-tou-panathinaikou-me-to-peristeri-betsson/",
+          "published": null
+        },
+        {
           "name": "paopantou.gr",
           "url": "https://paopantou.gr/panathinaikos-etoimos-gia-ta-prota-test-to-programma-ton-filikon-mechri-ta-episima"
         },
@@ -14104,94 +14399,6 @@
     },
     {
       "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "אולימפיה מילאנו",
-        "הכוכב האדום"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "כרתים",
-        "country": "יוון"
-      },
-      "tournament": "טורניר קרתי",
-      "stage": "גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "olympiacos.org",
-          "url": "https://www.olympiacos.org/2026/06/23/ta-filika-tou-olympiakou-stin-proetoimasia/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_ed9f5272f8",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_e3b7f23c",
-        "t_21cf4132",
-        "t_a85f3ce5"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "אולימפיה מילאנו",
-        "הכוכב האדום"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "כרתים",
-        "country": "יוון"
-      },
-      "tournament": "טורניר קרתי",
-      "stage": "גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "eurohoops.net",
-          "url": "https://www.eurohoops.net/tr/euroleague-tr/1997681/fenerbahcenin-hazirlik-maci-takvimi-aciklandi/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_8ae87ff145",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_709fcff6",
-        "t_21cf4132",
-        "t_a85f3ce5"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
       "dateLabel": "6-7.9",
       "time": null,
       "homeTeam": null,
@@ -14270,94 +14477,6 @@
       "teams": [
         "t_de097d3a",
         "t_3ba64ffe"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "אולימפיאקוס",
-        "פנרבחצ'ה"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "כרתים",
-        "country": "יוון"
-      },
-      "tournament": "טורניר קרתי",
-      "stage": "גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "hotsport.rs",
-          "url": "https://hotsport.rs/2026/07/19/crvena-zvezda-pripreme-turnir-krit/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_eabe93e8d2",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_a85f3ce5",
-        "t_e3b7f23c",
-        "t_709fcff6"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "6.9",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [
-        "אולימפיאקוס",
-        "פנרבחצ'ה"
-      ],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "כרתים",
-        "country": "יוון"
-      },
-      "tournament": "טורניר קרתי",
-      "stage": "גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "realolimpiamilano.com",
-          "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_097c9f29b6",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_21cf4132",
-        "t_e3b7f23c",
-        "t_709fcff6"
       ],
       "confidence": 1
     },
@@ -15172,46 +15291,6 @@
       "date": "2026-09-06",
       "dateLabel": "Sunday, 06.09.2026",
       "time": null,
-      "homeTeam": "t_a85f3ce5",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1081/26/crvena-zvezda-meridianbet-tba/",
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "league:aba",
-          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_7eea500d60",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_a85f3ce5"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "Sunday, 06.09.2026",
-      "time": null,
       "homeTeam": "t_344e420f",
       "awayTeam": "t_5e944bac",
       "candidates": [],
@@ -15481,49 +15560,6 @@
     },
     {
       "date": "2026-09-06",
-      "dateLabel": "6 settembre",
-      "time": null,
-      "homeTeam": "t_21cf4132",
-      "awayTeam": "t_7fc2822e",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Creta",
-        "country": null
-      },
-      "tournament": "טורניר קרתי",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/olimpia-milano-sei-test-prima-della-supercoppa/",
-          "published": "2026-08-17"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-17",
-      "id": "g_921bbcea11",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_21cf4132",
-        "t_7fc2822e",
-        "t_e3b7f23c",
-        "t_709fcff6"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
       "dateLabel": "Sabato 5 e domenica 6 settembre",
       "time": null,
       "homeTeam": null,
@@ -15562,49 +15598,6 @@
         "t_726df887",
         "t_c00ae0c6",
         "t_5d59a83a"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "Venerdì 4 – Domenica 6 settembre",
-      "time": null,
-      "homeTeam": null,
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "טורניר קרתי",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-18",
-      "id": "g_2d3400fc9f",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_21cf4132",
-        "t_709fcff6",
-        "t_e3b7f23c",
-        "t_a85f3ce5"
       ],
       "confidence": 1
     },
@@ -15998,6 +15991,184 @@
         "t_0b76897a"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "nedelju",
+      "time": "19:30",
+      "homeTeam": "t_a85f3ce5",
+      "awayTeam": "t_e3b7f23c",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "כרתים",
+        "country": "Greece"
+      },
+      "tournament": "turnir na Kritu",
+      "stage": "גמר",
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "Cosmote Sport 4",
+          "url": null
+        }
+      ],
+      "result": null,
+      "statsUrl": "https://www.aba-liga.com/match-preseason/1081/26/crvena-zvezda-meridianbet-tba/",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/04/repriza-finala-zvezda-olimpijakos/",
+          "published": "Fri, 04 Sep 2026 20:31:02 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004690/olimpiakos-fener-82-77-to-piase-apo-ki-pou-to-afise-ke-perase-ston-teliko-tis-kritis/",
+          "published": "Fri, 04 Sep 2026 20:16:25 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004575/erithros-nikise-tin-armani-me-exeretiko-nooura-ke-prokrithike-ston-teliko/",
+          "published": "Fri, 04 Sep 2026 17:30:55 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/pote-einai-o-telikos-tou-ibt-crete-gia-ton-olimpiako/",
+          "published": null
+        },
+        {
+          "name": "olympiacos.org",
+          "url": "https://www.olympiacos.org/2026/06/23/ta-filika-tou-olympiakou-stin-proetoimasia/"
+        },
+        {
+          "name": "eurohoops.net",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/1997681/fenerbahcenin-hazirlik-maci-takvimi-aciklandi/"
+        },
+        {
+          "name": "hotsport.rs",
+          "url": "https://hotsport.rs/2026/07/19/crvena-zvezda-pripreme-turnir-krit/"
+        },
+        {
+          "name": "realolimpiamilano.com",
+          "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/olimpia-milano-sei-test-prima-della-supercoppa/",
+          "published": "2026-08-17"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004578/olimpiakos-ektos-ki-i-montero-miloutinof-vezenkof-me-fener/",
+          "published": "Fri, 04 Sep 2026 16:55:02 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 04 Sep 2026 20:31:02 +0000",
+      "id": "g_dbeded3896",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_a85f3ce5",
+        "t_e3b7f23c"
+      ],
+      "confidence": 7
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "domenica 6 settembre",
+      "time": "17:00",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_709fcff6",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Heraklion",
+        "country": "Greece"
+      },
+      "tournament": "International Basketball Tournament di Creta",
+      "stage": null,
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "Cosmote Sport 4",
+          "url": null
+        }
+      ],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/olimpia-milano-fenerbahce-domenica-alle-17-in-palio-il-terzo-posto-a-creta/",
+          "published": "Fri, 04 Sep 2026 20:37:12 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004690/olimpiakos-fener-82-77-to-piase-apo-ki-pou-to-afise-ke-perase-ston-teliko-tis-kritis/",
+          "published": "Fri, 04 Sep 2026 20:16:25 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2004568/wade-baldwin-yetmedi-fenerbahce-tarfin-olympiakosa-yenildi/",
+          "published": "Fri, 04 Sep 2026 20:11:32 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004575/erithros-nikise-tin-armani-me-exeretiko-nooura-ke-prokrithike-ston-teliko/",
+          "published": "Fri, 04 Sep 2026 17:30:55 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/pote-einai-o-telikos-tou-ibt-crete-gia-ton-olimpiako/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2004578/olimpiakos-ektos-ki-i-montero-miloutinof-vezenkof-me-fener/",
+          "published": "Fri, 04 Sep 2026 16:55:02 +0000"
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/04/repriza-finala-zvezda-olimpijakos/",
+          "published": "Fri, 04 Sep 2026 20:31:02 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/eirokausi/30082026-fenerbahce_svaigi_nokomplektetais_sastavs",
+          "published": "Sun, 30 Aug 2026 10:05:00 +0300"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 04 Sep 2026 20:37:12 +0000",
+      "id": "g_c562e9fd11",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_709fcff6"
+      ],
+      "confidence": 5
     },
     {
       "date": "2026-09-07",
@@ -26598,7 +26769,7 @@
     {
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
-      "time": "19:45",
+      "time": null,
       "homeTeam": "t_486860fc",
       "awayTeam": "t_21cf4132",
       "candidates": [],
@@ -26648,11 +26819,6 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
-        },
-        {
-          "name": "club:t_21cf4132",
-          "url": "http://www.olimpiamilano.com/schedule",
-          "published": null
         }
       ],
       "notes": [
@@ -26669,7 +26835,7 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 3
+      "confidence": 2
     },
     {
       "date": "2026-09-19",
@@ -26789,6 +26955,47 @@
         "t_1d8e80ce"
       ],
       "confidence": 6
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19/09",
+      "time": "19:45",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nova Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": "סופרקופה איטלקית",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_a19251f7ce",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_2bbdc992"
+      ],
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
@@ -29948,6 +30155,47 @@
       "teams": [
         "t_a92ad0ff",
         "t_52cc67ef"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": "17:00",
+      "homeTeam": "t_bf5dd73e",
+      "awayTeam": "t_0b32d25f",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Penne",
+        "country": "Italy"
+      },
+      "tournament": "Memorial Di Flavio",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/maxima-roma-domina-juvecaserta-118-78-e-raggiunge-la-finale-a-penne/",
+          "published": "Fri, 04 Sep 2026 21:10:49 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 04 Sep 2026 21:10:49 +0000",
+      "id": "g_911fb8ada9",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_bf5dd73e",
+        "t_0b32d25f"
       ],
       "confidence": 1
     }
