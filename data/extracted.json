@@ -1241,55 +1241,158 @@
       "title": "לוח משחקים — הפועל תל אביב",
       "outlet": "club:t_2a1ac857",
       "published": null,
-      "readAt": "2026-09-17T17:56:04.243Z",
+      "readAt": "2026-09-18T05:09:43.008Z",
       "model": "gemini-flash-lite-latest",
-      "games": [
-        {
-          "articleIndex": 1,
-          "date": "2026-09-17",
-          "dateText": "17.09.26",
-          "teams": [
-            "הפועל IBI תל אביב",
-            "מכבי Rapyd תל אביב"
-          ],
-          "isOfficialLeagueGame": false,
-          "arena": "היכל מנורה מבטחים",
-          "homeTeam": "הפועל IBI תל אביב",
-          "matchup": "הפועל IBI תל אביב VS מכבי Rapyd תל אביב",
-          "opponentUndecided": false,
-          "played": false,
-          "time": "20:55",
-          "tournament": "סופר קאפ",
-          "awayTeam": "מכבי Rapyd תל אביב",
-          "homeScore": null,
-          "awayScore": null
-        }
-      ]
+      "games": []
     },
     "http://www.hapoel.co.il/raspored": {
       "ok": true,
       "title": "לוח משחקים — הפועל ירושלים מידטאון",
       "outlet": "club:t_e5b49b07",
       "published": null,
-      "readAt": "2026-09-17T17:52:59.824Z",
+      "readAt": "2026-09-18T05:08:55.019Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 1,
+          "date": "2026-09-13",
+          "dateText": "13/09/2026",
+          "teams": [
+            "הפועל ירושלים"
+          ],
+          "isOfficialLeagueGame": false,
+          "played": true,
+          "score": "104:95",
+          "statsUrl": "http://www.hapoel.co.il/game-zone.asp?GameId=11066&cYear=2027&gt=1005",
+          "time": "19:30",
+          "tournament": "משחקי הכנה",
+          "homeScore": 104,
+          "awayScore": 95
+        },
+        {
+          "articleIndex": 1,
+          "date": "2026-09-18",
+          "dateText": "18/09/2026",
+          "teams": [
+            "הפועל ירושלים"
+          ],
+          "isOfficialLeagueGame": false,
+          "opponentUndecided": true,
+          "played": false,
+          "statsUrl": "http://www.hapoel.co.il/game-zone.asp?GameId=26644&cYear=2027&gt=10",
+          "time": "14:30",
+          "tournament": "גביע ווינר סל",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
     },
     "http://www.basketball-ulm.com/en/games": {
       "ok": true,
       "title": "לוח משחקים — רציופארם אולם",
       "outlet": "club:t_66371643",
       "published": null,
-      "readAt": "2026-09-17T17:52:59.824Z",
+      "readAt": "2026-09-18T05:08:55.020Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 3,
+          "date": "2026-10-17",
+          "dateText": "17.10.2026",
+          "teams": [
+            "ratiopharm ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "opponentUndecided": true,
+          "played": false,
+          "time": "20:00",
+          "tournament": "BBL Pokal",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 3,
+          "date": "2026-09-11",
+          "dateText": "Fr, 11.09.2026",
+          "teams": [
+            "BMA365 Bamberg Baskets",
+            "ratiopharm ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "BMA365 Bamberg Baskets v ratiopharm ulm",
+          "played": true,
+          "score": "109:100",
+          "homeTeam": "BMA365 Bamberg Baskets",
+          "awayTeam": "ratiopharm ulm",
+          "homeScore": 109,
+          "awayScore": 100
+        },
+        {
+          "articleIndex": 3,
+          "date": "2026-09-09",
+          "dateText": "Mi, 09.09.2026",
+          "teams": [
+            "ratiopharm ulm",
+            "BC Roma"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "ratiopharm ulm v BC Roma",
+          "played": false,
+          "homeTeam": "ratiopharm ulm",
+          "awayTeam": "BC Roma",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 3,
+          "date": "2026-09-06",
+          "dateText": "So, 06.09.2026",
+          "teams": [
+            "Asisa Joventut Badalona",
+            "ratiopharm ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Asisa Joventut Badalona v ratiopharm ulm",
+          "played": false,
+          "homeTeam": "Asisa Joventut Badalona",
+          "awayTeam": "ratiopharm ulm",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 3,
+          "date": "2026-09-04",
+          "dateText": "Fr, 04.09.2026",
+          "teams": [
+            "ratiopharm ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "opponentUndecided": true,
+          "played": false,
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 3,
+          "date": "2026-08-29",
+          "dateText": "Sa, 29.08.2026",
+          "teams": [
+            "ratiopharm ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "opponentUndecided": true,
+          "played": false,
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
     },
     "http://www.kkpartizan.rs/games": {
       "ok": true,
       "title": "לוח משחקים — פרטיזן בלגרד",
       "outlet": "club:t_1497d847",
       "published": null,
-      "readAt": "2026-09-17T17:54:59.876Z",
+      "readAt": "2026-09-18T05:09:35.164Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -1316,7 +1419,7 @@
       "title": "לוח משחקים — בלקן בוטבגרד",
       "outlet": "club:t_d896c80a",
       "published": null,
-      "readAt": "2026-09-17T17:56:36.781Z",
+      "readAt": "2026-09-18T05:10:08.845Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -1325,7 +1428,7 @@
       "title": "לוח משחקים — אקווילה טרנטו",
       "outlet": "club:t_cce353da",
       "published": null,
-      "readAt": "2026-09-17T17:57:34.530Z",
+      "readAt": "2026-09-18T05:10:57.524Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -1334,7 +1437,7 @@
       "title": "לוח משחקים — ליאتكבליס פוניבז'",
       "outlet": "club:t_35818653",
       "published": null,
-      "readAt": "2026-09-17T17:56:36.781Z",
+      "readAt": "2026-09-18T05:10:57.524Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -1942,7 +2045,7 @@
       "title": "לוח משחקים — ברצלונה",
       "outlet": "club:t_1d8e80ce",
       "published": null,
-      "readAt": "2026-09-17T17:54:59.876Z",
+      "readAt": "2026-09-18T05:09:35.164Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -1951,11 +2054,11 @@
       "title": "לוח משחקים — וירטוס בולוניה",
       "outlet": "club:t_486860fc",
       "published": null,
-      "readAt": "2026-09-17T17:51:38.589Z",
+      "readAt": "2026-09-18T05:08:04.986Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 2,
+          "articleIndex": 3,
           "date": "2026-09-19",
           "dateText": "19 Set 2026",
           "teams": [
@@ -1963,6 +2066,7 @@
             "Virtus Bologna"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "Unipol Forum",
           "awayTeam": "Virtus Bologna",
           "homeTeam": "Armani Olimpia Milano",
           "isNationalTeam": false,
@@ -1976,20 +2080,21 @@
           "awayScore": null
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 3,
           "date": "2026-09-03",
           "dateText": "giovedì 3 settembre",
           "teams": [
-            "Rinascita Basket Rimini",
-            "Virtus Bologna"
+            "Virtus Bologna",
+            "Rinascita Basket Rimini"
           ],
           "isOfficialLeagueGame": false,
           "arena": "Pala Flaminio di Rimini",
-          "awayTeam": "Virtus Bologna",
-          "homeTeam": "Rinascita Basket Rimini",
+          "awayTeam": "Rinascita Basket Rimini",
+          "city": "Rimini",
+          "homeTeam": "Virtus Bologna",
           "isNationalTeam": false,
           "isNbaOnly": false,
-          "matchup": "Rinascita Basket Rimini v Virtus Bologna",
+          "matchup": "Virtus Bologna v Rinascita Basket Rimini",
           "opponentUndecided": false,
           "played": false,
           "time": "20:30",
@@ -1998,20 +2103,21 @@
           "awayScore": null
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 3,
           "date": "2026-09-09",
           "dateText": "mercoledì 9 settembre",
           "teams": [
-            "Derthona Basket",
-            "Virtus Bologna"
+            "Virtus Bologna",
+            "Derthona Basket"
           ],
           "isOfficialLeagueGame": false,
           "arena": "PalaCiti di Parma",
-          "awayTeam": "Virtus Bologna",
-          "homeTeam": "Derthona Basket",
+          "awayTeam": "Derthona Basket",
+          "city": "Parma",
+          "homeTeam": "Virtus Bologna",
           "isNationalTeam": false,
           "isNbaOnly": false,
-          "matchup": "Derthona Basket v Virtus Bologna",
+          "matchup": "Virtus Bologna v Derthona Basket",
           "opponentUndecided": false,
           "played": false,
           "time": "20:00",
@@ -2020,7 +2126,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 3,
           "date": "2026-09-11",
           "dateText": "venerdì 11 settembre",
           "teams": [
@@ -2029,11 +2135,12 @@
           ],
           "isOfficialLeagueGame": false,
           "arena": "PalaMegabox di Pesaro",
-          "awayTeam": "Virtus Bologna",
-          "homeTeam": "Victoria Libertas Pesaro",
+          "awayTeam": "Victoria Libertas Pesaro",
+          "city": "Pesaro",
+          "homeTeam": "Virtus Bologna",
           "isNationalTeam": false,
           "isNbaOnly": false,
-          "matchup": "Victoria Libertas Pesaro v Virtus Bologna",
+          "matchup": "Virtus Bologna v Victoria Libertas Pesaro",
           "opponentUndecided": false,
           "played": false,
           "time": "20:00",
@@ -2042,7 +2149,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 3,
           "date": "2026-09-16",
           "dateText": "mercoledì 16 settembre",
           "teams": [
@@ -2070,11 +2177,11 @@
       "title": "לוח משחקים — אריס סלוניקי",
       "outlet": "club:t_914d2962",
       "published": null,
-      "readAt": "2026-09-17T17:51:38.589Z",
+      "readAt": "2026-09-18T05:08:04.987Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-08-31",
           "dateText": "31/08/26",
           "teams": [
@@ -2096,7 +2203,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-06",
           "dateText": "06/09/26",
           "teams": [
@@ -2118,7 +2225,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-11",
           "dateText": "11/09/26",
           "teams": [
@@ -2129,6 +2236,7 @@
           "arena": "Tassos Papadopoulos Indoor Arena",
           "awayTeam": "Maccabi Tel Aviv",
           "city": "Nicosia",
+          "country": "Cyprus",
           "homeTeam": "ARIS",
           "isNationalTeam": false,
           "isNbaOnly": false,
@@ -2136,12 +2244,12 @@
           "opponentUndecided": false,
           "played": false,
           "time": "18:00",
-          "tournament": "Neofytos Chandriotis Tournament",
+          "tournament": "Neofytos Chandriotis",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-13",
           "dateText": "13/09/26",
           "teams": [
@@ -2152,6 +2260,7 @@
           "arena": "Tassos Papadopoulos Indoor Arena",
           "awayTeam": "Crvena Zvezda",
           "city": "Nicosia",
+          "country": "Cyprus",
           "homeTeam": "ARIS",
           "isNationalTeam": false,
           "isNbaOnly": false,
@@ -2159,12 +2268,12 @@
           "opponentUndecided": false,
           "played": false,
           "time": "15:45",
-          "tournament": "Neofytos Chandriotis Tournament",
+          "tournament": "Neofytos Chandriotis",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-18",
           "dateText": "18/09/26",
           "teams": [
@@ -2185,7 +2294,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-20",
           "dateText": "20/09/26",
           "teams": [
@@ -2201,12 +2310,12 @@
           "matchup": "Iraklis – ARIS",
           "opponentUndecided": false,
           "played": false,
-          "tournament": "Mavroskoufia Tournament",
+          "tournament": "Mavroskoufia",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 4,
           "date": "2026-09-22",
           "dateText": "22/09/26",
           "teams": [
@@ -2222,7 +2331,7 @@
           "matchup": "Bahcesehir – ARIS",
           "opponentUndecided": false,
           "played": false,
-          "tournament": "Mavroskoufia Tournament",
+          "tournament": "Mavroskoufia",
           "homeScore": null,
           "awayScore": null
         }
@@ -2233,7 +2342,7 @@
       "title": "לוח משחקים — דרתונה טורטונה",
       "outlet": "club:t_7cd10ddf",
       "published": null,
-      "readAt": "2026-09-17T17:51:38.590Z",
+      "readAt": "2026-09-18T05:08:55.019Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2242,11 +2351,11 @@
       "title": "לוח משחקים — רייר ונציה",
       "outlet": "club:t_23e4ce5d",
       "published": null,
-      "readAt": "2026-09-17T17:52:59.824Z",
+      "readAt": "2026-09-18T05:09:35.163Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 4,
+          "articleIndex": 0,
           "date": "2026-09-12",
           "dateText": "12 set 2026",
           "teams": [
@@ -2269,7 +2378,7 @@
           "opponentUndecided": false,
           "played": true,
           "reportUrl": "",
-          "score": "93 : 66",
+          "score": "93:66",
           "statsUrl": "",
           "time": "18:00",
           "tournament": "Preseason",
@@ -2277,7 +2386,7 @@
           "awayScore": 66
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 0,
           "date": "2026-09-10",
           "dateText": "10 set 2026",
           "teams": [
@@ -2300,7 +2409,7 @@
           "opponentUndecided": false,
           "played": true,
           "reportUrl": "",
-          "score": "87 : 81",
+          "score": "87:81",
           "statsUrl": "",
           "time": "20:00",
           "tournament": "Preseason",
@@ -2308,7 +2417,7 @@
           "awayScore": 81
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 0,
           "date": "2026-09-05",
           "dateText": "05 set 2026",
           "teams": [
@@ -2331,7 +2440,7 @@
           "opponentUndecided": false,
           "played": true,
           "reportUrl": "",
-          "score": "95 : 83",
+          "score": "95:83",
           "statsUrl": "",
           "time": "20:00",
           "tournament": "Preseason",
@@ -2339,7 +2448,7 @@
           "awayScore": 83
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 0,
           "date": "2026-08-29",
           "dateText": "29 ago 2026",
           "teams": [
@@ -2362,7 +2471,7 @@
           "opponentUndecided": false,
           "played": true,
           "reportUrl": "",
-          "score": "83 : 78",
+          "score": "83:78",
           "statsUrl": "",
           "time": "17:00",
           "tournament": "Preseason",
@@ -2578,7 +2687,7 @@
       "title": "לוח משחקים — אנאדולו אפס",
       "outlet": "club:t_157b4fa8",
       "published": null,
-      "readAt": "2026-09-17T17:54:59.876Z",
+      "readAt": "2026-09-18T05:09:35.164Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2605,7 +2714,7 @@
       "title": "לוח משחקים — אולימפיאקוס",
       "outlet": "club:t_e3b7f23c",
       "published": null,
-      "readAt": "2026-09-17T17:56:04.243Z",
+      "readAt": "2026-09-18T05:09:43.008Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2614,7 +2723,7 @@
       "title": "לוח משחקים — לגונה טנריפה",
       "outlet": "club:t_bbaa773d",
       "published": null,
-      "readAt": "2026-09-17T17:56:36.781Z",
+      "readAt": "2026-09-18T05:10:57.524Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2632,7 +2741,7 @@
       "title": "לוח משחקים — רוסטוק סיבולבס",
       "outlet": "club:t_29615bc7",
       "published": null,
-      "readAt": "2026-09-17T17:57:34.529Z",
+      "readAt": "2026-09-18T05:10:57.524Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -2758,9 +2867,30 @@
       "title": "לוח משחקים — JL בורג",
       "outlet": "club:t_211b1542",
       "published": null,
-      "readAt": "2026-09-17T17:56:36.781Z",
+      "readAt": "2026-09-18T05:10:08.845Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 4,
+          "date": "2026-09-04",
+          "dateText": "Ven 04 Sept",
+          "teams": [
+            "Bourg-en-Bresse",
+            "Frribourg Olympic Basket"
+          ],
+          "isOfficialLeagueGame": false,
+          "awayTeam": "Frribourg Olympic Basket",
+          "homeTeam": "Bourg-en-Bresse",
+          "matchup": "Bourg-en-Bresse v Frribourg Olympic Basket",
+          "played": true,
+          "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/jl95817/bourg-en-Bresse-frribourg-olympic-basket-2026-09-04",
+          "score": "115:60",
+          "time": "",
+          "tournament": "",
+          "homeScore": 115,
+          "awayScore": 60
+        }
+      ]
     },
     "https://nitter.net/valenciabasket/status/2087098566795763985#m": {
       "ok": true,
@@ -3045,32 +3175,9 @@
       "title": "לוח משחקים — אולימפיה מילאנו",
       "outlet": "club:t_21cf4132",
       "published": null,
-      "readAt": "2026-09-17T17:54:59.876Z",
+      "readAt": "2026-09-18T05:09:43.008Z",
       "model": "gemini-flash-lite-latest",
-      "games": [
-        {
-          "articleIndex": 4,
-          "date": "2026-09-19",
-          "dateText": "19/09",
-          "teams": [
-            "EA7 Olimpia Milano",
-            "Pallacanestro Trieste"
-          ],
-          "isOfficialLeagueGame": false,
-          "arena": "Nova Arena",
-          "awayTeam": "Pallacanestro Trieste",
-          "homeTeam": "EA7 Olimpia Milano",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
-          "matchup": "EA7 Olimpia Milano v Pallacanestro Trieste",
-          "opponentUndecided": false,
-          "played": false,
-          "time": "19:45",
-          "tournament": "Supercoppa",
-          "homeScore": null,
-          "awayScore": null
-        }
-      ]
+      "games": []
     },
     "https://nitter.net/kkcrvenazvezda/status/2087182957417017783#m": {
       "ok": true,
@@ -8598,13 +8705,13 @@
       "title": "לוח משחקים — טופאש בורסה",
       "outlet": "club:t_e3680384",
       "published": null,
-      "readAt": "2026-09-17T17:54:59.876Z",
+      "readAt": "2026-09-18T05:09:35.163Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-08-22",
-          "dateText": "22-08-2026 18:00",
+          "dateText": "22-08-2026",
           "teams": [
             "TOFAŞ",
             "BİOTEKNO Körfez Basket"
@@ -8612,24 +8719,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Tofaş Spor Salonu",
           "awayTeam": "BİOTEKNO Körfez Basket",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
           "closedDoors": true,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v BİOTEKNO Körfez Basket",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "81:77",
           "statsUrl": "http://tofasspor.com/macdetay-692",
           "time": "18:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 81,
           "awayScore": 77
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-08-26",
-          "dateText": "26-08-2026 18:00",
+          "dateText": "26-08-2026",
           "teams": [
             "TOFAŞ",
             "Bursaspor Basketbol"
@@ -8637,24 +8750,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Tofaş Spor Salonu",
           "awayTeam": "Bursaspor Basketbol",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
           "closedDoors": true,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v Bursaspor Basketbol",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "87:78",
           "statsUrl": "http://tofasspor.com/macdetay-693",
           "time": "18:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 87,
           "awayScore": 78
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-08-29",
-          "dateText": "29-08-2026 18:00",
+          "dateText": "29-08-2026",
           "teams": [
             "Beşiktaş Basketbol",
             "TOFAŞ"
@@ -8662,23 +8781,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Basketbol Gelişim Merkezi",
           "awayTeam": "TOFAŞ",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "Beşiktaş Basketbol",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "Beşiktaş Basketbol v TOFAŞ",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "92:88",
           "statsUrl": "http://tofasspor.com/macdetay-694",
           "time": "18:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 92,
           "awayScore": 88
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-01",
-          "dateText": "01-09-2026 19:00",
+          "dateText": "01-09-2026",
           "teams": [
             "Fenerbahçe Tarfin",
             "TOFAŞ"
@@ -8686,23 +8812,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Ülker Spor ve Etkinlik Salonu",
           "awayTeam": "TOFAŞ",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "Fenerbahçe Tarfin",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "Fenerbahçe Tarfin v TOFAŞ",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "83:78",
           "statsUrl": "http://tofasspor.com/macdetay-695",
           "time": "19:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 83,
           "awayScore": 78
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-05",
-          "dateText": "05-09-2026 17:00",
+          "dateText": "05-09-2026",
           "teams": [
             "TOFAŞ",
             "Galatasaray MCT Technic"
@@ -8710,23 +8843,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Gloria Sports Arena",
           "awayTeam": "Galatasaray MCT Technic",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v Galatasaray MCT Technic",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "81:60",
           "statsUrl": "http://tofasspor.com/macdetay-696",
           "time": "17:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 81,
           "awayScore": 60
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-06",
-          "dateText": "06-09-2026 17:00",
+          "dateText": "06-09-2026",
           "teams": [
             "Lokomotiv Kuban",
             "TOFAŞ"
@@ -8734,23 +8874,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Gloria Sports Arena",
           "awayTeam": "TOFAŞ",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "Lokomotiv Kuban",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "Lokomotiv Kuban v TOFAŞ",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "113:112",
           "statsUrl": "http://tofasspor.com/macdetay-697",
           "time": "17:00",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 113,
           "awayScore": 112
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-09",
-          "dateText": "09-09-2026 14:45",
+          "dateText": "09-09-2026",
           "teams": [
             "TOFAŞ",
             "U-BT Cluj-Napoca"
@@ -8758,23 +8905,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Gloria Sports Arena",
           "awayTeam": "U-BT Cluj-Napoca",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v U-BT Cluj-Napoca",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "93:94",
           "statsUrl": "http://tofasspor.com/macdetay-698",
           "time": "14:45",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 93,
           "awayScore": 94
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "12-09-2026 14:45",
+          "dateText": "12-09-2026",
           "teams": [
             "TOFAŞ",
             "CSKA Moskova"
@@ -8782,23 +8936,30 @@
           "isOfficialLeagueGame": false,
           "arena": "Gloria Sports Arena",
           "awayTeam": "CSKA Moskova",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v CSKA Moskova",
           "opponentUndecided": false,
           "played": true,
+          "reportUrl": "",
           "score": "102:91",
           "statsUrl": "http://tofasspor.com/macdetay-699",
           "time": "14:45",
-          "tournament": "",
+          "tournament": "HAZIRLIK",
           "homeScore": 102,
           "awayScore": 91
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 1,
           "date": "2026-09-18",
-          "dateText": "18-09-2026 19:00",
+          "dateText": "18-09-2026",
           "teams": [
             "TOFAŞ",
             "Bursaspor Basketbol"
@@ -8806,35 +8967,53 @@
           "isOfficialLeagueGame": false,
           "arena": "Tofaş Spor Salonu",
           "awayTeam": "Bursaspor Basketbol",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
           "matchup": "TOFAŞ v Bursaspor Basketbol",
           "opponentUndecided": false,
           "played": false,
+          "reportUrl": "",
+          "score": "",
+          "statsUrl": "",
           "time": "19:00",
-          "tournament": "Cevat Soydaş",
+          "tournament": "HAZIRLIK",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
-          "date": "2026-09-19",
-          "dateText": "19-09-2026 00:00",
+          "articleIndex": 1,
+          "date": "",
+          "dateText": "19-09-2026",
           "teams": [
             "TOFAŞ"
           ],
           "isOfficialLeagueGame": false,
           "arena": "Tofaş Spor Salonu",
           "awayTeam": "",
+          "broadcastUrl": "",
+          "broadcaster": "",
+          "city": "",
+          "closedDoors": false,
+          "country": "",
+          "highlightsUrl": "",
           "homeTeam": "TOFAŞ",
           "isNationalTeam": false,
           "isNbaOnly": false,
-          "matchup": "TOFAŞ",
+          "matchup": "TOFAŞ v",
           "opponentUndecided": true,
           "played": false,
+          "reportUrl": "",
+          "score": "",
+          "statsUrl": "",
           "time": "",
-          "tournament": "26. Cevat Soydaş Final Günü",
+          "tournament": "HAZIRLIK",
           "homeScore": null,
           "awayScore": null
         }
@@ -8845,7 +9024,7 @@
       "title": "לוח משחקים — בהצ'שהיר",
       "outlet": "club:t_5935737f",
       "published": null,
-      "readAt": "2026-09-17T17:56:04.244Z",
+      "readAt": "2026-09-18T05:10:08.845Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -8876,51 +9055,9 @@
       "title": "לוח משחקים — ולנסיה בסקט",
       "outlet": "club:t_763dcde9",
       "published": null,
-      "readAt": "2026-09-17T17:51:38.589Z",
+      "readAt": "2026-09-18T05:09:43.008Z",
       "model": "gemini-flash-lite-latest",
-      "games": [
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "19 sep.",
-          "teams": [
-            "Valencia Basket",
-            "FC Barcelona"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "FC Barcelona",
-          "homeTeam": "Valencia Basket",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
-          "matchup": "Valencia Basket v FC Barcelona",
-          "opponentUndecided": false,
-          "played": false,
-          "time": "21:00",
-          "tournament": "Supercopa Endesa",
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-20",
-          "dateText": "20 sep.",
-          "teams": [
-            "Valencia Basket"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Valencia Basket",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
-          "matchup": "Valencia Basket v En caso de clasificación",
-          "opponentUndecided": true,
-          "played": false,
-          "time": "19:00",
-          "tournament": "Supercopa Endesa",
-          "homeScore": null,
-          "awayScore": null
-        }
-      ]
+      "games": []
     },
     "https://nitter.net/KKBuducnostVOLI/status/2062465399048856046#m": {
       "ok": true,
@@ -10151,7 +10288,7 @@
       "title": "Italian preseason for all 16 clubs. Body is client-rendered — needs the browser layer.",
       "outlet": "league:lba",
       "published": null,
-      "readAt": "2026-09-17T05:16:10.804Z",
+      "readAt": "2026-09-18T05:08:04.986Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -12581,1987 +12718,9 @@
       "title": "לוח קדם עונה — אדריאטית (ABA)",
       "outlet": "league:aba",
       "published": null,
-      "readAt": "2026-09-17T22:23:18.306Z",
+      "readAt": "2026-09-18T05:07:52.893Z",
       "model": "gemini-flash-lite-latest",
-      "games": [
-        {
-          "articleIndex": 1,
-          "date": "2026-08-08",
-          "dateText": "Saturday, 08.08.2026",
-          "teams": [
-            "Mega Superbet",
-            "Auburn University"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Auburn University",
-          "homeTeam": "Mega Superbet",
-          "matchup": "Mega Superbet : Auburn University",
-          "played": true,
-          "score": "71:92",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1014/26/mega-superbet-auburn-university/",
-          "homeScore": 71,
-          "awayScore": 92
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-09",
-          "dateText": "Sunday, 09.08.2026",
-          "teams": [
-            "Mega Superbet",
-            "Auburn University"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Auburn University",
-          "homeTeam": "Mega Superbet",
-          "matchup": "Mega Superbet : Auburn University",
-          "played": true,
-          "score": "70:68",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1015/26/mega-superbet-auburn-university/",
-          "homeScore": 70,
-          "awayScore": 68
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-18",
-          "dateText": "Tuesday, 18.08.2026",
-          "teams": [
-            "FMP",
-            "Dynamic VIP PAY"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Dynamic VIP PAY",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Dynamic VIP PAY",
-          "played": true,
-          "score": "85:67",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1031/26/fmp-dynamic-vip-pay/",
-          "homeScore": 85,
-          "awayScore": 67
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-20",
-          "dateText": "Thursday, 20.08.2026",
-          "teams": [
-            "Igokea m:tel",
-            "Vienna"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Vienna",
-          "homeTeam": "Igokea m:tel",
-          "matchup": "Igokea m:tel : Vienna",
-          "played": true,
-          "score": "99:98",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1026/26/igokea-m-tel-vienna/",
-          "time": "18:00",
-          "homeScore": 99,
-          "awayScore": 98
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-20",
-          "dateText": "Thursday, 20.08.2026",
-          "teams": [
-            "Mega Superbet",
-            "Vršac Meridianbet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Vršac Meridianbet",
-          "homeTeam": "Mega Superbet",
-          "matchup": "Mega Superbet : Vršac Meridianbet",
-          "played": true,
-          "score": "95:47",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1085/26/mega-superbet-vrsac-meridianbet/",
-          "time": "20:00",
-          "homeScore": 95,
-          "awayScore": 47
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-21",
-          "dateText": "Friday, 21.08.2026",
-          "teams": [
-            "Spartak Office Shoes",
-            "Napoli Basket"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Napoli Basket",
-          "homeTeam": "Spartak Office Shoes",
-          "matchup": "Spartak Office Shoes : Napoli Basket",
-          "played": true,
-          "score": "66:70",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1035/26/spartak-office-shoes-napoli-basket/",
-          "time": "17:00",
-          "homeScore": 66,
-          "awayScore": 70
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-22",
-          "dateText": "Saturday, 22.08.2026",
-          "teams": [
-            "FMP",
-            "Gajdobra"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Gajdobra",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Gajdobra",
-          "played": true,
-          "score": "67:57",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1032/26/fmp-gajdobra/",
-          "homeScore": 67,
-          "awayScore": 57
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-22",
-          "dateText": "Saturday, 22.08.2026",
-          "teams": [
-            "Krka",
-            "Hopsi"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Hopsi",
-          "homeTeam": "Krka",
-          "matchup": "Krka : Hopsi",
-          "played": true,
-          "score": "90:59",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1041/26/krka-hopsi/",
-          "homeScore": 90,
-          "awayScore": 59
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-23",
-          "dateText": "Sunday, 23.08.2026",
-          "teams": [
-            "USK Prague",
-            "Slovan Bratislava"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Slovan Bratislava",
-          "homeTeam": "USK Prague",
-          "matchup": "USK Prague : Slovan Bratislava",
-          "played": true,
-          "score": "74:85",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1098/26/usk-prague-slovan-bratislava/",
-          "homeScore": 74,
-          "awayScore": 85
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-24",
-          "dateText": "Monday, 24.08.2026",
-          "teams": [
-            "SC Derby",
-            "Peja"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Peja",
-          "homeTeam": "SC Derby",
-          "matchup": "SC Derby : Peja",
-          "played": true,
-          "score": "107:74",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1105/26/sc-derby-peja/",
-          "time": "19:00",
-          "homeScore": 107,
-          "awayScore": 74
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-25",
-          "dateText": "Tuesday, 25.08.2026",
-          "teams": [
-            "Igokea m:tel",
-            "Krka"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Krka",
-          "homeTeam": "Igokea m:tel",
-          "matchup": "Igokea m:tel : Krka",
-          "played": true,
-          "score": "95:65",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1042/26/igokea-m-tel-krka/",
-          "homeScore": 95,
-          "awayScore": 65
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-25",
-          "dateText": "Tuesday, 25.08.2026",
-          "teams": [
-            "Vienna",
-            "Zenit St.Petersburg"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zenit St.Petersburg",
-          "homeTeam": "Vienna",
-          "matchup": "Vienna : Zenit St.Petersburg",
-          "played": true,
-          "score": "79:79",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1027/26/vienna-zenit-st-petersburg/",
-          "time": "19:00",
-          "homeScore": 79,
-          "awayScore": 79
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-26",
-          "dateText": "Wednesday, 26.08.2026",
-          "teams": [
-            "Perspektiva Ilirija",
-            "Hopsi Polzela"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Hopsi Polzela",
-          "homeTeam": "Perspektiva Ilirija",
-          "matchup": "Perspektiva Ilirija : Hopsi Polzela",
-          "played": true,
-          "score": "85:74",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1061/26/perspektiva-ilirija-hopsi-polzela/",
-          "homeScore": 85,
-          "awayScore": 74
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "Mega Superbet",
-            "Michigan University"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Michigan University",
-          "homeTeam": "Mega Superbet",
-          "matchup": "Mega Superbet : Michigan University",
-          "played": true,
-          "score": "81:84",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1016/26/mega-superbet-michigan-university/",
-          "homeScore": 81,
-          "awayScore": 84
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "FMP",
-            "Zenit St.Petersburg"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zenit St.Petersburg",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Zenit St.Petersburg",
-          "played": true,
-          "score": "84:78",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1033/26/fmp-zenit-st-petersburg/",
-          "homeScore": 84,
-          "awayScore": 78
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "Krka",
-            "Bahcesehir Koleji"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bahcesehir Koleji",
-          "homeTeam": "Krka",
-          "matchup": "Krka : Bahcesehir Koleji",
-          "played": true,
-          "score": "69:87",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1043/26/krka-bahcesehir-koleji/",
-          "homeScore": 69,
-          "awayScore": 87
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "Napoli",
-            "Igokea m:tel"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Igokea m:tel",
-          "homeTeam": "Napoli",
-          "matchup": "Napoli : Igokea m:tel",
-          "played": true,
-          "score": "94:107",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1048/26/napoli-igokea-m-tel/",
-          "homeScore": 94,
-          "awayScore": 107
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "EWE Baskets Oldenburg",
-            "Borac Mozzart"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Borac Mozzart",
-          "homeTeam": "EWE Baskets Oldenburg",
-          "matchup": "EWE Baskets Oldenburg : Borac Mozzart",
-          "played": true,
-          "score": "76:76",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1090/26/ewe-baskets-oldenburg-borac-mozzart/",
-          "homeScore": 76,
-          "awayScore": 76
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-27",
-          "dateText": "Thursday, 27.08.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "ECE Triglav Kranj"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "ECE Triglav Kranj",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : ECE Triglav Kranj",
-          "played": true,
-          "score": "81:64",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1069/26/cedevita-olimpija-ece-triglav-kranj/",
-          "time": "18:00",
-          "homeScore": 81,
-          "awayScore": 64
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-28",
-          "dateText": "Friday, 28.08.2026",
-          "teams": [
-            "Vienna",
-            "Slovan Bratislava"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Slovan Bratislava",
-          "homeTeam": "Vienna",
-          "matchup": "Vienna : Slovan Bratislava",
-          "played": true,
-          "score": "81:91",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1028/26/vienna-slovan-bratislava/",
-          "time": "18:00",
-          "homeScore": 81,
-          "awayScore": 91
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-28",
-          "dateText": "Friday, 28.08.2026",
-          "teams": [
-            "Cibona",
-            "HKK Široki TT Kabeli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "HKK Široki TT Kabeli",
-          "homeTeam": "Cibona",
-          "matchup": "Cibona : HKK Široki TT Kabeli",
-          "played": true,
-          "score": "82:70",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1117/26/cibona-hkk-siroki-tt-kabeli/",
-          "time": "19:00",
-          "homeScore": 82,
-          "awayScore": 70
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-29",
-          "dateText": "Saturday, 29.08.2026",
-          "teams": [
-            "U-BT Cluj-Napoca",
-            "CS Vâlcea 1924 Râmnicu Vâlcea"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "CS Vâlcea 1924 Râmnicu Vâlcea",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "matchup": "U-BT Cluj-Napoca : CS Vâlcea 1924 Râmnicu Vâlcea",
-          "played": true,
-          "score": "89:82",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1019/26/u-bt-cluj-napoca-cs-v%C3%A2lcea-1924-r%C3%A2mnicu-v%C3%A2lcea/",
-          "homeScore": 89,
-          "awayScore": 82
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-29",
-          "dateText": "Saturday, 29.08.2026",
-          "teams": [
-            "Bahcesehir Koleji Istanbul",
-            "Igokea m:tel"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Igokea m:tel",
-          "homeTeam": "Bahcesehir Koleji Istanbul",
-          "matchup": "Bahcesehir Koleji Istanbul : Igokea m:tel",
-          "played": true,
-          "score": "79:93",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1049/26/bahcesehir-koleji-istanbul-igokea-m-tel/",
-          "homeScore": 79,
-          "awayScore": 93
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-29",
-          "dateText": "Saturday, 29.08.2026",
-          "teams": [
-            "Kansai Helios",
-            "Perspektiva Ilirija"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Perspektiva Ilirija",
-          "homeTeam": "Kansai Helios",
-          "matchup": "Kansai Helios : Perspektiva Ilirija",
-          "played": true,
-          "score": "72:74",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1062/26/kansai-helios-perspektiva-ilirija/",
-          "homeScore": 72,
-          "awayScore": 74
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-29",
-          "dateText": "Saturday, 29.08.2026",
-          "teams": [
-            "SC Derby",
-            "Sutjeska Elektroprivreda"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Sutjeska Elektroprivreda",
-          "homeTeam": "SC Derby",
-          "matchup": "SC Derby : Sutjeska Elektroprivreda",
-          "played": true,
-          "score": "88:83",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1111/26/sc-derby-sutjeska-elektroprivreda/",
-          "homeScore": 88,
-          "awayScore": 83
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-29",
-          "dateText": "Saturday, 29.08.2026",
-          "teams": [
-            "Zadar",
-            "Kvarner"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Kvarner",
-          "homeTeam": "Zadar",
-          "matchup": "Zadar : Kvarner",
-          "played": true,
-          "score": "113:85",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1115/26/zadar-kvarner/",
-          "homeScore": 113,
-          "awayScore": 85
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-30",
-          "dateText": "Sunday, 30.08.2026",
-          "teams": [
-            "CS Vâlcea 1924 Râmnicu Vâlcea",
-            "U-BT Cluj-Napoca"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "U-BT Cluj-Napoca",
-          "homeTeam": "CS Vâlcea 1924 Râmnicu Vâlcea",
-          "matchup": "CS Vâlcea 1924 Râmnicu Vâlcea : U-BT Cluj-Napoca",
-          "played": true,
-          "score": "96:93",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1020/26/cs-v%C3%A2lcea-1924-r%C3%A2mnicu-v%C3%A2lcea-u-bt-cluj-napoca/",
-          "time": "12:00",
-          "homeScore": 96,
-          "awayScore": 93
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-30",
-          "dateText": "Sunday, 30.08.2026",
-          "teams": [
-            "Dubrava",
-            "HKK Široki TT Kabeli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "HKK Široki TT Kabeli",
-          "homeTeam": "Dubrava",
-          "matchup": "Dubrava : HKK Široki TT Kabeli",
-          "played": true,
-          "score": "69:107",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1118/26/dubrava-hkk-siroki-tt-kabeli/",
-          "time": "16:00",
-          "homeScore": 69,
-          "awayScore": 107
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-30",
-          "dateText": "Sunday, 30.08.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "Bulls Basketball Kapfenberg"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bulls Basketball Kapfenberg",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : Bulls Basketball Kapfenberg",
-          "played": true,
-          "score": "100:70",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1070/26/cedevita-olimpija-bulls-basketball-kapfenberg/",
-          "time": "18:00",
-          "homeScore": 100,
-          "awayScore": 70
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-30",
-          "dateText": "Sunday, 30.08.2026",
-          "teams": [
-            "Zadar",
-            "Alkar"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Alkar",
-          "homeTeam": "Zadar",
-          "matchup": "Zadar : Alkar",
-          "played": true,
-          "score": "100:75",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1116/26/zadar-alkar/",
-          "time": "20:15",
-          "homeScore": 100,
-          "awayScore": 75
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-31",
-          "dateText": "Monday, 31.08.2026",
-          "teams": [
-            "Spartak Office Shoes",
-            "EWE Baskets Oldenburg"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "EWE Baskets Oldenburg",
-          "homeTeam": "Spartak Office Shoes",
-          "matchup": "Spartak Office Shoes : EWE Baskets Oldenburg",
-          "played": true,
-          "score": "81:73",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1036/26/spartak-office-shoes-ewe-baskets-oldenburg/",
-          "homeScore": 81,
-          "awayScore": 73
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-08-31",
-          "dateText": "Monday, 31.08.2026",
-          "teams": [
-            "Partizan Mozzart Bet",
-            "Zenit St.Petersburg"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zenit St.Petersburg",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : Zenit St.Petersburg",
-          "played": true,
-          "score": "83:71",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1054/26/partizan-mozzart-bet-zenit-st-petersburg/",
-          "homeScore": 83,
-          "awayScore": 71
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-01",
-          "dateText": "Tuesday, 01.09.2026",
-          "teams": [
-            "Rio Breogan",
-            "Mega Superbet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Mega Superbet",
-          "homeTeam": "Rio Breogan",
-          "matchup": "Rio Breogan : Mega Superbet",
-          "played": true,
-          "score": "99:90",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1017/26/rio-breogan-mega-superbet/",
-          "homeScore": 99,
-          "awayScore": 90
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-01",
-          "dateText": "Tuesday, 01.09.2026",
-          "teams": [
-            "Krka",
-            "Napoli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Napoli",
-          "homeTeam": "Krka",
-          "matchup": "Krka : Napoli",
-          "played": true,
-          "score": "65:104",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1044/26/krka-napoli/",
-          "homeScore": 65,
-          "awayScore": 104
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-01",
-          "dateText": "Tuesday, 01.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Mladost MaxBet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Mladost MaxBet",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Mladost MaxBet",
-          "played": true,
-          "score": "102:68",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1079/26/crvena-zvezda-meridianbet-mladost-maxbet/",
-          "homeScore": 102,
-          "awayScore": 68
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-01",
-          "dateText": "Tuesday, 01.09.2026",
-          "teams": [
-            "FMP",
-            "Vojvodina mts"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Vojvodina mts",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Vojvodina mts",
-          "played": true,
-          "score": "92:69",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1125/26/fmp-vojvodina-mts/",
-          "homeScore": 92,
-          "awayScore": 69
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-02",
-          "dateText": "Wednesday, 02.09.2026",
-          "teams": [
-            "Porto",
-            "Mega Superbet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Mega Superbet",
-          "homeTeam": "Porto",
-          "matchup": "Porto : Mega Superbet",
-          "played": true,
-          "score": "74:83",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1018/26/porto-mega-superbet/",
-          "homeScore": 74,
-          "awayScore": 83
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Vienna",
-            "Falco Szombathely"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Falco Szombathely",
-          "homeTeam": "Vienna",
-          "matchup": "Vienna : Falco Szombathely",
-          "played": true,
-          "score": "82:75",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1029/26/vienna-falco-szombathely/",
-          "homeScore": 82,
-          "awayScore": 75
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Borac Mozzart",
-            "SC Derby"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "SC Derby",
-          "homeTeam": "Borac Mozzart",
-          "matchup": "Borac Mozzart : SC Derby",
-          "played": true,
-          "score": "77:79",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1091/26/borac-mozzart-sc-derby/",
-          "homeScore": 77,
-          "awayScore": 79
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Slovan Bratislava",
-            "KVIS Pardubice"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "KVIS Pardubice",
-          "homeTeam": "Slovan Bratislava",
-          "matchup": "Slovan Bratislava : KVIS Pardubice",
-          "played": true,
-          "score": "97:74",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1099/26/slovan-bratislava-kvis-pardubice/",
-          "homeScore": 97,
-          "awayScore": 74
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Dubai Basketball",
-            "Turk Telekom"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Turk Telekom",
-          "homeTeam": "Dubai Basketball",
-          "matchup": "Dubai Basketball : Turk Telekom",
-          "played": true,
-          "score": "67:72",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1086/26/dubai-basketball-turk-telekom/",
-          "time": "18:15",
-          "homeScore": 67,
-          "awayScore": 72
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Olimpia Milano"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Olimpia Milano",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Olimpia Milano",
-          "played": true,
-          "score": "91:85",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1080/26/crvena-zvezda-meridianbet-olimpia-milano/",
-          "time": "18:30",
-          "homeScore": 91,
-          "awayScore": 85
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-04",
-          "dateText": "Friday, 04.09.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "Laško"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Laško",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : Laško",
-          "played": true,
-          "score": "90:45",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1071/26/cedevita-olimpija-lasko/",
-          "time": "19:30",
-          "homeScore": 90,
-          "awayScore": 45
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-05",
-          "dateText": "Saturday, 05.09.2026",
-          "teams": [
-            "Dinamo Zagreb",
-            "Krka"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Krka",
-          "homeTeam": "Dinamo Zagreb",
-          "matchup": "Dinamo Zagreb : Krka",
-          "played": true,
-          "score": "81:88",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1045/26/dinamo-zagreb-krka/",
-          "homeScore": 81,
-          "awayScore": 88
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-05",
-          "dateText": "Saturday, 05.09.2026",
-          "teams": [
-            "Partizan Mozzart Bet",
-            "Hapoel Tel Aviv"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Hapoel Tel Aviv",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : Hapoel Tel Aviv",
-          "played": true,
-          "score": "83:94",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1055/26/partizan-mozzart-bet-hapoel-tel-aviv/",
-          "homeScore": 83,
-          "awayScore": 94
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-05",
-          "dateText": "Saturday, 05.09.2026",
-          "teams": [
-            "Cibona",
-            "Perspektiva Ilirija"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Perspektiva Ilirija",
-          "homeTeam": "Cibona",
-          "matchup": "Cibona : Perspektiva Ilirija",
-          "played": true,
-          "score": "69:67",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1063/26/cibona-perspektiva-ilirija/",
-          "time": "19:00",
-          "homeScore": 69,
-          "awayScore": 67
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-05",
-          "dateText": "Saturday, 05.09.2026",
-          "teams": [
-            "Slovan Bratislava",
-            "Vienna"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Vienna",
-          "homeTeam": "Slovan Bratislava",
-          "matchup": "Slovan Bratislava : Vienna",
-          "played": true,
-          "score": "85:79",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1100/26/slovan-bratislava-vienna/",
-          "time": "19:00",
-          "homeScore": 85,
-          "awayScore": 79
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "SC Derby",
-            "Enisey"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Enisey",
-          "homeTeam": "SC Derby",
-          "matchup": "SC Derby : Enisey",
-          "played": true,
-          "score": "75:63",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1112/26/sc-derby-enisey/",
-          "homeScore": 75,
-          "awayScore": 63
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "CSM Oradea",
-            "Bosna BH Telecom"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bosna BH Telecom",
-          "homeTeam": "CSM Oradea",
-          "matchup": "CSM Oradea : Bosna BH Telecom",
-          "played": true,
-          "score": "86:64",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1126/26/csm-oradea-bosna-bh-telecom/",
-          "homeScore": 86,
-          "awayScore": 64
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "FMP",
-            "Hapoel Tel Aviv"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Hapoel Tel Aviv",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Hapoel Tel Aviv",
-          "played": true,
-          "score": "66:71",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1034/26/fmp-hapoel-tel-aviv/",
-          "time": "17:00",
-          "homeScore": 66,
-          "awayScore": 71
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "Budućnost VOLI"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Budućnost VOLI",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : Budućnost VOLI",
-          "played": true,
-          "score": "65:91",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1072/26/cedevita-olimpija-buducnost-voli/",
-          "time": "18:00",
-          "homeScore": 65,
-          "awayScore": 91
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "Dubai Basketball",
-            "Besiktas"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Besiktas",
-          "homeTeam": "Dubai Basketball",
-          "matchup": "Dubai Basketball : Besiktas",
-          "played": true,
-          "score": "83:71",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1087/26/dubai-basketball-besiktas/",
-          "time": "18:15",
-          "homeScore": 83,
-          "awayScore": 71
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-06",
-          "dateText": "Sunday, 06.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Olympiacos"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Olympiacos",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Olympiacos",
-          "played": true,
-          "score": "77:87",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1081/26/crvena-zvezda-meridianbet-olympiacos/",
-          "time": "19:30",
-          "homeScore": 77,
-          "awayScore": 87
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "Spartak Office Shoes",
-            "Szolnok"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Szolnok",
-          "homeTeam": "Spartak Office Shoes",
-          "matchup": "Spartak Office Shoes : Szolnok",
-          "played": true,
-          "score": "87:68",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1038/26/spartak-office-shoes-szolnok/",
-          "homeScore": 87,
-          "awayScore": 68
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "Krka",
-            "Pecs"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Pecs",
-          "homeTeam": "Krka",
-          "matchup": "Krka : Pecs",
-          "played": true,
-          "score": "94:57",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1046/26/krka-pecs/",
-          "homeScore": 94,
-          "awayScore": 57
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "Igokea m:tel",
-            "KK GGD Šenčur"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "KK GGD Šenčur",
-          "homeTeam": "Igokea m:tel",
-          "matchup": "Igokea m:tel : KK GGD Šenčur",
-          "played": true,
-          "score": "94:52",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1050/26/igokea-m-tel-kk-ggd-sencur/",
-          "homeScore": 94,
-          "awayScore": 52
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "Perspektiva Ilirija",
-            "Cibona"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Cibona",
-          "homeTeam": "Perspektiva Ilirija",
-          "matchup": "Perspektiva Ilirija : Cibona",
-          "played": true,
-          "score": "82:74",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1064/26/perspektiva-ilirija-cibona/",
-          "homeScore": 82,
-          "awayScore": 74
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "Sutjeska Elektroprivreda",
-            "Borac Mozzart"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Borac Mozzart",
-          "homeTeam": "Sutjeska Elektroprivreda",
-          "matchup": "Sutjeska Elektroprivreda : Borac Mozzart",
-          "played": true,
-          "score": "69:90",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1092/26/sutjeska-elektroprivreda-borac-mozzart/",
-          "homeScore": 69,
-          "awayScore": 90
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-08",
-          "dateText": "Tuesday, 08.09.2026",
-          "teams": [
-            "SC Derby",
-            "Enisey"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Enisey",
-          "homeTeam": "SC Derby",
-          "matchup": "SC Derby : Enisey",
-          "played": true,
-          "score": "76:78",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1113/26/sc-derby-enisey/",
-          "homeScore": 76,
-          "awayScore": 78
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-09",
-          "dateText": "Wednesday, 09.09.2026",
-          "teams": [
-            "U-BT Cluj-Napoca",
-            "Tofaș Bursa"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Tofaș Bursa",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "matchup": "U-BT Cluj-Napoca : Tofaș Bursa",
-          "played": true,
-          "score": "94:93",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1021/26/u-bt-cluj-napoca-tofa%C8%99-bursa/",
-          "homeScore": 94,
-          "awayScore": 93
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-09",
-          "dateText": "Wednesday, 09.09.2026",
-          "teams": [
-            "FMP",
-            "Mega Superbet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Mega Superbet",
-          "homeTeam": "FMP",
-          "matchup": "FMP : Mega Superbet",
-          "played": true,
-          "score": "89:76",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1093/26/fmp-mega-superbet/",
-          "homeScore": 89,
-          "awayScore": 76
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-09",
-          "dateText": "Wednesday, 09.09.2026",
-          "teams": [
-            "Basket Brno",
-            "Slovan Bratislava"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Slovan Bratislava",
-          "homeTeam": "Basket Brno",
-          "matchup": "Basket Brno : Slovan Bratislava",
-          "played": true,
-          "score": "82:91",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1101/26/basket-brno-slovan-bratislava/",
-          "homeScore": 82,
-          "awayScore": 91
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-09",
-          "dateText": "Wednesday, 09.09.2026",
-          "teams": [
-            "Budućnost VOLI",
-            "ECE Triglav Kranj"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "ECE Triglav Kranj",
-          "homeTeam": "Budućnost VOLI",
-          "matchup": "Budućnost VOLI : ECE Triglav Kranj",
-          "played": true,
-          "score": "80:58",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1106/26/buducnost-voli-ece-triglav-kranj/",
-          "homeScore": 80,
-          "awayScore": 58
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-09",
-          "dateText": "Wednesday, 09.09.2026",
-          "teams": [
-            "Dubai Basketball",
-            "Bahcesehir Koleji"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bahcesehir Koleji",
-          "homeTeam": "Dubai Basketball",
-          "matchup": "Dubai Basketball : Bahcesehir Koleji",
-          "played": true,
-          "score": "78:83",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1088/26/dubai-basketball-bahcesehir-koleji/",
-          "time": "18:15",
-          "homeScore": 78,
-          "awayScore": 83
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-10",
-          "dateText": "Thursday, 10.09.2026",
-          "teams": [
-            "APU Old Wild West Udine",
-            "Cedevita Olimpija"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Cedevita Olimpija",
-          "homeTeam": "APU Old Wild West Udine",
-          "matchup": "APU Old Wild West Udine : Cedevita Olimpija",
-          "played": true,
-          "score": "61:82",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1073/26/apu-old-wild-west-udine-cedevita-olimpija/",
-          "homeScore": 61,
-          "awayScore": 82
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-11",
-          "dateText": "Friday, 11.09.2026",
-          "teams": [
-            "Krka",
-            "Dinamo Zagreb"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Dinamo Zagreb",
-          "homeTeam": "Krka",
-          "matchup": "Krka : Dinamo Zagreb",
-          "played": true,
-          "score": "87:61",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1047/26/krka-dinamo-zagreb/",
-          "homeScore": 87,
-          "awayScore": 61
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-11",
-          "dateText": "Friday, 11.09.2026",
-          "teams": [
-            "Partizan Mozzart Bet",
-            "Partizan de Fuenlabrada"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Partizan de Fuenlabrada",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : Partizan de Fuenlabrada",
-          "played": true,
-          "score": "98:55",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1056/26/partizan-mozzart-bet-partizan-de-fuenlabrada/",
-          "homeScore": 98,
-          "awayScore": 55
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-11",
-          "dateText": "Friday, 11.09.2026",
-          "teams": [
-            "Anwil",
-            "HKK Široki TT Kabeli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "HKK Široki TT Kabeli",
-          "homeTeam": "Anwil",
-          "matchup": "Anwil : HKK Široki TT Kabeli",
-          "played": true,
-          "score": "60:69",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1119/26/anwil-hkk-siroki-tt-kabeli/",
-          "homeScore": 60,
-          "awayScore": 69
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-11",
-          "dateText": "Friday, 11.09.2026",
-          "teams": [
-            "Dubai Basketball",
-            "Anadolu Efes"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Anadolu Efes",
-          "homeTeam": "Dubai Basketball",
-          "matchup": "Dubai Basketball : Anadolu Efes",
-          "played": true,
-          "score": "79:75",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1089/26/dubai-basketball-anadolu-efes/",
-          "time": "17:00",
-          "homeScore": 79,
-          "awayScore": 75
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-11",
-          "dateText": "Friday, 11.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Olympiacos"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Olympiacos",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Olympiacos",
-          "played": true,
-          "score": "87:89",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1082/26/crvena-zvezda-meridianbet-olympiacos/",
-          "time": "21:00",
-          "homeScore": 87,
-          "awayScore": 89
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "U-BT Cluj-Napoca",
-            "Bahcesehir College Istanbul"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bahcesehir College Istanbul",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "matchup": "U-BT Cluj-Napoca : Bahcesehir College Istanbul",
-          "played": true,
-          "score": "76:85",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1022/26/u-bt-cluj-napoca-bahcesehir-college-istanbul/",
-          "homeScore": 76,
-          "awayScore": 85
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Perspektiva Ilirija",
-            "Zadar"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zadar",
-          "homeTeam": "Perspektiva Ilirija",
-          "matchup": "Perspektiva Ilirija : Zadar",
-          "played": true,
-          "score": "90:85",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1065/26/perspektiva-ilirija-zadar/",
-          "homeScore": 90,
-          "awayScore": 85
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Panathinaikos Aktor Athens",
-            "Spartak Office Shoes"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Spartak Office Shoes",
-          "homeTeam": "Panathinaikos Aktor Athens",
-          "matchup": "Panathinaikos Aktor Athens : Spartak Office Shoes",
-          "played": true,
-          "score": "77:59",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1076/26/panathinaikos-aktor-athens-spartak-office-shoes/",
-          "homeScore": 77,
-          "awayScore": 59
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Borac Mozzart",
-            "Iraklis"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Iraklis",
-          "homeTeam": "Borac Mozzart",
-          "matchup": "Borac Mozzart : Iraklis",
-          "played": true,
-          "score": "84:83",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1094/26/borac-mozzart-iraklis/",
-          "homeScore": 84,
-          "awayScore": 83
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Slovan Bratislava",
-            "Slavia Prague ERA NBK"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Slavia Prague ERA NBK",
-          "homeTeam": "Slovan Bratislava",
-          "matchup": "Slovan Bratislava : Slavia Prague ERA NBK",
-          "played": true,
-          "score": "78:76",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1102/26/slovan-bratislava-slavia-prague-era-nbk/",
-          "homeScore": 78,
-          "awayScore": 76
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Budućnost VOLI",
-            "SC Derby"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "SC Derby",
-          "homeTeam": "Budućnost VOLI",
-          "matchup": "Budućnost VOLI : SC Derby",
-          "played": true,
-          "score": "93:81",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1107/26/buducnost-voli-sc-derby/",
-          "homeScore": 93,
-          "awayScore": 81
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-12",
-          "dateText": "Saturday, 12.09.2026",
-          "teams": [
-            "Split",
-            "HKK Široki TT Kabeli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "HKK Široki TT Kabeli",
-          "homeTeam": "Split",
-          "matchup": "Split : HKK Široki TT Kabeli",
-          "played": true,
-          "score": "69:66",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1120/26/split-hkk-siroki-tt-kabeli/",
-          "homeScore": 69,
-          "awayScore": 66
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "Anadolu Efes Istanbul",
-            "U-BT Cluj-Napoca"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "U-BT Cluj-Napoca",
-          "homeTeam": "Anadolu Efes Istanbul",
-          "matchup": "Anadolu Efes Istanbul : U-BT Cluj-Napoca",
-          "played": true,
-          "score": "87:69",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1023/26/anadolu-efes-istanbul-u-bt-cluj-napoca/",
-          "homeScore": 87,
-          "awayScore": 69
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "Partizan Mozzart Bet",
-            "Besiktas"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Besiktas",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : Besiktas",
-          "played": true,
-          "score": "89:71",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1058/26/partizan-mozzart-bet-besiktas/",
-          "homeScore": 89,
-          "awayScore": 71
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "Valcea",
-            "Borac Mozzart"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Borac Mozzart",
-          "homeTeam": "Valcea",
-          "matchup": "Valcea : Borac Mozzart",
-          "played": true,
-          "score": "85:91",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1095/26/valcea-borac-mozzart/",
-          "homeScore": 85,
-          "awayScore": 91
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "SC Derby",
-            "Bosna BH Telecom"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Bosna BH Telecom",
-          "homeTeam": "SC Derby",
-          "matchup": "SC Derby : Bosna BH Telecom",
-          "played": true,
-          "score": "74:72",
-          "homeScore": 74,
-          "awayScore": 72
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "GGD Šenčur",
-            "Zadar"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zadar",
-          "homeTeam": "GGD Šenčur",
-          "matchup": "GGD Šenčur : Zadar",
-          "played": true,
-          "score": "81:92",
-          "homeScore": 81,
-          "awayScore": 92
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Aris Thessaloniki"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Aris Thessaloniki",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Aris Thessaloniki",
-          "played": true,
-          "score": "74:98",
-          "time": "15:45",
-          "homeScore": 74,
-          "awayScore": 98
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "AEK Athens",
-            "Spartak Office Shoes"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Spartak Office Shoes",
-          "homeTeam": "AEK Athens",
-          "matchup": "AEK Athens : Spartak Office Shoes",
-          "played": true,
-          "score": "82:82",
-          "time": "19:00",
-          "homeScore": 82,
-          "awayScore": 82
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-13",
-          "dateText": "Sunday, 13.09.2026",
-          "teams": [
-            "Budućnost VOLI",
-            "Turk Telekom"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Turk Telekom",
-          "homeTeam": "Budućnost VOLI",
-          "matchup": "Budućnost VOLI : Turk Telekom",
-          "played": true,
-          "score": "94:84",
-          "time": "20:00",
-          "homeScore": 94,
-          "awayScore": 84
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-14",
-          "dateText": "Monday, 14.09.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "Cibona"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Cibona",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : Cibona",
-          "played": true,
-          "score": "71:72",
-          "time": "18:00",
-          "homeScore": 71,
-          "awayScore": 72
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-16",
-          "dateText": "Wednesday, 16.09.2026",
-          "teams": [
-            "Kvarner",
-            "Perspektiva Ilirija"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Perspektiva Ilirija",
-          "homeTeam": "Kvarner",
-          "matchup": "Kvarner : Perspektiva Ilirija",
-          "played": true,
-          "score": "78:99",
-          "statsUrl": "https://www.aba-liga.com/match-preseason/1066/26/kvarner-perspektiva-ilirija/",
-          "homeScore": 78,
-          "awayScore": 99
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-16",
-          "dateText": "Wednesday, 16.09.2026",
-          "teams": [
-            "Falco Szombathely",
-            "Slovan Bratislava"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Slovan Bratislava",
-          "homeTeam": "Falco Szombathely",
-          "matchup": "Falco Szombathely : Slovan Bratislava",
-          "played": true,
-          "score": "92:88",
-          "homeScore": 92,
-          "awayScore": 88
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-16",
-          "dateText": "Wednesday, 16.09.2026",
-          "teams": [
-            "Zadar",
-            "HKK Široki TT Kabeli"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "HKK Široki TT Kabeli",
-          "homeTeam": "Zadar",
-          "matchup": "Zadar : HKK Široki TT Kabeli",
-          "played": true,
-          "score": "81:60",
-          "homeScore": 81,
-          "awayScore": 60
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-16",
-          "dateText": "Wednesday, 16.09.2026",
-          "teams": [
-            "Bosna BH Telecom",
-            "Timisoara"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Timisoara",
-          "homeTeam": "Bosna BH Telecom",
-          "matchup": "Bosna BH Telecom : Timisoara",
-          "played": true,
-          "score": "71:64",
-          "homeScore": 71,
-          "awayScore": 64
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-16",
-          "dateText": "Wednesday, 16.09.2026",
-          "teams": [
-            "OKK Kruševac",
-            "Mega Superbet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Mega Superbet",
-          "homeTeam": "OKK Kruševac",
-          "matchup": "OKK Kruševac : Mega Superbet",
-          "played": true,
-          "score": "74:100",
-          "homeScore": 74,
-          "awayScore": 100
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-17",
-          "dateText": "Thursday, 17.09.2026",
-          "teams": [
-            "CSKA",
-            "Igokea m:tel"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Igokea m:tel",
-          "homeTeam": "CSKA",
-          "matchup": "CSKA : Igokea m:tel",
-          "played": true,
-          "score": "92:81",
-          "homeScore": 92,
-          "awayScore": 81
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "U-BT Cluj-Napoca",
-            "AEK Athens"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "AEK Athens",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "matchup": "U-BT Cluj-Napoca : AEK Athens",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Partizan Mozzart Bet",
-            "PAOK"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "PAOK",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : PAOK",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Perspektiva Ilirija",
-            "Zadar"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Zadar",
-          "homeTeam": "Perspektiva Ilirija",
-          "matchup": "Perspektiva Ilirija : Zadar",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Crvena zvezda Meridianbet",
-            "Aris Thessaloniki"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Aris Thessaloniki",
-          "homeTeam": "Crvena zvezda Meridianbet",
-          "matchup": "Crvena zvezda Meridianbet : Aris Thessaloniki",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Borac Mozzart"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Borac Mozzart",
-          "matchup": "Borac Mozzart : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Slovan Bratislava",
-            "ALBA Fehervar"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "ALBA Fehervar",
-          "homeTeam": "Slovan Bratislava",
-          "matchup": "Slovan Bratislava : ALBA Fehervar",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Budućnost VOLI",
-            "SCM Timisoara"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "SCM Timisoara",
-          "homeTeam": "Budućnost VOLI",
-          "matchup": "Budućnost VOLI : SCM Timisoara",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "Bosna BH Telecom",
-            "Timisoara"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Timisoara",
-          "homeTeam": "Bosna BH Telecom",
-          "matchup": "Bosna BH Telecom : Timisoara",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-18",
-          "dateText": "Friday, 18.09.2026",
-          "teams": [
-            "HKK Široki TT Kabeli",
-            "Kvarner"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Kvarner",
-          "homeTeam": "HKK Široki TT Kabeli",
-          "matchup": "HKK Široki TT Kabeli : Kvarner",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "U-BT Cluj-Napoca",
-            "Peristeri Betsson B.C."
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Peristeri Betsson B.C.",
-          "homeTeam": "U-BT Cluj-Napoca",
-          "matchup": "U-BT Cluj-Napoca : Peristeri Betsson B.C.",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Lokomotiv Kuban",
-            "Igokea m:tel"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Igokea m:tel",
-          "homeTeam": "Lokomotiv Kuban",
-          "matchup": "Lokomotiv Kuban : Igokea m:tel",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Partizan Mozzart Bet"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Partizan Mozzart Bet",
-          "matchup": "Partizan Mozzart Bet : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Spartak Office Shoes",
-            "Atomeromu SE Paks"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Atomeromu SE Paks",
-          "homeTeam": "Spartak Office Shoes",
-          "matchup": "Spartak Office Shoes : Atomeromu SE Paks",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Borac Mozzart"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Borac Mozzart",
-          "matchup": "Borac Mozzart : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Budućnost VOLI"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Budućnost VOLI",
-          "matchup": "Budućnost VOLI : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-19",
-          "dateText": "Saturday, 19.09.2026",
-          "teams": [
-            "Bosna BH Telecom"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Bosna BH Telecom",
-          "matchup": "Bosna BH Telecom : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-20",
-          "dateText": "Sunday, 20.09.2026",
-          "teams": [
-            "Igokea m:tel"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "",
-          "homeTeam": "Igokea m:tel",
-          "matchup": "Igokea m:tel : TBA",
-          "opponentUndecided": true,
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-20",
-          "dateText": "Sunday, 20.09.2026",
-          "teams": [
-            "Cedevita Olimpija",
-            "Pallacanestro Trieste"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Pallacanestro Trieste",
-          "homeTeam": "Cedevita Olimpija",
-          "matchup": "Cedevita Olimpija : Pallacanestro Trieste",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        },
-        {
-          "articleIndex": 1,
-          "date": "2026-09-20",
-          "dateText": "Sunday, 20.09.2026",
-          "teams": [
-            "Bosna BH Telecom",
-            "Sloboda Energoinvest"
-          ],
-          "isOfficialLeagueGame": false,
-          "awayTeam": "Sloboda Energoinvest",
-          "homeTeam": "Bosna BH Telecom",
-          "matchup": "Bosna BH Telecom : Sloboda Energoinvest",
-          "played": false,
-          "homeScore": null,
-          "awayScore": null
-        }
-      ]
+      "games": []
     },
     "https://protathlima.cyprustimes.com/podosfairo/ethnikes-omades/ethniki-paidon-k-16-aftoi-klithikan-stis-protes-proponiseis/": {
       "ok": false,
@@ -14608,9 +12767,95 @@
       "title": "לוח משחקים — מנרסה",
       "outlet": "club:t_32fd0b6f",
       "published": null,
-      "readAt": "2026-09-17T17:52:59.824Z",
+      "readAt": "2026-09-18T05:08:55.019Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 2,
+          "date": "2026-09-18",
+          "dateText": "18 set.",
+          "teams": [
+            "Leyma Coruña",
+            "Manresa"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Leyma Coruña v Manresa",
+          "played": false,
+          "time": "19:00",
+          "homeTeam": "Leyma Coruña",
+          "awayTeam": "Manresa",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 2,
+          "date": "2026-09-26",
+          "dateText": "26 set.",
+          "teams": [
+            "Surne Bilbao",
+            "Manresa"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Surne Bilbao v Manresa",
+          "played": false,
+          "time": "18:00",
+          "homeTeam": "Surne Bilbao",
+          "awayTeam": "Manresa",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 2,
+          "date": "2026-09-30",
+          "dateText": "30 set.",
+          "teams": [
+            "PAOK Thessaloniki",
+            "Manresa"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "PAOK Thessaloniki v Manresa",
+          "played": false,
+          "time": "18:30",
+          "homeTeam": "PAOK Thessaloniki",
+          "awayTeam": "Manresa",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 2,
+          "date": "2026-10-03",
+          "dateText": "03 oct.",
+          "teams": [
+            "Manresa",
+            "Río Breogán"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Manresa v Río Breogán",
+          "played": false,
+          "time": "21:00",
+          "homeTeam": "Manresa",
+          "awayTeam": "Río Breogán",
+          "homeScore": null,
+          "awayScore": null
+        },
+        {
+          "articleIndex": 2,
+          "date": "2026-10-07",
+          "dateText": "07 oct.",
+          "teams": [
+            "Manresa",
+            "Ratiopharm Ulm"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Manresa v Ratiopharm Ulm",
+          "played": false,
+          "time": "20:30",
+          "homeTeam": "Manresa",
+          "awayTeam": "Ratiopharm Ulm",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
     },
     "https://sportando.basketball/fortitudo-bologna-nota-del-club/": {
       "ok": true,
@@ -30067,13 +28312,13 @@
       "title": "לוח קדם עונה — ליגה ספרדית (ACB)",
       "outlet": "league:acb",
       "published": null,
-      "readAt": "2026-09-17T22:23:18.306Z",
+      "readAt": "2026-09-18T05:07:52.893Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-16",
-          "dateText": "2026-09-16T20:30:00+02:00",
+          "dateText": "2026-09-16",
           "teams": [
             "Tizona Burgos",
             "Recoletas Salud SPB"
@@ -30087,14 +28332,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/recoletas-salud-san-pablo-burgos-se-proclama-campeon-de-la-copa-castilla-y-leon-146019",
           "score": "84:102",
+          "time": "20:30",
           "tournament": "Copa Castilla y León (Final)",
           "homeScore": 84,
           "awayScore": 102
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-15",
-          "dateText": "2026-09-15T19:30:00+02:00",
+          "dateText": "2026-09-15",
           "teams": [
             "UCAM Murcia",
             "MoraBanc Andorra"
@@ -30107,13 +28353,14 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/ucam-murcia-supera-al-morabanc-andorra-91-65-146011",
           "score": "91:65",
+          "time": "19:30",
           "homeScore": 91,
           "awayScore": 65
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-15",
-          "dateText": "2026-09-15T19:00:00+02:00",
+          "dateText": "2026-09-15",
           "teams": [
             "Kosner Baskonia",
             "Surne Bilbao"
@@ -30126,14 +28373,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/un-surne-bilbao-basket-mas-rodado-se-lleva-la-euskal-kopa-85-99-146009",
           "score": "85:99",
+          "time": "19:00",
           "tournament": "Euskal Kopa",
           "homeScore": 85,
           "awayScore": 99
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-13",
-          "dateText": "2026-09-13T18:30:00+02:00",
+          "dateText": "2026-09-13",
           "teams": [
             "Recoletas Salud SPB",
             "Leyma Coruña"
@@ -30147,14 +28395,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/recoletas-salud-spb-se-impone-al-leyma-coruna-en-la-prorroga-107-101-145997",
           "score": "107:101",
+          "time": "18:30",
           "tournament": "Trofeo Coliseum Burgos",
           "homeScore": 107,
           "awayScore": 101
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-13",
-          "dateText": "2026-09-13T12:00:00+02:00",
+          "dateText": "2026-09-13",
           "teams": [
             "iLERNA Lleida",
             "Barça"
@@ -30167,14 +28416,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-barca-gana-la-lliga-catalana-tras-remontar-al-ilerna-lleida-en-el-ultimo-cuarto-96-87-145995",
           "score": "87:96",
+          "time": "12:00",
           "tournament": "Final Lliga Catalana",
           "homeScore": 87,
           "awayScore": 96
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "2026-09-12T20:30:00+02:00",
+          "dateText": "2026-09-12",
           "teams": [
             "Casademont Zaragoza",
             "Pau Lacq-Orthez"
@@ -30187,13 +28437,14 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/casademont-zaragoza-sufre-una-ajustada-derrota-frente-al-pau-orthez-76-80-145989",
           "score": "76:80",
+          "time": "20:30",
           "homeScore": 76,
           "awayScore": 80
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "2026-09-12T20:30:00+02:00",
+          "dateText": "2026-09-12",
           "teams": [
             "Valencia Basket",
             "Kosner Baskonia"
@@ -30206,14 +28457,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/valencia-basket-campeon-del-torneo-encestarias-145990",
           "score": "93:91",
+          "time": "20:30",
           "tournament": "Final EncestaRías",
           "homeScore": 93,
           "awayScore": 91
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "2026-09-12T20:00:00+02:00",
+          "dateText": "2026-09-12",
           "teams": [
             "Unicaja",
             "Real Madrid"
@@ -30226,14 +28478,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol-74-113-145993",
           "score": "74:113",
+          "time": "19:00",
           "tournament": "XV Torneo Costa del Sol",
           "homeScore": 74,
           "awayScore": 113
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "2026-09-12T18:30:00+02:00",
+          "dateText": "2026-09-12",
           "teams": [
             "Surne Bilbao",
             "Leyma Coruña"
@@ -30247,14 +28500,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-surne-bilbao-remonta-y-se-hace-con-i-torneo-coliseum-de-burgos-90-96-145991",
           "score": "96:90",
+          "time": "18:30",
           "tournament": "Torneo Coliseum Burgos",
           "homeScore": 96,
           "awayScore": 90
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-12",
-          "dateText": "2026-09-12T18:00:00+02:00",
+          "dateText": "2026-09-12",
           "teams": [
             "Monbus Obradoiro",
             "ALBA Berlín"
@@ -30267,14 +28521,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-monbus-obradoiro-se-impone-con-contundencia-al-alba-berlin-105-86-145992",
           "score": "105:86",
+          "time": "18:00",
           "tournament": "3º/4º puesto EncestaRías",
           "homeScore": 105,
           "awayScore": 86
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T21:15:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "Monbus Obradoiro",
             "Valencia Basket"
@@ -30287,14 +28542,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-valencia-basket-gana-a-monbus-obradoiro-y-avanza-a-la-final-del-encestarias-145984",
           "score": "95:108",
+          "time": "21:15",
           "tournament": "Torneo EncestaRías",
           "homeScore": 95,
           "awayScore": 108
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T21:00:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "Kids&Us Manresa",
             "Barça"
@@ -30307,14 +28563,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-barca-se-mete-en-la-final-de-la-liga-catalana-tras-superar-a-kidsus-manresa-145986",
           "score": "77:90",
+          "time": "21:00",
           "tournament": "Lliga Catalana",
           "homeScore": 77,
           "awayScore": 90
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T20:30:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "Recoletas Salud SPB",
             "Surne Bilbao"
@@ -30328,20 +28585,20 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-surne-bilbao-basket-se-impone-al-recoletas-salud-sp-burgos-145983",
           "score": "72:79",
+          "time": "20:30",
           "tournament": "Torneo Coliseum Burgos",
           "homeScore": 72,
           "awayScore": 79
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T20:00:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "La Laguna Tenerife",
             "Real Madrid"
           ],
           "isOfficialLeagueGame": false,
-          "arena": "Pabellón Sergio Scariolo",
           "awayTeam": "Real Madrid",
           "city": "Marbella",
           "homeTeam": "La Laguna Tenerife",
@@ -30349,14 +28606,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/luwawu-cabarrot-guia-al-real-madrid-en-un-disputado-test-ante-la-laguna-tenerife-145982",
           "score": "90:97",
+          "time": "20:00",
           "tournament": "XV Torneo Costa del Sol",
           "homeScore": 90,
           "awayScore": 97
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T19:00:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "UCAM Murcia",
             "Boca Juniors"
@@ -30369,14 +28627,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-ucam-murcia-continua-evolucionando-en-la-pretemporada-145981",
           "score": "93:54",
+          "time": "19:00",
           "tournament": "Trofeo 25 Aniversario de la Red Deportiva Yecla",
           "homeScore": 93,
           "awayScore": 54
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T18:45:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "Kosner Baskonia",
             "Alba Berlín"
@@ -30388,14 +28647,15 @@
           "matchup": "Kosner Baskonia v Alba Berlín",
           "played": true,
           "score": "101:99",
+          "time": "18:45",
           "tournament": "Torneo EncestaRías",
           "homeScore": 101,
           "awayScore": 99
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-11",
-          "dateText": "2026-09-11T18:30:00+02:00",
+          "dateText": "2026-09-11",
           "teams": [
             "ASISA Joventut",
             "FIATC Girona"
@@ -30408,14 +28668,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-asisa-joventut-cierra-la-liga-catalana-con-triunfo-ante-el-fiatc-girona-145985",
           "score": "95:84",
+          "time": "18:30",
           "tournament": "Lliga Catalana",
           "homeScore": 95,
           "awayScore": 84
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-10",
-          "dateText": "2026-09-10T21:00:00+02:00",
+          "dateText": "2026-09-10",
           "teams": [
             "Barça",
             "Morabanc Andorra"
@@ -30428,14 +28689,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-barca-vence-al-morabanc-andorra-desde-el-perimetro-145973",
           "score": "88:84",
+          "time": "21:00",
           "tournament": "Lliga Catalana",
           "homeScore": 88,
           "awayScore": 84
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-10",
-          "dateText": "2026-09-10T20:00:00+02:00",
+          "dateText": "2026-09-10",
           "teams": [
             "Unicaja",
             "La Laguna Tenerife"
@@ -30448,14 +28710,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-unicaja-carbura-y-hernangomez-brilla-en-la-victoria-ante-la-laguna-tenerife-145974",
           "score": "80:76",
+          "time": "20:00",
           "tournament": "XV Torneo Costa del Sol",
           "homeScore": 80,
           "awayScore": 76
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-10",
-          "dateText": "2026-09-10T18:30:00+02:00",
+          "dateText": "2026-09-10",
           "teams": [
             "FIATC Girona",
             "iLERNA Lleida"
@@ -30468,14 +28731,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-ilerna-lleida-remonta-al-fiatc-girona-y-se-mete-en-la-final-de-la-liga-catalana-145972",
           "score": "88:98",
+          "time": "18:30",
           "tournament": "Lliga Catalana",
           "homeScore": 88,
           "awayScore": 98
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-09",
-          "dateText": "2026-09-09T21:00:00+02:00",
+          "dateText": "2026-09-09",
           "teams": [
             "Morabanc Andorra",
             "Kids&Us Manresa"
@@ -30488,14 +28752,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-kidsus-manresa-gana-al-morabanc-andorra-en-el-estreno-de-la-liga-catalana-145965",
           "score": "74:83",
+          "time": "21:00",
           "tournament": "Lliga Catalana",
           "homeScore": 74,
           "awayScore": 83
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-09",
-          "dateText": "2026-09-09T20:30:00+02:00",
+          "dateText": "2026-09-09",
           "teams": [
             "Río Breogán",
             "Boca Juniors"
@@ -30508,14 +28773,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-rio-breogan-tumba-al-boca-juniors-gracias-a-un-gran-inicio-del-tercer-cuarto-145966",
           "score": "116:82",
+          "time": "20:30",
           "tournament": "Lugo é Básket",
           "homeScore": 116,
           "awayScore": 82
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-09",
-          "dateText": "2026-09-09T19:00:00+02:00",
+          "dateText": "2026-09-09",
           "teams": [
             "Bueno Arenas Albacete Basket",
             "UCAM Murcia"
@@ -30528,14 +28794,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-ucam-murcia-arranca-la-pretemporada-con-buenas-sensaciones-ante-albacete-145963",
           "score": "65:108",
+          "time": "19:00",
           "tournament": "Torneo de la Feria",
           "homeScore": 65,
           "awayScore": 108
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-09",
-          "dateText": "2026-09-09T18:30:00+02:00",
+          "dateText": "2026-09-09",
           "teams": [
             "iLERNA Lleida",
             "ASISA Joventut"
@@ -30548,14 +28815,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/ilerna-lleida-se-impone-al-asisa-joventut-en-un-partido-muy-igualado-145964",
           "score": "89:84",
+          "time": "18:30",
           "tournament": "Lliga Catalana",
           "homeScore": 89,
           "awayScore": 84
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-07",
-          "dateText": "2026-09-07T20:00:00+02:00",
+          "dateText": "2026-09-07",
           "teams": [
             "Valencia Basket",
             "Casademont Zaragoza"
@@ -30568,13 +28836,14 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/el-nuevo-valencia-basket-de-xavi-albert-arranca-con-triunfo-ante-el-casademont-zaragoza-145928",
           "score": "88:81",
+          "time": "20:00",
           "homeScore": 88,
           "awayScore": 81
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-06",
-          "dateText": "2026-09-06T19:00:00+02:00",
+          "dateText": "2026-09-06",
           "teams": [
             "Leyma Coruña",
             "Río Breogán"
@@ -30587,14 +28856,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/leyma-coruna-vence-al-rio-breogan-y-conquista-la-copa-galicia-30-anos-despues-145921",
           "score": "102:93",
+          "time": "19:00",
           "tournament": "Copa Galicia",
           "homeScore": 102,
           "awayScore": 93
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-06",
-          "dateText": "2026-09-06T18:30:00+02:00",
+          "dateText": "2026-09-06",
           "teams": [
             "Kids&Us Manresa",
             "iLERNA Lleida"
@@ -30607,14 +28877,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/ilerna-lleida-derrota-a-kidsus-manresa-y-logra-su-segunda-victoria-en-pretemporada-145920",
           "score": "99:103",
+          "time": "18:30",
           "tournament": "Torneig de Bàsquet de Sant Julià de Vilatorta",
           "homeScore": 99,
           "awayScore": 103
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-06",
-          "dateText": "2026-09-06T13:00:00+02:00",
+          "dateText": "2026-09-06",
           "teams": [
             "Asisa Joventut",
             "Ratiopharm Ulm"
@@ -30627,14 +28898,15 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/asisa-joventut-estrena-el-casillero-de-victorias-esta-pretemporada-145919",
           "score": "72:66",
+          "time": "13:00",
           "tournament": "Torneig de Bàsquet de Sant Julià de Vilatorta",
           "homeScore": 72,
           "awayScore": 66
         },
         {
-          "articleIndex": 2,
+          "articleIndex": 1,
           "date": "2026-09-06",
-          "dateText": "2026-09-06T12:30:00+02:00",
+          "dateText": "2026-09-06",
           "teams": [
             "Grupo Alega Cantabria",
             "Surne Bilbao"
@@ -30647,6 +28919,7 @@
           "played": true,
           "reportUrl": "https://acb.com/es/liga/noticias/surne-bilbao-arranca-la-pretemporada-con-un-solido-triunfo-145918",
           "score": "81:103",
+          "time": "12:30",
           "tournament": "Laredo (Cantabria)",
           "homeScore": 81,
           "awayScore": 103
@@ -30658,11 +28931,11 @@
       "title": "לוח קדם עונה — VTB",
       "outlet": "league:vtb",
       "published": null,
-      "readAt": "2026-09-17T22:23:39.109Z",
+      "readAt": "2026-09-18T05:07:52.896Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-17",
           "dateText": "четверг 17.09",
           "teams": [
@@ -30670,21 +28943,20 @@
             "Зенит"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "Зенит",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "УНИКС",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "УНИКС v Зенит",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "17:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-17",
           "dateText": "четверг 17.09",
           "teams": [
@@ -30692,21 +28964,20 @@
             "Игокеа"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "Игокеа",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "ЦСКА",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "ЦСКА v Игокеа",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "20:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-18",
           "dateText": "пятница 18.09",
           "teams": [
@@ -30714,21 +28985,20 @@
             "Анадолу Эфес"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "Анадолу Эфес",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "Зенит",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Зенит v Анадолу Эфес",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "17:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-18",
           "dateText": "пятница 18.09",
           "teams": [
@@ -30736,21 +29006,20 @@
             "Локомотив-Кубань"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "Локомотив-Кубань",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "ЦСКА",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "ЦСКА v Локомотив-Кубань",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "20:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-19",
           "dateText": "суббота 19.09",
           "teams": [
@@ -30758,21 +29027,20 @@
             "УНИКС"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "УНИКС",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "Анадолу Эфес",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Анадолу Эфес v УНИКС",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "17:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-19",
           "dateText": "суббота 19.09",
           "teams": [
@@ -30780,21 +29048,20 @@
             "Игокеа"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "Игокеа",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "Локомотив-Кубань",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "Локомотив-Кубань v Игокеа",
-          "opponentUndecided": false,
           "played": false,
-          "score": "",
           "time": "20:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-20",
           "dateText": "воскресенье 20.09",
           "teams": [
@@ -30802,21 +29069,21 @@
             "3-е место в группе Б"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "3-е место в группе Б",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "3-е место в группе А",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "3-е место в группе А v 3-е место в группе Б",
-          "opponentUndecided": false,
+          "opponentUndecided": true,
           "played": false,
-          "score": "",
           "time": "13:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-20",
           "dateText": "воскресенье 20.09",
           "teams": [
@@ -30824,21 +29091,21 @@
             "2-е место в группе Б"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "2-е место в группе Б",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "2-е место в группе А",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "2-е место в группе А v 2-е место в группе Б",
-          "opponentUndecided": false,
+          "opponentUndecided": true,
           "played": false,
-          "score": "",
           "time": "16:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
           "awayScore": null
         },
         {
-          "articleIndex": 0,
+          "articleIndex": 4,
           "date": "2026-09-20",
           "dateText": "воскресенье 20.09",
           "teams": [
@@ -30846,14 +29113,14 @@
             "1-е место в группе Б"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "«ВТБ АРЕНА»",
           "awayTeam": "1-е место в группе Б",
+          "city": "Москва",
+          "country": "Россия",
           "homeTeam": "1-е место в группе А",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "1-е место в группе А v 1-е место в группе Б",
-          "opponentUndecided": false,
+          "opponentUndecided": true,
           "played": false,
-          "score": "",
           "time": "19:00",
           "tournament": "Суперкубок Единой лиги ВТБ",
           "homeScore": null,
@@ -31038,11 +29305,11 @@
       "title": "לוח קדם עונה — ליגה צרפתית (LNB)",
       "outlet": "league:lnb",
       "published": null,
-      "readAt": "2026-09-17T22:23:18.307Z",
+      "readAt": "2026-09-18T05:07:52.895Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-17",
           "dateText": "17/09",
           "teams": [
@@ -31062,7 +29329,7 @@
           "awayScore": 75
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-16",
           "dateText": "16/09",
           "teams": [
@@ -31082,7 +29349,7 @@
           "awayScore": 86
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-16",
           "dateText": "16/09",
           "teams": [
@@ -31102,7 +29369,7 @@
           "awayScore": 87
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-16",
           "dateText": "16/09",
           "teams": [
@@ -31122,7 +29389,7 @@
           "awayScore": 76
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31142,7 +29409,7 @@
           "awayScore": 78
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31162,7 +29429,7 @@
           "awayScore": 83
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31182,7 +29449,7 @@
           "awayScore": 84
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31202,7 +29469,7 @@
           "awayScore": 74
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31222,7 +29489,7 @@
           "awayScore": 81
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31242,7 +29509,7 @@
           "awayScore": 82
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-13",
           "dateText": "13/09",
           "teams": [
@@ -31262,7 +29529,7 @@
           "awayScore": 98
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31282,7 +29549,7 @@
           "awayScore": 80
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31302,7 +29569,7 @@
           "awayScore": 73
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31322,7 +29589,7 @@
           "awayScore": 81
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31342,7 +29609,7 @@
           "awayScore": 94
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31362,7 +29629,7 @@
           "awayScore": 81
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31382,7 +29649,7 @@
           "awayScore": 93
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31402,7 +29669,7 @@
           "awayScore": 94
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31422,7 +29689,7 @@
           "awayScore": 96
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31442,7 +29709,7 @@
           "awayScore": 90
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31462,7 +29729,7 @@
           "awayScore": 86
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12/09",
           "teams": [
@@ -31482,7 +29749,7 @@
           "awayScore": 87
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31502,7 +29769,7 @@
           "awayScore": 75
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31522,7 +29789,7 @@
           "awayScore": 88
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31542,7 +29809,7 @@
           "awayScore": 82
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31562,7 +29829,7 @@
           "awayScore": 81
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31582,7 +29849,7 @@
           "awayScore": 86
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31602,7 +29869,7 @@
           "awayScore": 71
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-11",
           "dateText": "11/09",
           "teams": [
@@ -31622,7 +29889,7 @@
           "awayScore": 80
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-10",
           "dateText": "10/09",
           "teams": [
@@ -31642,7 +29909,7 @@
           "awayScore": 83
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-09",
           "dateText": "09/09",
           "teams": [
@@ -31662,7 +29929,7 @@
           "awayScore": 87
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-09",
           "dateText": "09/09",
           "teams": [
@@ -31682,7 +29949,7 @@
           "awayScore": 75
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-09",
           "dateText": "09/09",
           "teams": [
@@ -31702,7 +29969,7 @@
           "awayScore": 82
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-08",
           "dateText": "08/09",
           "teams": [
@@ -31722,7 +29989,7 @@
           "awayScore": 93
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-07",
           "dateText": "07/09",
           "teams": [
@@ -31742,7 +30009,7 @@
           "awayScore": 83
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31762,7 +30029,7 @@
           "awayScore": 86
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31782,7 +30049,7 @@
           "awayScore": 85
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31802,7 +30069,7 @@
           "awayScore": 76
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31822,7 +30089,7 @@
           "awayScore": 109
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31842,7 +30109,7 @@
           "awayScore": 91
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31862,7 +30129,7 @@
           "awayScore": 91
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31882,7 +30149,7 @@
           "awayScore": 83
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31902,7 +30169,7 @@
           "awayScore": 60
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31922,7 +30189,7 @@
           "awayScore": 100
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-06",
           "dateText": "06/09",
           "teams": [
@@ -31942,7 +30209,7 @@
           "awayScore": 58
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-18",
           "dateText": "18/09",
           "teams": [
@@ -31950,6 +30217,7 @@
             "PAOK Salonique"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "Telekom Center Athens",
           "awayTeam": "PAOK Salonique",
           "city": "Athènes",
           "homeTeam": "Partizan Belgrad",
@@ -31960,7 +30228,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-18",
           "dateText": "18/09",
           "teams": [
@@ -31979,7 +30247,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-18",
           "dateText": "18/09",
           "teams": [
@@ -31998,7 +30266,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-18",
           "dateText": "18/09",
           "teams": [
@@ -32006,6 +30274,7 @@
             "Bourg-en-Bresse"
           ],
           "isOfficialLeagueGame": false,
+          "arena": "Telekom Center Athens",
           "awayTeam": "Bourg-en-Bresse",
           "city": "Athènes",
           "homeTeam": "Panathinaikos",
@@ -32016,7 +30285,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-18",
           "dateText": "18/09",
           "teams": [
@@ -32035,7 +30304,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32054,7 +30323,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32073,7 +30342,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32092,7 +30361,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32111,7 +30380,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32130,7 +30399,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32149,7 +30418,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32168,7 +30437,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 2,
           "date": "2026-09-19",
           "dateText": "19/09",
           "teams": [
@@ -32213,7 +30482,7 @@
       "title": "German preseason board. A padlet, so client-rendered — needs the browser layer.",
       "outlet": "league:bbl",
       "published": null,
-      "readAt": "2026-09-17T05:16:10.804Z",
+      "readAt": "2026-09-18T05:08:04.986Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -32731,11 +31000,11 @@
       "title": "לוח קדם עונה — ליגת העל (ישראל)",
       "outlet": "league:israel",
       "published": null,
-      "readAt": "2026-09-17T22:23:18.308Z",
+      "readAt": "2026-09-18T05:07:52.896Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-08-29",
           "dateText": "29/08/2026",
           "teams": [
@@ -32756,7 +31025,7 @@
           "awayScore": 101
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-08-31",
           "dateText": "31/08/2026",
           "teams": [
@@ -32776,7 +31045,7 @@
           "awayScore": 102
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-08-31",
           "dateText": "31/08/2026",
           "teams": [
@@ -32791,13 +31060,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=85580",
           "score": "70:75",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-08-31%20at%2020_56_52.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-08-31%20at%2020_56_52.jpeg",
           "time": "19:00",
           "homeScore": 70,
           "awayScore": 75
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-01",
           "dateText": "01/09/2026",
           "teams": [
@@ -32811,13 +31080,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=85583",
           "score": "71:75",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
           "time": "20:00",
           "homeScore": 71,
           "awayScore": 75
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-03",
           "dateText": "03/09/2026",
           "teams": [
@@ -32832,13 +31101,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=85587",
           "score": "86:84",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-03%20at%2019_16_10.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-03%20at%2019_16_10.jpeg",
           "time": "17:00",
           "homeScore": 86,
           "awayScore": 84
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-04",
           "dateText": "04/09/2026",
           "teams": [
@@ -32858,7 +31127,7 @@
           "awayScore": 103
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-04",
           "dateText": "04/09/2026",
           "teams": [
@@ -32878,7 +31147,7 @@
           "awayScore": 86
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-04",
           "dateText": "04/09/2026",
           "teams": [
@@ -32896,7 +31165,7 @@
           "awayScore": 82
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-05",
           "dateText": "05/09/2026",
           "teams": [
@@ -32910,13 +31179,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=85593",
           "score": "83:94",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-05%20at%2021_50_44.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-05%20at%2021_50_44.jpeg",
           "time": "20:00",
           "homeScore": 83,
           "awayScore": 94
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-06",
           "dateText": "06/09/2026",
           "teams": [
@@ -32930,13 +31199,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=85600",
           "score": "66:71",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%A9%D7%95%D7%A0%D7%95%D7%AA/WhatsApp%20Image%202026-09-07%20at%2000_16_07.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%A9%D7%95%D7%90%D7%95%D7%AA/WhatsApp%20Image%202026-09-07%20at%2000_16_07.jpeg",
           "time": "18:00",
           "homeScore": 66,
           "awayScore": 71
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-08",
           "dateText": "08/09/2026",
           "teams": [
@@ -32957,7 +31226,7 @@
           "awayScore": 95
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-11",
           "dateText": "11/09/2026",
           "teams": [
@@ -32971,13 +31240,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=86622",
           "score": "64:92",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/PREPERATION.png",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/PREPERATION.png",
           "time": "12:30",
           "homeScore": 64,
           "awayScore": 92
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-11",
           "dateText": "11/09/2026",
           "teams": [
@@ -32997,7 +31266,7 @@
           "awayScore": 92
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-12",
           "dateText": "12/09/2026",
           "teams": [
@@ -33011,13 +31280,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=86606",
           "score": "80:87",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/STATISTICS.png",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/STATISTICS.png",
           "time": "16:30",
           "homeScore": 80,
           "awayScore": 87
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-12",
           "dateText": "12/09/2026",
           "teams": [
@@ -33038,7 +31307,7 @@
           "awayScore": 80
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-13",
           "dateText": "13/09/2026",
           "teams": [
@@ -33059,7 +31328,7 @@
           "awayScore": 72
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-13",
           "dateText": "13/09/2026",
           "teams": [
@@ -33073,13 +31342,13 @@
           "played": true,
           "reportUrl": "https://basket.co.il/news.asp?id=86611",
           "score": "104:95",
-          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2022_02_59.jpeg",
+          "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2022_02_59.jpeg",
           "time": "19:30",
           "homeScore": 104,
           "awayScore": 95
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-13",
           "dateText": "13/09/2026",
           "teams": [
@@ -33100,7 +31369,7 @@
           "awayScore": 85
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-14",
           "dateText": "14/09/2026",
           "teams": [
@@ -33120,7 +31389,7 @@
           "awayScore": 92
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-16",
           "dateText": "16/09/2026",
           "teams": [
@@ -33140,7 +31409,7 @@
           "awayScore": 82
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-18",
           "dateText": "18/09/2026",
           "teams": [
@@ -33157,7 +31426,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-09-30",
           "dateText": "30/09/2026",
           "teams": [
@@ -33174,7 +31443,7 @@
           "awayScore": null
         },
         {
-          "articleIndex": 4,
+          "articleIndex": 3,
           "date": "2026-10-05",
           "dateText": "05/10/2026",
           "teams": [
@@ -33197,7 +31466,7 @@
       "title": "לוח שידורים — ערוץ הספורט",
       "outlet": "tv:sport5.co.il",
       "published": null,
-      "readAt": "2026-09-17T22:23:18.304Z",
+      "readAt": "2026-09-18T05:08:04.986Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -37841,73 +36110,70 @@
       "title": "לוח משחקים — ריאל מדריד",
       "outlet": "club:t_5c2ad363",
       "published": null,
-      "readAt": "2026-09-17T17:56:04.243Z",
+      "readAt": "2026-09-18T05:10:08.845Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 3,
+          "articleIndex": 0,
           "date": "2026-09-05",
-          "dateText": "5 sept",
+          "dateText": "05-09-2026",
           "teams": [
             "Real Madrid",
             "Kosner Baskonia"
           ],
           "isOfficialLeagueGame": false,
+          "awayTeam": "Kosner Baskonia",
           "homeTeam": "Real Madrid",
           "matchup": "Real Madrid v Kosner Baskonia",
-          "opponentUndecided": false,
           "played": true,
           "score": "121:80",
           "time": "18:00",
           "tournament": "I Memorial Urbano González Escapa",
-          "awayTeam": "Kosner Baskonia",
           "homeScore": 121,
           "awayScore": 80
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 0,
           "date": "2026-09-11",
-          "dateText": "11 sept",
+          "dateText": "11-09-2026",
           "teams": [
             "Real Madrid",
             "La Laguna Tenerife"
           ],
           "isOfficialLeagueGame": false,
+          "awayTeam": "La Laguna Tenerife",
           "homeTeam": "Real Madrid",
           "matchup": "Real Madrid v La Laguna Tenerife",
-          "opponentUndecided": false,
           "played": true,
           "score": "90:97",
           "time": "18:00",
           "tournament": "XV Torneo Costa del Sol",
-          "awayTeam": "La Laguna Tenerife",
           "homeScore": 90,
           "awayScore": 97
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 0,
           "date": "2026-09-12",
-          "dateText": "12 sept",
+          "dateText": "12-09-2026",
           "teams": [
             "Unicaja",
             "Real Madrid"
           ],
           "isOfficialLeagueGame": false,
+          "awayTeam": "Real Madrid",
           "homeTeam": "Unicaja",
           "matchup": "Unicaja v Real Madrid",
-          "opponentUndecided": false,
           "played": true,
           "score": "74:113",
           "time": "17:00",
           "tournament": "XV Torneo Costa del Sol",
-          "awayTeam": "Real Madrid",
           "homeScore": 74,
           "awayScore": 113
         },
         {
-          "articleIndex": 3,
+          "articleIndex": 0,
           "date": "2026-09-18",
-          "dateText": "18 sept",
+          "dateText": "18-09-2026",
           "teams": [
             "Dubai Basketball",
             "Real Madrid"
@@ -37916,8 +36182,8 @@
           "awayTeam": "Real Madrid",
           "homeTeam": "Dubai Basketball",
           "matchup": "Dubai Basketball v Real Madrid",
-          "opponentUndecided": false,
           "played": false,
+          "score": "",
           "time": "17:00",
           "tournament": "Semifinales",
           "homeScore": null,
@@ -39580,9 +37846,86 @@
       "title": "לוח משחקים — סן פבלו בורגוס",
       "outlet": "club:t_25c20d3d",
       "published": null,
-      "readAt": "2026-09-17T17:52:59.824Z",
+      "readAt": "2026-09-18T05:08:55.020Z",
       "model": "gemini-flash-lite-latest",
-      "games": []
+      "games": [
+        {
+          "articleIndex": 4,
+          "date": "2026-08-29",
+          "dateText": "Sábado 29 13:00",
+          "teams": [
+            "Recoletas Salud San Pablo Burgos",
+            "Movistar Estudiantes"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Recoletas Salud San Pablo Burgos v Movistar Estudiantes",
+          "played": true,
+          "score": "0:0",
+          "time": "13:00",
+          "tournament": "Pretemporada",
+          "homeTeam": "Recoletas Salud San Pablo Burgos",
+          "awayTeam": "Movistar Estudiantes",
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "articleIndex": 4,
+          "date": "2026-09-11",
+          "dateText": "Viernes 11 18:30",
+          "teams": [
+            "Recoletas Salud San Pablo Burgos",
+            "Surne Bilbao Basket"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Recoletas Salud San Pablo Burgos v Surne Bilbao Basket",
+          "played": true,
+          "score": "72:79",
+          "time": "18:30",
+          "tournament": "Pretemporada",
+          "homeTeam": "Recoletas Salud San Pablo Burgos",
+          "awayTeam": "Surne Bilbao Basket",
+          "homeScore": 72,
+          "awayScore": 79
+        },
+        {
+          "articleIndex": 4,
+          "date": "2026-09-13",
+          "dateText": "Domingo 13 18:30",
+          "teams": [
+            "Recoletas Salud San Pablo Burgos",
+            "Leyma Básquet Coruña"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Recoletas Salud San Pablo Burgos v Leyma Básquet Coruña",
+          "played": true,
+          "score": "107:101",
+          "time": "18:30",
+          "tournament": "Pretemporada",
+          "homeTeam": "Recoletas Salud San Pablo Burgos",
+          "awayTeam": "Leyma Básquet Coruña",
+          "homeScore": 107,
+          "awayScore": 101
+        },
+        {
+          "articleIndex": 4,
+          "date": "2026-09-16",
+          "dateText": "Miércoles 16 20:30",
+          "teams": [
+            "Grupo Ureta Tizona Burgos",
+            "Recoletas Salud San Pablo Burgos"
+          ],
+          "isOfficialLeagueGame": false,
+          "matchup": "Grupo Ureta Tizona Burgos v Recoletas Salud San Pablo Burgos",
+          "played": true,
+          "score": "84:102",
+          "time": "20:30",
+          "tournament": "Copa FBCYL",
+          "homeTeam": "Grupo Ureta Tizona Burgos",
+          "awayTeam": "Recoletas Salud San Pablo Burgos",
+          "homeScore": 84,
+          "awayScore": 102
+        }
+      ]
     },
     "https://sportando.basketball/napoli-basketball-ultimo-test-in-slovenia-contro-il-krka-novo-mesto/": {
       "ok": true,
@@ -40004,7 +38347,7 @@
       "title": "לוח משחקים — בוסנה סרייבו",
       "outlet": "club:t_a7a29a23",
       "published": null,
-      "readAt": "2026-09-17T17:57:34.530Z",
+      "readAt": "2026-09-18T05:11:22.726Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -41641,7 +39984,7 @@
       "title": "לוח משחקים — הכוכב האדום בלגרד",
       "outlet": "club:t_a85f3ce5",
       "published": null,
-      "readAt": "2026-09-17T17:56:04.243Z",
+      "readAt": "2026-09-18T05:09:43.008Z",
       "model": "gemini-flash-lite-latest",
       "games": []
     },
@@ -73367,11 +71710,11 @@
       "title": "לוח משחקים — נינרס קמניץ",
       "outlet": "club:t_ef2290b6",
       "published": null,
-      "readAt": "2026-09-17T17:57:34.529Z",
+      "readAt": "2026-09-18T05:10:57.524Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 0,
+          "articleIndex": 2,
           "date": "2026-09-12",
           "dateText": "12.09.2026",
           "teams": [
@@ -73382,7 +71725,7 @@
           "awayTeam": "NINERS Chemnitz",
           "homeTeam": "GIESSEN 46ers",
           "matchup": "GIESSEN 46ers vs. NINERS Chemnitz",
-          "tournament": "easycredit Basketball Bundesliga",
+          "played": false,
           "homeScore": null,
           "awayScore": null
         }
@@ -81041,13 +79384,13 @@
       "title": "לוח משחקים — צדביטה אולימפייה",
       "outlet": "club:t_97d76180",
       "published": null,
-      "readAt": "2026-09-17T17:56:36.781Z",
+      "readAt": "2026-09-18T05:10:08.845Z",
       "model": "gemini-flash-lite-latest",
       "games": [
         {
-          "articleIndex": 1,
+          "articleIndex": 3,
           "date": "2026-09-17",
-          "dateText": "četrtek, 17. september",
+          "dateText": "17. september",
           "teams": [
             "CEDEVITA OLIMPIJA",
             "KRKA"
@@ -81055,23 +79398,15 @@
           "isOfficialLeagueGame": false,
           "arena": "Športna dvorana OŠ Milojke Štrukelj",
           "awayTeam": "KRKA",
-          "broadcastUrl": "",
           "broadcaster": "Sportklub Slovenija 1",
           "city": "Nova Gorica",
-          "closedDoors": false,
           "country": "Slovenija",
-          "highlightsUrl": "",
           "homeTeam": "CEDEVITA OLIMPIJA",
-          "isNationalTeam": false,
-          "isNbaOnly": false,
           "matchup": "CEDEVITA OLIMPIJA v KRKA",
-          "opponentUndecided": false,
           "played": false,
-          "reportUrl": "",
           "score": "",
-          "statsUrl": "",
           "time": "20:00",
-          "tournament": "Superpokal 2026",
+          "tournament": "SUPERPOKAL SLOVENIJE 2026",
           "homeScore": null,
           "awayScore": null
         }
@@ -87988,6 +86323,90 @@
           "time": "20:55",
           "tournament": "סופרקאפ",
           "awayTeam": "הפועל תל אביב",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
+    },
+    "https://basketfaul.com.tr/turkiye/bsl/4-buyuk-turnuvada-ilk-hava-atislari/": {
+      "ok": false,
+      "why": "no readable text",
+      "title": "4 Büyük Turnuvada İlk Hava Atışları"
+    },
+    "https://www.telegraf.rs/sport/kosarka/4398347-uzivo-tv-prenos-partizan-paok-kosarka": {
+      "ok": true,
+      "title": "Evo gde možete da gledate uživo TV prenos meča Partizan - PAOK",
+      "outlet": "telegraf",
+      "published": "2026-09-18T06:20:00+02:00",
+      "readAt": "2026-09-18T05:11:22.726Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 1,
+          "date": "",
+          "dateText": "petak",
+          "teams": [
+            "Partizan",
+            "PAOK"
+          ],
+          "isOfficialLeagueGame": false,
+          "awayTeam": "PAOK",
+          "broadcastUrl": "",
+          "broadcaster": "TV Arena sport Premium 1",
+          "city": "Atini",
+          "homeTeam": "Partizan",
+          "isNationalTeam": false,
+          "isNbaOnly": false,
+          "matchup": "Partizan v PAOK",
+          "opponentUndecided": false,
+          "played": false,
+          "score": "",
+          "time": "16:30",
+          "tournament": "Pavlos Janakopulos",
+          "homeScore": null,
+          "awayScore": null
+        }
+      ]
+    },
+    "https://basketdergisi.com/fenerbahce-tarfinde-eksiklerin-son-durumu.html": {
+      "ok": true,
+      "title": "Fenerbahçe Tarfin’de eksiklerin son durumu",
+      "outlet": "basketdergisi",
+      "published": "Fri, 18 Sep 2026 04:45:17 +0000",
+      "readAt": "2026-09-18T05:11:22.726Z",
+      "model": "gemini-flash-lite-latest",
+      "games": []
+    },
+    "https://www.telegraf.rs/sport/kosarka/4398346-evo-gde-mozete-da-gledate-uzivo-tv-prenos-meca-zvezda-aris-u-poslednjoj-prijateljskoj-utakmici-pred-evroligu": {
+      "ok": true,
+      "title": "Evo gde možete da gledate uživo TV prenos meča Zvezda - Aris u poslednjoj prijateljskoj utakmici pred Evroligu",
+      "outlet": "telegraf",
+      "published": "2026-09-18T06:45:00+02:00",
+      "readAt": "2026-09-18T05:11:22.726Z",
+      "model": "gemini-flash-lite-latest",
+      "games": [
+        {
+          "articleIndex": 3,
+          "date": "",
+          "dateText": "",
+          "teams": [
+            "Zvezda",
+            "Aris"
+          ],
+          "isOfficialLeagueGame": false,
+          "awayTeam": "Aris",
+          "broadcastUrl": "",
+          "broadcaster": "Arena sport 1 Premium",
+          "city": "Beogradu",
+          "homeTeam": "Zvezda",
+          "isNationalTeam": false,
+          "isNbaOnly": false,
+          "matchup": "Zvezda v Aris",
+          "opponentUndecided": false,
+          "played": false,
+          "score": "",
+          "time": "19:00",
+          "tournament": "",
           "homeScore": null,
           "awayScore": null
         }
