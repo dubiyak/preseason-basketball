@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T21:52:33.691Z",
+  "updated": "2026-09-18T23:33:28.698Z",
   "season": "2026-27",
-  "newGames": 6,
+  "newGames": 8,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -1088,6 +1088,22 @@
       "field": "time",
       "kept": "20:00",
       "alsoReported": "19:00",
+      "from": "allstarbasket",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_1c6c456f00",
+      "field": "time",
+      "kept": "17:00",
+      "alsoReported": "20:45",
+      "from": "basket247",
+      "resolvedBy": "recency"
+    },
+    {
+      "game": "g_e6eaaf144a",
+      "field": "time",
+      "kept": "21:15",
+      "alsoReported": "21:00",
       "from": "allstarbasket",
       "resolvedBy": "recency"
     },
@@ -21769,7 +21785,7 @@
         "away": 74
       },
       "statsUrl": "https://fibalivestats.dcd.shared.geniussports.com/u/KOK/2885586/bs.html",
-      "reportUrl": null,
+      "reportUrl": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-erythros-asteras-98-74-ta-highlights-tou-agona-kai-i-foveri-emfanisi-tou-rompinson-erl-vids",
       "highlightsUrl": null,
       "sources": [
         {
@@ -21973,6 +21989,16 @@
           "published": null
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/erythros-asteras-aris-91-87-itta-sto-finale-gia-tin-omada-tou-spanoyli-gallery",
+          "published": "2026-09-18T19:39:00+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-metra-dynameis-me-erythro-astera-sto-veligradi",
+          "published": "2026-09-18T06:13:15+00:00"
+        },
+        {
           "name": "protathlima.cyprustimes.com",
           "url": "https://protathlima.cyprustimes.com/kalathosfaira/euroleague/spoudaioi-agones-theama-psilou-epipedou-to-programma-tou-tournoua-payabl-neofytos-chandriotis/"
         },
@@ -21981,9 +22007,9 @@
           "url": "https://www.basketballstoriescy.com/%F0%9F%8F%80neofytos-chandriotis-etoimo-to-programma-ton-anametriseon/"
         },
         {
-          "name": "basket247",
-          "url": "https://www.basket247.gr/spanoulis-theloume-arketi-veltiwsi-stin-epikoinwnia-vriskomaste-se-kalo-epipedo-gia-tin-epoxi/",
-          "published": "Sun, 13 Sep 2026 16:06:10 +0000"
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2009635/aris-itta-stis-leptomeries-apo-ton-er-astera-sto-veligradi/",
+          "published": "Fri, 18 Sep 2026 19:23:33 +0000"
         },
         {
           "name": "sport24gr",
@@ -21991,9 +22017,14 @@
           "published": null
         },
         {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/eurocup-el/2009635/aris-itta-stis-leptomeries-apo-ton-er-astera-sto-veligradi/",
-          "published": "Fri, 18 Sep 2026 19:23:33 +0000"
+          "name": "telegraf",
+          "url": "https://www.telegraf.rs/sport/evroliga-kosarka/veciti/4399230-strani-kosarkas-zvezde-iznenadio-sve-imam-srpske-korene-trudim-se-da-naucim-i-jezik",
+          "published": "2026-09-18T23:34:17+02:00"
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/spanoulis-theloume-arketi-veltiwsi-stin-epikoinwnia-vriskomaste-se-kalo-epipedo-gia-tin-epoxi/",
+          "published": "Sun, 13 Sep 2026 16:06:10 +0000"
         },
         {
           "name": "basket247",
@@ -27066,6 +27097,49 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-16",
+      "dateLabel": "16.09. | 19:30",
+      "time": "19:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Salaspils/API Mobile",
+        "BK Ods",
+        "Salaspils/API Mobile",
+        "BK Ods"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_5ab2d53faf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-17",
       "dateLabel": "17.9",
       "time": "20:55",
@@ -27613,49 +27687,6 @@
     },
     {
       "date": "2026-09-17",
-      "dateLabel": "17/09",
-      "time": null,
-      "homeTeam": "t_3c6fe8bb",
-      "awayTeam": "t_b8c446a3",
-      "candidates": [],
-      "opponentTbd": true,
-      "venue": {
-        "arena": "Chalon/Saône (Le Colisée)",
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 81,
-        "away": 75
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=127",
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_e39e565e1c",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_b8c446a3"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
       "dateLabel": "Jue 17/09",
       "time": "13:15",
       "homeTeam": "t_e5e57cfe",
@@ -27997,6 +28028,65 @@
       "confidence": 2
     },
     {
+      "date": "2026-09-17",
+      "dateLabel": "jeudi 17 septembre",
+      "time": "19:00",
+      "homeTeam": "t_3c6fe8bb",
+      "awayTeam": "t_b8c446a3",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Colisée",
+        "city": "Chalon-sur-Saône",
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 81,
+        "away": 75
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=127",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/apres-son-carton-contre-nancy-jeriah-horne-convainc-chalon-et-signe-pour-la-saison",
+          "published": "2026-09-18T15:35:11+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/chalon-termine-sa-preparation-a-7-0-apres-avoir-domine-nancy-devant-3-500-eleves",
+          "published": "2026-09-18T15:17:00+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-09-18T15:35:11+00:00",
+      "id": "g_1d068f7433",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3c6fe8bb",
+        "t_b8c446a3"
+      ],
+      "confidence": 2
+    },
+    {
       "date": "2026-09-18",
       "dateLabel": "18.9",
       "time": null,
@@ -28104,6 +28194,10 @@
           "url": null
         },
         {
+          "name": "ΣΚΑΙ",
+          "url": null
+        },
+        {
           "name": "TV Arena sport Premium 1",
           "url": null
         }
@@ -28112,7 +28206,7 @@
         "home": 100,
         "away": 99
       },
-      "statsUrl": null,
+      "statsUrl": "https://live.euroleague.net/boxscore?gamecode=666&seasoncode=E2026&disp=CTUS2FFA5FD8B56F88EB91T5M",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -28366,6 +28460,66 @@
           "published": "Fri, 18 Sep 2026 20:10:26 +0000"
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
+          "published": "2026-09-18T20:22:02+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/deite-pos-o-paok-nikise-me-100-99-tin-partizan-video",
+          "published": "2026-09-18T17:53:58+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-100-99-me-buzzer-beater-foster-kai-super-osman-ston-teliko",
+          "published": "2026-09-18T17:54:09+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-odigei-tin-epithesi-tou-dikefalou-o-foster-vid",
+          "published": "2026-09-18T16:03:27+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-i-gallery-tou-protou-imixronou-pics",
+          "published": "2026-09-18T15:23:16+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-one-os-man-show-video",
+          "published": "2026-09-18T18:03:50+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-panathinaikos-bourgk-simera-sto-8o-tournoua-paylos-giannakopoulos",
+          "published": "2026-09-18T08:19:12+00:00"
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/xerane-tin-partizan-me-kayto-foster-kai-magiko-kalathi-o-paok/",
+          "published": "Fri, 18 Sep 2026 16:37:04 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/tournoua-paylos-giannakopoulos-poy-tha-deite-panathinaiko-kai-paok",
+          "published": "2026-09-18T05:35:39+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/paok-proto-deigma-check-o-dikefalos-nikise-defteri-omada-tis-euroleague-stin-preseason/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2009585/apolafstikos-trinkieri-o-nik-echase-5-lei-ap-to-proi-stis-7-doulia-dexi-aristero/",
+          "published": "Fri, 18 Sep 2026 18:05:14 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/kalathis-ithela-na-meino-stin-partizan-alla-exafanistikan-otan-irthe-i-ora-gia-diapragmatefseis/",
+          "published": null
+        },
+        {
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/09/17/penjaroja-pripreme/",
           "published": "Thu, 17 Sep 2026 13:48:25 +0000"
@@ -28383,11 +28537,6 @@
         {
           "name": "paopantou",
           "url": "https://paopantou.gr/tournoua-pavlos-giannakopoulos-paok-partizan-kai-bourgk-oloklironoun-to-pazl/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/paok-proto-deigma-check-o-dikefalos-nikise-defteri-omada-tis-euroleague-stin-preseason/",
           "published": null
         },
         {
@@ -28600,6 +28749,16 @@
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/09/18/zvezdasi-vezite-pojas-uspeh-diskutabilan-zabava-sigurna-crveno-beli-slavili-u-dramaticnoj-generalki-pred-evroligu/",
           "published": "Fri, 18 Sep 2026 19:03:13 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/erythros-asteras-aris-91-87-itta-sto-finale-gia-tin-omada-tou-spanoyli-gallery",
+          "published": "2026-09-18T19:39:00+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-metra-dynameis-me-erythro-astera-sto-veligradi",
+          "published": "2026-09-18T06:13:15+00:00"
         }
       ],
       "notes": [],
@@ -29263,47 +29422,6 @@
     {
       "date": "2026-09-18",
       "dateLabel": "18 septembre",
-      "time": "19:00",
-      "homeTeam": "t_3c6fe8bb",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Chalon-sur-Saône",
-        "city": "Chalon-sur-Saône",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_97917d4e27",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_3c6fe8bb",
-        "t_b8c446a3"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-18",
-      "dateLabel": "18 septembre",
       "time": "20:00",
       "homeTeam": "t_1f86c9b9",
       "awayTeam": "t_6230ff54",
@@ -29443,7 +29561,7 @@
     {
       "date": "2026-09-18",
       "dateLabel": "le 18 septembre",
-      "time": "21:00",
+      "time": "21:15",
       "homeTeam": "t_e5cb1715",
       "awayTeam": "t_211b1542",
       "candidates": [],
@@ -29460,6 +29578,10 @@
         {
           "name": "ΣΚΑΪ",
           "url": null
+        },
+        {
+          "name": "ΣΚΑΙ",
+          "url": null
         }
       ],
       "result": {
@@ -29468,7 +29590,7 @@
       },
       "statsUrl": "https://live.euroleague.net/boxscore?gamecode=667&seasoncode=E2026&disp=CTUS2FFA5FD8B56F88EB91T5M",
       "reportUrl": null,
-      "highlightsUrl": null,
+      "highlightsUrl": "https://exchange.glomex.com/video/v-dlipuxb389wx?integrationId=40599z1skli3nleq",
       "sources": [
         {
           "name": "bebasket",
@@ -29576,6 +29698,36 @@
           "published": null
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
+          "published": "2026-09-18T20:22:02+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-panathinaikos-bourgk-simera-sto-8o-tournoua-paylos-giannakopoulos",
+          "published": "2026-09-18T08:19:12+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/ta-highlights-tou-panathinaikos-bourgk-90-69",
+          "published": "2026-09-18T20:27:53+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/tournoua-paylos-giannakopoulos-poy-tha-deite-panathinaiko-kai-paok",
+          "published": "2026-09-18T05:35:39+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-bourgk-dinamiko-xekinima-tou-mantzouka-me-3-3-triponta/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2009681/sylvain-francisco-etkileyici-oynadi-panathinaikos-bourgu-farkli-gecti/",
+          "published": "Fri, 18 Sep 2026 20:14:43 +0000"
+        },
+        {
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-90-69-epaixe-20-esvise-alla-20-ki-ekleise-rantevou-me-ton-paok-ston-teliko-tou-8ou-tournoua-pavlos-giannakopoulos/",
           "published": null
@@ -29592,11 +29744,6 @@
         },
         {
           "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-bourgk-dinamiko-xekinima-tou-mantzouka-me-3-3-triponta/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-seistike-to-telekom-center-athens-me-tin-eisodo-tou-omprantovits/",
           "published": null
         },
@@ -29608,7 +29755,7 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "Thu, 03 Sep 2026 14:59:35 +0000",
+      "published": "2026-09-18T20:22:02+00:00",
       "id": "g_e6eaaf144a",
       "origins": [
         "extracted"
@@ -29782,6 +29929,11 @@
           "published": "Fri, 18 Sep 2026 22:24:00 +0300"
         },
         {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/kerdise-stis-leptomereies-tin-fener-o-olympiakos-kai-prokrithike-ston-teliko/",
+          "published": "Fri, 18 Sep 2026 16:10:15 +0000"
+        },
+        {
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/valoracion-luis-arbalejo-inicio-temporada-valencia-basket/",
           "published": "Mon, 14 Sep 2026 15:02:49 +0000"
@@ -29832,6 +29984,21 @@
           "published": null
         },
         {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/poios-itan-o-monadikos-paiktis-tou-olimpiakou-pou-emeine-stin-etihad-arena-gia-na-dei-to-ntoumpai-real/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2009639/real-madritis-pisti-sto-rantevou-me-olimpiako-stin-paratasi-ti-ntoumpai/",
+          "published": "Fri, 18 Sep 2026 19:23:17 +0000"
+        },
+        {
+          "name": "basketdergisi",
+          "url": "https://basketdergisi.com/fenerbahce-tarfin-sonunu-getiremedi.html",
+          "published": "Fri, 18 Sep 2026 16:18:59 +0000"
+        },
+        {
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/09/04/repriza-finala-zvezda-olimpijakos/",
           "published": "Fri, 04 Sep 2026 20:31:02 +0000"
@@ -29863,16 +30030,6 @@
         },
         {
           "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/poios-itan-o-monadikos-paiktis-tou-olimpiakou-pou-emeine-stin-etihad-arena-gia-na-dei-to-ntoumpai-real/",
-          "published": null
-        },
-        {
-          "name": "basketdergisi",
-          "url": "https://basketdergisi.com/fenerbahce-tarfin-sonunu-getiremedi.html",
-          "published": "Fri, 18 Sep 2026 16:18:59 +0000"
-        },
-        {
-          "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/euroleague-basketball/euroleague-pou-tha-deite-to-olimpiakos-fenermpaxtse-kai-to-ntoumpai-real-madritis-gia-to-super-cup/",
           "published": null
         },
@@ -29885,11 +30042,6 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/i-parakamera-tou-olimpiakos-fenermpaxtse-ta-nea-prosopa-oi-antidraseis-kai-o-kosmos-stin-exedra/",
           "published": null
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/euroleague-el-2/2009639/real-madritis-pisti-sto-rantevou-me-olimpiako-stin-paratasi-ti-ntoumpai/",
-          "published": "Fri, 18 Sep 2026 19:23:17 +0000"
         }
       ],
       "notes": [],
@@ -30079,9 +30231,9 @@
           "published": "Fri, 18 Sep 2026 19:46:12 +0000"
         },
         {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/euroleague-basketball/euroleague-pou-tha-deite-to-olimpiakos-fenermpaxtse-kai-to-ntoumpai-real-madritis-gia-to-super-cup/",
-          "published": null
+          "name": "gipedo",
+          "url": "https://gipedo.politis.com.cy/kalathosfaira/euroleague/1034062/pire-to-ntermpi-me-tin-dubai-bc-kai-ekleise-neo-rantevou-titloy-me-ton-olimpiako-i-real",
+          "published": "Fri, 18 Sep 2026 22:54:00 +0300"
         },
         {
           "name": "sport24gr",
@@ -30094,9 +30246,24 @@
           "published": "Fri, 18 Sep 2026 19:23:17 +0000"
         },
         {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2009651/timothe-luwawu-cabarrot-ipten-aldi-real-madrid-dubaiyi-uzatmada-devirdi/",
+          "published": "Fri, 18 Sep 2026 19:27:41 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/euroleague-basketball/euroleague-pou-tha-deite-to-olimpiakos-fenermpaxtse-kai-to-ntoumpai-real-madritis-gia-to-super-cup/",
+          "published": null
+        },
+        {
           "name": "basketdergisi",
           "url": "https://basketdergisi.com/real-madrid-adini-finale-yazdirdi.html",
           "published": "Fri, 18 Sep 2026 19:42:34 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2009431/el-real-madrid-sufre-para-pelear-por-la-supercopa-de-la-euroliga/",
+          "published": "Fri, 18 Sep 2026 19:26:41 +0000"
         }
       ],
       "notes": [],
@@ -30110,7 +30277,7 @@
         "t_be26eea9",
         "t_5c2ad363"
       ],
-      "confidence": 10
+      "confidence": 11
     },
     {
       "date": "2026-09-18",
@@ -30121,7 +30288,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "κλειστό «Ανδρέας Παπανδρέου»",
         "city": null,
         "country": null
       },
@@ -30129,7 +30296,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 81,
+        "away": 71
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -30143,6 +30313,11 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/me-aek-karditsa-kai-klouz-to-7o-tournoua-nikos-fasouras-tou-peristeriou-betsson/",
           "published": null
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/filiki-niki-gia-to-peristeri-kontra-stin-karditsa/",
+          "published": "Fri, 18 Sep 2026 15:30:34 +0000"
         }
       ],
       "notes": [],
@@ -30156,7 +30331,7 @@
         "t_64151b1f",
         "t_19968e60"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-18",
@@ -30653,6 +30828,52 @@
         "t_ba69a3d3",
         "t_0d90b438"
       ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "18.09. 19:00",
+      "time": "19:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Siguldas SS",
+        "BK Bauska",
+        "Siguldas SS",
+        "BK Bauska"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Siguldas vidusskolas zāle",
+        "city": "Sigulda",
+        "country": null
+      },
+      "tournament": "Latvijas basketbola \"Užavas\" kauss",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 71,
+        "away": 100
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_f3c8cfc8f1",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
       "confidence": 1
     },
     {
@@ -32025,7 +32246,7 @@
     {
       "date": "2026-09-19",
       "dateLabel": "Saturday, 19.09.2026",
-      "time": "20:45",
+      "time": "17:00",
       "homeTeam": "t_303da94d",
       "awayTeam": "t_64151b1f",
       "candidates": [],
@@ -32063,11 +32284,16 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/to-peristeri-betsson-tha-antimetopisei-mono-tin-klouz-sto-tournoua-nikos-fasouras/",
           "published": null
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/filiki-niki-gia-to-peristeri-kontra-stin-karditsa/",
+          "published": "Fri, 18 Sep 2026 15:30:34 +0000"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": null,
+      "published": "Fri, 18 Sep 2026 15:30:34 +0000",
       "id": "g_1c6c456f00",
       "origins": [
         "extracted"
@@ -32076,7 +32302,7 @@
         "t_303da94d",
         "t_64151b1f"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
@@ -32711,6 +32937,11 @@
           "published": "Fri, 18 Sep 2026 20:10:26 +0000"
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
+          "published": "2026-09-18T20:22:02+00:00"
+        },
+        {
           "name": "hotsport",
           "url": "https://hotsport.rs/2026/08/12/partizan-raspored-pripremnih-utakmica-2026/",
           "published": "Wed, 12 Aug 2026 21:50:34 +0000"
@@ -33290,6 +33521,11 @@
           "published": null
         },
         {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
+          "published": "2026-09-18T20:22:02+00:00"
+        },
+        {
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/eurocup-el/2005472/paok-sto-milano-i-sinechia-tis-proetimasias-prin-to-filiko-me-armani/",
           "published": "Mon, 07 Sep 2026 17:40:54 +0000"
@@ -33862,6 +34098,11 @@
           "name": "sport24gr",
           "url": "https://www.sport24.gr/basket/euroleague-basketball/repeat-sto-super-cup-pote-einai-o-megalos-telikos-tou-olimpiakou-me-ti-real-madritis/",
           "published": null
+        },
+        {
+          "name": "gipedo",
+          "url": "https://gipedo.politis.com.cy/kalathosfaira/euroleague/1034062/pire-to-ntermpi-me-tin-dubai-bc-kai-ekleise-neo-rantevou-titloy-me-ton-olimpiako-i-real",
+          "published": "Fri, 18 Sep 2026 22:54:00 +0300"
         }
       ],
       "notes": [],
@@ -33875,7 +34116,7 @@
         "t_e3b7f23c",
         "t_5c2ad363"
       ],
-      "confidence": 4
+      "confidence": 5
     },
     {
       "date": "2026-09-19",
@@ -33927,6 +34168,92 @@
         "t_709fcff6"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19.09. | 14:00",
+      "time": "14:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Ādaži/Carnikava",
+        "Ķekava",
+        "Ādaži/Carnikava",
+        "Ķekava"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_987a4a16b7",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19.09. | 17:00",
+      "time": "17:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "WWD Cēsis",
+        "Dienvidkurzemes nov.",
+        "WWD Cēsis",
+        "Dienvidkurzemes nov."
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_a30eaf2a3d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
+      "confidence": 1
     },
     {
       "date": "2026-09-20",
@@ -34449,6 +34776,16 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/heba-el/2007246/simeon-mavroskoufis-to-programma-tou-tournoua-me-ti-simmetochi-ari-irakli-ke-mikonou/",
           "published": "Sat, 12 Sep 2026 14:00:25 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/erythros-asteras-aris-91-87-itta-sto-finale-gia-tin-omada-tou-spanoyli-gallery",
+          "published": "2026-09-18T19:39:00+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-metra-dynameis-me-erythro-astera-sto-veligradi",
+          "published": "2026-09-18T06:13:15+00:00"
         }
       ],
       "notes": [],
@@ -34462,7 +34799,7 @@
         "t_914d2962",
         "t_b1305172"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-20",
@@ -34883,6 +35220,52 @@
       "confidence": 1
     },
     {
+      "date": "2026-09-20",
+      "dateLabel": "20.09. | 14:00",
+      "time": "14:00",
+      "homeTeam": "t_2d8463bf",
+      "awayTeam": "t_d20153aa",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/18092026-gulbenes_buku_rindas_pieteikti_cetri_spel",
+          "published": "Fri, 18 Sep 2026 15:32:00 +0300"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_1f8069da7d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2d8463bf",
+        "t_d20153aa"
+      ],
+      "confidence": 2
+    },
+    {
       "date": "2026-09-21",
       "dateLabel": "Δευτέρα, 21 Σεπτεμβρίου 2026",
       "time": "12:00",
@@ -34970,6 +35353,49 @@
       "confidence": 2
     },
     {
+      "date": "2026-09-21",
+      "dateLabel": "21.09. | 19:30",
+      "time": "19:30",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Salaspils SS",
+        "Anzāģe/Turība",
+        "Salaspils SS",
+        "Anzāģe/Turība"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_83ea2749cb",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
+      "confidence": 1
+    },
+    {
       "date": "2026-09-22",
       "dateLabel": "22.9",
       "time": "16:00",
@@ -35026,6 +35452,16 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/heba-el/2007246/simeon-mavroskoufis-to-programma-tou-tournoua-me-ti-simmetochi-ari-irakli-ke-mikonou/",
           "published": "Sat, 12 Sep 2026 14:00:25 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/erythros-asteras-aris-91-87-itta-sto-finale-gia-tin-omada-tou-spanoyli-gallery",
+          "published": "2026-09-18T19:39:00+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-metra-dynameis-me-erythro-astera-sto-veligradi",
+          "published": "2026-09-18T06:13:15+00:00"
         }
       ],
       "notes": [],
@@ -35265,6 +35701,49 @@
         "t_e5e57cfe",
         "t_44221cc8"
       ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-23",
+      "dateLabel": "23.09. | 20:00",
+      "time": "20:00",
+      "homeTeam": null,
+      "awayTeam": null,
+      "candidates": [
+        "Valka",
+        "Saldus",
+        "Valka",
+        "Saldus"
+      ],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": "Užavas kausa 1. kārtas spēles",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "gigantes",
+          "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
+          "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Fri, 18 Sep 2026 10:23:35 +0000",
+      "id": "g_d169ec864d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [],
       "confidence": 1
     },
     {
@@ -36899,47 +37378,6 @@
       "teams": [
         "t_21cf4132",
         "t_89b6a781"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": null,
-      "dateLabel": "20.sep. 14:00",
-      "time": "14:00",
-      "homeTeam": "t_2d8463bf",
-      "awayTeam": "t_d20153aa",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Užavas kauss",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportacentrs",
-          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/18092026-gulbenes_buku_rindas_pieteikti_cetri_spel",
-          "published": "Fri, 18 Sep 2026 15:32:00 +0300"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Fri, 18 Sep 2026 15:32:00 +0300",
-      "id": "g_b998a035e5",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_2d8463bf",
-        "t_d20153aa"
       ],
       "confidence": 1
     }
