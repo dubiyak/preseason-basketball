@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T18:57:17.748Z",
+  "generated": "2026-09-20T21:40:25.346Z",
   "health": [
     {
       "id": "sportando",
@@ -7,7 +7,7 @@
       "strategy": "rss",
       "via": "https://sportando.basketball/feed/",
       "items": 10,
-      "candidates": 9
+      "candidates": 8
     },
     {
       "id": "gigantes",
@@ -31,7 +31,7 @@
       "strategy": "rss",
       "via": "https://sportacentrs.com/static/non-publish/rss/sc/rss.xml",
       "items": 46,
-      "candidates": 5
+      "candidates": 3
     },
     {
       "id": "sport1",
@@ -47,7 +47,7 @@
       "strategy": "rss",
       "via": "https://www.eurohoops.net/feed/",
       "items": 20,
-      "candidates": 15
+      "candidates": 16
     },
     {
       "id": "telegraf",
@@ -63,7 +63,7 @@
       "strategy": "html",
       "via": "https://www.sport24.gr/basket/",
       "items": 113,
-      "candidates": 30
+      "candidates": 31
     },
     {
       "id": "paopantou",
@@ -71,7 +71,7 @@
       "strategy": "rss",
       "via": "https://paopantou.gr/feed/",
       "items": 10,
-      "candidates": 1
+      "candidates": 0
     },
     {
       "id": "basketdergisi",
@@ -95,12 +95,15 @@
       "strategy": "rss",
       "via": "https://www.bebasket.fr/feed/",
       "items": 20,
-      "candidates": 16
+      "candidates": 15
     },
     {
       "id": "basket247",
-      "ok": false,
-      "why": "no feed, sitemap or article links"
+      "ok": true,
+      "strategy": "rss",
+      "via": "https://www.basket247.gr/feed/",
+      "items": 10,
+      "candidates": 7
     },
     {
       "id": "allstarbasket",
@@ -108,7 +111,7 @@
       "strategy": "sitemap",
       "via": "https://www.allstarbasket.gr/sitemap_index.xml",
       "items": 400,
-      "candidates": 173
+      "candidates": 172
     },
     {
       "id": "basketfaul",
@@ -196,7 +199,7 @@
       "strategy": "rss",
       "via": "https://protathlima.cyprustimes.com/feed/",
       "items": 50,
-      "candidates": 12
+      "candidates": 15
     },
     {
       "id": "basketballstoriescy",
@@ -220,7 +223,7 @@
       "strategy": "rss",
       "via": "https://gipedo.politis.com.cy/feed/",
       "items": 15,
-      "candidates": 3
+      "candidates": 5
     }
   ],
   "clubHealth": [
@@ -244,7 +247,9 @@
     },
     {
       "club": "פרטיזן בלגרד",
-      "ok": false
+      "ok": true,
+      "url": "http://www.kkpartizan.rs/games",
+      "preseason": true
     },
     {
       "club": "ולנסיה בסקט",
@@ -316,7 +321,9 @@
     },
     {
       "club": "וירטוס בולוניה",
-      "ok": false
+      "ok": true,
+      "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+      "preseason": true
     },
     {
       "club": "ז'לגיריס קובנה",
@@ -478,7 +485,9 @@
     },
     {
       "club": "בוסנה סרייבו",
-      "ok": false
+      "ok": true,
+      "url": "https://kkbosna.ba/kalendar/utakmice/",
+      "preseason": false
     },
     {
       "club": "PAOK סלוניקי",
@@ -588,6 +597,38 @@
       "url": "https://vtb-league.com/en/news/cska-is-getting-ready-for-the-new-season/",
       "broadcaster": null,
       "capturedOn": null
+    },
+    {
+      "outlet": "club:t_1497d847",
+      "club": "פרטיזן בלגרד",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — פרטיזן בלגרד",
+      "url": "http://www.kkpartizan.rs/games",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "פרטיזן בלגרד"
+      ],
+      "score": 9
+    },
+    {
+      "outlet": "club:t_486860fc",
+      "club": "וירטוס בולוניה",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — וירטוס בולוניה",
+      "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+      "published": null,
+      "matchedKeywords": [
+        "fixtures-page"
+      ],
+      "matchedClubs": [
+        "וירטוס בולוניה"
+      ],
+      "score": 9
     },
     {
       "outlet": "club:t_914d2962",
@@ -705,23 +746,19 @@
       "outlet": "sportando",
       "lang": "it",
       "strategy": "rss",
-      "title": "Reyer Venezia, coach Spahija: \"Siamo entrati in partita troppo tardi\"",
-      "url": "https://sportando.basketball/reyer-venezia-coach-spahija-siamo-entrati-in-partita-troppo-tardi/",
-      "published": "Sun, 20 Sep 2026 18:25:17 +0000",
+      "title": "Paris Basketball vince la prima Supercoppa della sua storia: sconfitto Roanne",
+      "url": "https://sportando.basketball/paris-basketball-vince-la-prima-supercoppa-della-sua-storia-sconfitto-roanne/",
+      "published": "Sun, 20 Sep 2026 21:00:00 +0000",
       "matchedKeywords": [
         "supercoppa"
       ],
       "matchedClubs": [
-        "Armani Olimpia Milano",
-        "ARMANI OLIMPIA MILANO",
-        "Umana Reyer Venezia",
-        "UMANA REYER VENEZIA",
-        "Olimpia Milano",
-        "Reyer Venezia",
-        "Umana Reyer",
+        "Paris Basketball",
         "Supercoppa",
-        "Olimpia",
-        "Armani"
+        "Roanne",
+        "Paris",
+        "ARIS",
+        "Aris"
       ],
       "score": 7
     },
@@ -729,23 +766,17 @@
       "outlet": "sportando",
       "lang": "it",
       "strategy": "rss",
-      "title": "Olimpia Milano, coach Poeta: \"Così non arrivo alla fine… Non era scontato trionfare\"",
-      "url": "https://sportando.basketball/olimpia-milano-coach-poeta/",
-      "published": "Sun, 20 Sep 2026 18:07:39 +0000",
+      "title": "Olimpia Milano, Devon Hall è il Best Assistman Frecciarossa della Supercoppa 2026",
+      "url": "https://sportando.basketball/olimpia-milano-devon-hall-e-il-best-assistman-frecciarossa-della-supercoppa-2026/",
+      "published": "Sun, 20 Sep 2026 20:30:00 +0000",
       "matchedKeywords": [
         "supercoppa"
       ],
       "matchedClubs": [
-        "Armani Olimpia Milano",
-        "ARMANI OLIMPIA MILANO",
-        "Umana Reyer Venezia",
-        "UMANA REYER VENEZIA",
         "Olimpia Milano",
-        "Reyer Venezia",
-        "Umana Reyer",
+        "OLIMPIA MILANO",
         "Supercoppa",
-        "Olimpia",
-        "Armani"
+        "Olimpia"
       ],
       "score": 7
     },
@@ -753,14 +784,34 @@
       "outlet": "sportando",
       "lang": "it",
       "strategy": "rss",
-      "title": "Supercoppa LBA SisalClub, il dato sul numero di spettatori totali",
-      "url": "https://sportando.basketball/supercoppa-lba-sisalclub-il-dato-sul-numero-di-spettatori-totali/",
-      "published": "Sun, 20 Sep 2026 18:00:00 +0000",
+      "title": "Reyer Venezia, Tessitori: \"In alcune situazioni ci è mancata lucidità\"",
+      "url": "https://sportando.basketball/reyer-venezia-tessitori-in-alcune-situazioni-ci-e-mancata-lucidita/",
+      "published": "Sun, 20 Sep 2026 20:15:00 +0000",
       "matchedKeywords": [
         "supercoppa"
       ],
       "matchedClubs": [
-        "Nova Arena",
+        "Olimpia Milano",
+        "OLIMPIA MILANO",
+        "Reyer Venezia",
+        "Supercoppa",
+        "Olimpia"
+      ],
+      "score": 7
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Supercoppa 2026 Old Wild West: la Pielle Livorno trionfa contro Montecatini",
+      "url": "https://sportando.basketball/supercoppa-2026-old-wild-west-la-pielle-livorno-trionfa-contro-montecatini/",
+      "published": "Sun, 20 Sep 2026 20:00:00 +0000",
+      "matchedKeywords": [
+        "supercoppa"
+      ],
+      "matchedClubs": [
+        "FABO Herons Montecatini",
+        "Fabo Herons Montecatini",
         "Supercoppa"
       ],
       "score": 7
@@ -769,35 +820,58 @@
       "outlet": "sportando",
       "lang": "it",
       "strategy": "rss",
-      "title": "Reyer Venezia-Olimpia Milano, il tabellino di una splendida finale",
-      "url": "https://sportando.basketball/reyer-venezia-olimpia-milano-il-tabellino-di-una-splendida-finale/",
-      "published": "Sun, 20 Sep 2026 17:35:47 +0000",
+      "title": "Olimpia Milano, Peppe Poeta vince la sua prima Supercoppa da capoallenatore",
+      "url": "https://sportando.basketball/olimpia-milano-peppe-poeta-vince-la-sua-prima-supercoppa-da-capoallenatore/",
+      "published": "Sun, 20 Sep 2026 19:45:00 +0000",
       "matchedKeywords": [
         "supercoppa"
       ],
       "matchedClubs": [
+        "Umana Reyer Venezia",
+        "UMANA REYER VENEZIA",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Reyer Venezia",
+        "Umana Reyer",
         "Supercoppa",
         "Olimpia"
       ],
       "score": 7
     },
     {
-      "outlet": "sportando",
-      "lang": "it",
+      "outlet": "gigantes",
+      "lang": "es",
       "strategy": "rss",
-      "title": "L'Olimpia Milano si tiene la Supercoppa: una grande Reyer Venezia si arrende solo in overtime",
-      "url": "https://sportando.basketball/supercoppa-sisalclub-2026-oggi-la-finale-alle-17-00-reyer-venezia-olimpia-milano/",
-      "published": "Sun, 20 Sep 2026 17:20:43 +0000",
+      "title": "Las palabras de Aleksander Sekulic tras la derrota en la final de la Supercopa Endesa",
+      "url": "https://www.gigantes.com/liga-endesa/palabras-aleksander-sekulic-derrota-final-supercopa/",
+      "published": "Sun, 20 Sep 2026 19:36:14 +0000",
       "matchedKeywords": [
-        "supercoppa"
+        "supercopa"
       ],
       "matchedClubs": [
-        "Olimpia Milano",
-        "Reyer Venezia",
-        "Supercoppa",
-        "Olimpia"
+        "El Barça",
+        "Barça",
+        "BARÇA"
+      ],
+      "score": 7
+    },
+    {
+      "outlet": "gigantes",
+      "lang": "es",
+      "strategy": "rss",
+      "title": "El Asisa Joventut supera al Barça y conquista la Supercopa Endesa con un Laprovittola estelar",
+      "url": "https://www.gigantes.com/liga-endesa/joventut-barca-final-supercopa-endesa-2026/",
+      "published": "Sun, 20 Sep 2026 19:00:20 +0000",
+      "matchedKeywords": [
+        "supercopa"
+      ],
+      "matchedClubs": [
+        "Asisa Joventut",
+        "ASISA Joventut",
+        "ASISA JOVENTUT",
+        "Joventut",
+        "Barça",
+        "BARÇA"
       ],
       "score": 7
     },
@@ -814,44 +888,8 @@
       "matchedClubs": [
         "Chorale Roanne",
         "Roanne",
-        "ASVEL"
-      ],
-      "score": 7
-    },
-    {
-      "outlet": "gigantes",
-      "lang": "es",
-      "strategy": "rss",
-      "title": "El Real Madrid hace historia y conquista la primera Supercopa Euroliga de la historia",
-      "url": "https://www.gigantes.com/euroliga/olympiacos-real-madrid-final-supercopa-euroliga-resultado-cronica/",
-      "published": "Sat, 19 Sep 2026 19:17:08 +0000",
-      "matchedKeywords": [
-        "supercopa"
-      ],
-      "matchedClubs": [
-        "Real Madrid",
-        "Olympiacos"
-      ],
-      "score": 7
-    },
-    {
-      "outlet": "gigantes",
-      "lang": "es",
-      "strategy": "rss",
-      "title": "Qué ha pasado en la Supercopa Endesa: Asisa Joventut y Barça lucharán por el título",
-      "url": "https://www.gigantes.com/liga-endesa/que-ha-pasado-supercopa-endesa-semifinal-2026/",
-      "published": "Sat, 19 Sep 2026 18:06:24 +0000",
-      "matchedKeywords": [
-        "supercopa"
-      ],
-      "matchedClubs": [
-        "Asisa Joventut",
-        "ASISA Joventut",
-        "ASISA JOVENTUT",
-        "El Barça",
-        "Joventut",
-        "Barça",
-        "BARÇA"
+        "ASVEL",
+        "Asvel"
       ],
       "score": 7
     },
@@ -913,6 +951,42 @@
       "score": 7
     },
     {
+      "outlet": "basket247",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Τουρνουά Μαυροσκούφεια: Νίκη του Άρη επί της Μυκόνου!",
+      "url": "https://www.basket247.gr/tournoua-mavroskoufeia-niki-tou-ari-epi-tis-mukonou/",
+      "published": "Sun, 20 Sep 2026 17:37:38 +0000",
+      "matchedKeywords": [
+        "φιλικά",
+        "τουρνουά"
+      ],
+      "matchedClubs": [
+        "Μυκόνου",
+        "Ο Άρης",
+        "Μύκονο",
+        "Άρης"
+      ],
+      "score": 7
+    },
+    {
+      "outlet": "basket247",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Σπανούλης για το ντεμπούτο του Μοκόκα και τον τραυματισμό του Μόργκαν",
+      "url": "https://www.basket247.gr/spanoulis-gia-to-debuto-tou-mokoka-kai-ton-traumatismo-toy-morgan/",
+      "published": "Sun, 20 Sep 2026 16:07:01 +0000",
+      "matchedKeywords": [
+        "φιλικό"
+      ],
+      "matchedClubs": [
+        "Ο Άρης",
+        "Μύκονο",
+        "Άρης"
+      ],
+      "score": 7
+    },
+    {
       "outlet": "basketfaul",
       "lang": "tr",
       "strategy": "rss",
@@ -942,7 +1016,8 @@
         "Chorale Roanne",
         "LDLC ASVEL",
         "Roanne",
-        "ASVEL"
+        "ASVEL",
+        "Asvel"
       ],
       "score": 7
     },
@@ -969,7 +1044,7 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano conquista la settima Supercoppa della propria storia, la terza consecutiva",
       "url": "https://www.legabasket.it/news/139528/olimpia-milano-conquista-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -977,6 +1052,7 @@
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Supercoppa",
         "Olimpia",
         "Armani"
@@ -989,7 +1065,7 @@
       "strategy": "sitemap",
       "title": "4543 spettatori nella giornata della finale della Supercoppa LBA SisalClub alla Nova Arena di Tortona",
       "url": "https://www.legabasket.it/news/139536/supercoppa-tortona",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1006,7 +1082,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia - Armani Olimpia Milano domenica ore 17.00 (live su LBATV, Sky Sport Basket e Cielo), al via la finale della Supercoppa SisalClub 2026!",
       "url": "https://www.legabasket.it/news/139535/milano-venezia-preview",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1016,6 +1092,7 @@
         "Umana Reyer Venezia",
         "UMANA REYER VENEZIA",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Reyer Venezia",
         "Umana Reyer",
         "Supercoppa",
@@ -1030,7 +1107,7 @@
       "strategy": "sitemap",
       "title": "4403 spettatori nella giornata delle semifinali della Supercoppa LBA SisalClub alla Nova Arena di Tortona",
       "url": "https://www.legabasket.it/news/139527/spettatori-semifinali",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1047,7 +1124,7 @@
       "strategy": "sitemap",
       "title": "Supercoppa LBA SisalClub 2026, sabato 19 e domenica 20 settembre alla Nova Arena: cancelli aperti dalle 15.30",
       "url": "https://www.legabasket.it/news/139522/nova-arena-cancelli",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1063,7 +1140,7 @@
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano - Virtus Costa Bologna sabato ore 19.45 (live su LBATV, Sky Sport Basket e Cielo), la seconda semifinale della Supercoppa SisalClub 2026",
       "url": "https://www.legabasket.it/news/139488/olimpia-milano-virtus-bologna-preview",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1072,6 +1149,7 @@
         "ARMANI OLIMPIA MILANO",
         "Virtus Costa Bologna",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Semifinale",
         "Supercoppa",
         "Olimpia",
@@ -1085,7 +1163,7 @@
       "strategy": "sitemap",
       "title": "Bertram Derthona Tortona - Umana Reyer Venezia sabato ore 17.00 (live su LBATV, Sky Sport Basket e Cielo), al via la Supercoppa SisalClub 2026!",
       "url": "https://www.legabasket.it/news/139487/derthona-tortona-reyer-venezia-preview",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1109,7 +1187,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, vittoria a Veroli contro Scafati 91-84 in amichevole",
       "url": "https://www.legabasket.it/news/139519/bc-roma-scafati-amichevole",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1125,7 +1203,7 @@
       "strategy": "sitemap",
       "title": "Supercoppa LBA SisalClub 2026, tutte le informazioni utili per vivere una grande esperienza alla Nova Arena",
       "url": "https://www.legabasket.it/news/139484/supercoppa-info-utili",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1141,7 +1219,7 @@
       "strategy": "sitemap",
       "title": "La UNA Hotels Reggio Emila vince l&apos;amichevole di Scandiano contro la Tezenis Verona (77-69)",
       "url": "https://www.legabasket.it/news/139513/reggio-emila-verona-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1158,7 +1236,7 @@
       "strategy": "sitemap",
       "title": "La Virtus Bologna chiude la sua preseason con una vittoria per 97-80 contro la Maxima Roma",
       "url": "https://www.legabasket.it/news/139512/bologna-maxima-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "preseason",
         "preseason"
@@ -1176,7 +1254,7 @@
       "strategy": "sitemap",
       "title": "Supercoppa LBA SisalClub 2026, al via la vendita dei biglietti courtside per la semifinale alla Nova Arena",
       "url": "https://www.legabasket.it/news/139495/supercoppa-courtside",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1193,7 +1271,7 @@
       "strategy": "sitemap",
       "title": "L’Umana Reyer Venezia chiude la preseason con una vittoria: 93-66 sull&apos;Acqua S.Bernardo Cantù al Garda Ball Elite",
       "url": "https://www.legabasket.it/news/139470/venezia-cantu-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "preseason",
         "preseason"
@@ -1214,7 +1292,7 @@
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano, k.o. in amichevole a Biella contro il PAOK Salonicco (77-89)",
       "url": "https://www.legabasket.it/news/139469/milano-paok-salonicco",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1222,6 +1300,7 @@
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "PAOK Salonicco",
         "Olimpia",
         "Armani",
@@ -1236,7 +1315,7 @@
       "strategy": "sitemap",
       "title": "La Supercoppa LBA a Tortona: il racconto del Trophy Tour nella città che ospiterà il torneo. Capitan Pecchia: “Non vediamo l’ora di giocarlo”",
       "url": "https://www.legabasket.it/news/139466/tortona-trophy-tour",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1252,7 +1331,7 @@
       "strategy": "sitemap",
       "title": "La Virtus Bologna vince per 67-110 l’amichevole contro la VL Pesaro",
       "url": "https://www.legabasket.it/news/139465/virtus-bologna-pesaro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1269,7 +1348,7 @@
       "strategy": "sitemap",
       "title": "Prosegue il \"Trophy Tour\" della Supercoppa LBA Sisal Club 2026. Oggi a Tortona dalle ore 18.00 il \"Meet&Greet\" con Andrea Pecchia",
       "url": "https://www.legabasket.it/news/139421/pecchia-meet-greet",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1285,7 +1364,7 @@
       "strategy": "sitemap",
       "title": "Christos Stavropoulos, General Manager Armani Olimpia Milano: \"La Supercoppa è un titolo importante e vogliamo presentarci nelle migliori condizioni possibili per provare a vincerlo\"",
       "url": "https://www.legabasket.it/news/139453/christos-stavropoulos-general-manager-armani-olimpia-milano-supercoppa-vogliamo-vincerla",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1293,6 +1372,7 @@
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Supercoppa",
         "Olimpia",
         "Armani"
@@ -1305,7 +1385,7 @@
       "strategy": "sitemap",
       "title": "Presentata a Tortona la Supercoppa LBA SisalClub 2026, il Presidente LBA Maurizio Gherardini: \"Tortona apripista del nuovo corso dell&apos;impiantistica sportiva\"",
       "url": "https://www.legabasket.it/news/139415/comunicato-stampa-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1321,7 +1401,7 @@
       "strategy": "sitemap",
       "title": "Federico Chiodi, Sindaco di Tortona: \"Ospitare la Supercoppa SisalClub 2026 è motivo d&apos;orgoglio\"",
       "url": "https://www.legabasket.it/news/139431/federico-chiodi-sindaco-tortona",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1337,7 +1417,7 @@
       "strategy": "sitemap",
       "title": "La Nutribullet Treviso Basket vince per 91-73 contro la UNA Hotels Reggio Emilia in amichevole",
       "url": "https://www.legabasket.it/news/139447/treviso-reggio-emilia-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1361,7 +1441,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, vittoria nell&apos;amichevole sul campo del ratiopharm Ulm per 99-104",
       "url": "https://www.legabasket.it/news/139448/bc-roma-ulm",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1379,7 +1459,7 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano supera il SIG Strasburgo per 75-68 in amichevole",
       "url": "https://www.legabasket.it/news/139446/milano-strasburgo-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1387,6 +1467,7 @@
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "SIG Strasburgo",
         "Strasburgo",
         "Olimpia",
@@ -1401,7 +1482,7 @@
       "strategy": "sitemap",
       "title": "Inizia il Trophy Tour della Supercoppa LBA SisalClub 2026, in collaborazione con Sky: Amedeo Tessitori ospite del \"Porte di Mestre\"",
       "url": "https://www.legabasket.it/news/139419/tessitori-sky",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1417,7 +1498,7 @@
       "strategy": "sitemap",
       "title": "La Bertram Derthona Tortona vince in amichevole per 95-79 contro gli Antibes Sharks",
       "url": "https://www.legabasket.it/news/139416/tortona-antibes-shark",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1437,7 +1518,7 @@
       "strategy": "sitemap",
       "title": "L&apos;Openjobmetis Varese batte la Pallacanestro Trieste per 104-65 nell&apos;amichevole della Valtellina Summer League",
       "url": "https://www.legabasket.it/news/139406/trieste-varese-valtellina-summer-league",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1457,7 +1538,7 @@
       "strategy": "sitemap",
       "title": "Pallacanestro Trieste, sconfitta per 91-81 in amichevole contro la Fortitudo Bologna",
       "url": "https://www.legabasket.it/news/139399/trieste-fortitudo-bologna",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1478,7 +1559,7 @@
       "strategy": "sitemap",
       "title": "La Nutribullet Treviso vince in Francia per 89-94 nell&apos;amichevole contro Nanterre 92",
       "url": "https://www.legabasket.it/news/139404/treviso-nanterre-92",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1497,7 +1578,7 @@
       "strategy": "sitemap",
       "title": "La Dolomiti Energia Trentino batte l&apos;Acqua S.Bernardo Cantù per 77-96 nell&apos;amichevole della Valtellina Summer League",
       "url": "https://www.legabasket.it/news/139401/trento-cantu-amichevole",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1515,7 +1596,7 @@
       "strategy": "sitemap",
       "title": "La BC Roma batte Rieti per 85-64 nella prima amichevole prestagionale",
       "url": "https://www.legabasket.it/news/139397/bc-roma-rieti",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1531,7 +1612,7 @@
       "strategy": "sitemap",
       "title": "La Nutribullet Treviso vince per 85-89 l&apos;amichevole sul campo della Tezenis Verona",
       "url": "https://www.legabasket.it/news/139360/verona-treviso-preseason",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1550,7 +1631,7 @@
       "strategy": "sitemap",
       "title": "L’APU Old Wild West Udine vince la prima amichevole stagionale: finisce 101-86 contro Mestre",
       "url": "https://www.legabasket.it/news/139358/udine-mestre",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1570,7 +1651,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, successo per 83-78 nell&apos;amichevole contro Cividale",
       "url": "https://www.legabasket.it/news/139362/venezia-cividale",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1589,7 +1670,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, sconfitta per 94-107 in amichevole contro l&apos;Igokea",
       "url": "https://www.legabasket.it/news/139356/napoli-igokea",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1607,7 +1688,7 @@
       "strategy": "sitemap",
       "title": "Nutribullet Treviso Basket, successo per 107-74 contro Cividale in amichevole",
       "url": "https://www.legabasket.it/news/139325/treviso-cividale",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1628,7 +1709,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, superata la Juvi Cremona in amichevole (92-72)",
       "url": "https://www.legabasket.it/news/139324/varese-juvi-cremona",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1648,7 +1729,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, la spinta di Parks: \"Vogliamo tornare a giocarci lo Scudetto. La Supercoppa? Mi entusiasma, cercheremo di vincerla\"",
       "url": "https://www.legabasket.it/news/139349/venezia-parks",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1667,7 +1748,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, vittoria nell’amichevole contro lo Spartak Subotica per 70-66",
       "url": "https://www.legabasket.it/news/139322/napoli-spartak-subotica",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -1686,7 +1767,7 @@
       "strategy": "sitemap",
       "title": "Bertram Derthona Tortona, Siim-Sander Vene aggregato per la preseason",
       "url": "https://www.legabasket.it/news/139330/tortona-siim-sander-vene",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "preseason",
         "preseason"
@@ -1699,21 +1780,6 @@
         "Tortona"
       ],
       "score": 7
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Supercoppa LBA 2026: Moses Wright è l'MVP",
-      "url": "https://sportando.basketball/supercoppa-lba-2026-moses-wright-e-lmvp/",
-      "published": "Sun, 20 Sep 2026 17:36:59 +0000",
-      "matchedKeywords": [
-        "supercoppa"
-      ],
-      "matchedClubs": [
-        "Supercoppa"
-      ],
-      "score": 6
     },
     {
       "outlet": "gigantes",
@@ -1766,7 +1832,7 @@
       "strategy": "sitemap",
       "title": "Giuseppe Poeta vince la sua prima Supercoppa da capoallenatore",
       "url": "https://www.legabasket.it/news/139529/giuseppe-poeta-vince-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1781,7 +1847,7 @@
       "strategy": "sitemap",
       "title": "Devon Hall è il Best Assistman Frecciarossa della Supercoppa SisalClub 2026",
       "url": "https://www.legabasket.it/news/139531/best-assistman-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1796,7 +1862,7 @@
       "strategy": "sitemap",
       "title": "Moses Wright è l&apos;MVP SisalClub della Supercoppa SisalClub 2026",
       "url": "https://www.legabasket.it/news/139530/xxx-mvp-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1811,7 +1877,7 @@
       "strategy": "sitemap",
       "title": "Supercoppa LBA SisalClub 2026, un minuto di raccoglimento per la scomparsa di Sandro Mazzola e Gianfranco Pieri",
       "url": "https://www.legabasket.it/news/139525/supercoppa-minuto-raccoglimento",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1826,7 +1892,7 @@
       "strategy": "sitemap",
       "title": "Alex Mumbrù ospite nel podcast “A canestro” su RaiPlaySound in vista della Supercoppa LBA SisalClub: \"Tutti vorrebbero avere la possibilità di allenare un club come questo\"",
       "url": "https://www.legabasket.it/news/139486/alex-mumbru-a-canestro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1841,7 +1907,7 @@
       "strategy": "sitemap",
       "title": "Supercoppa SisalClub 2026, la guida statistica",
       "url": "https://www.legabasket.it/news/139517/supercoppa-2026-guida-statistica",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1856,7 +1922,7 @@
       "strategy": "sitemap",
       "title": "Registrati su MyLBA, gioca al Predictor e pronostica i risultati delle semifinali della Supercoppa LBA SisalClub 2026!",
       "url": "https://www.legabasket.it/news/139516/predictor-semifinali-supercoppa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1871,7 +1937,7 @@
       "strategy": "sitemap",
       "title": "A Milano continua il \"Trophy Tour\" della Supercoppa LBA Sisal Club 2026 in collaborazione con Sky. Oggi alle 15.00 il \"Meet&Greet\" con Giampaolo Ricci",
       "url": "https://www.legabasket.it/news/139443/milano-trophy-tour",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1886,7 +1952,7 @@
       "strategy": "sitemap",
       "title": "Mario Fioretti ospite nel podcast “A canestro” su RaiPlaySound in vista della Supercoppa LBA SisalClub: \"Giocando in casa potremo avere le nostre chances\"",
       "url": "https://www.legabasket.it/news/139485/mario-fioretti-a-canestro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1901,7 +1967,7 @@
       "strategy": "sitemap",
       "title": "Neven Spahija ospite nel podcast “A canestro” su RaiPlaySound in vista della Supercoppa LBA SisalClub: \"La mia ambizione è sempre quella di provare a vincere un trofeo\"",
       "url": "https://www.legabasket.it/news/139479/spahija-a-canestro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1916,7 +1982,7 @@
       "strategy": "sitemap",
       "title": "Peppe Poeta ospite nel podcast “A canestro” su RaiPlaySound in vista della Supercoppa LBA SisalClub: \"Resettiamo da quanto di storico fatto lo scorso anno\"",
       "url": "https://www.legabasket.it/news/139478/peppe-poeta-a-canestro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1931,7 +1997,7 @@
       "strategy": "sitemap",
       "title": "Su RaiPlaySound è online “A Canestro” il podcast dedicato alla Supercoppa LBA SisalClub. Ospiti il presidente Gherardini ed i 4 allenatori delle 4 sfidanti",
       "url": "https://www.legabasket.it/news/139474/a-canestro",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1946,37 +2012,7 @@
       "strategy": "sitemap",
       "title": "A Bologna prosegue il \"Trophy Tour\" della Supercoppa LBA Sisal Club 2026 in collaborazione con Sky. Oggi alle 17.00 il \"Meet&Greet\" con Daniel Hackett",
       "url": "https://www.legabasket.it/news/139437/trophy-tour-daniel-hackett",
-      "published": "2026-09-20T18:54:03.926Z",
-      "matchedKeywords": [
-        "supercoppa"
-      ],
-      "matchedClubs": [
-        "Supercoppa"
-      ],
-      "score": 6
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Marco Tiso, Managing Director Sisal Italy: \"La Supercoppa è l&apos;inizio del percorso che unisce SisalClub alla LBA\"",
-      "url": "https://www.legabasket.it/news/139430/marco-tiso-sisal",
-      "published": "2026-09-20T18:54:03.926Z",
-      "matchedKeywords": [
-        "supercoppa"
-      ],
-      "matchedClubs": [
-        "Supercoppa"
-      ],
-      "score": 6
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
-      "title": "Supercoppa LBA SisalClub 2026, definita la copertura televisiva. Tutte le partite su LBATV saranno free",
-      "url": "https://www.legabasket.it/news/139434/supercoppa-sisalclub-2026-programmazione-televisiva",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -1991,7 +2027,22 @@
       "strategy": "sitemap",
       "title": "Supercoppa LBA SisalClub 2026, aperta la vendita libera dei biglietti per le singole giornate di gara",
       "url": "https://www.legabasket.it/news/139435/supercoppa-sisalclub-vendita-biglietti",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
+      "matchedKeywords": [
+        "supercoppa"
+      ],
+      "matchedClubs": [
+        "Supercoppa"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Marco Tiso, Managing Director Sisal Italy: \"La Supercoppa è l&apos;inizio del percorso che unisce SisalClub alla LBA\"",
+      "url": "https://www.legabasket.it/news/139430/marco-tiso-sisal",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -2006,7 +2057,22 @@
       "strategy": "sitemap",
       "title": "Alessandro Giacomini, Managing Director Infront Italy: \"La LBA si conferma anche per la Supercoppa solida e attrattiva per gli sponsor\"",
       "url": "https://www.legabasket.it/news/139432/giacomini-infront",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
+      "matchedKeywords": [
+        "supercoppa"
+      ],
+      "matchedClubs": [
+        "Supercoppa"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
+      "title": "Supercoppa LBA SisalClub 2026, definita la copertura televisiva. Tutte le partite su LBATV saranno free",
+      "url": "https://www.legabasket.it/news/139434/supercoppa-sisalclub-2026-programmazione-televisiva",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -2021,7 +2087,7 @@
       "strategy": "sitemap",
       "title": "Al Palasport Flaminio la Virtus Bologna vince 79-83 la prima amichevole della stagione contro Rimini",
       "url": "https://www.legabasket.it/news/139398/virtus-bologna-rimini",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "amichevole"
       ],
@@ -2036,7 +2102,7 @@
       "strategy": "sitemap",
       "title": "SisalClub è il title sponsor della Supercoppa LBA 2026",
       "url": "https://www.legabasket.it/news/139303/supercoppa-lba-sisalclub-2026",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "supercoppa"
       ],
@@ -2299,6 +2365,50 @@
       "score": 6
     },
     {
+      "outlet": "club:t_a7a29a23",
+      "club": "בוסנה סרייבו",
+      "lang": "auto",
+      "strategy": "club-page",
+      "title": "לוח משחקים — בוסנה סרייבו",
+      "url": "https://kkbosna.ba/kalendar/utakmice/",
+      "published": null,
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "בוסנה סרייבו"
+      ],
+      "score": 6
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "Partizan Belgrado, Vildoza e Pajola brillano contro Bourg",
+      "url": "https://sportando.basketball/partizan-belgrado-vildoza-e-pajola-brillano-contro-bourg/",
+      "published": "Sun, 20 Sep 2026 19:30:00 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Partizan Belgrad",
+        "Partizan",
+        "Bourg"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "sportando",
+      "lang": "it",
+      "strategy": "rss",
+      "title": "La Penya demolisce il Barça e conquista la Supercopa. Laprovittola MVP",
+      "url": "https://sportando.basketball/la-penya-demolisce-il-barca-e-conquista-la-supercopa-laprovittola-mvp/",
+      "published": "Sun, 20 Sep 2026 19:01:58 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Joventut",
+        "Barça",
+        "BARÇA"
+      ],
+      "score": 5
+    },
+    {
       "outlet": "gigantes",
       "lang": "es",
       "strategy": "rss",
@@ -2333,6 +2443,53 @@
       "outlet": "eurohoops",
       "lang": "en",
       "strategy": "rss",
+      "title": "Laprovittola shines as Joventut Badalona wins Spanish Super Cup",
+      "url": "https://www.eurohoops.net/en/acb/2010417/laprovittola-shines-as-joventut-badalona-wins-spanish-super-cup/",
+      "published": "Sun, 20 Sep 2026 19:06:16 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Joventut Badalona",
+        "joventut badalona",
+        "Joventut",
+        "Barça",
+        "BARÇA"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "30άρης Λαπροβίτολα \"εκτέλεσε\" την Μπαρτσελόνα κι έδωσε το SuperCooa στην Μπανταλόνα",
+      "url": "https://www.eurohoops.net/el/acb-el/2010413/o-triantaris-laprovitola-ektelese-tin-proin-bartselona-ke-edose-to-super-cup-stin-bantalona/",
+      "published": "Sun, 20 Sep 2026 19:04:12 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Μπαρτσελόνα",
+        "Μπανταλόνα",
+        "Άρης"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "Salon Vilpas and RASTA Vechta qualify for the Basketball Champions League",
+      "url": "https://www.eurohoops.net/en/fiba-champions-league/2010402/salon-vilpas-qualifies-for-the-basketball-champions-league/",
+      "published": "Sun, 20 Sep 2026 18:37:09 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Salon Vilpas",
+        "Rasta Vechta",
+        "RASTA Vechta"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
       "title": "Paris Basketball dominates Roanne to win French Super Cup",
       "url": "https://www.eurohoops.net/en/proa/2010382/paris-basketball-dominates-roanne-to-win-french-super-cup/",
       "published": "Sun, 20 Sep 2026 17:36:32 +0000",
@@ -2358,6 +2515,21 @@
         "Αρμάνι Μιλάνο",
         "Βενέτσια",
         "Αρμάνι"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "Olimpia Milano crowned Italian Super Cup champions after overtime thriller",
+      "url": "https://www.eurohoops.net/en/legabasket/2010364/olimpia-milano-crowned-italian-super-cup-champions-after-overtime-thriller/",
+      "published": "Sun, 20 Sep 2026 17:24:43 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Olimpia Milano",
+        "OLIMPIA MILANO",
+        "Olimpia"
       ],
       "score": 5
     },
@@ -2568,17 +2740,34 @@
       "score": 5
     },
     {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Γιατί ο Παναθηναϊκός θα δώσει επτά από τα οκτώ πρώτα παιχνίδια στην EuroLeague εντός έδρας Γιατί ο Παναθηναϊκός θα δώσει επτά από τα οκτώ πρώτα παιχνίδια στην EuroLeague εντός έδρας",
-      "url": "https://www.sport24.gr/basket/panathinaikos-giati-oi-prasinoi-tha-dosoun-epta-apo-ta-okto-prota-paixnidia-stin-euroleague-entos-edras/",
-      "published": "",
+      "outlet": "basketdergisi",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "İspanya Süper Kupası'nda zafer Joventut'un",
+      "url": "https://basketdergisi.com/ispanya-super-kupasinda-zafer-joventutun.html",
+      "published": "Sun, 20 Sep 2026 20:05:36 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Panathinaikos",
-        "Παναθηναϊκός",
-        "Αθηναϊκός"
+        "Asisa Joventut",
+        "ASISA Joventut",
+        "ASISA JOVENTUT",
+        "Barcelona",
+        "Joventut"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "basketdergisi",
+      "lang": "tr",
+      "strategy": "rss",
+      "title": "Mike James yıldızlaştı, Anadolu Efes VTB Super Cup’ı kazandı",
+      "url": "https://basketdergisi.com/mike-james-yildizlasti-anadolu-efes-vtb-super-cupi-kazandi.html",
+      "published": "Sun, 20 Sep 2026 19:11:38 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Lokomotiv Kuban",
+        "Anadolu Efes",
+        "Lokomotiv"
       ],
       "score": 5
     },
@@ -2593,7 +2782,8 @@
       "matchedClubs": [
         "Chorale Roanne",
         "Roanne",
-        "ASVEL"
+        "ASVEL",
+        "Asvel"
       ],
       "score": 5
     },
@@ -2660,38 +2850,6 @@
       "score": 5
     },
     {
-      "outlet": "basketdergisi",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "Real Madrid adını finale yazdırdı",
-      "url": "https://basketdergisi.com/real-madrid-adini-finale-yazdirdi.html",
-      "published": "Fri, 18 Sep 2026 19:42:34 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Dubai Basketball",
-        "Dubai Basket",
-        "Real Madrid",
-        "Olympiacos",
-        "Dubai"
-      ],
-      "score": 5
-    },
-    {
-      "outlet": "basketdergisi",
-      "lang": "tr",
-      "strategy": "rss",
-      "title": "Jasikevicius: Bizim hatalarımızla Olympiakos geri döndü",
-      "url": "https://basketdergisi.com/jasikevicius-bizim-hatalarimizla-olympiakos-geri-dondu.html",
-      "published": "Fri, 18 Sep 2026 16:26:35 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Fenerbahçe Tarfin",
-        "Olympiakos",
-        "Fenerbahçe"
-      ],
-      "score": 5
-    },
-    {
       "outlet": "hotsport",
       "lang": "sr",
       "strategy": "rss",
@@ -2703,6 +2861,25 @@
         "Panatinaikos",
         "Real Madrid",
         "Partizan"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "bebasket",
+      "lang": "fr",
+      "strategy": "rss",
+      "title": "Tombeur de l’ASVEL et difficilement battu par Paris, Antoine Diot tire de « très bons enseignements » de la SuperCoupe pour Roanne",
+      "url": "https://www.bebasket.fr/tombeur-de-lasvel-et-difficilement-battu-par-paris-antoine-diot-tire-de-tres-bons-enseignements-de-la-supercoupe-pour-roanne",
+      "published": "2026-09-20T19:58:35+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "L’ASVEL",
+        "Roanne",
+        "ASVEL",
+        "Asvel",
+        "Paris",
+        "ARIS",
+        "Aris"
       ],
       "score": 5
     },
@@ -2790,34 +2967,47 @@
       "score": 5
     },
     {
-      "outlet": "bebasket",
-      "lang": "fr",
+      "outlet": "basket247",
+      "lang": "el",
       "strategy": "rss",
-      "title": "Porté par le duo Warren – Hifi, Paris domine Nanterre et rejoint Roanne en finale de la SuperCoupe",
-      "url": "https://www.bebasket.fr/en-dominant-nanterre-en-demi-finale-paris-rejoint-roanne-en-finale-de-la-supercoupe",
-      "published": "2026-09-19T19:18:20+00:00",
+      "title": "Κύπελλο Ανδρών – UNICEF Trophy: Τα αποτελέσματα",
+      "url": "https://www.basket247.gr/kupello-andrwn-unicef-trophy-ta-apotelesmata/",
+      "published": "Sun, 20 Sep 2026 20:58:31 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Nanterre",
-        "Roanne",
-        "Paris",
-        "ARIS",
-        "Aris"
+        "Σπόρτιγκ",
+        "ΑΓΕΧ",
+        "ΧΑΝΘ"
       ],
       "score": 5
     },
     {
-      "outlet": "bebasket",
-      "lang": "fr",
+      "outlet": "basket247",
+      "lang": "el",
       "strategy": "rss",
-      "title": "Beaucoup de déchets dans le jeu, peu de vécu collectif : Tony Parker veut retenir le caractère de l’ASVEL malgré la défaite contre Roanne",
-      "url": "https://www.bebasket.fr/beaucoup-de-dechets-dans-le-jeu-peu-de-vecu-collectif-tony-parker-veut-retenir-le-caractere-de-lasvel-malgre-la-defaite-contre-roanne",
-      "published": "2026-09-19T18:30:51+00:00",
+      "title": "Κατέκτησε το Super Cup της VTB League η Εφές! (video)",
+      "url": "https://www.basket247.gr/katektise-to-super-cup-tis-vtb-league-i-efes-video/",
+      "published": "Sun, 20 Sep 2026 20:06:28 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "L’ASVEL",
-        "Roanne",
-        "ASVEL"
+        "Λοκομοτίβ Κουμπάν",
+        "Αναντολού Εφές",
+        "Εφές"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "basket247",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Πήρε το Super Cup στην Ιταλία η Αρμάνι Μιλάνο (video)",
+      "url": "https://www.basket247.gr/pire-to-super-cup-stin-italia-i-armani-milano-video/",
+      "published": "Sun, 20 Sep 2026 20:02:49 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Αρμάνι Μιλάνο",
+        "Βενέτσια",
+        "Αρμάνι"
       ],
       "score": 5
     },
@@ -3098,6 +3288,21 @@
       "outlet": "allstarbasket",
       "lang": "el",
       "strategy": "sitemap",
+      "title": "olimpia milano efyge apo ti zoi o kathigitis tzianfranko pieri",
+      "url": "https://www.allstarbasket.gr/diethni/euroleague/olimpia-milano-efyge-apo-ti-zoi-o-kathigitis-tzianfranko-pieri",
+      "published": "2026-09-15T08:06:45+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Olimpia Milano",
+        "OLIMPIA MILANO",
+        "Olimpia"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
       "title": "paok to video apo ti niki minyma epi tis armani milano video",
       "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-to-video-apo-ti-niki-minyma-epi-tis-armani-milano-video",
       "published": "2026-09-13T08:24:09+00:00",
@@ -3271,13 +3476,14 @@
       "strategy": "sitemap",
       "title": "Wright e Bolmaro dominanti, l&apos;Armani Olimpia Milano batte la Virtus Costa Bologna per 80-71 in semifinale",
       "url": "https://www.legabasket.it/news/139490/highlights-olimpia-milano-virtus-bologna",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Virtus Costa Bologna",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Semifinale",
         "Olimpia",
         "Armani"
@@ -3290,7 +3496,7 @@
       "strategy": "sitemap",
       "title": "Conclusa la semifinale Milano - Bologna: vince l’Armani Olimpia 80-71!",
       "url": "https://www.legabasket.it/news/139492/live-blog-olimpia-milano-virtus-bologna",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Semifinale",
@@ -3305,7 +3511,7 @@
       "strategy": "sitemap",
       "title": "L&apos;Umana Reyer Venezia piega la Bertram Derthona Tortona per 90-98 trascinata da Watson",
       "url": "https://www.legabasket.it/news/139489/highlights-tortona-venezia",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -3326,7 +3532,7 @@
       "strategy": "sitemap",
       "title": "Conclusa la semifinale Tortona - Venezia: vince l’Umana Reyer 90-98",
       "url": "https://www.legabasket.it/news/139491/live-blog-derthona-tortona-reyer-venezia",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer",
@@ -3341,12 +3547,13 @@
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano, la carica di Wright: \"Partire bene conta. Questo è un grande club\"",
       "url": "https://www.legabasket.it/news/139523/milano-wright",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -3358,7 +3565,7 @@
       "strategy": "sitemap",
       "title": "La Dolomiti Energia Trentino in rimonta batte l&apos;APU Old Wild West Udine per 91-87 e vince la dodicesima edizione del Memorial “Gianni Brusinelli”",
       "url": "https://www.legabasket.it/news/139520/trento-udine-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -3377,7 +3584,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, battuta la Libertas Livorno per 88-83 in uno scrimmage",
       "url": "https://www.legabasket.it/news/139514/varese-libertas-livorno",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -3395,13 +3602,14 @@
       "strategy": "sitemap",
       "title": "Ecco i nuovi dell’Armani Olimpia Milano, Hall: “Torno per vivere una nuova sfida”",
       "url": "https://www.legabasket.it/news/139515/nuovi-milano",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "L’Armani Olimpia Milano",
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -3413,7 +3621,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, presentati Dowtin Jr., Jakimovski e Ramsey",
       "url": "https://www.legabasket.it/news/139509/napoli-dowtin-jakimovski-ramsey",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -3428,7 +3636,7 @@
       "strategy": "sitemap",
       "title": "Longobardi Scafati Basket, ufficiale il colpo Rodney McGruder",
       "url": "https://www.legabasket.it/news/139494/scafati-basket-ufficiale-rodney-mcgruder",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -3444,7 +3652,7 @@
       "strategy": "sitemap",
       "title": "Kaleb Tarczewski torna in Italia, accordo con il Napoli Basketball",
       "url": "https://www.legabasket.it/news/139493/kaleb-tarczewski-napoli",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -3457,9 +3665,24 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
+      "title": "Addio a Gianfranco Pieri, storico playmaker dell&apos;Olimpia Milano con cui vinse 9 scudetti",
+      "url": "https://www.legabasket.it/news/139483/giampaolo-pieri",
+      "published": "2026-09-20T21:36:09.617Z",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Olimpia Milano",
+        "OLIMPIA MILANO",
+        "Olimpia"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
       "title": "L&apos;Openjobmetis Varese conquista il Torneo di Matera, vittoria in finale contro la BC Roma per 96-92",
       "url": "https://www.legabasket.it/news/139477/varese-bc-roma-torneo-matera",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -3475,7 +3698,7 @@
       "strategy": "sitemap",
       "title": "L’APU Old Wild West Udine vince a Istrana contro la Nutribullet Treviso Basket (84-72)",
       "url": "https://www.legabasket.it/news/139476/udine-treviso-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Nutribullet Treviso Basket",
@@ -3498,7 +3721,7 @@
       "strategy": "sitemap",
       "title": "Il Napoli Basketball vince la finale per il 3° posto del Torneo di Matera contro la Longobardi Scafati Basket (106-90)",
       "url": "https://www.legabasket.it/news/139475/napoli-scafati-torneo-matera",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -3515,9 +3738,25 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
+      "title": "La Dolomiti Energia Trentino conquista la Garda Ball Elite superando la Tezenis Verona per 86-78",
+      "url": "https://www.legabasket.it/news/139471/trento-verona-preseason",
+      "published": "2026-09-20T21:36:09.617Z",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Dolomiti Energia Trentino",
+        "Dolomiti Energia",
+        "Tezenis Verona",
+        "Verona"
+      ],
+      "score": 5
+    },
+    {
+      "outlet": "legabasket",
+      "lang": "it",
+      "strategy": "sitemap",
       "title": "La BC Roma vince la seconda semifinale del Torneo di Matera, superata la Longobardi Scafati Basket per 93-92",
       "url": "https://www.legabasket.it/news/139472/bc-roma-scafati-preseeason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -3533,25 +3772,9 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
-      "title": "La Dolomiti Energia Trentino conquista la Garda Ball Elite superando la Tezenis Verona per 86-78",
-      "url": "https://www.legabasket.it/news/139471/trento-verona-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Dolomiti Energia Trentino",
-        "Dolomiti Energia",
-        "Tezenis Verona",
-        "Verona"
-      ],
-      "score": 5
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
       "title": "L&apos;Openjobmetis Varese conquista per 102-98 la semifinale del Torneo di Matera contro il Napoli Basketball",
       "url": "https://www.legabasket.it/news/139468/varese-torneo-di-matera-napoli",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -3569,13 +3792,14 @@
       "lang": "it",
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano, parla coach Poeta: \"Vorrei che a nessuno piacesse giocare contro di noi”",
-      "url": "https://www.legabasket.it/news/139464/milano-poeta",
-      "published": "2026-09-20T18:54:03.926Z",
+      "url": "https://www.legabasket.it/news/139463/milano-poeta",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -3586,13 +3810,14 @@
       "lang": "it",
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano, parla coach Poeta: \"Vorrei che a nessuno piacesse giocare contro di noi”",
-      "url": "https://www.legabasket.it/news/139463/milano-poeta",
-      "published": "2026-09-20T18:54:03.926Z",
+      "url": "https://www.legabasket.it/news/139464/milano-poeta",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -3604,7 +3829,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, la presentazione ufficiale di Enoch Boakye e Sasha Grant",
       "url": "https://www.legabasket.it/news/139462/reyer-venezia-presentazione-ufficiale-enoch-boakye-sasha-grant",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -3620,7 +3845,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù - Napoli Basketball domenica 11 ottobre anticipata alle ore 17.00 (live su LBATV)",
       "url": "https://www.legabasket.it/news/139460/cantu-napoli-ore-17-00",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -3637,7 +3862,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, Erick Green è un nuovo giocatore orogranata",
       "url": "https://www.legabasket.it/news/139458/reyer-venezia-erick-green-nuovo-giocatore",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -3653,7 +3878,7 @@
       "strategy": "sitemap",
       "title": "La Dolomiti Energia Trentino vince per 81-87 la semifinale del Garda Ball Elite contro l&apos;Umana Reyer Venezia",
       "url": "https://www.legabasket.it/news/139456/trento-venezia-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -3672,7 +3897,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, presentati William McDowell-White ed Isaiah Roby",
       "url": "https://www.legabasket.it/news/139455/pallacanestro-varese-presentati-william-mcdowell-white-ed-isaiah-roby",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -3687,7 +3912,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, la presentazione ufficiale di Marco Spissu, Markel Brown e John Petrucelli",
       "url": "https://www.legabasket.it/news/139454/napoli-basketball-presentazione-ufficiale-di-marco-spissu-markel-brown-e-john-petrucelli",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -3702,7 +3927,7 @@
       "strategy": "sitemap",
       "title": "Marco Picchi, Presidente Bertram Derthona Tortona: \"Orgogliosi di ospitare una manifestazione di questo tipo\"",
       "url": "https://www.legabasket.it/news/139433/marco-picchi-derthona-tortona",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -3719,7 +3944,7 @@
       "strategy": "sitemap",
       "title": "La Virtus Bologna vince il Memorial Bertolazzi, battuta la Bertram Derthona Tortona per 88-73",
       "url": "https://www.legabasket.it/news/139445/bologna-tortona-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -3737,7 +3962,7 @@
       "strategy": "sitemap",
       "title": "La Tezenis Verona vince la semifinale del Torneo di Lonato per 88-86 contro l&apos;Acqua S.Bernardo Cantù",
       "url": "https://www.legabasket.it/news/139449/verona-cantu-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -3754,7 +3979,7 @@
       "strategy": "sitemap",
       "title": "Pallacanestro Trieste, ufficiale l&apos;innesto di Langston Galloway",
       "url": "https://www.legabasket.it/news/139439/pallacanestro-trieste-ufficiale-langston-galloway",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -3769,7 +3994,7 @@
       "strategy": "sitemap",
       "title": "UNA Hotels Reggio Emilia, il punto di Echenique: \"Rimanere qui era la priorità\"",
       "url": "https://www.legabasket.it/news/139442/reggio-emilia-echenique",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -3785,7 +4010,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, Jabari Rice ha riportato una frattura composta al quinto metatarso",
       "url": "https://www.legabasket.it/news/139438/reyer-venezia-jabari-rice-frattura",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -3801,7 +4026,7 @@
       "strategy": "sitemap",
       "title": "UNA Hotels Reggio Emilia, parla Barford: \"Stiamo cercando di inserire al meglio tutti i nuovi\"",
       "url": "https://www.legabasket.it/news/139428/reggio-emilia-barford",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -3817,7 +4042,7 @@
       "strategy": "sitemap",
       "title": "Il Napoli Basketball cede per 74-100 nella finale del Memorial Pajetta contro il PAOK Salonicco",
       "url": "https://www.legabasket.it/news/139420/finale-memorial-pajetta",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -3835,7 +4060,7 @@
       "strategy": "sitemap",
       "title": "La Nutribullet Treviso Basket si arrende in finale al JL Bourg-En-Bresse nell&apos;AIN Star Game (100-85)",
       "url": "https://www.legabasket.it/news/139425/treviso-bourg",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Nutribullet Treviso Basket",
@@ -3856,7 +4081,7 @@
       "strategy": "sitemap",
       "title": "Valtellina Summer League, l&apos;Openjobmetis Varese batte l&apos;Acqua S.Bernardo Cantù per 89-68",
       "url": "https://www.legabasket.it/news/139424/valtellina-varese-cantu",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -3873,7 +4098,7 @@
       "strategy": "sitemap",
       "title": "La UNA Hotels Reggio Emilia rimonta l&apos;APU Old Wild West Udine e vince 80-74 la finale per il 3° posto del Memorial Pajetta",
       "url": "https://www.legabasket.it/news/139423/reggio-emilia-udine-pajetta",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -3894,13 +4119,14 @@
       "strategy": "sitemap",
       "title": "L’Armani Olimpia Milano chiude il Torneo di Creta con un k.o. contro il Fenerbahçe (79-81)",
       "url": "https://www.legabasket.it/news/139422/milano-torneo-di-creta",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "L’Armani Olimpia Milano",
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Fenerbahçe",
         "Olimpia",
         "Armani"
@@ -3913,7 +4139,7 @@
       "strategy": "sitemap",
       "title": "A Jesolo l&apos;Umana Reyer Venezia vince la sfida contro la Tezenis Verona (95-83)",
       "url": "https://www.legabasket.it/news/139414/venezia-verona-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -3931,7 +4157,7 @@
       "strategy": "sitemap",
       "title": "La Maxima Roma vince il Torneo di Penne, battuta la Longobardi Scafati Basket per 85-71",
       "url": "https://www.legabasket.it/news/139413/scafati-maxima-roma-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -3949,7 +4175,7 @@
       "strategy": "sitemap",
       "title": "Il Napoli Basketball vince per 97-88 contro la UNA Hotels Reggio Emilia nella prima semifinale del Memorial Pajetta",
       "url": "https://www.legabasket.it/news/139417/napoli-reggio-emilia-preseason",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -3969,13 +4195,14 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano cede per 91-85 nella semifinale del Torneo di Creta contro la Stella Rossa Belgrado",
       "url": "https://www.legabasket.it/news/139403/milano-stella-rossa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Stella Rossa Belgrado",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Stella Rossa",
         "Semifinale",
         "Olimpia",
@@ -3989,7 +4216,7 @@
       "strategy": "sitemap",
       "title": "La Longobardi Scafati Basket vince la semifinale del Torneo di Penne contro Ruvo di Puglia (93-81)",
       "url": "https://www.legabasket.it/news/139412/scafati-ruvo-di-puglia",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -4008,7 +4235,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, Giovanni De Nicolao è pronto per la nuova stagione: \"Siamo una squadra con alte potenzialità\"",
       "url": "https://www.legabasket.it/news/139410/reyer-venezia-giovanni-de-nicolao-nuova-stagione",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -4024,12 +4251,13 @@
       "strategy": "sitemap",
       "title": "Su LBATV disponibile free il Torneo di Creta (4-6 settembre). Protagonista l&apos;Armani Olimpia Milano",
       "url": "https://www.legabasket.it/news/139409/creta-lbatv",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -4041,7 +4269,7 @@
       "strategy": "sitemap",
       "title": "Markel Brown lascia la Pallacanestro Trieste e torna al Napoli Basketball",
       "url": "https://www.legabasket.it/news/139405/trieste-napoli-markel-brown",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4059,7 +4287,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, presentati Duke Jr. e Ikangi: \"Felici di far parte di questo gruppo\"",
       "url": "https://www.legabasket.it/news/139408/varese-duke-ikangi",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -4074,7 +4302,7 @@
       "strategy": "sitemap",
       "title": "Jamar Smith è il nuovo Team Advisor della UNA Hotels Reggio Emilia",
       "url": "https://www.legabasket.it/news/139407/jamar-smith-reggio-emilia",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -4090,7 +4318,7 @@
       "strategy": "sitemap",
       "title": "Dolomiti Energia Trentino, k.o. in volata per 84-81 nella Valtellina Summer League contro la Fortitudo Bologna",
       "url": "https://www.legabasket.it/news/139396/trento-fortitudo-bologna",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -4108,7 +4336,7 @@
       "strategy": "sitemap",
       "title": "APU Old Wild West Udine, la conferenza stampa del presidente Pedone, del GM Conti e di coach Vertemati",
       "url": "https://www.legabasket.it/news/139402/udine-conferenza-stampa",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Apu Old Wild West Udine",
@@ -4125,7 +4353,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, vittoria per 104-65 contro il Krka Novo Mesto",
       "url": "https://www.legabasket.it/news/139395/napoli-krka-novo-mesto",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -4143,12 +4371,13 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano vince in rimonta per 76-75 lo scrimmage contro la Tezenis Verona",
       "url": "https://www.legabasket.it/news/139382/scrimmage-milano-verona",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Tezenis Verona",
         "Olimpia",
         "Armani",
@@ -4162,7 +4391,7 @@
       "strategy": "sitemap",
       "title": "Nutribullet Treviso Basket, il punto del presidente Contento: \"Partiamo da underdog ma fiduciosi\"",
       "url": "https://www.legabasket.it/news/139390/treviso-contento",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Nutribullet Treviso Basket",
@@ -4180,7 +4409,7 @@
       "strategy": "sitemap",
       "title": "Tezenis Verona, parla il vicepresidente Pedrollo: \"C&apos;è talento, i nuovi promettono bene\"",
       "url": "https://www.legabasket.it/news/139391/verona-pedrollo",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Tezenis Verona",
@@ -4195,7 +4424,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, presentato Ismael Kamagate: \"Abbiamo un grandissimo gruppo di giocatori\"",
       "url": "https://www.legabasket.it/news/139389/varese-presentato-ismael-kamagate",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -4210,7 +4439,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, la carica del DS Cavaliere: “Il club è proiettato verso una dimensione internazionale\"",
       "url": "https://www.legabasket.it/news/139384/napoli-cavaliere",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -4225,12 +4454,13 @@
       "strategy": "sitemap",
       "title": "Armani Olimpia Milano, l&apos;obiettivo di coach Poeta: \"I playoff da Eurolega sono un obiettivo e un sogno\"",
       "url": "https://www.legabasket.it/news/139383/milano-poeta",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -4242,7 +4472,7 @@
       "strategy": "sitemap",
       "title": "Pallacanestro Trieste, k.o. in volata contro l&apos;A2A Leonessa Brescia per 85-84",
       "url": "https://www.legabasket.it/news/139368/trieste-leonessa-brescia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4260,7 +4490,7 @@
       "strategy": "sitemap",
       "title": "La Dolomiti Energia Trentino batte la Juvi Cremona nella Melinda Cup (72-68)",
       "url": "https://www.legabasket.it/news/139363/trento-juvi-cremona",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -4277,7 +4507,7 @@
       "strategy": "sitemap",
       "title": "La UNA Hotels Reggio Emilia supera la Fortitudo 90-77 e si aggiudica il 4° Trofeo Sport Valley",
       "url": "https://www.legabasket.it/news/139380/reggio-emilia-fortitudo",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -4295,13 +4525,14 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano supera il test contro l&apos;Openjobmetis Varese (95-90)",
       "url": "https://www.legabasket.it/news/139361/scrimmage-milano-varese",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Openjobmetis Varese",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Openjobmetis",
         "Olimpia",
         "Armani",
@@ -4315,7 +4546,7 @@
       "strategy": "sitemap",
       "title": "La Bertram Derthona Tortona vince nel finale lo scrimmage contro l&apos;Acqua S.Bernardo Cantù (78-76)",
       "url": "https://www.legabasket.it/news/139359/tortona-cantu-preseason",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -4334,7 +4565,7 @@
       "strategy": "sitemap",
       "title": "Longobardi Scafati Basket, concluso il primo test stagionale contro la Juvecaserta",
       "url": "https://www.legabasket.it/news/139357/scafati-juvecaserta",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Longobardi Scafati Basket",
@@ -4351,7 +4582,7 @@
       "strategy": "sitemap",
       "title": "UNA Hotels Reggio Emilia, presentati ufficialmente Edwards e Visconti",
       "url": "https://www.legabasket.it/news/139376/reggio-emilia-edwards-visconti",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -4367,7 +4598,7 @@
       "strategy": "sitemap",
       "title": "APU Old Wild West Udine, parla il GM Conti: \"La Serie A di quest&apos;anno sarà di altissimo livello\"",
       "url": "https://www.legabasket.it/news/139374/udine-conti",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Apu Old Wild West Udine",
@@ -4384,7 +4615,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, presentati Nikolic: \"La città merita questa ambizione\". Hale: \"Abbiamo le idee chiare sui nostri obiettivi\"",
       "url": "https://www.legabasket.it/news/139372/varese-nikolic-hale",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -4399,7 +4630,7 @@
       "strategy": "sitemap",
       "title": "La Bertram Derthona Tortona conquista per 93-50 lo scrimmage interno contro la Wegreenit Urania Milano",
       "url": "https://www.legabasket.it/news/139355/tortona-urania-milano",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -4417,7 +4648,7 @@
       "strategy": "sitemap",
       "title": "UNA Hotels Reggio Emilia, presentati Speedy Smith e Derek Ogbeide",
       "url": "https://www.legabasket.it/news/139365/reggio-emilia-smith-ogbeide",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -4433,7 +4664,7 @@
       "strategy": "sitemap",
       "title": "Pallacanestro Trieste, la carica di Ross: \"Sono davvero felice di essere ancora qui\"",
       "url": "https://www.legabasket.it/news/139354/trieste-ross",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4448,7 +4679,7 @@
       "strategy": "sitemap",
       "title": "\"Futuro in Corso\": al via la Campagna Abbonamenti dell&apos;Umana Reyer Venezia 2026/27",
       "url": "https://www.legabasket.it/news/139351/abbonamenti-venezia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -4464,7 +4695,7 @@
       "strategy": "sitemap",
       "title": "Bertram Derthona Tortona, la carica di capitan Pecchia: \"Sarà una stagione intensa ma stimolante\"",
       "url": "https://www.legabasket.it/news/139348/tortona-pecchia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Bertram Derthona Tortona",
@@ -4481,7 +4712,7 @@
       "strategy": "sitemap",
       "title": "Bertram Derthona Tortona, k.o. nello scrimmage contro la Flats Service Fortitudo Bologna per 75-65",
       "url": "https://www.legabasket.it/news/139323/tortona-fortitudo-bologna",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Flats Service Fortitudo Bologna",
@@ -4505,7 +4736,7 @@
       "strategy": "sitemap",
       "title": "Tezenis Verona, CJ Massinburg si presenta: \"Qui voglio tornare a essere quello di una volta\"",
       "url": "https://www.legabasket.it/news/139347/verona-cj-massinburg",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Tezenis Verona",
@@ -4520,7 +4751,7 @@
       "strategy": "sitemap",
       "title": "Al via la campagna abbonamenti della Pallacanestro Trieste: “la nostra storia, il nostro patrimonio”",
       "url": "https://www.legabasket.it/news/139345/campagna-abbonamenti-pallacanestro-trieste",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4535,7 +4766,7 @@
       "strategy": "sitemap",
       "title": "Pallacanestro Trieste, il punto del GM Arcieri: \"Servirà pazienza per completare il roster\"",
       "url": "https://www.legabasket.it/news/139344/trieste-arcieri",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4550,7 +4781,7 @@
       "strategy": "sitemap",
       "title": "Al via la nuova stagione dell&apos;Umana Reyer Venezia. La conferenza stampa del presidente Casarin e di coach Spahija",
       "url": "https://www.legabasket.it/news/139341/nuova-stagione-venezia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -4566,7 +4797,7 @@
       "strategy": "sitemap",
       "title": "Primo giorno di allenamento: il gruppo della Pallacanestro Trieste torna in campo",
       "url": "https://www.legabasket.it/news/139342/primo-giorno-trieste",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pallacanestro Trieste",
@@ -4581,7 +4812,7 @@
       "strategy": "sitemap",
       "title": "Napoli Basketball, parla coach Repesa: \"Carico e entusiasta, credo molto in questo progetto\"",
       "url": "https://www.legabasket.it/news/139335/napoli-repesa",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Napoli Basketball",
@@ -4596,7 +4827,7 @@
       "strategy": "sitemap",
       "title": "Openjobmetis Varese, parla capitan Librizzi: \"Giocheremo per essere protagonisti in Italia e in Europa\"",
       "url": "https://www.legabasket.it/news/139331/varese-librizzi",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Openjobmetis Varese",
@@ -4611,7 +4842,7 @@
       "strategy": "sitemap",
       "title": "UNA Hotels Reggio Emilia, la carica di Rossato: \"Voglio continuare a crescere per me e le ambizioni del club\"",
       "url": "https://www.legabasket.it/news/139332/reggio-emilia-rossato",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "UNA Hotels Reggio Emilia",
@@ -4627,12 +4858,13 @@
       "strategy": "sitemap",
       "title": "L&apos;Armani Olimpia Milano ufficializza l&apos;arrivo della guardia Garrison Mathews",
       "url": "https://www.legabasket.it/news/139198/milano-garrison-mathews",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Armani Olimpia Milano",
         "ARMANI OLIMPIA MILANO",
         "Olimpia Milano",
+        "OLIMPIA MILANO",
         "Olimpia",
         "Armani"
       ],
@@ -4644,7 +4876,7 @@
       "strategy": "sitemap",
       "title": "Mirza Alibegovic lascia l’APU Old Wild West Udine e passa alla Maxima Roma",
       "url": "https://www.legabasket.it/news/139328/udine-mirza-alibegovic",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Apu Old Wild West Udine",
@@ -4663,7 +4895,7 @@
       "strategy": "sitemap",
       "title": "Umana Reyer Venezia, la carica di Bowman: \"Vincere sarà l&apos;unica cosa che conterà davvero anche quest&apos;anno\"",
       "url": "https://www.legabasket.it/news/139326/venezia-bowman",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Umana Reyer Venezia",
@@ -4689,16 +4921,16 @@
       "score": 5
     },
     {
-      "outlet": "sportacentrs",
-      "lang": "lv",
+      "outlet": "sportando",
+      "lang": "it",
       "strategy": "rss",
-      "title": "Tonijs Pārkers debitē ASVEL ar zaudējumu pret jaunāko brāli",
-      "url": "http://sportacentrs.com/basketbols/eirokausi/20092026-tonijs_parkers_debite_asvel_ar_zaudejumu_",
-      "published": "Sun, 20 Sep 2026 10:58:00 +0300",
+      "title": "Cholet Basket, Fabrice Lefrançois rinnova fino al 2030",
+      "url": "https://sportando.basketball/cholet-basket-fabrice-lefrancois-rinnova-fino-al-2030/",
+      "published": "Sun, 20 Sep 2026 20:45:00 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Roanne",
-        "ASVEL"
+        "Cholet Basket",
+        "Cholet"
       ],
       "score": 4
     },
@@ -4706,13 +4938,41 @@
       "outlet": "eurohoops",
       "lang": "en",
       "strategy": "rss",
-      "title": "Salon Vilpas qualifies for the Basketball Champions League",
-      "url": "https://www.eurohoops.net/en/fiba-champions-league/2010402/salon-vilpas-qualifies-for-the-basketball-champions-league/",
-      "published": "Sun, 20 Sep 2026 18:37:09 +0000",
+      "title": "ΑΕΚ: Η φινλανδική Σαλόν Βιλπάς στον όμιλό της, προκρίθηκε και η Ράστα Βέχτα",
+      "url": "https://www.eurohoops.net/el/fiba-champions-league-el/2010425/aek-i-finlandiki-salon-vilpas-ston-omilo-tis-prokrithike-ke-i-rasta-vechta/",
+      "published": "Sun, 20 Sep 2026 19:29:12 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Salon Vilpas",
-        "CSM Oradea"
+        "Σαλόν Βιλπάς",
+        "Ράστα Βέχτα"
+      ],
+      "score": 4
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "Ο Τζέιμς νίκησε τη Λοκομοτίβ του 20άρη Ποκουσέφσκι κι η Εφές κατέκτησε το VTB Super Cup",
+      "url": "https://www.eurohoops.net/el/euroleague-el-2/2010412/o-tzeims-nikise-ti-lokomotiv-tou-20ari-pokousefski-ki-i-efes-katektise-to-vtb-super-cup/",
+      "published": "Sun, 20 Sep 2026 19:05:30 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Λοκομοτίβ Κουμπάν",
+        "Εφές"
+      ],
+      "score": 4
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "La Penya derrota al Barça con la magia de Laprovittola y gana la Supercopa Endesa",
+      "url": "https://www.eurohoops.net/es/acb-es/2010395/la-penya-derrota-al-barca-con-la-magia-de-laprovittola-y-gana-la-supercopa-endesa/",
+      "published": "Sun, 20 Sep 2026 18:57:54 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Barça",
+        "BARÇA"
       ],
       "score": 4
     },
@@ -4727,20 +4987,6 @@
       "matchedClubs": [
         "Anadolu Efes",
         "Lokomotiv"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Olimpia Milano crowned Italian Super Cup champions after overtime thriller",
-      "url": "https://www.eurohoops.net/en/legabasket/2010364/olimpia-milano-crowned-italian-super-cup-champions-after-overtime-thriller/",
-      "published": "Sun, 20 Sep 2026 17:24:43 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Olimpia Milano",
-        "Olimpia"
       ],
       "score": 4
     },
@@ -4787,44 +5033,58 @@
       "score": 4
     },
     {
-      "outlet": "eurohoops",
-      "lang": "en",
+      "outlet": "telegraf",
+      "lang": "sr",
       "strategy": "rss",
-      "title": "Φορτσάτος Άρης για τρία δεκάλεπτα κέρδισε άνετα τη Μύκονο στο ντεμπούτο του Μοκόκα",
-      "url": "https://www.eurohoops.net/el/eurocup-el/2010336/aris-fortsatos-tria-dekalepta-sti-niki-kontra-sti-mikono/",
-      "published": "Sun, 20 Sep 2026 15:21:37 +0000",
+      "title": "Istorija ispisana u Moskvi: Efes osvojio VTB Superkup, a Aleksej Pokuševski blistao kao nikada do sada",
+      "url": "https://www.telegraf.rs/sport/kosarka/4400140-istorija-ispisana-u-moskvi-efes-osvojio-vtb-superkup-a-aleksej-pokusevki-blistao-kao-nikada-do-sada",
+      "published": "2026-09-20T22:26:10+02:00",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Μύκονο",
-        "Άρης"
+        "Anadolu Efes",
+        "Lokomotiv"
       ],
       "score": 4
     },
     {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Παναθηναϊκός blog: Ο Alpha dog Φρανσίσκο, ο… MVP Μπόνγκα και ο σέντερ",
-      "url": "https://www.eurohoops.net/el/editors-blogs/2010304/panathinaikos-blog-o-alpha-dog-fransisko-o-mvp-bongka-ke-o-senter/",
-      "published": "Sun, 20 Sep 2026 14:30:10 +0000",
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Πήρε τη νίκη ο Ηρακλής με τέσσερις διψήφιους και κορυφαίο τον Λεκιού απέναντι στην Μπάλκαν Πήρε τη νίκη ο Ηρακλής με τέσσερις διψήφιους και κορυφαίο τον Λεκιού απέναντι στην Μπάλκαν",
+      "url": "https://www.sport24.gr/basket/iraklis-balkan-botevgkrant-84-77-pire-ti-niki-o-giraios-me-tesseris-dipsifious-kai-korifaio-ton-lek/",
+      "published": "",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Παναθηναϊκός",
-        "Αθηναϊκός"
+        "Ηρακλής",
+        "Iraklis"
       ],
       "score": 4
     },
     {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Kevin Punter'dan Eski Takım Arkadaşına Cevap: \"Mathias Lessort Tam Bir Deli\"",
-      "url": "https://www.eurohoops.net/tr/euroleague-tr/2010318/kevin-punterdan-eski-takim-arkadasina-cevap-mathias-lessort-tam-bir-deli/",
-      "published": "Sun, 20 Sep 2026 14:22:06 +0000",
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Η Μπανταλόνα ξέρανε την Μπαρτσελόνα με 100άρα και μυθικό show του Λαπροβίτολα για να κατακτήσει το Super Cup Ισπανίας Η Μπανταλόνα ξέρανε την Μπαρτσελόνα με 100άρα και μυθικό show του Λαπροβίτολα για να κατακτήσει το Super Cup Ισπανίας",
+      "url": "https://www.sport24.gr/basket/i-bantalona-xerane-tin-bartselona-me-100ara-kai-mithiko-show-tou-laprovitola-gia-na-kataktisei-to-super-cup-ispanias/",
+      "published": "",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Barcelona",
-        "Partizan"
+        "Μπαρτσελόνα",
+        "Μπανταλόνα"
+      ],
+      "score": 4
+    },
+    {
+      "outlet": "sport24gr",
+      "lang": "el",
+      "strategy": "html",
+      "title": "Οι θεαματικές ασίστ του Μίλερ-ΜακΙντάιρ και η απογοήτευση των παικτών του Ολυμπιακού από την απώλεια του Super Cup της EuroLeague",
+      "url": "https://www.sport24.gr/basket/euroleague-basketball/oi-theamatikes-asist-tou-makintair-kai-i-apogoitefsi-ton-paikton-tou-olimpiakou-apo-tin-apoleia-tou-super-cup-tis-euroleague/",
+      "published": "",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακού",
+        "Olimpia"
       ],
       "score": 4
     },
@@ -4927,16 +5187,16 @@
       "score": 4
     },
     {
-      "outlet": "bebasket",
-      "lang": "fr",
+      "outlet": "basket247",
+      "lang": "el",
       "strategy": "rss",
-      "title": "ITW Darius Johnson, bourreau de l’ASVEL au bout d’un « vrai combat de chiens »",
-      "url": "https://www.bebasket.fr/itw-darius-johnson-bourreau-de-lasvel-au-bout-dun-vrai-combat-de-chiens",
-      "published": "2026-09-19T18:02:03+00:00",
+      "title": "Κατέκτησε το Super Cup στην Ισπανία η Μπανταλόνα με εκπληκτικό Λαπροβίτολα διέλυσε την Μπαρτσελόνα (video)",
+      "url": "https://www.basket247.gr/katektise-to-super-cup-stin-ispania-i-badalona-me-ekpliktiko-laprovitola-dieluse-tin-barcelona-video/",
+      "published": "Sun, 20 Sep 2026 19:59:45 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "L’ASVEL",
-        "ASVEL"
+        "Μπαρτσελόνα",
+        "Μπανταλόνα"
       ],
       "score": 4
     },
@@ -4946,7 +5206,7 @@
       "strategy": "sitemap",
       "title": "spanoylis eida afto pou ithela gia 30 lepta eimai efxaristimenos",
       "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/spanoylis-eida-afto-pou-ithela-gia-30-lepta-eimai-efxaristimenos",
-      "published": "2026-09-20T18:42:03+00:00",
+      "published": "2026-09-20T18:45:22+00:00",
       "matchedKeywords": [],
       "matchedClubs": [
         "ARIS",
@@ -5462,20 +5722,6 @@
       "outlet": "allstarbasket",
       "lang": "el",
       "strategy": "sitemap",
-      "title": "olimpia milano efyge apo ti zoi o kathigitis tzianfranko pieri",
-      "url": "https://www.allstarbasket.gr/diethni/euroleague/olimpia-milano-efyge-apo-ti-zoi-o-kathigitis-tzianfranko-pieri",
-      "published": "2026-09-15T08:06:45+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Olimpia Milano",
-        "Olimpia"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
       "title": "paok triponto apo tin eksedra o aleksanter sti media day video",
       "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/paok-triponto-apo-tin-eksedra-o-aleksanter-sti-media-day-video",
       "published": "2026-09-14T19:13:20+00:00",
@@ -5772,7 +6018,7 @@
       "strategy": "sitemap",
       "title": "Conclusa la finale Venezia - Milano. Vince l’Armani Olimpia per 87-94!",
       "url": "https://www.legabasket.it/news/139534/live-blog-milano-venezia",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Olimpia",
@@ -5786,7 +6032,7 @@
       "strategy": "sitemap",
       "title": "LBA Serie A SisalClub 2026/27, la preseason delle 16 squadre",
       "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [
         "preseason",
         "preseason"
@@ -5800,7 +6046,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, Davide Moretti entra ufficialmente a far parte del roster",
       "url": "https://www.legabasket.it/news/139510/pallacanestro-cantu-davide-moretti-ufficiale",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -5812,23 +6058,9 @@
       "outlet": "legabasket",
       "lang": "it",
       "strategy": "sitemap",
-      "title": "Addio a Gianfranco Pieri, storico playmaker dell&apos;Olimpia Milano con cui vinse 9 scudetti",
-      "url": "https://www.legabasket.it/news/139483/giampaolo-pieri",
-      "published": "2026-09-20T18:54:03.926Z",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Olimpia Milano",
-        "Olimpia"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "legabasket",
-      "lang": "it",
-      "strategy": "sitemap",
       "title": "Maxima Roma, segnali positivi dal Torneo Città di Cagliari",
       "url": "https://www.legabasket.it/news/139481/maxima-roma-cagliari",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -5842,7 +6074,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, parla il GM Giofrè: \"Conoscersi e capirsi in questo momento è molto importante\"",
       "url": "https://www.legabasket.it/news/139441/cantu-giofre",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -5856,7 +6088,7 @@
       "strategy": "sitemap",
       "title": "La nuova Brand Identity del Derthona Basket. Sindaco Chiodi e Presidente Picchi in coro: “Sistema visivo che rafforza legame tra Club e Città”",
       "url": "https://www.legabasket.it/news/139427/brand-identity-derthona",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Derthona Basket",
@@ -5870,7 +6102,7 @@
       "strategy": "sitemap",
       "title": "Scafati Basket si presenta, il patron Longobardi: “Pronti per le nuove sfide”",
       "url": "https://www.legabasket.it/news/139379/scafati-avellino-basket",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Scafati Basket",
@@ -5884,7 +6116,7 @@
       "strategy": "sitemap",
       "title": "Maxima Roma, Francesco Totti si unisce al club capitolino",
       "url": "https://www.legabasket.it/news/139394/maxima-roma-francesco-totti-unisce-club",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -5898,7 +6130,7 @@
       "strategy": "sitemap",
       "title": "BC Roma SPQR, Trentyn Flowers si presenta: \"Qui per creare una mentalità vincente\"",
       "url": "https://www.legabasket.it/news/139393/bc-roma-trentyn-flowers-presenta",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma SPQR",
@@ -5912,7 +6144,7 @@
       "strategy": "sitemap",
       "title": "BC Roma SPQR, ufficiale la risoluzione con Jesse Edwards",
       "url": "https://www.legabasket.it/news/139387/bc-roma-risoluzione-jesse-edwards",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma SPQR",
@@ -5926,7 +6158,7 @@
       "strategy": "sitemap",
       "title": "\"Back2Aquila\", lunedì 31 agosto al via la campagna abbonamenti per la stagione 2026/27 della Dolomiti Energia Trentino",
       "url": "https://www.legabasket.it/news/139377/campagna-abbonamenti-trento",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -5940,7 +6172,7 @@
       "strategy": "sitemap",
       "title": "Dolomiti Energia Trentino, presentati Bertini, Bigelow, Charles Brown e Olivari",
       "url": "https://www.legabasket.it/news/139371/trento-presentati",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -5954,7 +6186,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, parla capitan Moraschini: “Siamo una squadra con fisicità e che vorrà correre tanto\"",
       "url": "https://www.legabasket.it/news/139366/cantu-moraschini",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -5968,7 +6200,7 @@
       "strategy": "sitemap",
       "title": "Maxima Roma, parla coach Cotelli: \"Identità, costanza e passione per costruire il nostro futuro\"",
       "url": "https://www.legabasket.it/news/139352/roma-cotelli",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -5982,7 +6214,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, il punto di coach Vitucci: \"Buone sensazioni sul nuovo gruppo\"",
       "url": "https://www.legabasket.it/news/139350/cantu-vitucci",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -5996,7 +6228,7 @@
       "strategy": "sitemap",
       "title": "Gora Camara e Federico Bonacini sono ufficialmente della Maxima Roma",
       "url": "https://www.legabasket.it/news/139340/gora-camara-bonacini-maxima-roma",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -6010,7 +6242,7 @@
       "strategy": "sitemap",
       "title": "Vernon Carey Jr. è il nuovo centro della Maxima Roma",
       "url": "https://www.legabasket.it/news/139288/carey-maxima-roma",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -6024,7 +6256,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, parla il GM Giofrè: \"Sarà un campionato stimolante\"",
       "url": "https://www.legabasket.it/news/139346/cantu-giofre",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -6038,7 +6270,7 @@
       "strategy": "sitemap",
       "title": "Dolomiti Energia Trentino, parla l&apos;AD Nardelli: \"Sarà complicato come e più di sempre ma proveremo a districarci tra le difficoltà\"",
       "url": "https://www.legabasket.it/news/139343/trento-nardelli",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -6052,7 +6284,7 @@
       "strategy": "sitemap",
       "title": "Tezenis Verona, la carica del vicepresidente Pedrollo: \"Sono estremamente soddisfatto del nuovo roster\"",
       "url": "https://www.legabasket.it/news/139338/verona-pedrollo",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Tezenis Verona",
@@ -6066,7 +6298,7 @@
       "strategy": "sitemap",
       "title": "Theo Airhienbuwa lascia la Dolomiti Energia Trentino",
       "url": "https://www.legabasket.it/news/139334/theo-airhienbuwa-lascia-la-dolomiti-energia-trentino",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Dolomiti Energia Trentino",
@@ -6080,7 +6312,7 @@
       "strategy": "sitemap",
       "title": "Aaron Holiday è il nuovo playmaker della Maxima Roma",
       "url": "https://www.legabasket.it/news/139333/aaron-holiday-maxima-roma",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Maxima Roma",
@@ -6094,7 +6326,7 @@
       "strategy": "sitemap",
       "title": "Acqua S.Bernardo Cantù, aperto ufficialmente il Pavilion",
       "url": "https://www.legabasket.it/news/139329/cantu-pavillon",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Acqua S.Bernardo Cantù",
@@ -6108,7 +6340,7 @@
       "strategy": "sitemap",
       "title": "Tezenis Verona, parla coach Ramagli: \"Abbiamo giocatori più esperti e delle scommesse, sugli italiani mi sento al sicuro\"",
       "url": "https://www.legabasket.it/news/139327/verona-ramagli",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Tezenis Verona",
@@ -6127,6 +6359,20 @@
       "matchedClubs": [
         "Rytas Vilnius",
         "Rytas"
+      ],
+      "score": 4
+    },
+    {
+      "outlet": "protathlima",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Μοιρασιά στην Λάρνακα και ισοπαλία",
+      "url": "https://protathlima.cyprustimes.com/podosfairo-kyprou/a-katigoria/omonoia-aradippou/moirasia-stin-larnaka-kai-isopalia/",
+      "published": "Sun, 20 Sep 2026 19:00:15 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακός",
+        "Ολυμπιακό"
       ],
       "score": 4
     },
@@ -6232,68 +6478,15 @@
       "outlet": "gipedo",
       "lang": "el",
       "strategy": "rss",
-      "title": "«Βασίλισσα» στη Μαδρίτη η Ατλέτικο, καθάρισε τη Ρεάλ και την προσπέρασε!",
-      "url": "https://gipedo.politis.com.cy/diethni/1034346/basilissa-sti-madriti-i-atletiko-katharise-ti-real-kai-tin-prosperase",
-      "published": "Sun, 20 Sep 2026 19:40:00 +0300",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Μπαρτσελόνα",
-        "Ρεάλ"
-      ],
-      "score": 4
-    },
-    {
-      "outlet": "gipedo",
-      "lang": "el",
-      "strategy": "rss",
-      "title": "Ο Ολυμπιακός χτύπησε ξανά στο τέλος, με λυτρωτή τον Σάλιακα, και πάει με χαμόγελο στη διακοπή",
-      "url": "https://gipedo.politis.com.cy/ellada/1034340/o-olimpiakos-khtypise-ksana-sto-telos-me-litroti-ton-saliaka-kai-paei-me-khamoghelo-sti-diakopi",
-      "published": "Sun, 20 Sep 2026 19:07:00 +0300",
+      "title": "Ομόνοια Αρ. - Ολυμπιακός 1-1: Aήττητοι αλλά... Xαμένοι!",
+      "url": "https://gipedo.politis.com.cy/podosfairo/kypros/a-katigoria/1034360/omonoia-ar-olimpiakos-1-1-aittitoi-alla-xamenoi",
+      "published": "Sun, 20 Sep 2026 22:05:00 +0300",
       "matchedKeywords": [],
       "matchedClubs": [
         "Ολυμπιακός",
         "Ολυμπιακό"
       ],
       "score": 4
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Sergio Llull raggiunge quota 30 trofei con il Real Madrid: \"Un onore\"",
-      "url": "https://sportando.basketball/sergio-llull-raggiunge-quota-30-trofei-con-il-real-madrid-un-onore/",
-      "published": "Sun, 20 Sep 2026 18:30:00 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Real Madrid"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Virtus GVM Roma, il Palazzetto dello Sport indisponibile contro Avellino: si cerca una nuova data",
-      "url": "https://sportando.basketball/virtus-gvm-roma-il-palazzetto-dello-sport-indisponibile-contro-avellino-si-cerca-una-nuova-data/",
-      "published": "Sun, 20 Sep 2026 18:15:00 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Avellino"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "sportando",
-      "lang": "it",
-      "strategy": "rss",
-      "title": "Mavs, Dwight Powell verso il ritorno per il Training Camp",
-      "url": "https://sportando.basketball/mavs-dwight-powell-verso-il-ritorno-per-il-training-camp/",
-      "published": "Sun, 20 Sep 2026 15:49:16 +0000",
-      "matchedKeywords": [
-        "training camp"
-      ],
-      "matchedClubs": [],
-      "score": 3
     },
     {
       "outlet": "gigantes",
@@ -6348,16 +6541,29 @@
       "score": 3
     },
     {
-      "outlet": "sportacentrs",
-      "lang": "lv",
+      "outlet": "eurohoops",
+      "lang": "en",
       "strategy": "rss",
-      "title": "Dāmām Pasaules universitāšu čempionāts noslēdzas astotdaļfinālā, puišiem sākas izslēgšanas spēles",
-      "url": "http://sportacentrs.com/pludmales_volejbols/20092026-studentu_sieviesu_duets_apstajas_pasaules",
-      "published": "Sun, 20 Sep 2026 10:27:00 +0300",
-      "matchedKeywords": [
-        "turnīrs"
+      "title": "Ηρακλής: Πάτησε \"γκάζι\" στο 2ο μέρος και νίκησε την Μπάλκαν",
+      "url": "https://www.eurohoops.net/el/heba-el/2010434/iraklis-patise-gkazi-sto-2o-meros-ke-nikise-tin-balkan/",
+      "published": "Sun, 20 Sep 2026 19:54:34 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ηρακλής"
       ],
-      "matchedClubs": [],
+      "score": 3
+    },
+    {
+      "outlet": "eurohoops",
+      "lang": "en",
+      "strategy": "rss",
+      "title": "Nico Laprovittola Alev Aldı; Joventut, İspanya Süper Kupasının Sahibi Oldu",
+      "url": "https://www.eurohoops.net/tr/acb-tr/2010418/nico-laprovittola-alev-aldi-joventut-ispanya-super-kupasinin-sahibi-oldu/",
+      "published": "Sun, 20 Sep 2026 19:24:11 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Joventut"
+      ],
       "score": 3
     },
     {
@@ -6370,58 +6576,6 @@
       "matchedKeywords": [],
       "matchedClubs": [
         "Anadolu Efes"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Tony Parker: \"Monaco'nun Hatalarının Bedelini Açıkça Biz Ödüyoruz\"",
-      "url": "https://www.eurohoops.net/tr/euroleague-tr/2010338/tony-parker-monaconun-hatalarinin-bedelini-acikca-biz-oduyoruz/",
-      "published": "Sun, 20 Sep 2026 15:22:23 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "ASVEL"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Tony Parker: \"We are clearly paying the price for Monaco's mistakes\"",
-      "url": "https://www.eurohoops.net/en/euroleague/2010332/tony-parker-we-are-clearly-paying-the-price-for-monacos-mistakes/",
-      "published": "Sun, 20 Sep 2026 14:42:47 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "ASVEL"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "eurohoops",
-      "lang": "en",
-      "strategy": "rss",
-      "title": "Pizzabulls Bordo, Finlandiya Milli Takımının Oyun Kurucusunu Transfer Etti",
-      "url": "https://www.eurohoops.net/tr/tbl-tr/2010303/pizzabulls-bordo-finlandiya-milli-takiminin-oyun-kurucusunu-transfer-etti/",
-      "published": "Sun, 20 Sep 2026 13:32:54 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Bordo Basket"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "telegraf",
-      "lang": "sr",
-      "strategy": "rss",
-      "title": "Žestoka partija Bajerna na startu Bundeslige: Uskoro će igrati sa Partizanom, večeras su dali 108 poena",
-      "url": "https://www.telegraf.rs/sport/evroliga-kosarka/vesti-evroliga/4400092-zestoka-partija-bajerna-na-startu-bundeslige-uskoro-ce-igrati-sa-partizanom-veceras-su-dali-108-poena",
-      "published": "2026-09-20T20:44:52+02:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Partizan"
       ],
       "score": 3
     },
@@ -6543,32 +6697,6 @@
       "score": 3
     },
     {
-      "outlet": "sport24gr",
-      "lang": "el",
-      "strategy": "html",
-      "title": "Σλούκας και Μήτογλου εκπλήρωσαν τις ευχές δύο παιδιών από το Make a Wish Σλούκας και Μήτογλου εκπλήρωσαν τις ευχές δύο παιδιών από το Make a Wish",
-      "url": "https://www.sport24.gr/basket/panathinaikos-sloukas-kai-mitoglou-ekplirosan-tis-efxes-dio-paidion-apo-to-make-a-wish/",
-      "published": "",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Panathinaikos"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "paopantou",
-      "lang": "el",
-      "strategy": "rss",
-      "title": "Παναθηναϊκός: Συνεχίζουμε να ονειρευόμαστε, πιστοί στο όραμα του Παύλου Γιαννακόπουλου",
-      "url": "https://paopantou.gr/panathinaikos-synechizoume-na-oneirevomaste-pistoi-sto-orama-tou-pavlou-giannakopoulou/",
-      "published": "Sun, 20 Sep 2026 13:22:29 +0000",
-      "matchedKeywords": [
-        "τουρνουά"
-      ],
-      "matchedClubs": [],
-      "score": 3
-    },
-    {
       "outlet": "hotsport",
       "lang": "sr",
       "strategy": "rss",
@@ -6637,6 +6765,32 @@
       "outlet": "bebasket",
       "lang": "fr",
       "strategy": "rss",
+      "title": "« Ce groupe a vraiment du potentiel » : Battu à Roland-Garros, Olivier Lafargue et Bourges apprennent pour la suite de la saison",
+      "url": "https://www.bebasket.fr/ce-groupe-a-vraiment-du-potentiel-battu-a-roland-garros-olivier-lafargue-et-bourges",
+      "published": "2026-09-20T21:15:17+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Bourg"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "bebasket",
+      "lang": "fr",
+      "strategy": "rss",
+      "title": "Battu en finale avec Roanne, T.J. Parker veut « apprendre » du weekend héroïque de SuperCoupe",
+      "url": "https://www.bebasket.fr/battu-en-finale-de-supercoupe-t-j-parker-veut-apprendre-du-weekend-heroique-de-supercoupe",
+      "published": "2026-09-20T20:40:37+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Roanne"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "bebasket",
+      "lang": "fr",
+      "strategy": "rss",
       "title": "Fabrice Lefrançois prolonge à Cholet jusqu’en 2030 !",
       "url": "https://www.bebasket.fr/fabrice-lefrancois-prolonge-a-cholet-jusqu-en-2030",
       "published": "2026-09-20T12:57:32+00:00",
@@ -6699,15 +6853,28 @@
       "score": 3
     },
     {
-      "outlet": "bebasket",
-      "lang": "fr",
+      "outlet": "basket247",
+      "lang": "el",
       "strategy": "rss",
-      "title": "« Ce n’est pas vraiment une victoire pour nous » : T.J. Parker amer après le succès de Roanne mais la perte d’un de ses joueurs",
-      "url": "https://www.bebasket.fr/ce-nest-pas-vraiment-une-victoire-pour-nous-t-j-parker-amer-apres-le-succes-de-roanne-mais-la-perte-dun-de-ses-joueurs",
-      "published": "2026-09-19T17:35:10+00:00",
+      "title": "Εγχώρια πρεμιέρα με «100άρα» για την Μπάγερν (video)",
+      "url": "https://www.basket247.gr/egxoria-premiera-me-100ara-gia-tin-bayern-video/",
+      "published": "Sun, 20 Sep 2026 19:14:39 +0000",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Roanne"
+        "Μπάγερν"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "allstarbasket",
+      "lang": "el",
+      "strategy": "sitemap",
+      "title": "bcl sto dromo tis aek i finlandiki salon vilpas",
+      "url": "https://www.allstarbasket.gr/diethni/basketball-champions-league/bcl-sto-dromo-tis-aek-i-finlandiki-salon-vilpas",
+      "published": "2026-09-20T19:21:43+00:00",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Salon Vilpas"
       ],
       "score": 3
     },
@@ -6721,19 +6888,6 @@
       "matchedKeywords": [],
       "matchedClubs": [
         "Lokomotiv"
-      ],
-      "score": 3
-    },
-    {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "bcl sto dromo tis aek i finlandiki salon vilpas",
-      "url": "https://www.allstarbasket.gr/diethni/basketball-champions-league/bcl-sto-dromo-tis-aek-i-finlandiki-salon-vilpas",
-      "published": "2026-09-20T17:59:59+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Salon Vilpas"
       ],
       "score": 3
     },
@@ -6756,7 +6910,7 @@
       "strategy": "sitemap",
       "title": "stin paratasi to supercoppa i milano 94 87 ti venetsia",
       "url": "https://www.allstarbasket.gr/diethni/stin-paratasi-to-supercoppa-i-milano-94-87-ti-venetsia",
-      "published": "2026-09-20T17:34:06+00:00",
+      "published": "2026-09-20T19:26:12+00:00",
       "matchedKeywords": [],
       "matchedClubs": [
         "Supercoppa"
@@ -7843,19 +7997,6 @@
       "score": 3
     },
     {
-      "outlet": "allstarbasket",
-      "lang": "el",
-      "strategy": "sitemap",
-      "title": "iraklis me valtsea apopse sti roumania",
-      "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/iraklis-me-valtsea-apopse-sti-roumania",
-      "published": "2026-09-11T05:45:41+00:00",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Iraklis"
-      ],
-      "score": 3
-    },
-    {
       "outlet": "basketfaul",
       "lang": "tr",
       "strategy": "rss",
@@ -7887,7 +8028,7 @@
       "strategy": "sitemap",
       "title": "supercopa",
       "url": "https://acb.com/es/supercopa",
-      "published": "2026-09-20T16:42:22.616Z",
+      "published": "2026-09-20T16:13:07.137Z",
       "matchedKeywords": [
         "supercopa"
       ],
@@ -7913,7 +8054,7 @@
       "strategy": "sitemap",
       "title": "Virtus Costa Bologna, ecco Wendell Moore: \"La sfida storica contro Milano come Duke - North Carolina\"",
       "url": "https://www.legabasket.it/news/139524/bologna-wendell-moore",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Costa Bologna"
@@ -7926,7 +8067,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, presentata la nuova identità visiva",
       "url": "https://www.legabasket.it/news/139482/bc-roma-nuova-identita-visiva",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma"
@@ -7939,7 +8080,7 @@
       "strategy": "sitemap",
       "title": "Reale Mutua è Official Insurance Partner della Lega Basket Serie A",
       "url": "https://www.legabasket.it/news/139400/lba-reale-mutua",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Reale Mutua"
@@ -7952,7 +8093,7 @@
       "strategy": "sitemap",
       "title": "Costa Crociere è il nuovo Title Sponsor LBA e Main Sponsor della Virtus Bologna",
       "url": "https://www.legabasket.it/news/139473/costa-virtus-bologna",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -7965,7 +8106,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, la presentazione ufficiale di Giovanni Emejuru",
       "url": "https://www.legabasket.it/news/139459/bc-roma-presentazione-giovanni-emejuru",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma"
@@ -7978,7 +8119,7 @@
       "strategy": "sitemap",
       "title": "Virtus Bologna, la presentazione di coach Mumbrù: “Costruita una squadra con idee chiare, per rendere orgogliosi i nostri tifosi”",
       "url": "https://www.legabasket.it/news/139457/virtus-bologna-mumbru",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -7991,7 +8132,7 @@
       "strategy": "sitemap",
       "title": "Andrea Bargnani, LBA Executive Advisor: \"Lo sviluppo del movimento con strutture all&apos;avanguardia come quelli di Tortona\"",
       "url": "https://www.legabasket.it/news/139436/andrea-bargnani-lba-executive-advisor",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Tortona"
@@ -8004,7 +8145,7 @@
       "strategy": "sitemap",
       "title": "BC Roma: Bryan Colangelo e Chris Mullin entrano nell&apos;Advisory Board",
       "url": "https://www.legabasket.it/news/139444/bc-roma-colangelo-mullin",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma"
@@ -8017,7 +8158,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, la presentazione ufficiale di Niccolò Mannion",
       "url": "https://www.legabasket.it/news/139426/bc-roma-presentazione-ufficiale-nicco-mannion",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma"
@@ -8030,7 +8171,7 @@
       "strategy": "sitemap",
       "title": "BC Roma, Arturs Strautins e Corey Davis si presentano ufficialmente",
       "url": "https://www.legabasket.it/news/139411/bc-roma-strautins-davis-presentano-ufficialmente",
-      "published": "2026-09-20T18:54:03.926Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "BC Roma"
@@ -8043,7 +8184,7 @@
       "strategy": "sitemap",
       "title": "Virtus Bologna, siglato l&apos;accordo con il nuovo title sponsor LBA e main sponsor della stagione 2026/27",
       "url": "https://www.legabasket.it/news/139392/virtus-bologna-accordo-title-sponsor-lba",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -8056,7 +8197,7 @@
       "strategy": "sitemap",
       "title": "WCQ’27. Italia-Serbia oggi a Pesaro (19.30, Sky Sport, Now, DAZN). I 12: Akele nel roster. Out Candi, Ferrari e Petrucelli",
       "url": "https://www.legabasket.it/news/139385/wcq-27-italia-serbia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pesaro"
@@ -8069,7 +8210,7 @@
       "strategy": "sitemap",
       "title": "WCQ’27. Bosnia Erzegovina-Italia 78-76 (Mannion e Fontecchio 14). Lunedì la Serbia a Pesaro",
       "url": "https://www.legabasket.it/news/139378/bosnia-italia",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Pesaro"
@@ -8082,7 +8223,7 @@
       "strategy": "sitemap",
       "title": "Virtus Bologna, il punto di Hackett: \"Avremo un sistema di gioco in cui correremo molto\"",
       "url": "https://www.legabasket.it/news/139373/virtus-bologna-hackett",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -8095,7 +8236,7 @@
       "strategy": "sitemap",
       "title": "Virtus Bologna, definito lo staff tecnico per la stagione 2026/27",
       "url": "https://www.legabasket.it/news/139339/virtus-bologna-staff",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -8108,7 +8249,7 @@
       "strategy": "sitemap",
       "title": "Virtus Bologna, ufficiale l&apos;addio di coach Nenad Jakovljevic",
       "url": "https://www.legabasket.it/news/139337/virtus-bologna-jakovljevic",
-      "published": "2026-09-20T18:54:03.927Z",
+      "published": "2026-09-20T21:36:09.617Z",
       "matchedKeywords": [],
       "matchedClubs": [
         "Virtus Bologna"
@@ -8125,6 +8266,45 @@
       "matchedKeywords": [],
       "matchedClubs": [
         "Burg"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "protathlima",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "«Χρειαζόμαστε πιο κάθαρο μυαλό στις τελικές προσπάθειες»",
+      "url": "https://protathlima.cyprustimes.com/podosfairo-kyprou/a-katigoria/omonoia-aradippou/chreiazomaste-pio-katharo-myalo-stis-telikes-prospatheies/",
+      "published": "Sun, 20 Sep 2026 19:40:15 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακό"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "protathlima",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Οι καλύτερες φάσεις από την Λάρνακα (video)",
+      "url": "https://protathlima.cyprustimes.com/podosfairo-kyprou/a-katigoria/oi-kalyteres-faseis-apo-tin-larnaka/",
+      "published": "Sun, 20 Sep 2026 19:16:52 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακό"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "protathlima",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Έντονη αντίδραση από Ανόρθωση – Ζητάει κάθοδο ξένων στο VAR",
+      "url": "https://protathlima.cyprustimes.com/podosfairo-kyprou/a-katigoria/anorthosi/zitame-tin-kathodo-xenon-diaititon-sto-var12/",
+      "published": "Sun, 20 Sep 2026 18:50:19 +0000",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ανόρθωση"
       ],
       "score": 3
     },
@@ -8181,19 +8361,6 @@
       "score": 3
     },
     {
-      "outlet": "protathlima",
-      "lang": "el",
-      "strategy": "rss",
-      "title": "Ποιος είπε ότι δεν έχει δυνατότητες;",
-      "url": "https://protathlima.cyprustimes.com/podosfairo-kyprou/a-katigoria/nea-salamina/poios-eipe-oti-den-echei-dynatotites/",
-      "published": "Sun, 20 Sep 2026 10:50:17 +0000",
-      "matchedKeywords": [],
-      "matchedClubs": [
-        "Ανόρθωση"
-      ],
-      "score": 3
-    },
-    {
       "outlet": "basketballstoriescy",
       "lang": "el",
       "strategy": "rss",
@@ -8223,12 +8390,51 @@
       "outlet": "gipedo",
       "lang": "el",
       "strategy": "rss",
-      "title": "Έσωσε τον βαθμό, όχι όμως τη νέα «γκέλα» η Γιουνάιτεντ!",
-      "url": "https://gipedo.politis.com.cy/diethni/1034350/esose-ton-vathmo-okhi-omos-ti-nea-ghkela-i-gioynaitent",
-      "published": "Sun, 20 Sep 2026 20:29:00 +0300",
+      "title": "Μάτωσε αλλά πέρασε θριαμβευτής από το Αγρίνιο ο ΠΑΟΚ",
+      "url": "https://gipedo.politis.com.cy/ellada/1034368/matose-alla-perase-thriamveftis-apo-to-aghrinio-o-paok",
+      "published": "Sun, 20 Sep 2026 23:07:00 +0300",
       "matchedKeywords": [],
       "matchedClubs": [
-        "Μάντσεστερ"
+        "ΠΑΟΚ"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "gipedo",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "Η πίστη για τη βελτίωση και η ικανοποίηση για τη συγκομιδή",
+      "url": "https://gipedo.politis.com.cy/podosfairo/kypros/a-katigoria/1034366/h-pisti-ghia-ti-veltiosi-kai-i-ikanopiisi-ghia-ti-sighkomidi",
+      "published": "Sun, 20 Sep 2026 22:41:00 +0300",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακό"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "gipedo",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "«Είμαστε εξαιρετικά ενοχλημένοι από τη διαιτησία» - Όλα όσα ζητά η Ανόρθωση",
+      "url": "https://gipedo.politis.com.cy/anorthosi/1034364/imaste-eksairetika-enokhlimenoi-apo-ti-diaitisia-ola-osa-zita-i-anorthosi",
+      "published": "Sun, 20 Sep 2026 22:34:00 +0300",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ανόρθωση"
+      ],
+      "score": 3
+    },
+    {
+      "outlet": "gipedo",
+      "lang": "el",
+      "strategy": "rss",
+      "title": "ΒΙΝΤΕΟ: Ο συμβιβασμός ανάμεσα σε Ομόνοια Αραδίππου και Ολυμπιακό",
+      "url": "https://gipedo.politis.com.cy/podosfairo/kypros/a-katigoria/1034362/binteo-o-simvivasmos-anamesa-se-omonoia-aradippoy-kai-olimpiako",
+      "published": "Sun, 20 Sep 2026 22:22:00 +0300",
+      "matchedKeywords": [],
+      "matchedClubs": [
+        "Ολυμπιακό"
       ],
       "score": 3
     }
