@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-19T23:22:03.762Z",
+  "updated": "2026-09-20T05:24:52.879Z",
   "season": "2026-27",
-  "newGames": 4,
+  "newGames": 6,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -172,14 +172,6 @@
       "resolvedBy": "recency"
     },
     {
-      "game": "g_70e1aafb3d",
-      "field": "time",
-      "kept": "18:30",
-      "alsoReported": "19:00",
-      "from": "league:lnb",
-      "resolvedBy": "recency"
-    },
-    {
       "game": "g_bd8fe5e3b2",
       "field": "time",
       "kept": "17:00",
@@ -193,7 +185,7 @@
       "kept": "15:00",
       "alsoReported": "16:30",
       "from": "league:israel",
-      "resolvedBy": "first-seen"
+      "resolvedBy": "recency"
     },
     {
       "game": "g_64a9d6a641",
@@ -201,7 +193,7 @@
       "kept": "18:00",
       "alsoReported": "19:00",
       "from": "league:israel",
-      "resolvedBy": "recency"
+      "resolvedBy": "first-seen"
     },
     {
       "game": "g_d77ab46829",
@@ -1191,7 +1183,7 @@
       "game": "g_a65d077a3b",
       "field": "time",
       "kept": "20:00",
-      "alsoReported": "17:00",
+      "alsoReported": "18:00",
       "from": "eurohoops",
       "resolvedBy": "recency"
     },
@@ -1713,7 +1705,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Kranjska Gora (Slovenia)",
+        "arena": null,
         "city": "קראנייסקה גורה",
         "country": "סלובניה"
       },
@@ -2781,7 +2773,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Varese",
+        "arena": "Campus",
         "city": "Varese",
         "country": null
       },
@@ -3431,7 +3423,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Kranjska Gora (Slovenia)",
+        "arena": "Kranjska Gora",
         "city": "קראנייסקה גורה",
         "country": "סלובניה"
       },
@@ -4419,7 +4411,7 @@
         "city": "פלקדה",
         "country": "איטליה"
       },
-      "tournament": null,
+      "tournament": "1° - Preseason",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -4727,64 +4719,10 @@
     },
     {
       "date": "2026-08-29",
-      "dateLabel": "Sam 29 Août",
-      "time": "20:00",
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_88a640c0",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "La Balme-de-Sillingy",
-        "city": "La Balme-de-Sillingy",
-        "country": "France"
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 79,
-        "away": 68
-      },
-      "statsUrl": null,
-      "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/873582/bourg-en-bresse-lions-de-geneve-2026-08-29",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/jl-bourg-premiere-victoire-en-preparation-nathan-soliman-meilleur-marqueur-contre-geneve",
-          "published": "2026-08-29T11:27:35+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_fd7acf7a66",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_88a640c0"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-08-29",
       "dateLabel": "Sabato 29 agosto",
       "time": "20:00",
-      "homeTeam": "t_d2164f8d",
-      "awayTeam": "t_47dac4e9",
+      "homeTeam": "t_47dac4e9",
+      "awayTeam": "t_d2164f8d",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -4797,8 +4735,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 89,
-        "away": 85
+        "home": 85,
+        "away": 89
       },
       "statsUrl": "https://sportando.basketball/altra-buona-prestazione-treviso-vince-a-verona-85-89/",
       "reportUrl": null,
@@ -5035,8 +4973,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Cles (TN)",
-        "city": "Cles",
+        "arena": "CTL di Cles",
+        "city": "Cles (TN)",
         "country": null
       },
       "tournament": "Melinda Basket Cup",
@@ -5114,7 +5052,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Milano",
+        "arena": "Unipol Forum",
         "city": "Milano",
         "country": "Italy"
       },
@@ -5808,6 +5746,55 @@
       "date": "2026-08-29",
       "dateLabel": "29 août",
       "time": "20:00",
+      "homeTeam": "t_211b1542",
+      "awayTeam": "t_88a640c0",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "La Balme-de-Sillingy",
+        "city": "La Balme-de-Sillingy",
+        "country": "France"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 79,
+        "away": 68
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/jl-bourg-premiere-victoire-en-preparation-nathan-soliman-meilleur-marqueur-contre-geneve",
+          "published": "2026-08-29T11:27:35+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_fd7acf7a66",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_211b1542",
+        "t_88a640c0"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-08-29",
+      "dateLabel": "29 août",
+      "time": "20:00",
       "homeTeam": "t_3c6fe8bb",
       "awayTeam": "t_ef202e7d",
       "candidates": [],
@@ -6205,7 +6192,7 @@
     },
     {
       "date": "2026-08-29",
-      "dateLabel": "Sábado 29 13:00",
+      "dateLabel": "Sábado 29 Ago 2026",
       "time": "13:00",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_797c21bb",
@@ -7424,7 +7411,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Kranjska Gora (Slovenia)",
+        "arena": "Kranjska Gora",
         "city": "קראנייסקה גורה",
         "country": "סלובניה"
       },
@@ -8138,8 +8125,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Livigno (SO)",
-        "city": "Livigno",
+        "arena": "PalaTeola",
+        "city": "Livigno (SO)",
         "country": null
       },
       "tournament": "Valtellina Summer League 2026",
@@ -9002,6 +8989,11 @@
           "published": "2026-07-26"
         },
         {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
           "name": "league:aba",
           "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
           "published": null
@@ -9171,68 +9163,7 @@
         "t_a85f3ce5",
         "t_21cf4132"
       ],
-      "confidence": 8
-    },
-    {
-      "date": "2026-09-04",
-      "dateLabel": "4.9, 20:30",
-      "time": "20:30",
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_e0376665",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Bourg-en-Bresse",
-        "city": "בורג-אן-ברס",
-        "country": "צרפת"
-      },
-      "tournament": "‐Neofytos Chandriotis‐ Tournament",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 115,
-        "away": 60
-      },
-      "statsUrl": null,
-      "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/jl95817/bourg-en-bresse-frribourg-olympic-basket-2026-09-04",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "jlbourg-basket.com",
-          "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
-        },
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        }
-      ],
-      "notes": [
-        "טורניר עם נאנטר 92 וטרוויזו בסקט"
-      ],
-      "origin": "seed",
-      "published": null,
-      "id": "g_d0b5509740",
-      "origins": [
-        "seed",
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_e0376665"
-      ],
-      "confidence": 3
+      "confidence": 9
     },
     {
       "date": "2026-09-04",
@@ -10195,6 +10126,11 @@
           "name": "sportando",
           "url": "https://sportando.basketball/preseason-lba-le-partite-di-oggi-olimpia-stella-rossa-e-altri-cinque-test/",
           "published": "2026-09-04"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
         }
       ],
       "notes": [],
@@ -10208,7 +10144,7 @@
         "t_12174e28",
         "t_bf5dd73e"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-05",
@@ -10294,8 +10230,8 @@
       "date": "2026-09-05",
       "dateLabel": "5.9, 20:00",
       "time": "20:00",
-      "homeTeam": "t_5c2ad363",
-      "awayTeam": "t_e32d7cf2",
+      "homeTeam": "t_e32d7cf2",
+      "awayTeam": "t_5c2ad363",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10490,7 +10426,7 @@
         "city": "ג'סולו",
         "country": "איטליה"
       },
-      "tournament": "Memorial Luca Silvestrin",
+      "tournament": "2° - Preseason",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -10737,8 +10673,8 @@
       "date": "2026-09-05",
       "dateLabel": "weekend del 5-6 settembre",
       "time": "18:00",
-      "homeTeam": "t_726df887",
-      "awayTeam": "t_5d59a83a",
+      "homeTeam": "t_5d59a83a",
+      "awayTeam": "t_726df887",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10751,8 +10687,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 97,
-        "away": 88
+        "home": 88,
+        "away": 97
       },
       "statsUrl": null,
       "reportUrl": null,
@@ -10767,6 +10703,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/pallacanestro-reggiana-sette-amichevoli-nel-precampionato-2026-27/",
           "published": "2026-07-27"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
         },
         {
           "name": "sportando",
@@ -10835,7 +10776,7 @@
         "t_726df887",
         "t_5d59a83a"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-05",
@@ -10847,7 +10788,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Penne",
-        "city": "Penne",
+        "city": "Penne (Pescara)",
         "country": "Italy"
       },
       "tournament": "Trofeo Basilicata",
@@ -10866,6 +10807,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
           "published": "2026-07-18"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
         },
         {
           "name": "sportando",
@@ -10904,7 +10850,7 @@
         "t_b35120b2",
         "t_12174e28"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-05",
@@ -12523,7 +12469,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Nick Galis Hall",
+        "arena": "“Nick Galis Hall”",
         "city": "סלוניקי",
         "country": "יוון"
       },
@@ -12767,79 +12713,6 @@
         "t_066138ff"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "Dim 06 Sept",
-      "time": "16:00",
-      "homeTeam": "t_211b1542",
-      "awayTeam": "t_d2164f8d",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Bourg-en-Bresse (Ekinox)",
-        "city": "Bourg-en-Bresse",
-        "country": "צרפת"
-      },
-      "tournament": "‐Neofytos Chandriotis‐ Tournament",
-      "stage": "שלב גמר",
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 100,
-        "away": 85
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=84",
-      "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/jl96272/bourg-en-bresse-trevise-2026-09-06",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/treviso-cede-il-passo-contro-bourg-100-a-85-il-punteggio-finale/",
-          "published": "Sun, 06 Sep 2026 20:50:26 +0000"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
-          "published": "2026-09-07T07:18:46+00:00"
-        },
-        {
-          "name": "jlbourg-basket.com",
-          "url": "https://www.jlbourg-basket.com/2026/07/02/prets-pour-lain-star-game-2026/"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
-          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_a3ad57ce36",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_211b1542",
-        "t_d2164f8d"
-      ],
-      "confidence": 4
     },
     {
       "date": "2026-09-06",
@@ -13355,7 +13228,7 @@
         "home": 91,
         "away": 91
       },
-      "statsUrl": null,
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=86",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -13363,6 +13236,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
         },
         {
           "name": "bebasket",
@@ -13381,7 +13259,7 @@
         "t_d3d3d473",
         "t_d10e3e20"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -13404,7 +13282,7 @@
         "home": 92,
         "away": 76
       },
-      "statsUrl": null,
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=82",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -13412,6 +13290,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
         },
         {
           "name": "bebasket",
@@ -13435,7 +13318,7 @@
         "t_cf27f09c",
         "t_0d612940"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-06",
@@ -13488,6 +13371,207 @@
       "teams": [
         "t_cd099d24",
         "t_3c6fe8bb"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "06/09",
+      "time": "16:00",
+      "homeTeam": "t_211b1542",
+      "awayTeam": "t_d2164f8d",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Bourg-en-Bresse (Ekinox)",
+        "city": "Bourg-en-Bresse",
+        "country": null
+      },
+      "tournament": "‐Neofytos Chandriotis‐ Tournament",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 100,
+        "away": 85
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=84",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/treviso-cede-il-passo-contro-bourg-100-a-85-il-punteggio-finale/",
+          "published": "Sun, 06 Sep 2026 20:50:26 +0000"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
+          "published": "2026-09-07T07:18:46+00:00"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/nutribullet-treviso-le-info-sulle-amichevoli-precampionato/",
+          "published": "Thu, 20 Aug 2026 18:05:05 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_a3ad57ce36",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_211b1542",
+        "t_d2164f8d"
+      ],
+      "confidence": 3
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "06/09",
+      "time": null,
+      "homeTeam": "t_d11ec1d0",
+      "awayTeam": "t_1f86c9b9",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Le Havre (Salle Lucien Nolent)",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 107,
+        "away": 109
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=81",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
+          "published": "2026-09-07T07:18:46+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_2fabcc688d",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d11ec1d0",
+        "t_1f86c9b9"
+      ],
+      "confidence": 2
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "06/09",
+      "time": null,
+      "homeTeam": "t_3f746bed",
+      "awayTeam": "t_c857040d",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Mons (Mons Arena)",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 58,
+        "away": 91
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=172",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_3a4e3df568",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_3f746bed",
+        "t_c857040d"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-06",
+      "dateLabel": "06/09",
+      "time": null,
+      "homeTeam": "t_4e577025",
+      "awayTeam": "t_59598d71",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vannes (Palais des Sports Kerkado)",
+        "city": null,
+        "country": null
+      },
+      "tournament": "‐Neofytos Chandriotis‐ Tournament",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 78,
+        "away": 83
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=171",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
+          "published": "2026-09-07T07:18:46+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_0ef0aee4e0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_4e577025",
+        "t_59598d71"
       ],
       "confidence": 2
     },
@@ -14061,94 +14145,6 @@
       "date": "2026-09-06",
       "dateLabel": "dimanche 6 septembre",
       "time": null,
-      "homeTeam": "t_d11ec1d0",
-      "awayTeam": "t_1f86c9b9",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 107,
-        "away": 109
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
-          "published": "2026-09-07T07:18:46+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-09-07T07:18:46+00:00",
-      "id": "g_2fabcc688d",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_d11ec1d0",
-        "t_1f86c9b9"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "dimanche 6 septembre",
-      "time": null,
-      "homeTeam": "t_4e577025",
-      "awayTeam": "t_59598d71",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "‐Neofytos Chandriotis‐ Tournament",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 78,
-        "away": 83
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-orleans-fait-tomber-limoges-chalon-reste-invaincu-le-havre-gagne-son-tournoi",
-          "published": "2026-09-07T07:18:46+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-09-07T07:18:46+00:00",
-      "id": "g_0ef0aee4e0",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_4e577025",
-        "t_59598d71"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-06",
-      "dateLabel": "dimanche 6 septembre",
-      "time": null,
       "homeTeam": "t_d5b6cc73",
       "awayTeam": "t_e0376665",
       "candidates": [],
@@ -14330,7 +14326,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Benicarló",
+        "arena": null,
         "city": "בניקרלו",
         "country": "ספרד"
       },
@@ -14354,11 +14350,6 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/",
           "published": "2026-08-13"
-        },
-        {
-          "name": "league:acb",
-          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
-          "published": null
         },
         {
           "name": "paopantou",
@@ -14403,7 +14394,7 @@
         "t_763dcde9",
         "t_0f5171f1"
       ],
-      "confidence": 7
+      "confidence": 6
     },
     {
       "date": "2026-09-07",
@@ -15350,95 +15341,6 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "Mi, 09.09.2026",
-      "time": "19:00",
-      "homeTeam": "t_66371643",
-      "awayTeam": "t_d70cfe97",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "OrangeCampus",
-        "city": "Ulm",
-        "country": "Germania"
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 99,
-        "away": 104
-      },
-      "statsUrl": null,
-      "reportUrl": "http://www.basketball-ulm.com/news/uuulmer-fans-sehen-hochklassigen-test-2946/",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_66371643",
-          "url": "http://www.basketball-ulm.com/en/games",
-          "published": null
-        },
-        {
-          "name": "league:lba",
-          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
-          "published": null
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/roma-spqr-definito-il-programma-della-preseason-in-arrivo-il-via-al-raduno-poi-cinque-amichevoli/",
-          "published": "2026-08-17"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
-          "published": "2026-08-21"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/bc-roma-programma-preseason-2026-27/",
-          "published": "2026-08-25"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/buona-la-prima-per-la-bc-roma-battuta-rieti-con-super-stevenson/",
-          "published": "Wed, 02 Sep 2026 20:06:08 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/alessandro-magro-la-prima-della-una-nuova-era-mi-e-piaciuta-la-disponibilita-dei-ragazzi/",
-          "published": "Wed, 02 Sep 2026 20:08:13 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/preseason-lba-le-partite-di-oggi-otto-squadre-in-campo-mercoledi-9-settembre/",
-          "published": "Wed, 09 Sep 2026 07:40:09 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/bc-roma-successo-in-trasferta-nella-prima-di-mannion-ratiopharm-ulm-battuta-104-99/",
-          "published": "Wed, 09 Sep 2026 20:14:17 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_460d9352a0",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_66371643",
-        "t_d70cfe97"
-      ],
-      "confidence": 3
-    },
-    {
-      "date": "2026-09-09",
       "dateLabel": "9 Settembre",
       "time": "18:00",
       "homeTeam": "t_3c67c349",
@@ -15654,7 +15556,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Asago",
-        "city": "Asago",
+        "city": "Milano",
         "country": "Ιταλία"
       },
       "tournament": null,
@@ -15734,6 +15636,90 @@
         "t_577949d9"
       ],
       "confidence": 5
+    },
+    {
+      "date": "2026-09-09",
+      "dateLabel": "Mercoledì 9 settembre",
+      "time": "19:00",
+      "homeTeam": "t_d70cfe97",
+      "awayTeam": "t_66371643",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": "Ulm (Germania)",
+        "country": "Germania"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 104,
+        "away": 99
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/roma-spqr-definito-il-programma-della-preseason-in-arrivo-il-via-al-raduno-poi-cinque-amichevoli/",
+          "published": "2026-08-17"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
+          "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/bc-roma-programma-preseason-2026-27/",
+          "published": "2026-08-25"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/buona-la-prima-per-la-bc-roma-battuta-rieti-con-super-stevenson/",
+          "published": "Wed, 02 Sep 2026 20:06:08 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/alessandro-magro-la-prima-della-una-nuova-era-mi-e-piaciuta-la-disponibilita-dei-ragazzi/",
+          "published": "Wed, 02 Sep 2026 20:08:13 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/preseason-lba-le-partite-di-oggi-otto-squadre-in-campo-mercoledi-9-settembre/",
+          "published": "Wed, 09 Sep 2026 07:40:09 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/bc-roma-successo-in-trasferta-nella-prima-di-mannion-ratiopharm-ulm-battuta-104-99/",
+          "published": "Wed, 09 Sep 2026 20:14:17 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_460d9352a0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_d70cfe97",
+        "t_66371643"
+      ],
+      "confidence": 2
     },
     {
       "date": "2026-09-09",
@@ -16112,7 +16098,7 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "2026-09-09T21:00:00+02:00",
+      "dateLabel": "2026-09-09",
       "time": null,
       "homeTeam": "t_066138ff",
       "awayTeam": "t_32fd0b6f",
@@ -16156,7 +16142,7 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "2026-09-09T20:30:00+02:00",
+      "dateLabel": "2026-09-09",
       "time": null,
       "homeTeam": "t_e6b07e02",
       "awayTeam": "t_85bed640",
@@ -16200,7 +16186,7 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "2026-09-09T19:00:00+02:00",
+      "dateLabel": "2026-09-09",
       "time": null,
       "homeTeam": "t_98b007d7",
       "awayTeam": "t_09084792",
@@ -16244,7 +16230,7 @@
     },
     {
       "date": "2026-09-09",
-      "dateLabel": "2026-09-09T18:30:00+02:00",
+      "dateLabel": "2026-09-09",
       "time": null,
       "homeTeam": "t_cec2cef8",
       "awayTeam": "t_1ce799a6",
@@ -17096,11 +17082,6 @@
           "published": "Fri, 11 Sep 2026 19:37:01 +0000"
         },
         {
-          "name": "league:bbl",
-          "url": "https://padlet.com/easyCreditBBL/preseason-2026-mjqpxzxyqv7t06mn",
-          "published": null
-        },
-        {
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/es/euroleague-es/2007096/madrid-barcelona-%e2%80%8b%e2%80%8bpanathinaikos-olympiacos-dubai-y-maccabi-ganan-sus-partidos-de-preparacion/",
           "published": "Fri, 11 Sep 2026 21:49:27 +0000"
@@ -17118,7 +17099,7 @@
         "t_e32d7cf2",
         "t_914a8167"
       ],
-      "confidence": 8
+      "confidence": 7
     },
     {
       "date": "2026-09-11",
@@ -17490,50 +17471,6 @@
         "t_8621b265"
       ],
       "confidence": 4
-    },
-    {
-      "date": "2026-09-11",
-      "dateLabel": "Fr, 11.09.2026",
-      "time": null,
-      "homeTeam": "t_cb7c8075",
-      "awayTeam": "t_66371643",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 109,
-        "away": 100
-      },
-      "statsUrl": null,
-      "reportUrl": "http://www.basketball-ulm.com/news/offensive-generalprobe-2949/",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_66371643",
-          "url": "http://www.basketball-ulm.com/en/games",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_d6d4206229",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_cb7c8075",
-        "t_66371643"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-11",
@@ -18948,7 +18885,7 @@
     },
     {
       "date": "2026-09-11",
-      "dateLabel": "2026-09-11T20:30:00+02:00",
+      "dateLabel": "2026-09-11",
       "time": "18:30",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_38027d78",
@@ -19002,7 +18939,7 @@
     },
     {
       "date": "2026-09-11",
-      "dateLabel": "2026-09-11T19:00:00+02:00",
+      "dateLabel": "2026-09-11",
       "time": null,
       "homeTeam": "t_09084792",
       "awayTeam": "t_85bed640",
@@ -19379,25 +19316,35 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Málaga",
         "city": "מלגה",
         "country": "ספרד"
       },
       "tournament": "טורניר קוסטה דל סול",
       "stage": null,
       "flags": [],
-      "broadcast": [],
+      "broadcast": [
+        {
+          "name": "Realmadrid TV",
+          "url": null
+        }
+      ],
       "result": {
         "home": 74,
         "away": 113
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://acb.com/es/liga/noticias/el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol-74-113-145993",
       "highlightsUrl": null,
       "sources": [
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
+        },
+        {
+          "name": "league:acb",
+          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
+          "published": null
         },
         {
           "name": "club:t_5c2ad363",
@@ -19452,7 +19399,7 @@
         "t_29304cb1",
         "t_5c2ad363"
       ],
-      "confidence": 6
+      "confidence": 7
     },
     {
       "date": "2026-09-12",
@@ -19576,7 +19523,7 @@
         "city": "Lonato del Garda",
         "country": "איטליה"
       },
-      "tournament": "טורניר Garda Ball Elite",
+      "tournament": "4° - Preseason",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -19628,72 +19575,72 @@
     },
     {
       "date": "2026-09-12",
-      "dateLabel": "Sam 12 Sept",
-      "time": "15:00",
-      "homeTeam": "t_e5b49b07",
-      "awayTeam": "t_211b1542",
+      "dateLabel": "12 e 13 settembre",
+      "time": "17:00",
+      "homeTeam": "t_b35120b2",
+      "awayTeam": "t_726df887",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Vilnius",
-        "city": "Vilnius",
-        "country": "Lithuania"
+        "arena": "PalaSassi",
+        "city": "Matera",
+        "country": null
       },
-      "tournament": null,
+      "tournament": "Trofeo Basilicata",
       "stage": null,
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 87,
-        "away": 80
+        "home": 90,
+        "away": 106
       },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=112",
-      "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/jl95821/hapoel-jerusalem-bourg-en-bresse-2026-09-12",
+      "statsUrl": null,
+      "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
         {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
+          "published": "2026-07-28"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
           "published": null
         },
         {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
+          "name": "sportando",
+          "url": "https://sportando.basketball/roma-spqr-definito-il-programma-della-preseason-in-arrivo-il-via-al-raduno-poi-cinque-amichevoli/",
+          "published": "2026-08-17"
         },
         {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
         },
         {
-          "name": "league:israel",
-          "url": "https://basket.co.il/more-games.asp?cYear=2027&other_list_id=2",
-          "published": null
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-26-27-oggi-sette-squadre-impiegate-nei-test-di-preseason-2/",
+          "published": "Sun, 13 Sep 2026 07:52:01 +0000"
         },
         {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/nantes-remporte-le-tournoi-de-blois-strasbourg-et-chalon-se-retrouveront-en-finale-a-luxeuil",
-          "published": "2026-09-13T08:10:53+00:00"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/l-asvel-et-la-jl-bourg-battues-a-l-etranger-l-elan-bearnais-sauve-l-honneur-a-l-etranger",
-          "published": "2026-09-13T07:47:10+00:00"
+          "name": "sportando",
+          "url": "https://sportando.basketball/trofeo-basilicata-napoli-basketball-supera-scafati-nella-finale-per-il-3-posto/",
+          "published": "Sun, 13 Sep 2026 17:40:47 +0000"
         }
       ],
       "notes": [],
       "origin": "extracted",
-      "published": null,
-      "id": "g_661f8c9fa0",
+      "published": "2026-07-28",
+      "id": "g_6c6c49e920",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_e5b49b07",
-        "t_211b1542"
+        "t_726df887",
+        "t_b35120b2"
       ],
-      "confidence": 4
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -19705,7 +19652,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Matera",
-        "city": null,
+        "city": "Matera",
         "country": null
       },
       "tournament": "Trofeo Basilicata",
@@ -19724,6 +19671,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/scafati-basket-raduno-il-12-agosto-il-programma-del-precampionato/",
           "published": "2026-07-18"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
         },
         {
           "name": "sportando",
@@ -19747,7 +19699,7 @@
         "t_b35120b2",
         "t_d70cfe97"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-12",
@@ -20057,7 +20009,7 @@
       "venue": {
         "arena": "Pontevedra",
         "city": "Pontevedra",
-        "country": "Spania"
+        "country": null
       },
       "tournament": "טורניר EncestaRías",
       "stage": null,
@@ -20099,6 +20051,95 @@
         "t_914a8167"
       ],
       "confidence": 3
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "Sabato 12 e domenica 13 settembre",
+      "time": "18:00",
+      "homeTeam": "t_12174e28",
+      "awayTeam": "t_2a1ac857",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Cagliari",
+        "city": "Cagliari",
+        "country": "Italy"
+      },
+      "tournament": "‐Neofytos Chandriotis‐ Tournament",
+      "stage": null,
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "5PLUS",
+          "url": null
+        }
+      ],
+      "result": {
+        "home": 80,
+        "away": 78
+      },
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2000_53_36.jpeg",
+      "reportUrl": "https://basket.co.il/news.asp?id=86607",
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/maxima-roma-al-via-oggi-la-preparazione-a-campobasso/",
+          "published": "2026-08-21"
+        },
+        {
+          "name": "league:israel",
+          "url": "https://basket.co.il/more-games.asp?cYear=2027&other_list_id=2",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-26-27-oggi-sette-squadre-impiegate-nei-test-di-preseason/",
+          "published": "Sat, 12 Sep 2026 08:17:53 +0000"
+        },
+        {
+          "name": "ספורט 1",
+          "url": "https://sport1.maariv.co.il/israeli-basketball/winner-basketball-league/article/1921169/"
+        },
+        {
+          "name": "fcbayern.com",
+          "url": "https://fcbayern.com/basketball/de/news/2026-27/07/teampraesentation-vs-bamberg"
+        },
+        {
+          "name": "corriereadriatico.it",
+          "url": "https://www.corriereadriatico.it/sport/news/basket_serie_calendario_maxima_roma_esordira_casa_contro_napoli_la_spqr_treviso-9688144.html"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
+        }
+      ],
+      "notes": [
+        "היריבות המדויקות לכל אחד מ-2 המשחקים טרם פורטו",
+        "ייתכן שזו אותה קבוצת 'רומא' שהוזכרה כבר בטורניר קליארי יחד עם הפועל ת\"א ובאיירן - טרם ניתן לוודא אם מדובר במקסימה או ב-SPQR"
+      ],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_64a9d6a641",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_12174e28",
+        "t_2a1ac857"
+      ],
+      "confidence": 7
     },
     {
       "date": "2026-09-12",
@@ -20544,6 +20585,70 @@
     {
       "date": "2026-09-12",
       "dateLabel": "12 septembre",
+      "time": "15:00",
+      "homeTeam": "t_211b1542",
+      "awayTeam": "t_e5b49b07",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vilnius",
+        "city": "Vilnius",
+        "country": "Lithuania"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 80,
+        "away": 87
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=112",
+      "reportUrl": "https://basket.co.il/news.asp?id=86606",
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/presaison-lnb-2026",
+          "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "league:israel",
+          "url": "https://basket.co.il/more-games.asp?cYear=2027&other_list_id=2",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/nantes-remporte-le-tournoi-de-blois-strasbourg-et-chalon-se-retrouveront-en-finale-a-luxeuil",
+          "published": "2026-09-13T08:10:53+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/l-asvel-et-la-jl-bourg-battues-a-l-etranger-l-elan-bearnais-sauve-l-honneur-a-l-etranger",
+          "published": "2026-09-13T07:47:10+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-08-20T18:00:50+00:00",
+      "id": "g_661f8c9fa0",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_211b1542",
+        "t_e5b49b07"
+      ],
+      "confidence": 3
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12 septembre",
       "time": "17:00",
       "homeTeam": "t_6230ff54",
       "awayTeam": "t_cf27f09c",
@@ -20707,90 +20812,6 @@
         "t_c857040d"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-12",
-      "dateLabel": "12 septembre",
-      "time": "18:00",
-      "homeTeam": "t_2a1ac857",
-      "awayTeam": "t_12174e28",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Cagliari",
-        "city": "Cagliari",
-        "country": "Italy"
-      },
-      "tournament": "‐Neofytos Chandriotis‐ Tournament",
-      "stage": null,
-      "flags": [],
-      "broadcast": [
-        {
-          "name": "5PLUS",
-          "url": null
-        }
-      ],
-      "result": {
-        "home": 78,
-        "away": 80
-      },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2000_53_36.jpeg",
-      "reportUrl": "https://basket.co.il/news.asp?id=86607",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/presaison-lnb-2026",
-          "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/maxima-roma-al-via-oggi-la-preparazione-a-campobasso/",
-          "published": "2026-08-21"
-        },
-        {
-          "name": "league:israel",
-          "url": "https://basket.co.il/more-games.asp?cYear=2027&other_list_id=2",
-          "published": null
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-26-27-oggi-sette-squadre-impiegate-nei-test-di-preseason/",
-          "published": "Sat, 12 Sep 2026 08:17:53 +0000"
-        },
-        {
-          "name": "ספורט 1",
-          "url": "https://sport1.maariv.co.il/israeli-basketball/winner-basketball-league/article/1921169/"
-        },
-        {
-          "name": "fcbayern.com",
-          "url": "https://fcbayern.com/basketball/de/news/2026-27/07/teampraesentation-vs-bamberg"
-        },
-        {
-          "name": "corriereadriatico.it",
-          "url": "https://www.corriereadriatico.it/sport/news/basket_serie_calendario_maxima_roma_esordira_casa_contro_napoli_la_spqr_treviso-9688144.html"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        }
-      ],
-      "notes": [
-        "היריבות המדויקות לכל אחד מ-2 המשחקים טרם פורטו",
-        "ייתכן שזו אותה קבוצת 'רומא' שהוזכרה כבר בטורניר קליארי יחד עם הפועל ת\"א ובאיירן - טרם ניתן לוודא אם מדובר במקסימה או ב-SPQR"
-      ],
-      "origin": "extracted",
-      "published": "2026-08-20T18:00:50+00:00",
-      "id": "g_64a9d6a641",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_2a1ac857",
-        "t_12174e28"
-      ],
-      "confidence": 6
     },
     {
       "date": "2026-09-12",
@@ -22033,7 +22054,7 @@
         "home": 98,
         "away": 74
       },
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1082/26/crvena-zvezda-meridianbet-olympiacos/",
+      "statsUrl": "https://fibalivestats.dcd.shared.geniussports.com/u/KOK/2885586/bs.html",
       "reportUrl": "https://www.allstarbasket.gr/ellada/greek-basketball-league/aris-erythros-asteras-98-74-ta-highlights-tou-agona-kai-i-foveri-emfanisi-tou-rompinson-erl-vids",
       "highlightsUrl": null,
       "sources": [
@@ -22309,65 +22330,6 @@
         "t_a85f3ce5"
       ],
       "confidence": 11
-    },
-    {
-      "date": "2026-09-13",
-      "dateLabel": "Dim 13 Sept",
-      "time": "15:30",
-      "homeTeam": "t_b49d2d8b",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Vilnius (Active Vilnius Arena)",
-        "city": "Vilnius",
-        "country": "Lithuania"
-      },
-      "tournament": "tournoi de Vilnius",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 81,
-        "away": 86
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=123",
-      "reportUrl": "https://www.jlbourg-basket.com/equipe-pro/jl96367/esenler-erokspor-bourg-en-bresse-2026-09-13",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/l-asvel-et-la-jl-bourg-battues-a-l-etranger-l-elan-bearnais-sauve-l-honneur-a-l-etranger",
-          "published": "2026-09-13T07:47:10+00:00"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/la-jl-bourg-termine-sur-une-victoire-contre-erokspor-au-tournoi-de-vilnius",
-          "published": "2026-09-14T09:41:23+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_f21bdb4d9c",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_b49d2d8b",
-        "t_211b1542"
-      ],
-      "confidence": 3
     },
     {
       "date": "2026-09-13",
@@ -23479,6 +23441,11 @@
           "published": "Sun, 13 Sep 2026 18:45:39 +0000"
         },
         {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/en/euroleague/2007602/robinson-earl-shines-as-aris-beat-crvena-zvezda/",
           "published": "Sun, 13 Sep 2026 14:59:29 +0000"
@@ -23495,18 +23462,18 @@
         "t_12174e28",
         "t_0d612940"
       ],
-      "confidence": 4
+      "confidence": 5
     },
     {
       "date": "2026-09-13",
-      "dateLabel": "2026-09-13T18:30:00+02:00",
+      "dateLabel": "2026-09-13",
       "time": "18:30",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_f1ab1373",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Burgos (Coliseum)",
+        "arena": "Coliseum Burgos",
         "city": null,
         "country": "ספרד"
       },
@@ -23553,7 +23520,7 @@
     },
     {
       "date": "2026-09-13",
-      "dateLabel": "2026-09-13T12:00:00+02:00",
+      "dateLabel": "2026-09-13",
       "time": "12:00",
       "homeTeam": "t_cec2cef8",
       "awayTeam": "t_1d8e80ce",
@@ -23678,6 +23645,60 @@
         "t_b8c446a3"
       ],
       "confidence": 1
+    },
+    {
+      "date": "2026-09-13",
+      "dateLabel": "13/09",
+      "time": "15:30",
+      "homeTeam": "t_211b1542",
+      "awayTeam": "t_b49d2d8b",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Vilnius (Active Vilnius Arena)",
+        "city": "Vilnius",
+        "country": "Lithuania"
+      },
+      "tournament": "tournoi de Vilnius",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 86,
+        "away": 81
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=123",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/l-asvel-et-la-jl-bourg-battues-a-l-etranger-l-elan-bearnais-sauve-l-honneur-a-l-etranger",
+          "published": "2026-09-13T07:47:10+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-jl-bourg-termine-sur-une-victoire-contre-erokspor-au-tournoi-de-vilnius",
+          "published": "2026-09-14T09:41:23+00:00"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_f21bdb4d9c",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_211b1542",
+        "t_b49d2d8b"
+      ],
+      "confidence": 2
     },
     {
       "date": "2026-09-13",
@@ -23825,9 +23846,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Cagliari",
+        "arena": null,
         "city": "Cagliari",
-        "country": "Italien"
+        "country": null
       },
       "tournament": null,
       "stage": null,
@@ -24089,70 +24110,6 @@
     {
       "date": "2026-09-13",
       "dateLabel": "domenica 13 settembre",
-      "time": "17:00",
-      "homeTeam": "t_726df887",
-      "awayTeam": "t_b35120b2",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "PalaSassi",
-        "city": "Matera",
-        "country": null
-      },
-      "tournament": "Trofeo Basilicata",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 106,
-        "away": 90
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-26-27-oggi-sette-squadre-impiegate-nei-test-di-preseason-2/",
-          "published": "Sun, 13 Sep 2026 07:52:01 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/trofeo-basilicata-napoli-basketball-supera-scafati-nella-finale-per-il-3-posto/",
-          "published": "Sun, 13 Sep 2026 17:40:47 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/roma-spqr-definito-il-programma-della-preseason-in-arrivo-il-via-al-raduno-poi-cinque-amichevoli/",
-          "published": "2026-08-17"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/napoli-basketball-il-programma-della-preseason/",
-          "published": "2026-07-28"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Sun, 13 Sep 2026 07:52:01 +0000",
-      "id": "g_2db3964954",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_726df887",
-        "t_b35120b2"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-13",
-      "dateLabel": "domenica 13 settembre",
       "time": "19:30",
       "homeTeam": "t_d70cfe97",
       "awayTeam": "t_2f1b0243",
@@ -24186,6 +24143,11 @@
           "published": "Sun, 13 Sep 2026 20:24:04 +0000"
         },
         {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
           "name": "sportando",
           "url": "https://sportando.basketball/magro-primo-tempo-molto-buono-poi-le-energie-fisiche-e-mentali-sono-calate-nel-finale/",
           "published": "Sun, 13 Sep 2026 20:58:06 +0000"
@@ -24202,7 +24164,7 @@
         "t_d70cfe97",
         "t_2f1b0243"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-13",
@@ -24558,7 +24520,7 @@
     },
     {
       "date": "2026-09-15",
-      "dateLabel": "2026-09-15T19:30:00+02:00",
+      "dateLabel": "2026-09-15",
       "time": null,
       "homeTeam": "t_09084792",
       "awayTeam": "t_066138ff",
@@ -25721,8 +25683,8 @@
       "date": "2026-09-16",
       "dateLabel": "mercoledì 16 settembre",
       "time": "20:00",
-      "homeTeam": "t_12174e28",
-      "awayTeam": "t_486860fc",
+      "homeTeam": "t_486860fc",
+      "awayTeam": "t_12174e28",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -25735,8 +25697,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 80,
-        "away": 97
+        "home": 97,
+        "away": 80
       },
       "statsUrl": "https://virtusbo.vivaticket.it/it/event/amichevole-virtus-bologna-vs-maxima-roma/314517",
       "reportUrl": null,
@@ -25827,7 +25789,7 @@
         "home": 78,
         "away": 99
       },
-      "statsUrl": "https://www.aba-liga.com/match-preseason/1064/26/perspektiva-ilirija-cibona/",
+      "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -26082,7 +26044,7 @@
     },
     {
       "date": "2026-09-16",
-      "dateLabel": "2026-09-16T20:30:00+02:00",
+      "dateLabel": "2026-09-16",
       "time": "20:30",
       "homeTeam": "t_dbdaabcd",
       "awayTeam": "t_25c20d3d",
@@ -26971,6 +26933,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -26984,7 +26951,7 @@
         "t_377c5d17",
         "t_bcf3b469"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-16",
@@ -27015,6 +26982,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -27028,7 +27000,7 @@
         "t_aba7e819",
         "t_d4657ac8"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-17",
@@ -27118,57 +27090,6 @@
     },
     {
       "date": "2026-09-17",
-      "dateLabel": "17.9",
-      "time": "20:00",
-      "homeTeam": "t_97d76180",
-      "awayTeam": "t_8ee48f2b",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Športna dvorana OŠ Milojke Štrukelj",
-        "city": "נובה גוריצה",
-        "country": "סלובניה"
-      },
-      "tournament": "סופרקאפ סלובני",
-      "stage": null,
-      "flags": [],
-      "broadcast": [
-        {
-          "name": "Sportklub Slovenija 1",
-          "url": null
-        }
-      ],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "cedevita.olimpija.com",
-          "url": "https://cedevita.olimpija.com/en/cedevita-olimpija-games/"
-        },
-        {
-          "name": "club:t_97d76180",
-          "url": "http://www.cedevita.olimpija.com/nlb-napoved-tekme-zmaji-se-bodo-v-novi-gorici-borili-za-prvo-lovoriko-sezone/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_830b102097",
-      "origins": [
-        "seed",
-        "extracted"
-      ],
-      "teams": [
-        "t_97d76180",
-        "t_8ee48f2b"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
       "dateLabel": "17.9, 20:00",
       "time": "20:00",
       "homeTeam": "t_29304cb1",
@@ -27215,87 +27136,6 @@
         "t_09084792"
       ],
       "confidence": 2
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "17.9, 18:00",
-      "time": "18:00",
-      "homeTeam": "t_335436f5",
-      "awayTeam": "t_96a73cd7",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "היובל, הרצליה",
-        "country": null
-      },
-      "tournament": "גביע ווינר סל",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "bhbasket.co.il",
-          "url": "https://bhbasket.co.il/games"
-        }
-      ],
-      "notes": [],
-      "origin": "seed",
-      "published": null,
-      "id": "g_d0a78aec3c",
-      "origins": [
-        "seed"
-      ],
-      "teams": [
-        "t_335436f5",
-        "t_96a73cd7"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "17 settembre",
-      "time": "20:30",
-      "homeTeam": "t_5cfbd288",
-      "awayTeam": null,
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": "Livorno",
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/lumos-pistoia-basket-le-date-della-pre-season/",
-          "published": "2026-07-27"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-07-27",
-      "id": "g_e7155b838a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_5cfbd288",
-        "t_43f8a292"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-17",
@@ -27385,7 +27225,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Bolzano",
+        "arena": null,
         "city": "Bolzano",
         "country": null
       },
@@ -27454,9 +27294,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": "Moscow",
+        "country": "Russia"
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -27503,190 +27343,6 @@
         "t_998ddb52"
       ],
       "confidence": 4
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "17 Eylül",
-      "time": "13:30",
-      "homeTeam": "t_99dbf7c1",
-      "awayTeam": "t_a7a29a23",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Turkcell Basketbol Gelişim Merkezi",
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/tr/euroleague-tr/2001169/besiktasin-hazirlik-maci-programi-belli-oldu/",
-          "published": "Sun, 23 Aug 2026 18:14:39 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Sun, 23 Aug 2026 18:14:39 +0000",
-      "id": "g_35f53f2f6d",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_99dbf7c1",
-        "t_a7a29a23"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "четверг 17.09",
-      "time": "17:00",
-      "homeTeam": "t_d4b1862f",
-      "awayTeam": "t_648bdb93",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
-      },
-      "tournament": "‐Neofytos Chandriotis‐ Tournament",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "league:vtb",
-          "url": "https://tickets.vtb-league.com/",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_ec2fbb7261",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_d4b1862f",
-        "t_648bdb93"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Jue 17/09",
-      "time": "13:15",
-      "homeTeam": "t_e5e57cfe",
-      "awayTeam": "t_fc568825",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Basketball Champions League Qualification Round Tournament 1",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/euroliga/alex-len-kosner-baskonia-fichaje-juego-interior/",
-          "published": "Mon, 14 Sep 2026 07:55:44 +0000"
-        },
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/euroliga/nikola-mirotic-fichaje-valencia-basket/",
-          "published": "Tue, 15 Sep 2026 07:57:41 +0000"
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/fiba-champions-league-el/2008374/kolossos-blak-aout-me-0-16-gia-tin-itta-apoklismo-apo-ti-manisa-pou-tha-pexi-me-promithea/",
-          "published": "Tue, 15 Sep 2026 15:45:53 +0000"
-        },
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/liga-endesa/dazn-temporada-2026-2027-supercopa/",
-          "published": "Wed, 16 Sep 2026 17:30:48 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 16 Sep 2026 17:30:48 +0000",
-      "id": "g_4d67510766",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_e5e57cfe",
-        "t_fc568825"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Jue 17/09",
-      "time": "15:30",
-      "homeTeam": "t_09084792",
-      "awayTeam": "t_e6b07e02",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Basketball Champions League Qualification Round Tournament 1",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/euroliga/nikola-mirotic-fichaje-valencia-basket/",
-          "published": "Tue, 15 Sep 2026 07:57:41 +0000"
-        },
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/liga-endesa/dazn-temporada-2026-2027-supercopa/",
-          "published": "Wed, 16 Sep 2026 17:30:48 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 15 Sep 2026 07:57:41 +0000",
-      "id": "g_42b66a60b4",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_09084792",
-        "t_e6b07e02"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-17",
@@ -27759,175 +27415,6 @@
     },
     {
       "date": "2026-09-17",
-      "dateLabel": "(17/9, 16:30)",
-      "time": "16:30",
-      "homeTeam": "t_8a646fb6",
-      "awayTeam": "t_e6b07e02",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Basketball Champions League Qualification Round Tournament 1",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/fiba-champions-league-el/2008374/kolossos-blak-aout-me-0-16-gia-tin-itta-apoklismo-apo-ti-manisa-pou-tha-pexi-me-promithea/",
-          "published": "Tue, 15 Sep 2026 15:45:53 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 15 Sep 2026 15:45:53 +0000",
-      "id": "g_5b8b675db8",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_8a646fb6",
-        "t_e6b07e02"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "(17/9, 21:00)",
-      "time": "21:00",
-      "homeTeam": "t_00aab9b2",
-      "awayTeam": "t_e7023744",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Basketball Champions League Qualification Round Tournament 1",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/fiba-champions-league-el/2008374/kolossos-blak-aout-me-0-16-gia-tin-itta-apoklismo-apo-ti-manisa-pou-tha-pexi-me-promithea/",
-          "published": "Tue, 15 Sep 2026 15:45:53 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Tue, 15 Sep 2026 15:45:53 +0000",
-      "id": "g_72437a9b06",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_00aab9b2",
-        "t_e7023744"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "Jue 17/09",
-      "time": "20:00",
-      "homeTeam": "t_fbecd043",
-      "awayTeam": "t_7c3dc4ef",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Basketball Champions League Qualification Round Tournament 1",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "gigantes",
-          "url": "https://www.gigantes.com/liga-endesa/dazn-temporada-2026-2027-supercopa/",
-          "published": "Wed, 16 Sep 2026 17:30:48 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 16 Sep 2026 17:30:48 +0000",
-      "id": "g_f1a5ddb206",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_fbecd043",
-        "t_7c3dc4ef"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-17",
-      "dateLabel": "17/09",
-      "time": "17:00",
-      "homeTeam": "t_1479c602",
-      "awayTeam": "t_af874286",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": "Κύπελλο Ελλάδος",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": null,
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "basket247",
-          "url": "https://www.basket247.gr/koymoylos-xekinisame-me-orexi-kai-filodoxies-eimaste-kalyteroi-apo-perysi/",
-          "published": "Wed, 16 Sep 2026 15:28:17 +0000"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/ellada/kypello-elladas/kypello-prokrisi-gia-p-faliro-promithea-2014-sportigk-panellinio-kai-athinaiko-pics",
-          "published": "2026-09-16T20:50:32+00:00"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "Wed, 16 Sep 2026 15:28:17 +0000",
-      "id": "g_d5b15fca69",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_1479c602",
-        "t_af874286"
-      ],
-      "confidence": 2
-    },
-    {
-      "date": "2026-09-17",
       "dateLabel": "jeudi 17 septembre",
       "time": "19:00",
       "homeTeam": "t_3c6fe8bb",
@@ -27988,7 +27475,7 @@
     {
       "date": "2026-09-18",
       "dateLabel": "18.9",
-      "time": "14:30",
+      "time": null,
       "homeTeam": "t_e5b49b07",
       "awayTeam": "t_4d477c44",
       "candidates": [],
@@ -28002,10 +27489,7 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": {
-        "home": 69,
-        "away": 83
-      },
+      "result": null,
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -28013,11 +27497,6 @@
         {
           "name": "אתר הפועל י-ם",
           "url": "https://hapoel.co.il/games"
-        },
-        {
-          "name": "club:t_e5b49b07",
-          "url": "http://www.hapoel.co.il/raspored",
-          "published": null
         }
       ],
       "notes": [],
@@ -28025,8 +27504,7 @@
       "published": null,
       "id": "g_9d92e18c6b",
       "origins": [
-        "seed",
-        "extracted"
+        "seed"
       ],
       "teams": [
         "t_e5b49b07",
@@ -28486,7 +27964,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "A Coruña (Riazor)",
+        "arena": "A Coruña",
         "city": null,
         "country": "ספרד"
       },
@@ -28936,9 +28414,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": "VTB Arena",
+        "city": "Moscow",
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -29004,7 +28482,7 @@
         "city": "Cento",
         "country": "Italy"
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -29088,7 +28566,7 @@
         "city": "Cento",
         "country": "Italy"
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -30054,6 +29532,10 @@
           "url": null
         },
         {
+          "name": "Movistar Plus+",
+          "url": null
+        },
+        {
           "name": "Novasports4",
           "url": null
         },
@@ -30391,7 +29873,7 @@
     },
     {
       "date": "2026-09-18",
-      "dateLabel": "2026-09-18T21:00:00+02:00",
+      "dateLabel": "2026-09-18",
       "time": null,
       "homeTeam": "t_bbaa773d",
       "awayTeam": "t_38027d78",
@@ -30435,7 +29917,7 @@
     },
     {
       "date": "2026-09-18",
-      "dateLabel": "2026-09-18T20:00:00+02:00",
+      "dateLabel": "2026-09-18",
       "time": "20:00",
       "homeTeam": "t_dfe9dae2",
       "awayTeam": "t_cec2cef8",
@@ -30491,9 +29973,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -30557,7 +30039,7 @@
         "home": 79,
         "away": 85
       },
-      "statsUrl": null,
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-18%20at%2021_39_59.jpeg",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -30966,6 +30448,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -30979,7 +30466,7 @@
         "t_5ffdf74f",
         "t_1949e0f4"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-19",
@@ -31123,6 +30610,11 @@
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/acb-el/2010175/bartselona-niki-thriler-me-valenthia-telikos-sto-supercopa-me-bantalona/",
           "published": "Sat, 19 Sep 2026 21:30:08 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/legionari/19092026-kurucam_macs_nosledzas_priekslaicigi_bask",
+          "published": "Sat, 19 Sep 2026 21:19:30 +0300"
         }
       ],
       "notes": [],
@@ -31137,14 +30629,14 @@
         "t_e32d7cf2",
         "t_1ce799a6"
       ],
-      "confidence": 6
+      "confidence": 7
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
       "time": "19:45",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_21cf4132",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -31157,8 +30649,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 71,
-        "away": 80
+        "home": 80,
+        "away": 71
       },
       "statsUrl": null,
       "reportUrl": null,
@@ -31167,6 +30659,11 @@
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
         },
         {
           "name": "sportando_en",
@@ -31215,11 +30712,6 @@
         {
           "name": "sportando.basketball",
           "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/"
-        },
-        {
-          "name": "club:t_21cf4132",
-          "url": "http://www.olimpiamilano.com/schedule",
-          "published": null
         }
       ],
       "notes": [
@@ -31346,11 +30838,6 @@
           "published": "2026-08-14"
         },
         {
-          "name": "club:t_763dcde9",
-          "url": "http://www.valenciabasket.com/ca/calendario",
-          "published": null
-        },
-        {
           "name": "allstarbasket",
           "url": "https://www.allstarbasket.gr/diethni/supercopa-endesa-valenthia-bartselona-kai-bantalona-baskonia-ta-zevgaria-ton-imitelikon",
           "published": "2026-07-21"
@@ -31447,7 +30934,101 @@
         "t_763dcde9",
         "t_1d8e80ce"
       ],
-      "confidence": 7
+      "confidence": 6
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "19\nset\n2026",
+      "time": "17:00",
+      "homeTeam": "t_23e4ce5d",
+      "awayTeam": "t_7cd10ddf",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nova Arena - Tortona",
+        "city": "Tortona",
+        "country": "Italy"
+      },
+      "tournament": "Semifinale",
+      "stage": null,
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "LBATV, Sky Sport Basket, Cielo",
+          "url": null
+        }
+      ],
+      "result": {
+        "home": 98,
+        "away": 90
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_23e4ce5d",
+          "url": "http://www.reyer.it/maschile/partite/",
+          "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-a-tortona-ecco-il-quadro-delle-semifinali/",
+          "published": "2026-06-30"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/supercoppa-2026-lba-milano-bologna-tortona-venezia/",
+          "published": "2026-07-02"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/",
+          "published": "2026-07-27"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/reyer-venezia-in-ansia-per-rice-supercoppa-a-rischio/",
+          "published": "Mon, 07 Sep 2026 09:00:22 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/presentata-la-supercoppa-lba-2026-reyer-alla-prima-grande-sfida-stagionale/",
+          "published": "Thu, 10 Sep 2026 20:33:53 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/sisalclub-title-sponsor-supercoppa-lba-2026/",
+          "published": "2026-09-01"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/supercoppa-lba-2026-calendario-orari-semifinali-finale/",
+          "published": "2026-09-02"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/reyer-venezia-derthona-basket-tabellino-supercoppa-2026/",
+          "published": "Sat, 19 Sep 2026 17:21:42 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_fd44c00e5a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_23e4ce5d",
+        "t_7cd10ddf"
+      ],
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
@@ -31458,9 +31039,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -31499,90 +31080,6 @@
         "t_d4b1862f"
       ],
       "confidence": 3
-    },
-    {
-      "date": "2026-09-19",
-      "dateLabel": "19 settembre",
-      "time": "17:00",
-      "homeTeam": "t_23e4ce5d",
-      "awayTeam": "t_7cd10ddf",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Nova Arena",
-        "city": "Tortona",
-        "country": "Italy"
-      },
-      "tournament": "Supercoppa SisalClub 2026",
-      "stage": null,
-      "flags": [],
-      "broadcast": [
-        {
-          "name": "LBATV, Sky Sport Basket, Cielo",
-          "url": null
-        }
-      ],
-      "result": {
-        "home": 98,
-        "away": 90
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-2026-a-tortona-ecco-il-quadro-delle-semifinali/",
-          "published": "2026-06-30"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/supercoppa-2026-lba-milano-bologna-tortona-venezia/",
-          "published": "2026-07-02"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/reyer-venezia-definito-il-calendario-della-preseason-verso-la-supercoppa/",
-          "published": "2026-07-27"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/reyer-venezia-in-ansia-per-rice-supercoppa-a-rischio/",
-          "published": "Mon, 07 Sep 2026 09:00:22 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/presentata-la-supercoppa-lba-2026-reyer-alla-prima-grande-sfida-stagionale/",
-          "published": "Thu, 10 Sep 2026 20:33:53 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/sisalclub-title-sponsor-supercoppa-lba-2026/",
-          "published": "2026-09-01"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/supercoppa-lba-2026-calendario-orari-semifinali-finale/",
-          "published": "2026-09-02"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/reyer-venezia-derthona-basket-tabellino-supercoppa-2026/",
-          "published": "Sat, 19 Sep 2026 17:21:42 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-06-30",
-      "id": "g_fd44c00e5a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_7cd10ddf",
-        "t_23e4ce5d"
-      ],
-      "confidence": 1
     },
     {
       "date": "2026-09-19",
@@ -31629,12 +31126,12 @@
       "date": "2026-09-19",
       "dateLabel": "19 settembre",
       "time": "20:00",
-      "homeTeam": "t_726df887",
-      "awayTeam": "t_577949d9",
+      "homeTeam": "t_577949d9",
+      "awayTeam": "t_726df887",
       "candidates": [],
       "opponentTbd": true,
       "venue": {
-        "arena": "Strasburgo",
+        "arena": "Strasbourg",
         "city": "Strasburgo",
         "country": "Francia"
       },
@@ -31643,8 +31140,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 76,
-        "away": 69
+        "home": 69,
+        "away": 76
       },
       "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=138",
       "reportUrl": null,
@@ -31712,7 +31209,7 @@
         "city": "Ravenna",
         "country": "Italy"
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -31768,7 +31265,7 @@
         "city": "Ravenna",
         "country": "Italy"
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -32151,8 +31648,8 @@
       "date": "2026-09-19",
       "dateLabel": "sabato 19 settembre",
       "time": "18:30",
-      "homeTeam": "t_12174e28",
-      "awayTeam": "t_2f1b0243",
+      "homeTeam": "t_2f1b0243",
+      "awayTeam": "t_12174e28",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -32165,8 +31662,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 105,
-        "away": 99
+        "home": 99,
+        "away": 105
       },
       "statsUrl": null,
       "reportUrl": null,
@@ -32323,7 +31820,7 @@
         "home": 81,
         "away": 76
       },
-      "statsUrl": null,
+      "statsUrl": "http://tofasspor.com/macdetay-701",
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
@@ -32360,8 +31857,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Poissy (Francia)",
-        "city": "Poissy",
+        "arena": "Poissy",
+        "city": "Poissy (Francia)",
         "country": "Francia"
       },
       "tournament": null,
@@ -32399,11 +31896,6 @@
           "published": "2026-08-21"
         },
         {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        },
-        {
           "name": "sportando",
           "url": "https://sportando.basketball/bc-roma-programma-preseason-2026-27/",
           "published": "2026-08-25"
@@ -32420,22 +31912,22 @@
         "t_d70cfe97",
         "t_59598d71"
       ],
-      "confidence": 4
+      "confidence": 3
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "sabato ore 19.45",
-      "time": "19:45",
+      "dateLabel": "19/09/2026",
+      "time": "17:00",
       "homeTeam": "t_21cf4132",
       "awayTeam": "t_89b6a781",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Nova Arena",
         "city": "Tortona",
         "country": "Italy"
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -32449,7 +31941,7 @@
         "away": 71
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.virtus.it/news/supercoppa-lba-sisalclub-2026-semifinale-armani-olimpia-milano-vs-virtus-costa-bologna-80-71/",
       "highlightsUrl": null,
       "sources": [
         {
@@ -32600,9 +32092,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -32906,6 +32398,94 @@
     },
     {
       "date": "2026-09-19",
+      "dateLabel": "Saturday, 19.09.2026",
+      "time": null,
+      "homeTeam": "t_344e420f",
+      "awayTeam": "t_04930bdc",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 106,
+        "away": 73
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_01f82c0d45",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_344e420f",
+        "t_04930bdc"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
+      "dateLabel": "Saturday, 19.09.2026",
+      "time": null,
+      "homeTeam": "t_2b3f230e",
+      "awayTeam": "t_b5649701",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 90,
+        "away": 68
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "league:aba",
+          "url": "https://www.aba-liga.com/calendar-preseason/26/1/",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_4471ed68bf",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_2b3f230e",
+        "t_b5649701"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
       "dateLabel": "19 septembre",
       "time": "18:00",
       "homeTeam": "t_4e577025",
@@ -33071,11 +32651,6 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/lelan-bearnais-prive-de-match-ce-dimanche",
           "published": "2026-08-27T10:53:44+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
         }
       ],
       "notes": [],
@@ -33089,14 +32664,14 @@
         "t_af249f63",
         "t_4e00735a"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19 septembre",
       "time": "19:00",
       "homeTeam": "t_b01c1ace",
-      "awayTeam": "t_3346f25b",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -33117,11 +32692,6 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
         }
       ],
       "notes": [],
@@ -33135,14 +32705,14 @@
         "t_b01c1ace",
         "t_3346f25b"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19 septembre",
       "time": "19:00",
       "homeTeam": "t_1aeea594",
-      "awayTeam": "t_9c71432b",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -33163,11 +32733,6 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
         }
       ],
       "notes": [],
@@ -33181,14 +32746,14 @@
         "t_1aeea594",
         "t_9c71432b"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
       "dateLabel": "19 septembre",
       "time": "19:00",
       "homeTeam": "t_ef202e7d",
-      "awayTeam": "t_d3d3d473",
+      "awayTeam": null,
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -33209,11 +32774,6 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
         }
       ],
       "notes": [],
@@ -33227,7 +32787,7 @@
         "t_ef202e7d",
         "t_d3d3d473"
       ],
-      "confidence": 2
+      "confidence": 1
     },
     {
       "date": "2026-09-19",
@@ -33376,14 +32936,14 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "19-09-2026",
+      "dateLabel": "19 sept, 2026",
       "time": "20:00",
       "homeTeam": "t_e3b7f23c",
       "awayTeam": "t_5c2ad363",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Etihad Arena",
+        "arena": "Etihad Arena (Abu Dabi)",
         "city": "Άμπου Ντάμπι",
         "country": null
       },
@@ -33391,6 +32951,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [
+        {
+          "name": "#Vamos",
+          "url": null
+        },
         {
           "name": "Novasports 4",
           "url": null
@@ -33489,6 +33053,16 @@
           "published": "Sat, 19 Sep 2026 19:17:03 +0000"
         },
         {
+          "name": "gipedo",
+          "url": "https://gipedo.politis.com.cy/kalathosfaira/euroleague/1034236/epese-makhomenos-o-olimpiakos-kai-i-real-katektise-to-prwto-super-cup",
+          "published": "Sat, 19 Sep 2026 22:19:00 +0300"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/real-madrid-olympiacos-93-89-primo-trionfo-nella-super-cup-di-euroleague/",
+          "published": "Sat, 19 Sep 2026 19:21:44 +0000"
+        },
+        {
           "name": "eurohoops",
           "url": "https://www.eurohoops.net/el/euroleague-el-2/2010109/bartzokas-psachno-akoma-tin-pio-apotelesmatiki-lineup-eprepe-pio-exipna-me-ti-real-ton-100-ponton/",
           "published": "Sat, 19 Sep 2026 20:20:16 +0000"
@@ -33535,7 +33109,7 @@
         "t_e3b7f23c",
         "t_5c2ad363"
       ],
-      "confidence": 8
+      "confidence": 9
     },
     {
       "date": "2026-09-19",
@@ -34637,7 +34211,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 54,
+        "away": 99
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -34646,6 +34223,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -34659,7 +34241,7 @@
         "t_6729ea04",
         "t_71f1ee04"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-19",
@@ -34678,7 +34260,10 @@
       "stage": null,
       "flags": [],
       "broadcast": [],
-      "result": null,
+      "result": {
+        "home": 82,
+        "away": 93
+      },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
@@ -34687,6 +34272,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -34700,7 +34290,7 @@
         "t_e6c1e21f",
         "t_e7173332"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-19",
@@ -34942,6 +34532,46 @@
     },
     {
       "date": "2026-09-20",
+      "dateLabel": "20/09",
+      "time": "17:00",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": null,
+      "candidates": [],
+      "opponentTbd": true,
+      "venue": {
+        "arena": "Palasport Taliercio",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Supercoppa SisalClub 2026",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_f03f4eeff4",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
       "dateLabel": "20 settembre",
       "time": null,
       "homeTeam": "t_763dcde9",
@@ -34994,7 +34624,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Supercoppa SisalClub 2026",
+      "tournament": "Semifinale",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -35031,7 +34661,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Gorizia",
+        "arena": null,
         "city": "Gorizia",
         "country": null
       },
@@ -35174,9 +34804,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -35220,9 +34850,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -35327,9 +34957,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "‐Neofytos Chandriotis‐ Tournament",
       "stage": null,
@@ -35829,6 +35459,11 @@
         },
         {
           "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
+        },
+        {
+          "name": "sportacentrs",
           "url": "http://sportacentrs.com/basketbols/latvijas_turniri/18092026-gulbenes_buku_rindas_pieteikti_cetri_spel",
           "published": "Fri, 18 Sep 2026 15:32:00 +0300"
         }
@@ -36010,6 +35645,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -36023,7 +35663,7 @@
         "t_55187dd3",
         "t_eb60a5a7"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": "2026-09-22",
@@ -36359,6 +35999,11 @@
           "name": "gigantes",
           "url": "https://www.gigantes.com/liga-endesa/supercopa-endesa-2026-previa-claves-favorito/",
           "published": "Fri, 18 Sep 2026 10:23:35 +0000"
+        },
+        {
+          "name": "sportacentrs",
+          "url": "http://sportacentrs.com/basketbols/latvijas_turniri/19092026-pierigas_cinina_kurzemnieki_cesis",
+          "published": "Sat, 19 Sep 2026 20:04:00 +0300"
         }
       ],
       "notes": [],
@@ -36372,7 +36017,7 @@
         "t_0207a4cd",
         "t_81b08214"
       ],
-      "confidence": 1
+      "confidence": 2
     },
     {
       "date": null,
@@ -37149,6 +36794,47 @@
       "teams": [
         "t_8ebb189a",
         "t_53c73730"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
+      "dateLabel": null,
+      "time": null,
+      "homeTeam": "t_cec2cef8",
+      "awayTeam": "t_66371643",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/acb-es/2004846/zacharie-perrin-brilla-en-el-ilerna-lleida-con-la-euroliga-en-el-horizonte/",
+          "published": "Sat, 05 Sep 2026 12:12:54 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "Sat, 05 Sep 2026 12:12:54 +0000",
+      "id": "g_0a840186f2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_cec2cef8",
+        "t_66371643"
       ],
       "confidence": 1
     },
