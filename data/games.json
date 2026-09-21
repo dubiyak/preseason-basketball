@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-21T10:25:49.733Z",
+  "updated": "2026-09-21T18:57:39.458Z",
   "season": "2026-27",
-  "newGames": 5,
+  "newGames": 3,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -180,14 +180,6 @@
       "resolvedBy": "recency"
     },
     {
-      "game": "g_a07e6d5b5e",
-      "field": "time",
-      "kept": "19:00",
-      "alsoReported": "20:00",
-      "from": "league:acb",
-      "resolvedBy": "first-seen"
-    },
-    {
       "game": "g_bd8fe5e3b2",
       "field": "time",
       "kept": "17:00",
@@ -321,22 +313,6 @@
       "kept": "20:20",
       "alsoReported": "17:00",
       "from": "sportando",
-      "resolvedBy": "recency"
-    },
-    {
-      "game": "g_e6eaaf144a",
-      "field": "time",
-      "kept": "20:15",
-      "alsoReported": "21:00",
-      "from": "sport24gr",
-      "resolvedBy": "first-seen"
-    },
-    {
-      "game": "g_e6eaaf144a",
-      "field": "time",
-      "kept": "21:00",
-      "alsoReported": "20:15",
-      "from": "basket247",
       "resolvedBy": "recency"
     },
     {
@@ -4443,7 +4419,7 @@
         "city": "פלקדה",
         "country": "איטליה"
       },
-      "tournament": "1° - Preseason",
+      "tournament": null,
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -6224,7 +6200,7 @@
     },
     {
       "date": "2026-08-29",
-      "dateLabel": "Sábado 29",
+      "dateLabel": "Sábado 29 13:00",
       "time": "13:00",
       "homeTeam": "t_25c20d3d",
       "awayTeam": "t_797c21bb",
@@ -7340,7 +7316,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Ólker Spor ve Etkinlik Salonu",
+        "arena": "Ülker Spor ve Etkinlik Salonu",
         "city": "איסטנבול",
         "country": "טורקיה"
       },
@@ -7973,7 +7949,7 @@
         "home": 71,
         "away": 75
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-01%20at%2022_11_00.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=85583",
       "highlightsUrl": null,
       "sources": [
@@ -8468,8 +8444,8 @@
       "date": "2026-09-03",
       "dateLabel": "giovedì 3 settembre",
       "time": "20:30",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_493d547d",
+      "homeTeam": "t_493d547d",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -8482,13 +8458,18 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 83,
-        "away": 79
+        "home": 79,
+        "away": 83
       },
       "statsUrl": null,
       "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
+        },
         {
           "name": "sportando_en",
           "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
@@ -8527,16 +8508,16 @@
       ],
       "notes": [],
       "origin": "extracted",
-      "published": "2026-08-07",
+      "published": null,
       "id": "g_cee3c46bf2",
       "origins": [
         "extracted"
       ],
       "teams": [
-        "t_486860fc",
-        "t_493d547d"
+        "t_493d547d",
+        "t_486860fc"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-03",
@@ -10252,8 +10233,8 @@
       "date": "2026-09-05",
       "dateLabel": "5.9, 20:00",
       "time": "20:00",
-      "homeTeam": "t_e32d7cf2",
-      "awayTeam": "t_5c2ad363",
+      "homeTeam": "t_5c2ad363",
+      "awayTeam": "t_e32d7cf2",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -10448,7 +10429,7 @@
         "city": "ג'סולו",
         "country": "איטליה"
       },
-      "tournament": "2° - Preseason",
+      "tournament": "Memorial Luca Silvestrin",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -13385,7 +13366,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Ekinox Arena",
+        "arena": "Ekinox",
         "city": "Bourg-en-Bresse",
         "country": null
       },
@@ -15174,6 +15155,11 @@
           "url": "https://sportando.basketball/tortona-il-calendario-della-preseason-2026-27/"
         },
         {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
+        },
+        {
           "name": "sportando_en",
           "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
           "published": "2026-08-07"
@@ -15221,7 +15207,7 @@
         "t_7cd10ddf",
         "t_486860fc"
       ],
-      "confidence": 2
+      "confidence": 3
     },
     {
       "date": "2026-09-09",
@@ -16053,7 +16039,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Palais des sports Pierre-de-Coubertin",
         "city": "Montpellier",
         "country": null
       },
@@ -16494,7 +16480,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "קטלוניה",
+        "city": "Tarragona",
         "country": "ספרד"
       },
       "tournament": "καταλανική λίγκα",
@@ -16557,14 +16543,14 @@
     {
       "date": "2026-09-10",
       "dateLabel": "10 septiembre",
-      "time": "18:30",
+      "time": "21:00",
       "homeTeam": "t_dfe9dae2",
       "awayTeam": "t_cec2cef8",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Tarragona",
         "country": null
       },
       "tournament": "καταλανική λίγκα",
@@ -16892,7 +16878,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Pabellón Sergio Scariolo (Marbella)",
+        "arena": null,
         "city": "מלגה",
         "country": "ספרד"
       },
@@ -17261,6 +17247,95 @@
     },
     {
       "date": "2026-09-11",
+      "dateLabel": "venerdì 11 settembre",
+      "time": "20:00",
+      "homeTeam": "t_9cfa72eb",
+      "awayTeam": "t_486860fc",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaMegabox",
+        "city": "Pesaro",
+        "country": "Italy"
+      },
+      "tournament": "Memorial Alphonso Ford",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 67,
+        "away": 110
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
+          "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/info-biglietti-amichevole-cmt-orange-tools-pesaro-virtus-bologna/",
+          "published": "Thu, 03 Sep 2026 17:15:25 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/la-virtus-bologna-travolge-pesaro-110-67-wendell-moore-jr-e-lmvp/",
+          "published": "Fri, 11 Sep 2026 20:37:58 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/preseason-lba-oggi-vl-pesaro-virtus-bologna-alle-20/",
+          "published": "2026-09-11"
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
+          "published": "2026-07-23"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/es/euroleague-es/2007096/madrid-barcelona-%e2%80%8b%e2%80%8bpanathinaikos-olympiacos-dubai-y-maccabi-ganan-sus-partidos-de-preparacion/",
+          "published": "Fri, 11 Sep 2026 21:49:27 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_8d34cbcbc2",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_9cfa72eb",
+        "t_486860fc"
+      ],
+      "confidence": 4
+    },
+    {
+      "date": "2026-09-11",
       "dateLabel": "11/09/26",
       "time": "18:00",
       "homeTeam": "t_914d2962",
@@ -17490,90 +17565,6 @@
         "t_1b44e7f9"
       ],
       "confidence": 10
-    },
-    {
-      "date": "2026-09-11",
-      "dateLabel": "venerdì 11 settembre",
-      "time": "20:00",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_9cfa72eb",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "PalaMegabox",
-        "city": "Pesaro",
-        "country": "Italy"
-      },
-      "tournament": "Memorial Alphonso Ford",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 110,
-        "away": 67
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
-          "published": "2026-08-07"
-        },
-        {
-          "name": "league:lba",
-          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
-          "published": null
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
-          "published": "2026-08-21"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/info-biglietti-amichevole-cmt-orange-tools-pesaro-virtus-bologna/",
-          "published": "Thu, 03 Sep 2026 17:15:25 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/la-virtus-bologna-travolge-pesaro-110-67-wendell-moore-jr-e-lmvp/",
-          "published": "Fri, 11 Sep 2026 20:37:58 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/preseason-lba-oggi-vl-pesaro-virtus-bologna-alle-20/",
-          "published": "2026-09-11"
-        },
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/vl-pesaro-tutte-le-date-della-preseason-2026-2027/",
-          "published": "2026-07-23"
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/es/euroleague-es/2007096/madrid-barcelona-%e2%80%8b%e2%80%8bpanathinaikos-olympiacos-dubai-y-maccabi-ganan-sus-partidos-de-preparacion/",
-          "published": "Fri, 11 Sep 2026 21:49:27 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-07",
-      "id": "g_8d34cbcbc2",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_486860fc",
-        "t_9cfa72eb"
-      ],
-      "confidence": 3
     },
     {
       "date": "2026-09-11",
@@ -18684,8 +18675,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Coliseum Burgos",
-        "city": null,
+        "arena": "Coliseum",
+        "city": "Burgos",
         "country": null
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -18739,7 +18730,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Yecla",
         "country": null
       },
       "tournament": "Trofeo 25 Aniversario de la Red Deportiva Yecla",
@@ -19108,7 +19099,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Palacio José Mª Martín Carpena",
+        "arena": null,
         "city": "מלגה",
         "country": "ספרד"
       },
@@ -19121,17 +19112,12 @@
         "away": 113
       },
       "statsUrl": null,
-      "reportUrl": "https://acb.com/es/liga/noticias/el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol-74-113-145993",
+      "reportUrl": null,
       "highlightsUrl": null,
       "sources": [
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
-        },
-        {
-          "name": "league:acb",
-          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
-          "published": null
         },
         {
           "name": "club:t_5c2ad363",
@@ -19186,7 +19172,7 @@
         "t_29304cb1",
         "t_5c2ad363"
       ],
-      "confidence": 7
+      "confidence": 6
     },
     {
       "date": "2026-09-12",
@@ -19312,7 +19298,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Lonato del Garda",
-        "city": "Lonato del Garda",
+        "city": "Lonato",
         "country": "איטליה"
       },
       "tournament": "4° - Preseason",
@@ -19613,7 +19599,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "Κάλιαρι",
+        "city": "Pontevedra",
         "country": null
       },
       "tournament": "טורניר EncestaRías",
@@ -19676,13 +19662,13 @@
       "date": "2026-09-12",
       "dateLabel": "12-13 septiembre",
       "time": "18:30",
-      "homeTeam": "t_38027d78",
-      "awayTeam": "t_f1ab1373",
+      "homeTeam": "t_f1ab1373",
+      "awayTeam": "t_38027d78",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Coliseum Burgos",
+        "city": "Burgos",
         "country": null
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -19690,8 +19676,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 96,
-        "away": 90
+        "home": 90,
+        "away": 96
       },
       "statsUrl": null,
       "reportUrl": "https://acb.com/es/liga/noticias/el-surne-bilbao-remonta-y-se-hace-con-i-torneo-coliseum-de-burgos-90-96-145991",
@@ -21059,8 +21045,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Le Jeu de Paume",
+        "city": "Blois",
         "country": null
       },
       "tournament": "Finale",
@@ -21108,8 +21094,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Le Jeu de Paume",
+        "city": "Blois",
         "country": null
       },
       "tournament": null,
@@ -21574,6 +21560,50 @@
       "teams": [
         "t_9f7530d5",
         "t_b3ee10c2"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-12",
+      "dateLabel": "12.09.2026",
+      "time": null,
+      "homeTeam": "t_021aac64",
+      "awayTeam": "t_ef2290b6",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": null,
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 70,
+        "away": 77
+      },
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_ef2290b6",
+          "url": "https://www.chemnitz99.de/saison",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_ee4a6019ca",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_021aac64",
+        "t_ef2290b6"
       ],
       "confidence": 1
     },
@@ -23153,7 +23183,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Coliseum Burgos",
-        "city": null,
+        "city": "Burgos",
         "country": "ספרד"
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -23290,8 +23320,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Salle Georges Mention",
+        "city": "Sablé-sur-Sarthe",
         "country": null
       },
       "tournament": null,
@@ -23334,7 +23364,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Active Vilnius Arena",
         "city": "Vilnius",
         "country": "Lithuania"
       },
@@ -23437,8 +23467,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Palais des Sports",
+        "city": "Luxeuil-les-Bains",
         "country": null
       },
       "tournament": null,
@@ -24266,7 +24296,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "San Javier",
         "country": null
       },
       "tournament": null,
@@ -25247,6 +25277,100 @@
     },
     {
       "date": "2026-09-16",
+      "dateLabel": "mercoledì 16 settembre",
+      "time": "20:00",
+      "homeTeam": "t_486860fc",
+      "awayTeam": "t_12174e28",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "PalaDozza",
+        "city": "Bologna",
+        "country": "Italy"
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 97,
+        "away": 80
+      },
+      "statsUrl": "https://virtusbo.vivaticket.it/it/event/amichevole-virtus-bologna-vs-maxima-roma/314517",
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_486860fc",
+          "url": "https://www.virtus.it/news/il-calendario-delle-amichevoli-della-preseason-2026-2027-della-virtus-bologna/",
+          "published": null
+        },
+        {
+          "name": "sportando_en",
+          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
+          "published": "2026-08-07"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
+          "published": "2026-08-18"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
+          "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/maxima-roma-al-via-oggi-la-preparazione-a-campobasso/",
+          "published": "2026-08-21"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/virtus-bologna-maxima-roma-biglietti-in-vendita-per-lamichevole-di-mercoledi-16-settembre/",
+          "published": "Sat, 05 Sep 2026 06:58:57 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/memorial-bertolazzi-una-virtus-bologna-sugli-scudi-batte-tortona-88-73/",
+          "published": "Wed, 09 Sep 2026 20:30:09 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/la-virtus-bologna-travolge-pesaro-110-67-wendell-moore-jr-e-lmvp/",
+          "published": "Fri, 11 Sep 2026 20:37:58 +0000"
+        },
+        {
+          "name": "sportando",
+          "url": "https://sportando.basketball/virtus-bologna-maxima-roma-la-diretta-testuale-finale/",
+          "published": "Wed, 16 Sep 2026 19:50:00 +0000"
+        },
+        {
+          "name": "corriereadriatico.it",
+          "url": "https://www.corriereadriatico.it/sport/news/basket_serie_calendario_maxima_roma_esordira_casa_contro_napoli_la_spqr_treviso-9688144.html"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_f8ea61f2d0",
+      "origins": [
+        "extracted",
+        "seed"
+      ],
+      "teams": [
+        "t_486860fc",
+        "t_12174e28"
+      ],
+      "confidence": 4
+    },
+    {
+      "date": "2026-09-16",
       "dateLabel": "16 settembre",
       "time": null,
       "homeTeam": "t_7e157e3f",
@@ -25421,95 +25545,6 @@
         "t_efb291c6"
       ],
       "confidence": 1
-    },
-    {
-      "date": "2026-09-16",
-      "dateLabel": "mercoledì 16 settembre",
-      "time": "20:00",
-      "homeTeam": "t_12174e28",
-      "awayTeam": "t_486860fc",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "PalaDozza",
-        "city": "Bologna",
-        "country": "Italy"
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 80,
-        "away": 97
-      },
-      "statsUrl": "https://virtusbo.vivaticket.it/it/event/amichevole-virtus-bologna-vs-maxima-roma/314517",
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "sportando_en",
-          "url": "https://sportando.basketball/virtus-bologna-il-calendario-della-preseason/",
-          "published": "2026-08-07"
-        },
-        {
-          "name": "league:lba",
-          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
-          "published": null
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-serie-a-sisalclub-2026-27-la-preseason-delle-16-squadre/",
-          "published": "2026-08-18"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/lba-la-preseason-delle-16-squadre-oggi-si-gioca-napoli-spartak-subotica/",
-          "published": "2026-08-21"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/maxima-roma-al-via-oggi-la-preparazione-a-campobasso/",
-          "published": "2026-08-21"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/virtus-bologna-maxima-roma-biglietti-in-vendita-per-lamichevole-di-mercoledi-16-settembre/",
-          "published": "Sat, 05 Sep 2026 06:58:57 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/memorial-bertolazzi-una-virtus-bologna-sugli-scudi-batte-tortona-88-73/",
-          "published": "Wed, 09 Sep 2026 20:30:09 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/la-virtus-bologna-travolge-pesaro-110-67-wendell-moore-jr-e-lmvp/",
-          "published": "Fri, 11 Sep 2026 20:37:58 +0000"
-        },
-        {
-          "name": "sportando",
-          "url": "https://sportando.basketball/virtus-bologna-maxima-roma-la-diretta-testuale-finale/",
-          "published": "Wed, 16 Sep 2026 19:50:00 +0000"
-        },
-        {
-          "name": "corriereadriatico.it",
-          "url": "https://www.corriereadriatico.it/sport/news/basket_serie_calendario_maxima_roma_esordira_casa_contro_napoli_la_spqr_treviso-9688144.html"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-08-07",
-      "id": "g_f8ea61f2d0",
-      "origins": [
-        "extracted",
-        "seed"
-      ],
-      "teams": [
-        "t_486860fc",
-        "t_12174e28"
-      ],
-      "confidence": 3
     },
     {
       "date": "2026-09-16",
@@ -25794,8 +25829,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Polideportivo El Plantío",
-        "city": null,
+        "arena": "El Plantío",
+        "city": "Burgos",
         "country": null
       },
       "tournament": "Copa Castilla y León (Final)",
@@ -25843,8 +25878,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Palais des Sports",
+        "city": "Pau",
         "country": null
       },
       "tournament": null,
@@ -25887,8 +25922,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Sportcampus Lange Munte",
+        "city": "Courtrai",
         "country": null
       },
       "tournament": null,
@@ -27091,9 +27126,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": "Moscow",
+        "country": "Russia"
       },
       "tournament": "Finale",
       "stage": null,
@@ -27220,7 +27255,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Colisée",
-        "city": "Chalon-sur-Saône",
+        "city": "Chalon/Saône",
         "country": null
       },
       "tournament": null,
@@ -27694,8 +27729,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Riazor",
+        "city": "A Coruña",
         "country": "ספרד"
       },
       "tournament": "Teresa Herrera",
@@ -27875,238 +27910,6 @@
     },
     {
       "date": "2026-09-18",
-      "dateLabel": "Ven 18 Sept",
-      "time": "21:15",
-      "homeTeam": "t_e5cb1715",
-      "awayTeam": "t_211b1542",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "OAKA Arena",
-        "city": "Athens",
-        "country": "Greece"
-      },
-      "tournament": "Finale",
-      "stage": null,
-      "flags": [],
-      "broadcast": [
-        {
-          "name": "ΣΚΑΪ",
-          "url": null
-        },
-        {
-          "name": "ΣΚΑΙ",
-          "url": null
-        },
-        {
-          "name": "Skai",
-          "url": null
-        }
-      ],
-      "result": {
-        "home": 90,
-        "away": 69
-      },
-      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=152",
-      "reportUrl": null,
-      "highlightsUrl": "https://exchange.glomex.com/video/v-dlipuxb389wx?integrationId=40599z1skli3nleq",
-      "sources": [
-        {
-          "name": "club:t_211b1542",
-          "url": "https://www.jlbourg-basket.com/equipe-pro/les-matchs",
-          "published": null
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/a-defaut-de-supercoupe-euroleague-un-joli-lot-de-consolation-chez-le-panathinaikos-pour-la-jl-bourg",
-          "published": "2026-08-22T13:38:05+00:00"
-        },
-        {
-          "name": "league:lnb",
-          "url": "https://presaison.lnb.info/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-me-partizan-paok-kai-bourgk-to-8o-tournoua-pavlos-giannakopoulos-oi-imerominies/",
-          "published": null
-        },
-        {
-          "name": "basket247",
-          "url": "https://www.basket247.gr/panathinaikos-anakoinwse-ti-dieksagwgi-tou-pavlos-giannakopoulos/",
-          "published": "Thu, 03 Sep 2026 14:59:35 +0000"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-bourgk-sto-8o-tournoua-paylos-giannakopoulos-18-kai-19-septemvriou-oi-agones",
-          "published": "2026-09-03T15:47:50+00:00"
-        },
-        {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/09/03/partizan-atina-turnir-pripreme/",
-          "published": "Thu, 03 Sep 2026 17:50:02 +0000"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/la-jl-bourg-invitee-a-la-table-des-grands-a-athenes-avec-le-panathinaikos-pour-commencer",
-          "published": "2026-09-03T19:18:26+00:00"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/euroleague-basketball/sto-idrima-pavlos-giannakopoulos-ola-ta-esoda-apo-fetino-tournoua-tou-panathinaikou-aktor-pote-kikloforoun-ta-eisitiria/",
-          "published": null
-        },
-        {
-          "name": "paopantou",
-          "url": "https://paopantou.gr/kykloforoun-ta-eisitiria-gia-to-8o-tournoua-pavlos-giannakopoulos/",
-          "published": "Tue, 08 Sep 2026 16:57:39 +0000"
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/euroleague-el-2/2005946/8o-pavlos-giannakopoulos-sto-oaka-se-kikloforia-ta-isitiria/",
-          "published": "Wed, 09 Sep 2026 08:18:53 +0000"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-tethikan-se-kikloforia-ta-eisitiria-gia-to-tournoua-pavlos-giannakopoulos/",
-          "published": null
-        },
-        {
-          "name": "paopantou",
-          "url": "https://paopantou.gr/panathinaikos-se-kykloforia-ta-eisitiria-gia-to-8o-tournoua-pavlos-giannakopoulos/",
-          "published": "Wed, 09 Sep 2026 08:13:00 +0000"
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/eurocup-el/2007362/spoudeos-paok-nikise-me-anesi-tin-armani-stin-italia/",
-          "published": "Sat, 12 Sep 2026 18:17:40 +0000"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/panathinaikos-aktor-kykloforisan-ta-eisitiria-gia-to-paylos-giannakopoulos-vid",
-          "published": "2026-09-09T08:32:55+00:00"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/panathinaikos-se-kykloforia-tin-tetarti-9-9-ta-eisitiria-gia-to-8o-paylos-giannakopoulos",
-          "published": "2026-09-08T16:38:25+00:00"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/panathinaikos-proto-filiko-simera-sto-maroysi",
-          "published": "2026-09-04T08:45:44+00:00"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-allages-stis-ores-diexagogis-sto-tournoua-pavlos-giannakopoulos/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/o-giannis-alafouzos-sto-panathinaikos-bourgk-apo-ti-souita-tou-dimitri-giannakopoulou/",
-          "published": null
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/en/euroleague/2009713/paok-stun-partizan-at-the-buzzer-panathinaikos-cruise-in-obradovics-return/",
-          "published": "Fri, 18 Sep 2026 21:02:37 +0000"
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/el/euroleague-el-2/2009634/o-panathinaikos-to-diaskedase-me-bourgk-ki-akolouthi-to-diskolotero-test-me-paok/",
-          "published": "Fri, 18 Sep 2026 20:10:26 +0000"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/dimitris-giannakopoulos-kai-fragkiskos-alvertis-sinagonistikan-sta-triponta-sto-imixrono-tou-panathinaikos-bourgk-to-video-tou-sport24/",
-          "published": null
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
-          "published": "2026-09-18T20:22:02+00:00"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-panathinaikos-bourgk-simera-sto-8o-tournoua-paylos-giannakopoulos",
-          "published": "2026-09-18T08:19:12+00:00"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/ta-highlights-tou-panathinaikos-bourgk-90-69",
-          "published": "2026-09-18T20:27:53+00:00"
-        },
-        {
-          "name": "allstarbasket",
-          "url": "https://www.allstarbasket.gr/diethni/euroleague/tournoua-paylos-giannakopoulos-poy-tha-deite-panathinaiko-kai-paok",
-          "published": "2026-09-18T05:35:39+00:00"
-        },
-        {
-          "name": "bebasket",
-          "url": "https://www.bebasket.fr/a-athenes-la-jl-bourg-sans-reponse-au-duo-francisco-lessort",
-          "published": "2026-09-19T06:06:28+00:00"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/video/ta-highlights-apo-ti-niki-tou-panathinaikou-aktor-epi-tou-paok-ston-teliko-tou-tournoua-pavlos-giannakopoulos/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-bourgk-dinamiko-xekinima-tou-mantzouka-me-3-3-triponta/",
-          "published": null
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-seistike-to-telekom-center-athens-me-tin-eisodo-tou-omprantovits/",
-          "published": null
-        },
-        {
-          "name": "eurohoops",
-          "url": "https://www.eurohoops.net/tr/euroleague-tr/2009681/sylvain-francisco-etkileyici-oynadi-panathinaikos-bourgu-farkli-gecti/",
-          "published": "Fri, 18 Sep 2026 20:14:43 +0000"
-        },
-        {
-          "name": "basket247",
-          "url": "https://www.basket247.gr/panathinaikos-ta-highlights-apo-tin-filiki-niki-kontra-stin-burg-vid/",
-          "published": "Sat, 19 Sep 2026 06:41:00 +0000"
-        },
-        {
-          "name": "sport24gr",
-          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-90-69-epaixe-20-esvise-alla-20-ki-ekleise-rantevou-me-ton-paok-ston-teliko-tou-8ou-tournoua-pavlos-giannakopoulos/",
-          "published": null
-        },
-        {
-          "name": "hotsport",
-          "url": "https://hotsport.rs/2026/09/17/penjaroja-pripreme/",
-          "published": "Thu, 17 Sep 2026 13:48:25 +0000"
-        },
-        {
-          "name": "paopantou",
-          "url": "https://paopantou.gr/tournoua-pavlos-giannakopoulos-paok-partizan-kai-bourgk-oloklironoun-to-pazl/",
-          "published": null
-        },
-        {
-          "name": "basket247",
-          "url": "https://www.basket247.gr/eukola-o-panathinaikos-tin-bourg-sti-megali-epistrofi-tou-obradovic/",
-          "published": "Fri, 18 Sep 2026 20:25:40 +0000"
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": "2026-09-18T20:22:02+00:00",
-      "id": "g_e6eaaf144a",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_e5cb1715",
-        "t_211b1542"
-      ],
-      "confidence": 9
-    },
-    {
-      "date": "2026-09-18",
       "dateLabel": "18 Eylül",
       "time": "17:00",
       "homeTeam": "t_157b4fa8",
@@ -28114,9 +27917,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": "VTB Arena",
+        "city": "Moscow",
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -28386,10 +28189,10 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Tofaş Spor Salonu",
-        "city": "Bursa",
+        "city": null,
         "country": null
       },
-      "tournament": "Cevat Soydaş Turnuvası",
+      "tournament": "26. Cevat Soydaş",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -28811,6 +28614,233 @@
         "t_311470db"
       ],
       "confidence": 2
+    },
+    {
+      "date": "2026-09-18",
+      "dateLabel": "le 18 septembre",
+      "time": "21:15",
+      "homeTeam": "t_e5cb1715",
+      "awayTeam": "t_211b1542",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "OAKA Arena",
+        "city": "Athens",
+        "country": "Greece"
+      },
+      "tournament": "Finale",
+      "stage": null,
+      "flags": [],
+      "broadcast": [
+        {
+          "name": "ΣΚΑΪ",
+          "url": null
+        },
+        {
+          "name": "ΣΚΑΙ",
+          "url": null
+        },
+        {
+          "name": "Skai",
+          "url": null
+        }
+      ],
+      "result": {
+        "home": 90,
+        "away": 69
+      },
+      "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=152",
+      "reportUrl": null,
+      "highlightsUrl": "https://exchange.glomex.com/video/v-dlipuxb389wx?integrationId=40599z1skli3nleq",
+      "sources": [
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/a-defaut-de-supercoupe-euroleague-un-joli-lot-de-consolation-chez-le-panathinaikos-pour-la-jl-bourg",
+          "published": "2026-08-22T13:38:05+00:00"
+        },
+        {
+          "name": "league:lnb",
+          "url": "https://presaison.lnb.info/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-me-partizan-paok-kai-bourgk-to-8o-tournoua-pavlos-giannakopoulos-oi-imerominies/",
+          "published": null
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/panathinaikos-anakoinwse-ti-dieksagwgi-tou-pavlos-giannakopoulos/",
+          "published": "Thu, 03 Sep 2026 14:59:35 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-bourgk-sto-8o-tournoua-paylos-giannakopoulos-18-kai-19-septemvriou-oi-agones",
+          "published": "2026-09-03T15:47:50+00:00"
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/03/partizan-atina-turnir-pripreme/",
+          "published": "Thu, 03 Sep 2026 17:50:02 +0000"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/la-jl-bourg-invitee-a-la-table-des-grands-a-athenes-avec-le-panathinaikos-pour-commencer",
+          "published": "2026-09-03T19:18:26+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/euroleague-basketball/sto-idrima-pavlos-giannakopoulos-ola-ta-esoda-apo-fetino-tournoua-tou-panathinaikou-aktor-pote-kikloforoun-ta-eisitiria/",
+          "published": null
+        },
+        {
+          "name": "paopantou",
+          "url": "https://paopantou.gr/kykloforoun-ta-eisitiria-gia-to-8o-tournoua-pavlos-giannakopoulos/",
+          "published": "Tue, 08 Sep 2026 16:57:39 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2005946/8o-pavlos-giannakopoulos-sto-oaka-se-kikloforia-ta-isitiria/",
+          "published": "Wed, 09 Sep 2026 08:18:53 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-tethikan-se-kikloforia-ta-eisitiria-gia-to-tournoua-pavlos-giannakopoulos/",
+          "published": null
+        },
+        {
+          "name": "paopantou",
+          "url": "https://paopantou.gr/panathinaikos-se-kykloforia-ta-eisitiria-gia-to-8o-tournoua-pavlos-giannakopoulos/",
+          "published": "Wed, 09 Sep 2026 08:13:00 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/eurocup-el/2007362/spoudeos-paok-nikise-me-anesi-tin-armani-stin-italia/",
+          "published": "Sat, 12 Sep 2026 18:17:40 +0000"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/panathinaikos-aktor-kykloforisan-ta-eisitiria-gia-to-paylos-giannakopoulos-vid",
+          "published": "2026-09-09T08:32:55+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/panathinaikos-se-kykloforia-tin-tetarti-9-9-ta-eisitiria-gia-to-8o-paylos-giannakopoulos",
+          "published": "2026-09-08T16:38:25+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/ellada/greek-basketball-league/panathinaikos-proto-filiko-simera-sto-maroysi",
+          "published": "2026-09-04T08:45:44+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-allages-stis-ores-diexagogis-sto-tournoua-pavlos-giannakopoulos/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/o-giannis-alafouzos-sto-panathinaikos-bourgk-apo-ti-souita-tou-dimitri-giannakopoulou/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/en/euroleague/2009713/paok-stun-partizan-at-the-buzzer-panathinaikos-cruise-in-obradovics-return/",
+          "published": "Fri, 18 Sep 2026 21:02:37 +0000"
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/el/euroleague-el-2/2009634/o-panathinaikos-to-diaskedase-me-bourgk-ki-akolouthi-to-diskolotero-test-me-paok/",
+          "published": "Fri, 18 Sep 2026 20:10:26 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/dimitris-giannakopoulos-kai-fragkiskos-alvertis-sinagonistikan-sta-triponta-sto-imixrono-tou-panathinaikos-bourgk-to-video-tou-sport24/",
+          "published": null
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/alli-klasi-o-panathinaikos-90-69-tin-bourgk-kai-paizei-to-savvato-me-paok-ston-teliko",
+          "published": "2026-09-18T20:22:02+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/paok-partizan-kai-panathinaikos-bourgk-simera-sto-8o-tournoua-paylos-giannakopoulos",
+          "published": "2026-09-18T08:19:12+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/ta-highlights-tou-panathinaikos-bourgk-90-69",
+          "published": "2026-09-18T20:27:53+00:00"
+        },
+        {
+          "name": "allstarbasket",
+          "url": "https://www.allstarbasket.gr/diethni/euroleague/tournoua-paylos-giannakopoulos-poy-tha-deite-panathinaiko-kai-paok",
+          "published": "2026-09-18T05:35:39+00:00"
+        },
+        {
+          "name": "bebasket",
+          "url": "https://www.bebasket.fr/a-athenes-la-jl-bourg-sans-reponse-au-duo-francisco-lessort",
+          "published": "2026-09-19T06:06:28+00:00"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/video/ta-highlights-apo-ti-niki-tou-panathinaikou-aktor-epi-tou-paok-ston-teliko-tou-tournoua-pavlos-giannakopoulos/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-bourgk-dinamiko-xekinima-tou-mantzouka-me-3-3-triponta/",
+          "published": null
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-seistike-to-telekom-center-athens-me-tin-eisodo-tou-omprantovits/",
+          "published": null
+        },
+        {
+          "name": "eurohoops",
+          "url": "https://www.eurohoops.net/tr/euroleague-tr/2009681/sylvain-francisco-etkileyici-oynadi-panathinaikos-bourgu-farkli-gecti/",
+          "published": "Fri, 18 Sep 2026 20:14:43 +0000"
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/panathinaikos-ta-highlights-apo-tin-filiki-niki-kontra-stin-burg-vid/",
+          "published": "Sat, 19 Sep 2026 06:41:00 +0000"
+        },
+        {
+          "name": "sport24gr",
+          "url": "https://www.sport24.gr/basket/panathinaikos-aktor-bourgk-90-69-epaixe-20-esvise-alla-20-ki-ekleise-rantevou-me-ton-paok-ston-teliko-tou-8ou-tournoua-pavlos-giannakopoulos/",
+          "published": null
+        },
+        {
+          "name": "hotsport",
+          "url": "https://hotsport.rs/2026/09/17/penjaroja-pripreme/",
+          "published": "Thu, 17 Sep 2026 13:48:25 +0000"
+        },
+        {
+          "name": "paopantou",
+          "url": "https://paopantou.gr/tournoua-pavlos-giannakopoulos-paok-partizan-kai-bourgk-oloklironoun-to-pazl/",
+          "published": null
+        },
+        {
+          "name": "basket247",
+          "url": "https://www.basket247.gr/eukola-o-panathinaikos-tin-bourg-sti-megali-epistrofi-tou-obradovic/",
+          "published": "Fri, 18 Sep 2026 20:25:40 +0000"
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": "2026-09-18T20:22:02+00:00",
+      "id": "g_e6eaaf144a",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_e5cb1715",
+        "t_211b1542"
+      ],
+      "confidence": 8
     },
     {
       "date": "2026-09-18",
@@ -29443,7 +29473,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
+        "arena": "Pabellón las Torres",
         "city": null,
         "country": null
       },
@@ -29488,7 +29518,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Sant Hilari Sacalm (Girona)",
         "country": null
       },
       "tournament": null,
@@ -29536,9 +29566,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -30379,6 +30409,50 @@
     },
     {
       "date": "2026-09-19",
+      "dateLabel": "19/09",
+      "time": "19:45",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_03b3581a",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nova Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Finale",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 80,
+        "away": 71
+      },
+      "statsUrl": "https://www.olimpiamilano.com/event/semifinale-gara-1/",
+      "reportUrl": "https://www.olimpiamilano.com/event/semifinale-gara-1/",
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_81cb3872ee",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_03b3581a"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-19",
       "dateLabel": "19 Eylül",
       "time": "17:00",
       "homeTeam": "t_157b4fa8",
@@ -30386,9 +30460,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -31174,10 +31248,10 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Tofaş Spor Salonu",
-        "city": "Bursa",
+        "city": null,
         "country": null
       },
-      "tournament": "Cevat Soydaş Turnuvası",
+      "tournament": "26. Cevat Soydaş Final Günü",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -31401,9 +31475,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -32220,8 +32294,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Kindarena",
+        "city": "Rouen",
         "country": null
       },
       "tournament": null,
@@ -32307,14 +32381,14 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "2026-09-19",
+      "dateLabel": "19-09-2026",
       "time": "20:00",
       "homeTeam": "t_e3b7f23c",
       "awayTeam": "t_5c2ad363",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Etihad Arena (Abu Dabi)",
+        "arena": "Etihad Arena",
         "city": "Άμπου Ντάμπι",
         "country": null
       },
@@ -33684,7 +33758,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Cevat Soydaş Turnuvası",
+      "tournament": "26. Cevat Soydaş",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -34158,6 +34232,50 @@
     },
     {
       "date": "2026-09-20",
+      "dateLabel": "20/09",
+      "time": "17:00",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_486860fc",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Nova Arena",
+        "city": null,
+        "country": null
+      },
+      "tournament": "Finale",
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": {
+        "home": 87,
+        "away": 94
+      },
+      "statsUrl": "https://www.olimpiamilano.com/event/finale-gara-1/",
+      "reportUrl": "https://www.olimpiamilano.com/event/finale-gara-1/",
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_235363695f",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_21cf4132",
+        "t_486860fc"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": "2026-09-20",
       "dateLabel": "20 settembre",
       "time": null,
       "homeTeam": "t_763dcde9",
@@ -34309,7 +34427,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": null,
+        "city": "Santiago de Compostela",
         "country": null
       },
       "tournament": "Presentación",
@@ -34357,9 +34475,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -34460,8 +34578,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": null,
-        "city": null,
+        "arena": "Tenerife",
+        "city": "Tenerife",
         "country": null
       },
       "tournament": null,
@@ -34504,9 +34622,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": null,
+        "city": null,
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
@@ -34555,9 +34673,9 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "ВТБ АРЕНА",
-        "city": "Москва",
-        "country": "Россия"
+        "arena": "VTB Arena Park",
+        "city": "Moskova",
+        "country": null
       },
       "tournament": "Finale",
       "stage": null,
