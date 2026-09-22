@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-22T00:20:42.220Z",
+  "updated": "2026-09-22T05:27:18.502Z",
   "season": "2026-27",
-  "newGames": 0,
+  "newGames": 2,
   "conflicts": [
     {
       "game": "g_e4ccbb9e8b",
@@ -178,6 +178,14 @@
       "alsoReported": "19:00",
       "from": "league:acb",
       "resolvedBy": "recency"
+    },
+    {
+      "game": "g_a07e6d5b5e",
+      "field": "time",
+      "kept": "19:00",
+      "alsoReported": "20:00",
+      "from": "league:acb",
+      "resolvedBy": "first-seen"
     },
     {
       "game": "g_bd8fe5e3b2",
@@ -4427,7 +4435,7 @@
         "city": "פלקדה",
         "country": "איטליה"
       },
-      "tournament": null,
+      "tournament": "1° - Preseason",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -4462,6 +4470,11 @@
           "name": "sportando_en",
           "url": "https://sportando.basketball/falcade-tutte-le-info-su-reyer-village-e-amichevole-con-cividale/",
           "published": "2026-08-08"
+        },
+        {
+          "name": "league:lba",
+          "url": "https://www.legabasket.it/news/139214/preseason-2026-27",
+          "published": null
         },
         {
           "name": "sportando",
@@ -4526,7 +4539,7 @@
         "t_23e4ce5d",
         "t_aaae2e9f"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-08-29",
@@ -6203,50 +6216,6 @@
       "teams": [
         "t_02ac2d32",
         "t_d5ae9f2d"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-08-29",
-      "dateLabel": "Sábado 29 13:00",
-      "time": "13:00",
-      "homeTeam": "t_25c20d3d",
-      "awayTeam": "t_797c21bb",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Polideportivo El Plantío",
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 0,
-        "away": 0
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_25c20d3d",
-          "url": "https://www.sanpabloburgos.com/es/calendario",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_0056319f91",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_25c20d3d",
-        "t_797c21bb"
       ],
       "confidence": 1
     },
@@ -9473,7 +9442,7 @@
         "city": "Antalya",
         "country": "Turkey"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -9904,7 +9873,7 @@
         "away": 82
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://basket.co.il/news.asp?id=85592",
       "highlightsUrl": null,
       "sources": [
         {
@@ -10437,7 +10406,7 @@
         "city": "ג'סולו",
         "country": "איטליה"
       },
-      "tournament": "Memorial Luca Silvestrin",
+      "tournament": "2° - Preseason",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -10531,7 +10500,7 @@
         "city": "אנטליה",
         "country": "טורקיה"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [
         "מחנה אנטליה"
@@ -11283,7 +11252,7 @@
         "city": "Vannes",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -11587,7 +11556,7 @@
         "city": "Vannes",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -12418,7 +12387,7 @@
         "city": "אנטליה",
         "country": "טורקיה"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [
         "מחנה אנטליה"
@@ -12870,7 +12839,7 @@
         "city": "Antalya",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -12944,7 +12913,7 @@
         "city": "Heraklion",
         "country": "Greece"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": "גמר",
       "flags": [],
       "broadcast": [
@@ -13374,11 +13343,11 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Ekinox",
+        "arena": "Ekinox Arena",
         "city": "Bourg-en-Bresse",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -13511,7 +13480,7 @@
         "city": "Heraklion",
         "country": "Greece"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -13871,7 +13840,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -13915,7 +13884,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -14047,7 +14016,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -14179,7 +14148,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -14840,7 +14809,7 @@
         "city": "Antalya",
         "country": "Turska"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -15230,7 +15199,7 @@
         "city": "אנטליה",
         "country": "טורקיה"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [
         "מחנה אנטליה"
@@ -15418,8 +15387,8 @@
       "date": "2026-09-09",
       "dateLabel": "9 settembre",
       "time": "20:00",
-      "homeTeam": "t_550a84d0",
-      "awayTeam": "t_47dac4e9",
+      "homeTeam": "t_47dac4e9",
+      "awayTeam": "t_550a84d0",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -15432,8 +15401,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 86,
-        "away": 88
+        "home": 88,
+        "away": 86
       },
       "statsUrl": null,
       "reportUrl": null,
@@ -15589,7 +15558,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "Ulm (Germania)",
+        "city": "Ulm",
         "country": "Germania"
       },
       "tournament": null,
@@ -15808,7 +15777,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -16047,7 +16016,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Palais des sports Pierre-de-Coubertin",
+        "arena": null,
         "city": "Montpellier",
         "country": null
       },
@@ -16263,7 +16232,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Lonato del Garda",
+        "arena": null,
         "city": "Lonato del Garda",
         "country": "איטליה"
       },
@@ -16551,7 +16520,7 @@
     {
       "date": "2026-09-10",
       "dateLabel": "10 septiembre",
-      "time": "18:30",
+      "time": "21:00",
       "homeTeam": "t_dfe9dae2",
       "awayTeam": "t_cec2cef8",
       "candidates": [],
@@ -16610,7 +16579,7 @@
         "city": "Antalya",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -17355,7 +17324,7 @@
         "city": "ניקוסיה",
         "country": "קפריסין"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -17818,7 +17787,7 @@
         "city": "Antalya",
         "country": "Turkey"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -17907,7 +17876,7 @@
         "city": "ניקוסיה",
         "country": "קפריסין"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -18160,7 +18129,7 @@
         "city": "Blois",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -18376,7 +18345,7 @@
         "city": "Blois",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -18683,8 +18652,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Coliseum",
-        "city": "Burgos",
+        "arena": "Coliseum Burgos",
+        "city": "Coliseum Burgos",
         "country": null
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -18785,7 +18754,7 @@
         "city": "Londres",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -18991,7 +18960,7 @@
         "city": "Londres",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -19050,7 +19019,7 @@
         "city": "אנטליה",
         "country": "טורקיה"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [
         "מחנה אנטליה"
@@ -19120,12 +19089,17 @@
         "away": 113
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://acb.com/es/liga/noticias/el-real-madrid-arrolla-al-unicaja-y-revalida-el-torneo-costa-del-sol-74-113-145993",
       "highlightsUrl": null,
       "sources": [
         {
           "name": "gigantes.com",
           "url": "https://www.gigantes.com/liga-endesa/pretemporada-equipos-acb-2026-27/"
+        },
+        {
+          "name": "league:acb",
+          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
+          "published": null
         },
         {
           "name": "club:t_5c2ad363",
@@ -19180,7 +19154,7 @@
         "t_29304cb1",
         "t_5c2ad363"
       ],
-      "confidence": 6
+      "confidence": 7
     },
     {
       "date": "2026-09-12",
@@ -19305,8 +19279,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Lonato del Garda",
-        "city": "Lonato",
+        "arena": null,
+        "city": "Lonato del Garda",
         "country": "איטליה"
       },
       "tournament": "4° - Preseason",
@@ -19545,7 +19519,7 @@
         "away": 80
       },
       "statsUrl": "https://presaison.lnb.info/game/gamebox.phtml?lea=fra_pre&year=x2627&code=107",
-      "reportUrl": null,
+      "reportUrl": "https://acb.com/es/liga/noticias/casademont-zaragoza-sufre-una-ajustada-derrota-frente-al-pau-orthez-76-80-145989",
       "highlightsUrl": null,
       "sources": [
         {
@@ -19557,6 +19531,11 @@
           "name": "bebasket",
           "url": "https://www.bebasket.fr/presaison-lnb-2026",
           "published": "2026-08-20T18:00:50+00:00"
+        },
+        {
+          "name": "league:acb",
+          "url": "https://acb.com/es/liga/tabla-pretemporada/tabla-de-pretemporada-2026-27",
+          "published": null
         },
         {
           "name": "league:lnb",
@@ -19590,7 +19569,7 @@
         "t_0f5171f1",
         "t_4e00735a"
       ],
-      "confidence": 3
+      "confidence": 4
     },
     {
       "date": "2026-09-12",
@@ -19671,7 +19650,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": null,
-        "city": "Burgos",
+        "city": "Coliseum Burgos",
         "country": null
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -19721,7 +19700,7 @@
       "venue": {
         "arena": null,
         "city": "Pontevedra",
-        "country": "Spain"
+        "country": "Spagna"
       },
       "tournament": "טורניר EncestaRías",
       "stage": null,
@@ -19777,7 +19756,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -21048,11 +21027,11 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Le Jeu de Paume",
+        "arena": null,
         "city": "Blois",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -21097,7 +21076,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Le Jeu de Paume",
+        "arena": null,
         "city": "Blois",
         "country": null
       },
@@ -21329,7 +21308,7 @@
         "city": "Πάτρα",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -21568,50 +21547,6 @@
     },
     {
       "date": "2026-09-12",
-      "dateLabel": "12.09.2026",
-      "time": null,
-      "homeTeam": "t_021aac64",
-      "awayTeam": "t_ef2290b6",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": null,
-        "city": null,
-        "country": null
-      },
-      "tournament": null,
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 70,
-        "away": 77
-      },
-      "statsUrl": null,
-      "reportUrl": null,
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_ef2290b6",
-          "url": "https://www.chemnitz99.de/saison",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_ee4a6019ca",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_021aac64",
-        "t_ef2290b6"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-12",
       "dateLabel": "12/09/2026",
       "time": null,
       "homeTeam": "t_ab54923a",
@@ -21741,7 +21676,7 @@
         "city": "ניקוסיה",
         "country": "קפריסין"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -22061,7 +21996,7 @@
         "city": "ניקוסיה",
         "country": "קפריסין"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -22544,7 +22479,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -22707,7 +22642,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -23186,7 +23121,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Coliseum Burgos",
-        "city": "Burgos",
+        "city": "Coliseum Burgos",
         "country": "ספרד"
       },
       "tournament": "Trofeo Coliseum Burgos",
@@ -23248,7 +23183,7 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 87,
+        "home": 86,
         "away": 96
       },
       "statsUrl": null,
@@ -23323,7 +23258,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Salle Georges Mention",
+        "arena": null,
         "city": "Sablé-sur-Sarthe",
         "country": null
       },
@@ -23367,7 +23302,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Active Vilnius Arena",
+        "arena": null,
         "city": "Vilnius",
         "country": "Lithuania"
       },
@@ -23470,7 +23405,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Palais des Sports",
+        "arena": null,
         "city": "Luxeuil-les-Bains",
         "country": null
       },
@@ -23526,7 +23461,7 @@
         "home": 104,
         "away": 95
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2022_02_59.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2022_02_59.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=86611",
       "highlightsUrl": null,
       "sources": [
@@ -23560,7 +23495,7 @@
       "venue": {
         "arena": null,
         "city": "Cagliari",
-        "country": "Italy"
+        "country": "Italia"
       },
       "tournament": null,
       "stage": null,
@@ -23575,7 +23510,7 @@
         "home": 77,
         "away": 85
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2023_26_10.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-13%20at%2023_26_10.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=86612",
       "highlightsUrl": null,
       "sources": [
@@ -24100,7 +24035,7 @@
         "home": 70,
         "away": 92
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-14%20at%2020_27_37.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-14%20at%2020_27_37.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=86614",
       "highlightsUrl": null,
       "sources": [
@@ -25832,8 +25767,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "El Plantío",
-        "city": "Burgos",
+        "arena": "Polideportivo El Plantío",
+        "city": "Burgos (El Plantío)",
         "country": null
       },
       "tournament": "Copa Castilla y León (Final)",
@@ -25881,7 +25816,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Palais des Sports",
+        "arena": null,
         "city": "Pau",
         "country": null
       },
@@ -25925,7 +25860,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Sportcampus Lange Munte",
+        "arena": null,
         "city": "Courtrai",
         "country": null
       },
@@ -25986,7 +25921,7 @@
         "home": 79,
         "away": 82
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-16%20at%2023_01_11.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-16%20at%2023_01_11.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=86629",
       "highlightsUrl": null,
       "sources": [
@@ -27055,8 +26990,8 @@
       "date": "2026-09-17",
       "dateLabel": "giovedì 17 settembre",
       "time": "17:00",
-      "homeTeam": "t_cce353da",
-      "awayTeam": "t_18ce03ce",
+      "homeTeam": "t_18ce03ce",
+      "awayTeam": "t_cce353da",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -27069,8 +27004,8 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 91,
-        "away": 87
+        "home": 87,
+        "away": 91
       },
       "statsUrl": null,
       "reportUrl": null,
@@ -29526,8 +29461,8 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Pabellón las Torres",
-        "city": null,
+        "arena": null,
+        "city": "Pabellón las Torres",
         "country": null
       },
       "tournament": "Trofeo Costa Adeje",
@@ -29685,7 +29620,7 @@
         "home": 79,
         "away": 85
       },
-      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%95%D7%9F/WhatsApp%20Image%202026-09-18%20at%2021_39_59.jpeg",
+      "statsUrl": "https://basket.co.il/pics/2026-2027/%D7%9E%D7%A9%D7%97%D7%A7%D7%99%20%D7%90%D7%99%D7%9E%D7%95%D7%9F/WhatsApp%20Image%202026-09-18%20at%2021_39_59.jpeg",
       "reportUrl": "https://basket.co.il/news.asp?id=86643",
       "highlightsUrl": null,
       "sources": [
@@ -30042,8 +29977,8 @@
       "date": "2026-09-19",
       "dateLabel": "19-20.9",
       "time": "19:45",
-      "homeTeam": "t_486860fc",
-      "awayTeam": "t_21cf4132",
+      "homeTeam": "t_21cf4132",
+      "awayTeam": "t_486860fc",
       "candidates": [],
       "opponentTbd": false,
       "venue": {
@@ -30056,16 +29991,21 @@
       "flags": [],
       "broadcast": [],
       "result": {
-        "home": 71,
-        "away": 80
+        "home": 80,
+        "away": 71
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.olimpiamilano.com/event/semifinale-gara-1/",
       "highlightsUrl": null,
       "sources": [
         {
           "name": "realolimpiamilano.com",
           "url": "https://realolimpiamilano.com/2026/07/26/olimpia-milano-raduno-2026-precampionato-amichevoli-date/"
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
+          "published": null
         },
         {
           "name": "sportando_en",
@@ -30145,7 +30085,7 @@
         "t_21cf4132",
         "t_486860fc"
       ],
-      "confidence": 5
+      "confidence": 6
     },
     {
       "date": "2026-09-19",
@@ -30477,50 +30417,6 @@
     },
     {
       "date": "2026-09-19",
-      "dateLabel": "19/09",
-      "time": "19:45",
-      "homeTeam": "t_21cf4132",
-      "awayTeam": "t_03b3581a",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Nova Arena",
-        "city": null,
-        "country": null
-      },
-      "tournament": "Finale",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 80,
-        "away": 71
-      },
-      "statsUrl": "https://www.olimpiamilano.com/event/semifinale-gara-1/",
-      "reportUrl": "https://www.olimpiamilano.com/event/semifinale-gara-1/",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_21cf4132",
-          "url": "http://www.olimpiamilano.com/schedule",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_81cb3872ee",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_21cf4132",
-        "t_03b3581a"
-      ],
-      "confidence": 1
-    },
-    {
-      "date": "2026-09-19",
       "dateLabel": "19 Eylül",
       "time": "17:00",
       "homeTeam": "t_157b4fa8",
@@ -30790,7 +30686,7 @@
       "opponentTbd": false,
       "venue": {
         "arena": "Poissy",
-        "city": "Poissy (Francia)",
+        "city": "Poissy",
         "country": "Francia"
       },
       "tournament": null,
@@ -31618,7 +31514,7 @@
       "candidates": [],
       "opponentTbd": false,
       "venue": {
-        "arena": "Kindarena",
+        "arena": null,
         "city": "Rouen",
         "country": null
       },
@@ -31666,7 +31562,7 @@
         "city": "Άμπου Ντάμπι",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -32002,7 +31898,7 @@
         "city": "Αθήνα",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -32279,7 +32175,7 @@
         "city": "Άμπου Ντάμπι",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -32539,7 +32435,7 @@
         "city": "Tortona",
         "country": "Italy"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -32760,7 +32656,7 @@
         "city": "Athènes",
         "country": "Grèce"
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -32923,12 +32819,17 @@
         "away": 94
       },
       "statsUrl": null,
-      "reportUrl": null,
+      "reportUrl": "https://www.olimpiamilano.com/event/finale-gara-1/",
       "highlightsUrl": null,
       "sources": [
         {
           "name": "club:t_23e4ce5d",
           "url": "http://www.reyer.it/maschile/partite/",
+          "published": null
+        },
+        {
+          "name": "club:t_21cf4132",
+          "url": "http://www.olimpiamilano.com/schedule",
           "published": null
         },
         {
@@ -32983,51 +32884,7 @@
         "t_23e4ce5d",
         "t_21cf4132"
       ],
-      "confidence": 6
-    },
-    {
-      "date": "2026-09-20",
-      "dateLabel": "20/09",
-      "time": "17:00",
-      "homeTeam": "t_21cf4132",
-      "awayTeam": "t_486860fc",
-      "candidates": [],
-      "opponentTbd": false,
-      "venue": {
-        "arena": "Nova Arena",
-        "city": null,
-        "country": null
-      },
-      "tournament": "Finale",
-      "stage": null,
-      "flags": [],
-      "broadcast": [],
-      "result": {
-        "home": 87,
-        "away": 94
-      },
-      "statsUrl": "https://www.olimpiamilano.com/event/finale-gara-1/",
-      "reportUrl": "https://www.olimpiamilano.com/event/finale-gara-1/",
-      "highlightsUrl": null,
-      "sources": [
-        {
-          "name": "club:t_21cf4132",
-          "url": "http://www.olimpiamilano.com/schedule",
-          "published": null
-        }
-      ],
-      "notes": [],
-      "origin": "extracted",
-      "published": null,
-      "id": "g_235363695f",
-      "origins": [
-        "extracted"
-      ],
-      "teams": [
-        "t_21cf4132",
-        "t_486860fc"
-      ],
-      "confidence": 1
+      "confidence": 7
     },
     {
       "date": "2026-09-20",
@@ -33854,7 +33711,7 @@
         "city": "Badalona",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [
@@ -34060,7 +33917,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -34209,7 +34066,7 @@
         "city": "Μπανταλόνα",
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -34663,7 +34520,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -36411,6 +36268,47 @@
     },
     {
       "date": null,
+      "dateLabel": "Sábado 29",
+      "time": "13:00",
+      "homeTeam": "t_25c20d3d",
+      "awayTeam": "t_797c21bb",
+      "candidates": [],
+      "opponentTbd": false,
+      "venue": {
+        "arena": "Polideportivo El Plantío",
+        "city": null,
+        "country": null
+      },
+      "tournament": null,
+      "stage": null,
+      "flags": [],
+      "broadcast": [],
+      "result": null,
+      "statsUrl": null,
+      "reportUrl": null,
+      "highlightsUrl": null,
+      "sources": [
+        {
+          "name": "club:t_25c20d3d",
+          "url": "https://www.sanpabloburgos.com/es/calendario",
+          "published": null
+        }
+      ],
+      "notes": [],
+      "origin": "extracted",
+      "published": null,
+      "id": "g_2f5560ed44",
+      "origins": [
+        "extracted"
+      ],
+      "teams": [
+        "t_25c20d3d",
+        "t_797c21bb"
+      ],
+      "confidence": 1
+    },
+    {
+      "date": null,
       "dateLabel": "il y a quelques jours",
       "time": null,
       "homeTeam": "t_43de8329",
@@ -36914,7 +36812,7 @@
         "city": null,
         "country": null
       },
-      "tournament": "Finale",
+      "tournament": "–Neofytos Chandriotis” Tournament",
       "stage": null,
       "flags": [],
       "broadcast": [],
@@ -36932,7 +36830,7 @@
       "notes": [],
       "origin": "extracted",
       "published": "Tue, 08 Sep 2026 15:57:47 +0000",
-      "id": "g_ae0d894c42",
+      "id": "g_68922df545",
       "origins": [
         "extracted"
       ],
